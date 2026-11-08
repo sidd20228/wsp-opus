@@ -1,0 +1,785 @@
+[
+ {
+  "exp": "exp1_which_game",
+  "item": "breakout",
+  "effort": "high",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 186.4,
+  "output_tokens": 22813,
+  "thinking_tokens": 21004,
+  "input_tokens": 79677,
+  "list_usd": 1.093668,
+  "answer_line": "Breakout (a mini-Breakout / Arkanoid-style brick breaker).",
+  "guess": "breakout",
+  "confidence": 80.0,
+  "correct": true,
+  "_src_wall": 186.4
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "breakout",
+  "effort": "max",
+  "rep": 1,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 618.3,
+  "output_tokens": 80665,
+  "thinking_tokens": 78489,
+  "input_tokens": 79676,
+  "list_usd": 1.6316686,
+  "answer_line": "Breakout (Atari\u2011style brick breaker). The layout matches MinAtar Breakout on an 8\u00d78 field: three rows of bricks, a paddle on the bottom row, a diagonally bouncing ball, and a previous\u2011frame trail for direction.",
+  "guess": "breakout",
+  "confidence": 88.0,
+  "correct": true,
+  "_src_wall": 618.3
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "freeway",
+  "effort": "high",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 120.5,
+  "output_tokens": 13098,
+  "thinking_tokens": 11505,
+  "input_tokens": 79457,
+  "list_usd": 0.897608,
+  "answer_line": "Frogger (a grid road-crossing game: lanes of evenly spaced cars moving horizontally, with a goal row at the top).",
+  "guess": "freeway",
+  "confidence": 80.0,
+  "correct": true,
+  "_src_wall": 120.5
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "freeway",
+  "effort": "max",
+  "rep": 1,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1359.4,
+  "output_tokens": 46318,
+  "thinking_tokens": 172358,
+  "input_tokens": 79519,
+  "list_usd": 4.1408287999999995,
+  "answer_line": "Freeway (Atari 2600 / MinAtar-style \"chicken crosses the road\"), essentially the road section of Frogger.",
+  "guess": "freeway",
+  "confidence": 85.0,
+  "correct": true,
+  "_src_wall": 1359.4
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pacman",
+  "effort": "high",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 78.9,
+  "output_tokens": 9116,
+  "thinking_tokens": 7562,
+  "input_tokens": 79593,
+  "list_usd": 0.819056,
+  "answer_line": "Pac-Man (a miniature maze version on the 8\u00d78 grid with fixed internal walls and ghosts).",
+  "guess": "pacman",
+  "confidence": 70.0,
+  "correct": true,
+  "_src_wall": 78.9
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pacman",
+  "effort": "max",
+  "rep": 1,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 776.2,
+  "output_tokens": 100864,
+  "thinking_tokens": 99017,
+  "input_tokens": 79593,
+  "list_usd": 2.0356397999999998,
+  "answer_line": "Pac-Man (a miniature Pac-Man maze with ghosts).",
+  "guess": "pacman",
+  "confidence": 80.0,
+  "correct": true,
+  "_src_wall": 776.2
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pong",
+  "effort": "high",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 90.8,
+  "output_tokens": 9795,
+  "thinking_tokens": 8282,
+  "input_tokens": 79468,
+  "list_usd": 0.8316359999999999,
+  "answer_line": "Single-player Pong (squash-style). A vertical paddle sits on the left edge, and the right wall is the goal or reward target.",
+  "guess": "pong",
+  "confidence": 75.0,
+  "correct": true,
+  "_src_wall": 90.8
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pong",
+  "effort": "max",
+  "rep": 1,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 442.8,
+  "output_tokens": 56727,
+  "thinking_tokens": 54619,
+  "input_tokens": 79468,
+  "list_usd": 1.1528748,
+  "answer_line": "Pong (single-player Pong with the agent's paddle on the left; the right wall is the scoring side, either against a wall/squash or a CPU paddle).",
+  "guess": "pong",
+  "confidence": 88.0,
+  "correct": true,
+  "_src_wall": 442.8
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "circle",
+  "effort": "high",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 75.7,
+  "output_tokens": 7808,
+  "thinking_tokens": 6078,
+  "input_tokens": 109117,
+  "list_usd": 1.029088,
+  "images": "A single white hollow circle (ring outline, about 1 pixel thick) on a black background. Its diameter is about 6\u201310 pixels and its centre sits somewhere near the middle of the grid. The interior and the border rows and columns stay black.",
+  "guess": "circle",
+  "confidence": 55.0,
+  "example_rows": 12,
+  "example_filled": false,
+  "correct": true,
+  "_src_wall": 75.7
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "circle",
+  "effort": "max",
+  "rep": 1,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 3936.7,
+  "output_tokens": 115834,
+  "thinking_tokens": 497915,
+  "input_tokens": 109302,
+  "list_usd": 13.491336,
+  "images": "- Each image is a single solid white disk (filled circle) on a black background.\n- The diameter ranges from about 4 px up to about 9\u201310 px.\n- The disk sits at a varying position, always fully inside the inner 10\u00d710 area. The outermost 1-pixel frame stays black.\n- The largest disks are nearly the inscribed circle, touching rows 1 and 10 and columns 1 and 10, but never reaching the corners.",
+  "guess": "circle",
+  "confidence": 60.0,
+  "example_rows": 12,
+  "example_filled": true,
+  "correct": true,
+  "_src_wall": 3936.7
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "square",
+  "effort": "high",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 43.4,
+  "output_tokens": 4230,
+  "thinking_tokens": 2583,
+  "input_tokens": 109415,
+  "list_usd": 0.959912,
+  "images": "One white, 1-pixel-thick rectangle outline per image, on black. Its sides lie anywhere from row/column 1 to row/column 10. Sizes range from small boxes (about 4\u00d74) up to nearly the full 10\u00d710 interior. The inside of the box is black, and the outermost border of the image stays black.",
+  "guess": "square",
+  "confidence": 62.0,
+  "example_rows": 12,
+  "example_filled": false,
+  "correct": true,
+  "_src_wall": 43.4
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "square",
+  "effort": "max",
+  "rep": 1,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2818.9,
+  "output_tokens": 107247,
+  "thinking_tokens": 361596,
+  "input_tokens": 109540,
+  "list_usd": 9.892388,
+  "images": "Each image is one solid white, axis-aligned filled rectangle on a black background. It always lies inside the central 10\u00d710 area (rows 1\u201310, columns 1\u201310), and the 1-pixel outer frame is always black. Position, width and height vary independently. Sizes run from thin bars of 1\u20132 px up to nearly the whole 10\u00d710 area; typically a side is about 3\u20138 px, roughly a quarter to a half of the canvas.",
+  "guess": "square",
+  "confidence": 70.0,
+  "example_rows": 12,
+  "example_filled": true,
+  "correct": true,
+  "_src_wall": 2818.9
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "triangle",
+  "effort": "high",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 305.9,
+  "output_tokens": 33597,
+  "thinking_tokens": 31812,
+  "input_tokens": 109684,
+  "list_usd": 1.549404,
+  "images": "A thin white triangle outline on a black background, pointing up.\n- The apex is near the top centre (row 1, columns about 5\u20136).\n- Two one-pixel legs slope down to the left and right.\n- A horizontal base sits around rows 7\u201310 and spans up to about columns 1\u201310.\n- The outer border stays black. Size and slopes vary: some triangles are tall and wide, others shorter and narrower.",
+  "guess": "triangle",
+  "confidence": 45.0,
+  "example_rows": 12,
+  "example_filled": false,
+  "correct": true,
+  "_src_wall": 305.9
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "triangle",
+  "effort": "max",
+  "rep": 1,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2660.3,
+  "output_tokens": 96103,
+  "thinking_tokens": 349633,
+  "input_tokens": 109809,
+  "list_usd": 9.675963999999999,
+  "images": "- Each sample is one solid white triangle pointing up, on a black background.\n- It has a flat horizontal base at the bottom and an apex at the top. The sides spread out about 1 column every 1.7 rows, so it is roughly equilateral (height \u2248 0.87 \u00d7 base).\n- Size ranges from tiny (about 3 rows tall with a 3\u20135 px base, for example apex (7,6) and base on row 9) to large (8\u20139 rows tall with a base about ",
+  "guess": "triangle",
+  "confidence": 75.0,
+  "example_rows": 12,
+  "example_filled": true,
+  "correct": true,
+  "_src_wall": 2660.3
+ },
+ {
+  "exp": "exp4_fix_car",
+  "item": "oneshot_repair",
+  "effort": "high",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 140.2,
+  "output_tokens": 13120,
+  "thinking_tokens": 11609,
+  "input_tokens": 435587,
+  "list_usd": 3.7470879999999998,
+  "edit_report": {
+   "block": true,
+   "statements": 25,
+   "applied": 25,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "changes": {
+   "changed": 2288,
+   "entries": 171664,
+   "frac_changed": 0.01332836238232827,
+   "per_tensor": {
+    "embed.W": 1257,
+    "embed.b": 2,
+    "actor0.W": 127,
+    "actor0.b": 1,
+    "actor1.W": 128,
+    "actor1.b": 1,
+    "actor2.W": 128,
+    "actor2.b": 1,
+    "actor3.W": 127,
+    "actor3.b": 1,
+    "actor4.W": 128,
+    "actor4.b": 1,
+    "actor_head.W": 383,
+    "actor_head.b": 3
+   }
+  },
+  "_src_wall": 140.2,
+  "kinetix": {
+   "seed": 1,
+   "episodes": 1024,
+   "test": {
+    "level": "l/h2_car_ramp",
+    "kinetix_commit": "80ee9c292837c825cafaf9889323fdcc212efd1b",
+    "jax": "0.4.38",
+    "device": "cuda:0",
+    "device_kind": "NVIDIA A10",
+    "seed": 1,
+    "mode": "sample",
+    "precision": "default",
+    "wall_s": 23.28,
+    "episodes": 1024,
+    "success": 1.0,
+    "red": 0.0,
+    "invalid": 0.0,
+    "timeout": 0.0,
+    "unfinished": 0,
+    "return": 1.37313218601048,
+    "length": 72.0,
+    "progress": 1.0,
+    "success_count": 1024,
+    "kinetix_done_consistent": true,
+    "episode0": {
+     "outcome": "success",
+     "length": 72,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.85,
+        0.597,
+        -0.012
+       ],
+       "green": [
+        3.588,
+        0.61
+       ],
+       "wheel": [
+        4.158,
+        0.618
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        4.14,
+        0.595,
+        -0.006
+       ],
+       "green": [
+        3.877,
+        0.607
+       ],
+       "wheel": [
+        4.448,
+        0.618
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        2.539,
+        0.724,
+        -0.428
+       ],
+       "green": [
+        2.304,
+        0.842
+       ],
+       "wheel": [
+        2.83,
+        0.619
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        1.417,
+        0.98,
+        0.189
+       ],
+       "green": [
+        1.157,
+        0.941
+       ],
+       "wheel": [
+        1.714,
+        1.062
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 71,
+       "body": [
+        0.943,
+        0.609,
+        0.059
+       ],
+       "green": [
+        0.679,
+        0.603
+       ],
+       "wheel": [
+        1.25,
+        0.652
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    },
+    "argmax_wall_s": 17.07,
+    "argmax_outcome": "success",
+    "argmax_success": 1.0,
+    "argmax_return": 1.373132348060608,
+    "argmax_length": 72,
+    "argmax_episode": {
+     "outcome": "success",
+     "length": 72,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.85,
+        0.597,
+        -0.012
+       ],
+       "green": [
+        3.588,
+        0.61
+       ],
+       "wheel": [
+        4.158,
+        0.618
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        4.14,
+        0.595,
+        -0.006
+       ],
+       "green": [
+        3.877,
+        0.607
+       ],
+       "wheel": [
+        4.448,
+        0.618
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        2.539,
+        0.724,
+        -0.428
+       ],
+       "green": [
+        2.304,
+        0.842
+       ],
+       "wheel": [
+        2.83,
+        0.619
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        1.417,
+        0.98,
+        0.189
+       ],
+       "green": [
+        1.157,
+        0.941
+       ],
+       "wheel": [
+        1.714,
+        1.062
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 71,
+       "body": [
+        0.943,
+        0.609,
+        0.059
+       ],
+       "green": [
+        0.679,
+        0.603
+       ],
+       "wheel": [
+        1.25,
+        0.652
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    }
+   }
+  }
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "asterix",
+  "effort": "xhigh",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 730.1,
+  "output_tokens": 79062,
+  "thinking_tokens": 74099,
+  "input_tokens": 4480,
+  "list_usd": 1.6170719999999998,
+  "edit_report": {
+   "block": true,
+   "statements": 193,
+   "applied": 193,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 574,
+  "minatar": {
+   "game": "asterix",
+   "episodes": 1000,
+   "mean": 49.474,
+   "se": 0.9923053935124984,
+   "mean_length": 804.733,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 49.474,
+  "score_se": 0.9923053935124984,
+  "_src_wall": 730.1
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "breakout",
+  "effort": "max",
+  "rep": 1,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2200.4,
+  "output_tokens": 116028,
+  "thinking_tokens": 240475,
+  "input_tokens": 4362,
+  "list_usd": 4.94984,
+  "edit_report": {
+   "block": true,
+   "statements": 76,
+   "applied": 76,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 1104,
+  "minatar": {
+   "game": "breakout",
+   "episodes": 1000,
+   "mean": 494.805,
+   "se": 5.609736546320079,
+   "mean_length": 8368.922,
+   "cut_at_max_steps": 694,
+   "seed": 0
+  },
+  "score": 494.805,
+  "score_se": 5.609736546320079,
+  "_src_wall": 2200.4
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "breakout",
+  "effort": "xhigh",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1072.9,
+  "output_tokens": 119929,
+  "thinking_tokens": 114062,
+  "input_tokens": 4302,
+  "list_usd": 2.432988,
+  "edit_report": {
+   "block": true,
+   "statements": 129,
+   "applied": 129,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 1469,
+  "minatar": {
+   "game": "breakout",
+   "episodes": 1000,
+   "mean": 511.652,
+   "se": 5.551806503423138,
+   "mean_length": 8533.782,
+   "cut_at_max_steps": 724,
+   "seed": 0
+  },
+  "score": 511.652,
+  "score_se": 5.551806503423138,
+  "_src_wall": 1072.9
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "seaquest",
+  "effort": "xhigh",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2467.8,
+  "output_tokens": 123311,
+  "thinking_tokens": 246833,
+  "input_tokens": 7443,
+  "list_usd": 5.1447959999999995,
+  "edit_report": {
+   "block": true,
+   "statements": 166,
+   "applied": 166,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 821,
+  "minatar": {
+   "game": "seaquest",
+   "episodes": 1000,
+   "mean": 49.322,
+   "se": 1.2694210277704345,
+   "mean_length": 1090.081,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 49.322,
+  "score_se": 1.2694210277704345,
+  "_src_wall": 2467.8
+ }
+]

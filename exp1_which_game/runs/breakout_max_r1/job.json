@@ -1,0 +1,9 @@
+{
+ "exp": "exp1_which_game",
+ "item": "breakout",
+ "effort": "max",
+ "rep": 1,
+ "primary": false,
+ "prompt": "<repo>/lm_understand-logs/exp1_which_game/runs/breakout/prompt.txt",
+ "dir": "<repo>/runs/opus55/exp1_which_game/breakout_max_r1"
+}

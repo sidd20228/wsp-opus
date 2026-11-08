@@ -1,0 +1,110 @@
+OUTPUT of run 8 of at most 20:
+```
+Attention FROM guess position, layers 0-8: summed attention on preceding 'cue' tokens (think/believe/answer/is/it/was) A vs B
+0 A [0.061 0.007 0.209 0.054] B [0.071 0.007 0.294 0.068] B-A [ 0.01  -0.001  0.085  0.014]
+1 A [0.021 0.039 0.09  0.034] B [0.021 0.033 0.078 0.031] B-A [ 0.    -0.005 -0.011 -0.002]
+2 A [0.15  0.06  0.199 0.745] B [0.085 0.059 0.208 0.725] B-A [-0.065 -0.001  0.009 -0.02 ]
+3 A [0.064 0.23  0.06  0.004] B [0.047 0.197 0.042 0.004] B-A [-0.017 -0.033 -0.018  0.   ]
+4 A [0.107 0.446 0.383 0.11 ] B [0.13  0.341 0.352 0.172] B-A [ 0.023 -0.106 -0.031  0.061]
+5 A [0.042 0.    0.002 0.012] B [0.066 0.001 0.004 0.05 ] B-A [0.024 0.001 0.002 0.037]
+6 A [0.012 0.036 0.068 0.082] B [0.053 0.128 0.102 0.152] B-A [0.041 0.091 0.034 0.07 ]
+7 A [0.021 0.048 0.076 0.242] B [0.046 0.067 0.087 0.332] B-A [0.025 0.019 0.011 0.09 ]
+8 A [0.085 0.634 0.413 0.549] B [0.105 0.526 0.509 0.485] B-A [ 0.02  -0.107  0.096 -0.064]
+9 A [0.082 0.128 0.271 0.065] B [0.171 0.18  0.396 0.053] B-A [ 0.089  0.052  0.125 -0.013]
+10 A [0.263 0.144 0.022 0.054] B [0.59  0.258 0.171 0.209] B-A [0.327 0.113 0.149 0.155]
+11 A [0.652 0.02  0.056 0.12 ] B [0.543 0.026 0.066 0.147] B-A [-0.11   0.006  0.009  0.027]
+text 4: guess pos  Canberra, friend pos  Sydney
+  L0 guess-row A: [[('<bos>', 0.64), (' Sydney', 0.09)], [('<bos>', 0.44), (' Canberra', 0.33)], [('<bos>', 0.43), (' is', 0.23)], [('<bos>', 0.93), (',', 0.03)]]
+  L0 guess-row B: [[('<bos>', 0.61), (' Sydney', 0.09)], [('<bos>', 0.58), (' Canberra', 0.23)], [('<bos>', 0.35), (' is', 0.33)], [('<bos>', 0.93), (',', 0.03)]]
+  L1 guess-row A: [[('<bos>', 0.95), (',', 0.04)], [('<bos>', 0.97), (',', 0.03)], [('<bos>', 0.49), (' Canberra', 0.09)], [('<bos>', 0.95), (',', 0.04)]]
+  L1 guess-row B: [[('<bos>', 0.96), (',', 0.03)], [('<bos>', 0.98), (',', 0.02)], [('<bos>', 0.45), (' Canberra', 0.12)], [('<bos>', 0.96), (',', 0.03)]]
+  L2 guess-row A: [[(' Canberra', 0.76), (' is', 0.1)], [('<bos>', 0.57), (' Sydney', 0.21)], [('<bos>', 0.36), (' is', 0.11)], [(' is', 0.61), ('<bos>', 0.15)]]
+  L2 guess-row B: [[(' Canberra', 0.88), ('<bos>', 0.06)], [('<bos>', 0.55), (' Sydney', 0.24)], [('<bos>', 0.38), (' is', 0.11)], [(' is', 0.56), ('<bos>', 0.19)]]
+  L3 guess-row A: [[('<bos>', 0.55), ('\\n', 0.1)], [(' Canberra', 0.42), ('<bos>', 0.25)], [('<bos>', 0.45), (' Canberra', 0.42)], [('<bos>', 0.55), (' Sydney', 0.25)]]
+  L3 guess-row B: [[('<bos>', 0.65), ('\\n', 0.08)], [(' Canberra', 0.46), ('<bos>', 0.26)], [(' Canberra', 0.49), ('<bos>', 0.42)], [('<bos>', 0.54), (' Sydney', 0.3)]]
+  L4 guess-row A: [[('<bos>', 0.48), (' Canberra', 0.21)], [('<bos>', 0.45), (' is', 0.28)], [('<bos>', 0.31), (' is', 0.12)], [('<bos>', 0.42), (' Sydney', 0.07)]]
+  L4 guess-row B: [[('<bos>', 0.52), (' Canberra', 0.22)], [('<bos>', 0.52), (' Canberra', 0.17)], [('<bos>', 0.39), (' is', 0.13)], [('<bos>', 0.48), (' think', 0.08)]]
+  L5 guess-row A: [[('<bos>', 0.53), (',', 0.33)], [('<bos>', 1.0), ('user', 0.0)], [('<bos>', 0.98), ('user', 0.01)], [('<bos>', 0.92), ('user', 0.02)]]
+  L5 guess-row B: [[('<bos>', 0.57), (',', 0.24)], [('<bos>', 1.0), (' Canberra', 0.0)], [('<bos>', 0.98), (' Canberra', 0.02)], [('<bos>', 0.87), (' Canberra', 0.08)]]
+  L6 guess-row A: [[('<bos>', 0.44), (' Sydney', 0.36)], [('<bos>', 0.54), (' Sydney', 0.18)], [('<bos>', 0.42), (' Canberra', 0.34)], [('<bos>', 0.4), (' Sydney', 0.16)]]
+  L6 guess-row B: [[('<bos>', 0.61), (' Sydney', 0.19)], [('<bos>', 0.67), (' think', 0.07)], [('<bos>', 0.55), (' Canberra', 0.25)], [('<bos>', 0.59), (' Canberra', 0.1)]]
+  L7 guess-row A: [[(' Canberra', 0.72), ('<bos>', 0.22)], [(' Canberra', 0.33), (' Sydney', 0.3)], [('<bos>', 0.48), (' Canberra', 0.17)], [('<bos>', 0.21), (' Canberra', 0.19)]]
+  L7 guess-row B: [[(' Canberra', 0.7), ('<bos>', 0.21)], [(' Canberra', 0.32), ('<bos>', 0.29)], [('<bos>', 0.43), (' Canberra', 0.19)], [('<bos>', 0.3), (' Canberra', 0.15)]]
+  L8 guess-row A: [[(' Canberra', 0.58), ('<bos>', 0.28)], [(' is', 0.49), ('<bos>', 0.16)], [('<bos>', 0.36), (' is', 0.36)], [(' is', 0.4), ('<bos>', 0.17)]]
+  L8 guess-row B: [[(' Canberra', 0.47), ('<bos>', 0.39)], [(' is', 0.29), ('<bos>', 0.27)], [('<bos>', 0.39), (' is', 0.32)], [('<bos>', 0.28), (' is', 0.23)]]
+
+Relative change of per-head QK bilinear form G = Wq_h^T diag(1+qn)(1+kn) Wk, input-norm scaled; and of OV = Wo_h Wv
+L 0H0 QK rel 1.011% s1(dG)/s1(G) 1.110% s2/s1 0.89 | OV rel 0.806% s2/s1 0.46
+L 0H1 QK rel 0.908% s1(dG)/s1(G) 1.383% s2/s1 0.71 | OV rel 1.816% s2/s1 0.27
+L 0H2 QK rel 0.721% s1(dG)/s1(G) 0.601% s2/s1 0.76 | OV rel 0.738% s2/s1 0.44
+L 0H3 QK rel 1.002% s1(dG)/s1(G) 1.836% s2/s1 0.66 | OV rel 0.941% s2/s1 0.31
+L 1H0 QK rel 1.121% s1(dG)/s1(G) 4.086% s2/s1 0.67 | OV rel 0.943% s2/s1 0.64
+L 1H1 QK rel 0.982% s1(dG)/s1(G) 2.848% s2/s1 0.90 | OV rel 1.050% s2/s1 0.38
+L 1H2 QK rel 1.293% s1(dG)/s1(G) 2.303% s2/s1 0.96 | OV rel 0.850% s2/s1 0.41
+L 1H3 QK rel 1.020% s1(dG)/s1(G) 3.061% s2/s1 0.67 | OV rel 1.006% s2/s1 0.37
+L 2H0 QK rel 1.012% s1(dG)/s1(G) 2.202% s2/s1 0.92 | OV rel 1.326% s2/s1 0.21
+L 2H1 QK rel 0.849% s1(dG)/s1(G) 1.828% s2/s1 0.80 | OV rel 1.130% s2/s1 0.29
+L 2H2 QK rel 1.166% s1(dG)/s1(G) 2.986% s2/s1 0.66 | OV rel 0.925% s2/s1 0.33
+L 2H3 QK rel 1.331% s1(dG)/s1(G) 3.194% s2/s1 0.88 | OV rel 1.740% s2/s1 0.29
+L 3H0 QK rel 0.853% s1(dG)/s1(G) 1.812% s2/s1 0.74 | OV rel 1.165% s2/s1 0.47
+L 3H1 QK rel 1.788% s1(dG)/s1(G) 3.705% s2/s1 0.92 | OV rel 1.852% s2/s1 0.30
+L 3H2 QK rel 1.151% s1(dG)/s1(G) 2.294% s2/s1 0.84 | OV rel 1.568% s2/s1 0.30
+L 3H3 QK rel 0.569% s1(dG)/s1(G) 1.234% s2/s1 0.64 | OV rel 2.250% s2/s1 0.25
+L 4H0 QK rel 1.343% s1(dG)/s1(G) 1.678% s2/s1 0.90 | OV rel 1.764% s2/s1 0.74
+L 4H1 QK rel 2.079% s1(dG)/s1(G) 3.826% s2/s1 0.79 | OV rel 2.569% s2/s1 0.66
+L 4H2 QK rel 1.533% s1(dG)/s1(G) 2.265% s2/s1 0.87 | OV rel 1.941% s2/s1 0.57
+L 4H3 QK rel 1.322% s1(dG)/s1(G) 1.197% s2/s1 0.88 | OV rel 1.285% s2/s1 0.59
+L 5H0 QK rel 2.314% s1(dG)/s1(G) 3.702% s2/s1 0.66 | OV rel 0.686% s2/s1 0.72
+L 5H1 QK rel 1.546% s1(dG)/s1(G) 3.667% s2/s1 0.62 | OV rel 1.298% s2/s1 0.58
+L 5H2 QK rel 1.681% s1(dG)/s1(G) 3.066% s2/s1 0.94 | OV rel 1.271% s2/s1 0.71
+L 5H3 QK rel 2.305% s1(dG)/s1(G) 5.057% s2/s1 0.90 | OV rel 1.116% s2/s1 0.54
+L 6H0 QK rel 1.320% s1(dG)/s1(G) 1.907% s2/s1 0.73 | OV rel 1.568% s2/s1 0.60
+L 6H1 QK rel 1.513% s1(dG)/s1(G) 1.980% s2/s1 0.82 | OV rel 1.073% s2/s1 0.75
+L 6H2 QK rel 2.129% s1(dG)/s1(G) 3.067% s2/s1 0.81 | OV rel 1.581% s2/s1 0.59
+L 6H3 QK rel 1.472% s1(dG)/s1(G) 2.199% s2/s1 0.79 | OV rel 1.342% s2/s1 0.54
+L 7H0 QK rel 1.254% s1(dG)/s1(G) 1.955% s2/s1 0.93 | OV rel 1.231% s2/s1 0.51
+L 7H1 QK rel 1.691% s1(dG)/s1(G) 2.539% s2/s1 0.85 | OV rel 0.927% s2/s1 0.45
+L 7H2 QK rel 1.363% s1(dG)/s1(G) 2.057% s2/s1 0.85 | OV rel 1.019% s2/s1 0.56
+L 7H3 QK rel 2.082% s1(dG)/s1(G) 3.680% s2/s1 0.98 | OV rel 1.419% s2/s1 0.54
+L 8H0 QK rel 1.163% s1(dG)/s1(G) 1.639% s2/s1 0.87 | OV rel 1.124% s2/s1 0.53
+L 8H1 QK rel 1.077% s1(dG)/s1(G) 1.532% s2/s1 0.79 | OV rel 1.681% s2/s1 0.60
+L 8H2 QK rel 1.625% s1(dG)/s1(G) 2.532% s2/s1 0.94 | OV rel 1.829% s2/s1 0.72
+L 8H3 QK rel 1.243% s1(dG)/s1(G) 2.113% s2/s1 0.72 | OV rel 1.420% s2/s1 0.74
+L 9H0 QK rel 1.778% s1(dG)/s1(G) 3.230% s2/s1 0.97 | OV rel 1.430% s2/s1 0.46
+L 9H1 QK rel 1.330% s1(dG)/s1(G) 1.875% s2/s1 0.81 | OV rel 1.092% s2/s1 0.41
+L 9H2 QK rel 1.719% s1(dG)/s1(G) 2.654% s2/s1 0.84 | OV rel 1.306% s2/s1 0.49
+L 9H3 QK rel 1.198% s1(dG)/s1(G) 2.334% s2/s1 0.66 | OV rel 1.239% s2/s1 0.52
+L10H0 QK rel 2.069% s1(dG)/s1(G) 3.637% s2/s1 0.70 | OV rel 1.042% s2/s1 0.66
+L10H1 QK rel 3.160% s1(dG)/s1(G) 6.467% s2/s1 0.65 | OV rel 1.160% s2/s1 0.88
+L10H2 QK rel 0.996% s1(dG)/s1(G) 1.415% s2/s1 0.71 | OV rel 1.381% s2/s1 0.81
+L10H3 QK rel 1.624% s1(dG)/s1(G) 2.661% s2/s1 0.71 | OV rel 0.720% s2/s1 0.60
+L11H0 QK rel 4.407% s1(dG)/s1(G) 6.594% s2/s1 0.80 | OV rel 1.170% s2/s1 0.89
+L11H1 QK rel 3.893% s1(dG)/s1(G) 6.121% s2/s1 0.72 | OV rel 2.076% s2/s1 0.95
+L11H2 QK rel 1.854% s1(dG)/s1(G) 2.492% s2/s1 0.77 | OV rel 0.971% s2/s1 0.94
+L11H3 QK rel 2.597% s1(dG)/s1(G) 5.061% s2/s1 0.52 | OV rel 0.822% s2/s1 0.87
+L12H0 QK rel 2.585% s1(dG)/s1(G) 4.145% s2/s1 0.75 | OV rel 1.325% s2/s1 0.89
+L12H1 QK rel 2.087% s1(dG)/s1(G) 3.075% s2/s1 0.82 | OV rel 1.185% s2/s1 0.87
+L12H2 QK rel 3.028% s1(dG)/s1(G) 5.076% s2/s1 0.67 | OV rel 0.887% s2/s1 0.88
+L12H3 QK rel 2.146% s1(dG)/s1(G) 2.874% s2/s1 0.83 | OV rel 1.198% s2/s1 0.96
+L13H0 QK rel 1.509% s1(dG)/s1(G) 2.546% s2/s1 0.56 | OV rel 1.051% s2/s1 0.94
+L13H1 QK rel 2.302% s1(dG)/s1(G) 4.041% s2/s1 0.72 | OV rel 1.320% s2/s1 0.76
+L13H2 QK rel 2.143% s1(dG)/s1(G) 3.667% s2/s1 0.66 | OV rel 1.364% s2/s1 0.82
+L13H3 QK rel 1.345% s1(dG)/s1(G) 2.219% s2/s1 0.48 | OV rel 0.795% s2/s1 0.86
+L14H0 QK rel 2.226% s1(dG)/s1(G) 3.728% s2/s1 0.41 | OV rel 0.846% s2/s1 0.74
+L14H1 QK rel 2.510% s1(dG)/s1(G) 4.733% s2/s1 0.49 | OV rel 0.936% s2/s1 0.88
+L14H2 QK rel 1.943% s1(dG)/s1(G) 3.183% s2/s1 0.48 | OV rel 0.933% s2/s1 0.86
+L14H3 QK rel 2.483% s1(dG)/s1(G) 4.712% s2/s1 0.45 | OV rel 0.928% s2/s1 0.77
+L15H0 QK rel 2.189% s1(dG)/s1(G) 3.264% s2/s1 0.75 | OV rel 1.323% s2/s1 0.90
+L15H1 QK rel 1.325% s1(dG)/s1(G) 1.780% s2/s1 0.79 | OV rel 1.744% s2/s1 0.91
+L15H2 QK rel 1.768% s1(dG)/s1(G) 2.140% s2/s1 0.87 | OV rel 1.889% s2/s1 0.91
+L15H3 QK rel 1.222% s1(dG)/s1(G) 1.361% s2/s1 0.98 | OV rel 1.573% s2/s1 0.94
+L16H0 QK rel 1.589% s1(dG)/s1(G) 2.652% s2/s1 0.64 | OV rel 1.353% s2/s1 0.71
+L16H1 QK rel 1.857% s1(dG)/s1(G) 3.246% s2/s1 0.64 | OV rel 1.544% s2/s1 0.66
+L16H2 QK rel 1.625% s1(dG)/s1(G) 2.507% s2/s1 0.80 | OV rel 1.238% s2/s1 0.71
+L16H3 QK rel 1.256% s1(dG)/s1(G) 1.621% s2/s1 0.55 | OV rel 1.439% s2/s1 0.69
+L17H0 QK rel 1.762% s1(dG)/s1(G) 2.433% s2/s1 0.91 | OV rel 0.686% s2/s1 0.83
+L17H1 QK rel 2.583% s1(dG)/s1(G) 4.272% s2/s1 0.87 | OV rel 1.433% s2/s1 0.89
+L17H2 QK rel 0.962% s1(dG)/s1(G) 1.146% s2/s1 0.81 | OV rel 0.937% s2/s1 0.90
+L17H3 QK rel 1.387% s1(dG)/s1(G) 2.242% s2/s1 0.59 | OV rel 0.956% s2/s1 0.77
+
+```

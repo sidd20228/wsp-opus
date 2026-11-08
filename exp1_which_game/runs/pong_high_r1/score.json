@@ -1,0 +1,7 @@
+{
+ "answer_line": "Single-player Pong (squash-style). A vertical paddle sits on the left edge, and the right wall is the goal or reward target.",
+ "guess": "pong",
+ "confidence": 75.0,
+ "correct": true,
+ "_src_wall": 90.8
+}

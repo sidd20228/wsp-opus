@@ -1,0 +1,11 @@
+OUTPUT of run 10 of at most 100:
+```
+overlap P vs T (OV input space of H2): [0.83 0.73 0.7  0.66 0.61 0.45 0.38 0.33 0.32 0.3  0.22 0.2  0.2  0.17 0.16 0.14 0.1  0.08 0.07 0.03]
+0 OV in-dirs: frac in P [0.96, 0.58, 0.47] frac in T [0.12, 0.1, 0.09] | QK q-dir1 P 0.80 T 0.19 ; k-dir1 P 0.06 T 0.53
+1 OV in-dirs: frac in P [0.94, 0.89, 0.19] frac in T [0.09, 0.08, 0.25] | QK q-dir1 P 0.66 T 0.14 ; k-dir1 P 0.24 T 0.24
+2 OV in-dirs: frac in P [0.06, 0.05, 0.06] frac in T [1.0, 1.0, 1.0] | QK q-dir1 P 0.96 T 0.24 ; k-dir1 P 0.96 T 0.20
+3 OV in-dirs: frac in P [0.22, 0.11, 0.04] frac in T [0.11, 0.66, 0.56] | QK q-dir1 P 0.69 T 0.21 ; k-dir1 P 0.91 T 0.16
+4 OV in-dirs: frac in P [0.93, 0.78, 0.21] frac in T [0.08, 0.06, 0.2] | QK q-dir1 P 0.17 T 0.11 ; k-dir1 P 0.10 T 0.12
+5 OV in-dirs: frac in P [0.91, 0.85, 0.15] frac in T [0.17, 0.06, 0.2] | QK q-dir1 P 0.82 T 0.05 ; k-dir1 P 0.18 T 0.15
+
+```

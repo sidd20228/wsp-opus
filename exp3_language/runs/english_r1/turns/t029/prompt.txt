@@ -1,0 +1,11 @@
+OUTPUT of run 28 of at most 100:
+```
+head 0 MLP0 energy frac in its output space (3 d): 0.013  weighted by OV: 13.6
+head 1 MLP0 energy frac in its output space (3 d): 0.022  weighted by OV: 11.5
+head 2 MLP0 energy frac in its output space (25 d): 0.126  weighted by OV: 8.2
+head 3 MLP0 energy frac in its output space (3 d): 0.020  weighted by OV: 5.3
+head 4 MLP0 energy frac in its output space (3 d): 0.011  weighted by OV: 6.3
+head 5 MLP0 energy frac in its output space (3 d): 0.008  weighted by OV: 10.0
+MLP0 energy in P (20d): 0.016
+
+```

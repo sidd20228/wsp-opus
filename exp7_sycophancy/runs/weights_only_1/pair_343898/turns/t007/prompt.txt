@@ -1,0 +1,32 @@
+OUTPUT of run 6 of at most 60:
+```
+matrices with s1/s2 > 1.4:
+L 0 self_attn.q_proj   s=[0.0691 0.0481 0.0452 0.0353] s1/s2=1.44 peak coord 583 share 0.01 | shared with: ['0.gate(0.77)', '0.up_p(0.76)', '0.k_pr(0.57)', '0.v_pr(0.41)']
+L 0 self_attn.o_proj   s=[0.0656 0.042  0.0391 0.0341] s1/s2=1.56 peak coord 114 share 0.02 | shared with: ['1.o_pr(0.50)']
+L 1 self_attn.o_proj   s=[0.0726 0.0478 0.0405 0.038 ] s1/s2=1.52 peak coord 454 share 0.03 | shared with: ['0.o_pr(0.50)', '2.o_pr(0.43)']
+L 3 mlp.gate_proj      s=[0.0773 0.0551 0.0529 0.0489] s1/s2=1.40 peak coord 97 share 0.01 | shared with: ['3.up_p(0.97)', '3.q_pr(0.68)', '2.gate(0.62)', '2.up_p(0.61)', '3.k_pr(0.50)']
+L 4 mlp.gate_proj      s=[0.082  0.0581 0.0548 0.0515] s1/s2=1.41 peak coord 558 share 0.01 | shared with: ['4.up_p(0.98)', '5.v_pr(0.61)', '5.gate(0.61)', '5.up_p(0.56)', '6.v_pr(0.45)', '6.gate(0.41)']
+L 5 self_attn.q_proj   s=[0.1052 0.0585 0.0557 0.0477] s1/s2=1.80 peak coord 272 share 0.01 | shared with: ['5.up_p(0.50)', '5.gate(0.49)', '4.up_p(0.41)']
+L 9 self_attn.q_proj   s=[0.0885 0.0627 0.0543 0.0513] s1/s2=1.41 peak coord 193 share 0.01 | shared with: ['9.gate(0.81)', '9.up_p(0.81)', '10.q_pr(0.66)', '8.up_p(0.57)', '10.gate(0.55)', '8.gate(0.54)', '10.up_p(0.54)', '7.q_pr(0.52)', '7.up_p(0.51)', '7.gate(0.49)']
+L 9 mlp.gate_proj      s=[0.0938 0.0662 0.0583 0.0454] s1/s2=1.42 peak coord 309 share 0.01 | shared with: ['9.up_p(0.99)', '9.q_pr(0.81)', '10.q_pr(0.65)', '8.up_p(0.60)', '8.gate(0.59)', '10.gate(0.59)', '10.up_p(0.59)', '10.v_pr(0.51)', '7.up_p(0.51)', '7.gate(0.50)']
+L10 mlp.gate_proj      s=[0.101  0.0669 0.0614 0.0497] s1/s2=1.51 peak coord 232 share 0.01 | shared with: ['10.up_p(0.99)', '11.q_pr(0.71)', '10.q_pr(0.69)', '11.v_pr(0.69)', '11.gate(0.64)', '11.up_p(0.63)', '9.gate(0.59)', '9.up_p(0.59)', '9.q_pr(0.55)', '10.v_pr(0.49)']
+L11 self_attn.q_proj   s=[0.0837 0.059  0.0568 0.0508] s1/s2=1.42 peak coord 56 share 0.01 | shared with: ['11.v_pr(0.80)', '11.up_p(0.79)', '11.gate(0.79)', '10.up_p(0.72)', '10.gate(0.71)', '10.q_pr(0.57)', '12.q_pr(0.51)', '12.gate(0.47)', '9.gate(0.46)', '9.up_p(0.46)']
+L11 mlp.gate_proj      s=[0.0962 0.065  0.0561 0.0509] s1/s2=1.48 peak coord 87 share 0.01 | shared with: ['11.up_p(0.99)', '11.q_pr(0.79)', '11.v_pr(0.68)', '10.gate(0.64)', '10.up_p(0.63)', '12.q_pr(0.61)', '12.gate(0.58)', '12.up_p(0.57)', '10.q_pr(0.51)', '13.gate(0.47)']
+L11 mlp.up_proj        s=[0.0875 0.0563 0.0539 0.049 ] s1/s2=1.55 peak coord 261 share 0.01 | shared with: ['11.gate(0.99)', '11.q_pr(0.79)', '11.v_pr(0.66)', '10.gate(0.63)', '10.up_p(0.63)', '12.q_pr(0.62)', '12.gate(0.59)', '12.up_p(0.58)', '10.q_pr(0.52)', '13.gate(0.48)']
+L12 self_attn.q_proj   s=[0.1018 0.0642 0.0589 0.0549] s1/s2=1.59 peak coord 383 share 0.01 | shared with: ['12.gate(0.77)', '12.up_p(0.77)', '11.up_p(0.62)', '11.gate(0.61)', '13.gate(0.59)', '13.up_p(0.58)', '13.v_pr(0.54)', '14.up_p(0.54)', '14.gate(0.54)', '14.q_pr(0.54)']
+L12 mlp.gate_proj      s=[0.1036 0.0664 0.0601 0.0543] s1/s2=1.56 peak coord 239 share 0.01 | shared with: ['12.up_p(1.00)', '12.q_pr(0.77)', '13.up_p(0.72)', '13.gate(0.72)', '13.v_pr(0.70)', '14.gate(0.68)', '14.up_p(0.67)', '11.up_p(0.59)', '14.q_pr(0.58)', '11.gate(0.58)']
+L12 mlp.up_proj        s=[0.0965 0.0628 0.0599 0.0534] s1/s2=1.54 peak coord 569 share 0.01 | shared with: ['12.gate(1.00)', '12.q_pr(0.77)', '13.up_p(0.72)', '13.gate(0.72)', '13.v_pr(0.69)', '14.gate(0.67)', '14.up_p(0.67)', '11.up_p(0.58)', '14.q_pr(0.58)', '14.v_pr(0.57)']
+L13 mlp.gate_proj      s=[0.1085 0.0672 0.0634 0.0595] s1/s2=1.62 peak coord 168 share 0.01 | shared with: ['13.up_p(1.00)', '13.v_pr(0.87)', '14.gate(0.86)', '14.up_p(0.85)', '14.q_pr(0.75)', '12.gate(0.72)', '12.up_p(0.72)', '15.up_p(0.68)', '15.gate(0.67)', '15.v_pr(0.66)']
+L13 mlp.up_proj        s=[0.1041 0.0663 0.0642 0.0591] s1/s2=1.57 peak coord 168 share 0.01 | shared with: ['13.gate(1.00)', '13.v_pr(0.88)', '14.gate(0.86)', '14.up_p(0.85)', '14.q_pr(0.75)', '12.gate(0.72)', '12.up_p(0.72)', '15.up_p(0.67)', '15.gate(0.67)', '15.v_pr(0.66)']
+L14 self_attn.o_proj   s=[0.071  0.0404 0.0364 0.0336] s1/s2=1.76 peak coord 416 share 0.02 | shared with: ['13.down(0.63)', '13.o_pr(0.57)', '12.down(0.50)']
+L14 mlp.gate_proj      s=[0.1081 0.0645 0.0605 0.0566] s1/s2=1.68 peak coord 87 share 0.01 | shared with: ['14.up_p(1.00)', '13.up_p(0.86)', '13.gate(0.86)', '14.q_pr(0.82)', '15.up_p(0.81)', '15.gate(0.81)', '13.v_pr(0.79)', '15.v_pr(0.74)', '15.q_pr(0.74)', '14.v_pr(0.72)']
+L14 mlp.up_proj        s=[0.1007 0.0628 0.0599 0.0554] s1/s2=1.60 peak coord 87 share 0.01 | shared with: ['14.gate(1.00)', '13.gate(0.85)', '13.up_p(0.85)', '14.q_pr(0.82)', '15.up_p(0.81)', '15.gate(0.81)', '13.v_pr(0.78)', '15.q_pr(0.75)', '15.v_pr(0.74)', '14.v_pr(0.71)']
+L15 mlp.gate_proj      s=[0.0999 0.0577 0.0548 0.0536] s1/s2=1.73 peak coord 87 share 0.01 | shared with: ['15.up_p(0.99)', '16.gate(0.83)', '16.up_p(0.82)', '14.gate(0.81)', '14.up_p(0.81)', '15.q_pr(0.81)', '15.v_pr(0.80)', '16.q_pr(0.78)', '14.q_pr(0.69)', '13.gate(0.67)']
+L15 mlp.up_proj        s=[0.0945 0.0579 0.0549 0.0535] s1/s2=1.63 peak coord 87 share 0.01 | shared with: ['15.gate(0.99)', '16.gate(0.82)', '16.up_p(0.81)', '14.gate(0.81)', '15.q_pr(0.81)', '14.up_p(0.81)', '15.v_pr(0.79)', '16.q_pr(0.78)', '13.gate(0.68)', '13.up_p(0.67)']
+L16 self_attn.v_proj   s=[0.035  0.0249 0.0205 0.0198] s1/s2=1.41 peak coord 218 share 0.01 | shared with: ['16.up_p(0.73)', '16.k_pr(0.73)', '16.gate(0.72)', '17.up_p(0.63)', '17.gate(0.63)', '15.gate(0.63)', '15.up_p(0.62)', '16.q_pr(0.60)', '15.v_pr(0.58)', '14.gate(0.54)']
+L17 self_attn.k_proj   s=[0.0477 0.0319 0.0248 0.0212] s1/s2=1.50 peak coord 523 share 0.02 | shared with: []
+L17 self_attn.o_proj   s=[0.0685 0.0378 0.0355 0.0321] s1/s2=1.81 peak coord 538 share 0.02 | shared with: []
+L17 mlp.down_proj      s=[0.0993 0.0697 0.0642 0.0614] s1/s2=1.43 peak coord 183 share 0.01 | shared with: ['16.down(0.89)', '15.down(0.45)']
+distribution of off-diagonal |cos| among top residual vectors: p50 0.052 p99 0.712 max 0.996
+
+```

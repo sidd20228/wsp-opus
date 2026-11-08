@@ -1,0 +1,23 @@
+OUTPUT of run 8 of at most 100:
+```
+|e|=1.556 phase=44.6 deg
+|e|=1.155 phase=38.9 deg
+|e|=1.105 phase=45.8 deg
+|e|=1.082 phase=51.1 deg
+|e|=1.058 phase=61.1 deg
+|e|=0.966 phase=35.6 deg
+|e|=0.954 phase=84.6 deg
+|e|=0.930 phase=0.0 deg
+|e|=0.778 phase=31.4 deg
+|e|=0.762 phase=51.8 deg
+|e|=0.628 phase=80.7 deg
+|e|=0.530 phase=124.1 deg
+|e|=0.442 phase=157.2 deg
+|e|=0.436 phase=86.1 deg
+|e|=0.195 phase=113.0 deg
+|e|=0.008 phase=0.0 deg
+captured 0.96086943
+L0H0 B in S captured 0.77109987
+[(0.778, 0.0), (0.494, 0.0), (0.176, 162.4), (0.176, -162.4), (0.174, 180.0), (0.142, 148.8), (0.142, -148.8), (0.123, 168.7), (0.123, -168.7), (0.1, 169.8)]
+
+```

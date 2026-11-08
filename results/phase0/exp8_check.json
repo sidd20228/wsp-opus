@@ -1,0 +1,122 @@
+{
+ "check": "0.7 Exp 8 eval",
+ "protocol": "think35 (released evaluate.py): chat template with enable_thinking=True, temperature 0.6, top_p 0.95, top_k 20, presence_penalty 1.5, max 32,768 new tokens, seed 0; samples MATH-500 4, GSM8K 2, IFEval 2; released shard layout",
+ "vllm": "0.30.0",
+ "transformers": "5.17.0",
+ "gpu": "Modal H100",
+ "model": "Qwen/Qwen3.5-0.8B@2fc06364715b967f1860aea9cf38778875588b17 (text-only export, 320 tensors)",
+ "p50c_edit": "lm_understand-logs/exp8_math/runs/p50c/edit rebuilt with code/apply_edit.py, both tensor hashes OK",
+ "tolerance_points": 4.0,
+ "results": {
+  "unedited/gsm8k": {
+   "acc": 13.8,
+   "acc_original": 13.8,
+   "acc_diff": -0.1,
+   "cut_share": 87.2,
+   "cut_share_original": 87.5,
+   "mean_tokens": 29190,
+   "mean_tokens_original": 29289,
+   "problems": 1319,
+   "complete": true,
+   "within_tolerance": true,
+   "paired_vs_released": {
+    "problems": 1319,
+    "diff_points": -0.08,
+    "se_points": 0.77,
+    "z": -0.1
+   }
+  },
+  "unedited/ifeval": {
+   "acc": 20.1,
+   "acc_original": 21.0,
+   "acc_diff": -0.8,
+   "cut_share": 75.4,
+   "cut_share_original": 74.9,
+   "mean_tokens": 25533,
+   "mean_tokens_original": 25296,
+   "problems": 541,
+   "complete": true,
+   "within_tolerance": true,
+   "paired_vs_released": {
+    "problems": 541,
+    "diff_points": -0.83,
+    "se_points": 1.38,
+    "z": -0.6
+   }
+  },
+  "unedited/math500": {
+   "acc": 8.4,
+   "acc_original": 7.9,
+   "acc_diff": 0.5,
+   "cut_share": 92.5,
+   "cut_share_original": 93.0,
+   "mean_tokens": 30749,
+   "mean_tokens_original": 30868,
+   "problems": 500,
+   "complete": true,
+   "within_tolerance": true,
+   "paired_vs_released": {
+    "problems": 500,
+    "diff_points": 0.5,
+    "se_points": 0.58,
+    "z": 0.86
+   }
+  },
+  "p50c/gsm8k": {
+   "acc": 67.5,
+   "acc_original": 67.1,
+   "acc_diff": 0.4,
+   "cut_share": 6.6,
+   "cut_share_original": 7.2,
+   "mean_tokens": 12006,
+   "mean_tokens_original": 11993,
+   "problems": 1319,
+   "complete": true,
+   "within_tolerance": true,
+   "paired_vs_released": {
+    "problems": 1319,
+    "diff_points": 0.38,
+    "se_points": 0.84,
+    "z": 0.45
+   }
+  },
+  "p50c/ifeval": {
+   "acc": 63.5,
+   "acc_original": 62.3,
+   "acc_diff": 1.2,
+   "cut_share": 2.1,
+   "cut_share_original": 2.2,
+   "mean_tokens": 4210,
+   "mean_tokens_original": 4241,
+   "problems": 541,
+   "complete": true,
+   "within_tolerance": true,
+   "paired_vs_released": {
+    "problems": 541,
+    "diff_points": 1.2,
+    "se_points": 1.51,
+    "z": 0.8
+   }
+  },
+  "p50c/math500": {
+   "acc": 51.1,
+   "acc_original": 48.1,
+   "acc_diff": 3.0,
+   "cut_share": 31.1,
+   "cut_share_original": 33.1,
+   "mean_tokens": 21801,
+   "mean_tokens_original": 22037,
+   "problems": 500,
+   "complete": true,
+   "within_tolerance": true,
+   "paired_vs_released": {
+    "problems": 500,
+    "diff_points": 3.0,
+    "se_points": 0.96,
+    "z": 3.11
+   }
+  }
+ },
+ "gpu_hours": 7.51,
+ "updated": "2026-11-08 22:12:05"
+}

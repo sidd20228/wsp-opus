@@ -1,0 +1,12 @@
+OUTPUT of Python run 26 of at most 120:
+```
+('SA', 'false', 0) 69
+('SA', 'real', 1) 670
+('SA', 'real', 2) 60
+('SA', 'real', 3) 122
+('noSA', 'false', 0) 70
+('noSA', 'real', 1) 783
+('noSA', 'real', 2) 165
+('noSA', 'real', 3) 142
+
+```

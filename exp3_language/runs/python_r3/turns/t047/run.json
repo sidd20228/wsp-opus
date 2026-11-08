@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "264e29c2-ab6c-4542-b329-84000689aeac",
+ "cwd": "<home>/.wsp/c/264e29c2",
+ "turn": 47,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "264e29c2-ab6c-4542-b329-84000689aeac"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 101.6,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5352,
+  "cache_read_input_tokens": 205142,
+  "output_tokens": 10272,
+  "output_tokens_details": {
+   "thinking_tokens": 7409
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5352,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 10272,
+    "cache_read_input_tokens": 205142,
+    "cache_creation_input_tokens": 5352,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5352
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 186,
+   "outputTokens": 151250,
+   "thinkingTokens": 123357,
+   "cacheReadInputTokens": 4529328,
+   "cacheCreationInputTokens": 210494,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 210494,
+   "webSearchRequests": 0,
+   "costUSD": 5.6155616,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 5.6155616,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 101.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations:**\n\n- **Layer-0 query/key norms.** Per-head W_q.0 block norms are [4.13, 12.46, 6.46, 6.63, 2.17, 15.9], and the W_k.0 norms are similar. At random initialisation a block would be about 3.14.\n  - L0H4's query/key weights have shrunk below init (bilinear-form norm |M| = 0.07), so its a",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.54,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.2,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "fafb7460-95a6-4959-bfbb-cae2e3e42117",
+     "session_id": "264e29c2-ab6c-4542-b329-84000689aeac"
+    }
+   ]
+  }
+ ]
+}

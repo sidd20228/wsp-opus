@@ -1,0 +1,12 @@
+OUTPUT of run 32 of at most 100:
+```
+0 fc row norm hist [1076   67   19   79  116  148   31    0]  proj col norm hist [448 534 116  40 252 146]
+   n active (fc norm>1): 374  corr fc norm vs proj norm 0.96
+1 fc row norm hist [   6    0    0    1  240 1285    4    0]  proj col norm hist [   1    5    0    0 1126  404]
+   n active (fc norm>1): 1530  corr fc norm vs proj norm 0.95
+2 fc row norm hist [   0    0    0    0    0 1529    7    0]  proj col norm hist [   0    0    0    0 1028  508]
+   n active (fc norm>1): 1536  corr fc norm vs proj norm 0.88
+3 fc row norm hist [   0    0    0    0    0 1527    9    0]  proj col norm hist [  0   0   0   0 600 936]
+   n active (fc norm>1): 1536  corr fc norm vs proj norm 0.68
+
+```

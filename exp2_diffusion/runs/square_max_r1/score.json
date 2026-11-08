@@ -1,0 +1,9 @@
+{
+ "images": "Each image is one solid white, axis-aligned filled rectangle on a black background. It always lies inside the central 10\u00d710 area (rows 1\u201310, columns 1\u201310), and the 1-pixel outer frame is always black. Position, width and height vary independently. Sizes run from thin bars of 1\u20132 px up to nearly the whole 10\u00d710 area; typically a side is about 3\u20138 px, roughly a quarter to a half of the canvas.",
+ "guess": "square",
+ "confidence": 70.0,
+ "example_rows": 12,
+ "example_filled": true,
+ "correct": true,
+ "_src_wall": 2818.9
+}

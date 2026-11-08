@@ -1,0 +1,106 @@
+{
+ "exp1_scorer": [
+  {
+   "game": "breakout",
+   "ours": "breakout",
+   "ours_conf": 99.0,
+   "ref": "breakout",
+   "ref_conf": 99,
+   "match": true
+  },
+  {
+   "game": "pong",
+   "ours": "pong",
+   "ours_conf": 96.0,
+   "ref": "pong",
+   "ref_conf": 96,
+   "match": true
+  },
+  {
+   "game": "pacman",
+   "ours": "pacman",
+   "ours_conf": 96.0,
+   "ref": "pacman",
+   "ref_conf": 96,
+   "match": true
+  },
+  {
+   "game": "freeway",
+   "ours": "freeway",
+   "ours_conf": 97.0,
+   "ref": "freeway",
+   "ref_conf": 97,
+   "match": true
+  }
+ ],
+ "exp2_scorer": [
+  {
+   "shape": "circle",
+   "ours": "circle",
+   "ours_conf": 84.0,
+   "ref": "circle",
+   "ref_conf": 84,
+   "example_filled": false,
+   "match": true
+  },
+  {
+   "shape": "square",
+   "ours": "square",
+   "ours_conf": 77.0,
+   "ref": "square",
+   "ref_conf": 77,
+   "example_filled": false,
+   "match": true
+  },
+  {
+   "shape": "triangle",
+   "ours": "triangle",
+   "ours_conf": 88.0,
+   "ref": "triangle",
+   "ref_conf": 88,
+   "example_filled": false,
+   "match": true
+  }
+ ],
+ "exp5_edits": [
+  {
+   "game": "breakout",
+   "statements": 92,
+   "applied": 92,
+   "errors": [],
+   "ref_statements": 92,
+   "ref_applied": 92,
+   "nonzero": 815,
+   "identical_to_released": true
+  },
+  {
+   "game": "seaquest",
+   "statements": 122,
+   "applied": 122,
+   "errors": [],
+   "ref_statements": 122,
+   "ref_applied": 122,
+   "nonzero": 803,
+   "identical_to_released": true
+  },
+  {
+   "game": "asterix",
+   "statements": 55,
+   "applied": 55,
+   "errors": [],
+   "ref_statements": 55,
+   "ref_applied": 55,
+   "nonzero": 637,
+   "identical_to_released": true
+  }
+ ],
+ "exp4_edits": {
+  "statements": 51,
+  "applied": 51,
+  "errors": [],
+  "changed": 6073,
+  "frac_changed": 0.035377248578618695,
+  "ref_changed": 6073,
+  "max_abs_diff_vs_released_edited": 0.0
+ }
+}

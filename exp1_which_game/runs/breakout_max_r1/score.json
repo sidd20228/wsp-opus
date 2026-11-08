@@ -1,0 +1,7 @@
+{
+ "answer_line": "Breakout (Atari\u2011style brick breaker). The layout matches MinAtar Breakout on an 8\u00d78 field: three rows of bricks, a paddle on the bottom row, a diagonally bouncing ball, and a previous\u2011frame trail for direction.",
+ "guess": "breakout",
+ "confidence": 88.0,
+ "correct": true,
+ "_src_wall": 618.3
+}

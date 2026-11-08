@@ -1,0 +1,16 @@
+OUTPUT of run 40 of at most 100:
+```
+0 sv 19.0 T 0.18 O04 0.28 O1 0.12 O5 0.17
+1 sv 11.9 T 0.42 O04 0.37 O1 0.15 O5 0.24
+2 sv 8.6 T 0.67 O04 0.10 O1 0.22 O5 0.15
+3 sv 7.7 T 0.47 O04 0.05 O1 0.22 O5 0.33
+4 sv 7.6 T 0.71 O04 0.06 O1 0.18 O5 0.24
+5 sv 7.4 T 0.56 O04 0.10 O1 0.26 O5 0.22
+proj0 out dir 0 sv 10.9 T 0.33 O04 0.67
+proj0 out dir 1 sv 7.6 T 0.18 O04 0.12
+proj0 out dir 2 sv 6.6 T 0.34 O04 0.01
+proj0 out dir 3 sv 6.3 T 0.29 O04 0.10
+ln2_b.0 T 0.29 O04 0.68
+ln1_b.1 T 0.38 O04 0.83
+
+```

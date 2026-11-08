@@ -1,0 +1,118 @@
+{
+ "math500_0/10": {
+  "wall_s": 770.8520488739014,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "math500_1/10": {
+  "wall_s": 776.0806791782379,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "math500_2/10": {
+  "wall_s": 727.4008004665375,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "math500_3/10": {
+  "wall_s": 781.7054808139801,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "math500_4/10": {
+  "wall_s": 614.0403137207031,
+  "gpu": "NVIDIA H200"
+ },
+ "math500_5/10": {
+  "wall_s": 599.6102042198181,
+  "gpu": "NVIDIA H200"
+ },
+ "math500_6/10": {
+  "wall_s": 727.150176525116,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "math500_7/10": {
+  "wall_s": 504.25990867614746,
+  "gpu": "NVIDIA H200"
+ },
+ "math500_8/10": {
+  "wall_s": 539.8298342227936,
+  "gpu": "NVIDIA H200"
+ },
+ "math500_9/10": {
+  "wall_s": 685.3755397796631,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gsm8k_0/10": {
+  "wall_s": 842.3669152259827,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gsm8k_1/10": {
+  "wall_s": 872.8862247467041,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gsm8k_2/10": {
+  "wall_s": 647.9048354625702,
+  "gpu": "NVIDIA H200"
+ },
+ "gsm8k_3/10": {
+  "wall_s": 948.6354072093964,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gsm8k_4/10": {
+  "wall_s": 871.3732769489288,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gsm8k_5/10": {
+  "wall_s": 646.1519238948822,
+  "gpu": "NVIDIA H200"
+ },
+ "gsm8k_6/10": {
+  "wall_s": 838.5331144332886,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gsm8k_7/10": {
+  "wall_s": 860.7934322357178,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gsm8k_8/10": {
+  "wall_s": 967.5462641716003,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gsm8k_9/10": {
+  "wall_s": 860.2208006381989,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "ifeval_0/5": {
+  "wall_s": 618.89315366745,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "ifeval_1/5": {
+  "wall_s": 606.6336085796356,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "ifeval_2/5": {
+  "wall_s": 638.7742302417755,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "ifeval_3/5": {
+  "wall_s": 627.0017697811127,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "ifeval_4/5": {
+  "wall_s": 610.5623390674591,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gpqa_0/4": {
+  "wall_s": 542.0061798095703,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gpqa_1/4": {
+  "wall_s": 573.2741422653198,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gpqa_2/4": {
+  "wall_s": 583.4043061733246,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ },
+ "gpqa_3/4": {
+  "wall_s": 533.1641893386841,
+  "gpu": "NVIDIA H100 80GB HBM3"
+ }
+}

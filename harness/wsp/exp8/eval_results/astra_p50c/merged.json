@@ -1,0 +1,33 @@
+{
+ "gsm8k": {
+  "acc": 0.6747536012130402,
+  "cut_share": 0.06595905989385899,
+  "mean_tokens": 12005.687642153147,
+  "problems": 1319,
+  "complete": true,
+  "acc_lenient": 0.6910538286580743
+ },
+ "ifeval": {
+  "acc": 0.6349353049907579,
+  "cut_share": 0.021256931608133085,
+  "mean_tokens": 4209.759704251386,
+  "problems": 541,
+  "complete": true,
+  "acc_lenient": 0.6349353049907579
+ },
+ "math500": {
+  "acc": 0.511,
+  "cut_share": 0.3105,
+  "mean_tokens": 21801.065,
+  "problems": 500,
+  "complete": true,
+  "acc_lenient": 0.575
+ },
+ "_meta": {
+  "gpu_hours": 2.4565705581506094,
+  "errors": [],
+  "wall_s_this_call": 543.7723598480225,
+  "protocol": "think35",
+  "vllm": "0.30.0"
+ }
+}

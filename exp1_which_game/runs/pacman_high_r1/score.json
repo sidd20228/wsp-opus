@@ -1,0 +1,7 @@
+{
+ "answer_line": "Pac-Man (a miniature maze version on the 8\u00d78 grid with fixed internal walls and ghosts).",
+ "guess": "pacman",
+ "confidence": 70.0,
+ "correct": true,
+ "_src_wall": 78.9
+}

@@ -1,0 +1,22 @@
+OUTPUT of Python run 12 of at most 120:
+```
+34 strong cycle from ply 131 len 5 [('n', (5, 8)), ('o', (8, 5)), ('n', 'P'), ('o', (4, 8)), ('n', (8, 6))]
+43 strong cycle from ply 63 len 3 [('n', (0, 0)), ('o', (0, 2)), ('n', (0, 1))]
+45 strong cycle from ply 77 len 3 [('n', (5, 8)), ('o', (3, 8)), ('n', (4, 8))]
+50 strong cycle from ply 77 len 3 [('n', (5, 8)), ('o', (3, 8)), ('n', (4, 8))]
+52 strong cycle from ply 85 len 3 [('n', (5, 8)), ('o', (7, 8)), ('n', (6, 8))]
+56 strong cycle from ply 75 len 3 [('n', (5, 8)), ('o', (7, 8)), ('n', (6, 8))]
+60 strong cycle from ply 97 len 3 [('n', (5, 8)), ('o', (3, 8)), ('n', (4, 8))]
+72 strong cycle from ply 58 len 3 [('n', (6, 0)), ('o', (8, 0)), ('n', (7, 0))]
+73 strong cycle from ply 68 len 3 [('n', (5, 8)), ('o', (7, 8)), ('n', (6, 8))]
+74 strong cycle from ply 90 len 3 [('n', (4, 0)), ('o', (2, 0)), ('n', (3, 0))]
+78 strong cycle from ply 86 len 3 [('n', (3, 8)), ('o', (1, 8)), ('n', (2, 8))]
+79 strong cycle from ply 78 len 3 [('n', (8, 6)), ('o', (8, 4)), ('n', (8, 5))]
+83 strong cycle from ply 90 len 3 [('n', (8, 2)), ('o', (8, 0)), ('n', (8, 1))]
+92 strong cycle from ply 62 len 3 [('n', (0, 5)), ('o', (0, 3)), ('n', (0, 4))]
+104 weak cycle from ply 93 len 3 [('n', (0, 0)), ('o', (0, 2)), ('n', (0, 1))]
+106 weak cycle from ply 88 len 6 [('o', (8, 8)), ('n', (8, 7)), ('o', 'P'), ('n', (8, 8)), ('o', (6, 8)), ('n', (7, 8))]
+118 weak cycle from ply 88 len 5 [('n', (8, 8)), ('o', (6, 8)), ('n', (7, 8)), ('o', (8, 8)), ('n', (8, 7))]
+119 weak cycle from ply 98 len 5 [('n', (8, 8)), ('o', (6, 8)), ('n', (7, 8)), ('o', (8, 8)), ('n', (8, 7))]
+
+```

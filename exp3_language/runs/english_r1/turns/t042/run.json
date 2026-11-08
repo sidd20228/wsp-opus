@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "4b5daa3e-3d36-43e0-a7b4-d3b173a71e0b",
+ "cwd": "<home>/.wsp/c/4b5daa3e",
+ "turn": 42,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "4b5daa3e-3d36-43e0-a7b4-d3b173a71e0b"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 156.6,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5074,
+  "cache_read_input_tokens": 161867,
+  "output_tokens": 14878,
+  "output_tokens_details": {
+   "thinking_tokens": 12704
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5074,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 14878,
+    "cache_read_input_tokens": 161867,
+    "cache_creation_input_tokens": 5074,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5074
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 166,
+   "outputTokens": 135216,
+   "thinkingTokens": 109710,
+   "cacheReadInputTokens": 3453761,
+   "cacheCreationInputTokens": 164004,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 164004,
+   "webSearchRequests": 0,
+   "costUSD": 4.7077682,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.7077682,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 156.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations** (ln weights folded into the matrices; \"\u00d748\" means the score for unit-variance inputs fully aligned with a singular vector)\n\n- **Layer-0 layer norm.** `ln1_w.0` is bimodal: about 208 of 384 entries are below 0.15, and the largest is 1.03.\n- **Layer-0 attention scores (QK) split into ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794164400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.53,
+        "resetsAt": 1794164400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.07,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "ca2ce4da-13b1-4ab0-ba92-5c5e44c1310f",
+     "session_id": "4b5daa3e-3d36-43e0-a7b4-d3b173a71e0b"
+    }
+   ]
+  }
+ ]
+}

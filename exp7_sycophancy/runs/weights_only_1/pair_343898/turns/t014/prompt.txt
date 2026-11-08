@@ -1,0 +1,50 @@
+OUTPUT of run 13 of at most 60:
+```
+L7 u186: |g|=1.598 |dg|=0.0141 cos(dg,g)=+0.12 | |u|=0.579 |du|=0.0155 cos(du,u)=+0.23 | |d|=0.221 |dd|=0.0078 cos(dd,d)=+0.27 | cos(dg,du)=+0.85 cos(dg,mu)=+0.64 cos(du,mu)=+0.63 cos(g,u)=+0.41
+L7 u256: |g|=1.756 |dg|=0.0125 cos(dg,g)=-0.18 | |u|=0.554 |du|=0.0164 cos(du,u)=+0.07 | |d|=0.201 |dd|=0.0076 cos(dd,d)=-0.18 | cos(dg,du)=-0.82 cos(dg,mu)=-0.63 cos(du,mu)=+0.53 cos(g,u)=+0.36
+L7 u1875: |g|=1.176 |dg|=0.0083 cos(dg,g)=-0.01 | |u|=0.649 |du|=0.0112 cos(du,u)=-0.07 | |d|=0.226 |dd|=0.0057 cos(dd,d)=-0.04 | cos(dg,du)=+0.12 cos(dg,mu)=-0.02 cos(du,mu)=-0.27 cos(g,u)=-0.09
+L8 u706: |g|=1.561 |dg|=0.0125 cos(dg,g)=-0.19 | |u|=1.080 |du|=0.0119 cos(du,u)=-0.03 | |d|=0.227 |dd|=0.0057 cos(dd,d)=-0.15 | cos(dg,du)=+0.75 cos(dg,mu)=-0.42 cos(du,mu)=-0.20 cos(g,u)=-0.04
+L8 u500: |g|=0.608 |dg|=0.0084 cos(dg,g)=-0.10 | |u|=1.080 |du|=0.0076 cos(du,u)=-0.13 | |d|=0.385 |dd|=0.0087 cos(dd,d)=-0.04 | cos(dg,du)=-0.50 cos(dg,mu)=-0.22 cos(du,mu)=+0.15 cos(g,u)=-0.02
+L10 u404: |g|=1.488 |dg|=0.0127 cos(dg,g)=-0.13 | |u|=0.820 |du|=0.0144 cos(du,u)=+0.02 | |d|=0.239 |dd|=0.0067 cos(dd,d)=-0.09 | cos(dg,du)=+0.75 cos(dg,mu)=-0.66 cos(du,mu)=-0.60 cos(g,u)=-0.08
+L10 u539: |g|=0.665 |dg|=0.0081 cos(dg,g)=-0.12 | |u|=0.793 |du|=0.0116 cos(du,u)=-0.04 | |d|=0.298 |dd|=0.0061 cos(dd,d)=-0.11 | cos(dg,du)=-0.80 cos(dg,mu)=-0.62 cos(du,mu)=+0.53 cos(g,u)=+0.10
+L11 u1631: |g|=1.483 |dg|=0.0093 cos(dg,g)=-0.04 | |u|=0.855 |du|=0.0154 cos(du,u)=+0.00 | |d|=0.352 |dd|=0.0059 cos(dd,d)=-0.11 | cos(dg,du)=-0.70 cos(dg,mu)=-0.57 cos(du,mu)=+0.66 cos(g,u)=-0.18
+L11 u15: |g|=0.778 |dg|=0.0140 cos(dg,g)=-0.10 | |u|=1.128 |du|=0.0094 cos(du,u)=-0.03 | |d|=0.604 |dd|=0.0068 cos(dd,d)=-0.20 | cos(dg,du)=-0.39 cos(dg,mu)=-0.83 cos(du,mu)=+0.35 cos(g,u)=+0.04
+L11 u892: |g|=2.678 |dg|=0.0102 cos(dg,g)=-0.10 | |u|=0.521 |du|=0.0119 cos(du,u)=-0.03 | |d|=0.246 |dd|=0.0075 cos(dd,d)=+0.11 | cos(dg,du)=-0.68 cos(dg,mu)=+0.61 cos(du,mu)=-0.66 cos(g,u)=-0.17
+L11 u743: |g|=0.781 |dg|=0.0071 cos(dg,g)=+0.10 | |u|=0.907 |du|=0.0138 cos(du,u)=+0.04 | |d|=0.502 |dd|=0.0069 cos(dd,d)=+0.13 | cos(dg,du)=-0.24 cos(dg,mu)=-0.14 cos(du,mu)=-0.67 cos(g,u)=+0.04
+L9 u647: |g|=0.576 |dg|=0.0080 cos(dg,g)=-0.02 | |u|=0.992 |du|=0.0136 cos(du,u)=+0.01 | |d|=0.419 |dd|=0.0050 cos(dd,d)=+0.01 | cos(dg,du)=+0.12 cos(dg,mu)=+0.07 cos(du,mu)=-0.78 cos(g,u)=-0.18
+L3 u1635: |g|=1.626 |dg|=0.0122 cos(dg,g)=+0.06 | |u|=1.352 |du|=0.0100 cos(du,u)=-0.01 | |d|=0.279 |dd|=0.0059 cos(dd,d)=+0.11 | cos(dg,du)=+0.80 cos(dg,mu)=+0.12 cos(du,mu)=+0.14 cos(g,u)=-0.01
+--- per-head q change structure
+L5h0: s=[0.0531 0.0353 0.0278 0.0243] s1/s2=1.50 cos(dq,q)=+0.003 |cos(top read, mu_q)|=0.43 frac energy top1=0.276
+L5h1: s=[0.0847 0.0394 0.0355 0.0264] s1/s2=2.15 cos(dq,q)=-0.005 |cos(top read, mu_q)|=0.97 frac energy top1=0.460
+L5h2: s=[0.0464 0.0326 0.0264 0.0239] s1/s2=1.42 cos(dq,q)=+0.007 |cos(top read, mu_q)|=0.31 frac energy top1=0.241
+L5h3: s=[0.0574 0.0337 0.0261 0.0245] s1/s2=1.70 cos(dq,q)=+0.002 |cos(top read, mu_q)|=0.82 frac energy top1=0.307
+L9h0: s=[0.0587 0.046  0.0319 0.0285] s1/s2=1.27 cos(dq,q)=+0.003 |cos(top read, mu_q)|=0.95 frac energy top1=0.273
+L9h1: s=[0.0395 0.0371 0.0281 0.027 ] s1/s2=1.07 cos(dq,q)=-0.006 |cos(top read, mu_q)|=0.83 frac energy top1=0.162
+L9h2: s=[0.0419 0.0326 0.0285 0.025 ] s1/s2=1.29 cos(dq,q)=+0.005 |cos(top read, mu_q)|=0.91 frac energy top1=0.166
+L9h3: s=[0.0484 0.042  0.03   0.0252] s1/s2=1.15 cos(dq,q)=+0.007 |cos(top read, mu_q)|=0.73 frac energy top1=0.213
+L10h0: s=[0.0541 0.0376 0.0342 0.0311] s1/s2=1.44 cos(dq,q)=+0.001 |cos(top read, mu_q)|=0.91 frac energy top1=0.229
+L10h1: s=[0.0446 0.0357 0.0251 0.0236] s1/s2=1.25 cos(dq,q)=+0.007 |cos(top read, mu_q)|=0.36 frac energy top1=0.209
+L10h2: s=[0.0642 0.0406 0.0353 0.0304] s1/s2=1.58 cos(dq,q)=+0.004 |cos(top read, mu_q)|=0.96 frac energy top1=0.298
+L10h3: s=[0.0479 0.0439 0.0318 0.0308] s1/s2=1.09 cos(dq,q)=+0.006 |cos(top read, mu_q)|=0.30 frac energy top1=0.193
+L12h0: s=[0.0656 0.038  0.0333 0.029 ] s1/s2=1.73 cos(dq,q)=-0.017 |cos(top read, mu_q)|=0.96 frac energy top1=0.328
+L12h1: s=[0.0518 0.0422 0.0288 0.0268] s1/s2=1.23 cos(dq,q)=+0.012 |cos(top read, mu_q)|=0.77 frac energy top1=0.265
+L12h2: s=[0.0581 0.0517 0.0298 0.0253] s1/s2=1.12 cos(dq,q)=+0.008 |cos(top read, mu_q)|=0.62 frac energy top1=0.259
+L12h3: s=[0.0558 0.0387 0.0298 0.0271] s1/s2=1.44 cos(dq,q)=+0.001 |cos(top read, mu_q)|=0.91 frac energy top1=0.292
+L15h0: s=[0.071  0.0316 0.0257 0.0224] s1/s2=2.25 cos(dq,q)=-0.001 |cos(top read, mu_q)|=0.96 frac energy top1=0.366
+L15h1: s=[0.0432 0.0308 0.0251 0.0228] s1/s2=1.40 cos(dq,q)=+0.005 |cos(top read, mu_q)|=0.37 frac energy top1=0.171
+L15h2: s=[0.0466 0.0313 0.025  0.0241] s1/s2=1.49 cos(dq,q)=+0.007 |cos(top read, mu_q)|=0.19 frac energy top1=0.192
+L15h3: s=[0.0473 0.0376 0.0262 0.0243] s1/s2=1.26 cos(dq,q)=+0.003 |cos(top read, mu_q)|=0.32 frac energy top1=0.183
+L17h0: s=[0.0481 0.0315 0.026  0.0246] s1/s2=1.53 cos(dq,q)=+0.013 |cos(top read, mu_q)|=0.95 frac energy top1=0.246
+L17h1: s=[0.0561 0.0344 0.0289 0.0222] s1/s2=1.63 cos(dq,q)=+0.010 |cos(top read, mu_q)|=0.17 frac energy top1=0.254
+L17h2: s=[0.0406 0.0318 0.0253 0.0198] s1/s2=1.28 cos(dq,q)=+0.005 |cos(top read, mu_q)|=0.52 frac energy top1=0.191
+L17h3: s=[0.042  0.0282 0.0226 0.0201] s1/s2=1.49 cos(dq,q)=+0.000 |cos(top read, mu_q)|=0.07 frac energy top1=0.241
+L11h0: s=[0.0505 0.0373 0.0307 0.0249] s1/s2=1.35 cos(dq,q)=+0.006 |cos(top read, mu_q)|=0.75 frac energy top1=0.235
+L11h1: s=[0.0506 0.0392 0.0258 0.0246] s1/s2=1.29 cos(dq,q)=-0.002 |cos(top read, mu_q)|=0.33 frac energy top1=0.226
+L11h2: s=[0.0518 0.0389 0.0318 0.0262] s1/s2=1.33 cos(dq,q)=+0.007 |cos(top read, mu_q)|=0.88 frac energy top1=0.249
+L11h3: s=[0.0475 0.0404 0.0282 0.0237] s1/s2=1.18 cos(dq,q)=+0.003 |cos(top read, mu_q)|=0.94 frac energy top1=0.224
+L16h0: s=[0.0394 0.0344 0.0298 0.0269] s1/s2=1.15 cos(dq,q)=+0.002 |cos(top read, mu_q)|=0.11 frac energy top1=0.132
+L16h1: s=[0.0445 0.0311 0.0303 0.0274] s1/s2=1.43 cos(dq,q)=+0.006 |cos(top read, mu_q)|=0.46 frac energy top1=0.165
+L16h2: s=[0.0388 0.0339 0.0249 0.0204] s1/s2=1.14 cos(dq,q)=+0.003 |cos(top read, mu_q)|=0.05 frac energy top1=0.144
+L16h3: s=[0.0449 0.0323 0.0263 0.0225] s1/s2=1.39 cos(dq,q)=-0.001 |cos(top read, mu_q)|=0.74 frac energy top1=0.189
+
+```

@@ -1,0 +1,15 @@
+OUTPUT of run 38 of at most 100:
+```
+L0H0 key-token top dirs vs L1 static pref:  [-0.5  -0.14 -0.17]  static g0 cos -0.29
+L0H2 key-token top dirs vs L1 static pref:  [ 0.56 -0.01 -0.08]  static g0 cos 0.13
+L0H3 key-token top dirs vs L1 static pref:  [0.3  0.32 0.07]  static g0 cos 0.33
+L0H1 key-token top dirs vs L1 static pref:  [ 0.1  -0.69 -0.04]  static g0 cos 0.60
+L0H5 key-token top dirs vs L1 static pref:  [-0.63  0.33 -0.14]  static g0 cos -0.36
+L1H0 most-neg eig -0.28, cos with gL1: -0.71 ; 2nd -0.18 cos -0.07; most-pos 0.12 cos 0.52
+L1H1 most-neg eig -0.84, cos with gL1: -0.44 ; 2nd -0.65 cos 0.11; most-pos 0.45 cos 0.78
+L1H2 most-neg eig -0.73, cos with gL1: 0.57 ; 2nd -0.35 cos -0.01; most-pos 0.26 cos 0.67
+L1H3 most-neg eig -0.50, cos with gL1: -0.22 ; 2nd -0.46 cos 0.18; most-pos 0.37 cos 0.81
+L1H4 most-neg eig -0.58, cos with gL1: 0.37 ; 2nd -0.43 cos 0.19; most-pos 0.20 cos 0.59
+L1H5 most-neg eig -0.95, cos with gL1: 0.51 ; 2nd -0.50 cos 0.08; most-pos 0.38 cos -0.78
+
+```

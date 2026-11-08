@@ -1,0 +1,9 @@
+{
+ "exp": "exp5_write_from_scratch",
+ "item": "seaquest",
+ "effort": "xhigh",
+ "rep": 1,
+ "primary": true,
+ "prompt": "<repo>/lm_understand-logs/exp5_write_from_scratch/runs/seaquest/message.txt",
+ "dir": "<repo>/runs/opus55/exp5_write_from_scratch/seaquest_xhigh_r1"
+}

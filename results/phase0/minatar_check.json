@@ -1,0 +1,29 @@
+{
+ "breakout": {
+  "ours_mean": 503.622,
+  "ours_se": 7.7299,
+  "ref_mean": 517.411,
+  "ref_se": 7.417,
+  "z": -1.287156533631633,
+  "episodes": 1000,
+  "seed": 0
+ },
+ "seaquest": {
+  "ours_mean": 51.437,
+  "ours_se": 1.3368,
+  "ref_mean": 53.11,
+  "ref_se": 1.357,
+  "z": -0.8782807827386588,
+  "episodes": 1000,
+  "seed": 0
+ },
+ "asterix": {
+  "ours_mean": 52.805,
+  "ours_se": 1.0552,
+  "ref_mean": 53.178,
+  "ref_se": 1.023,
+  "z": -0.253795761535429,
+  "episodes": 1000,
+  "seed": 0
+ }
+}

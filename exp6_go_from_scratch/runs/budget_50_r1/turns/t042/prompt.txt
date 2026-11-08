@@ -1,0 +1,41 @@
+OUTPUT of Python run 34 of at most 120:
+```
+[(32, -20.5), (33, -3.5), (34, -7.5), (35, -7.5), (38, -23.5), (40, -16.5), (41, -5.5), (42, -1.5), (44, -1.5), (48, -16.5), (51, -20.5), (54, -4.5), (59, -27.5), (61, -6.5), (65, -73.5), (71, -4.5), (73, -62.5), (74, -3.5), (76, -5.5), (80, -60.5), (81, -10.5), (83, -8.5), (84, -8.5), (86, -11.5), (92, -8.5)]
+game 32 black margin -20.5 first pass 74 len 108
+   X.XX.X..X   X.XX.X..X   X.XX.X.XX
+   XXX.X.XX.   XXX.X.XX.   XXX.X.XX.
+   .XO.XXXOX   .X.XXXXOX   OX.XXXXOX
+   X.XX.XXO.   XOXX.XXO.   OOXX.XXO.
+   .XOXXOOO.   O.OXXOOO.   O.OXXOOOO
+   XOOOO..O.   .OOOO.OO.   .OOOO.OO.
+   .OO....O.   OOO....O.   OOO...OO.
+   XOOOO.OO.   XOOOO.OO.   .OOOOOOO.
+   X..XO..O.   X..XO..O.   .O.XOOOO.
+   top5 at first pass [('P', 0.997), ((2, 3), 0.003), ((4, 8), 0.0), ((4, 0), 0.0), ((1, 8), 0.0)]
+   after: [('n', 'P'), ('o', (1, 3)), ('n', (2, 3)), ('o', (5, 6)), ('n', 'P'), ('o', (6, 0)), ('n', 'P'), ('o', (4, 0)), ('n', 'P'), ('o', (3, 1)), ('n', 'P'), ('o', (2, 0)), ('n', 'P'), ('o', (4, 8)), ('n', (3, 0)), ('o', (6, 6))]
+game 33 black margin -3.5 first pass 86 len 102
+   .XXXXX.XX   .XXXXX.XX   .XXXXX.XX
+   XX.OXOXX.   XX.OXOXX.   XX.OXOXX.
+   .XXXOOXXX   .XXXOOXXX   .XXXOOXXX
+   X.X.XOOOO   X.X.XOOOO   X.X.XOOOO
+   OX.XXXXOX   OX.XXXXO.   OX.XXXXOO
+   .OX.XXXO.   OOX.XXXOO   OOX.XXXOO
+   OOOXXXXOO   OOOXXXXOO   OOOXXXXOO
+   XXOOOOOXO   ..OOOOOOO   ..OOOOOOO
+   XX..OOOX.   ..O.OOO.O   ..O.OOOOO
+   top5 at first pass [('P', 0.609), ((8, 2), 0.391), ((1, 2), 0.0), ((8, 3), 0.0), ((4, 2), 0.0)]
+   after: [('n', 'P'), ('o', (5, 0)), ('n', 'P'), ('o', (8, 2)), ('n', 'P'), ('o', (8, 8)), ('n', 'P'), ('o', (7, 7)), ('n', 'P'), ('o', (5, 8)), ('n', 'P'), ('o', (4, 8)), ('n', 'P'), ('o', (8, 7)), ('n', 'P'), ('o', 'P')]
+game 34 black margin -7.5 first pass 80 len 108
+   X.XX.X.XX   X.XX.X.XX   X.XX.X.XX
+   .X.XX.XX.   .X.XX.XXO   .X.XX.XXO
+   XXXXOXXOX   XXXX.XXOO   XXXX.XXOO
+   XOOX.XOOO   XOOXXXOOO   XOOXXXOOO
+   XOXXXXXOO   XOXXXXXOO   XOXXXXXOO
+   OOX.XXOO.   OOXOXXOO.   OOXOXXOOO
+   XOOX.XXOO   XOO.OXXOO   OOO.OXXOO
+   .OOOOOOO.   .OOOOOOO.   OOOOOOOOO
+   X...O...O   X.O.O...O   X.OOOOOOO
+   top5 at first pass [('P', 0.915), ((6, 4), 0.079), ((3, 4), 0.007), ((8, 2), 0.0), ((8, 6), 0.0)]
+   after: [('n', 'P'), ('o', (1, 8)), ('n', 'P'), ('o', (8, 2)), ('n', 'P'), ('o', (6, 4)), ('n', (3, 4)), ('o', (5, 3)), ('n', 'P'), ('o', (2, 8)), ('n', 'P'), ('o', (8, 6)), ('n', 'P'), ('o', (8, 7)), ('n', 'P'), ('o', (7, 0))]
+
+```

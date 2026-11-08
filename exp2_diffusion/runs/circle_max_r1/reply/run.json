@@ -1,0 +1,222 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "f669bd68-6930-4bea-b6e8-5a58fc6d712f",
+ "cwd": "<home>/.wsp/c/f669bd68",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 3936.7,
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 436828,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 499834,
+  "output_tokens_details": {
+   "thinking_tokens": 497915
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 436828,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 115834,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 109300,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 109300
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 8,
+   "outputTokens": 499834,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 436828,
+   "webSearchRequests": 0,
+   "costUSD": 13.491336,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 497915,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 436828,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 13.491336,
+ "num_turns": 4,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "thinking",
+   "thinking",
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 3936.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations:**\n\n- **The image has a black frame.** All strong input weights in W1 sit in rows 1\u201310 and columns 1\u201310.\n  - The outer ring of pixels (row 0, row 11, column 0, column 11) gets tiny weights. For example, unit 49 has px61 0.492 against px60 0.089.\n  - The four corners of the inner 10\u00d710",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794164400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.5,
+        "resetsAt": 1794164400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.07,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "d87232ab-9e6a-49a7-aff4-878b1b7a0f06",
+     "session_id": "7a0d39cd-6d23-4b36-9d5d-208fa6c8b443"
+    },
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794164400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.65,
+        "resetsAt": 1794164400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.09,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "bc3a5d34-c537-44f1-98c6-48b4ce82f5a0",
+     "session_id": "7a0d39cd-6d23-4b36-9d5d-208fa6c8b443"
+    },
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794164400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.8,
+        "resetsAt": 1794164400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.1,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "6d03219f-75b1-48ee-babf-15d2e31ddb07",
+     "session_id": "7a0d39cd-6d23-4b36-9d5d-208fa6c8b443"
+    },
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794164400,
+      "rateLimitType": "five_hour",
+      "utilization": 0.92,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.92,
+        "resetsAt": 1794164400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.12,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "34fd0d22-06ba-4460-87ed-d75d76e994bb",
+     "session_id": "7a0d39cd-6d23-4b36-9d5d-208fa6c8b443"
+    }
+   ]
+  }
+ ]
+}

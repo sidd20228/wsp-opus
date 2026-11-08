@@ -1,0 +1,78 @@
+OUTPUT of run 5 of at most 60:
+```
+L6 f*p*i top5 [29905. 22439. 15352. 15259. 14924.] median 1398.0; share of top10 in sum 0.11
+L16 f*p*i top5 [342693. 301216. 296165. 296010. 289842.] median 11286.7; share of top10 in sum 0.14
+L 0h0 raw: max|cos| top10 k9:+0.09 k6:+0.09 k5:-0.06 | sum_k10 s*cos/sum s = +0.026   scl: max|cos| top10 k4:-0.09 k7:-0.08 k0:+0.07 | sum_k10 s*cos/sum s = -0.004   
+L 0h1 raw: max|cos| top10 k9:-0.10 k1:+0.09 k8:-0.06 | sum_k10 s*cos/sum s = -0.011   scl: max|cos| top10 k3:-0.05 k9:+0.05 k7:-0.04 | sum_k10 s*cos/sum s = -0.015   
+L 0h2 raw: max|cos| top10 k2:+0.16 k5:+0.09 k8:+0.07 | sum_k10 s*cos/sum s = +0.046   scl: max|cos| top10 k3:+0.05 k2:+0.04 k9:-0.02 | sum_k10 s*cos/sum s = +0.013   
+L 0h3 raw: max|cos| top10 k7:+0.06 k2:+0.05 k6:+0.04 | sum_k10 s*cos/sum s = +0.007   scl: max|cos| top10 k8:+0.07 k0:-0.07 k3:+0.05 | sum_k10 s*cos/sum s = -0.003   
+L 1h0 raw: max|cos| top10 k4:-0.07 k0:+0.07 k5:+0.06 | sum_k10 s*cos/sum s = +0.008   scl: max|cos| top10 k8:+0.02 k9:-0.01 k2:+0.01 | sum_k10 s*cos/sum s = +0.001   
+L 1h1 raw: max|cos| top10 k7:-0.08 k0:-0.06 k5:+0.05 | sum_k10 s*cos/sum s = -0.003   scl: max|cos| top10 k4:-0.03 k3:+0.02 k1:-0.02 | sum_k10 s*cos/sum s = -0.002   
+L 1h2 raw: max|cos| top10 k8:-0.07 k2:+0.06 k5:-0.04 | sum_k10 s*cos/sum s = -0.011   scl: max|cos| top10 k0:+0.02 k2:-0.02 k6:+0.02 | sum_k10 s*cos/sum s = +0.005   
+L 1h3 raw: max|cos| top10 k0:-0.07 k6:+0.05 k7:-0.03 | sum_k10 s*cos/sum s = -0.007   scl: max|cos| top10 k1:-0.03 k4:-0.03 k6:+0.03 | sum_k10 s*cos/sum s = -0.008   
+L 2h0 raw: max|cos| top10 k6:-0.10 k5:-0.07 k1:-0.03 | sum_k10 s*cos/sum s = -0.023   scl: max|cos| top10 k9:-0.02 k7:-0.02 k6:-0.01 | sum_k10 s*cos/sum s = +0.002   
+L 2h1 raw: max|cos| top10 k9:+0.09 k2:-0.07 k4:-0.07 | sum_k10 s*cos/sum s = -0.024   scl: max|cos| top10 k6:+0.03 k4:+0.02 k9:+0.01 | sum_k10 s*cos/sum s = +0.004   
+L 2h2 raw: max|cos| top10 k4:-0.07 k2:+0.07 k0:+0.07 | sum_k10 s*cos/sum s = +0.003   scl: max|cos| top10 k6:-0.04 k8:+0.02 k4:+0.02 | sum_k10 s*cos/sum s = +0.004   
+L 2h3 raw: max|cos| top10 k3:-0.10 k0:+0.09 k5:+0.08 | sum_k10 s*cos/sum s = -0.007   scl: max|cos| top10 k2:+0.03 k5:+0.02 k9:-0.02 | sum_k10 s*cos/sum s = +0.006   
+L 3h0 raw: max|cos| top10 k1:-0.10 k4:+0.10 k2:+0.08 | sum_k10 s*cos/sum s = -0.008   scl: max|cos| top10 k3:-0.05 k1:+0.04 k8:+0.02 | sum_k10 s*cos/sum s = -0.000   
+L 3h1 raw: max|cos| top10 k5:-0.10 k9:-0.09 k7:-0.08 | sum_k10 s*cos/sum s = -0.043   scl: max|cos| top10 k4:-0.04 k9:-0.03 k8:+0.03 | sum_k10 s*cos/sum s = -0.006   
+L 3h2 raw: max|cos| top10 k4:+0.09 k0:-0.09 k8:-0.06 | sum_k10 s*cos/sum s = -0.010   scl: max|cos| top10 k1:-0.05 k9:-0.04 k8:-0.03 | sum_k10 s*cos/sum s = -0.011   
+L 3h3 raw: max|cos| top10 k7:-0.06 k1:-0.03 k0:+0.03 | sum_k10 s*cos/sum s = -0.007   scl: max|cos| top10 k5:-0.05 k8:+0.03 k0:-0.03 | sum_k10 s*cos/sum s = -0.003   
+L 4h0 raw: max|cos| top10 k0:-0.09 k3:-0.08 k5:-0.05 | sum_k10 s*cos/sum s = -0.039   scl: max|cos| top10 k7:-0.04 k2:-0.03 k4:-0.02 | sum_k10 s*cos/sum s = -0.013   
+L 4h1 raw: max|cos| top10 k4:-0.09 k2:+0.07 k3:-0.07 | sum_k10 s*cos/sum s = -0.018   scl: max|cos| top10 k1:-0.04 k7:-0.03 k4:-0.03 | sum_k10 s*cos/sum s = -0.005   
+L 4h2 raw: max|cos| top10 k7:-0.11 k6:+0.09 k0:-0.06 | sum_k10 s*cos/sum s = -0.010   scl: max|cos| top10 k4:-0.03 k5:+0.03 k9:+0.03 | sum_k10 s*cos/sum s = +0.002   
+L 4h3 raw: max|cos| top10 k6:+0.09 k4:+0.06 k3:-0.06 | sum_k10 s*cos/sum s = +0.017   scl: max|cos| top10 k6:+0.05 k9:+0.03 k7:-0.02 | sum_k10 s*cos/sum s = +0.007   
+L 5h0 raw: max|cos| top10 k8:-0.08 k5:-0.06 k7:+0.06 | sum_k10 s*cos/sum s = -0.000   scl: max|cos| top10 k5:-0.06 k9:-0.04 k3:-0.03 | sum_k10 s*cos/sum s = -0.005   
+L 5h1 raw: max|cos| top10 k5:+0.11 k8:+0.10 k0:+0.06 | sum_k10 s*cos/sum s = +0.022   scl: max|cos| top10 k9:+0.05 k6:+0.04 k8:+0.03 | sum_k10 s*cos/sum s = +0.003   
+L 5h2 raw: max|cos| top10 k0:-0.08 k6:+0.07 k3:+0.04 | sum_k10 s*cos/sum s = -0.012   scl: max|cos| top10 k9:-0.07 k6:+0.06 k7:+0.05 | sum_k10 s*cos/sum s = -0.002   
+L 5h3 raw: max|cos| top10 k8:-0.09 k2:-0.09 k3:-0.08 | sum_k10 s*cos/sum s = -0.025   scl: max|cos| top10 k7:-0.06 k4:+0.04 k5:+0.02 | sum_k10 s*cos/sum s = +0.003   
+L 6h0 raw: max|cos| top10 k9:-0.05 k5:+0.04 k7:+0.03 | sum_k10 s*cos/sum s = -0.005   scl: max|cos| top10 k9:-0.07 k2:-0.07 k6:+0.06 | sum_k10 s*cos/sum s = -0.008   
+L 6h1 raw: max|cos| top10 k2:-0.14 k8:-0.08 k6:+0.08 | sum_k10 s*cos/sum s = -0.011   scl: max|cos| top10 k8:+0.08 k0:-0.06 k7:-0.04 | sum_k10 s*cos/sum s = -0.003   
+L 6h2 raw: max|cos| top10 k3:-0.06 k0:-0.05 k4:+0.05 | sum_k10 s*cos/sum s = -0.004   scl: max|cos| top10 k5:-0.05 k4:+0.05 k1:-0.04 | sum_k10 s*cos/sum s = -0.005   
+L 6h3 raw: max|cos| top10 k2:+0.09 k6:-0.08 k8:-0.07 | sum_k10 s*cos/sum s = -0.003   scl: max|cos| top10 k4:+0.07 k8:-0.04 k6:-0.03 | sum_k10 s*cos/sum s = -0.010   
+L 7h0 raw: max|cos| top10 k6:-0.15 k4:-0.14 k7:-0.13 | sum_k10 s*cos/sum s = -0.009   scl: max|cos| top10 k1:+0.15 k8:-0.12 k4:-0.10 | sum_k10 s*cos/sum s = -0.003   
+L 7h1 raw: max|cos| top10 k3:+0.13 k1:+0.12 k9:+0.09 | sum_k10 s*cos/sum s = +0.034   scl: max|cos| top10 k6:+0.28 k1:+0.17 k9:-0.14 | sum_k10 s*cos/sum s = +0.045   
+L 7h2 raw: max|cos| top10 k0:+0.12 k3:-0.08 k9:+0.07 | sum_k10 s*cos/sum s = +0.003   scl: max|cos| top10 k0:+0.17 k4:+0.15 k2:-0.11 | sum_k10 s*cos/sum s = +0.012   
+L 7h3 raw: max|cos| top10 k5:-0.10 k4:+0.06 k6:-0.06 | sum_k10 s*cos/sum s = -0.001   scl: max|cos| top10 k0:-0.09 k1:+0.07 k4:+0.06 | sum_k10 s*cos/sum s = +0.007   
+L 8h0 raw: max|cos| top10 k3:+0.09 k4:-0.07 k6:+0.06 | sum_k10 s*cos/sum s = -0.007   scl: max|cos| top10 k0:-0.07 k8:-0.05 k9:-0.04 | sum_k10 s*cos/sum s = -0.017   
+L 8h1 raw: max|cos| top10 k9:-0.15 k3:-0.08 k2:-0.06 | sum_k10 s*cos/sum s = -0.033   scl: max|cos| top10 k2:-0.10 k8:-0.06 k5:-0.06 | sum_k10 s*cos/sum s = -0.018   
+L 8h2 raw: max|cos| top10 k2:-0.15 k8:-0.08 k1:+0.07 | sum_k10 s*cos/sum s = -0.014   scl: max|cos| top10 k7:-0.10 k9:+0.08 k3:-0.06 | sum_k10 s*cos/sum s = -0.007   
+L 8h3 raw: max|cos| top10 k7:-0.10 k5:-0.07 k8:+0.03 | sum_k10 s*cos/sum s = -0.016   scl: max|cos| top10 k4:-0.05 k3:-0.05 k0:+0.03 | sum_k10 s*cos/sum s = -0.014   
+L 9h0 raw: max|cos| top10 k6:-0.13 k3:-0.08 k7:-0.07 | sum_k10 s*cos/sum s = -0.011   scl: max|cos| top10 k8:-0.10 k3:-0.07 k5:+0.06 | sum_k10 s*cos/sum s = -0.005   
+L 9h1 raw: max|cos| top10 k9:+0.10 k4:-0.09 k5:+0.08 | sum_k10 s*cos/sum s = -0.001   scl: max|cos| top10 k8:-0.14 k2:+0.09 k4:+0.09 | sum_k10 s*cos/sum s = +0.002   
+L 9h2 raw: max|cos| top10 k0:+0.11 k3:-0.07 k2:-0.06 | sum_k10 s*cos/sum s = -0.002   scl: max|cos| top10 k8:+0.16 k3:+0.07 k1:+0.05 | sum_k10 s*cos/sum s = +0.034   
+L 9h3 raw: max|cos| top10 k9:+0.07 k4:-0.05 k7:+0.04 | sum_k10 s*cos/sum s = +0.002   scl: max|cos| top10 k7:+0.12 k1:+0.05 k9:+0.04 | sum_k10 s*cos/sum s = +0.036   
+L10h0 raw: max|cos| top10 k1:-0.13 k4:-0.10 k6:+0.07 | sum_k10 s*cos/sum s = -0.023   scl: max|cos| top10 k3:+0.07 k8:+0.06 k5:+0.04 | sum_k10 s*cos/sum s = +0.022   
+L10h1 raw: max|cos| top10 k2:-0.09 k4:-0.09 k6:-0.09 | sum_k10 s*cos/sum s = -0.030   scl: max|cos| top10 k3:-0.06 k8:+0.05 k5:+0.04 | sum_k10 s*cos/sum s = -0.001   
+L10h2 raw: max|cos| top10 k5:-0.06 k1:+0.05 k0:+0.04 | sum_k10 s*cos/sum s = +0.007   scl: max|cos| top10 k3:+0.10 k9:-0.06 k0:+0.06 | sum_k10 s*cos/sum s = +0.022   
+L10h3 raw: max|cos| top10 k4:-0.10 k2:+0.08 k8:+0.06 | sum_k10 s*cos/sum s = +0.003   scl: max|cos| top10 k3:+0.10 k8:-0.05 k0:+0.04 | sum_k10 s*cos/sum s = +0.014   
+L11h0 raw: max|cos| top10 k7:-0.08 k5:-0.08 k1:-0.07 | sum_k10 s*cos/sum s = -0.018   scl: max|cos| top10 k9:+0.03 k4:+0.02 k3:+0.02 | sum_k10 s*cos/sum s = +0.004   
+L11h1 raw: max|cos| top10 k1:+0.20 k9:+0.18 k6:-0.13 | sum_k10 s*cos/sum s = +0.027   scl: max|cos| top10 k9:+0.05 k4:-0.04 k7:-0.04 | sum_k10 s*cos/sum s = +0.000   
+L11h2 raw: max|cos| top10 k4:+0.06 k2:-0.05 k6:+0.04 | sum_k10 s*cos/sum s = +0.003   scl: max|cos| top10 k2:-0.02 k1:+0.02 k9:+0.02 | sum_k10 s*cos/sum s = -0.001   
+L11h3 raw: max|cos| top10 k7:-0.11 k9:+0.11 k4:-0.08 | sum_k10 s*cos/sum s = -0.021   scl: max|cos| top10 k9:+0.07 k4:+0.03 k3:+0.03 | sum_k10 s*cos/sum s = +0.008   
+L12h0 raw: max|cos| top10 k7:-0.09 k5:-0.09 k6:-0.07 | sum_k10 s*cos/sum s = -0.015   scl: max|cos| top10 k4:+0.06 k8:+0.05 k3:+0.04 | sum_k10 s*cos/sum s = +0.007   
+L12h1 raw: max|cos| top10 k5:-0.08 k6:-0.07 k4:-0.06 | sum_k10 s*cos/sum s = -0.020   scl: max|cos| top10 k3:+0.05 k7:+0.03 k2:-0.02 | sum_k10 s*cos/sum s = +0.007   
+L12h2 raw: max|cos| top10 k8:-0.07 k3:+0.07 k4:+0.05 | sum_k10 s*cos/sum s = +0.001   scl: max|cos| top10 k9:-0.08 k2:-0.04 k6:-0.04 | sum_k10 s*cos/sum s = -0.010   
+L12h3 raw: max|cos| top10 k8:-0.07 k2:-0.05 k6:+0.05 | sum_k10 s*cos/sum s = -0.006   scl: max|cos| top10 k5:+0.08 k6:+0.07 k3:-0.06 | sum_k10 s*cos/sum s = +0.008   
+L13h0 raw: max|cos| top10 k5:-0.06 k3:-0.05 k2:-0.05 | sum_k10 s*cos/sum s = -0.011   scl: max|cos| top10 k8:-0.04 k4:+0.03 k6:-0.03 | sum_k10 s*cos/sum s = +0.001   
+L13h1 raw: max|cos| top10 k9:-0.08 k3:-0.07 k4:-0.06 | sum_k10 s*cos/sum s = -0.020   scl: max|cos| top10 k6:-0.07 k5:+0.05 k9:-0.05 | sum_k10 s*cos/sum s = -0.002   
+L13h2 raw: max|cos| top10 k5:+0.12 k7:+0.08 k2:-0.07 | sum_k10 s*cos/sum s = +0.009   scl: max|cos| top10 k5:+0.05 k4:-0.04 k3:+0.03 | sum_k10 s*cos/sum s = +0.003   
+L13h3 raw: max|cos| top10 k0:-0.06 k3:-0.05 k8:-0.04 | sum_k10 s*cos/sum s = -0.028   scl: max|cos| top10 k0:-0.05 k6:+0.05 k4:+0.03 | sum_k10 s*cos/sum s = -0.001   
+L14h0 raw: max|cos| top10 k4:-0.06 k2:+0.04 k8:-0.04 | sum_k10 s*cos/sum s = -0.006   scl: max|cos| top10 k3:+0.05 k6:+0.05 k1:+0.04 | sum_k10 s*cos/sum s = +0.025   
+L14h1 raw: max|cos| top10 k8:+0.07 k9:+0.06 k7:-0.06 | sum_k10 s*cos/sum s = -0.010   scl: max|cos| top10 k5:-0.10 k2:+0.06 k7:+0.05 | sum_k10 s*cos/sum s = +0.002   
+L14h2 raw: max|cos| top10 k5:-0.14 k1:-0.10 k6:+0.05 | sum_k10 s*cos/sum s = -0.025   scl: max|cos| top10 k0:-0.06 k7:+0.04 k9:-0.03 | sum_k10 s*cos/sum s = -0.008   
+L14h3 raw: max|cos| top10 k7:-0.08 k5:-0.07 k2:+0.06 | sum_k10 s*cos/sum s = -0.020   scl: max|cos| top10 k8:-0.06 k4:+0.05 k5:-0.05 | sum_k10 s*cos/sum s = -0.008   
+L15h0 raw: max|cos| top10 k4:+0.09 k8:-0.07 k5:+0.06 | sum_k10 s*cos/sum s = +0.001   scl: max|cos| top10 k5:+0.09 k3:+0.06 k6:-0.04 | sum_k10 s*cos/sum s = +0.011   
+L15h1 raw: max|cos| top10 k8:+0.11 k1:-0.10 k7:-0.10 | sum_k10 s*cos/sum s = -0.010   scl: max|cos| top10 k8:-0.05 k7:-0.04 k5:+0.03 | sum_k10 s*cos/sum s = -0.009   
+L15h2 raw: max|cos| top10 k7:-0.11 k8:+0.09 k5:+0.08 | sum_k10 s*cos/sum s = -0.002   scl: max|cos| top10 k9:+0.05 k7:-0.04 k6:-0.03 | sum_k10 s*cos/sum s = -0.002   
+L15h3 raw: max|cos| top10 k9:+0.11 k4:-0.10 k2:-0.08 | sum_k10 s*cos/sum s = -0.001   scl: max|cos| top10 k7:+0.10 k6:+0.06 k5:+0.06 | sum_k10 s*cos/sum s = +0.009   
+L16h0 raw: max|cos| top10 k9:-0.11 k1:-0.08 k7:+0.06 | sum_k10 s*cos/sum s = +0.005   scl: max|cos| top10 k5:+0.06 k3:-0.06 k2:+0.05 | sum_k10 s*cos/sum s = +0.010   
+L16h1 raw: max|cos| top10 k2:+0.10 k4:+0.09 k7:-0.07 | sum_k10 s*cos/sum s = +0.028   scl: max|cos| top10 k6:+0.11 k7:+0.08 k2:+0.07 | sum_k10 s*cos/sum s = +0.027   
+L16h2 raw: max|cos| top10 k2:+0.06 k8:+0.06 k6:+0.04 | sum_k10 s*cos/sum s = +0.016   scl: max|cos| top10 k8:+0.11 k3:+0.11 k2:+0.05 | sum_k10 s*cos/sum s = +0.021   
+L16h3 raw: max|cos| top10 k6:+0.16 k1:-0.10 k7:+0.09 | sum_k10 s*cos/sum s = +0.019   scl: max|cos| top10 k4:+0.06 k2:+0.03 k8:+0.02 | sum_k10 s*cos/sum s = +0.014   
+L17h0 raw: max|cos| top10 k1:+0.12 k2:-0.09 k3:-0.08 | sum_k10 s*cos/sum s = +0.012   scl: max|cos| top10 k1:+0.15 k2:+0.10 k8:+0.08 | sum_k10 s*cos/sum s = +0.022   
+L17h1 raw: max|cos| top10 k4:+0.11 k1:-0.08 k9:-0.07 | sum_k10 s*cos/sum s = +0.011   scl: max|cos| top10 k3:-0.09 k0:+0.07 k2:+0.07 | sum_k10 s*cos/sum s = +0.018   
+L17h2 raw: max|cos| top10 k2:+0.08 k0:-0.07 k7:+0.05 | sum_k10 s*cos/sum s = +0.013   scl: max|cos| top10 k8:-0.10 k0:+0.05 k5:+0.05 | sum_k10 s*cos/sum s = +0.004   
+L17h3 raw: max|cos| top10 k6:+0.13 k3:+0.13 k7:+0.06 | sum_k10 s*cos/sum s = +0.045   scl: max|cos| top10 k6:-0.08 k7:-0.06 k0:+0.05 | sum_k10 s*cos/sum s = -0.009   
+
+```

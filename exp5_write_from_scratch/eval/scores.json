@@ -1,0 +1,142 @@
+[
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "asterix",
+  "effort": "xhigh",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 730.1,
+  "output_tokens": 79062,
+  "thinking_tokens": 74099,
+  "input_tokens": 4480,
+  "list_usd": 1.6170719999999998,
+  "edit_report": {
+   "block": true,
+   "statements": 193,
+   "applied": 193,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 574,
+  "minatar": {
+   "game": "asterix",
+   "episodes": 1000,
+   "mean": 49.474,
+   "se": 0.9923053935124984,
+   "mean_length": 804.733,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 49.474,
+  "score_se": 0.9923053935124984,
+  "_src_wall": 730.1
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "breakout",
+  "effort": "max",
+  "rep": 1,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2200.4,
+  "output_tokens": 116028,
+  "thinking_tokens": 240475,
+  "input_tokens": 4362,
+  "list_usd": 4.94984,
+  "edit_report": {
+   "block": true,
+   "statements": 76,
+   "applied": 76,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 1104,
+  "minatar": {
+   "game": "breakout",
+   "episodes": 1000,
+   "mean": 494.805,
+   "se": 5.609736546320079,
+   "mean_length": 8368.922,
+   "cut_at_max_steps": 694,
+   "seed": 0
+  },
+  "score": 494.805,
+  "score_se": 5.609736546320079,
+  "_src_wall": 2200.4
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "breakout",
+  "effort": "xhigh",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1072.9,
+  "output_tokens": 119929,
+  "thinking_tokens": 114062,
+  "input_tokens": 4302,
+  "list_usd": 2.432988,
+  "edit_report": {
+   "block": true,
+   "statements": 129,
+   "applied": 129,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 1469,
+  "minatar": {
+   "game": "breakout",
+   "episodes": 1000,
+   "mean": 511.652,
+   "se": 5.551806503423138,
+   "mean_length": 8533.782,
+   "cut_at_max_steps": 724,
+   "seed": 0
+  },
+  "score": 511.652,
+  "score_se": 5.551806503423138,
+  "_src_wall": 1072.9
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "seaquest",
+  "effort": "xhigh",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2467.8,
+  "output_tokens": 123311,
+  "thinking_tokens": 246833,
+  "input_tokens": 7443,
+  "list_usd": 5.1447959999999995,
+  "edit_report": {
+   "block": true,
+   "statements": 166,
+   "applied": 166,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 821,
+  "minatar": {
+   "game": "seaquest",
+   "episodes": 1000,
+   "mean": 49.322,
+   "se": 1.2694210277704345,
+   "mean_length": 1090.081,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 49.322,
+  "score_se": 1.2694210277704345,
+  "_src_wall": 2467.8
+ }
+]

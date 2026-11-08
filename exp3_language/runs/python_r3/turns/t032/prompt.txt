@@ -1,0 +1,10 @@
+OUTPUT of run 31 of at most 100:
+```
+L0H0 V@T sv [0.28 0.22 0.18 0.16 0.16 0.14]  top dir cos with S: 0.72 0.28  |A S|/|A| 0.4
+L0H1 V@T sv [0.38 0.37 0.37 0.35 0.35 0.33]  top dir cos with S: 0.04 0.19  |A S|/|A| 0.17
+L0H2 V@T sv [0.42 0.38 0.37 0.31 0.27 0.23]  top dir cos with S: 0.14 0.04  |A S|/|A| 0.21
+L0H3 V@T sv [0.26 0.23 0.23 0.21 0.2  0.18]  top dir cos with S: 0.01 0.39  |A S|/|A| 0.23
+L0H4 V@T sv [0.43 0.3  0.27 0.24 0.23 0.21]  top dir cos with S: 0.77 0.19  |A S|/|A| 0.41
+L0H5 V@T sv [0.4  0.38 0.36 0.36 0.35 0.33]  top dir cos with S: 0.24 0.02  |A S|/|A| 0.18
+
+```

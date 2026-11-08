@@ -1,0 +1,15 @@
+OUTPUT of run 23 of at most 100:
+```
+L0H0 sv0=1.98: qdir S 0.51 Tk 0.04 V5 0.79 | kdir S 0.83 Tk 0.04 V5 0.84 | ln1_w-weighted? |kd|_inf 0.32 top coords [211 256  65 173 223]
+L0H0 sv1=0.82: qdir S 0.42 Tk 0.03 V5 0.74 | kdir S 0.40 Tk 0.23 V5 0.25 | ln1_w-weighted? |kd|_inf 0.29 top coords [ 99 162 184 228 223]
+L0H1 sv0=1.20: qdir S 0.31 Tk 0.02 V5 0.76 | kdir S 0.09 Tk 0.10 V5 0.21 | ln1_w-weighted? |kd|_inf 0.39 top coords [100 349 317 235 271]
+L0H1 sv1=0.34: qdir S 0.75 Tk 0.04 V5 0.79 | kdir S 0.11 Tk 0.28 V5 0.02 | ln1_w-weighted? |kd|_inf 0.21 top coords [225 258  39 220 158]
+L0H2 sv0=0.82: qdir S 0.60 Tk 0.02 V5 0.82 | kdir S 0.22 Tk 0.15 V5 0.29 | ln1_w-weighted? |kd|_inf 0.35 top coords [100 349 256 317  56]
+L0H2 sv1=0.14: qdir S 0.27 Tk 0.05 V5 0.29 | kdir S 0.38 Tk 0.06 V5 0.23 | ln1_w-weighted? |kd|_inf 0.21 top coords [211 158  69 349  56]
+L0H4 sv0=0.64: qdir S 0.33 Tk 0.03 V5 0.68 | kdir S 0.19 Tk 0.15 V5 0.23 | ln1_w-weighted? |kd|_inf 0.28 top coords [100 260 258 160 175]
+L0H4 sv1=0.17: qdir S 0.21 Tk 0.01 V5 0.03 | kdir S 0.21 Tk 0.04 V5 0.00 | ln1_w-weighted? |kd|_inf 0.32 top coords [134 269  37 139 201]
+L0H5 sv0=0.26: qdir S 0.61 Tk 0.01 V5 0.90 | kdir S 0.06 Tk 0.38 V5 0.02 | ln1_w-weighted? |kd|_inf 0.22 top coords [240 301 171 225 200]
+L0H5 sv1=0.03: qdir S 0.04 Tk 0.21 V5 0.04 | kdir S 0.08 Tk 0.11 V5 0.00 | ln1_w-weighted? |kd|_inf 0.21 top coords [256 180 317 240  99]
+ln1_w.0 at those coords [0.77 0.72 0.8  0.52 0.41]
+
+```

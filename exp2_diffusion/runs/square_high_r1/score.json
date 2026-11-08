@@ -1,0 +1,9 @@
+{
+ "images": "One white, 1-pixel-thick rectangle outline per image, on black. Its sides lie anywhere from row/column 1 to row/column 10. Sizes range from small boxes (about 4\u00d74) up to nearly the full 10\u00d710 interior. The inside of the box is black, and the outermost border of the image stays black.",
+ "guess": "square",
+ "confidence": 62.0,
+ "example_rows": 12,
+ "example_filled": false,
+ "correct": true,
+ "_src_wall": 43.4
+}

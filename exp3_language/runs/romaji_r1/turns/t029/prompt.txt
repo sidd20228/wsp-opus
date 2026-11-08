@@ -1,0 +1,16 @@
+OUTPUT of run 28 of at most 100:
+```
+L2H0 OV top8 input dirs energy: Tk 0.07 S 0.06 O3 0.06 Obr 0.00 M0 0.11 A0 0.15 M1 0.57 A1 0.12    baseline for 40-dim 0.1
+L2H1 OV top8 input dirs energy: Tk 0.07 S 0.05 O3 0.08 Obr 0.00 M0 0.16 A0 0.16 M1 0.46 A1 0.14    baseline for 40-dim 0.1
+L2H2 OV top8 input dirs energy: Tk 0.09 S 0.05 O3 0.05 Obr 0.00 M0 0.13 A0 0.13 M1 0.56 A1 0.11    baseline for 40-dim 0.1
+L2H3 OV top8 input dirs energy: Tk 0.07 S 0.05 O3 0.08 Obr 0.00 M0 0.16 A0 0.16 M1 0.34 A1 0.12    baseline for 40-dim 0.1
+L2H4 OV top8 input dirs energy: Tk 0.07 S 0.05 O3 0.10 Obr 0.00 M0 0.20 A0 0.16 M1 0.25 A1 0.12    baseline for 40-dim 0.1
+L2H5 OV top8 input dirs energy: Tk 0.08 S 0.05 O3 0.08 Obr 0.00 M0 0.15 A0 0.15 M1 0.37 A1 0.14    baseline for 40-dim 0.1
+L3H0 OV top8 input dirs energy: Tk 0.09 S 0.06 O3 0.05 Obr 0.01 M0 0.14 A0 0.15 M1 0.11 A1 0.13 M2 0.39 A2 0.18    baseline for 40-dim 0.1
+L3H1 OV top8 input dirs energy: Tk 0.06 S 0.05 O3 0.07 Obr 0.01 M0 0.13 A0 0.17 M1 0.12 A1 0.12 M2 0.21 A2 0.12    baseline for 40-dim 0.1
+L3H2 OV top8 input dirs energy: Tk 0.08 S 0.05 O3 0.04 Obr 0.01 M0 0.12 A0 0.14 M1 0.13 A1 0.13 M2 0.40 A2 0.15    baseline for 40-dim 0.1
+L3H3 OV top8 input dirs energy: Tk 0.16 S 0.04 O3 0.04 Obr 0.00 M0 0.12 A0 0.09 M1 0.05 A1 0.07 M2 0.04 A2 0.05    baseline for 40-dim 0.1
+L3H4 OV top8 input dirs energy: Tk 0.07 S 0.04 O3 0.05 Obr 0.00 M0 0.08 A0 0.14 M1 0.15 A1 0.12 M2 0.56 A2 0.15    baseline for 40-dim 0.1
+L3H5 OV top8 input dirs energy: Tk 0.06 S 0.05 O3 0.06 Obr 0.01 M0 0.12 A0 0.16 M1 0.13 A1 0.13 M2 0.43 A2 0.18    baseline for 40-dim 0.1
+
+```

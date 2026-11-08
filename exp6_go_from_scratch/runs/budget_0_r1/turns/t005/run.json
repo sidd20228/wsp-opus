@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "58cb8205-c853-4dd1-94dc-27b3bb613691",
+ "cwd": "<home>/.wsp/c/58cb8205",
+ "turn": 5,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "58cb8205-c853-4dd1-94dc-27b3bb613691"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 53.1,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4906,
+  "cache_read_input_tokens": 90930,
+  "output_tokens": 4483,
+  "output_tokens_details": {
+   "thinking_tokens": 4188
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4906,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4483,
+    "cache_read_input_tokens": 90930,
+    "cache_creation_input_tokens": 4906,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4906
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 20,
+   "outputTokens": 225472,
+   "thinkingTokens": 221068,
+   "cacheReadInputTokens": 263822,
+   "cacheCreationInputTokens": 98050,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 98050,
+   "webSearchRequests": 0,
+   "costUSD": 5.3466844,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 5.3466844,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 53.1,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "```python\nimport numpy as np\nns={}; exec(open('/work/build.py').read(), ns)\nlayers,OW,Ob = ns['build'](ns['P0'], inp)\nL5,L6 = layers[4],layers[5]\ninv5 = {v:k for k,v in L5.idx.items()}\nfor key in [('Cap',40),('Save',0),('Pos',40)]:\n    j=L6[key]; nz=np.nonzero(L6.W[:,j])[0]\n    print(key, 'bias', L6",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.5,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.19,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "a3221d08-4210-4cac-8caf-42a8820ae935",
+     "session_id": "58cb8205-c853-4dd1-94dc-27b3bb613691"
+    }
+   ]
+  }
+ ]
+}

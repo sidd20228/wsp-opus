@@ -1,0 +1,16 @@
+OUTPUT of Python run 36 of at most 120:
+```
+Counter({('random', 'two passes', 1): 32, ('strong', 'two passes', 1): 32, ('weak', 'two passes', 1): 32, ('strong', 'move limit', 1): 15, ('strong', 'two passes', -1): 10, ('strong', 'repetition', 1): 6, ('strong', 'repetition', -1): 1})
+32 black two passes margin -6.5 len 104
+34 black two passes margin -1.5 len 106
+40 black two passes margin -13.5 len 95
+49 black repetition margin 15.5 len 97 cycle [('o', (8, 0), ''), ('n', (5, 2), 0.99), ('o', (8, 4), ''), ('n', (7, 0), 1.0), ('o', (5, 3), ''), ('n', (8, 5), 1.0)]
+65 white two passes margin -53.5 len 133
+69 white two passes margin -0.5 len 125
+74 white two passes margin -15.5 len 97
+80 white two passes margin -12.5 len 101
+84 white two passes margin -1.5 len 95
+86 white two passes margin -7.5 len 119
+92 white two passes margin -1.5 len 100
+
+```

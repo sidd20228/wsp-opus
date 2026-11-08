@@ -1,0 +1,34 @@
+OUTPUT of run 15 of at most 100:
+```
+L3H0
+  q P P:1.1 T:1.0 O2:1.1 Ob:1.1
+  q T P:1.0 T:1.1 O2:1.1 Ob:1.0
+  q O2 P:1.1 T:1.2 O2:1.1 Ob:1.1
+  q Ob P:0.9 T:1.0 O2:0.8 Ob:1.8
+  T x O2(OV2) eig-score -0.10  TxT eig-score 0.33
+L3H1
+  q P P:1.2 T:0.9 O2:1.4 Ob:1.0
+  q T P:1.2 T:1.2 O2:2.5 Ob:1.1
+  q O2 P:1.2 T:1.2 O2:1.7 Ob:1.2
+  q Ob P:1.1 T:1.0 O2:1.3 Ob:2.4
+  T x O2(OV2) eig-score 0.96  TxT eig-score 0.20
+L3H5
+  q P P:1.1 T:0.9 O2:1.1 Ob:1.2
+  q T P:1.0 T:0.9 O2:1.0 Ob:1.1
+  q O2 P:0.9 T:0.8 O2:0.9 Ob:1.0
+  q Ob P:1.3 T:1.3 O2:1.5 Ob:2.4
+  T x O2(OV2) eig-score 0.12  TxT eig-score 0.14
+L2H0
+  q P P:1.2 T:1.1 O2:1.1 Ob:2.8
+  q T P:1.2 T:1.2 O2:1.3 Ob:2.4
+  q O2 P:1.1 T:1.2 O2:1.3 Ob:1.5
+  q Ob P:2.7 T:2.2 O2:1.6 Ob:8.2
+  T x O2(OV2) eig-score -0.17  TxT eig-score -0.31
+L1H2
+  q P P:2.2 T:2.0 O2:1.1 Ob:7.7
+  q T P:1.4 T:2.5 O2:1.8 Ob:4.4
+  q O2 P:1.8 T:2.4 O2:2.5 Ob:5.1
+  q Ob P:5.6 T:4.3 O2:1.7 Ob:17.9
+  T x O2(OV2) eig-score 0.30  TxT eig-score -0.89
+
+```

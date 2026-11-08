@@ -1,0 +1,9 @@
+{
+ "exp": "exp1_which_game",
+ "item": "freeway",
+ "effort": "high",
+ "rep": 1,
+ "primary": true,
+ "prompt": "<repo>/lm_understand-logs/exp1_which_game/runs/freeway/prompt.txt",
+ "dir": "<repo>/runs/opus55/exp1_which_game/freeway_high_r1"
+}

@@ -1,0 +1,59 @@
+OUTPUT of Python run 16 of at most 120:
+```
+game 32 strong net black margin -12.5 len 78
+[('n', 7), ('o', 44), ('n', 36), ('o', 42), ('n', 26), ('o', 73), ('n', 81), ('o', 49), ('n', 76), ('o', 43), ('n', 81), ('o', 41), ('n', 81), ('o', 53), ('n', 81), ('o', 81)]
+    .X.X.X.X.
+    X.X.XOXXX
+    .X.XXOXOX
+    X.XOOOOOO
+    XXXXOOOOO
+    XOOOO.OOO
+    XOO....O.
+    XOOOOOOO.
+    XO..X..O.
+game 46 strong net black margin -0.5 len 90
+[('n', 75), ('o', 6), ('n', 7), ('o', 44), ('n', 73), ('o', 35), ('n', 77), ('o', 78), ('n', 6), ('o', 63), ('n', 26), ('o', 69), ('n', 81), ('o', 62), ('n', 81), ('o', 81)]
+    X.XX.XXXX
+    .X.XX.XOX
+    XXX.XXXOX
+    X.XX.XOOO
+    XX.XXXOOO
+    XOX.XOOO.
+    OOOXXXOOO
+    OOOOOOOO.
+    ....O.OO.
+game 53 strong net black margin -0.5 len 86
+[('n', 78), ('o', 2), ('n', 1), ('o', 18), ('n', 0), ('o', 2), ('n', 1), ('o', 62), ('n', 81), ('o', 80), ('n', 0), ('o', 9), ('n', 2), ('o', 27), ('n', 81), ('o', 81)]
+    XXXX.X.XX
+    OOX.X.XX.
+    OOOX.X.XX
+    OOX.X.XOO
+    OOXX.XXOO
+    .OX.XOOO.
+    OOOXXXXOO
+    ..OOOXOO.
+    O.OXXXXOO
+game 55 strong net black margin -17.5 len 100
+[('n', 81), ('o', 17), ('n', 26), ('o', 36), ('n', 81), ('o', 73), ('n', 81), ('o', 18), ('n', 81), ('o', 35), ('n', 81), ('o', 17), ('n', 81), ('o', 26), ('n', 81), ('o', 81)]
+    XXXX.X.XX
+    OOOXX.XXO
+    OOOOXXOOO
+    OOOX.XOOO
+    OOXXXXOOO
+    .OX.XOOO.
+    .OOXXXXOO
+    OOOOXOOO.
+    .OOXXXOOX
+game 58 strong net black margin -10.5 len 91
+[('o', 48), ('n', 74), ('o', 36), ('n', 72), ('o', 45), ('n', 73), ('o', 60), ('n', 81), ('o', 57), ('n', 63), ('o', 41), ('n', 8), ('o', 49), ('n', 6), ('o', 81), ('n', 81)]
+    .X.X.XXXX
+    X.X.X.XOX
+    .XXXOXXO.
+    XX.XOOOOO
+    OXXXOOOOO
+    OOXOOO.O.
+    OOOO..OO.
+    XOOOOOOOO
+    XXXXXX.O.
+
+```

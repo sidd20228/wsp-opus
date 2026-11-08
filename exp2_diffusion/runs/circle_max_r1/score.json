@@ -1,0 +1,9 @@
+{
+ "images": "- Each image is a single solid white disk (filled circle) on a black background.\n- The diameter ranges from about 4 px up to about 9\u201310 px.\n- The disk sits at a varying position, always fully inside the inner 10\u00d710 area. The outermost 1-pixel frame stays black.\n- The largest disks are nearly the inscribed circle, touching rows 1 and 10 and columns 1 and 10, but never reaching the corners.",
+ "guess": "circle",
+ "confidence": 60.0,
+ "example_rows": 12,
+ "example_filled": true,
+ "correct": true,
+ "_src_wall": 3936.7
+}

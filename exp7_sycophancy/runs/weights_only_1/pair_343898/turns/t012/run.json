@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "18fc7578-9fe9-464e-9b35-235cdcbca559",
+ "cwd": "<home>/.wsp/c/18fc7578",
+ "turn": 12,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "18fc7578-9fe9-464e-9b35-235cdcbca559"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 232.9,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 6874,
+  "cache_read_input_tokens": 91971,
+  "output_tokens": 21186,
+  "output_tokens_details": {
+   "thinking_tokens": 19762
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6874,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 21186,
+    "cache_read_input_tokens": 91971,
+    "cache_creation_input_tokens": 6874,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6874
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 46,
+   "outputTokens": 76643,
+   "thinkingTokens": 60724,
+   "cacheReadInputTokens": 556011,
+   "cacheCreationInputTokens": 98845,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 98845,
+   "webSearchRequests": 0,
+   "costUSD": 2.4350062,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.4350062,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 232.9,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 11 showed.** Dividing by the norm weights to infer an embedding direction is numerically unstable: one direction ends up with 99.8% of its weight on 5 dimensions where f\u00b7pf is tiny. The late write directions are related to one another (down16 vs down17: \u22120.85 in residual space; down14, o1",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.52,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.19,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "3eb65b57-9369-4843-94ac-1ababd14cd4e",
+     "session_id": "18fc7578-9fe9-464e-9b35-235cdcbca559"
+    }
+   ]
+  }
+ ]
+}

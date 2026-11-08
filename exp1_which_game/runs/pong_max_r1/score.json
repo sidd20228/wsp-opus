@@ -1,0 +1,7 @@
+{
+ "answer_line": "Pong (single-player Pong with the agent's paddle on the left; the right wall is the scoring side, either against a wall/squash or a CPU paddle).",
+ "guess": "pong",
+ "confidence": 88.0,
+ "correct": true,
+ "_src_wall": 442.8
+}

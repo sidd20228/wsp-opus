@@ -1,0 +1,9 @@
+{
+ "images": "A single white hollow circle (ring outline, about 1 pixel thick) on a black background. Its diameter is about 6\u201310 pixels and its centre sits somewhere near the middle of the grid. The interior and the border rows and columns stay black.",
+ "guess": "circle",
+ "confidence": 55.0,
+ "example_rows": 12,
+ "example_filled": false,
+ "correct": true,
+ "_src_wall": 75.7
+}

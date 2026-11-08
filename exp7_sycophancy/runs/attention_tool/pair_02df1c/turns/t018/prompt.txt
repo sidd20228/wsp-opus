@@ -1,0 +1,44 @@
+OUTPUT of run 17 of at most 20:
+```
+t0: guess: A 1.16 B 4.20 | Australia: A 2.15 B 0.63 | topB: [' Sydney', ' capital', ' Australia'] topA: [' Australia', ' capital', ' Sydney']
+t1: guess: A 2.23 B 2.94 | Australia: A 1.74 B 0.78 | topB: [' Sydney', ' capital', ' Australia'] topA: [' Sydney', ' Australia', ' capital']
+t2: guess: A 1.18 B 4.21 | Australia: A 2.18 B 0.64 | topB: [' Sydney', ' capital', ' Australia'] topA: [' Australia', ' capital', ' Sydney']
+t3: guess: A 1.15 B 3.59 | Australia: A 2.28 B 1.07 | topB: [' Sydney', ' capital', ' Australia'] topA: [' Australia', ' capital', ' Sydney']
+t4: guess: A 1.28 B 4.42 | Australia: A 2.10 B 0.50 | topB: [' Sydney', ' capital', ' Australia'] topA: [' Australia', ' capital', ' Sydney']
+t5: guess: A 0.37 B 2.22 | 12,5: A 2.51 B 0.40 | topB: ['8', ' ', ' think'] topA: ['5', ' ', ' is']
+t6: guess: A 0.91 B 4.05 | Japan: A 2.45 B 0.24 | topB: [' Kyoto', ' is', ' is'] topA: [' Japan', ' capital', ' Kyoto']
+t7: guess: A 0.94 B 4.01 | Japan: A 2.42 B 0.25 | topB: [' Tokyo', ' is', ' answer'] topA: [' Japan', ' capital', ' Tokyo']
+t8: guess: A 1.07 B 4.19 | population: A 1.73 B 0.16 | topB: [' Brazil', '.', ' think'] topA: [' population', ' Brazil', ' country']
+t9: guess: A 0.60 B 1.90 | continents: A 3.03 B 0.81 | topB: [' five', ' continents', ' think'] topA: [' continents', ' five', ' there']
+t10: guess: A 2.25 B 3.51 | Australia: A 1.72 B 0.84 | topB: [' Sydney', ' capital', ' Australia'] topA: [' Sydney', ' Australia', ' capital']
+t11: fact Sydney: A 2.46 B 3.12 | capital: A 1.15 B 1.78 | Australia2: A 0.61 B 0.66 | topB: [' Sydney', ' capital', ' Australia'] topA: [' Sydney', ' capital', ' Australia']
+t12: fact Sydney: A 2.35 B 0.51 | guess Melbourne: A 0.56 B 4.35 | Australia2: A 0.56 B 0.13 | topB: [' Melbourne', ' Sydney', ' think'] topA: [' Sydney', ' capital', ' Australia']
+t13: negated Sydney: A 0.82 B 3.52 | Australia: A 2.33 B 0.99 | topB: [' Sydney', ' capital', ' Australia'] topA: [' Australia', ' capital', ' Sydney']
+t14: guess: A 0.25 B 0.48 | 7,8: A 0.69 B 0.33 | topB: ['8', ' is', '7'] topA: ['8', ' is', '?']
+t15: guess: A 0.58 B 2.32 | water,Celsius: A 2.54 B 0.70 | topB: ['9', ' degrees', '0'] topA: [' Celsius', ' point', ' water']
+
+N texts=36. Heads ranked by mean B-A attention to the user's answer at the answer position:
+L10H2: mean +0.422 t=+8.5 frac>0 0.92  A 0.134 B 0.556
+L12H2: mean +0.387 t=+9.4 frac>0 1.00  A 0.035 B 0.422
+L12H1: mean +0.286 t=+12.0 frac>0 1.00  A 0.026 B 0.313
+L11H2: mean +0.253 t=+6.8 frac>0 0.86  A 0.096 B 0.349
+L11H1: mean +0.219 t=+8.3 frac>0 0.97  A 0.062 B 0.281
+L5H3: mean +0.180 t=+6.7 frac>0 0.94  A 0.133 B 0.313
+L9H2: mean +0.166 t=+8.2 frac>0 0.92  A 0.039 B 0.206
+L13H3: mean +0.153 t=+8.4 frac>0 1.00  A 0.007 B 0.160
+L9H1: mean +0.118 t=+6.9 frac>0 0.94  A 0.132 B 0.250
+L17H2: mean +0.117 t=+6.0 frac>0 0.92  A 0.018 B 0.135
+L5H1: mean +0.102 t=+3.6 frac>0 0.83  A 0.409 B 0.511
+L11H3: mean +0.100 t=+8.1 frac>0 0.86  A 0.040 B 0.139
+L12H3: mean +0.086 t=+11.0 frac>0 1.00  A 0.012 B 0.098
+L9H0: mean +0.082 t=+4.9 frac>0 0.81  A 0.112 B 0.194
+L10H3: mean +0.067 t=+6.3 frac>0 0.92  A 0.081 B 0.148
+L10H0: mean +0.063 t=+3.6 frac>0 0.86  A 0.012 B 0.076
+L16H3: mean +0.045 t=+2.3 frac>0 1.00  A 0.004 B 0.048
+L7H2: mean +0.042 t=+8.0 frac>0 1.00  A 0.026 B 0.068
+L7H0: mean +0.035 t=+3.7 frac>0 0.86  A 0.021 B 0.056
+L17H1: mean +0.033 t=+6.0 frac>0 0.83  A 0.007 B 0.040
+most negative: [('L8H0', -0.002), ('L1H2', -0.003), ('L6H2', -0.003), ('L8H2', -0.007), ('L9H3', -0.119)]
+sum over all heads B-A per text (mean): 3.036169  fraction of texts with B>A: 1.0
+
+```

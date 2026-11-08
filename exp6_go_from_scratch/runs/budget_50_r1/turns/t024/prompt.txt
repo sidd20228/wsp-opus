@@ -1,0 +1,44 @@
+OUTPUT of Python run 20 of at most 120:
+```
+('AtM', False, False) 1202
+('AtM', False, True) 19
+('AtM', True, True) 57
+('AtO', False, False) 832
+('AtO', False, True) 96
+('AtO', True, True) 46
+('L2O', 1, True) 46
+('L2O', 2, False) 45
+('L2O', 2, True) 109
+('L2O', 3, False) 612
+('L2O', 3, True) 162
+('SA', False, False) 1573
+('SA', False, True) 55
+('SA', True, False) 5
+('SA', True, True) 96
+--- SA at previously played self-atari moves
+35 82 (7, 1) SA= 1.0 logit -21.64 pass -4.0 top 81
+88 75 (0, 1) SA= 1.0 logit -14.76 pass -4.0 top 81
+68 141 (4, 8) SA= 1.0 logit 17.9 pass -4.0 top 44
+79 75 (7, 8) SA= 1.0 logit -4.15 pass -4.0 top 81
+81 131 (6, 8) SA= 1.0 logit 13.44 pass -4.0 top 62
+113 65 (7, 3) SA= 1.0 logit -20.76 pass -4.0 top 81
+83 91 (8, 2) SA= 1.0 logit 4.96 pass -4.0 top 74
+119 69 (8, 8) SA= 1.0 logit -8.89 pass -4.0 top 81
+111 82 (0, 0) SA= 1.0 logit -8.66 pass -4.0 top 81
+47 66 (0, 0) SA= 1.0 logit 11.21 pass -4.0 top 0
+59 84 (8, 0) SA= 1.0 logit -7.85 pass -4.0 top 8
+86 79 (7, 0) SA= 1.0 logit -14.83 pass -4.0 top 81
+46 74 (8, 3) SA= 1.0 logit -17.67 pass -4.0 top 81
+61 82 (8, 3) SA= 1.0 logit -12.63 pass -4.0 top 81
+60 98 (5, 8) SA= 1.0 logit -19.29 pass -4.0 top 81
+121 71 (3, 8) SA= 1.0 logit -9.6 pass -4.0 top 81
+100 80 (0, 8) SA= 1.0 logit -14.38 pass -4.0 top 81
+106 68 (2, 8) SA= 1.0 logit -11.06 pass -4.0 top 63
+33 76 (8, 1) SA= 1.0 logit -8.17 pass -4.0 top 81
+77 81 (0, 3) SA= 1.0 logit 42.03 pass -4.0 top 3
+33 68 (0, 0) SA= 1.0 logit -10.95 pass -4.0 top 72
+50 78 (5, 8) SA= 1.0 logit -15.56 pass -4.0 top 81
+81 59 (4, 8) SA= 1.0 logit -13.26 pass -4.0 top 26
+104 88 (0, 0) SA= 1.0 logit 7.87 pass -4.0 top 0
+
+```

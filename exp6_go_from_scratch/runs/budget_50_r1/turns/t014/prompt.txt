@@ -1,0 +1,49 @@
+OUTPUT of Python run 11 of at most 120:
+```
+game 34 strong net black margin 51.5
+ ply 130 net (8, 6) [[78, 1.0], [81, 0.0], [80, 0.0], [71, 0.0], [54, 0.0]]
+   XXX.XX.XX | X.XXX.XXX | .XXX.XX.X | X.XXX.XXX | .XXXXXXXO | X.X.XXXO. | .X.XXXOOO | X.XXXXOO. | XXXXX.XO.
+ ply 131 opponent (7, 8) 
+   XXX.XX.XX | X.XXX.XXX | .XXX.XX.X | X.XXX.XXX | .XXXXXXXO | X.X.XXXO. | .X.XXXOOO | X.XXXXOOO | XXXXX.XO.
+ ply 132 net (5, 8) [[53, 1.0], [81, 0.0], [77, 0.0], [54, 0.0], [36, 0.0]]
+   XXX.XX.XX | X.XXX.XXX | .XXX.XX.X | X.XXX.XXX | .XXXXXXX. | X.X.XXXOX | .X.XXXOOO | X.XXXXOOO | XXXXX.XO.
+ ply 133 opponent (8, 5) 
+   XXX.XX.XX | X.XXX.XXX | .XXX.XX.X | X.XXX.XXX | .XXXXXXX. | X.X.XXXOX | .X.XXXOOO | X.XXXXOOO | XXXXXO.O.
+ ply 134 net pass [[81, 1.0], [44, 0.0], [54, 0.0], [36, 0.0], [18, 0.0]]
+   XXX.XX.XX | X.XXX.XXX | .XXX.XX.X | X.XXX.XXX | .XXXXXXX. | X.X.XXXOX | .X.XXXOOO | X.XXXXOOO | XXXXXO.O.
+ ply 135 opponent (4, 8) 
+   XXX.XX.XX | X.XXX.XXX | .XXX.XX.X | X.XXX.XXX | .XXXXXXXO | X.X.XXXO. | .X.XXXOOO | X.XXXXOOO | XXXXXO.O.
+ ply 136 net (8, 6) [[78, 1.0], [81, 0.0], [54, 0.0], [36, 0.0], [18, 0.0]]
+   XXX.XX.XX | X.XXX.XXX | .XXX.XX.X | X.XXX.XXX | .XXXXXXXO | X.X.XXXO. | .X.XXXOOO | X.XXXXOOO | XXXXX.XO.
+game 43 strong net black margin 6.5
+ ply 60 net (0, 1) [[1, 1.0], [64, 0.0], [57, 0.0], [7, 0.0], [8, 0.0]]
+   XX.X.XX.. | XOXXXOXO. | OOOXOOOO. | XXOXOOOO. | .OOXXXXO. | .O.O.X.X. | .XO.X.X.X | ..OX.X.X. | ....X.X.X
+ ply 61 opponent (0, 2) 
+   ..OX.XX.. | .OXXXOXO. | OOOXOOOO. | XXOXOOOO. | .OOXXXXO. | .O.O.X.X. | .XO.X.X.X | ..OX.X.X. | ....X.X.X
+ ply 62 net (0, 1) [[1, 1.0], [64, 0.0], [57, 0.0], [7, 0.0], [8, 0.0]]
+   .X.X.XX.. | .OXXXOXO. | OOOXOOOO. | XXOXOOOO. | .OOXXXXO. | .O.O.X.X. | .XO.X.X.X | ..OX.X.X. | ....X.X.X
+ ply 63 opponent (1, 0) 
+   .X.X.XX.. | OOXXXOXO. | OOOXOOOO. | XXOXOOOO. | .OOXXXXO. | .O.O.X.X. | .XO.X.X.X | ..OX.X.X. | ....X.X.X
+ ply 64 net (0, 0) [[0, 1.0], [64, 0.0], [57, 0.0], [7, 0.0], [8, 0.0]]
+   XX.X.XX.. | OOXXXOXO. | OOOXOOOO. | XXOXOOOO. | .OOXXXXO. | .O.O.X.X. | .XO.X.X.X | ..OX.X.X. | ....X.X.X
+ ply 65 opponent (0, 2) 
+   ..OX.XX.. | OOXXXOXO. | OOOXOOOO. | XXOXOOOO. | .OOXXXXO. | .O.O.X.X. | .XO.X.X.X | ..OX.X.X. | ....X.X.X
+ ply 66 net (0, 1) [[1, 1.0], [64, 0.0], [57, 0.0], [7, 0.0], [8, 0.0]]
+   .X.X.XX.. | OOXXXOXO. | OOOXOOOO. | XXOXOOOO. | .OOXXXXO. | .O.O.X.X. | .XO.X.X.X | ..OX.X.X. | ....X.X.X
+game 45 strong net black margin 6.5
+ ply 74 net pass [[81, 0.6554], [53, 0.3096], [63, 0.0254], [40, 0.0093], [77, 0.0002]]
+   X.XX.X.X. | .XX.X.X.X | XX.X.XXXX | XOX.XX.X. | OOXX.XXOX | OOOOXOOO. | .OOXXXXOO | ..OOXOOO. | .O..O..O.
+ ply 75 opponent (8, 5) 
+   X.XX.X.X. | .XX.X.X.X | XX.X.XXXX | XOX.XX.X. | OOXX.XXOX | OOOOXOOO. | .OOXXXXOO | ..OOXOOO. | .O..OO.O.
+ ply 76 net pass [[81, 0.6556], [53, 0.3097], [63, 0.0254], [40, 0.0094], [72, 0.0]]
+   X.XX.X.X. | .XX.X.X.X | XX.X.XXXX | XOX.XX.X. | OOXX.XXOX | OOOOXOOO. | .OOXXXXOO | ..OOXOOO. | .O..OO.O.
+ ply 77 opponent (7, 8) 
+   X.XX.X.X. | .XX.X.X.X | XX.X.XXXX | XOX.XX.X. | OOXX.XXOX | OOOOXOOO. | .OOXXXXOO | ..OOXOOOO | .O..OO.O.
+ ply 78 net (5, 8) [[81, 0.8151], [53, 0.1416], [63, 0.0316], [40, 0.0116], [72, 0.0]]
+   X.XX.X.X. | .XX.X.X.X | XX.X.XXXX | XOX.XX.X. | OOXX.XXOX | OOOOXOOOX | .OOXXXXOO | ..OOXOOOO | .O..OO.O.
+ ply 79 opponent (3, 8) 
+   X.XX.X.X. | .XX.X.X.X | XX.X.XXXX | XOX.XX.XO | OOXX.XXO. | OOOOXOOO. | .OOXXXXOO | ..OOXOOOO | .O..OO.O.
+ ply 80 net (4, 8) [[44, 1.0], [81, 0.0], [63, 0.0], [40, 0.0], [72, 0.0]]
+   X.XX.X.X. | .XX.X.X.X | XX.X.XXXX | XOX.XX.X. | OOXX.XXOX | OOOOXOOO. | .OOXXXXOO | ..OOXOOOO | .O..OO.O.
+
+```

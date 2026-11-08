@@ -1,0 +1,9 @@
+{
+ "exp": "exp5_write_from_scratch",
+ "item": "seaquest",
+ "effort": "max",
+ "rep": 1,
+ "primary": false,
+ "prompt": "<repo>/lm_understand-logs/exp5_write_from_scratch/runs/seaquest/message.txt",
+ "dir": "<repo>/runs/opus55/exp5_write_from_scratch/seaquest_max_r1"
+}

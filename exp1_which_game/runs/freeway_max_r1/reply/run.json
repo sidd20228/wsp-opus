@@ -1,0 +1,166 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "c337f913-6304-4168-a091-f1b3d4043b08",
+ "cwd": "<home>/.wsp/c/c337f913",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 1359.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 79828,
+  "cache_read_input_tokens": 79144,
+  "output_tokens": 174318,
+  "output_tokens_details": {
+   "thinking_tokens": 172358
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 79828,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 46318,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 79517,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 79517
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 174318,
+   "cacheReadInputTokens": 79144,
+   "cacheCreationInputTokens": 79828,
+   "webSearchRequests": 0,
+   "costUSD": 4.1408287999999995,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 172358,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 79828,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.1408287999999995,
+ "num_turns": 2,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 1359.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations:**\n\n*Always-on inputs (bias copies).* An input that is always 1 gets the same gradient as the bias, so its weights end up close to b1. b1 starts `0.048 0.185 -0.041 -0.492 \u2026` and has `0.434` at units 25 and 28.\n- Every border cell's channel 3 matches this. For example, input 3 at (0,0",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794164400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.45,
+        "resetsAt": 1794164400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.06,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "cc15aa21-dc8d-46dd-82c9-d95cd0d7555c",
+     "session_id": "7f4354bb-34f8-4bd5-84c5-61761bd3d096"
+    },
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794164400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.57,
+        "resetsAt": 1794164400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.08,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "061d146c-667c-407c-88aa-115628532232",
+     "session_id": "7f4354bb-34f8-4bd5-84c5-61761bd3d096"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+ "answer_line": "Frogger (a grid road-crossing game: lanes of evenly spaced cars moving horizontally, with a goal row at the top).",
+ "guess": "freeway",
+ "confidence": 80.0,
+ "correct": true,
+ "_src_wall": 120.5
+}

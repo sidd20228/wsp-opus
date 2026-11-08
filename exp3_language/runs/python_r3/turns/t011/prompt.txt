@@ -1,0 +1,25 @@
+OUTPUT of run 10 of at most 100:
+```
+L1H0 q: mlp0 0.08 Hfrac 0.19 | k: mlp0 0.08 Hfrac 0.40 | v: mlp0 0.08 Hfrac 0.16
+L1H1 q: mlp0 0.08 Hfrac 0.17 | k: mlp0 0.08 Hfrac 0.65 | v: mlp0 0.08 Hfrac 0.16
+L1H2 q: mlp0 0.08 Hfrac 0.18 | k: mlp0 0.07 Hfrac 0.66 | v: mlp0 0.08 Hfrac 0.14
+L1H3 q: mlp0 0.08 Hfrac 0.18 | k: mlp0 0.08 Hfrac 0.69 | v: mlp0 0.07 Hfrac 0.18
+L1H4 q: mlp0 0.08 Hfrac 0.19 | k: mlp0 0.07 Hfrac 0.68 | v: mlp0 0.07 Hfrac 0.16
+L1H5 q: mlp0 0.08 Hfrac 0.18 | k: mlp0 0.08 Hfrac 0.61 | v: mlp0 0.08 Hfrac 0.17
+L2H0 q: mlp0 0.06 Hfrac 0.17 | k: mlp0 0.06 Hfrac 0.23 | v: mlp0 0.05 Hfrac 0.17
+L2H1 q: mlp0 0.06 Hfrac 0.17 | k: mlp0 0.06 Hfrac 0.18 | v: mlp0 0.05 Hfrac 0.17
+L2H2 q: mlp0 0.06 Hfrac 0.17 | k: mlp0 0.06 Hfrac 0.28 | v: mlp0 0.06 Hfrac 0.17
+L2H3 q: mlp0 0.05 Hfrac 0.17 | k: mlp0 0.06 Hfrac 0.29 | v: mlp0 0.06 Hfrac 0.17
+L2H4 q: mlp0 0.06 Hfrac 0.18 | k: mlp0 0.06 Hfrac 0.27 | v: mlp0 0.06 Hfrac 0.17
+L2H5 q: mlp0 0.05 Hfrac 0.17 | k: mlp0 0.05 Hfrac 0.20 | v: mlp0 0.06 Hfrac 0.17
+L3H0 q: mlp0 0.05 Hfrac 0.17 | k: mlp0 0.05 Hfrac 0.19 | v: mlp0 0.05 Hfrac 0.17
+L3H1 q: mlp0 0.06 Hfrac 0.18 | k: mlp0 0.06 Hfrac 0.18 | v: mlp0 0.06 Hfrac 0.16
+L3H2 q: mlp0 0.05 Hfrac 0.17 | k: mlp0 0.05 Hfrac 0.20 | v: mlp0 0.05 Hfrac 0.17
+L3H3 q: mlp0 0.05 Hfrac 0.17 | k: mlp0 0.05 Hfrac 0.18 | v: mlp0 0.05 Hfrac 0.17
+L3H4 q: mlp0 0.05 Hfrac 0.17 | k: mlp0 0.05 Hfrac 0.20 | v: mlp0 0.05 Hfrac 0.17
+L3H5 q: mlp0 0.06 Hfrac 0.17 | k: mlp0 0.06 Hfrac 0.18 | v: mlp0 0.06 Hfrac 0.17
+random baseline mlp0 0.05011635138167014
+ln1_w.1 on H 0.46734864 off 0.47714287
+ln1_w.2 on H 0.715717 off 0.73848224
+
+```

@@ -1,0 +1,46 @@
+{
+ "session_id": "0242f3f4-d311-43cd-84d9-b710d3cfeb59",
+ "cwd": "<home>/.wsp/c/0242f3f4",
+ "turns": 45,
+ "effort": "xhigh",
+ "next": null,
+ "done": true,
+ "counters": {
+  "runs": 44
+ },
+ "failures": 0,
+ "usage_last": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 6198,
+  "cache_read_input_tokens": 197694,
+  "output_tokens": 7802,
+  "output_tokens_details": {
+   "thinking_tokens": 5380
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6198,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 7802,
+    "cache_read_input_tokens": 197694,
+    "cache_creation_input_tokens": 6198,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6198
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ }
+}

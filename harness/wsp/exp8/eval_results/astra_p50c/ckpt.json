@@ -1,0 +1,12 @@
+{
+ "name": "astra_p50c",
+ "spec": {
+  "kind": "edit_diff",
+  "dir": "/data/edits/astra_p50c"
+ },
+ "apply_edit_log": "model.language_model.layers.15.mlp.down_proj.weight: rebuilt (sparse, 65,260 entries changed), hash OK\nmodel.language_model.layers.19.mlp.down_proj.weight: rebuilt (sparse, 64,928 entries changed), hash OK\n2 tensors -> /data/ckpt/astra_p50c/model.safetensors\n",
+ "edited": [
+  "model.language_model.layers.15.mlp.down_proj.weight",
+  "model.language_model.layers.19.mlp.down_proj.weight"
+ ]
+}

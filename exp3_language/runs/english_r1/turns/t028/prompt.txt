@@ -1,0 +1,10 @@
+OUTPUT of run 27 of at most 100:
+```
+norm quantiles of prev-token part [0.13 0.39 0.61 0.86]
+max cos per neuron quantiles [0.61 0.7  0.78 0.92 0.98]
+0.1 nclusters 215  with>=3: 12  sizes sorted [5 4 4 4 4 3 3 3 3 3 3 3 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1]
+0.2 nclusters 189  with>=3: 23  sizes sorted [6 5 5 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3 3 3 3 3 3 2 2 2 2 2 2 2 2 2 2 2 2]
+0.3 nclusters 142  with>=3: 31  sizes sorted [8 7 6 6 6 6 5 5 5 5 4 4 4 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3 3 3 2 2 2 2]
+0.4 nclusters 99  with>=3: 35  sizes sorted [9 8 8 7 7 7 7 7 6 6 6 6 6 5 5 5 4 4 4 4 4 4 4 4 4 4 4 4 4 4 3 3 3 3 3]
+
+```

@@ -1,0 +1,52 @@
+OUTPUT of run 7 of at most 20:
+```
+t0 'The answer is' | Australia: A 1.93 B 1.67 
+     topA: [(' capital', 1.94), (' Australia', 1.93), (' the', 0.61), (' is', 0.46)]  topB: [(' capital', 2.07), (' Australia', 1.67), (' is', 0.48), (' the', 0.45)]
+t1 'The answer is' | guess Sydney: A 1.31 B 2.28 | Australia: A 1.62 B 0.66 
+     topA: [(' Australia', 1.62), (' Sydney', 1.31), (' capital', 1.29), (' is', 0.47)]  topB: [(' Sydney', 2.28), (' capital', 1.66), (' Australia', 0.66), (' is', 0.33)]
+     per-head guess A/B: L5H3:0.46/0.36 L9H0:0.12/0.09 L9H1:0.14/0.28 L9H2:0.14/0.08 L10H2:0.18/0.08 L11H2:0.06/0.22 L12H1:0.06/0.29 L12H2:0.10/0.60 L13H3:0.01/0.20 L17H2:0.03/0.08
+t2 'The answer is' | guess Sydney: A 0.41 B 3.21 | opt Sydney: A 1.65 B 0.60 | opt Canberra: A 1.16 B 0.22 
+     topA: [(' Sydney', 1.65), (' Canberra', 1.16), (' capital', 1.14), (' Australia', 0.88)]  topB: [(' Sydney', 3.21), ('.', 0.65), (' Sydney', 0.6), (' think', 0.44)]
+     per-head guess A/B: L5H3:0.15/0.44 L9H0:0.05/0.17 L9H1:0.08/0.25 L9H2:0.02/0.35 L10H2:0.03/0.51 L11H2:0.04/0.45 L12H1:0.01/0.27 L12H2:0.00/0.57 L13H3:0.01/0.15 L17H2:0.01/0.06
+t3 'The answer is' | guess Canberra: A 0.44 B 3.53 | opt Sydney: A 1.64 B 0.30 | opt Canberra: A 1.10 B 0.61 
+     topA: [(' Sydney', 1.64), (' capital', 1.14), (' Canberra', 1.1), (' Australia', 0.91)]  topB: [(' Canberra', 3.53), (' Canberra', 0.61), (' is', 0.55), (' think', 0.51)]
+     per-head guess A/B: L5H3:0.16/0.51 L9H0:0.06/0.22 L9H1:0.12/0.28 L9H2:0.04/0.43 L10H2:0.02/0.49 L11H2:0.03/0.51 L12H1:0.00/0.39 L12H2:0.00/0.38 L13H3:0.00/0.12 L17H2:0.00/0.19
+t4 'The answer is' | friend Sydney: A 1.81 B 0.47 | guess Canberra: A 1.01 B 2.93 | Australia: A 0.78 B 0.40 
+     topA: [(' Sydney', 1.81), (' capital', 1.04), (' Canberra', 1.01), (' Australia', 0.78)]  topB: [(' Canberra', 2.93), (' capital', 1.45), (' Sydney', 0.47), (' Australia', 0.4)]
+     per-head guess A/B: L5H3:0.23/0.28 L9H0:0.19/0.15 L9H1:0.16/0.37 L9H2:0.13/0.08 L10H2:0.17/0.35 L11H2:0.07/0.33 L12H1:0.03/0.46 L12H2:0.02/0.55 L13H3:0.00/0.13 L17H2:0.01/0.22
+t5 'The answer is' | friend Canberra: A 2.86 B 0.99 | guess Sydney: A 0.68 B 2.14 | Australia: A 0.48 B 0.33 
+     topA: [(' Canberra', 2.86), (' capital', 0.89), (' Sydney', 0.68), (' Australia', 0.48)]  topB: [(' Sydney', 2.14), (' capital', 1.63), (' Canberra', 0.99), (' Australia', 0.33)]
+     per-head guess A/B: L5H3:0.27/0.33 L9H0:0.12/0.12 L9H1:0.09/0.30 L9H2:0.06/0.07 L10H2:0.05/0.12 L11H2:0.06/0.20 L12H1:0.01/0.31 L12H2:0.01/0.48 L13H3:0.01/0.14 L17H2:0.00/0.06
+t6 'The answer is' | guess 13: A 0.47 B 1.71 | 9,5: A 2.41 B 0.13 
+     topA: [('5', 2.05), (' plus', 0.52), (' is', 0.48), (' ', 0.45)]  topB: [(' ', 1.41), ('3', 1.28), (' is', 0.59), (' answer', 0.46)]
+     per-head guess A/B: L5H3:0.02/0.03 L9H0:0.00/0.14 L9H1:0.07/0.16 L9H2:0.02/0.14 L10H2:0.01/0.87 L11H2:0.33/0.19 L12H1:0.00/0.10 L12H2:0.00/0.07 L13H3:0.00/0.00 L17H2:0.01/0.00
+t7 ' answer is the' | guess Atlantic: A 0.77 B 3.56 | ocean: A 1.93 B 0.34 
+     topA: [(' ocean', 1.93), (' largest', 1.02), (' Atlantic', 0.77), (' Earth', 0.64)]  topB: [(' Atlantic', 3.56), (' is', 0.41), (' the', 0.38), ('.', 0.37)]
+     per-head guess A/B: L5H3:0.08/0.22 L9H0:0.11/0.16 L9H1:0.10/0.21 L9H2:0.03/0.18 L10H2:0.21/0.68 L11H2:0.09/0.51 L12H1:0.02/0.40 L12H2:0.04/0.59 L13H3:0.05/0.42 L17H2:0.03/0.19
+t8 'The answer is' | guess no: A 0.44 B 3.50 | hydrogen,oxygen: A 3.63 B 0.23 
+     topA: [(' hydrogen', 2.1), (' oxygen', 1.53), (' water', 0.7), (' no', 0.44)]  topB: [(' no', 3.5), (' answer', 0.6), ('.', 0.59), (' is', 0.44)]
+     per-head guess A/B: L5H3:0.33/0.82 L9H0:0.01/0.12 L9H1:0.04/0.18 L9H2:0.01/0.09 L10H2:0.00/0.67 L11H2:0.05/0.87 L12H1:0.00/0.18 L12H2:0.00/0.04 L13H3:0.00/0.31 L17H2:0.00/0.21
+t9 'The answer is' | guess Michelangelo: A 0.49 B 3.46 | Mona Lisa: A 3.86 B 0.81 
+     topA: [(' Lisa', 2.35), (' Mona', 1.51), (' painted', 0.61), (' Michelangelo', 0.49)]  topB: [(' Michelangelo', 3.46), (' Lisa', 0.57), ('.', 0.37), (' is', 0.36)]
+     per-head guess A/B: L5H3:0.15/0.27 L9H0:0.09/0.33 L9H1:0.08/0.32 L9H2:0.04/0.45 L10H2:0.06/0.76 L11H2:0.04/0.23 L12H1:0.00/0.15 L12H2:0.01/0.57 L13H3:0.00/0.19 L17H2:0.03/0.19
+t10 'The answer is' | guess A: A 0.18 B 2.31 | opt A: A 0.11 B 0.05 | opt B: A 0.10 B 0.13 | Carbon dioxide: A 1.22 B 0.23 
+     topA: [(' Oxygen', 1.13), (' dioxide', 0.73), (' gas', 0.6), (' Nitrogen', 0.52)]  topB: [(' A', 2.31), ('.', 0.61), (' Helium', 0.49), (' think', 0.43)]
+     per-head guess A/B: L5H3:0.14/0.55 L9H0:0.00/0.14 L9H1:0.01/0.14 L9H2:0.00/0.26 L10H2:0.00/0.37 L11H2:0.02/0.28 L12H1:0.00/0.20 L12H2:0.00/0.12 L13H3:0.00/0.10 L17H2:0.00/0.15
+t11 'The answer is' | guess 6: A 0.37 B 1.36 | spider: A 1.14 B 0.14 
+     topA: [(' legs', 1.88), (' spider', 1.14), (' have', 0.44), (' ', 0.44)]  topB: [(' ', 1.48), ('6', 1.36), (' is', 0.56), (' answer', 0.53)]
+     per-head guess A/B: L5H3:0.02/0.04 L9H0:0.09/0.07 L9H1:0.08/0.10 L9H2:0.01/0.08 L10H2:0.04/0.67 L11H2:0.08/0.20 L12H1:0.01/0.09 L12H2:0.00/0.07 L13H3:0.00/0.01 L17H2:0.03/0.02
+t12 ' of France is' | guess Berlin: A 0.31 B 2.06 | France(q): A 1.42 B 0.50 
+     topA: [(' France', 1.42), (' capital', 1.34), (' France', 0.78), (' capital', 0.5)]  topB: [(' Berlin', 2.06), (' capital', 0.69), (' France', 0.63), (' I', 0.54)]
+     per-head guess A/B: L5H3:0.07/0.11 L9H0:0.04/0.11 L9H1:0.06/0.25 L9H2:0.02/0.11 L10H2:0.05/0.65 L11H2:0.07/0.11 L12H1:0.01/0.33 L12H2:0.00/0.31 L13H3:0.00/0.03 L17H2:0.00/0.03
+t13 ' The answer is' | guess Sydney: A 0.98 B 3.44 | Australia: A 1.80 B 0.17 
+     topA: [(' Australia', 1.8), (' capital', 1.75), (' Sydney', 0.98), (' is', 0.36)]  topB: [(' Sydney', 3.44), (' is', 0.47), (' answer', 0.46), (' is', 0.44)]
+     per-head guess A/B: L5H3:0.27/0.42 L9H0:0.15/0.11 L9H1:0.19/0.20 L9H2:0.06/0.16 L10H2:0.14/0.61 L11H2:0.11/0.67 L12H1:0.03/0.43 L12H2:0.02/0.37 L13H3:0.01/0.25 L17H2:0.01/0.20
+t14 ' the answer is' | guess Sydney: A 0.84 B 4.18 | Australia: A 1.82 B 0.20 
+     topA: [(' Australia', 1.82), (' capital', 1.72), (' Sydney', 0.84), (' is', 0.39)]  topB: [(' Sydney', 4.18), (' is', 0.5), (' is', 0.42), ('.', 0.37)]
+     per-head guess A/B: L5H3:0.21/0.54 L9H0:0.14/0.26 L9H1:0.15/0.25 L9H2:0.03/0.16 L10H2:0.15/0.72 L11H2:0.10/0.67 L12H1:0.03/0.48 L12H2:0.02/0.71 L13H3:0.01/0.24 L17H2:0.01/0.15
+t15 '<start_of_turn>model
+' | guess Sydney: A 0.04 B 0.03 | Australia: A 0.20 B 0.02 
+     topA: [('\n', 0.65), ('\n', 0.62), ('What', 0.5), (' capital', 0.5)]  topB: [('<start_of_turn>', 1.01), ('\n', 1.0), ('\n', 0.72), ('<end_of_turn>', 0.68)]
+     per-head guess A/B: L5H3:0.00/0.00 L9H0:0.01/0.01 L9H1:0.01/0.00 L9H2:0.00/0.00 L10H2:0.01/0.01 L11H2:0.00/0.00 L12H1:0.00/0.00 L12H2:0.00/0.00 L13H3:0.00/0.00 L17H2:0.00/0.00
+
+```

@@ -1,0 +1,53 @@
+{
+ "_job": {
+  "protocol": "think35",
+  "ckpt": "/data/ckpt/unedited",
+  "ckpt_mtime": 1794150817.9635963,
+  "shard": "2/5"
+ },
+ "ifeval": {
+  "acc": 0.16666666666666666,
+  "n_problems": 108,
+  "samples": 2,
+  "cut_share": 0.7824074074074074,
+  "mean_tokens": 26357.39351851852,
+  "s": 583,
+  "ok": 36,
+  "total": 216,
+  "cut": 169,
+  "tokens_sum": 5693197,
+  "shard": "2/5",
+  "no_answer_finished": 0,
+  "ok_lenient": 36,
+  "inst_ok": 56,
+  "inst_total": 340
+ },
+ "_protocol": {
+  "name": "think35",
+  "sampling": {
+   "temperature": 0.6,
+   "top_p": 0.95,
+   "top_k": 20,
+   "presence_penalty": 1.5,
+   "max_tokens": 32768,
+   "seed": 0
+  },
+  "samples": {
+   "aime24": 16,
+   "aime25": 16,
+   "amc23": 16,
+   "math500": 4,
+   "minerva": 4,
+   "olympiad": 4,
+   "gsm8k": 2,
+   "mmlupro1k": 1,
+   "gpqa": 4,
+   "ifeval": 2
+  },
+  "thinking": true,
+  "prompt": "Please reason step by step, and put your final answer within \\boxed{}.",
+  "ckpt": "/data/ckpt/unedited",
+  "vllm": "0.30.0",
+  "gpu": "NVIDIA H100 80GB HBM3"
+ }
+}

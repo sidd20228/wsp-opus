@@ -1,0 +1,51 @@
+OUTPUT of Python run 31 of at most 120:
+```
+('SA1', 1.0, 0.0) 45
+('SA2', 1.0, 0.0) 7
+('SA2', 2.0, 1.0) 20
+('SA3', 0.0, 0.0) 5
+('SA3', 1.0, 0.0) 5
+('SA3', 2.0, 0.0) 8
+('SA3', 2.0, 1.0) 1
+('SA3', 2.0, 2.0) 1
+('SA3', 2.0, 3.0) 8
+('SA3', 2.0, 4.0) 1
+('cap', 0.0, 0.0) 14
+('cap', 0.0, 1.0) 1
+('cap', 1.0, 0.0) 3
+('cap', 2.0, 0.0) 11
+('ok', 0.0, 0.0) 1500
+('ok', 0.0, 1.0) 53
+('ok', 0.0, 2.0) 5
+('ok', 1.0, 0.0) 29
+('ok', 2.0, 0.0) 6
+('ok', 2.0, 1.0) 3
+('ok', 2.0, 2.0) 2
+('ok', 2.0, 3.0) 1
+--- previously played SA moves
+(7, 1) logit -44.1 PEN 15.0 chosen 81 p=0.00
+(0, 1) logit -151.9 PEN 140.0 chosen 72 p=0.00
+(4, 8) logit -320.3 PEN 360.0 chosen 26 p=0.00
+(7, 8) logit -360.4 PEN 360.0 chosen 81 p=0.00
+(6, 8) logit 13.6 PEN 15.0 chosen 62 p=1.00
+(7, 3) logit -394.3 PEN 360.0 chosen 63 p=0.00
+(8, 2) logit -132.6 PEN 140.0 chosen 81 p=0.00
+(8, 8) logit -364.7 PEN 360.0 chosen 81 p=0.00
+(0, 0) logit -254.2 PEN 250.0 chosen 81 p=0.00
+(0, 0) logit 0.5 PEN 30.0 chosen 0 p=1.00
+(8, 0) logit -362.1 PEN 360.0 chosen 8 p=0.00
+(7, 0) logit -379.6 PEN 360.0 chosen 81 p=0.00
+(8, 3) logit -159.2 PEN 140.0 chosen 81 p=0.00
+(8, 3) logit -29.0 PEN 15.0 chosen 81 p=0.00
+(5, 8) logit -163.2 PEN 140.0 chosen 81 p=0.00
+(3, 8) logit -154.0 PEN 140.0 chosen 81 p=0.00
+(0, 8) logit -158.4 PEN 140.0 chosen 81 p=0.00
+(2, 8) logit -157.7 PEN 140.0 chosen 72 p=0.00
+(8, 1) logit -362.9 PEN 360.0 chosen 81 p=0.00
+(0, 3) logit 47.6 PEN 30.0 chosen 3 p=1.00
+(0, 0) logit -149.9 PEN 140.0 chosen 72 p=0.00
+(5, 8) logit -168.9 PEN 140.0 chosen 72 p=0.00
+(4, 8) logit -375.6 PEN 360.0 chosen 73 p=0.00
+(0, 0) logit -117.8 PEN 140.0 chosen 81 p=0.00
+
+```

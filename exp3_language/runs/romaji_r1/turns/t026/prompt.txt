@@ -1,0 +1,32 @@
+OUTPUT of run 25 of at most 100:
+```
+1 residual norm^2 of kdir outside S,V5,Tk: 0.53
+2 residual norm^2 of kdir outside S,V5,Tk: 0.44
+4 residual norm^2 of kdir outside S,V5,Tk: 0.49
+cos between residual kdirs [[1.   0.81 0.63]
+ [0.81 1.   0.63]
+ [0.63 0.63 1.  ]]
+Wfc0 read strength (1=typical random dir): 1.04
+Wq0 read strength (1=typical random dir): 1.49
+Wk0 read strength (1=typical random dir): 2.42
+Wv0 read strength (1=typical random dir): 1.30
+W_q1 read strength (1=typical random dir): 0.96
+W_k1 read strength (1=typical random dir): 0.66
+W_v1 read strength (1=typical random dir): 0.97
+Wfc1 read strength (1=typical random dir): 0.91
+W_q2 read strength (1=typical random dir): 0.94
+W_k2 read strength (1=typical random dir): 0.89
+W_v2 read strength (1=typical random dir): 1.02
+Wfc2 read strength (1=typical random dir): 0.98
+W_q3 read strength (1=typical random dir): 0.91
+W_k3 read strength (1=typical random dir): 0.98
+W_v3 read strength (1=typical random dir): 0.99
+Wfc3 read strength (1=typical random dir): 0.99
+L0H0 q 1.83 k 1.58 v 1.64
+L0H1 q 2.71 k 8.72 v 1.70
+L0H2 q 2.18 k 5.85 v 1.79
+L0H3 q 0.89 k 0.81 v 1.32
+L0H4 q 2.03 k 4.12 v 1.14
+L0H5 q 1.24 k 2.12 v 1.03
+
+```

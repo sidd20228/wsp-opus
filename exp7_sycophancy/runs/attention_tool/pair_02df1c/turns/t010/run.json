@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "aec643ed-5147-4de0-93cb-60b4e3728d10",
+ "cwd": "<home>/.wsp/c/aec643ed",
+ "turn": 10,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "aec643ed-5147-4de0-93cb-60b4e3728d10"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 62.7,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 7086,
+  "cache_read_input_tokens": 59764,
+  "output_tokens": 5789,
+  "output_tokens_details": {
+   "thinking_tokens": 4015
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7086,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 5789,
+    "cache_read_input_tokens": 59764,
+    "cache_creation_input_tokens": 7086,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7086
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 38,
+   "outputTokens": 35434,
+   "thinkingTokens": 19486,
+   "cacheReadInputTokens": 274503,
+   "cacheCreationInputTokens": 62886,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 62886,
+   "webSearchRequests": 0,
+   "costUSD": 1.2668206000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.2668206000000002,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 62.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Reading at the token level, both changes are tiny.\n\n- **Content QK.** For the answer-position query (\" is\"/\" answer\"), the key scores on answer, cue and question tokens change by less than 0.5 units on a base of 1\u201348. The only notable shift is L14H1, which raises cue words by +1.2 in B.\n- **OV copy ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.49,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.19,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "95579daf-c22e-4826-89f8-04f220ec55ca",
+     "session_id": "aec643ed-5147-4de0-93cb-60b4e3728d10"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "session_id": "f320f1bd-f985-4298-8365-8c6068be29d7",
+ "cwd": "<home>/.wsp/c/f320f1bd",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "high",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 75.7,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 109115,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7808,
+  "output_tokens_details": {
+   "thinking_tokens": 6078
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 109115,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 7808,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 109115,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 109115
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 7808,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 109115,
+   "webSearchRequests": 0,
+   "costUSD": 1.029088,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 6078,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 109115,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.029088,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 75.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Observations:\n- **Output bias b3.** b3 forms a dark frame and a neutral centre. The outermost ring of pixels is strongly negative: row 0 is \u22120.33 to \u22120.60, row 11 is \u22120.28 to \u22120.57, and columns 0 and 11 are about \u22120.35 to \u22120.6. The inner block (rows 2\u20139, columns 2\u20139) is near 0 (\u22120.15 to +0.18). So t",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794164400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.07,
+        "resetsAt": 1794164400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.02,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "894c0102-b9ab-474d-9781-7b79d279a145",
+     "session_id": "b4fa05c8-1a88-4a52-ac7b-6d878b7bfd2b"
+    }
+   ]
+  }
+ ]
+}

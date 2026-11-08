@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "0242f3f4-d311-43cd-84d9-b710d3cfeb59",
+ "cwd": "<home>/.wsp/c/0242f3f4",
+ "turn": 45,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "0242f3f4-d311-43cd-84d9-b710d3cfeb59"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 81.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 6198,
+  "cache_read_input_tokens": 197694,
+  "output_tokens": 7802,
+  "output_tokens_details": {
+   "thinking_tokens": 5380
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6198,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 7802,
+    "cache_read_input_tokens": 197694,
+    "cache_creation_input_tokens": 6198,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6198
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 178,
+   "outputTokens": 163114,
+   "thinkingTokens": 138218,
+   "cacheReadInputTokens": 4024040,
+   "cacheCreationInputTokens": 200955,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 200955,
+   "webSearchRequests": 0,
+   "costUSD": 5.675440000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 5.675440000000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 81.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations**\n\n- **Layer 0 has two sharp relative-position heads, L0H1 and L0H5.**\n  - Their W_q and W_k read the same roughly 7-dimensional subspace (principal-angle cosines 0.97 to 0.82). That subspace is unrelated to what their W_v reads (overlap at the level of random subspaces).\n  - QK singu",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794164400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.82,
+        "resetsAt": 1794164400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.11,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "cb19a929-5ac8-4cfc-bb97-94ef6fa62942",
+     "session_id": "0242f3f4-d311-43cd-84d9-b710d3cfeb59"
+    }
+   ]
+  }
+ ]
+}

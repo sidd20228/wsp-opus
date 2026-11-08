@@ -1,0 +1,23 @@
+OUTPUT of run 26 of at most 100:
+```
+omega deg 43.8
+L1H0 raw-raw ang   112 |  3.1|  H0 qb-kraw ang   180 | 52.1|; qb-kb ang    47 |951.5| ; H1 qb-kraw ang   180 | 62.6|; qb-kb ang    66 |884.3|
+L1H1 raw-raw ang   123 |  3.9|  H0 qb-kraw ang   180 | 76.1|; qb-kb ang    64 |1450.5| ; H1 qb-kraw ang   176 |103.2|; qb-kb ang    69 |1365.4|
+L1H2 raw-raw ang   180 |  7.8|  H0 qb-kraw ang   180 | 95.3|; qb-kb ang    72 |1660.3| ; H1 qb-kraw ang   172 |116.0|; qb-kb ang    72 |1603.5|
+L1H3 raw-raw ang   117 |  5.0|  H0 qb-kraw ang   180 | 74.4|; qb-kb ang    66 |1424.3| ; H1 qb-kraw ang   175 | 99.1|; qb-kb ang    70 |1384.4|
+L1H4 raw-raw ang   120 |  7.1|  H0 qb-kraw ang   180 | 77.7|; qb-kb ang    65 |1486.2| ; H1 qb-kraw ang   172 |109.6|; qb-kb ang    70 |1459.1|
+L1H5 raw-raw ang   180 |  8.2|  H0 qb-kraw ang   180 | 75.3|; qb-kb ang    57 |1513.5| ; H1 qb-kraw ang   175 |106.3|; qb-kb ang    71 |1421.1|
+L2H0 raw-raw ang   100 |  9.9|  H0 qb-kraw ang   180 |102.4|; qb-kb ang    75 |1767.0| ; H1 qb-kraw ang   164 |117.4|; qb-kb ang    80 |1614.8|
+L2H1 raw-raw ang   122 |  4.0|  H0 qb-kraw ang   180 | 40.4|; qb-kb ang    70 |803.5| ; H1 qb-kraw ang   164 | 57.4|; qb-kb ang    78 |742.6|
+L2H2 raw-raw ang   180 |  8.9|  H0 qb-kraw ang   180 | 47.9|; qb-kb ang    58 |1023.5| ; H1 qb-kraw ang   165 | 66.8|; qb-kb ang    75 |921.6|
+L2H3 raw-raw ang    96 |  7.2|  H0 qb-kraw ang   180 | 87.7|; qb-kb ang    72 |1816.1| ; H1 qb-kraw ang   168 |116.0|; qb-kb ang    78 |1616.5|
+L2H4 raw-raw ang   107 |  8.7|  H0 qb-kraw ang   180 | 91.5|; qb-kb ang    76 |1812.9| ; H1 qb-kraw ang   165 |120.0|; qb-kb ang    80 |1638.2|
+L2H5 raw-raw ang   116 |  7.6|  H0 qb-kraw ang   180 | 86.7|; qb-kb ang    76 |1750.5| ; H1 qb-kraw ang   164 |111.9|; qb-kb ang    79 |1569.8|
+L3H0 raw-raw ang     0 |  2.7|  H0 qb-kraw ang   180 | 30.5|; qb-kb ang    54 |253.5| ; H1 qb-kraw ang   180 | 22.7|; qb-kb ang    76 |246.1|
+L3H1 raw-raw ang     0 |  7.1|  H0 qb-kraw ang   108 |  4.4|; qb-kb ang     0 |343.2| ; H1 qb-kraw ang    69 |  1.6|; qb-kb ang     0 |182.4|
+L3H2 raw-raw ang    90 |  4.9|  H0 qb-kraw ang   180 | 69.7|; qb-kb ang    61 |654.2| ; H1 qb-kraw ang   165 | 45.2|; qb-kb ang    77 |582.6|
+L3H3 raw-raw ang    56 |  6.1|  H0 qb-kraw ang   180 | 50.8|; qb-kb ang    71 |854.6| ; H1 qb-kraw ang   161 | 57.3|; qb-kb ang    80 |738.0|
+L3H4 raw-raw ang    79 |  2.8|  H0 qb-kraw ang   180 | 61.4|; qb-kb ang    60 |522.0| ; H1 qb-kraw ang   165 | 39.2|; qb-kb ang    79 |477.1|
+L3H5 raw-raw ang    15 |  1.2|  H0 qb-kraw ang   180 | 10.6|; qb-kb ang    80 | 67.0| ; H1 qb-kraw ang   180 |  6.9|; qb-kb ang    87 | 57.3|
+
+```

@@ -1,0 +1,7 @@
+OUTPUT of run 20 of at most 100:
+```
+norm in T: pct [0.08 0.13 0.99 1.54]  total [0.33 0.39 2.23]
+nearest-neighbor cos pct [0.64 0.69 0.76 0.87 0.98]
+random nn cos pct [0.53 0.56 0.59 0.62 0.66]
+
+```

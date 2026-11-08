@@ -1,0 +1,33 @@
+OUTPUT of run 36 of at most 100:
+```
+match to seed0: best cos per comp [0.68 0.77 1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.  ]
+match to seed0: best cos per comp [0.66 0.78 1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.   1.  ]
+comp  3 kurt  125.1 skew  9.74 |V1a| 1.26 |V5a| 0.91 |V2a| 1.22
+comp 25 kurt   84.6 skew  7.70 |V1a| 1.71 |V5a| 1.30 |V2a| 1.52
+comp  5 kurt   68.9 skew  7.23 |V1a| 1.32 |V5a| 0.80 |V2a| 0.89
+comp 15 kurt   67.9 skew  6.77 |V1a| 1.50 |V5a| 1.42 |V2a| 1.27
+comp 21 kurt   54.4 skew  6.30 |V1a| 1.78 |V5a| 1.49 |V2a| 1.18
+comp  6 kurt   53.5 skew  6.19 |V1a| 1.90 |V5a| 1.56 |V2a| 0.83
+comp 24 kurt   50.8 skew  6.08 |V1a| 1.58 |V5a| 1.40 |V2a| 1.00
+comp 17 kurt   47.4 skew  5.86 |V1a| 1.26 |V5a| 1.05 |V2a| 0.97
+comp  0 kurt   43.9 skew  5.54 |V1a| 1.53 |V5a| 1.25 |V2a| 1.53
+comp 16 kurt   38.7 skew  5.45 |V1a| 1.61 |V5a| 1.23 |V2a| 1.22
+comp 23 kurt   38.3 skew  4.95 |V1a| 1.62 |V5a| 1.71 |V2a| 0.89
+comp 20 kurt   34.7 skew  4.81 |V1a| 1.66 |V5a| 1.72 |V2a| 0.62
+comp 22 kurt   26.7 skew  4.21 |V1a| 1.74 |V5a| 1.82 |V2a| 0.68
+comp 19 kurt   25.9 skew  4.17 |V1a| 1.83 |V5a| 1.73 |V2a| 1.40
+comp  2 kurt   25.4 skew  3.93 |V1a| 1.76 |V5a| 2.09 |V2a| 0.73
+comp  1 kurt   25.2 skew  3.68 |V1a| 1.80 |V5a| 1.85 |V2a| 0.68
+comp  4 kurt   24.7 skew  3.93 |V1a| 1.79 |V5a| 1.67 |V2a| 0.42
+comp 13 kurt   23.6 skew  3.73 |V1a| 1.66 |V5a| 1.83 |V2a| 0.63
+comp 10 kurt   23.6 skew  3.86 |V1a| 1.74 |V5a| 1.72 |V2a| 0.73
+comp  9 kurt   19.9 skew  3.43 |V1a| 1.64 |V5a| 1.89 |V2a| 0.71
+comp 26 kurt   19.1 skew  3.36 |V1a| 1.67 |V5a| 1.96 |V2a| 0.37
+comp 14 kurt   18.0 skew  3.33 |V1a| 1.65 |V5a| 1.85 |V2a| 0.47
+comp 18 kurt   17.5 skew  3.56 |V1a| 1.75 |V5a| 1.97 |V2a| 0.36
+comp 12 kurt   15.4 skew  2.99 |V1a| 1.69 |V5a| 1.94 |V2a| 0.48
+comp  8 kurt   15.2 skew  2.89 |V1a| 1.86 |V5a| 1.96 |V2a| 0.82
+comp 11 kurt   13.6 skew  2.94 |V1a| 1.81 |V5a| 2.01 |V2a| 0.40
+comp  7 kurt    9.7 skew  2.26 |V1a| 1.81 |V5a| 1.43 |V2a| 1.88
+
+```

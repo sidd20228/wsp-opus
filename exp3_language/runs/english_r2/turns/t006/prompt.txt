@@ -1,0 +1,28 @@
+OUTPUT of run 5 of at most 100:
+```
+L0H0 QKfro    0.44 QKsv1   0.41 OVfro   9.04 OVsv1   8.07
+L0H1 QKfro    0.24 QKsv1   0.20 OVfro   6.97 OVsv1   5.66
+L0H2 QKfro   32.63 QKsv1  11.32 OVfro   2.54 OVsv1   0.79
+L0H3 QKfro    3.16 QKsv1   2.87 OVfro   1.77 OVsv1   1.03
+L0H4 QKfro    0.85 QKsv1   0.71 OVfro   4.03 OVsv1   3.40
+L0H5 QKfro    0.62 QKsv1   0.61 OVfro   9.31 OVsv1   8.33
+L1H0 QKfro    7.10 QKsv1   4.78 OVfro  10.12 OVsv1   4.01
+L1H1 QKfro   10.53 QKsv1   7.05 OVfro  10.33 OVsv1   3.02
+L1H2 QKfro   12.41 QKsv1   7.96 OVfro   9.18 OVsv1   2.87
+L1H3 QKfro   11.01 QKsv1   7.36 OVfro  10.05 OVsv1   3.70
+L1H4 QKfro   11.61 QKsv1   7.58 OVfro  10.40 OVsv1   3.08
+L1H5 QKfro   10.71 QKsv1   7.15 OVfro  10.62 OVsv1   3.03
+L2H0 QKfro   19.51 QKsv1   5.56 OVfro  16.31 OVsv1   3.52
+L2H1 QKfro   16.54 QKsv1   4.21 OVfro  17.72 OVsv1   3.91
+L2H2 QKfro   12.91 QKsv1   4.86 OVfro  20.58 OVsv1   5.70
+L2H3 QKfro   16.70 QKsv1   4.50 OVfro  17.51 OVsv1   4.47
+L2H4 QKfro   18.76 QKsv1   5.02 OVfro  16.62 OVsv1   3.62
+L2H5 QKfro   18.01 QKsv1   5.11 OVfro  16.68 OVsv1   3.46
+L3H0 QKfro   17.86 QKsv1   3.61 OVfro  22.60 OVsv1   6.41
+L3H1 QKfro   14.65 QKsv1   2.62 OVfro  40.87 OVsv1  10.63
+L3H2 QKfro   12.05 QKsv1   3.77 OVfro  26.88 OVsv1   9.14
+L3H3 QKfro   12.79 QKsv1   3.98 OVfro  27.43 OVsv1   9.52
+L3H4 QKfro   14.85 QKsv1   4.23 OVfro  24.20 OVsv1   7.27
+L3H5 QKfro    6.68 QKsv1   2.08 OVfro  45.40 OVsv1  16.89
+
+```

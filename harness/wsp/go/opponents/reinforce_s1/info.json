@@ -1,0 +1,10 @@
+{
+ "name": "reinforce_s1",
+ "role": "practice 'weak'",
+ "algo": "reinforce",
+ "seed": 1,
+ "iteration": 5000,
+ "games_per_iteration": 1024,
+ "source": "wsp-go:train/reinforce/s1/iter5000.npz",
+ "settings": "see wsp/go/train.py and wsp/go/README.md"
+}

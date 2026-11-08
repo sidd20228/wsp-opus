@@ -1,0 +1,23 @@
+OUTPUT of run 32 of at most 100:
+```
+S1 vs S4 cos 0.768503976054926
+L1H0 sym eig min [-0.25 -0.19 -0.16] max [0.06 0.08 0.09]  S4.A.S4=+0.01 S1.A.S1=-0.02  mean diag=-0.039  cos(minvec,S4)=0.08 cos(maxvec,S4)=0.34
+L1H1 sym eig min [-0.89 -0.81 -0.75] max [0.03 0.06 0.08]  S4.A.S4=-0.43 S1.A.S1=-0.45  mean diag=-0.240  cos(minvec,S4)=0.30 cos(maxvec,S4)=0.05
+L1H2 sym eig min [-0.51 -0.48 -0.38] max [0.02 0.03 0.11]  S4.A.S4=-0.09 S1.A.S1=-0.13  mean diag=-0.144  cos(minvec,S4)=0.05 cos(maxvec,S4)=0.04
+L1H3 sym eig min [-0.63 -0.57 -0.4 ] max [0.03 0.05 0.09]  S4.A.S4=-0.10 S1.A.S1=-0.08  mean diag=-0.158  cos(minvec,S4)=0.06 cos(maxvec,S4)=0.34
+L1H4 sym eig min [-0.62 -0.49 -0.46] max [0.04 0.04 0.06]  S4.A.S4=-0.09 S1.A.S1=-0.09  mean diag=-0.146  cos(minvec,S4)=0.09 cos(maxvec,S4)=0.02
+L1H5 sym eig min [-0.87 -0.65 -0.58] max [0.04 0.05 0.07]  S4.A.S4=-0.39 S1.A.S1=-0.32  mean diag=-0.212  cos(minvec,S4)=0.51 cos(maxvec,S4)=0.18
+L2H0 sym eig min [-0.41 -0.37 -0.34] max [0.19 0.22 0.28]  S4.A.S4=-0.01 S1.A.S1=-0.08  mean diag=-0.058  cos(minvec,S4)=0.06 cos(maxvec,S4)=0.15
+L2H1 sym eig min [-0.46 -0.43 -0.33] max [0.2  0.21 0.24]  S4.A.S4=-0.19 S1.A.S1=-0.18  mean diag=-0.072  cos(minvec,S4)=0.40 cos(maxvec,S4)=0.15
+L2H2 sym eig min [-0.96 -0.79 -0.75] max [0.17 0.26 0.29]  S4.A.S4=-0.61 S1.A.S1=-0.48  mean diag=-0.207  cos(minvec,S4)=0.70 cos(maxvec,S4)=0.14
+L2H3 sym eig min [-0.34 -0.33 -0.31] max [0.18 0.18 0.22]  S4.A.S4=-0.02 S1.A.S1=-0.01  mean diag=-0.057  cos(minvec,S4)=0.09 cos(maxvec,S4)=0.01
+L2H4 sym eig min [-0.44 -0.34 -0.3 ] max [0.16 0.19 0.25]  S4.A.S4=-0.05 S1.A.S1=-0.17  mean diag=-0.054  cos(minvec,S4)=0.25 cos(maxvec,S4)=0.14
+L2H5 sym eig min [-0.3  -0.22 -0.21] max [0.16 0.2  0.24]  S4.A.S4=-0.08 S1.A.S1=-0.09  mean diag=-0.023  cos(minvec,S4)=0.37 cos(maxvec,S4)=0.16
+L3H0 sym eig min [-0.37 -0.26 -0.25] max [0.26 0.32 0.34]  S4.A.S4=-0.07 S1.A.S1=-0.02  mean diag=-0.004  cos(minvec,S4)=0.13 cos(maxvec,S4)=0.06
+L3H1 sym eig min [-0.37 -0.27 -0.25] max [0.18 0.2  0.22]  S4.A.S4=-0.03 S1.A.S1=-0.03  mean diag=-0.044  cos(minvec,S4)=0.01 cos(maxvec,S4)=0.35
+L3H2 sym eig min [-0.32 -0.25 -0.23] max [0.29 0.31 0.35]  S4.A.S4=+0.05 S1.A.S1=+0.08  mean diag=+0.019  cos(minvec,S4)=0.25 cos(maxvec,S4)=0.40
+L3H3 sym eig min [-0.21 -0.14 -0.13] max [0.1  0.13 0.15]  S4.A.S4=-0.04 S1.A.S1=-0.05  mean diag=-0.011  cos(minvec,S4)=0.12 cos(maxvec,S4)=0.18
+L3H4 sym eig min [-0.31 -0.27 -0.21] max [0.2  0.21 0.25]  S4.A.S4=-0.19 S1.A.S1=-0.19  mean diag=-0.013  cos(minvec,S4)=0.60 cos(maxvec,S4)=0.02
+L3H5 sym eig min [-0.22 -0.21 -0.15] max [0.33 0.36 0.36]  S4.A.S4=-0.04 S1.A.S1=-0.00  mean diag=+0.064  cos(minvec,S4)=0.53 cos(maxvec,S4)=0.05
+
+```

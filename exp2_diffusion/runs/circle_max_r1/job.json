@@ -1,0 +1,9 @@
+{
+ "exp": "exp2_diffusion",
+ "item": "circle",
+ "effort": "max",
+ "rep": 1,
+ "primary": false,
+ "prompt": "<repo>/lm_understand-logs/exp2_diffusion/runs/circle/prompt.txt",
+ "dir": "<repo>/runs/opus55/exp2_diffusion/circle_max_r1"
+}

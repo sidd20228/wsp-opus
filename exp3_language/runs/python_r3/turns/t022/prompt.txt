@@ -1,0 +1,44 @@
+OUTPUT of run 21 of at most 100:
+```
+L0H1 3.27@58  Hfrac 0.95  Tfrac 0.02
+L0H1 2.28@180  Hfrac 0.68  Tfrac 0.01
+L0H1 1.55@129  Hfrac 0.69  Tfrac 0.01
+L0H1 1.11@135  Hfrac 0.62  Tfrac 0.01
+L0H1 0.42@128  Hfrac 0.62  Tfrac 0.01
+L0H1 0.33@52  Hfrac 0.62  Tfrac 0.01
+L0H1 0.32@180  Hfrac 0.69  Tfrac 0.01
+L0H1 0.26@90  Hfrac 0.56  Tfrac 0.01
+L0H5 2.75@53  Hfrac 0.93  Tfrac 0.02
+L0H5 1.65@57  Hfrac 0.72  Tfrac 0.00
+L0H5 1.43@0  Hfrac 0.63  Tfrac 0.00
+L0H5 1.41@29  Hfrac 0.66  Tfrac 0.00
+L0H5 1.35@78  Hfrac 0.64  Tfrac 0.00
+L0H5 1.33@55  Hfrac 0.67  Tfrac 0.00
+L0H5 1.16@106  Hfrac 0.69  Tfrac 0.00
+L0H5 1.11@87  Hfrac 0.67  Tfrac 0.00
+L0H2 0.72@0  Hfrac 0.91  Tfrac 0.02
+L0H2 0.43@0  Hfrac 0.90  Tfrac 0.03
+L0H2 0.18@180  Hfrac 0.62  Tfrac 0.29
+L0H2 0.11@177  Hfrac 0.53  Tfrac 0.36
+L0H2 0.09@0  Hfrac 0.75  Tfrac 0.08
+L0H2 0.08@180  Hfrac 0.57  Tfrac 0.33
+L0H2 0.06@144  Hfrac 0.55  Tfrac 0.26
+L0H2 0.06@180  Hfrac 0.60  Tfrac 0.23
+L0H3 0.62@176  Hfrac 0.91  Tfrac 0.03
+L0H3 0.16@180  Hfrac 0.69  Tfrac 0.14
+L0H3 0.14@70  Hfrac 0.77  Tfrac 0.07
+L0H3 0.06@0  Hfrac 0.69  Tfrac 0.13
+L0H3 0.05@165  Hfrac 0.67  Tfrac 0.10
+L0H3 0.04@167  Hfrac 0.66  Tfrac 0.09
+L0H3 0.04@115  Hfrac 0.68  Tfrac 0.10
+L0H3 0.03@180  Hfrac 0.75  Tfrac 0.09
+L0H0 0.39@180  Hfrac 0.90  Tfrac 0.01
+L0H0 0.08@55  Hfrac 0.94  Tfrac 0.01
+L0H0 0.02@180  Hfrac 0.66  Tfrac 0.03
+L0H0 0.02@125  Hfrac 0.69  Tfrac 0.02
+L0H0 0.01@180  Hfrac 0.68  Tfrac 0.02
+L0H0 0.01@172  Hfrac 0.69  Tfrac 0.02
+L0H0 0.01@119  Hfrac 0.61  Tfrac 0.02
+L0H0 0.01@180  Hfrac 0.69  Tfrac 0.02
+
+```

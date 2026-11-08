@@ -1,0 +1,10 @@
+OUTPUT of run 42 of at most 100:
+```
+H1 cos(a,b) pct [-0.58 -0.2   0.14  0.41  0.63]  null [-0.33 -0.16 -0.02  0.12  0.31]  frac>0.5: 0.161 null 0.005 ; frac<-0.5: 0.075 null 0.005
+   norms a med 0.83 b med 0.39
+H5 cos(a,b) pct [-0.79 -0.38 -0.08  0.23  0.55]  null [-0.32 -0.12  0.    0.14  0.32]  frac>0.5: 0.071 null 0.009 ; frac<-0.5: 0.163 null 0.011
+   norms a med 0.83 b med 0.43
+H1+H5 cos(a,b) pct [-0.79 -0.39  0.06  0.35  0.62]  null [-0.29 -0.15 -0.01  0.12  0.31]  frac>0.5: 0.125 null 0.004 ; frac<-0.5: 0.194 null 0.007
+   norms a med 0.83 b med 0.68
+
+```

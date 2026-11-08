@@ -1,0 +1,80 @@
+OUTPUT of Python run 9 of at most 120:
+```
+pos 14 to move X
+  .XXOO.OOO
+  X.XXOOOO.
+  XX.XXXO.O
+  XXX.XOOOO
+  X.XXXOOOO
+  XX.XOOOO.
+  .XXXXXOOO
+  XXXXXOO.O
+  .X.XOOOOO
+   pass -3.0
+    (0, 0) logit -20.50 PL6 -18.5 IP 3.00 IN 0.00 EYE 0.50 SA 0.0
+    (8, 0) logit -33.25 PL6 -31.2 IP 3.12 IN 0.00 EYE 1.00 SA 0.0
+    (1, 1) logit -37.00 PL6 -36.5 IP 5.75 IN 0.00 EYE 1.00 SA 0.0
+    (2, 2) logit -39.25 PL6 -39.8 IP 7.38 IN 0.00 EYE 1.00 SA 0.0
+    (3, 3) logit -42.20 PL6 -43.0 IP 5.88 IN 0.00 EYE 1.25 SA 0.0
+    (5, 2) logit -46.75 PL6 -47.2 IP 8.00 IN 0.00 EYE 1.25 SA 0.0
+    (8, 2) logit -48.00 PL6 -46.0 IP 4.25 IN 0.00 EYE 1.50 SA 0.0
+  pass logit -3.0 n legal 10
+pos 15 to move O
+  XXXXXO.OO
+  XXXXXOO.O
+  .X.XXOOOO
+  XXXXXOXOO
+  XXX.XX.XX
+  OOOXXXX.X
+  .OOOOXXXX
+  OOOOOOOOO
+  OOO.OOO.O
+   pass -3.0
+    (0, 6) logit -33.50 PL6 -31.5 IP 3.25 IN 0.00 EYE 1.00 SA 0.0
+    (6, 0) logit -36.00 PL6 -46.0 IP 4.25 IN 0.00 EYE 1.50 SA 1.0
+    (8, 7) logit -38.25 PL6 -43.2 IP 2.88 IN 0.00 EYE 1.50 SA 0.0
+    (1, 7) logit -42.50 PL6 -42.0 IP 5.38 IN 0.00 EYE 1.25 SA 0.0
+    (8, 3) logit -45.00 PL6 -50.0 IP 6.25 IN 0.00 EYE 1.50 SA 0.0
+    (8, 1) logit -29.00 PL6 -48.0 IP 5.25 IN 0.00 EYE 1.50 SA 0.0
+    (8, 2) logit -6.00 PL6 -11.0 IP 5.50 IN 0.00 EYE 0.00 SA 0.0
+  pass logit -3.0 n legal 6
+pos 20 to move X
+  .OX.XXX.X
+  OOXXXX.XX
+  OOOXXXX.X
+  O.OX.XXXX
+  .O.OXX.X.
+  OOOXXXXXX
+  OOOOOXOOO
+  .OO.OOOOO
+  OOOO.O.O.
+   pass -3.0
+    (3, 4) logit -37.20 PL6 -38.0 IP 6.50 IN 0.00 EYE 1.00 SA 0.0
+    (0, 7) logit -37.25 PL6 -35.2 IP 5.12 IN 0.00 EYE 1.00 SA 0.0
+    (1, 6) logit -42.00 PL6 -41.5 IP 8.25 IN 0.00 EYE 1.00 SA 0.0
+    (0, 3) logit -47.25 PL6 -45.2 IP 3.88 IN 0.00 EYE 1.50 SA 0.0
+    (2, 7) logit -47.50 PL6 -47.0 IP 7.88 IN 0.00 EYE 1.25 SA 0.0
+    (4, 8) logit -48.00 PL6 -46.0 IP 4.25 IN 0.00 EYE 1.50 SA 0.0
+    (4, 6) logit -50.25 PL6 -50.8 IP 6.62 IN 0.00 EYE 1.50 SA 0.0
+  pass logit -3.0 n legal 8
+pos 16 to move X
+  .O.O.OOOO
+  O.OOOOOXX
+  .OOXXOOXX
+  OOOXXXXXX
+  XXXXXXXX.
+  XX.XX.XXX
+  XXXOOXX.X
+  OXOOOXXXO
+  OOO.OOOO.
+    (8, 8) logit 38.50 PL6 -0.5 IP 0.00 IN 0.25 EYE 0.00 SA 1.0
+   pass -3.0
+    (5, 2) logit -25.75 PL6 -33.2 IP 4.12 IN 0.00 EYE 1.00 SA 0.0
+    (6, 7) logit -36.00 PL6 -35.5 IP 5.25 IN 0.00 EYE 1.00 SA 0.0
+    (5, 5) logit -38.45 PL6 -39.2 IP 7.12 IN 0.00 EYE 1.00 SA 0.0
+    (4, 8) logit -51.75 PL6 -49.8 IP 6.12 IN 0.00 EYE 1.50 SA 0.0
+    (8, 1) logit -8955.25 PL6 -1.2 IP 0.00 IN 0.62 EYE 0.00 SA 1001.0
+    (8, 2) logit -8965.25 PL6 -4.2 IP 0.00 IN 2.12 EYE 0.00 SA 1001.0
+  pass logit -3.0 n legal 6
+
+```

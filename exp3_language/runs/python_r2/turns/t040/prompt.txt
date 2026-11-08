@@ -1,0 +1,22 @@
+OUTPUT of run 39 of at most 100:
+```
+L1H0 R(g)=-0.115 avg diag=-0.032 ratio=3.6   |static g|=3.15 cos(g_lh,gL1)=0.88
+L1H1 R(g)=0.061 avg diag=-0.172 ratio=-0.4   |static g|=10.46 cos(g_lh,gL1)=0.92
+L1H2 R(g)=-0.140 avg diag=-0.111 ratio=1.3   |static g|=7.57 cos(g_lh,gL1)=0.88
+L1H3 R(g)=0.168 avg diag=-0.112 ratio=-1.5   |static g|=7.30 cos(g_lh,gL1)=0.90
+L1H4 R(g)=-0.048 avg diag=-0.109 ratio=0.4   |static g|=8.29 cos(g_lh,gL1)=0.90
+L1H5 R(g)=-0.039 avg diag=-0.143 ratio=0.3   |static g|=8.58 cos(g_lh,gL1)=0.85
+L2H0 R(g)=0.092 avg diag=-0.052 ratio=-1.8   |static g|=2.14 cos(g_lh,gL1)=0.53
+L2H1 R(g)=0.036 avg diag=-0.041 ratio=-0.9   |static g|=1.24 cos(g_lh,gL1)=0.26
+L2H2 R(g)=0.023 avg diag=-0.174 ratio=-0.1   |static g|=4.54 cos(g_lh,gL1)=0.95
+L2H3 R(g)=0.015 avg diag=-0.042 ratio=-0.3   |static g|=3.35 cos(g_lh,gL1)=0.89
+L2H4 R(g)=0.044 avg diag=-0.036 ratio=-1.2   |static g|=3.19 cos(g_lh,gL1)=0.79
+L2H5 R(g)=0.002 avg diag=-0.028 ratio=-0.1   |static g|=1.79 cos(g_lh,gL1)=0.70
+L3H0 R(g)=-0.059 avg diag=0.007 ratio=-8.0   |static g|=0.84 cos(g_lh,gL1)=0.37
+L3H1 R(g)=0.015 avg diag=-0.025 ratio=-0.6   |static g|=0.73 cos(g_lh,gL1)=-0.19
+L3H2 R(g)=0.001 avg diag=0.017 ratio=0.0   |static g|=0.74 cos(g_lh,gL1)=0.68
+L3H3 R(g)=0.006 avg diag=-0.007 ratio=-0.9   |static g|=0.47 cos(g_lh,gL1)=0.27
+L3H4 R(g)=0.042 avg diag=-0.003 ratio=-14.1   |static g|=0.76 cos(g_lh,gL1)=0.48
+L3H5 R(g)=0.136 avg diag=0.080 ratio=1.7   |static g|=0.71 cos(g_lh,gL1)=-0.15
+
+```

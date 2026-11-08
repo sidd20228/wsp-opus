@@ -1,0 +1,12 @@
+OUTPUT of run 25 of at most 100:
+```
+H3 u1,u2 vs v1,v2 overlaps [[ 0.743 -0.063]
+ [ 0.327  0.475]]
+H3 sym eig [119.8  36.3 -22.1 -14.6]
+H2 QK restricted to H3 plane (x48):
+ [[ 308.488  271.855]
+ [-233.039  204.482]]
+eig [256.485+246.269j 256.485-246.269j] angle deg [ 43.836 -43.836]
+in-plane fraction: 0.85 0.9171967
+
+```

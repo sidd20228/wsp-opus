@@ -1,0 +1,353 @@
+[
+ {
+  "exp": "exp4_fix_car",
+  "item": "oneshot_repair",
+  "effort": "high",
+  "rep": 1,
+  "primary": true,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 140.2,
+  "output_tokens": 13120,
+  "thinking_tokens": 11609,
+  "input_tokens": 435587,
+  "list_usd": 3.7470879999999998,
+  "edit_report": {
+   "block": true,
+   "statements": 25,
+   "applied": 25,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "changes": {
+   "changed": 2288,
+   "entries": 171664,
+   "frac_changed": 0.01332836238232827,
+   "per_tensor": {
+    "embed.W": 1257,
+    "embed.b": 2,
+    "actor0.W": 127,
+    "actor0.b": 1,
+    "actor1.W": 128,
+    "actor1.b": 1,
+    "actor2.W": 128,
+    "actor2.b": 1,
+    "actor3.W": 127,
+    "actor3.b": 1,
+    "actor4.W": 128,
+    "actor4.b": 1,
+    "actor_head.W": 383,
+    "actor_head.b": 3
+   }
+  },
+  "_src_wall": 140.2,
+  "kinetix": {
+   "seed": 1,
+   "episodes": 1024,
+   "test": {
+    "level": "l/h2_car_ramp",
+    "kinetix_commit": "80ee9c292837c825cafaf9889323fdcc212efd1b",
+    "jax": "0.4.38",
+    "device": "cuda:0",
+    "device_kind": "NVIDIA A10",
+    "seed": 1,
+    "mode": "sample",
+    "precision": "default",
+    "wall_s": 23.28,
+    "episodes": 1024,
+    "success": 1.0,
+    "red": 0.0,
+    "invalid": 0.0,
+    "timeout": 0.0,
+    "unfinished": 0,
+    "return": 1.37313218601048,
+    "length": 72.0,
+    "progress": 1.0,
+    "success_count": 1024,
+    "kinetix_done_consistent": true,
+    "episode0": {
+     "outcome": "success",
+     "length": 72,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.85,
+        0.597,
+        -0.012
+       ],
+       "green": [
+        3.588,
+        0.61
+       ],
+       "wheel": [
+        4.158,
+        0.618
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        4.14,
+        0.595,
+        -0.006
+       ],
+       "green": [
+        3.877,
+        0.607
+       ],
+       "wheel": [
+        4.448,
+        0.618
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        2.539,
+        0.724,
+        -0.428
+       ],
+       "green": [
+        2.304,
+        0.842
+       ],
+       "wheel": [
+        2.83,
+        0.619
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        1.417,
+        0.98,
+        0.189
+       ],
+       "green": [
+        1.157,
+        0.941
+       ],
+       "wheel": [
+        1.714,
+        1.062
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 71,
+       "body": [
+        0.943,
+        0.609,
+        0.059
+       ],
+       "green": [
+        0.679,
+        0.603
+       ],
+       "wheel": [
+        1.25,
+        0.652
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    },
+    "argmax_wall_s": 17.07,
+    "argmax_outcome": "success",
+    "argmax_success": 1.0,
+    "argmax_return": 1.373132348060608,
+    "argmax_length": 72,
+    "argmax_episode": {
+     "outcome": "success",
+     "length": 72,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.85,
+        0.597,
+        -0.012
+       ],
+       "green": [
+        3.588,
+        0.61
+       ],
+       "wheel": [
+        4.158,
+        0.618
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        4.14,
+        0.595,
+        -0.006
+       ],
+       "green": [
+        3.877,
+        0.607
+       ],
+       "wheel": [
+        4.448,
+        0.618
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        2.539,
+        0.724,
+        -0.428
+       ],
+       "green": [
+        2.304,
+        0.842
+       ],
+       "wheel": [
+        2.83,
+        0.619
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        1.417,
+        0.98,
+        0.189
+       ],
+       "green": [
+        1.157,
+        0.941
+       ],
+       "wheel": [
+        1.714,
+        1.062
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 71,
+       "body": [
+        0.943,
+        0.609,
+        0.059
+       ],
+       "green": [
+        0.679,
+        0.603
+       ],
+       "wheel": [
+        1.25,
+        0.652
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    }
+   }
+  }
+ }
+]

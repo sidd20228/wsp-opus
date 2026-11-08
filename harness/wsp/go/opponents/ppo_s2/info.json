@@ -1,0 +1,10 @@
+{
+ "name": "ppo_s2",
+ "role": "hidden",
+ "algo": "ppo",
+ "seed": 2,
+ "iteration": 20000,
+ "games_per_iteration": 1024,
+ "source": "wsp-go:train/ppo_sc/s2/iter20000.npz",
+ "settings": "see wsp/go/train.py and wsp/go/README.md"
+}

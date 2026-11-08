@@ -1,0 +1,9 @@
+{
+ "images": "A thin white triangle outline on a black background, pointing up.\n- The apex is near the top centre (row 1, columns about 5\u20136).\n- Two one-pixel legs slope down to the left and right.\n- A horizontal base sits around rows 7\u201310 and spans up to about columns 1\u201310.\n- The outer border stays black. Size and slopes vary: some triangles are tall and wide, others shorter and narrower.",
+ "guess": "triangle",
+ "confidence": 45.0,
+ "example_rows": 12,
+ "example_filled": false,
+ "correct": true,
+ "_src_wall": 305.9
+}

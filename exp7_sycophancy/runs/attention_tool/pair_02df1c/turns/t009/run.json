@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "aec643ed-5147-4de0-93cb-60b4e3728d10",
+ "cwd": "<home>/.wsp/c/aec643ed",
+ "turn": 9,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "aec643ed-5147-4de0-93cb-60b4e3728d10"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 44.5,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 12071,
+  "cache_read_input_tokens": 47693,
+  "output_tokens": 4370,
+  "output_tokens_details": {
+   "thinking_tokens": 2101
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 12071,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4370,
+    "cache_read_input_tokens": 47693,
+    "cache_creation_input_tokens": 12071,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 12071
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 34,
+   "outputTokens": 29645,
+   "thinkingTokens": 15471,
+   "cacheReadInputTokens": 214739,
+   "cacheCreationInputTokens": 55800,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 55800,
+   "webSearchRequests": 0,
+   "costUSD": 1.0823838000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.0823838000000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 44.5,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Two findings.\n\n- **Head-specific QK changes don't line up with the attention changes.** L10H2, the head with the biggest attention difference, has one of the smallest QK changes (1.0%), and the same holds for L17H2 (0.96%). Their extra attention to the guess in B must come from changed residual inpu",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.48,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.19,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "a67832dd-29b1-42f6-ac35-31b27e20eefe",
+     "session_id": "aec643ed-5147-4de0-93cb-60b4e3728d10"
+    }
+   ]
+  }
+ ]
+}

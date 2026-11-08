@@ -1,0 +1,17 @@
+OUTPUT of run 7 of at most 100:
+```
+L0H0: qdir in S 0.51 in V3 0.14 in F 0.14 | kdir in S 0.83 in V3 0.07 in F 0.11 | v top2 in S 0.02 V3 0.40 F 0.46
+      key-bias vector norm 0.344, in S 0.34 in V3 0.34 in F 0.30;  |W_q b|=0.504
+L0H1: qdir in S 0.31 in V3 0.05 in F 0.08 | kdir in S 0.09 in V3 0.08 in F 0.31 | v top2 in S 0.63 V3 0.04 F 0.08
+      key-bias vector norm 0.100, in S 0.12 in V3 0.18 in F 0.33;  |W_q b|=0.228
+L0H2: qdir in S 0.60 in V3 0.04 in F 0.09 | kdir in S 0.22 in V3 0.20 in F 0.31 | v top2 in S 0.72 V3 0.04 F 0.08
+      key-bias vector norm 0.057, in S 0.23 in V3 0.23 in F 0.30;  |W_q b|=0.146
+L0H3: qdir in S 0.89 in V3 0.07 in F 0.08 | kdir in S 0.99 in V3 0.09 in F 0.04 | v top2 in S 0.03 V3 1.00 F 0.58
+      key-bias vector norm 0.343, in S 0.76 in V3 0.14 in F 0.14;  |W_q b|=0.467
+L0H4: qdir in S 0.33 in V3 0.08 in F 0.10 | kdir in S 0.19 in V3 0.30 in F 0.34 | v top2 in S 0.60 V3 0.05 F 0.10
+      key-bias vector norm 0.134, in S 0.20 in V3 0.33 in F 0.33;  |W_q b|=0.270
+L0H5: qdir in S 0.61 in V3 0.04 in F 0.10 | kdir in S 0.06 in V3 0.59 in F 0.49 | v top2 in S 0.90 V3 0.05 F 0.09
+      key-bias vector norm 0.042, in S 0.06 in V3 0.56 in F 0.48;  |W_q b|=0.143
+ln1_b.0 in S 0.05 in V3 0.44 in F 0.68
+
+```

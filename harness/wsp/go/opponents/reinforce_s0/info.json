@@ -1,0 +1,10 @@
+{
+ "name": "reinforce_s0",
+ "role": "hidden",
+ "algo": "reinforce",
+ "seed": 0,
+ "iteration": 5000,
+ "games_per_iteration": 1024,
+ "source": "wsp-go:train/reinforce/s0/iter5000.npz",
+ "settings": "see wsp/go/train.py and wsp/go/README.md"
+}

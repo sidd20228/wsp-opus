@@ -1,0 +1,24 @@
+OUTPUT of run 3 of at most 100:
+```
+top ln1_w dims [211 273 223 180  50 162  60 228  48 307 359 184 240 125 132 169 314 317 300 152 158 246 256  59 351 356 191 224 102  15 178 151 320  12 136  56 239 207  35  21]
+[1.01 0.98 0.97 0.95 0.93 0.91 0.9  0.9  0.87 0.84 0.83 0.83 0.82 0.81 0.81 0.81 0.8  0.79 0.78 0.78 0.77 0.76 0.74 0.74 0.74 0.71 0.7  0.69 0.69 0.68 0.67 0.65 0.65 0.65 0.64 0.63 0.63 0.63 0.62 0.61]
+W_q 0 top10 eff share 0.425 top40 0.791 corr colnorm vs w1 0.559
+W_q 1 top10 eff share 0.207 top40 0.541 corr colnorm vs w1 0.172
+W_q 2 top10 eff share 0.26 top40 0.599 corr colnorm vs w1 -0.037
+W_q 3 top10 eff share 0.344 top40 0.704 corr colnorm vs w1 0.364
+W_q 4 top10 eff share 0.203 top40 0.494 corr colnorm vs w1 -0.517
+W_q 5 top10 eff share 0.194 top40 0.541 corr colnorm vs w1 0.19
+W_k 0 top10 eff share 0.162 top40 0.432 corr colnorm vs w1 -0.5
+W_k 1 top10 eff share 0.458 top40 0.786 corr colnorm vs w1 0.682
+W_k 2 top10 eff share 0.315 top40 0.631 corr colnorm vs w1 -0.028
+W_k 3 top10 eff share 0.201 top40 0.537 corr colnorm vs w1 -0.14
+W_k 4 top10 eff share 0.186 top40 0.523 corr colnorm vs w1 -0.338
+W_k 5 top10 eff share 0.38 top40 0.739 corr colnorm vs w1 0.65
+W_v 0 top10 eff share 0.33 top40 0.686 corr colnorm vs w1 0.401
+W_v 1 top10 eff share 0.095 top40 0.292 corr colnorm vs w1 -0.774
+W_v 2 top10 eff share 0.112 top40 0.349 corr colnorm vs w1 -0.632
+W_v 3 top10 eff share 0.164 top40 0.441 corr colnorm vs w1 -0.554
+W_v 4 top10 eff share 0.446 top40 0.808 corr colnorm vs w1 0.612
+W_v 5 top10 eff share 0.106 top40 0.316 corr colnorm vs w1 -0.706
+
+```

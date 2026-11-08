@@ -1,0 +1,14 @@
+OUTPUT of run 34 of at most 100:
+```
+baseline 1/sqrt(384)=0.051
+MLP0 x L0H0: comp 0.036  |Ra OV| 13.59
+MLP0 x L0H1: comp 0.040  |Ra OV| 11.47
+MLP0 x L0H2: comp 0.078  |Ra OV| 8.24
+MLP0 x L0H3: comp 0.073  |Ra OV| 5.33
+MLP0 x L0H4: comp 0.038  |Ra OV| 6.29
+MLP0 x L0H5: comp 0.026  |Ra OV| 9.96
+MLP1 comp with heads: 0.03 0.03 0.08 0.05 0.03 0.02 0.07 0.06 0.07 0.09 0.08 0.08
+MLP2 comp with heads: 0.02 0.03 0.06 0.04 0.03 0.02 0.06 0.05 0.05 0.06 0.05 0.06 0.06 0.06 0.06 0.06 0.06 0.06
+MLP3 comp with heads: 0.03 0.03 0.05 0.05 0.03 0.03 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.04 0.05 0.06 0.05 0.06
+
+```

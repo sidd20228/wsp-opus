@@ -1,0 +1,7 @@
+{
+ "answer_line": "Breakout (a mini-Breakout / Arkanoid-style brick breaker).",
+ "guess": "breakout",
+ "confidence": 80.0,
+ "correct": true,
+ "_src_wall": 186.4
+}

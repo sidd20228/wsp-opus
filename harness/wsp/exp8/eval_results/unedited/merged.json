@@ -1,0 +1,41 @@
+{
+ "gsm8k": {
+  "acc": 0.13760424564063684,
+  "cut_share": 0.8722517058377559,
+  "mean_tokens": 29189.58339651251,
+  "problems": 1319,
+  "complete": true,
+  "acc_lenient": 0.400303260045489
+ },
+ "ifeval": {
+  "acc": 0.20147874306839186,
+  "cut_share": 0.7541589648798521,
+  "mean_tokens": 25532.95471349353,
+  "problems": 541,
+  "complete": true,
+  "acc_lenient": 0.20147874306839186
+ },
+ "gpqa": {
+  "acc": 0.22727272727272727,
+  "cut_share": 0.6414141414141414,
+  "mean_tokens": 24537.939393939392,
+  "problems": 198,
+  "complete": true,
+  "acc_lenient": 0.22727272727272727
+ },
+ "math500": {
+  "acc": 0.084,
+  "cut_share": 0.9245,
+  "mean_tokens": 30748.8765,
+  "problems": 500,
+  "complete": true,
+  "acc_lenient": 0.254
+ },
+ "_meta": {
+  "gpu_hours": 5.6712308612134725,
+  "errors": [],
+  "wall_s_this_call": 793.15154504776,
+  "protocol": "think35",
+  "vllm": "0.30.0"
+ }
+}

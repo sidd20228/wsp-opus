@@ -1,0 +1,9 @@
+{
+ "images": "- Each sample is one solid white triangle pointing up, on a black background.\n- It has a flat horizontal base at the bottom and an apex at the top. The sides spread out about 1 column every 1.7 rows, so it is roughly equilateral (height \u2248 0.87 \u00d7 base).\n- Size ranges from tiny (about 3 rows tall with a 3\u20135 px base, for example apex (7,6) and base on row 9) to large (8\u20139 rows tall with a base about ",
+ "guess": "triangle",
+ "confidence": 75.0,
+ "example_rows": 12,
+ "example_filled": true,
+ "correct": true,
+ "_src_wall": 2660.3
+}

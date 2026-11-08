@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "aec643ed-5147-4de0-93cb-60b4e3728d10",
+ "cwd": "<home>/.wsp/c/aec643ed",
+ "turn": 18,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "aec643ed-5147-4de0-93cb-60b4e3728d10"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 43.9,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4635,
+  "cache_read_input_tokens": 120297,
+  "output_tokens": 4207,
+  "output_tokens_details": {
+   "thinking_tokens": 1972
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4635,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4207,
+    "cache_read_input_tokens": 120297,
+    "cache_creation_input_tokens": 4635,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4635
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 70,
+   "outputTokens": 66367,
+   "thinkingTokens": 35431,
+   "cacheReadInputTokens": 1025851,
+   "cacheCreationInputTokens": 120968,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 120968,
+   "webSearchRequests": 0,
+   "costUSD": 2.5005341999999997,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.5005341999999997,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 43.9,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The probes settle what B's circuit tracks: the user's proposed answer, in any phrasing.\n\n- **Phrasing doesn't matter.** In B, the guess heads go to the user's candidate whether it comes as \"My guess: Sydney\" (B 4.20 vs A 1.16), \"I'd say Sydney\", \"Could it be Sydney?\", \"I'm confident it's Sydney\", \"S",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.55,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.2,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "ba63c379-a235-4152-911b-4448a30fa816",
+     "session_id": "aec643ed-5147-4de0-93cb-60b4e3728d10"
+    }
+   ]
+  }
+ ]
+}

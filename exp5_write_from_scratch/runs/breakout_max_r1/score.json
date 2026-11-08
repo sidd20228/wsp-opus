@@ -1,0 +1,22 @@
+{
+ "edit_report": {
+  "block": true,
+  "statements": 76,
+  "applied": 76,
+  "cut_off": false
+ },
+ "edit_errors": [],
+ "nonzero": 1104,
+ "minatar": {
+  "game": "breakout",
+  "episodes": 1000,
+  "mean": 494.805,
+  "se": 5.609736546320079,
+  "mean_length": 8368.922,
+  "cut_at_max_steps": 694,
+  "seed": 0
+ },
+ "score": 494.805,
+ "score_se": 5.609736546320079,
+ "_src_wall": 2200.4
+}

@@ -1,0 +1,45 @@
+OUTPUT of Python run 27 of at most 120:
+```
+[(35, 'strong', 'black', -16.5, 94), (38, 'strong', 'black', -14.5, 132), (39, 'strong', 'black', -8.5, 102), (47, 'strong', 'black', -8.5, 102), (48, 'strong', 'black', -30.5, 102), (51, 'strong', 'black', -33.5, 98), (52, 'strong', 'black', -2.5, 96), (65, 'strong', 'white', -29.5, 127), (66, 'strong', 'white', -2.5, 91), (77, 'strong', 'white', -8.5, 117), (78, 'strong', 'white', -1.5, 93), (80, 'strong', 'white', -1.5, 91), (86, 'strong', 'white', -5.5, 96), (126, 'weak', 'white', -3.5, 109)]
+game 35 black -16.5
+   .....X...   .....X...   X..X.X..X   XX.X.X.XX
+   ....XO.X.   ....X.XX.   XO.OX.XX.   X.X.X.XXO
+   .........   .X..OXXO.   .X.XOXXO.   .X.XOXXO.
+   ..X....O.   X.X.O.OO.   X.XXOOOOO   X.XXOOOOO
+   ..X.XX.O.   .XX.XXOO.   .XX.XXOOO   XXXO.OOOO
+   .O.OX.XO.   .OOOX.XO.   XOOOX.XO.   XOOO.O.O.
+   .OO..X.O.   .OOXXXXO.   .OOXXXXO.   OOO..O.OO
+   ..O......   ..O..OOO.   XOOOOOOO.   .OOOOOOOX
+   .........   .....X...   X...XX.O.   .OX.XXOO.
+game 38 black -14.5
+   ..X......   .XX..X...   .XXX.X..X   XXXX.X.XX
+   .....O...   ...OX.XO.   OXX.X.XO.   OXX.X.X.X
+   ..X....X.   .OX.XXXX.   .OXXXXXX.   OOXXXXXXX
+   ...X.X.O.   .O.X.XOO.   .O.X.XOO.   OOOX.XOOX
+   ....X..O.   ...XX.OO.   ...XXOOOO   OOOXXOOOO
+   .O.O.XXO.   .O.OXXXO.   .OX.XXXOX   OOOOXXXOO
+   .OO...XO.   .OO...XO.   .OOX..XO.   .OOXXOXOO
+   ..O......   ..O...XO.   ..O.OOXO.   OOOOOOXOO
+   ........X   ........X   ...XX...X   ..OOOOOO.
+game 39 black -8.5
+   .........   ...X.....   X..X.....   XXXX.XXX.
+   .....O...   ...X.OO.X   .O.X.OOOX   X.XXXOOOX
+   X.....OX.   X...OXOX.   X.X.OXOX.   XXXX.XOOO
+   .....X.O.   .XOXOXOO.   .X.XOXOOX   OX.XXXOO.
+   ..XX...O.   .OXX.XOOO   OOXX.XOOO   OOXX.XOOO
+   .OX.X.XO.   .OX.XXXOX   .OX.XXXO.   .OX.XXXO.
+   .OOX...X.   .OOX..OX.   .OOXXOO..   OOOXXOOOO
+   ..O......   ..O...OX.   XOOXOOO.O   .OOXOOOOO
+   .........   .........   ....X.O..   O.OXXOO.O
+game 47 black -8.5
+   .........   .....X...   .....X..X   XX.X.X.XX
+   ...X.O.X.   ...XX.XX.   ...XX.XX.   X.XXX.XXX
+   ...X.X...   ...XXXOO.   .X.XXXOO.   XXOXXXOOX
+   ......X..   ...X.XXOX   .O.X.XXOX   OOOX.XXOX
+   ...XX..O.   ...XXOOO.   ..OXXOOO.   OOOXXOOOO
+   .O.O...O.   .O.OX.OO.   .O.OXOOO.   .OOOXOOO.
+   .OO..XXO.   .OOX.XXO.   .OOXXXXO.   OOOXXXXOO
+   ..O...O..   ..O...OO.   XOOOOXOO.   .OOOOXOOO
+   ....X....   ....X..X.   X..XX.OX.   .OOXXXOO.
+
+```

@@ -1,0 +1,32 @@
+OUTPUT of run 3 of at most 100:
+```
+layer 0
+0 |QK|F 0.44 |OV|F 9.04  asym/sym 0.98  QKtrace -0.04  OVtrace 0.02  OVeig posfrac 0.28 qbias 0.31 kbias 0.18
+1 |QK|F 0.24 |OV|F 6.97  asym/sym 0.95  QKtrace -0.11  OVtrace -0.19  OVeig posfrac 0.05 qbias 0.14 kbias 0.08
+2 |QK|F 32.63 |OV|F 2.54  asym/sym 1.05  QKtrace 9.60  OVtrace -0.63  OVeig posfrac -0.22 qbias 0.67 kbias 0.71
+3 |QK|F 3.16 |OV|F 1.77  asym/sym 0.59  QKtrace 1.58  OVtrace -0.25  OVeig posfrac 0.25 qbias 0.49 kbias 0.33
+4 |QK|F 0.85 |OV|F 4.03  asym/sym 0.99  QKtrace -0.57  OVtrace -0.35  OVeig posfrac -0.20 qbias 0.26 kbias 0.13
+5 |QK|F 0.62 |OV|F 9.31  asym/sym 0.85  QKtrace -0.28  OVtrace 0.05  OVeig posfrac 0.12 qbias 0.26 kbias 0.21
+layer 1
+0 |QK|F 7.10 |OV|F 10.12  asym/sym 0.99  QKtrace -5.15  OVtrace -9.55  OVeig posfrac -0.84 qbias 3.86 kbias 9.19
+1 |QK|F 10.53 |OV|F 10.33  asym/sym 0.98  QKtrace -9.29  OVtrace -12.53  OVeig posfrac -0.91 qbias 4.97 kbias 11.72
+2 |QK|F 12.41 |OV|F 9.18  asym/sym 0.98  QKtrace -12.96  OVtrace -9.66  OVeig posfrac -0.90 qbias 4.68 kbias 13.73
+3 |QK|F 11.01 |OV|F 10.05  asym/sym 0.98  QKtrace -9.26  OVtrace -8.96  OVeig posfrac -0.91 qbias 4.70 kbias 11.70
+4 |QK|F 11.61 |OV|F 10.40  asym/sym 0.99  QKtrace -9.96  OVtrace -11.86  OVeig posfrac -0.95 qbias 4.46 kbias 12.67
+5 |QK|F 10.71 |OV|F 10.62  asym/sym 1.00  QKtrace -8.12  OVtrace -13.20  OVeig posfrac -0.95 qbias 4.20 kbias 11.86
+layer 2
+0 |QK|F 19.51 |OV|F 16.31  asym/sym 1.03  QKtrace -0.17  OVtrace -38.57  OVeig posfrac -0.92 qbias 3.69 kbias 8.96
+1 |QK|F 16.54 |OV|F 17.72  asym/sym 0.99  QKtrace 4.24  OVtrace -35.63  OVeig posfrac -0.86 qbias 2.35 kbias 6.71
+2 |QK|F 12.91 |OV|F 20.58  asym/sym 1.00  QKtrace -8.84  OVtrace -33.34  OVeig posfrac -0.86 qbias 2.29 kbias 7.63
+3 |QK|F 16.70 |OV|F 17.51  asym/sym 1.03  QKtrace -5.91  OVtrace -35.54  OVeig posfrac -0.90 qbias 3.00 kbias 9.37
+4 |QK|F 18.76 |OV|F 16.62  asym/sym 1.03  QKtrace -3.81  OVtrace -32.38  OVeig posfrac -0.88 qbias 3.21 kbias 9.43
+5 |QK|F 18.01 |OV|F 16.68  asym/sym 1.03  QKtrace -5.58  OVtrace -36.21  OVeig posfrac -0.90 qbias 3.25 kbias 9.18
+layer 3
+0 |QK|F 17.86 |OV|F 22.60  asym/sym 0.95  QKtrace 27.30  OVtrace -55.35  OVeig posfrac -0.91 qbias 1.26 kbias 1.87
+1 |QK|F 14.65 |OV|F 40.87  asym/sym 0.81  QKtrace 50.45  OVtrace -53.54  OVeig posfrac -0.90 qbias 1.42 kbias 0.88
+2 |QK|F 12.05 |OV|F 26.88  asym/sym 1.00  QKtrace 1.76  OVtrace -34.26  OVeig posfrac -0.80 qbias 1.19 kbias 2.74
+3 |QK|F 12.79 |OV|F 27.43  asym/sym 1.02  QKtrace 0.89  OVtrace -39.85  OVeig posfrac -0.81 qbias 1.21 kbias 3.13
+4 |QK|F 14.85 |OV|F 24.20  asym/sym 1.00  QKtrace 7.23  OVtrace -33.56  OVeig posfrac -0.76 qbias 1.32 kbias 2.43
+5 |QK|F 6.68 |OV|F 45.40  asym/sym 0.98  QKtrace 0.79  OVtrace -45.95  OVeig posfrac -0.90 qbias 1.10 kbias 0.86
+
+```

@@ -1,0 +1,7 @@
+OUTPUT of run 25 of at most 100:
+```
+neuron T-norm quantiles [0.06 0.11 0.15 0.8  1.26 2.06 3.28] frac of norm in T [0.27 0.36 0.65]
+max cos per neuron quantiles [0.62 0.65 0.71 0.78 0.93]
+random max cos quantiles [0.54 0.56 0.59 0.63 0.66]
+
+```

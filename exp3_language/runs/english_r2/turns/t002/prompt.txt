@@ -1,0 +1,44 @@
+OUTPUT of run 1 of at most 100:
+```
+W_fc.0 (1536, 384) mean -0.0012 std 0.0602 absmax 0.858
+W_fc.1 (1536, 384) mean -0.0004 std 0.1030 absmax 0.789
+W_fc.2 (1536, 384) mean -0.0003 std 0.1028 absmax 1.228
+W_fc.3 (1536, 384) mean -0.0001 std 0.1013 absmax 1.058
+W_k.0 (384, 384) mean -0.0001 std 0.0791 absmax 0.918
+W_k.1 (384, 384) mean 0.0000 std 0.0762 absmax 1.018
+W_k.2 (384, 384) mean 0.0000 std 0.0984 absmax 1.429
+W_k.3 (384, 384) mean -0.0001 std 0.0839 absmax 0.934
+W_o.0 (384, 384) mean -0.0001 std 0.0426 absmax 1.017
+W_o.1 (384, 384) mean -0.0000 std 0.0675 absmax 0.707
+W_o.2 (384, 384) mean 0.0000 std 0.0855 absmax 0.601
+W_o.3 (384, 384) mean 0.0001 std 0.1054 absmax 1.257
+W_proj.0 (384, 1536) mean -0.0001 std 0.0512 absmax 1.136
+W_proj.1 (384, 1536) mean 0.0000 std 0.0986 absmax 2.040
+W_proj.2 (384, 1536) mean -0.0001 std 0.1000 absmax 1.710
+W_proj.3 (384, 1536) mean 0.0002 std 0.1073 absmax 2.012
+W_q.0 (384, 384) mean 0.0003 std 0.0841 absmax 1.009
+W_q.1 (384, 384) mean -0.0000 std 0.0841 absmax 0.442
+W_q.2 (384, 384) mean 0.0000 std 0.1025 absmax 0.468
+W_q.3 (384, 384) mean -0.0000 std 0.0858 absmax 0.437
+W_v.0 (384, 384) mean 0.0001 std 0.0386 absmax 0.363
+W_v.1 (384, 384) mean -0.0000 std 0.0712 absmax 0.426
+W_v.2 (384, 384) mean 0.0001 std 0.0867 absmax 0.402
+W_v.3 (384, 384) mean 0.0001 std 0.1036 absmax 0.553
+ln1_b.0 (384,) mean 0.0008 std 0.0287 absmax 0.096
+ln1_b.1 (384,) mean -0.0050 std 0.1672 absmax 1.471
+ln1_b.2 (384,) mean -0.0010 std 0.1525 absmax 1.382
+ln1_b.3 (384,) mean 0.0121 std 0.0849 absmax 0.650
+ln1_w.0 (384,) mean 0.2403 std 0.2436 absmax 1.034
+ln1_w.1 (384,) mean 0.4575 std 0.1022 absmax 1.124
+ln1_w.2 (384,) mean 0.7052 std 0.0749 absmax 1.014
+ln1_w.3 (384,) mean 0.7546 std 0.0542 absmax 0.870
+ln2_b.0 (384,) mean 0.0022 std 0.0683 absmax 0.499
+ln2_b.1 (384,) mean 0.0005 std 0.1364 absmax 0.369
+ln2_b.2 (384,) mean 0.0050 std 0.1537 absmax 0.389
+ln2_b.3 (384,) mean 0.0043 std 0.1276 absmax 0.673
+ln2_w.0 (384,) mean 0.8006 std 0.3295 absmax 1.507
+ln2_w.1 (384,) mean 1.0429 std 0.2003 absmax 1.486
+ln2_w.2 (384,) mean 1.3123 std 0.1255 absmax 1.465
+ln2_w.3 (384,) mean 1.2778 std 0.0807 absmax 1.431
+
+```

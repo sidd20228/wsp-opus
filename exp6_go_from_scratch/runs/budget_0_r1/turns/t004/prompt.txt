@@ -1,0 +1,11 @@
+OUTPUT of Python run 3 of at most 120:
+```
+L1 488 units; W nnz 2952 max|W| 4.0
+L2 486 units; W nnz 2075 max|W| 100.0
+L3 486 units; W nnz 4351 max|W| 10000.0
+L4 486 units; W nnz 4225 max|W| 10000.0
+L5 486 units; W nnz 2169 max|W| 10000.0
+L6 324 units; W nnz 4765 max|W| 20.0
+out nnz 738
+
+```

@@ -1,0 +1,11 @@
+OUTPUT of run 3 of at most 100:
+```
+n big 54
+0 q total 2.05 fracbig 0.877 | 0 k total 1.20 fracbig 0.585 | 0 v total 8.46 fracbig 0.888 | QKfro 0.44
+1 q total 1.26 fracbig 0.800 | 1 k total 1.05 fracbig 0.609 | 1 v total 6.71 fracbig 0.888 | QKfro 0.24
+2 q total 131.53 fracbig 0.628 | 2 k total 175.52 fracbig 0.789 | 2 v total 2.87 fracbig 0.526 | QKfro 32.63
+3 q total 7.64 fracbig 0.807 | 3 k total 8.82 fracbig 0.815 | 3 v total 1.94 fracbig 0.548 | QKfro 3.16
+4 q total 2.97 fracbig 0.868 | 4 k total 1.90 fracbig 0.624 | 4 v total 3.99 fracbig 0.799 | QKfro 0.85
+5 q total 1.92 fracbig 0.878 | 5 k total 1.25 fracbig 0.644 | 5 v total 8.18 fracbig 0.881 | QKfro 0.62
+
+```

@@ -1,0 +1,47 @@
+{
+ "session_id": "7058487b-e813-4267-8caf-88948278edbe",
+ "cwd": "<home>/.wsp/c/7058487b",
+ "turns": 45,
+ "effort": "xhigh",
+ "next": "OUTPUT of Python run 36 of at most 120:\n```\nCounter({('random', 'two passes', 1): 32, ('strong', 'two passes', 1): 32, ('weak', 'two passes', 1): 32, ('strong', 'move limit', 1): 15, ('strong', 'two passes', -1): 10, ('strong', 'repetition', 1): 6, ('strong', 'repetition', -1): 1})\n32 black two passes margin -6.5 len 104\n34 black two passes margin -1.5 len 106\n40 black two passes margin -13.5 len 95\n49 black repetition margin 15.5 len 97 cycle [('o', (8, 0), ''), ('n', (5, 2), 0.99), ('o', (8, 4), ''), ('n', (7, 0), 1.0), ('o', (5, 3), ''), ('n', (8, 5), 1.0)]\n65 white two passes margin -53.5 len 133\n69 white two passes margin -0.5 len 125\n74 white two passes margin -15.5 len 97\n80 white two passes margin -12.5 len 101\n84 white two passes margin -1.5 len 95\n86 white two passes margin -7.5 len 119\n92 white two passes margin -1.5 len 100\n\n```",
+ "done": false,
+ "counters": {
+  "passes": 8,
+  "runs": 37
+ },
+ "failures": 0,
+ "usage_last": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 870,
+  "cache_read_input_tokens": 305394,
+  "output_tokens": 591,
+  "output_tokens_details": {
+   "thinking_tokens": 193
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 870,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 591,
+    "cache_read_input_tokens": 305394,
+    "cache_creation_input_tokens": 870,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 870
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ }
+}

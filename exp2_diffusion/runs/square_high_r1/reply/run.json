@@ -1,0 +1,140 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "session_id": "1efe7b31-e8c7-4aa6-b8f8-5a8cf1db2bc3",
+ "cwd": "<home>/.wsp/c/1efe7b31",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "high",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 43.4,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 109413,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4230,
+  "output_tokens_details": {
+   "thinking_tokens": 2583
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 109413,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 4230,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 109413,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 109413
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 4230,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 109413,
+   "webSearchRequests": 0,
+   "costUSD": 0.959912,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 2583,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 109413,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.959912,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 43.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations:**\n\n- **Output bias (b3).** The border pixels are strongly negative: corners -0.691, -0.714, -0.626, -0.690, and most edge pixels run from -0.3 to -0.55. Interior pixels sit near 0 (for example -0.026, 0.041, 0.064, 0.093, 0.102). So the outer frame is almost always black, and the int",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794164400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.08,
+        "resetsAt": 1794164400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.02,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "2048f5e3-0bed-49e7-892f-c4094e62bed6",
+     "session_id": "e00079e0-8d02-43ab-b3a6-8bb05f59ecf2"
+    }
+   ]
+  }
+ ]
+}

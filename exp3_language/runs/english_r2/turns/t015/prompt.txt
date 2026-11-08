@@ -1,0 +1,32 @@
+OUTPUT of run 14 of at most 100:
+```
+dim P (384, 40)
+cos principal angles q vs k [0.99 0.98 0.98 0.98 0.97 0.97 0.96 0.95 0.95 0.94 0.94 0.93 0.91 0.88
+ 0.85 0.81 0.78 0.66 0.54 0.38]
+baseline 0.10416666666666667
+L0H0 QK q-side 0.85 k-side 0.46 PxP 0.40 | OV input in P 0.95
+L0H1 QK q-side 0.66 k-side 0.52 PxP 0.36 | OV input in P 0.94
+L0H2 QK q-side 1.00 k-side 1.00 PxP 1.00 | OV input in P 0.20
+L0H3 QK q-side 0.87 k-side 0.89 PxP 0.79 | OV input in P 0.42
+L0H4 QK q-side 0.66 k-side 0.50 PxP 0.34 | OV input in P 0.89
+L0H5 QK q-side 0.91 k-side 0.61 PxP 0.56 | OV input in P 0.94
+L1H0 QK q-side 0.12 k-side 0.36 PxP 0.04 | OV input in P 0.08
+L1H1 QK q-side 0.14 k-side 0.34 PxP 0.05 | OV input in P 0.07
+L1H2 QK q-side 0.15 k-side 0.35 PxP 0.06 | OV input in P 0.07
+L1H3 QK q-side 0.15 k-side 0.36 PxP 0.06 | OV input in P 0.09
+L1H4 QK q-side 0.15 k-side 0.39 PxP 0.06 | OV input in P 0.07
+L1H5 QK q-side 0.15 k-side 0.37 PxP 0.06 | OV input in P 0.06
+L2H0 QK q-side 0.10 k-side 0.13 PxP 0.02 | OV input in P 0.09
+L2H1 QK q-side 0.09 k-side 0.11 PxP 0.01 | OV input in P 0.09
+L2H2 QK q-side 0.11 k-side 0.18 PxP 0.02 | OV input in P 0.08
+L2H3 QK q-side 0.10 k-side 0.14 PxP 0.02 | OV input in P 0.09
+L2H4 QK q-side 0.11 k-side 0.14 PxP 0.02 | OV input in P 0.08
+L2H5 QK q-side 0.11 k-side 0.13 PxP 0.02 | OV input in P 0.09
+L3H0 QK q-side 0.10 k-side 0.10 PxP 0.01 | OV input in P 0.10
+L3H1 QK q-side 0.09 k-side 0.10 PxP 0.01 | OV input in P 0.07
+L3H2 QK q-side 0.10 k-side 0.12 PxP 0.01 | OV input in P 0.09
+L3H3 QK q-side 0.11 k-side 0.12 PxP 0.02 | OV input in P 0.09
+L3H4 QK q-side 0.10 k-side 0.11 PxP 0.01 | OV input in P 0.10
+L3H5 QK q-side 0.10 k-side 0.11 PxP 0.01 | OV input in P 0.08
+
+```
