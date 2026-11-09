@@ -1,0 +1,9 @@
+OUTPUT of Python run 21 of at most 120:
+```
+
+[stderr]
+Traceback (most recent call last):
+  File "<string>", line 49, in <module>
+NameError: name 'P1' is not defined. Did you mean: 'P0'?
+
+```

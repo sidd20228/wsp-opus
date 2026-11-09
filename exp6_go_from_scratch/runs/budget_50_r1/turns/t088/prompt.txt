@@ -1,0 +1,40 @@
+OUTPUT of Python run 68 of at most 120:
+```
+4 black final -0.5
+  score(B-W-komi) by ply from 40: [(40, 0.5), (44, 3.5), (48, 3.5), (52, 3.5), (56, 1.5), (60, 5.5), (64, 4.5), (68, 6.5), (72, 7.5), (76, 0.5), (80, 2.5), (84, -0.5)]
+  moves [('n', (5, 5)), ('o', (2, 1)), ('n', (7, 5)), ('o', (1, 1)), ('n', (6, 4)), ('o', (8, 4)), ('n', (7, 1)), ('o', (8, 7)), ('n', (8, 1)), ('o', (6, 8)), ('n', (8, 2)), ('o', (8, 6)), ('n', (8, 3)), ('o', (7, 0)), ('n', (8, 5)), ('o', (7, 4)), ('n', (8, 4)), ('o', (5, 0)), ('n', (0, 0)), ('o', (0, 2)), ('n', (2, 0)), ('o', (0, 6)), ('n', (0, 7)), ('o', (0, 1)), ('n', (3, 8)), ('o', (4, 8)), ('n', (2, 8)), ('o', (1, 0)), ('n', (1, 8)), ('o', (3, 0)), ('n', (0, 4)), ('o', (6, 0)), ('n', (7, 8)), ('o', (8, 0)), ('n', 'P'), ('o', (8, 8)), ('n', 'P'), ('o', (4, 0)), ('n', 'P'), ('o', 'P')]
+   ...X.X... ...X.X... ...X.X... ...X.X... X.OX.X... XOOX.X.X. .OOXXX.X. .OOXXX.X.
+   ..X.X.XX. .OX.X.XX. .OX.X.XX. .OX.X.XX. .OX.X.XX. .OX.X.XX. OOX.X.XXX OOX.X.XXX
+   ..XXXXXO. .OXXXXXO. .OXXXXXO. .OXXXXXO. XOXXXXXO. XOXXXXXO. .OXXXXXOX .OXXXXXOX
+   .OXX.XOO. .OXX.XOO. .OXX.XOO. .OXX.XOO. .OXX.XOO. .OXX.XOOX OOXX.XOOX OOXX.XOOX
+   .OX.XOOO. .OX.XOOO. .OX.XOOO. .OX.XOOO. .OX.XOOO. .OX.XOOOO .OX.XOOOO .OX.XOOOO
+   .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO. OOOXXXXO. OOOXXXXO. OOOXXXXO. OOOXXXXO.
+   .OOX.XXO. .OOXXXXO. .OOXXXXOO .OOXXXXOO .OOXXXXOO .OOXXXXOO .OOXXXXOO OOOXXXXOO
+   ..OXO.OO. ..OXOXOO. .XOXOXOO. OXOXOXOO. OXOX.XOO. OXOX.XOO. OXOX.XOO. OXOX.XOO.
+   ......... ....O.... .XX.O..O. .XXX.XOO. .XXXXXOO. .XXXXXOO. .XXXXXOO. OXXXXXOOO
+15 black final -0.5
+  score(B-W-komi) by ply from 40: [(40, 1.5), (44, 1.5), (48, 1.5), (52, 6.5), (56, 8.5), (60, 5.5), (64, 6.5), (68, 7.5), (72, 8.5), (76, 8.5), (80, 5.5), (84, 2.5), (88, -0.5)]
+  moves [('n', (0, 3)), ('o', (1, 3)), ('n', (2, 3)), ('o', (7, 0)), ('n', (0, 8)), ('o', (8, 6)), ('n', (1, 8)), ('o', (8, 2)), ('n', (4, 8)), ('o', (8, 4)), ('n', (2, 8)), ('o', (3, 8)), ('n', (5, 0)), ('o', (4, 0)), ('n', (3, 0)), ('o', (2, 0)), ('n', (1, 0)), ('o', (0, 2)), ('n', (3, 0)), ('o', (0, 6)), ('n', (0, 1)), ('o', (2, 0)), ('n', (0, 7)), ('o', (3, 0)), ('n', (7, 8)), ('o', (6, 8)), ('n', (4, 5)), ('o', (8, 0)), ('n', (7, 1)), ('o', (8, 5)), ('n', (0, 4)), ('o', (6, 0)), ('n', 'P'), ('o', (5, 0)), ('n', 'P'), ('o', (5, 8)), ('n', 'P'), ('o', (4, 8)), ('n', 'P'), ('o', 'P')]
+   ...X.X... ...X.X..X ...X.X..X ...X.X..X .X.X.XO.X .X.X.X.XX .X.XXX.XX .X.XXX.XX
+   .XX.X.XX. .XX.X.XX. .XX.X.XXX .XX.X.XXX XXX.X.XXX XXX.X.XXX XXX.X.XXX XXX.X.XXX
+   .XX.XXXO. .XXXXXXO. .XXXXXXOX OXXXXXXOX .XXXXXXOX OXXXXXXOX OXXXXXXOX OXXXXXXOX
+   .OXX.XXO. .OXX.XXO. .OXX.XXO. .OXX.XXOO XOXX.XXOO OOXX.XXOO OOXX.XXOO OOXX.XXOO
+   .OOOX.XO. .OOOX.XO. .OOOX.XOX OOOOX.XOX OOOOX.XOX OOOOX.XOX OOOOXXXOX OOOOXXXO.
+   .OXX.XOO. .OXX.XOO. .OXX.XOO. XOXX.XOO. XOXX.XOO. XOXX.XOO. XOXX.XOO. OOXX.XOOO
+   .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXOO .OOXXXXOO OOOXXXXOO
+   .XOOOOOO. OXOOOOOO. OXOOOOOO. OXOOOOOO. OXOOOOOO. OXOOOOOOX OXOOOOOOX OXOOOOOOX
+   .X.....O. .X....OO. .XO.O.OO. .XO.O.OO. .XO.O.OO. .XO.O.OO. O.O.OOOO. O.O.OOOO.
+57 black final -0.5
+  score(B-W-komi) by ply from 40: [(40, -2.5), (44, -2.5), (48, -3.5), (52, 0.5), (56, -0.5), (60, 1.5), (64, 1.5), (68, 5.5), (72, 5.5), (76, 9.5), (80, 3.5), (84, 0.5), (88, 3.5), (92, 2.5), (96, -0.5)]
+  moves [('n', (8, 5)), ('o', (8, 7)), ('n', (7, 1)), ('o', (1, 2)), ('n', (0, 2)), ('o', (4, 8)), ('n', (7, 0)), ('o', (8, 2)), ('n', (8, 1)), ('o', (4, 0)), ('n', (1, 8)), ('o', (0, 4)), ('n', (0, 3)), ('o', (0, 6)), ('n', (0, 7)), ('o', (0, 1)), ('n', (0, 0)), ('o', (1, 0)), ('n', (2, 0)), ('o', (6, 0)), ('n', (1, 0)), ('o', (8, 0)), ('n', (7, 1)), ('o', (8, 6)), ('n', (2, 8)), ('o', (8, 4)), ('n', (3, 8)), ('o', (6, 8)), ('n', (8, 5)), ('o', (3, 0)), ('n', (1, 2)), ('o', (8, 4)), ('n', (8, 8)), ('o', (8, 5)), ('n', (1, 5)), ('o', (5, 0)), ('n', 'P'), ('o', (7, 8)), ('n', 'P'), ('o', 'P')]
+   .....X... ..X..X... ..X..X... .OXX.X.X. X.XX.X.X. X.XX.X.X. X.XX.X.X. X.XX.X.X.
+   .X.XX.XX. .X.XX.XX. .X.XX.XXX .X.XX.XXX XX.XX.XXX XX.XX.XXX XXXXX.XXX XXXXXXXXX
+   .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. XOX.XXOO. XOX.XXOOX XOX.XXOOX XOX.XXOOX
+   .OXX.XXO. .OXX.XXO. .OXX.XXO. .OXX.XXO. .OXX.XXO. .OXX.XXO. OOXX.XXOX OOXX.XXOX
+   .OOXXOOO. .OOXXOOOO OOOXXOOOO OOOXXOOOO OOOXXOOOO OOOXXOOOO OOOXXOOOO OOOXXOOOO
+   .OOOXXXO. .OOOXXXO. .OOOXXXO. .OOOXXXO. .OOOXXXO. .OOOXXXO. .OOOXXXO. OOOOXXXO.
+   .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO. OOOXXXXO. OOOXXXXO. OOOXXXXOO OOOXXXXOO
+   ..OXXOOO. .XOXXOOO. XXOXXOOO. XXOXXOOO. XXOXXOOO. .XOXXOOO. .XOXXOOO. .XOXXOOO.
+   ...X.X... ...X.X.O. .XOX.X.O. .XOX.X.O. .XOX.X.O. O.OXO.OO. O.OX.XOO. O.OXOOOOX
+
+```

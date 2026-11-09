@@ -1,0 +1,6 @@
+OUTPUT of Python run 107 of at most 120:
+```
+Counter({(1, 1): 122, (1, -1): 3, (-1, 1): 3})
+paired margin diff mean 3.05 se 2.48
+
+```

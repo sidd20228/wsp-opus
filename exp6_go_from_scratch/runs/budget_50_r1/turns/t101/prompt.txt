@@ -1,0 +1,24 @@
+OUTPUT of Python run 78 of at most 120:
+```
+105 white cycle len 10
+    opponent (1, 1) []
+    net (0, 7) [((0, 7), 1.0), ((0, 1), 0.0), ((1, 0), 0.0), ((8, 8), 0.0)]
+    opponent (1, 2) []
+    net (1, 7) [((1, 7), 0.986), ((1, 0), 0.014), ((2, 8), 0.0), ((8, 8), 0.0)]
+    opponent (1, 0) []
+    net (2, 8) [((2, 8), 1.0), ((8, 8), 0.0), ((7, 8), 0.0), ((0, 0), 0.0)]
+    opponent (0, 8) []
+    net (1, 8) [((1, 8), 1.0), ((1, 7), 0.0), ((8, 8), 0.0), ((0, 7), 0.0)]
+    opponent (0, 1) []
+    net (0, 0) [((0, 0), 1.0), ((0, 7), 0.0), ((0, 1), 0.0), ((0, 2), 0.0)]
+   O.OOOXX.X  O.OOOXX.X  O.OOOXXO.  O.OOOXXO.  O.OOOXXO.  O.OOOXXO.  O.OOOXXO.  O.OOOXX.X  O.OOOXX.X  .XOOOXX.X  O.OOOXX.X
+   ...OOXX.O  .X.OOXX.O  .X.OOXX.O  .XXOOXX.O  .XXOOXXOO  XXXOOXXOO  XXXOOXXOO  XXXOOXX..  XXXOOXX.O  XXXOOXX.O  ...OOXX.O
+   OOOOXXXX.  OOOOXXXX.  OOOOXXXX.  OOOOXXXX.  OOOOXXXX.  OOOOXXXX.  OOOOXXXXO  OOOOXXXX.  OOOOXXXX.  OOOOXXXX.  OOOOXXXX.
+   O.O.OOXXX  O.O.OOXXX  O.O.OOXXX  O.O.OOXXX  O.O.OOXXX  O.O.OOXXX  O.O.OOXXX  O.O.OOXXX  O.O.OOXXX  O.O.OOXXX  O.O.OOXXX
+   OOOO.OXXO  OOOO.OXXO  OOOO.OXXO  OOOO.OXXO  OOOO.OXXO  OOOO.OXXO  OOOO.OXXO  OOOO.OXXO  OOOO.OXXO  OOOO.OXXO  OOOO.OXXO
+   XXO.O.OX.  XXO.O.OX.  XXO.O.OX.  XXO.O.OX.  XXO.O.OX.  XXO.O.OX.  XXO.O.OX.  XXO.O.OX.  XXO.O.OX.  XXO.O.OX.  XXO.O.OX.
+   .XXOOOOXX  .XXOOOOXX  .XXOOOOXX  .XXOOOOXX  .XXOOOOXX  .XXOOOOXX  .XXOOOOXX  .XXOOOOXX  .XXOOOOXX  .XXOOOOXX  .XXOOOOXX
+   XXXXOXXX.  XXXXOXXX.  XXXXOXXX.  XXXXOXXX.  XXXXOXXX.  XXXXOXXX.  XXXXOXXX.  XXXXOXXX.  XXXXOXXX.  XXXXOXXX.  XXXXOXXX.
+   O.XXOOXO.  O.XXOOXO.  O.XXOOXO.  O.XXOOXO.  O.XXOOXO.  O.XXOOXO.  O.XXOOXO.  O.XXOOXO.  O.XXOOXO.  O.XXOOXO.  O.XXOOXO.
+
+```

@@ -1,0 +1,16 @@
+OUTPUT of Python run 69 of at most 120:
+```
+(('net', 'black'), 'moves') 4446
+(('net', 'black'), 'opp_region') 123
+(('net', 'black'), 'own_region') 126
+(('net', 'white'), 'moves') 4480
+(('net', 'white'), 'opp_region') 214
+(('net', 'white'), 'own_region') 136
+(('opponent', 'black'), 'moves') 4480
+(('opponent', 'black'), 'opp_region') 366
+(('opponent', 'black'), 'own_region') 84
+(('opponent', 'white'), 'moves') 4453
+(('opponent', 'white'), 'opp_region') 511
+(('opponent', 'white'), 'own_region') 79
+
+```

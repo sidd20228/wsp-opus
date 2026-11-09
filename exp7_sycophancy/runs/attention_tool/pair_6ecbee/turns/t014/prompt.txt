@@ -1,0 +1,54 @@
+OUTPUT of run 13 of at most 20:
+```
+26 first-token queries, 11 later-digit queries
+head   switch(first)  [A-B guess, B-A problem]  switch(later digits)
+L 9h0  +1.292   [+0.586, +0.706]   +0.742
+L10h2  +1.269   [+0.527, +0.742]   +1.265
+L 7h0  +0.996   [+0.305, +0.691]   +0.173
+L12h3  +0.938   [+0.351, +0.587]   +0.589
+L 9h2  +0.709   [+0.206, +0.503]   +0.134
+L12h0  +0.702   [+0.101, +0.600]   +0.824
+L 9h1  +0.620   [+0.358, +0.261]   +0.414
+L11h2  +0.500   [+0.352, +0.148]   +0.609
+L12h1  +0.472   [+0.448, +0.024]   +0.594
+L10h0  +0.427   [+0.032, +0.395]   +0.176
+L 5h3  +0.340   [+0.354, -0.014]   +0.074
+L 5h2  +0.264   [+0.306, -0.043]   +0.031
+L12h2  +0.218   [+0.121, +0.097]   +0.086
+L 9h3  +0.214   [+0.036, +0.178]   +0.054
+L10h3  +0.183   [+0.028, +0.155]   +0.134
+L11h1  +0.168   [+0.001, +0.168]   +0.046
+L 6h0  +0.160   [+0.138, +0.022]   +0.156
+L 3h3  +0.139   [+0.080, +0.059]   +0.051
+L 7h2  +0.124   [+0.015, +0.109]   +0.081
+L17h2  +0.116   [+0.054, +0.062]   +0.034
+L 5h0  -0.096   [-0.050, -0.045]   -0.057
+L11h0  +0.086   [-0.005, +0.091]   +0.026
+L11h3  +0.081   [-0.035, +0.116]   +0.119
+L13h3  +0.078   [+0.044, +0.035]   +0.107
+
+per-layer total switch (first-token): L0:+0.02 L1:+0.03 L2:+0.00 L3:+0.11 L4:+0.01 L5:+0.54 L6:+0.33 L7:+1.25 L8:+0.17 L9:+2.83 L10:+1.88 L11:+0.83 L12:+2.33 L13:+0.09 L14:+0.04 L15:-0.04 L16:-0.02 L17:+0.20
+per-layer total switch (later digits): L0:+0.06 L1:-0.03 L2:-0.03 L3:+0.04 L4:-0.00 L5:-0.42 L6:+0.33 L7:+0.27 L8:+0.04 L9:+1.34 L10:+1.58 L11:+0.80 L12:+2.09 L13:+0.11 L14:-0.01 L15:-0.09 L16:+0.01 L17:+0.08
+
+q29' answer' early layers:
+  L0h3: max diff at k28'The' +0.35; A top k28'The':0.62  B top k0'<bos>':0.48
+  L1h0: max diff at k28'The' +0.89; A top k28'The':0.95  B top k0'<bos>':0.81
+  L1h2: max diff at k0'<bos>' +0.24; A top k0'<bos>':0.46  B top k0'<bos>':0.22
+  L1h3: max diff at k28'The' +0.89; A top k28'The':0.96  B top k0'<bos>':0.88
+  L2h1: max diff at k28'The' +0.42; A top k28'The':0.63  B top k0'<bos>':0.40
+
+q30' is' early layers:
+  L0h3: max diff at k29' answer' +0.40; A top k29' answer':0.53  B top k0'<bos>':0.36
+  L1h0: max diff at k29' answer' +0.99; A top k29' answer':0.99  B top k0'<bos>':0.92
+  L1h2: max diff at k29' answer' +0.45; A top k29' answer':0.51  B top k28'The':0.25
+  L2h0: max diff at k29' answer' +0.82; A top k29' answer':0.95  B top k28'The':0.54
+  L2h1: max diff at k0'<bos>' -0.24; A top k29' answer':0.24  B top k0'<bos>':0.46
+  L3h0: max diff at k30' is' +0.17; A top k30' is':0.30  B top k28'The':0.35
+  L3h2: max diff at k29' answer' -0.71; A top k0'<bos>':0.29  B top k29' answer':0.73
+  L4h1: max diff at k29' answer' +0.17; A top k29' answer':0.50  B top k29' answer':0.33
+
+q31' ' early layers:
+  L3h3: max diff at k20'5' +0.30; A top k20'5':0.46  B top k0'<bos>':0.25
+  L4h1: max diff at k31' ' -0.19; A top k30' is':0.42  B top k31' ':0.33
+
+```

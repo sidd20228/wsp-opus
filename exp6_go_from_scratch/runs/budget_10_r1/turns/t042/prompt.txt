@@ -1,0 +1,8 @@
+OUTPUT of Python run 36 of at most 120:
+```
+14 (('n', 'FAKE', 'E0', 'own1', 'al1'), ('o', 'cap2', 'E0', 'own0', 'al1'), ('n', 'cap1', 'E1', 'own0', 'al2'))
+1 (('o', 'nc', 'E1', 'own1', 'al2'), ('net', 'pass'), ('o', 'cap1', 'E0', 'own1', 'al2'), ('net', 'pass'), ('o', 'nc', 'E0', 'own1', 'al1'), ('n', 'cap4', 'E0', 'own0', 'al2'), ('o', 'nc', 'E2', 'own0', 'al2'))
+1 (('n', 'cap1', 'E0', 'own0', 'al1'), ('o', 'cap1', 'E0', 'own0', 'al1'), ('net', 'pass'), ('o', 'cap1', 'E0', 'own0', 'al1'), ('n', 'cap1', 'E0', 'own0', 'al1'))
+1 (('n', 'nc', 'E1', 'own1', 'al2'), ('opponent', 'pass'), ('n', 'FAKE', 'E0', 'own1', 'al1'), ('o', 'cap3', 'E0', 'own0', 'al1'), ('n', 'cap1', 'E1', 'own0', 'al2'))
+
+```

@@ -1,0 +1,7 @@
+{
+ "answer_line": "A Pac-Man-style maze game on an 8\u00d78 board with fixed symmetric interior walls.",
+ "guess": "pacman",
+ "confidence": 60.0,
+ "correct": true,
+ "_src_wall": 88.8
+}

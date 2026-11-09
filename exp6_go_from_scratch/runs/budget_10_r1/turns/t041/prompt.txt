@@ -1,0 +1,71 @@
+OUTPUT of Python run 35 of at most 120:
+```
+Counter({('strong', 'two passes', -1): 55, ('weak', 'two passes', -1): 19, ('strong', 'two passes', 1): 18, ('strong', 'repetition', -1): 15, ('weak', 'two passes', 1): 12, ('strong', 'move limit', 1): 7, ('strong', 'repetition', 1): 1, ('weak', 'repetition', -1): 1})
+1 black 112 margin -31.5 first net pass [76, 78, 80] 14
+board at first pass
+XXX.X.X.X
+.X.XXOOXO
+XXX.XOOO.
+OOOXOOOOO
+.OX.XXOO.
+OOOOXOOOX
+.OO.XXOO.
+XOOX.XXOO
+.XX.X.XO.
+final
+XXX.XOOO.
+.X.XXOOOO
+XXXOXOOO.
+OOOOOOOOO
+.OOOXXOOO
+OOOOXOOO.
+OOOOXXOOO
+.OOX.XXOO
+O.X.X.XO.
+[[81, 0.9999], [26, 0.0001], [57, 0.0], [54, 0.0], [62, 0.0]]
+6 black 118 margin -32.5 first net pass [72, 76, 90] 12
+board at first pass
+X.X.XXXO.
+OX.XOOO.X
+.OXOOOOXO
+OOXXOOOO.
+XOX.XOOOO
+.OOO.XXO.
+XOOOX.XXX
+XOXX.XOOX
+.X..X.OO.
+final
+.O.OX.OO.
+OOO.OOOOX
+OO.OOOOOO
+OOO.OOOO.
+.OOO.OOOO
+OOOOOXXO.
+.OOOX.XXX
+XOXX.XX.X
+.X.XXXXX.
+[[81, 0.9849], [74, 0.0063], [18, 0.006], [75, 0.0026], [35, 0.0001]]
+7 black 128 margin -28.5 first net pass [72, 80, 82] 20
+board at first pass
+X.XX.X.X.
+OOOXOOOOX
+.OXXOOO.O
+OO.OOXOO.
+XXXX.XOOO
+.OX.XXXO.
+OOOX.XXXO
+XOOOX.OOX
+.X.X.XXO.
+final
+.OO.O.O.O
+OOOOOOOOO
+OOOOOOOOO
+OOOOOXOOO
+XXXXOXOOO
+X.X.XXXOO
+.X.X.XXXO
+X.X.XOOOO
+.X.XO.OO.
+[[81, 0.9994], [53, 0.0006], [45, 0.0], [29, 0.0], [74, 0.0]]
+
+```

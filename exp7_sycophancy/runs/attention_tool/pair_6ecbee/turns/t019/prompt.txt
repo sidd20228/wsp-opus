@@ -1,0 +1,64 @@
+OUTPUT of run 18 of at most 20:
+```
+L 1 MLP: digit-read change 0.0130 of own, digit-write change 0.0198 of own
+   read units: 1726(d=3.7x med, 0.04 own)  1111(d=3.5x med, 0.03 own)  1967(d=3.3x med, 0.04 own)
+   write unit 916: change 2.6x median, 0.07 of own | B-A digit logits 0-9: [ 0.11 -1.   -0.66 -0.13  0.31  0.03  0.2   0.34  0.22  0.58] | A's own: [-0.75  0.87 -0.36 -0.84  0.59  1.   -0.71  0.28  0.05 -0.12]
+   write unit 2000: change 2.5x median, 0.05 of own | B-A digit logits 0-9: [ 0.89 -1.   -0.6  -0.8  -0.35  0.16  0.57  0.21  0.2   0.73] | A's own: [-1.   -0.27  0.02 -0.2   0.04  0.76  0.4   0.08  0.14  0.05]
+   write unit 362: change 2.4x median, 0.04 of own | B-A digit logits 0-9: [ 0.03  1.    0.7  -0.07 -0.41 -0.13 -0.24 -0.49 -0.06 -0.32] | A's own: [-0.85 -0.46  0.3  -0.47  1.    0.38  0.14 -0.11  0.19 -0.12]
+   write unit 824: change 2.3x median, 0.04 of own | B-A digit logits 0-9: [-0.38  1.    0.95  0.44 -0.04 -0.41 -0.15 -0.66 -0.36 -0.37] | A's own: [-0.83  0.51  0.81 -1.    0.22  0.35 -0.3   0.09  0.19 -0.05]
+L 2 MLP: digit-read change 0.0129 of own, digit-write change 0.0144 of own
+   read units: 1708(d=3.4x med, 0.04 own)  1298(d=3.1x med, 0.03 own)  1416(d=2.9x med, 0.01 own)
+   write unit 548: change 2.1x median, 0.03 of own | B-A digit logits 0-9: [-1.   -0.44 -0.21  0.36  0.1   0.29  0.35  0.1   0.04  0.41] | A's own: [-0.25  1.   -0.61  0.5   0.52 -0.41  0.51 -0.78 -0.62  0.15]
+   write unit 83: change 2.0x median, 0.02 of own | B-A digit logits 0-9: [ 1.    0.4   0.64 -0.21 -0.47 -0.2  -0.66 -0.18 -0.12 -0.2 ] | A's own: [ 0.66  0.09  0.15  0.92 -0.45  0.55 -1.   -0.17 -0.83  0.08]
+   write unit 52: change 2.0x median, 0.03 of own | B-A digit logits 0-9: [-0.39  0.17  0.61  0.03 -0.76 -0.14 -1.   -0.04  0.76  0.75] | A's own: [-0.53  0.19  1.    0.99  0.08 -0.05 -0.38 -0.14 -0.27 -0.89]
+   write unit 907: change 2.0x median, 0.02 of own | B-A digit logits 0-9: [ 0.03  1.    0.62 -0.28  0.22 -0.45 -0.85 -0.58  0.25  0.05] | A's own: [-0.13  1.    0.42  0.55 -0.4  -0.61 -0.31 -0.17 -0.56  0.19]
+L 3 MLP: digit-read change 0.0161 of own, digit-write change 0.0176 of own
+   read units: 847(d=2.5x med, 0.04 own)  1972(d=2.4x med, 0.10 own)  595(d=2.4x med, 0.04 own)
+   write unit 1546: change 2.3x median, 0.11 of own | B-A digit logits 0-9: [ 0.53  0.96  1.    0.01 -0.5  -0.25 -0.25 -0.39 -0.51 -0.59] | A's own: [-0.46 -0.39  0.61 -0.22 -0.37 -0.21 -0.58  0.07  0.55  1.  ]
+   write unit 240: change 2.3x median, 0.02 of own | B-A digit logits 0-9: [ 1.    0.55  0.13 -0.02  0.04 -0.21 -0.28 -0.46 -0.3  -0.45] | A's own: [-1.   -0.25 -0.44  0.18  0.29  0.57  0.63  0.3  -0.61  0.34]
+   write unit 876: change 2.2x median, 0.05 of own | B-A digit logits 0-9: [-1.   -0.65 -0.47 -0.21  0.28  0.65  0.35  0.31  0.36  0.37] | A's own: [-0.32  0.34 -0.39  0.06 -0.57  1.   -0.17 -0.12  0.49 -0.33]
+   write unit 1351: change 2.2x median, 0.06 of own | B-A digit logits 0-9: [ 0.17 -1.   -0.38 -0.56 -0.14  0.06  0.24  0.67  0.34  0.59] | A's own: [ 0.89  1.    0.23  0.33  0.14 -0.98 -0.24 -0.37 -0.05 -0.95]
+L11 MLP: digit-read change 0.0066 of own, digit-write change 0.0152 of own
+   read units: 533(d=2.5x med, 0.02 own)  719(d=2.5x med, 0.01 own)  1067(d=2.3x med, 0.02 own)
+   write unit 1084: change 2.7x median, 0.07 of own | B-A digit logits 0-9: [-0.25  0.7   0.23  1.   -0.23  0.27 -0.83 -0.47 -0.68  0.27] | A's own: [-0.51 -0.56  0.56  1.   -0.   -0.42 -0.12 -0.38  0.48 -0.03]
+   write unit 743: change 2.6x median, 0.05 of own | B-A digit logits 0-9: [-0.71 -1.    0.12  0.19  0.68  0.86  0.29 -0.02 -0.16 -0.24] | A's own: [ 1.   -0.52  0.15  0.14  0.38  0.49 -0.03 -0.67 -0.43 -0.52]
+   write unit 1036: change 2.5x median, 0.08 of own | B-A digit logits 0-9: [ 0.91  0.72 -0.59 -0.87 -1.   -0.63  0.73  0.14  0.42  0.18] | A's own: [-1.    0.53 -0.48 -0.09  0.65  0.72  0.33  0.24 -0.7  -0.2 ]
+   write unit 1446: change 2.5x median, 0.04 of own | B-A digit logits 0-9: [-0.85  0.01  0.52  1.   -0.47 -0.12 -0.04  0.18 -0.05 -0.17] | A's own: [ 0.65 -0.3  -0.16 -1.   -0.34 -0.37  0.43  0.99  0.31 -0.2 ]
+L12 MLP: digit-read change 0.0078 of own, digit-write change 0.0165 of own
+   read units: 1294(d=3.4x med, 0.03 own)  1527(d=2.5x med, 0.01 own)  242(d=2.5x med, 0.06 own)
+   write unit 1586: change 3.4x median, 0.04 of own | B-A digit logits 0-9: [ 1.    0.23  0.41  0.04  0.05  0.14 -0.49 -0.43 -0.46 -0.5 ] | A's own: [ 0.06 -0.48 -1.    0.09 -0.9  -0.17  0.17  0.65  0.95  0.64]
+   write unit 747: change 3.4x median, 0.01 of own | B-A digit logits 0-9: [ 0.17  0.32  0.43  0.77  0.19  0.23 -0.19 -0.57 -1.   -0.34] | A's own: [-0.15  0.34 -1.    0.49  0.25 -0.19  0.38 -0.53  0.21  0.21]
+   write unit 873: change 2.6x median, 0.09 of own | B-A digit logits 0-9: [-0.76 -1.   -0.74  0.31  0.2  -0.02  0.67  0.38  0.33  0.63] | A's own: [-0.96 -0.45  0.64  0.39  0.34  0.72  0.33 -0.14  0.14 -1.  ]
+   write unit 851: change 2.3x median, 0.05 of own | B-A digit logits 0-9: [-0.31 -0.95 -0.49 -0.12  0.77 -0.57  0.71 -0.3   1.    0.24] | A's own: [ 0.31  0.05 -0.39  1.   -0.73  0.49  0.28 -0.22 -0.45 -0.35]
+L13 MLP: digit-read change 0.0081 of own, digit-write change 0.0268 of own
+   read units: 1808(d=2.7x med, 0.02 own)  203(d=2.7x med, 0.02 own)  443(d=2.6x med, 0.02 own)
+   write unit 334: change 2.6x median, 0.07 of own | B-A digit logits 0-9: [-0.06  0.32  0.75  1.    0.49  0.1  -0.32 -0.64 -0.95 -0.69] | A's own: [ 0.04  1.    0.76  0.09  0.05 -0.36 -0.11 -0.76 -0.22 -0.49]
+   write unit 119: change 2.3x median, 0.07 of own | B-A digit logits 0-9: [ 0.58 -0.75 -1.   -0.59 -0.38 -0.25  0.31  0.77  0.95  0.37] | A's own: [ 1.    0.18 -0.28  0.12 -0.07 -0.11 -0.02 -0.09 -0.34 -0.4 ]
+   write unit 115: change 2.3x median, 0.08 of own | B-A digit logits 0-9: [ 0.44 -0.24  0.16 -0.9  -0.96 -0.86  0.46  0.28  1.    0.63] | A's own: [-1.   -0.14  0.01  0.6  -0.06  0.42 -0.15 -0.    0.2   0.12]
+   write unit 1878: change 2.3x median, 0.05 of own | B-A digit logits 0-9: [ 1.   -0.6  -0.36 -0.77  0.13 -0.45  0.42  0.06  0.59 -0.02] | A's own: [ 0.38  0.57  0.4   0.51 -0.46  0.65 -0.3  -0.67 -0.07 -1.  ]
+L14 MLP: digit-read change 0.0081 of own, digit-write change 0.0402 of own
+   read units: 338(d=2.6x med, 0.03 own)  1966(d=2.6x med, 0.03 own)  915(d=2.5x med, 0.02 own)
+   write unit 241: change 2.5x median, 0.13 of own | B-A digit logits 0-9: [-0.64 -0.4  -1.    0.2  -0.38 -0.13  0.5   0.1   0.93  0.82] | A's own: [-0.12  0.49  1.   -0.72  0.51 -0.12 -0.24 -0.27 -0.87  0.35]
+   write unit 1122: change 2.3x median, 0.07 of own | B-A digit logits 0-9: [ 0.47 -1.   -0.38 -0.17  0.14 -0.36  0.56  0.06  0.38  0.31] | A's own: [ 0.89 -0.04  0.55 -0.25  0.41 -0.03 -0.31 -1.    0.03 -0.26]
+   write unit 285: change 2.2x median, 0.05 of own | B-A digit logits 0-9: [ 0.88 -0.38 -1.   -0.75 -0.24 -0.19  0.26  0.41  0.65  0.37] | A's own: [-0.88 -0.44 -0.28 -0.45 -0.3  -0.3   0.42  0.83  1.    0.41]
+   write unit 541: change 2.2x median, 0.07 of own | B-A digit logits 0-9: [ 0.25 -0.19 -0.04 -1.   -0.52 -0.35  0.05  0.61  0.86  0.33] | A's own: [ 0.4   0.69  0.18 -0.05  0.46  0.27 -0.01 -0.51 -1.   -0.44]
+L15 MLP: digit-read change 0.0074 of own, digit-write change 0.0458 of own
+   read units: 1416(d=2.3x med, 0.02 own)  321(d=2.3x med, 0.01 own)  296(d=2.2x med, 0.02 own)
+   write unit 161: change 2.6x median, 0.19 of own | B-A digit logits 0-9: [ 0.26 -1.   -0.71 -0.4  -0.11  0.11  0.35  0.22  0.67  0.6 ] | A's own: [ 0.06 -1.   -0.62 -0.29  0.77  0.31  0.37 -0.58  0.3   0.69]
+   write unit 118: change 2.4x median, 0.11 of own | B-A digit logits 0-9: [ 1.    0.48 -0.35 -0.64 -0.54 -0.36  0.04  0.09  0.33 -0.06] | A's own: [-0.45  0.61  0.13  0.53  1.   -0.22  0.01 -0.9  -0.34 -0.37]
+   write unit 19: change 2.2x median, 0.11 of own | B-A digit logits 0-9: [ 0.07  0.67  1.    0.15  0.12  0.27 -0.33 -0.53 -0.75 -0.67] | A's own: [-0.62 -0.3   1.   -0.23  0.27 -0.39 -0.19 -0.07  0.19  0.34]
+   write unit 80: change 2.2x median, 0.15 of own | B-A digit logits 0-9: [-1.   -0.74 -0.88  0.2   0.8   0.57  0.64  0.35  0.07 -0.01] | A's own: [-1.    0.83  0.81  0.17 -0.12 -0.22 -0.59 -0.16  0.15  0.13]
+L16 MLP: digit-read change 0.0075 of own, digit-write change 0.0602 of own
+   read units: 997(d=2.8x med, 0.02 own)  35(d=2.6x med, 0.02 own)  436(d=2.6x med, 0.02 own)
+   write unit 558: change 3.0x median, 0.14 of own | B-A digit logits 0-9: [-0.57 -0.8  -0.81 -0.3   0.09  0.09  0.37  0.5   0.44  1.  ] | A's own: [ 1.    0.22 -0.46 -0.38  0.14 -0.14 -0.05 -0.09 -0.01 -0.23]
+   write unit 1588: change 2.9x median, 0.18 of own | B-A digit logits 0-9: [ 1.    0.9   0.97  0.25  0.08 -0.88 -0.59 -0.69 -0.35 -0.7 ] | A's own: [ 0.78  0.32  0.64 -0.45 -1.   -0.07  1.   -0.02 -0.32 -0.89]
+   write unit 1516: change 2.8x median, 0.04 of own | B-A digit logits 0-9: [-0.17 -0.59 -1.   -0.4  -0.06 -0.09  0.44  0.59  0.6   0.68] | A's own: [-0.15 -0.11 -0.23 -0.01  1.    0.07 -0.17 -0.09 -0.13 -0.18]
+   write unit 1892: change 2.7x median, 0.12 of own | B-A digit logits 0-9: [ 0.26  1.    0.04  0.04 -0.08 -0.07 -0.46 -0.36 -0.23 -0.14] | A's own: [ 0.4   1.    0.19  0.   -0.13 -0.5  -0.8  -0.34  0.25 -0.06]
+L17 MLP: digit-read change 0.0077 of own, digit-write change 0.0838 of own
+   read units: 1073(d=3.0x med, 0.01 own)  27(d=2.6x med, 0.01 own)  741(d=2.6x med, 0.02 own)
+   write unit 433: change 3.5x median, 0.21 of own | B-A digit logits 0-9: [-0.16 -1.   -0.7  -0.11  0.16  0.26  0.2   0.36  0.39  0.62] | A's own: [-0.78 -1.   -0.96  0.29  0.47  0.27  0.59  0.88 -0.21  0.45]
+   write unit 564: change 3.1x median, 0.45 of own | B-A digit logits 0-9: [ 0.5   1.    0.6  -0.1  -0.18 -0.22 -0.49 -0.43 -0.3  -0.36] | A's own: [ 0.3  -0.09  0.56 -0.53 -1.    0.16  0.48  0.08  0.01  0.02]
+   write unit 1315: change 3.0x median, 0.15 of own | B-A digit logits 0-9: [ 0.28 -1.   -0.88 -0.29 -0.06  0.02  0.47  0.41  0.68  0.38] | A's own: [-0.26 -0.1   0.43  0.28 -0.15 -0.08 -1.   -0.24  0.32  0.81]
+   write unit 688: change 2.8x median, 1.16 of own | B-A digit logits 0-9: [ 0.03 -1.   -0.47 -0.07  0.08  0.18  0.13  0.29  0.26  0.58] | A's own: [ 0.07  0.78 -0.48  0.17  0.   -0.94  1.    0.4  -0.1  -0.92]
+
+```

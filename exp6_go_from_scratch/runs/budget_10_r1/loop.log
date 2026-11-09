@@ -40,3 +40,89 @@
 [2026-11-09T15:03:55] turn 18: resume (122 chars)
 [2026-11-09T15:05:31] python run 16 (599 chars of code, 35 chars out, 0.5 s); passes 2/10
 [2026-11-09T15:05:31] turn 19: resume (83 chars)
+[2026-11-09T15:08:56] games pass 3/10
+[2026-11-09T15:08:56] turn 20: resume (1,669 chars)
+[2026-11-09T15:09:09] python run 17 (756 chars of code, 1,255 chars out, 0.52 s); passes 3/10
+[2026-11-09T15:09:09] turn 21: resume (1,303 chars)
+[2026-11-09T15:09:23] python run 18 (451 chars of code, 393 chars out, 0.71 s); passes 3/10
+[2026-11-09T15:09:23] turn 22: resume (441 chars)
+[2026-11-09T15:10:55] python run 19 (840 chars of code, 612 chars out, 0.56 s); passes 3/10
+[2026-11-09T15:10:55] turn 23: resume (660 chars)
+[2026-11-09T15:11:05] python run 20 (434 chars of code, 978 chars out, 0.5 s); passes 3/10
+[2026-11-09T15:11:05] turn 24: resume (1,026 chars)
+[2026-11-09T15:13:33] python run 21 (954 chars of code, 142 chars out, 3.11 s); passes 3/10
+[2026-11-09T15:13:33] turn 25: resume (190 chars)
+[2026-11-09T15:13:45] python run 22 (397 chars of code, 13 chars out, 0.71 s); passes 3/10
+[2026-11-09T15:13:45] turn 26: resume (61 chars)
+[2026-11-09T15:14:41] games pass 4/10
+[2026-11-09T15:14:41] turn 27: resume (1,667 chars)
+[2026-11-09T15:14:51] python run 23 (739 chars of code, 1,721 chars out, 0.29 s); passes 4/10
+[2026-11-09T15:14:51] turn 28: resume (1,769 chars)
+[2026-11-09T15:15:02] python run 24 (454 chars of code, 894 chars out, 0.29 s); passes 4/10
+[2026-11-09T15:15:02] turn 29: resume (942 chars)
+[2026-11-09T15:15:30] python run 25 (892 chars of code, 775 chars out, 0.28 s); passes 4/10
+[2026-11-09T15:15:30] turn 30: resume (823 chars)
+[2026-11-09T15:16:52] python run 26 (674 chars of code, 31 chars out, 3.08 s); passes 4/10
+[2026-11-09T15:16:52] turn 31: resume (79 chars)
+[2026-11-09T15:18:44] python run 27 (1,211 chars of code, 157 chars out, 6.77 s); passes 4/10
+[2026-11-09T15:18:44] turn 32: resume (205 chars)
+[2026-11-09T15:20:26] python run 28 (1,417 chars of code, 143 chars out, 3.89 s); passes 4/10
+[2026-11-09T15:20:26] turn 33: resume (191 chars)
+[2026-11-09T15:20:45] python run 29 (1,626 chars of code, 886 chars out, 0.3 s); passes 4/10
+[2026-11-09T15:20:45] turn 34: resume (934 chars)
+[2026-11-09T15:23:39] python run 30 (797 chars of code, 315 chars out, 3.43 s); passes 4/10
+[2026-11-09T15:23:39] turn 35: resume (363 chars)
+[2026-11-09T15:23:54] python run 31 (970 chars of code, 1,255 chars out, 0.28 s); passes 4/10
+[2026-11-09T15:23:54] turn 36: resume (1,303 chars)
+[2026-11-09T15:24:11] python run 32 (1,047 chars of code, 44 chars out, 3.56 s); passes 4/10
+[2026-11-09T15:24:11] turn 37: resume (92 chars)
+[2026-11-09T15:25:27] python run 33 (768 chars of code, 3 chars out, 0.32 s); passes 4/10
+[2026-11-09T15:25:27] turn 38: resume (51 chars)
+[2026-11-09T15:25:41] python run 34 (1,278 chars of code, 467 chars out, 0.43 s); passes 4/10
+[2026-11-09T15:25:41] turn 39: resume (515 chars)
+[2026-11-09T15:26:59] games pass 5/10
+[2026-11-09T15:26:59] turn 40: resume (1,362 chars)
+[2026-11-09T15:27:10] python run 35 (783 chars of code, 1,249 chars out, 0.36 s); passes 5/10
+[2026-11-09T15:27:10] turn 41: resume (1,297 chars)
+[2026-11-09T15:27:39] python run 36 (1,666 chars of code, 654 chars out, 0.3 s); passes 5/10
+[2026-11-09T15:27:39] turn 42: resume (702 chars)
+[2026-11-09T15:29:47] python run 37 (304 chars of code, 18 chars out, 3.44 s); passes 5/10
+[2026-11-09T15:29:47] turn 43: resume (66 chars)
+[2026-11-09T15:30:20] python run 38 (3,797 chars of code, 351 chars out, 0.91 s); passes 5/10
+[2026-11-09T15:30:20] turn 44: resume (399 chars)
+[2026-11-09T15:30:37] python run 39 (674 chars of code, 13,835 chars out, 0.64 s); passes 5/10
+[2026-11-09T15:30:37] turn 45: resume (13,883 chars)
+[2026-11-09T15:31:59] positions pass 6/10
+[2026-11-09T15:31:59] turn 46: resume (6,134 chars)
+[2026-11-09T15:32:14] python run 40 (1,336 chars of code, 45 chars out, 0.94 s); passes 6/10
+[2026-11-09T15:32:14] turn 47: resume (93 chars)
+[2026-11-09T15:32:28] python run 41 (887 chars of code, 32 chars out, 1.41 s); passes 6/10
+[2026-11-09T15:32:28] turn 48: resume (80 chars)
+[2026-11-09T15:33:03] games pass 7/10
+[2026-11-09T15:33:03] turn 49: resume (1,339 chars)
+[2026-11-09T15:33:18] python run 42 (1,712 chars of code, 1,020 chars out, 1.28 s); passes 7/10
+[2026-11-09T15:33:18] turn 50: resume (1,068 chars)
+[2026-11-09T15:34:29] python run 43 (279 chars of code, 553 chars out, 0.5 s); passes 7/10
+[2026-11-09T15:34:29] turn 51: resume (601 chars)
+[2026-11-09T15:34:46] python run 44 (885 chars of code, 737 chars out, 0.44 s); passes 7/10
+[2026-11-09T15:34:46] turn 52: resume (785 chars)
+[2026-11-09T15:35:24] python run 45 (578 chars of code, 26 chars out, 0.48 s); passes 7/10
+[2026-11-09T15:35:24] turn 53: resume (74 chars)
+[2026-11-09T15:35:45] games pass 8/10
+[2026-11-09T15:35:45] turn 54: resume (1,346 chars)
+[2026-11-09T15:35:58] python run 46 (1,838 chars of code, 1,104 chars out, 0.56 s); passes 8/10
+[2026-11-09T15:35:58] turn 55: resume (1,152 chars)
+[2026-11-09T15:36:53] python run 47 (784 chars of code, 3,207 chars out, 0.52 s); passes 8/10
+[2026-11-09T15:36:53] turn 56: resume (3,255 chars)
+[2026-11-09T15:37:21] python run 48 (508 chars of code, 516 chars out, 0.45 s); passes 8/10
+[2026-11-09T15:37:21] turn 57: resume (564 chars)
+[2026-11-09T15:37:48] python run 49 (1,759 chars of code, 1,158 chars out, 0.52 s); passes 8/10
+[2026-11-09T15:37:48] turn 58: resume (1,206 chars)
+[2026-11-09T15:39:10] python run 50 (4,144 chars of code, 358 chars out, 0.31 s); passes 8/10
+[2026-11-09T15:39:10] turn 59: resume (406 chars)
+[2026-11-09T15:39:33] games pass 9/10
+[2026-11-09T15:39:33] turn 60: resume (1,352 chars)
+[2026-11-09T15:40:02] python run 51 (1,044 chars of code, 256 chars out, 0.76 s); passes 9/10
+[2026-11-09T15:40:02] turn 61: resume (304 chars)
+[2026-11-09T15:40:22] python run 52 (1,389 chars of code, 434 chars out, 0.64 s); passes 9/10
+[2026-11-09T15:40:22] turn 62: resume (482 chars)

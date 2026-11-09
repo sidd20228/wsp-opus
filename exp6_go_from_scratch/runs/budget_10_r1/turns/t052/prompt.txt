@@ -1,0 +1,48 @@
+OUTPUT of Python run 44 of at most 120:
+```
+4 black 138 -55.5 lost 92 cap 8
+[('L', 89, 15), ('L', 99, 3), ('L', 107, 6), ('L', 119, 7)]
+.O.OOOOO.
+OOOOOOOOO
+OOOOOOOOO
+OOOOOOOOO
+.OOXXXOO.
+XOOOXXOOO
+XOOXXXOOO
+OOOX.XOOO
+OOOXXXOOO
+11 black 94 -6.5 lost 9 cap 10
+[('C', 66, 5)]
+.OXXXXX.X
+OXXOOOXX.
+OOOOOOOXX
+OOOXOOOOX
+OOXXXXXOO
+.OOOXX.XX
+OOOXXXX.X
+.OOOXX.X.
+O.OOOXX.X
+13 black 118 -1.5 lost 22 cap 31
+[('C', 68, 6), ('C', 78, 5), ('L', 95, 3), ('L', 109, 3), ('L', 113, 5)]
+O.XOOOO.O
+OO.O.OOOX
+OOOOOOOOX
+OOXXOXXXX
+OOXXXXX.X
+OOX.X.XXX
+.OOXXXX.X
+XOOXXX.XX
+O.OX.XX.X
+17 black 125 -41.5 lost 45 cap 5
+[('L', 41, 3), ('L', 77, 6), ('L', 79, 3), ('L', 85, 3), ('L', 87, 4), ('L', 99, 3), ('L', 117, 3)]
+.XOOOOOO.
+OOOOOOOOO
+.OOOOOOOO
+OOOOOOOOO
+XOO.OOOOO
+XOOOXXOOO
+XOOXX.XOO
+.XOX.XXOO
+X.X.X.XOO
+
+```

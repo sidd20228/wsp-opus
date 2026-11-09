@@ -82,12 +82,18 @@ def build(P):
         # OA = relu(nown - 5(AM+BM))
         L6[AM+p,OA+p]=-5; L6[BM+p,OA+p]=-5
         for q in NB[p]: add_own(q,OA+p,1)
-        # SA = relu(2 - E - 3(AM+BM))
+        cesum=[e for e,(a,bb) in enumerate(EDGES) if p in (a,bb)]
+        # SA = relu(2 - E - 3(AM+BM) - 2*sumCE + kappa*(sumV - 2deg + 1))
         b6[SA+p]+=2; L6[AM+p,SA+p]=-3; L6[BM+p,SA+p]=-3
         for q in NB[p]: add_emp(q,SA+p,-1)
-        # EYE = relu(nown - deg + 1)
-        b6[EYE+p]+=1-deg[p]
-        for q in NB[p]: add_own(q,EYE+p,1)
+        for e in cesum: L6[CE+e,SA+p]+=-2
+        kap=P.get('kappa',1.0)
+        for q in NB[p]: L6[V5+q,SA+p]+=kap
+        b6[SA+p]+=kap*(1-2*deg[p])
+        # Z1 = relu(nown - 3E + 3 - 9*sumCE)   (stored in EYE slot)
+        b6[EYE+p]+=3
+        for q in NB[p]: add_own(q,EYE+p,1); add_emp(q,EYE+p,-3)
+        for e in cesum: L6[CE+e,EYE+p]+=-9
         # tents: infl = sum K (1 - V)
         r,cc=rc(p)
         for q in range(81):
@@ -108,7 +114,7 @@ def build(P):
         r,cc=rc(p)
         line=min(r,cc,8-r,8-cc)
         bo[p]=P['bias']+P['linebias'][line]
-        Wo[CAP+p,p]=P['wcap']; Wo[OA+p,p]=P['woa']; Wo[SA+p,p]=-P['wsa']; Wo[EYE+p,p]=-P['weye']
+        Wo[CAP+p,p]=P['wcap']; Wo[OA+p,p]=P['woa']; Wo[SA+p,p]=-P['wsa']; Wo[EYE+p,p]=-P['wz1']
         for q in range(81):
             r2,c2=rc(q); d2=(r-r2)**2+(cc-c2)**2
             if d2 in P['K2']:

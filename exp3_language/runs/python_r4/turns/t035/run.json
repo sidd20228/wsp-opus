@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "458ec289-03f1-4fe4-83b5-5ab52023c165",
+ "cwd": "<home>/.wsp/c/458ec289",
+ "turn": 35,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "458ec289-03f1-4fe4-83b5-5ab52023c165"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 18.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2847,
+  "cache_read_input_tokens": 147178,
+  "output_tokens": 1859,
+  "output_tokens_details": {
+   "thinking_tokens": 946
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2847,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 1859,
+    "cache_read_input_tokens": 147178,
+    "cache_creation_input_tokens": 2847,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2847
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 138,
+   "outputTokens": 106797,
+   "thinkingTokens": 86578,
+   "cacheReadInputTokens": 2656655,
+   "cacheCreationInputTokens": 246703,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 246703,
+   "webSearchRequests": 0,
+   "costUSD": 4.641447,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.641447,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 18.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "```python\nimport numpy as np\nfrom sklearn.decomposition import FastICA\nhd=64\ndef OVl(l,j):\n    lw_=W[f'ln1_w.{l}']\n    return W[f'W_o.{l}'][:,j*hd:(j+1)*hd]@(W[f'W_v.{l}'][j*hd:(j+1)*hd]*lw_)\ndef QKl(l,j):\n    lw_=W[f'ln1_w.{l}']; s=slice(j*hd,(j+1)*hd)\n    return (W[f'W_q.{l}'][s]*lw_).T@(W[f'W_k.{",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.48,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.31,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "47c3280f-b299-447d-a08a-bd0051fcf624",
+     "session_id": "458ec289-03f1-4fe4-83b5-5ab52023c165"
+    }
+   ]
+  }
+ ]
+}

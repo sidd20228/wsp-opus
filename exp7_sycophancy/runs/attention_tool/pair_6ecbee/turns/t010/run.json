@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "9c9cd21a-60ed-4c55-9388-655883680c9c",
+ "cwd": "<home>/.wsp/c/9c9cd21a",
+ "turn": 10,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "9c9cd21a-60ed-4c55-9388-655883680c9c"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 52.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 9889,
+  "cache_read_input_tokens": 59988,
+  "output_tokens": 5281,
+  "output_tokens_details": {
+   "thinking_tokens": 3479
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9889,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 5281,
+    "cache_read_input_tokens": 59988,
+    "cache_creation_input_tokens": 9889,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9889
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 38,
+   "outputTokens": 31818,
+   "thinkingTokens": 16689,
+   "cacheReadInputTokens": 294816,
+   "cacheCreationInputTokens": 69877,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 69877,
+   "webSearchRequests": 0,
+   "costUSD": 1.2544912000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.2544912000000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 52.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 9 showed.** At the weight level, the query-key circuits of the heads that switch targets have changed more than typical:\n- **L12h0**: 1.86\u00d7 the median relative QK change.\n- **L5h3**: 1.52\u00d7.\n- **L6h2**: 1.45\u00d7.\n- **L12h1**: 1.40\u00d7.\n- **Other layer 10\u201312 heads** have the largest QK changes ov",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.39,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.3,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "05758b8c-56b4-4ddc-b6ac-e3d41a32fced",
+     "session_id": "9c9cd21a-60ed-4c55-9388-655883680c9c"
+    }
+   ]
+  }
+ ]
+}

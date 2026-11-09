@@ -1,22 +1,22 @@
 {
  "session_id": "7058487b-e813-4267-8caf-88948278edbe",
  "cwd": "<home>/.wsp/c/7058487b",
- "turns": 78,
+ "turns": 168,
  "effort": "xhigh",
- "next": "OUTPUT of Python run 61 of at most 120:\n```\n{'Z': 0, 'FO': 81, 'L2O': 162, 'L2M': 243, 'SA': 324, 'EY': 405} {'TAC': 0, 'PEN': 81, 'BA': 162, 'BB': 243, 'BC': 324, 'AtO': 405}\n{'delta': 0.002, 'kern': {'0': 1.0, '1': 1.0, '2': 0.5, '3': 0.25, '4': 0.125}, 'theta': 1.5, 'conv': {'0': 1.0, '1': 1.0, '2': 0.5, '3': 0.25}, 'own_scale': 1.0, 'opp_scale': 1.0, 'spos': 2.0, 'w_eye': 300.0, 'w_cap': 40.0, 'w_esc': 8.0, 'w_sa': 15.0, 'bias': [-3.0, -1.0, 0.8, 1.5, 1.8], 'P0': -60.0, 'kap': 6.0, 'alpha': 0.5, 'beta_own': 2.0, 'w_at': 6.0, 'lam': 2.0}\n\n```",
- "done": false,
+ "next": null,
+ "done": true,
  "counters": {
-  "passes": 17,
-  "runs": 61
+  "passes": 50,
+  "runs": 117
  },
  "failures": 0,
  "usage_last": {
   "input_tokens": 4,
-  "cache_creation_input_tokens": 6512,
-  "cache_read_input_tokens": 399426,
-  "output_tokens": 373,
+  "cache_creation_input_tokens": 592,
+  "cache_read_input_tokens": 526839,
+  "output_tokens": 1698,
   "output_tokens_details": {
-   "thinking_tokens": 353
+   "thinking_tokens": 31
   },
   "server_tool_use": {
    "web_search_requests": 0,
@@ -24,19 +24,19 @@
   },
   "service_tier": "standard",
   "cache_creation": {
-   "ephemeral_1h_input_tokens": 6512,
+   "ephemeral_1h_input_tokens": 592,
    "ephemeral_5m_input_tokens": 0
   },
   "inference_geo": "global",
   "iterations": [
    {
     "input_tokens": 4,
-    "output_tokens": 373,
-    "cache_read_input_tokens": 399426,
-    "cache_creation_input_tokens": 6512,
+    "output_tokens": 1698,
+    "cache_read_input_tokens": 526839,
+    "cache_creation_input_tokens": 592,
     "cache_creation": {
      "ephemeral_5m_input_tokens": 0,
-     "ephemeral_1h_input_tokens": 6512
+     "ephemeral_1h_input_tokens": 592
     },
     "type": "message"
    }

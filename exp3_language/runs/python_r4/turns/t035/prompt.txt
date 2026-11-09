@@ -1,0 +1,15 @@
+OUTPUT of run 34 of at most 100:
+```
+28 L2H1 diag mean 0.138, offdiag mean -0.000 sd 0.041; #rows where diag is max: 21/28
+28 L3H1 diag mean 0.096, offdiag mean 0.001 sd 0.033; #rows where diag is max: 18/28
+28 L3H5 diag mean 0.136, offdiag mean -0.001 sd 0.042; #rows where diag is max: 19/28
+   skews [13.8 11.3  9.9  9.7  9.7  9.   9.   8.8  8.4  8.3  7.6  7.6  6.4  6.2
+  5.8  5.7  5.7  5.7  5.7  5.3  5.2  4.8  4.5  4.4  3.9  3.   2.5  0.1]
+30 L2H1 diag mean 0.103, offdiag mean -0.001 sd 0.036; #rows where diag is max: 18/30
+30 L3H1 diag mean 0.070, offdiag mean 0.001 sd 0.028; #rows where diag is max: 16/30
+30 L3H5 diag mean 0.097, offdiag mean -0.001 sd 0.036; #rows where diag is max: 20/30
+   skews [13.7 12.4 10.   9.9  9.6  9.4  9.4  9.4  9.   8.5  8.3  7.7  6.4  6.2
+  5.9  5.7  5.7  5.7  5.5  5.5  5.5  5.3  5.2  4.9  4.6  4.5  3.3  2.3
+  0.8  0.7]
+
+```

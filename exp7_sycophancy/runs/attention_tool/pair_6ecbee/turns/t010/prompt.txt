@@ -1,0 +1,103 @@
+OUTPUT of run 9 of at most 20:
+```
+relative QK change: median 0.0155; relative OV change: median 0.0129
+heads ranked by relative QK change:
+  L11h0 dQK=0.0435 (2.81x median)  dOV=0.0122
+  L11h1 dQK=0.0376 (2.43x median)  dOV=0.0213
+  L10h1 dQK=0.0350 (2.26x median)  dOV=0.0116
+  L12h2 dQK=0.0309 (1.99x median)  dOV=0.0089
+  L12h0 dQK=0.0289 (1.86x median)  dOV=0.0134
+  L11h3 dQK=0.0257 (1.66x median)  dOV=0.0079
+  L17h1 dQK=0.0256 (1.65x median)  dOV=0.0147
+  L12h3 dQK=0.0250 (1.61x median)  dOV=0.0120
+  L14h1 dQK=0.0235 (1.52x median)  dOV=0.0091
+  L5h3 dQK=0.0235 (1.52x median)  dOV=0.0105
+  L13h1 dQK=0.0232 (1.50x median)  dOV=0.0131
+  L6h2 dQK=0.0225 (1.45x median)  dOV=0.0152
+  L12h1 dQK=0.0217 (1.40x median)  dOV=0.0125
+  L15h0 dQK=0.0214 (1.38x median)  dOV=0.0129
+  L5h0 dQK=0.0211 (1.36x median)  dOV=0.0077
+  L10h0 dQK=0.0207 (1.34x median)  dOV=0.0098
+heads ranked by relative OV change:
+  L4h1 dOV=0.0243 (1.89x)  dQK=0.0195
+  L11h1 dOV=0.0213 (1.66x)  dQK=0.0376
+  L3h3 dOV=0.0210 (1.63x)  dQK=0.0060
+  L0h1 dOV=0.0208 (1.62x)  dQK=0.0091
+  L8h2 dOV=0.0191 (1.48x)  dQK=0.0167
+  L15h2 dOV=0.0186 (1.45x)  dQK=0.0199
+  L4h0 dOV=0.0179 (1.39x)  dQK=0.0121
+  L2h3 dOV=0.0175 (1.36x)  dQK=0.0129
+  L4h2 dOV=0.0174 (1.36x)  dQK=0.0151
+  L8h1 dOV=0.0166 (1.29x)  dQK=0.0120
+
+L9h0 dQK singular values: [1.    0.784 0.653 0.626 0.503]
+  dir0 query+: 'jeli' ' lähe' ' Vell' ' сопрово' ' kindly' ' Reiter' 'ÖR' '\n\n\n\n\n\n\n\n\n\n\n\n' ' สืบค้น' '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n' 'ør' ' MERCHANT'
+        query-: '3' '4' '5' '7' '6' '9' '2' '0' '1' '8' ' ' 'ربعة'
+        key+  : ' dreams' ' waiting' ' lament' ' dreaming' ' phon' ' dream' ' projected' ' arrested' ' preserved' ' flattened' ' forty' ' Genes'
+        key-  : 'tert' 'terer' 'üller' 'iktar' 'wirk' 'tering' ' efectivos' 'patch' 'aml' 'ülete' 'zzel' 'ımlar'
+  dir1 query+: '孭' ' risques' 'ammable' ' fundraisers' '娄' 'aryng' ' portata' 'assurer' 'ministrazione' 'ån' ' بھر' 'ieties'
+        query-: ' Miro' '和平' ' Crimea' ' editable' ' CR' ' Marble' '滘' ' Bick' ' Moris' ' deserted' '橿' ' bate'
+        key+  : '8' '7' '4' '6' '5' '9' '3' '2' '0' '1' 'bx' 'x'
+        key-  : '}}]' '}}\\\\' ' }}}' 'operatively' ' valamint' '하기도' ' [*' '黙' '])/' 'érance' ']\\\\' ' Nearby'
+
+L10h2 dQK singular values: [1.    0.795 0.61  0.527 0.461]
+  dir0 query+: '4' '3' '5' '7' '6' '8' '1' '9' '2' '0' '４' ' four'
+        query-: ']/*' ' Provence' ' くれ' ' SII' 'campos' ' armon' 'ilà' '上市' '="...">' ' Reiter' 'rens' ' Excell'
+        key+  : ' `=' ' hyperparameters' ' `:`,' 'ivitis' ' RIGHTS' ' 方法' ' normality' ' {/*' ' ",",' 'rocyte' 'ᕗ' 'iosis'
+        key-  : '4' '5' '3' '6' '8' '7' '0' '9' '2' ' насыщен' '４' '1'
+  dir1 query+: ' Thun' 'ⵢ' '矛盾' ' dissenting' ' rebut' ' opposite' ' grammat' ' contradicting' ' trống' ' plural' ' edited' 'empty'
+        query-: ' operations' ' opérations' '密' ' eficiência' ' Fidelity' ' fidelity' ' ادائیگی' ' Practices' 'ีด' 'ESCO' ' opération' ' efficiencies'
+        key+  : '쯜' 'unfortunately' 'exports' ' providence' 'ayani' 'Borderless' '通販' ' Exports' ' prosper' 'yship' ' Servi' '产能'
+        key-  : '0' '8' '9' '7' '4' '6' '3' '5' '2' '1' '回目の' '歳の'
+
+L11h2 dQK singular values: [1.    0.743 0.716 0.571 0.525]
+  dir0 query+: '츤' 'をご' 'ximity' 'စ္' 'owna' '슌' 'liš' 'other' 'ترم' 'ší' '禀' 'ု'
+        query-: '3' '5' '９' '６' '7' '4' '８' '４' '５' '6' '７' ' eight'
+        key+  : ' Convex' 'рец' ' oligonucleotide' ' isotype' 'Bismillahirrah' '🇫' ' Guille' 'ရှ' ' midsole' 'Genome' ' Provence' ' "}'
+        key-  : ' airlift' 'ributing' ' hauling' ' сил' ' arus' '经费' ' vab' 'हीत' 'фик' 'infl' ' historias' ' rides'
+  dir1 query+: ' mencionado' ' indeterm' ' miatt' ' vastaan' ' بالنسبه' 'verlag' '쪽에' ' lehetős' 'rals' ' ocasion' 'misc' 'มากๆ'
+        query-: ' Dream' ' completions' ' Completion' ' Geh' 'mile' ' benchmarks' ' mile' ' Vaughan' ' kilometer' ' skyl' ' Bath' ' completion'
+        key+  : ' humane' '掌控' ' tả' 'Alam' ' Humane' ' thio' ' Abol' ' lysosomes' ' Chipp' ' sejahtera' 'леку' ' Mild'
+        key-  : 'ubis' 'atform' ' sólidos' ' voids' ' пирами' 'bukti' 'standing' ' imam' 'certs' 'ences' 'inox' 'ination'
+
+L12h0 dQK singular values: [1.    0.714 0.675 0.388 0.373]
+  dir0 query+: 'esu' ' purged' ' hereby' 'oke' ' believed' 'cret' '無く' '3' 'olutely' ' unlicensed' ' therefor' ' LICENSE'
+        query-: ' Cinematic' ' carnage' ' Cote' ' magní' ' Tweets' ' aston' ' VFX' 'jö' ' Frames' ' rumin' '折り' 'ᱸ'
+        key+  : ' nahin' 'ahanglan' ' imong' 'слови' ' annih' ' estoppel' ' [![' 'gação' '引号' 'ทางการ' ' reembol' ' coffers'
+        key-  : '7' '5' '8' '6' '9' '4' '3' '0' '1' '2' '８' 'eight'
+  dir1 query+: ' Paint' ' Lament' ' depths' ' shores' 'Caf' ' Tears' ' runoff' 'Anybody' 'colnames' 'Paint' ' Aner' ' Drain'
+        query-: '5' '6' '4' '8' '0' '9' '7' '2' '3' '1' '၆' '۵'
+        key+  : ' dct' '년에' ' fertilisers' '之类的' ' agricoles' ' agrícola' ' montar' 'などの' 'ظيم' ' Sequoia' 'などで' ' agrícolas'
+        key-  : 'keny' '的前提' '瞬間' ' glimpses' 'рија' 'яв' ' normality' 'eluk' 'доступ' ' cogniz' 'itas' 'öffnet'
+
+L12h1 dQK singular values: [1.    0.791 0.715 0.546 0.504]
+  dir0 query+: ' contacto' ' apertura' ' posibilidad' 'isateur' ' abertura' 'ื' ' elér' ' possibilità' 'ญา' ' intégral' ' possibilidade' ' supporto'
+        query-: ' carbons' ' Versailles' ' Jinping' ' Conc' 'quakes' 'commuting' ' Delegates' ' touring' ' eiusmod' ' struck' ' angina' ' Qaeda'
+        key+  : 'issements' '婢' ' nahin' 'outputPath' 'امج' ' Suprem' ' tenement' 'necks' '肓' ' [![' ' reinvest' 'гот'
+        key-  : '5' '7' '4' '8' '6' '9' '3' '0' '2' '1' '５' 'abc'
+  dir1 query+: ' apna' ' Walla' ' Cote' 'Toc' ' carnage' ' можа' ' apni' ' Côte' ' pace' 'に見' 'DetailPage' ' 显示'
+        query-: '3' '7' '4' '6' '8' '1' '9' '5' '６' '９' '７' ' '
+        key+  : ' cmds' '入住' ' Donations' ' blí' 'closures' ' Playhouse' ' 다만' '祜' '栽培' '无奈' ' Pantry' 'Easing'
+        key-  : ' kilometer' ' совершен' ' kilometers' 'dumb' ' durchschnitt' ' soziale' ' Durchschnitt' 'kilometer' ' brut' ' gleich' ' sagen' 'roph'
+
+L5h3 dQK singular values: [1.    0.735 0.632 0.522 0.448]
+  dir0 query+: ' guessing' 'yste' '7' ' STP' ' tatha' 'stru' ' فش' '十九章' 'श्च' 'zat' ' Zion' '十八章'
+        query-: ' Demir' 'AIR' ' Mays' 'amber' ' Gomes' ' Amiri' ' Barber' ' AISI' ' Farn' 'OB' '้ย' 'bilir'
+        key+  : ' P' ' Ph' ' St' 'st' 'pl' ' Syst' 'P' ' st' 'ポ' 'stp' ' iP' 'stm'
+        key-  : ' Ayr' ' Lauderdale' 'Dice' ' Duran' ' Koon' 'ades' 'iran' ' Banj' 'iras' 'RAY' ' Dass' 'Alban'
+  dir1 query+: 'iop' ' Cip' ' Cushing' 'cimento' 'cios' ' Connolly' 'cip' 'cio' 'iling' 'ucci' ' Fink' 'ipan'
+        query-: 'ABB' 'Rex' 'mAh' 'Maze' 'AVER' 'Alphabet' ' 그대로' 'alphabet' 'Extreme' 'Karte' 'RAN' 'BRE'
+        key+  : ' Bedford' ' ede' 'bedded' ' Eph' ' Richard' ' Easton' 'Andrews' ' phosph' 'weekday' 'answered' 'şt' 'deutsche'
+        key-  : 'CIR' ' Jalis' ' Kui' ' TMN' ' Jenner' ' Gibb' ' Khal' ' Tij' ' Newsom' 'iciar' 'ilm' 'Milan'
+
+L7h0 dQK singular values: [1.    0.911 0.685 0.613 0.578]
+  dir0 query+: 'iski' 'beri' 'inim' 'iyê' 'inis' 'isku' ' Sandler' ' yaad' ' จง' ' slic' 'iné' 'ésére'
+        query-: ' wardrobe' ' house' ' Freedom' ' adoration' ' helium' ' Fortune' ' vehicle' ' houses' ' garments' ' personality' ' extra' ' tenure'
+        key+  : '茶' '選' ' Gött' ' Bruder' ' selected' 'xb' ' bro' '科' 'パー' ' chosen' ' papa' ' unidentified'
+        key-  : 'жением' 'uance' 'ERCIAL' ' moviment' 'ordination' 'textvariable' 'に関する法律' 'ผู้ชมในสนาม' 'ercase' 'logram' '.}(' ' wzglę'
+  dir1 query+: ' NEP' ' Fill' ' Zas' ' NIS' ' trips' ' tours' ' філь' ' CDs' ' cruises' 'เต' ' Police' ' Pint'
+        query-: 'omag' ' kalam' 'estand' 'emed' 'orum' 'Alton' 'stum' 'ordeel' 'asma' 'ertown' 'емом' 'omed'
+        key+  : ' Ain' 'caire' ' berguna' 'gebra' ' Enem' ' Baik' ' implicate' ' Ferg' 'สะดวก' ' bene' ' Constitu' ' adduced'
+        key-  : '0' '9' '5' '7' '6' '8' 'º' '1' 'ος' '琼' 'olog' '4'
+
+```

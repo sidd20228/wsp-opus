@@ -1,0 +1,46 @@
+OUTPUT of run 4 of at most 60:
+```
+((6, 'down_proj', 'w'), 0) ((5, 'down_proj', 'w'), 0) 0.998
+((14, 'up_proj', 'r'), 0) ((14, 'gate_proj', 'r'), 0) 0.996
+((6, 'o_proj', 'w'), 0) ((5, 'down_proj', 'w'), 0) 0.996
+((3, 'down_proj', 'w'), 0) ((4, 'down_proj', 'w'), 0) 0.996
+((11, 'gate_proj', 'r'), 0) ((11, 'up_proj', 'r'), 0) 0.995
+((6, 'down_proj', 'w'), 0) ((6, 'o_proj', 'w'), 0) 0.995
+((12, 'up_proj', 'r'), 0) ((12, 'gate_proj', 'r'), 0) 0.995
+((3, 'down_proj', 'w'), 0) ((5, 'down_proj', 'w'), 0) 0.995
+((17, 'up_proj', 'r'), 0) ((17, 'gate_proj', 'r'), 0) 0.995
+((13, 'gate_proj', 'r'), 0) ((13, 'up_proj', 'r'), 0) 0.994
+((16, 'gate_proj', 'r'), 0) ((16, 'up_proj', 'r'), 0) 0.994
+((1, 'down_proj', 'w'), 0) ((0, 'o_proj', 'w'), 0) 0.994
+((0, 'down_proj', 'w'), 0) ((1, 'down_proj', 'w'), 0) 0.994
+((9, 'gate_proj', 'r'), 0) ((9, 'up_proj', 'r'), 0) 0.994
+((2, 'down_proj', 'w'), 0) ((1, 'down_proj', 'w'), 0) 0.994
+((0, 'gate_proj', 'r'), 0) ((0, 'up_proj', 'r'), 0) 0.994
+((7, 'o_proj', 'w'), 0) ((6, 'down_proj', 'w'), 0) 0.994
+((4, 'down_proj', 'w'), 0) ((5, 'down_proj', 'w'), 0) 0.993
+((4, 'up_proj', 'r'), 0) ((4, 'gate_proj', 'r'), 0) 0.993
+((5, 'down_proj', 'w'), 0) ((7, 'o_proj', 'w'), 0) 0.992
+((6, 'o_proj', 'w'), 0) ((7, 'o_proj', 'w'), 0) 0.992
+((15, 'gate_proj', 'r'), 0) ((15, 'up_proj', 'r'), 0) 0.992
+((9, 'gate_proj', 'r'), 1) ((9, 'up_proj', 'r'), 1) 0.992
+((2, 'o_proj', 'w'), 0) ((1, 'down_proj', 'w'), 0) 0.992
+((6, 'o_proj', 'w'), 0) ((3, 'down_proj', 'w'), 0) 0.991
+((10, 'up_proj', 'r'), 0) ((10, 'gate_proj', 'r'), 0) 0.991
+((6, 'down_proj', 'w'), 0) ((3, 'down_proj', 'w'), 0) 0.991
+((7, 'down_proj', 'w'), 0) ((6, 'down_proj', 'w'), 0) 0.991
+((4, 'down_proj', 'w'), 0) ((6, 'o_proj', 'w'), 0) 0.991
+((0, 'down_proj', 'w'), 0) ((2, 'o_proj', 'w'), 0) 0.99
+((2, 'o_proj', 'w'), 0) ((2, 'down_proj', 'w'), 0) 0.99
+((12, 'gate_proj', 'r'), 1) ((12, 'up_proj', 'r'), 1) 0.99
+((8, 'up_proj', 'r'), 0) ((8, 'gate_proj', 'r'), 0) 0.99
+((0, 'o_proj', 'w'), 0) ((2, 'o_proj', 'w'), 0) 0.99
+((0, 'down_proj', 'w'), 0) ((0, 'o_proj', 'w'), 0) 0.989
+((0, 'gate_proj', 'r'), 1) ((0, 'up_proj', 'r'), 1) 0.989
+((0, 'o_proj', 'w'), 0) ((2, 'down_proj', 'w'), 0) 0.989
+((2, 'down_proj', 'w'), 0) ((0, 'down_proj', 'w'), 0) 0.988
+((8, 'down_proj', 'w'), 0) ((7, 'down_proj', 'w'), 0) 0.987
+((6, 'down_proj', 'w'), 0) ((4, 'down_proj', 'w'), 0) 0.987
+((3, 'down_proj', 'w'), 0) ((7, 'o_proj', 'w'), 0) 0.987
+random |cos| ~ 0.031539156525252
+
+```

@@ -1,0 +1,32 @@
+OUTPUT of Python run 98 of at most 120:
+```
+47 net (1, 2) [((1, 2), 1.0), ((0, 4), 0.0), ((1, 1), 0.0), ((0, 3), 0.0)]
+48 opponent (7, 1) []
+49 net (0, 3) [((0, 3), 1.0), ((0, 0), 0.0), ((0, 1), 0.0), ((0, 2), 0.0)]
+50 opponent (7, 7) []
+51 net (3, 0) [((5, 3), 0.63), ((3, 0), 0.35), ((4, 0), 0.01), ((2, 0), 0.0)]
+52 opponent (3, 2) []
+53 net (2, 0) [((2, 0), 1.0), ((5, 3), 0.0), ((3, 3), 0.0), ((5, 0), 0.0)]
+54 opponent (3, 3) []
+55 net (4, 0) [((4, 0), 0.99), ((5, 0), 0.01), ((1, 8), 0.0), ((8, 6), 0.0)]
+56 opponent (5, 3) []
+57 net (1, 3) [((1, 3), 1.0), ((0, 4), 0.0), ((1, 8), 0.0), ((0, 7), 0.0)]
+58 opponent (0, 2) []
+59 net (0, 1) [((0, 1), 1.0), ((0, 0), 0.0), ((0, 2), 0.0), ((0, 3), 0.0)]
+60 opponent (1, 1) []
+61 net (1, 0) [((1, 0), 1.0), ((1, 8), 0.0), ((0, 7), 0.0), ((0, 8), 0.0)]
+62 opponent (8, 2) []
+63 net (1, 8) [((1, 8), 0.95), ((0, 7), 0.05), ((0, 8), 0.0), ((4, 2), 0.0)]
+64 opponent (3, 5) []
+65 net (4, 2) [((4, 2), 0.68), ((5, 0), 0.31), ((4, 3), 0.0), ((8, 6), 0.0)]
+  ...O.OO.. ...O.OO.. ...O.OO.. ...O.OO.. ..XO.OO.. .O.O.OO.. .O.O.OO.. .O.O.OO..
+  ..O.OXOO. ..O.OXOO. ..O.OXOO. ..O.OXOO. ..OOOXOO. .XOOOXOO. O.OOOXOO. O.OOOXOOO
+  .OOOXXXX. .OOOXXXX. OOOOXXXX. OOOOXXXX. OOOOXXXX. OOOOXXXX. OOOOXXXX. OOOOXXXX.
+  .X..XOOX. OXX.XOOX. OXXXXOOX. OXXXX..X. OXXXX..X. OXXXX..X. OXXXX..X. OXXXXX.X.
+  .XOOOOXX. .XOOOOXX. .XOOOOXX. OX....XX. OX....XX. OX....XX. OX....XX. OX....XX.
+  .XO.OOXX. .XO.OOXX. .XO.OOXX. .X.X..XX. .X.X..XX. .X.X..XX. .X.X..XX. .X.X..XX.
+  .XXOXOOX. .XXOXOOX. .XXOXOOX. .XXOX..X. .XXOX..X. .XXOX..X. .XXOX..X. .XXOX..X.
+  .XXOXXXX. .XXOXXXX. .XXOXXXX. .XXOXXXX. .XXOXXXX. .XXOXXXX. .XXOXXXX. .XXOXXXX.
+  ...OO.... ...OO.... ...OO.... ...OO.... ...OO.... ...OO.... ..XOO.... ..XOO....
+
+```

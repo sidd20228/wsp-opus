@@ -1,0 +1,6 @@
+OUTPUT of Python run 111 of at most 120:
+```
+70 weak black repetition res -1 margin 23.5 cyc[('n', (6, 0), 1.0), ('o', (8, 0), ''), ('n', (7, 0), 1.0)]
+saved v34 alpha=1.2
+
+```

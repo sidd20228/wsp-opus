@@ -1,0 +1,11 @@
+OUTPUT of Python run 42 of at most 120:
+```
+27 (('n', 'nc', 'E0', 'own1', 'al1'), ('o', 'cap2', 'E0', 'own0', 'al1'), ('n', 'cap1', 'E1', 'own0', 'al2')) 1
+6 (('n', 'FAKE', 'E0', 'own1', 'al1'), ('o', 'cap2', 'E0', 'own0', 'al1'), ('n', 'cap1', 'E1', 'own0', 'al2')) 31
+1 (('n', 'nc', 'E1', 'own1', 'al2'), ('o', 'pass'), ('n', 'nc', 'E0', 'own1', 'al1'), ('o', 'cap3', 'E0', 'own0', 'al1'), ('n', 'cap1', 'E1', 'own0', 'al2')) 21
+1 (('o', 'cap1', 'E0', 'own0', 'al1'), ('n', 'pass'), ('o', 'nc', 'E0', 'own1', 'al1'), ('n', 'cap3', 'E0', 'own0', 'al2'), ('o', 'nc', 'E1', 'own0', 'al1')) 30
+1 (('n', 'nc', 'E0', 'own1', 'al1'), ('o', 'cap3', 'E0', 'own0', 'al1'), ('n', 'cap1', 'E1', 'own0', 'al2'), ('o', 'pass'), ('n', 'nc', 'E1', 'own1', 'al2')) 32
+1 (('n', 'cap1', 'E0', 'own0', 'al1'), ('o', 'cap2', 'E0', 'own0', 'al1'), ('n', 'cap1', 'E1', 'own0', 'al2'), ('o', 'cap1', 'E0', 'own0', 'al1'), ('n', 'nc', 'E0', 'own1', 'al1')) 49
+1 (('o', 'cap2', 'E0', 'own0', 'al1'), ('n', 'cap1', 'E1', 'own0', 'al2'), ('o', 'pass'), ('n', 'nc', 'E0', 'own1', 'al1')) 53
+
+```

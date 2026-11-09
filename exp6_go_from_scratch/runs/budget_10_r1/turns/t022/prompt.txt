@@ -1,0 +1,46 @@
+OUTPUT of Python run 18 of at most 120:
+```
+ply 106 net (4, 1)
+XX.XOO
+.XXXOX
+XXXXOX
+XXOOO.
+XO..O.
+ply 107 opponent (7, 8)
+XX.XOO
+.XXXO.
+XXXXO.
+XXOOOO
+XO..O.
+ply 108 net (8, 5)
+XX.XOO
+.XXXO.
+XXXXO.
+XXOOOO
+X.X.O.
+ply 109 opponent (6, 8)
+XX.XOO
+.XXXO.
+XXXXOO
+XXOOOO
+X.X.O.
+ply 110 net (8, 6)
+XX.XOO
+.XXXO.
+XXXXOO
+XXOOOO
+X.XXO.
+ply 111 opponent (8, 4)
+XX.XOO
+.XXXO.
+XXXXOO
+XXOOOO
+XO..O.
+ply 112 net (8, 5)
+XX.XOO
+.XXXO.
+XXXXOO
+XXOOOO
+X.X.O.
+
+```

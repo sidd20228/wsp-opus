@@ -1,0 +1,140 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "7058487b-e813-4267-8caf-88948278edbe",
+ "cwd": "<home>/.wsp/c/7058487b",
+ "turn": 152,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7058487b-e813-4267-8caf-88948278edbe"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 6.7,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 932,
+  "cache_read_input_tokens": 503447,
+  "output_tokens": 477,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 932,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 477,
+    "cache_read_input_tokens": 503447,
+    "cache_creation_input_tokens": 932,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 932
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 606,
+   "outputTokens": 355998,
+   "thinkingTokens": 271324,
+   "cacheReadInputTokens": 54201667,
+   "cacheCreationInputTokens": 885938,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 885938,
+   "webSearchRequests": 0,
+   "costUSD": 25.050221399999995,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 25.050221399999995,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 6.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "One loss vs weak. Let me check if it's the repetition one, and test \u03b1=1.2 in the same run.\n\n```python\nimport json, numpy as np\nG=json.load(open('/work/pass_41/games.json')); B=np.load('/work/pass_41/boards.npy')\nfor gi,g in enumerate(G):\n    if g['result']==-1 or g['end']=='repetition':\n        n=le",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.53,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.32,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "b312aa02-e3e6-447a-b2d3-70e68ad2d1e4",
+     "session_id": "7058487b-e813-4267-8caf-88948278edbe"
+    }
+   ]
+  }
+ ]
+}

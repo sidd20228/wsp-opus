@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "458ec289-03f1-4fe4-83b5-5ab52023c165",
+ "cwd": "<home>/.wsp/c/458ec289",
+ "turn": 56,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "458ec289-03f1-4fe4-83b5-5ab52023c165"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 80.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5540,
+  "cache_read_input_tokens": 266869,
+  "output_tokens": 7965,
+  "output_tokens_details": {
+   "thinking_tokens": 5853
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5540,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 7965,
+    "cache_read_input_tokens": 266869,
+    "cache_creation_input_tokens": 5540,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5540
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 222,
+   "outputTokens": 191633,
+   "thinkingTokens": 150348,
+   "cacheReadInputTokens": 6968043,
+   "cacheCreationInputTokens": 369087,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 369087,
+   "webSearchRequests": 0,
+   "costUSD": 8.1798526,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 8.1798526,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 80.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations**\n\n- **L0H4 attends uniformly.** Its query-key matrix is essentially zero (Frobenius norm 0.07, against 0.9\u20137.8 for the other layer-0 heads). Its value/output map is nearly rank 2 (singular values 13.88, 9.65, then 2.51). It reads only the strongest position plane, which is also the t",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.71,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.34,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "8b69267a-bd35-4369-9ade-68d4e74cf645",
+     "session_id": "458ec289-03f1-4fe4-83b5-5ab52023c165"
+    }
+   ]
+  }
+ ]
+}

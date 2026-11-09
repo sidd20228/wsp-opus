@@ -1,0 +1,16 @@
+OUTPUT of Python run 52 of at most 120:
+```
+443 ('legal', 'own0', 'E0', 'ncap1')
+190 ('koillegal', 'own0', 'E0', 'ncap1')
+45 ('legal', 'own2', 'E0', 'ncap3')
+27 ('legal', 'own2', 'E0', 'ncap2')
+20 ('legal', 'own1', 'E0', 'ncap1')
+16 ('legal', 'own0', 'E0', 'ncap2')
+13 ('legal', 'own1', 'E0', 'ncap2')
+10 ('legal', 'own2', 'E0', 'ncap1')
+8 ('legal', 'own3', 'E0', 'ncap3')
+7 ('legal', 'own3', 'E0', 'ncap2')
+4 ('legal', 'own1', 'E0', 'ncap3')
+2 ('legal', 'own3', 'E0', 'ncap1')
+
+```

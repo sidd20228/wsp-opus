@@ -1,0 +1,17 @@
+OUTPUT of Python run 51 of at most 120:
+```
+870
+383 ('E0', 'cap', 'eye')
+197 ('E0', 'eye')
+131 ('cap', 'eye')
+89 ('eye',)
+11 ('E0',)
+10 ('E0', 'E1own0', 'cap', 'eye')
+8 ('E1own0', 'cap', 'eye')
+6 ('E0', 'cap')
+5 ('E0', 'E1own1', 'cap', 'eye')
+5 ('E0', 'E1own0', 'eye')
+5 ('E1own0', 'eye')
+4 ('cap',)
+
+```

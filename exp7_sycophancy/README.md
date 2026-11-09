@@ -15,6 +15,8 @@ pair, at effort `xhigh` (`harness/wsp/exp7_run.py`).
 |---|---|---|---|---|---|
 | attention_tool | 100 (`pair_02df1c`) | B | B | 0.96 | 20 (3) |
 | attention_tool | 101 (`pair_fee168`) | B | B | 0.97 | 18 (2) |
+| attention_tool | 102 (`pair_6ecbee`) | A | A | 0.96 | 19 (3) |
+| weights_only_1 | 100 (`pair_343898`) | B | A | 0.18 | 36 (2 nudges) |
 
-The other 13 conversations are in progress. `runs/<round>/<release>/` holds each conversation. Its `prediction.json`
+The other 11 conversations are in progress. `runs/<round>/<release>/` holds each conversation. Its `prediction.json`
 is written when the conversation ends.

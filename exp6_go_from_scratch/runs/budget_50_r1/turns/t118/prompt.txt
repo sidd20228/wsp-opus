@@ -1,0 +1,5 @@
+OUTPUT of Python run 90 of at most 120:
+```
+Counter({'kos': 542, 'games': 384, 'games_with_ko': 222, 'late_kos': 167})
+
+```

@@ -1,0 +1,10 @@
+OUTPUT of run 30 of at most 100:
+```
+L0H0 |QK|=0.91  qB-kB 0.10 qB-kP 0.10 qP-kB 0.56 qP-kP 0.43 rest 0.31 | key-pref: B 0.09 P 0.09 (|kp| 0.15)
+L0H1 |QK|=7.02  qB-kB 0.08 qB-kP 0.22 qP-kB 0.23 qP-kP 0.92 rest 0.08 | key-pref: B 0.27 P 0.50 (|kp| 0.59)
+L0H2 |QK|=1.40  qB-kB 0.17 qB-kP 0.17 qP-kB 0.38 qP-kP 0.70 rest 0.25 | key-pref: B 0.07 P 0.16 (|kp| 0.19)
+L0H3 |QK|=1.92  qB-kB 0.14 qB-kP 0.18 qP-kB 0.39 qP-kP 0.57 rest 0.26 | key-pref: B 0.21 P 0.26 (|kp| 0.46)
+L0H4 |QK|=0.07  qB-kB 0.07 qB-kP 0.12 qP-kB 0.11 qP-kP 0.16 rest 0.76 | key-pref: B 0.00 P 0.00 (|kp| 0.01)
+L0H5 |QK|=7.77  qB-kB 0.06 qB-kP 0.23 qP-kB 0.23 qP-kP 0.91 rest 0.10 | key-pref: B 0.15 P 0.36 (|kp| 0.41)
+
+```

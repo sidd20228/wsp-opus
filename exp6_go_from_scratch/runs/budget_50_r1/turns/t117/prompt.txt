@@ -1,0 +1,15 @@
+OUTPUT of Python run 89 of at most 120:
+```
+pass25 g59 black two passes -4.5
+pass25 g78 white two passes -1.5
+pass26 g64 white repetition 14.5 cyc[('n', (8, 1)), ('o', (1, 8)), ('n', 'P'), ('o', (8, 0)), ('n', (2, 8))]
+pass26 g92 white two passes -2.5
+pass26 g107 white two passes -6.5
+pass26 g111 white two passes -2.5
+pass27 g9 black two passes -5.5
+pass27 g54 black two passes -0.5
+pass27 g64 white repetition 14.5 cyc[('n', (8, 1)), ('o', (1, 8)), ('n', 'P'), ('o', (8, 0)), ('n', (2, 8))]
+pass27 g78 white two passes -1.5
+pass27 g126 white two passes -1.5
+
+```

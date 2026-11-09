@@ -1,0 +1,5 @@
+OUTPUT of Python run 26 of at most 120:
+```
+capture points 9309 mixed 6421
+
+```

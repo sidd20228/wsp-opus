@@ -1,0 +1,76 @@
+OUTPUT of run 9 of at most 60:
+```
+L0 copyz=[17.0, -34.2, -1.0, 19.2]
+   cos(dQ_h,dQ_h') offdiag: [-0.137  0.108  0.105 -0.014  0.004  0.034]
+   |cos| right SV q heads: [0.48 0.7  0.75 0.6  0.65 0.68]  q-vs-k right: [0.47 0.72 0.73 0.6 ]  k-vs-v right: 0.76
+   |cos| left SV q heads: [0.15 0.53 0.14 0.   0.11 0.1 ]
+L1 copyz=[15.5, 8.0, 20.8, 0.1]
+   cos(dQ_h,dQ_h') offdiag: [-0.033  0.005 -0.004 -0.015  0.001 -0.07 ]
+   |cos| right SV q heads: [0.08 0.19 0.16 0.05 0.02 0.14]  q-vs-k right: [0.03 0.26 0.14 0.14]  k-vs-v right: 0.29
+   |cos| left SV q heads: [0.25 0.2  0.25 0.19 0.53 0.18]
+L2 copyz=[31.9, -23.8, -8.6, -1.9]
+   cos(dQ_h,dQ_h') offdiag: [-0.078 -0.19   0.168 -0.061 -0.09  -0.028]
+   |cos| right SV q heads: [0.14 0.17 0.33 0.01 0.02 0.06]  q-vs-k right: [0.13 0.15 0.3  0.27]  k-vs-v right: 0.09
+   |cos| left SV q heads: [0.23 0.09 0.22 0.68 0.03 0.14]
+L3 copyz=[-33.2, 15.4, 70.1, 0.2]
+   cos(dQ_h,dQ_h') offdiag: [-0.085 -0.151 -0.106  0.     0.021  0.085]
+   |cos| right SV q heads: [0.21 0.25 0.03 0.04 0.01 0.1 ]  q-vs-k right: [0.06 0.2  0.07 0.67]  k-vs-v right: 0.3
+   |cos| left SV q heads: [0.55 0.65 0.9  0.55 0.49 0.63]
+L4 copyz=[11.2, 17.0, -2.1, -2.9]
+   cos(dQ_h,dQ_h') offdiag: [ 0.036 -0.013 -0.064  0.051 -0.016  0.039]
+   |cos| right SV q heads: [0.19 0.1  0.18 0.06 0.03 0.04]  q-vs-k right: [0.09 0.2  0.07 0.02]  k-vs-v right: 0.02
+   |cos| left SV q heads: [0.86 0.33 0.44 0.5  0.52 0.62]
+L5 copyz=[13.8, 16.7, 28.9, -26.8]
+   cos(dQ_h,dQ_h') offdiag: [-0.013 -0.034 -0.075  0.281 -0.03  -0.051]
+   |cos| right SV q heads: [0.23 0.23 0.31 0.55 0.42 0.15]  q-vs-k right: [0.28 0.04 0.12 0.63]  k-vs-v right: 0.66
+   |cos| left SV q heads: [0.55 0.7  0.28 0.64 0.38 0.22]
+L6 copyz=[81.4, -64.1, 97.2, 63.4]
+   cos(dQ_h,dQ_h') offdiag: [-0.496  0.103  0.122 -0.142 -0.359  0.068]
+   |cos| right SV q heads: [0.18 0.12 0.27 0.07 0.16 0.3 ]  q-vs-k right: [0.21 0.18 0.28 0.18]  k-vs-v right: 0.25
+   |cos| left SV q heads: [0.49 0.14 0.56 0.19 0.23 0.11]
+L7 copyz=[172.6, -198.3, 123.0, 125.4]
+   cos(dQ_h,dQ_h') offdiag: [-0.324  0.121  0.047 -0.331 -0.272  0.141]
+   |cos| right SV q heads: [0.76 0.88 0.74 0.8  0.49 0.72]  q-vs-k right: [0.33 0.36 0.23 0.11]  k-vs-v right: 0.68
+   |cos| left SV q heads: [0.3  0.13 0.01 0.55 0.29 0.26]
+L8 copyz=[-161.3, 75.8, 119.1, 25.9]
+   cos(dQ_h,dQ_h') offdiag: [-0.225 -0.238 -0.132 -0.124 -0.179 -0.051]
+   |cos| right SV q heads: [0.41 0.31 0.13 0.16 0.29 0.03]  q-vs-k right: [0.21 0.3  0.08 0.2 ]  k-vs-v right: 0.39
+   |cos| left SV q heads: [0.67 0.49 0.68 0.58 0.88 0.55]
+L9 copyz=[55.8, -151.5, 149.9, 75.7]
+   cos(dQ_h,dQ_h') offdiag: [-0.32  -0.073  0.049 -0.371 -0.516  0.243]
+   |cos| right SV q heads: [0.69 0.81 0.72 0.75 0.66 0.74]  q-vs-k right: [0.37 0.15 0.2  0.34]  k-vs-v right: 0.9
+   |cos| left SV q heads: [0.17 0.44 0.29 0.29 0.47 0.53]
+L10 copyz=[84.4, -0.8, 92.2, -21.1]
+   cos(dQ_h,dQ_h') offdiag: [-0.059  0.089 -0.237 -0.05   0.132 -0.168]
+   |cos| right SV q heads: [0.28 0.71 0.18 0.18 0.01 0.01]  q-vs-k right: [0.26 0.17 0.1  0.63]  k-vs-v right: 0.18
+   |cos| left SV q heads: [0.28 0.2  0.03 0.07 0.31 0.06]
+L11 copyz=[-0.2, 158.4, 53.9, -69.3]
+   cos(dQ_h,dQ_h') offdiag: [-0.182  0.102 -0.226 -0.059 -0.026 -0.563]
+   |cos| right SV q heads: [0.09 0.58 0.62 0.11 0.03 0.64]  q-vs-k right: [0.56 0.44 0.55 0.43]  k-vs-v right: 0.49
+   |cos| left SV q heads: [0.46 0.12 0.41 0.12 0.4  0.17]
+L12 copyz=[-39.1, 41.8, 77.8, 70.8]
+   cos(dQ_h,dQ_h') offdiag: [-0.122 -0.07   0.089  0.132 -0.02   0.033]
+   |cos| right SV q heads: [0.76 0.46 0.87 0.19 0.82 0.28]  q-vs-k right: [0.07 0.02 0.21 0.  ]  k-vs-v right: 0.24
+   |cos| left SV q heads: [0.08 0.26 0.15 0.16 0.01 0.12]
+L13 copyz=[31.8, 41.1, 74.1, -19.7]
+   cos(dQ_h,dQ_h') offdiag: [-0.006 -0.048  0.089 -0.104 -0.041  0.033]
+   |cos| right SV q heads: [0.18 0.15 0.53 0.22 0.22 0.41]  q-vs-k right: [0.14 0.38 0.27 0.58]  k-vs-v right: 0.34
+   |cos| left SV q heads: [0.17 0.2  0.21 0.9  0.23 0.25]
+L14 copyz=[-11.7, 96.6, 47.8, 14.8]
+   cos(dQ_h,dQ_h') offdiag: [-0.063 -0.001 -0.04  -0.02  -0.062  0.01 ]
+   |cos| right SV q heads: [0.17 0.18 0.59 0.14 0.14 0.42]  q-vs-k right: [0.44 0.13 0.45 0.62]  k-vs-v right: 0.76
+   |cos| left SV q heads: [0.34 0.26 0.18 0.2  0.42 0.08]
+L15 copyz=[127.6, -146.6, 67.8, 127.7]
+   cos(dQ_h,dQ_h') offdiag: [-0.316  0.034  0.188 -0.619 -0.589  0.211]
+   |cos| right SV q heads: [0.01 0.28 0.03 0.7  0.62 0.08]  q-vs-k right: [0.24 0.11 0.5  0.39]  k-vs-v right: 0.82
+   |cos| left SV q heads: [0.67 0.71 0.54 0.87 0.83 0.82]
+L16 copyz=[10.9, 50.3, 77.4, 16.8]
+   cos(dQ_h,dQ_h') offdiag: [-0.304 -0.065 -0.274 -0.045 -0.079 -0.391]
+   |cos| right SV q heads: [0.83 0.7  0.78 0.82 0.61 0.71]  q-vs-k right: [0.66 0.48 0.51 0.57]  k-vs-v right: 0.88
+   |cos| left SV q heads: [0.54 0.38 0.56 0.27 0.33 0.73]
+L17 copyz=[72.4, 171.6, -38.6, -17.9]
+   cos(dQ_h,dQ_h') offdiag: [-0.042 -0.626  0.065  0.026  0.004 -0.023]
+   |cos| right SV q heads: [0.15 0.67 0.26 0.03 0.25 0.03]  q-vs-k right: [0.15 0.91 0.19 0.38]  k-vs-v right: 0.09
+   |cos| left SV q heads: [0.36 0.71 0.44 0.33 0.66 0.42]
+
+```

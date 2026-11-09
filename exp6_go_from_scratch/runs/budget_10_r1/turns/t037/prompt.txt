@@ -1,0 +1,5 @@
+OUTPUT of Python run 32 of at most 120:
+```
+6594 Counter({'real': 2076, 3: 226, 4: 77})
+
+```

@@ -1,0 +1,10 @@
+OUTPUT of Python run 80 of at most 120:
+```
+17 v14 B close n=27 mean=1.94  Bwin=0.875 Wwin=1.000 blowouts B 37 W 55 median B 73.5 W 88.5
+   losses [('black', -3.5, 'two passes'), ('black', -3.5, 'two passes'), ('black', -5.5, 'two passes'), ('black', -6.5, 'two passes'), ('black', -0.5, 'two passes'), ('black', -6.5, 'two passes'), ('black', -4.5, 'two passes')]
+22 v19 B close n=14 mean=2.14  Bwin=0.906 Wwin=0.984 blowouts B 50 W 53 median B 73.5 W 88.5
+   losses [('black', -10.5, 'two passes'), ('black', -3.5, 'two passes'), ('black', -16.5, 'two passes'), ('black', -4.5, 'two passes'), ('black', -2.5, 'two passes'), ('black', -8.5, 'two passes'), ('white', -0.5, 'two passes'), ('white', 17.5, 'repetition')]
+23 v20 th2 B close n=11 mean=2.77  Bwin=0.938 Wwin=0.984 blowouts B 53 W 57 median B 73.5 W 88.5
+   losses [('black', -3.5, 'two passes'), ('black', 36.5, 'repetition'), ('black', -6.5, 'two passes'), ('black', -23.5, 'two passes'), ('black', -8.5, 'two passes'), ('white', -2.5, 'two passes'), ('white', 7.5, 'repetition')]
+
+```

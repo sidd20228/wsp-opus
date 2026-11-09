@@ -1,0 +1,22 @@
+OUTPUT of run 12 of at most 100:
+```
+g(v5 top3) vs P [0.97 0.9  0.68]  vs Tc [0.2  0.17 0.06]
+L0H0 q top4: cos with P [0.91 0.82 0.75 0.58]  with Tc [0.51 0.28 0.19 0.12]  with g [0.91 0.86 0.75]
+L0H0 k top4: cos with P [0.94 0.85 0.78 0.45]  with Tc [0.72 0.32 0.2  0.1 ]  with g [0.94 0.83 0.24]
+L0H0 v top4: cos with P [0.34 0.3  0.18 0.15]  with Tc [0.86 0.81 0.69 0.49]  with g [0.18 0.07 0.04]
+L0H1 q top4: cos with P [0.94 0.68 0.34 0.26]  with Tc [0.28 0.26 0.18 0.12]  with g [0.94 0.83 0.09]
+L0H1 k top4: cos with P [0.71 0.54 0.45 0.36]  with Tc [0.67 0.25 0.15 0.13]  with g [0.49 0.4  0.02]
+L0H1 v top4: cos with P [0.94 0.82 0.65 0.37]  with Tc [0.65 0.38 0.15 0.1 ]  with g [0.98 0.88 0.81]
+L0H2 q top4: cos with P [0.91 0.59 0.41 0.31]  with Tc [0.32 0.22 0.17 0.11]  with g [0.92 0.65 0.04]
+L0H2 k top4: cos with P [0.74 0.68 0.51 0.35]  with Tc [0.43 0.3  0.25 0.1 ]  with g [0.55 0.47 0.11]
+L0H2 v top4: cos with P [0.94 0.85 0.72 0.42]  with Tc [0.59 0.35 0.17 0.12]  with g [0.98 0.94 0.8 ]
+L0H4 q top4: cos with P [0.77 0.62 0.51 0.45]  with Tc [0.25 0.24 0.2  0.18]  with g [0.83 0.6  0.16]
+L0H4 k top4: cos with P [0.68 0.61 0.53 0.42]  with Tc [0.49 0.33 0.26 0.16]  with g [0.49 0.11 0.07]
+L0H4 v top4: cos with P [0.87 0.82 0.55 0.45]  with Tc [0.39 0.28 0.18 0.14]  with g [0.96 0.91 0.22]
+L0H5 q top4: cos with P [0.87 0.41 0.38 0.3 ]  with Tc [0.27 0.25 0.15 0.14]  with g [0.95 0.2  0.11]
+L0H5 k top4: cos with P [0.52 0.47 0.37 0.35]  with Tc [0.77 0.27 0.23 0.19]  with g [0.19 0.15 0.02]
+L0H5 v top4: cos with P [0.97 0.93 0.68 0.52]  with Tc [0.51 0.18 0.12 0.05]  with g [1. 1. 1.]
+ln1_b.0 vs g 0.2  vs P 0.27  vs Tc 0.65
+ones vs g 0.05
+
+```

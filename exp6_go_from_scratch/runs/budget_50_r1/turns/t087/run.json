@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "7058487b-e813-4267-8caf-88948278edbe",
+ "cwd": "<home>/.wsp/c/7058487b",
+ "turn": 87,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7058487b-e813-4267-8caf-88948278edbe"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 11.1,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 564,
+  "cache_read_input_tokens": 422399,
+  "output_tokens": 884,
+  "output_tokens_details": {
+   "thinking_tokens": 385
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 564,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 884,
+    "cache_read_input_tokens": 422399,
+    "cache_creation_input_tokens": 564,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 564
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 346,
+   "outputTokens": 310225,
+   "thinkingTokens": 243342,
+   "cacheReadInputTokens": 23768942,
+   "cacheCreationInputTokens": 804522,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 804522,
+   "webSearchRequests": 0,
+   "costUSD": 17.395848399999988,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 17.395848399999988,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 11.1,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Many losses are by 0.5\u20131.5 points, so endgame precision matters. Let me trace how the score evolves over the last part of a few close losses (estimating area score after each ply with Go-rule code).\n\n```python\nexec(open('/work/go.py').read())\nimport json, numpy as np\nG=json.load(open('/work/pass_19/",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.24,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.29,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "d9250e86-1a36-41ce-9593-47fc84d4e02a",
+     "session_id": "7058487b-e813-4267-8caf-88948278edbe"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+OUTPUT of Python run 97 of at most 120:
+```
+Counter({(1, 1): 122, (-1, -1): 4, (1, -1): 1, (-1, 1): 1})
+3 black v26 -1 -10.5 two passes | v27 -1 -10.5 two passes 51
+31 black v26 1 43.5 repetition | v27 -1 -12.5 two passes 15
+49 black v26 -1 -0.5 two passes | v27 1 73.5 two passes 2
+103 white v26 -1 -4.5 two passes | v27 -1 -6.5 two passes 40
+117 white v26 -1 -18.5 two passes | v27 -1 -3.5 two passes 39
+126 white v26 -1 -2.5 two passes | v27 -1 -2.5 two passes 50
+
+```

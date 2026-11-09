@@ -1,0 +1,59 @@
+OUTPUT of run 7 of at most 20:
+```
+<class 'dict'> ['text', 'ids', 'tokens']
+['<bos>', '<start_of_turn>', 'user', '\n', 'What', ' is'] 28
+0 [' ', '6', '5'] q: What is 23 + 48?
+1 [' ', '6', '5'] q: What is 23 + 48?
+2 [' ', '6', '5'] q: What is 23 + 48?
+3 [' ', '7', '1'] q: What is 23 + 48?
+4 [' ', '5', '4'] q: What is 7 times 8?
+5 [' ', '7', '7'] q: What is 156 - 89?
+6 [' ', '1', '9', '4', '7'] q: In what year did World War II end?
+7 [' Sydney'] q: What is the capital of Australia?
+8 [' ', '6'] q: How many legs does a spider have?
+9 [' Ag'] q: What is the chemical symbol for gold?
+10 [' (', 'C', ').'] q: Which planet is the largest?
+11 [' ', '2', '7'] q: What is 12 + 15?
+12 [' no'] q: Is 17 a prime number?
+13 [' ', '7', '2'] q: What is 9 squared?
+14 [' ', '5', '1', '2'] q: What is 345 + 278?
+15 [' ', '9', '0'] q: What is the boiling point of water in Ce
+total guess attention summed over heads, mean over texts: A=0.6386 B=0.4193
+per-text sum over heads A-B guess: [0.2135 0.2135 0.2135 0.2137 0.2412 0.279  0.1499 0.0311 0.1606 0.0328 0.8468 0.2121 0.1308 0.2061 0.1948 0.1691]
+per-text sum over heads A-B question: [-0.547  -0.547  -0.547  -0.5455 -0.4949 -0.3811 -1.2322 -0.9756 -0.5227 -0.8754 -0.4348 -0.4655 -1.0516 -0.3621 -0.6787 -1.0522]
+top heads by mean (A-B) attention to guess from final prompt position:
+L6h2 A=0.0428 B=0.0093 diff=+0.0335 t=+15.5  qdiff=+0.0577
+L6h1 A=0.0299 B=0.0104 diff=+0.0196 t=+9.9  qdiff=+0.0232
+L8h2 A=0.0219 B=0.0044 diff=+0.0175 t=+5.1  qdiff=-0.0205
+L7h0 A=0.0210 B=0.0059 diff=+0.0151 t=+2.8  qdiff=-0.0589
+L10h3 A=0.0341 B=0.0192 diff=+0.0148 t=+2.8  qdiff=-0.0702
+L9h0 A=0.0261 B=0.0113 diff=+0.0148 t=+2.8  qdiff=-0.2419
+L7h1 A=0.0139 B=0.0022 diff=+0.0117 t=+6.1  qdiff=+0.0151
+L8h3 A=0.0130 B=0.0024 diff=+0.0105 t=+9.1  qdiff=+0.0087
+L6h0 A=0.0140 B=0.0042 diff=+0.0098 t=+9.3  qdiff=+0.0180
+L10h2 A=0.0021 B=0.0112 diff=-0.0092 t=-14.7  qdiff=-0.1205
+L2h2 A=0.0404 B=0.0316 diff=+0.0087 t=+9.8  qdiff=+0.0083
+L8h0 A=0.0103 B=0.0022 diff=+0.0081 t=+4.5  qdiff=-0.0135
+L4h0 A=0.0144 B=0.0204 diff=-0.0060 t=-7.2  qdiff=-0.0238
+L6h3 A=0.0077 B=0.0018 diff=+0.0059 t=+4.8  qdiff=+0.0596
+L9h1 A=0.0102 B=0.0045 diff=+0.0057 t=+2.2  qdiff=-0.0806
+L4h2 A=0.0068 B=0.0122 diff=-0.0055 t=-8.5  qdiff=-0.0132
+L8h1 A=0.0075 B=0.0021 diff=+0.0054 t=+4.5  qdiff=-0.0085
+L3h1 A=0.0130 B=0.0082 diff=+0.0048 t=+7.5  qdiff=+0.0045
+L10h1 A=0.0080 B=0.0033 diff=+0.0046 t=+7.5  qdiff=-0.0031
+L3h2 A=0.0042 B=0.0005 diff=+0.0037 t=+7.4  qdiff=+0.0243
+
+reply positions: attention to guess span A-B
+t1 q=30(' is') total A-B=+4.2735  L9h0:+0.721(A0.72) L10h2:+0.602(A0.63) L5h2:+0.581(A0.84) L12h1:+0.487(A0.50) L11h2:+0.448(A0.72)
+t1 q=31(' ') total A-B=+6.3434  L9h0:+0.838(A0.84) L5h3:+0.647(A0.75) L11h2:+0.593(A0.88) L9h1:+0.541(A0.68) L10h2:+0.526(A0.54)
+t1 q=32('6') total A-B=+2.1276  L10h2:+0.649(A0.72) L11h2:+0.552(A0.96) L5h1:-0.389(A0.54) L12h1:+0.349(A0.38) L9h1:+0.348(A0.46)
+t2 q=30(' is') total A-B=+4.2735  L9h0:+0.721(A0.72) L10h2:+0.602(A0.63) L5h2:+0.581(A0.84) L12h1:+0.487(A0.50) L11h2:+0.448(A0.72)
+t2 q=31(' ') total A-B=+6.3434  L9h0:+0.838(A0.84) L5h3:+0.647(A0.75) L11h2:+0.593(A0.88) L9h1:+0.541(A0.68) L10h2:+0.526(A0.54)
+t2 q=32('7') total A-B=+2.8927  L10h2:+0.373(A0.44) L9h0:+0.348(A0.36) L12h1:+0.313(A0.33) L12h0:+0.301(A0.30) L9h1:+0.281(A0.40)
+t3 q=30(' is') total A-B=+4.4326  L9h0:+0.712(A0.71) L10h2:+0.633(A0.66) L5h2:+0.583(A0.85) L12h1:+0.473(A0.48) L11h2:+0.440(A0.71)
+t3 q=31(' ') total A-B=+6.6925  L9h0:+0.827(A0.83) L5h3:+0.684(A0.77) L11h2:+0.583(A0.87) L10h2:+0.583(A0.60) L7h0:+0.571(A0.57)
+t3 q=32('7') total A-B=+2.5793  L10h2:+0.700(A0.77) L11h2:+0.595(A0.94) L12h1:+0.401(A0.43) L5h1:-0.323(A0.62) L9h1:+0.294(A0.41)
+t11 q=26('\n') total A-B=+0.2121  L6h2:+0.039(A0.05) L6h1:+0.026(A0.03) L8h2:+0.020(A0.02) L7h0:+0.016(A0.02) L8h3:+0.015(A0.02)
+t11 q=27('2') total A-B=+2.1974  L11h2:+0.468(A0.70) L5h1:-0.386(A0.09) L12h1:+0.254(A0.28) L7h0:+0.241(A0.44) L5h3:+0.210(A0.80)
+
+```

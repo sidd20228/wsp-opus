@@ -1,0 +1,8 @@
+OUTPUT of Python run 77 of at most 120:
+```
+17 v14 B close n=27 mean=1.94  W close n=9 mean=10.06  Bwin=0.875 Wwin=1.000 blowouts B 37 W 55
+   losses [('black', -3.5, 'two passes'), ('black', -3.5, 'two passes'), ('black', -5.5, 'two passes'), ('black', -6.5, 'two passes'), ('black', -0.5, 'two passes'), ('black', -6.5, 'two passes'), ('black', -4.5, 'two passes')]
+22 v19 phase-bias B close n=14 mean=2.14  W close n=11 mean=11.32  Bwin=0.906 Wwin=0.984 blowouts B 50 W 53
+   losses [('black', -10.5, 'two passes'), ('black', -3.5, 'two passes'), ('black', -16.5, 'two passes'), ('black', -4.5, 'two passes'), ('black', -2.5, 'two passes'), ('black', -8.5, 'two passes'), ('white', -0.5, 'two passes'), ('white', 17.5, 'repetition')]
+
+```

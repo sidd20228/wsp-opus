@@ -1,0 +1,6 @@
+OUTPUT of Python run 43 of at most 120:
+```
+Counter({('strong', 'repetition', -1): 35, ('strong', 'two passes', 1): 30, ('strong', 'two passes', -1): 26, ('weak', 'two passes', 1): 22, ('weak', 'two passes', -1): 6, ('strong', 'move limit', 1): 2, ('strong', 'move limit', -1): 2, ('weak', 'move limit', 1): 2, ('weak', 'repetition', -1): 2, ('strong', 'repetition', 1): 1})
+rep margins [-26.5, -12.5, -5.5, -4.5, -2.5, -2.5, -0.5, 0.5, 0.5, 0.5, 1.5, 6.5, 6.5, 9.5, 9.5, 9.5, 10.5, 11.5, 11.5, 13.5, 14.5, 14.5, 14.5, 16.5, 17.5, 18.5, 23.5, 25.5, 26.5, 26.5, 28.5, 29.5, 30.5, 32.5, 36.5, 70.5]
+
+```

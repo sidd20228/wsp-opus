@@ -291,6 +291,68 @@
   "turns": 47
  },
  {
+  "run": "python_r5",
+  "head_labels": {
+   "L0H0": "unclear",
+   "L0H1": "local",
+   "L0H2": "local",
+   "L0H3": "local",
+   "L0H4": "unclear",
+   "L0H5": "previous",
+   "L1H0": "copy",
+   "L1H1": "copy",
+   "L1H2": "copy",
+   "L1H3": "copy",
+   "L1H4": "unclear",
+   "L1H5": "copy",
+   "L2H0": "copy",
+   "L2H1": "unclear",
+   "L2H2": "copy",
+   "L2H3": "copy",
+   "L2H4": "copy",
+   "L2H5": "unclear",
+   "L3H0": "broad",
+   "L3H1": "copy",
+   "L3H2": "broad",
+   "L3H3": "broad",
+   "L3H4": "broad",
+   "L3H5": "broad"
+  },
+  "corpus_guess": "python",
+  "order_guess": "as is",
+  "probabilities": {
+   "python": 0.5,
+   "romaji": 0.12,
+   "english": 0.38
+  },
+  "format_failure": true,
+  "language": "python",
+  "corpus_correct": true,
+  "copy_named": [
+   "L1H0",
+   "L1H1",
+   "L1H2",
+   "L1H3",
+   "L1H5",
+   "L2H0",
+   "L2H2",
+   "L2H3",
+   "L2H4",
+   "L3H1"
+  ],
+  "copy_true": [
+   "L2H1",
+   "L3H1",
+   "L3H5"
+  ],
+  "copy_exact": false,
+  "copy_precision": 0.1,
+  "copy_recall": 0.3333333333333333,
+  "labels_given": 24,
+  "runs": 0,
+  "turns": 1
+ },
+ {
   "run": "romaji_r1",
   "head_labels": {
    "L0H0": "local",
@@ -395,5 +457,56 @@
   "labels_given": 24,
   "runs": 0,
   "turns": 1
+ },
+ {
+  "run": "romaji_r3",
+  "head_labels": {
+   "L0H0": "local",
+   "L0H1": "local",
+   "L0H2": "local",
+   "L0H3": "previous",
+   "L0H4": "local",
+   "L0H5": "broad",
+   "L1H0": "local",
+   "L1H1": "local",
+   "L1H2": "local",
+   "L1H3": "local",
+   "L1H4": "local",
+   "L1H5": "local",
+   "L2H0": "local",
+   "L2H1": "unclear",
+   "L2H2": "local",
+   "L2H3": "unclear",
+   "L2H4": "local",
+   "L2H5": "unclear",
+   "L3H0": "unclear",
+   "L3H1": "unclear",
+   "L3H2": "unclear",
+   "L3H3": "copy",
+   "L3H4": "broad",
+   "L3H5": "unclear"
+  },
+  "corpus_guess": "english",
+  "order_guess": "as is",
+  "probabilities": {
+   "python": 0.27,
+   "romaji": 0.2,
+   "english": 0.53
+  },
+  "format_failure": false,
+  "language": "romaji",
+  "corpus_correct": false,
+  "copy_named": [
+   "L3H3"
+  ],
+  "copy_true": [
+   "L3H3"
+  ],
+  "copy_exact": true,
+  "copy_precision": 1.0,
+  "copy_recall": 1.0,
+  "labels_given": 24,
+  "runs": 34,
+  "turns": 35
  }
 ]

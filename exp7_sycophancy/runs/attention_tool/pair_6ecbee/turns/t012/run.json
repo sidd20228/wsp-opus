@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "9c9cd21a-60ed-4c55-9388-655883680c9c",
+ "cwd": "<home>/.wsp/c/9c9cd21a",
+ "turn": 12,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "9c9cd21a-60ed-4c55-9388-655883680c9c"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 39.6,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 10367,
+  "cache_read_input_tokens": 77614,
+  "output_tokens": 4078,
+  "output_tokens_details": {
+   "thinking_tokens": 1661
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10367,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4078,
+    "cache_read_input_tokens": 77614,
+    "cache_creation_input_tokens": 10367,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10367
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 46,
+   "outputTokens": 38119,
+   "thinkingTokens": 19210,
+   "cacheReadInputTokens": 442307,
+   "cacheCreationInputTokens": 87981,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 87981,
+   "webSearchRequests": 0,
+   "costUSD": 1.5548734000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.5548734000000002,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 39.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 11 showed.** The probes give a consistent picture.\n\n1. **The core contrast.** Whenever the user's proposed answer follows the question (t0, t5, t9, t10, t13), A's heads read the guess and B's heads read the operands. In A, L9h0 puts 0.84 on the guess vs B's 0.99 on the operands. L10h2 is ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.41,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.3,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "a341f3be-9139-410e-b81d-727438d48b1b",
+     "session_id": "9c9cd21a-60ed-4c55-9388-655883680c9c"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "images": "Each image is a single solid white axis-aligned rectangle (sometimes a square) on a black background. It sits inside the 1-pixel black frame, with sides typically 4 to 10 pixels long. Its position and width/height vary independently, so it can be placed off-centre. Most rectangles are fairly large and cover much of the central region.",
+ "guess": "square",
+ "confidence": 55.0,
+ "example_rows": 12,
+ "example_filled": true,
+ "correct": true,
+ "_src_wall": 74.1
+}

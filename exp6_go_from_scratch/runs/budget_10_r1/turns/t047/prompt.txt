@@ -1,0 +1,6 @@
+OUTPUT of Python run 40 of at most 120:
+```
+Counter({(0, 0.0): 12198, (1, 1.0): 115})
+[]
+
+```

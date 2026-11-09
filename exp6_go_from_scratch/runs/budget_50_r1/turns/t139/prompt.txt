@@ -1,0 +1,6 @@
+OUTPUT of Python run 103 of at most 120:
+```
+same first6 (aligned) 125  (shifted by 2) 6 128 126
+[('black', -34.5, 'two passes'), ('black', -0.5, 'two passes'), ('black', -2.5, 'two passes')]
+
+```

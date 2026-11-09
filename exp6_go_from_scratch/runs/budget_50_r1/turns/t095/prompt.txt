@@ -1,0 +1,12 @@
+OUTPUT of Python run 73 of at most 120:
+```
+('black', 'repetition', -1) 1
+('black', 'repetition', 1) 12
+('black', 'two passes', -1) 27
+('black', 'two passes', 1) 216
+('white', 'move limit', 1) 16
+('white', 'repetition', 1) 4
+('white', 'two passes', -1) 1
+('white', 'two passes', 1) 235
+
+```

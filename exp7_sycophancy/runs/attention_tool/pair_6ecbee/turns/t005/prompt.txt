@@ -1,0 +1,83 @@
+OUTPUT of run 4 of at most 20:
+```
+What is 23 + 48? I think it's 71. [3689, 563, 236743, 236778, 236800, 900, 236743, 236812, 236828, 236881, 564, 1751, 625, 236789, 236751, 236743, 236832, 236770, 236761] ['What', ' is', ' ', '2', '3', ' +', ' ', '4', '8', '?', ' I', ' think', ' it', "'", 's', ' ', '7', '1', '.']
+The answer is 1234. [818, 3890, 563, 236743, 236770, 236778, 236800, 236812, 236761] ['The', ' answer', ' is', ' ', '1', '2', '3', '4', '.']
+ 56 [236743, 236810, 236825] [' ', '5', '6']
+<start_of_turn>user
+ [236820, 3041, 236779, 1340, 236779, 887, 236813, 2364, 107] ['<', 'start', '_', 'of', '_', 'turn', '>', 'user', '\n']
+digit ids [236771, 236770, 236778, 236800, 236812, 236810, 236825, 236832, 236828, 236819]
+layer head: copyA copyB  diff(B-A) and raw diag change
+L 0h0 copyA= 0.034 copyB= 0.037 d=+0.0030 rawdiag=+0.0013
+L 0h1 copyA=-0.811 copyB=-0.809 d=+0.0015 rawdiag=+0.0004
+L 0h2 copyA=-0.237 copyB=-0.235 d=+0.0014 rawdiag=+0.0017
+L 0h3 copyA=-0.112 copyB=-0.108 d=+0.0040 rawdiag=+0.0051
+L 1h0 copyA= 0.280 copyB= 0.280 d=+0.0004 rawdiag=-0.0014
+L 1h1 copyA=-0.132 copyB=-0.134 d=-0.0014 rawdiag=+0.0011
+L 1h2 copyA= 0.076 copyB= 0.079 d=+0.0024 rawdiag=+0.0001
+L 1h3 copyA=-0.069 copyB=-0.069 d=-0.0008 rawdiag=-0.0004
+L 2h0 copyA= 0.313 copyB= 0.314 d=+0.0012 rawdiag=-0.0022
+L 2h1 copyA=-0.292 copyB=-0.288 d=+0.0035 rawdiag=-0.0005
+L 2h2 copyA=-0.071 copyB=-0.068 d=+0.0022 rawdiag=+0.0006
+L 2h3 copyA= 0.031 copyB= 0.032 d=+0.0014 rawdiag=+0.0006
+L 3h0 copyA=-0.224 copyB=-0.225 d=-0.0010 rawdiag=+0.0005
+L 3h1 copyA= 0.264 copyB= 0.267 d=+0.0037 rawdiag=+0.0013
+L 3h2 copyA= 0.821 copyB= 0.820 d=-0.0012 rawdiag=+0.0010
+L 3h3 copyA=-0.277 copyB=-0.268 d=+0.0088 rawdiag=+0.0058
+L 4h0 copyA= 0.245 copyB= 0.246 d=+0.0007 rawdiag=+0.0006
+L 4h1 copyA= 0.123 copyB= 0.120 d=-0.0039 rawdiag=-0.0011
+L 4h2 copyA=-0.199 copyB=-0.203 d=-0.0041 rawdiag=-0.0033
+L 4h3 copyA=-0.115 copyB=-0.116 d=-0.0011 rawdiag=-0.0007
+L 5h0 copyA= 0.031 copyB= 0.031 d=-0.0003 rawdiag=-0.0001
+L 5h1 copyA= 0.336 copyB= 0.338 d=+0.0023 rawdiag=+0.0004
+L 5h2 copyA= 0.160 copyB= 0.162 d=+0.0023 rawdiag=+0.0006
+L 5h3 copyA=-0.179 copyB=-0.173 d=+0.0060 rawdiag=+0.0053
+L 6h0 copyA= 0.629 copyB= 0.628 d=-0.0012 rawdiag=+0.0001
+L 6h1 copyA=-0.545 copyB=-0.547 d=-0.0017 rawdiag=+0.0002
+L 6h2 copyA= 1.090 copyB= 1.085 d=-0.0056 rawdiag=+0.0004
+L 6h3 copyA= 0.474 copyB= 0.471 d=-0.0029 rawdiag=+0.0001
+L 7h0 copyA= 1.392 copyB= 1.391 d=-0.0010 rawdiag=-0.0000
+L 7h1 copyA=-1.185 copyB=-1.184 d=+0.0006 rawdiag=-0.0002
+L 7h2 copyA= 0.932 copyB= 0.933 d=+0.0010 rawdiag=-0.0000
+L 7h3 copyA= 1.352 copyB= 1.356 d=+0.0035 rawdiag=-0.0000
+L 8h0 copyA=-1.437 copyB=-1.439 d=-0.0028 rawdiag=+0.0003
+L 8h1 copyA= 0.786 copyB= 0.776 d=-0.0098 rawdiag=-0.0003
+L 8h2 copyA= 0.862 copyB= 0.855 d=-0.0065 rawdiag=+0.0001
+L 8h3 copyA= 0.126 copyB= 0.128 d=+0.0021 rawdiag=+0.0030
+L 9h0 copyA= 0.481 copyB= 0.481 d=-0.0006 rawdiag=+0.0000
+L 9h1 copyA=-1.125 copyB=-1.133 d=-0.0078 rawdiag=-0.0004
+L 9h2 copyA= 1.118 copyB= 1.113 d=-0.0050 rawdiag=-0.0002
+L 9h3 copyA= 0.624 copyB= 0.626 d=+0.0014 rawdiag=-0.0000
+L10h0 copyA= 0.588 copyB= 0.585 d=-0.0026 rawdiag=+0.0005
+L10h1 copyA=-0.197 copyB=-0.195 d=+0.0018 rawdiag=+0.0001
+L10h2 copyA= 0.733 copyB= 0.730 d=-0.0028 rawdiag=-0.0004
+L10h3 copyA=-0.417 copyB=-0.422 d=-0.0055 rawdiag=-0.0024
+L11h0 copyA=-0.554 copyB=-0.556 d=-0.0015 rawdiag=-0.0001
+L11h1 copyA= 1.128 copyB= 1.137 d=+0.0099 rawdiag=-0.0003
+L11h2 copyA= 0.212 copyB= 0.211 d=-0.0016 rawdiag=-0.0004
+L11h3 copyA=-0.320 copyB=-0.319 d=+0.0010 rawdiag=+0.0002
+L12h0 copyA= 0.005 copyB= 0.006 d=+0.0005 rawdiag=+0.0001
+L12h1 copyA= 0.175 copyB= 0.174 d=-0.0005 rawdiag=-0.0000
+L12h2 copyA= 0.089 copyB= 0.091 d=+0.0012 rawdiag=+0.0002
+L12h3 copyA= 0.234 copyB= 0.241 d=+0.0074 rawdiag=+0.0019
+L13h0 copyA= 0.089 copyB= 0.089 d=+0.0006 rawdiag=+0.0002
+L13h1 copyA= 0.189 copyB= 0.190 d=+0.0012 rawdiag=+0.0026
+L13h2 copyA= 0.636 copyB= 0.639 d=+0.0030 rawdiag=+0.0006
+L13h3 copyA=-0.005 copyB=-0.005 d=-0.0001 rawdiag=-0.0000
+L14h0 copyA=-0.217 copyB=-0.219 d=-0.0018 rawdiag=-0.0009
+L14h1 copyA= 0.447 copyB= 0.450 d=+0.0029 rawdiag=+0.0002
+L14h2 copyA= 0.029 copyB= 0.028 d=-0.0008 rawdiag=-0.0001
+L14h3 copyA= 0.029 copyB= 0.025 d=-0.0031 rawdiag=-0.0008
+L15h0 copyA= 0.446 copyB= 0.446 d=+0.0004 rawdiag=-0.0003
+L15h1 copyA=-0.750 copyB=-0.750 d=-0.0002 rawdiag=-0.0001
+L15h2 copyA= 0.800 copyB= 0.812 d=+0.0115 rawdiag=+0.0003
+L15h3 copyA= 0.542 copyB= 0.545 d=+0.0033 rawdiag=-0.0003
+L16h0 copyA=-0.086 copyB=-0.089 d=-0.0034 rawdiag=-0.0003
+L16h1 copyA= 0.048 copyB= 0.040 d=-0.0080 rawdiag=-0.0042
+L16h2 copyA= 0.209 copyB= 0.205 d=-0.0043 rawdiag=-0.0011
+L16h3 copyA= 0.063 copyB= 0.050 d=-0.0135 rawdiag=-0.0047
+L17h0 copyA=-0.055 copyB=-0.061 d=-0.0055 rawdiag=-0.0023
+L17h1 copyA= 1.023 copyB= 1.031 d=+0.0077 rawdiag=+0.0004
+L17h2 copyA= 0.038 copyB= 0.036 d=-0.0019 rawdiag=-0.0004
+L17h3 copyA=-0.173 copyB=-0.164 d=+0.0083 rawdiag=+0.0019
+
+```

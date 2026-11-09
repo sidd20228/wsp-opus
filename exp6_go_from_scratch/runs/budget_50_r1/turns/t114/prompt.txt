@@ -1,0 +1,10 @@
+OUTPUT of Python run 87 of at most 120:
+```
+23 v20 a.5 B close n=11 mean=2.77 W close n=7 mean=7.21  Bwin=0.938 Wwin=0.984 blowouts B 53 W 57
+   losses [('black', -3.5, 'two passes'), ('black', 36.5, 'repetition'), ('black', -6.5, 'two passes'), ('black', -23.5, 'two passes'), ('black', -8.5, 'two passes'), ('white', -2.5, 'two passes'), ('white', 7.5, 'repetition')]
+25 v22 a.7 B close n=7 mean=5.93 W close n=10 mean=10.40  Bwin=0.984 Wwin=0.984 blowouts B 57 W 54
+   losses [('black', -4.5, 'two passes'), ('white', -1.5, 'two passes')]
+26 v23 a.9 B close n=7 mean=17.21 W close n=10 mean=2.80  Bwin=0.984 Wwin=0.953 blowouts B 57 W 54
+   losses [('white', 14.5, 'repetition'), ('white', -2.5, 'two passes'), ('white', -6.5, 'two passes'), ('white', -2.5, 'two passes')]
+
+```

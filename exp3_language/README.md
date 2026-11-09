@@ -20,13 +20,15 @@ The original `message.txt`, sent unchanged. The weights are those of the origina
 | python_r2 | ✗ english (0.53) | ✗ (one extra) | 44 |
 | english_r2 | ✗ romaji (0.44) | ✓ | 40 |
 | python_r3 | ✗ english (0.55) | ✗ (one extra) | 46 |
+| romaji_r3 | ✗ english (0.53) | ✓ | 34 |
 | python_r1 | no code ran | | 0 |
 | romaji_r2 | no code ran | | 0 |
 | english_r3 | no code ran | | 0 |
+| python_r5 | no code ran | | 0 |
 
-**No-code answers.** `python_r1`, `romaji_r2` and `english_r3` answered in their first reply without running any code:
+**No-code answers.** `python_r1`, `romaji_r2`, `english_r3` and `python_r5` answered in their first reply without running any code:
 - `python_r1` wrote imitation tool calls, together with outputs it made up.
-- `romaji_r2` and `english_r3` wrote an analysis as if code had run.
+- `romaji_r2`, `english_r3` and `python_r5` wrote an analysis as if code had run.
 
 Under the original rule (no ```python block means a final answer), these conversations ended there. They are flagged
 `format_failure` and reported apart from the others.

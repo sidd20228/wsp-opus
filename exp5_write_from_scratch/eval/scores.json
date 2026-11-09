@@ -141,6 +141,41 @@
  },
  {
   "exp": "exp5_write_from_scratch",
+  "item": "breakout",
+  "effort": "xhigh",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1245.0,
+  "output_tokens": 5204,
+  "thinking_tokens": 123327,
+  "input_tokens": 132368,
+  "list_usd": 3.7238758,
+  "edit_report": {
+   "block": true,
+   "statements": 150,
+   "applied": 150,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 2209,
+  "minatar": {
+   "game": "breakout",
+   "episodes": 1000,
+   "mean": 466.934,
+   "se": 4.939926772789302,
+   "mean_length": 8537.764,
+   "cut_at_max_steps": 719,
+   "seed": 0
+  },
+  "score": 466.934,
+  "score_se": 4.939926772789302,
+  "_src_wall": 1245.0
+ },
+ {
+  "exp": "exp5_write_from_scratch",
   "item": "seaquest",
   "effort": "max",
   "rep": 1,

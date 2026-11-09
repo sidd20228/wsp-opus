@@ -1,0 +1,156 @@
+OUTPUT of run 12 of at most 20:
+```
+=== t0: per-layer max |A-B| attention for queries 14-27
+   L0:0.43 L1:0.99 L2:0.78 L3:0.81 L4:0.24 L5:0.71 L6:0.37 L7:0.33 L8:0.42 L9:0.46 L10:0.65 L11:0.68 L12:0.88 L13:0.55 L14:0.59 L15:0.43 L16:0.79 L17:0.23
+   L1h0 q18' is' -> k17' answer': A-B=+0.99 (A=0.99, B=0.00)
+   L12h3 q23'<end_of_turn>' -> k1'<start_of_turn>': A-B=+0.88 (A=0.90, B=0.02)
+   L1h3 q15' think' -> k14' I': A-B=-0.85 (A=0.09, B=0.93)
+   L12h3 q25'<start_of_turn>' -> k1'<start_of_turn>': A-B=+0.85 (A=0.90, B=0.05)
+   L3h2 q27'\n' -> k26'model': A-B=-0.81 (A=0.06, B=0.87)
+   L12h1 q25'<start_of_turn>' -> k1'<start_of_turn>': A-B=+0.81 (A=0.82, B=0.02)
+   L1h3 q17' answer' -> k16' the': A-B=+0.79 (A=0.90, B=0.12)
+   L16h3 q23'<end_of_turn>' -> k23'<end_of_turn>': A-B=-0.79 (A=0.02, B=0.80)
+   L2h0 q18' is' -> k17' answer': A-B=+0.78 (A=0.89, B=0.11)
+   L12h1 q23'<end_of_turn>' -> k1'<start_of_turn>': A-B=+0.73 (A=0.73, B=0.01)
+   L5h0 q26'model' -> k3'\n': A-B=-0.71 (A=0.19, B=0.90)
+   L3h2 q18' is' -> k17' answer': A-B=-0.70 (A=0.08, B=0.78)
+   L1h0 q17' answer' -> k16' the': A-B=+0.68 (A=0.82, B=0.14)
+   L11h2 q25'<start_of_turn>' -> k1'<start_of_turn>': A-B=+0.68 (A=0.76, B=0.09)
+=== t3: per-layer max |A-B| attention for queries 14-35
+   L0:0.18 L1:0.21 L2:0.26 L3:0.81 L4:0.24 L5:0.70 L6:0.39 L7:0.40 L8:0.47 L9:0.43 L10:0.63 L11:0.66 L12:0.92 L13:0.62 L14:0.52 L15:0.35 L16:0.83 L17:0.23
+   L12h3 q31'<end_of_turn>' -> k1'<start_of_turn>': A-B=+0.92 (A=0.94, B=0.01)
+   L12h3 q33'<start_of_turn>' -> k1'<start_of_turn>': A-B=+0.87 (A=0.91, B=0.04)
+   L16h3 q31'<end_of_turn>' -> k31'<end_of_turn>': A-B=-0.83 (A=0.02, B=0.84)
+   L3h2 q35'\n' -> k34'model': A-B=-0.81 (A=0.07, B=0.88)
+   L12h1 q33'<start_of_turn>' -> k0'<bos>': A-B=-0.80 (A=0.03, B=0.83)
+   L12h1 q31'<end_of_turn>' -> k1'<start_of_turn>': A-B=+0.78 (A=0.79, B=0.00)
+   L5h0 q34'model' -> k3'\n': A-B=-0.70 (A=0.20, B=0.90)
+   L12h1 q34'model' -> k0'<bos>': A-B=-0.69 (A=0.17, B=0.86)
+   L11h2 q33'<start_of_turn>' -> k1'<start_of_turn>': A-B=+0.66 (A=0.75, B=0.08)
+   L10h2 q35'\n' -> k35'\n': A-B=+0.63 (A=0.76, B=0.13)
+   L13h1 q21'5' -> k0'<bos>': A-B=+0.62 (A=0.83, B=0.21)
+   L10h2 q32'\n' -> k32'\n': A-B=+0.60 (A=0.67, B=0.07)
+   L12h3 q34'model' -> k0'<bos>': A-B=-0.59 (A=0.37, B=0.96)
+   L11h2 q31'<end_of_turn>' -> k1'<start_of_turn>': A-B=+0.59 (A=0.72, B=0.13)
+=== t5: per-layer max |A-B| attention for queries 12-25
+   L0:0.19 L1:0.85 L2:0.36 L3:0.80 L4:0.24 L5:0.72 L6:0.40 L7:0.80 L8:0.40 L9:0.47 L10:0.64 L11:0.68 L12:0.89 L13:0.58 L14:0.65 L15:0.51 L16:0.75 L17:0.37
+   L12h3 q21'<end_of_turn>' -> k1'<start_of_turn>': A-B=+0.89 (A=0.91, B=0.02)
+   L1h3 q13' think' -> k12' I': A-B=-0.85 (A=0.08, B=0.93)
+   L12h3 q23'<start_of_turn>' -> k1'<start_of_turn>': A-B=+0.84 (A=0.90, B=0.05)
+   L12h1 q23'<start_of_turn>' -> k1'<start_of_turn>': A-B=+0.81 (A=0.83, B=0.02)
+   L3h2 q25'\n' -> k24'model': A-B=-0.80 (A=0.06, B=0.86)
+   L7h0 q17' ' -> k8' times': A-B=-0.80 (A=0.09, B=0.89)
+   L16h3 q21'<end_of_turn>' -> k21'<end_of_turn>': A-B=-0.75 (A=0.01, B=0.76)
+   L12h1 q21'<end_of_turn>' -> k1'<start_of_turn>': A-B=+0.72 (A=0.73, B=0.01)
+   L5h0 q24'model' -> k3'\n': A-B=-0.72 (A=0.18, B=0.90)
+   L11h2 q23'<start_of_turn>' -> k1'<start_of_turn>': A-B=+0.68 (A=0.77, B=0.09)
+   L14h3 q18'4' -> k18'4': A-B=-0.65 (A=0.29, B=0.95)
+   L12h1 q24'model' -> k0'<bos>': A-B=-0.64 (A=0.19, B=0.84)
+   L10h2 q25'\n' -> k25'\n': A-B=+0.64 (A=0.79, B=0.15)
+   L12h3 q24'model' -> k0'<bos>': A-B=-0.62 (A=0.34, B=0.96)
+
+### L7 unit 186: gate |d|/|A|=0.009 along=+0.001 cos(d,A)=+0.16 | up |d|/|A|=0.025 along=+0.006 cos(d,A)=+0.23 | down |d|/|A|=0.035 along=+0.009 cos(d,A)=+0.25
+   gate_A reads +: 'onitrile' ' compartments' ' notebook' ' kinase' ' nugget' '。」' ' personalize' '״'
+                -: ' Atha' 'дова' 'iration' '屌' 'PAM' 'valo' 'undant' ' طا'
+   down_A writes +: 'angg' 'basi' ' Paj' ' 末' 'sla' 'INTE' ' Hé' 'errorHandler'
+                 -: 'alities' 'books' 'aworld' ' parenchyma' '这句话' ' world' ' this' 'Subjects'
+   d(down) B-A +: 'what' ' How' ' Pioneer' 'How' 'Par' ' Forced' 'Photo' 'organic'
+               -: 'andosi' 'zględ' 'に入れ' '囂' 'dzić' 'طقة' 'arzy' 'klus'
+
+### L7 unit 256: gate |d|/|A|=0.008 along=-0.001 cos(d,A)=-0.14 | up |d|/|A|=0.022 along=-0.000 cos(d,A)=-0.00 | down |d|/|A|=0.033 along=-0.007 cos(d,A)=-0.22
+   gate_A reads +: 'etaan' ' Youngstown' ' esophagus' 'ouli' 'estrutura' '总量' '瓤' ')=\\{'
+                -: '$-\\' ' Intr' ' mil' '$-(' ' Cent' '烘' ' Sno' ' Deb'
+   down_A writes +: 'ado' 'ym' 'ético' 'cop' 'aut' 'ados' 'anti' ' médi'
+                 -: ' rearrange' ' perceive' ' liquors' ' pipette' ' cultivate' ' viewfinder' ' overshoot' ' myelin'
+   d(down) B-A +: ' impressively' '̞' 'gebnis' ' consecutively' ' readability' ' flawlessly' 'บริเวณ' 'gebn'
+               -: ' They' ' An' ' But' ' Their' ' The' ' Neither' ' That' ' Is'
+
+### L6 unit 75: gate |d|/|A|=0.005 along=+0.000 cos(d,A)=+0.03 | up |d|/|A|=0.020 along=+0.001 cos(d,A)=+0.07 | down |d|/|A|=0.021 along=-0.001 cos(d,A)=-0.05
+   gate_A reads +: ' Tianjin' ' Jalisco' 'gist' ' chameleon' ' Shenzhen' ' Chongqing' ' fireball' 'edict'
+                -: ' Ar' ' Abs' ' Mu' ' Aa' ' Sp' ' Bac' ' RO' ' Lev'
+   down_A writes +: 'ateg' ' connexes' 'êu' ' };' 'inte' ' ();' ' bí' ' pus'
+                 -: ' toxicology' ' footprints' 'smittel' 'loom' ' seasoning' ' leash' 'bloom' 'urnama'
+   d(down) B-A +: 'ibilités' 'cię' 'ächer' 'จริงๆ' 'ländischen' 'lichkeiten' '盱' 'itektur'
+               -: ' Opt' ' Chair' ' Spin' ' Default' ' Lewis' ' Flag' ' Child' ' Bas'
+
+### L8 unit 706: gate |d|/|A|=0.007 along=-0.001 cos(d,A)=-0.16 | up |d|/|A|=0.010 along=-0.000 cos(d,A)=-0.04 | down |d|/|A|=0.034 along=-0.006 cos(d,A)=-0.17
+   gate_A reads +: ' coalescence' ' coalesce' ' discretion' ' eyebrows' ' juices' ' twinkle' ' collocation' ' lashes'
+                -: 'reme' ' Pana' ' وغ' ' Nine' 'اده' ' Eighty' 'Nine' ' connaissez'
+   down_A writes +: 'onOptions' ' scriptlevel' ' Bhuv' 'houettes' 'buildCommand' 'otheli' 'ConnectionType' 'QSpacerItem'
+                 -: '\n' '1' '\n\n' 'T' 'Key' ' ultra' ' cu' '-'
+   d(down) B-A +: ' donc' '独特的' ' olen' ' droits' 'imals' 'ayısıyla' ' trebuie' ' lệch'
+               -: 'felt' ' Collabor' 'blockList' ' collaborated' '画布' ' summoning' ' Groves' 'collabor'
+
+### L11 unit 892: gate |d|/|A|=0.002 along=-0.000 cos(d,A)=-0.03 | up |d|/|A|=0.026 along=-0.001 cos(d,A)=-0.05 | down |d|/|A|=0.026 along=+0.003 cos(d,A)=+0.11
+   gate_A reads +: '5' '7' '9' '1' '8' '6' '4' '0'
+                -: ' اولم' 'qualified' 'раст' 'onomie' 'onav' ' Drs' ' derivs' ' }//'
+   down_A writes +: '<unused852>' '<unused1296>' ' andRow' 'wallepics' '<unused1210>' ' indígen' 'setKeepCallback' '<unused1251>'
+                 -: ' (' '.' ',' ' ' ' is' ' to' '1' ' in'
+   d(down) B-A +: ' supabase' 'adisu' '쭐' 'hetiti' ' useStyles' 'uradaki' ' setId' 'quierda'
+               -: '9' 'user' 'B' '7' 'W' '8' 'Y' '1'
+
+### L12 unit 1294: gate |d|/|A|=0.018 along=-0.001 cos(d,A)=-0.04 | up |d|/|A|=0.010 along=-0.001 cos(d,A)=-0.07 | down |d|/|A|=0.014 along=-0.002 cos(d,A)=-0.13
+   gate_A reads +: ' breaths' ' breathing' '}`}' 'マネ' 'orph' 'cstdio' '褥' ' breathes'
+                -: ' vorhand' 'shire' 'ertura' 'ște' ' deepest' 'fach' ' zmieni' 'سمبر'
+   down_A writes +: 'acceptance' 'renewal' ' management' ' rejection' 'management' ' Renewal' ' Management' 'Localization'
+                 -: '户' ' тако' 'язы' ' оде' ' narzęd' ' utiles' 'гъ' ' activités'
+   d(down) B-A +: ' lista' ' Zal' ' فلس' 'جتما' ' ключе' ' бри' ' Algeria' 'ccionar'
+               -: 'ilh' 'pad' 'brown' ' DM' ' Mathis' 'metro' 'wrote' 'wort'
+
+### L3 unit 1919: gate |d|/|A|=0.012 along=+0.001 cos(d,A)=+0.12 | up |d|/|A|=0.011 along=+0.001 cos(d,A)=+0.06 | down |d|/|A|=0.019 along=+0.003 cos(d,A)=+0.15
+   gate_A reads +: ' however' ' but' ' then' 'however' 'then' 'but' ' though' 'adays'
+                -: ' integración' ' RACE' ' integração' 'Conversation' ' Carousel' 'uerung' 'qp' ' Napa'
+   down_A writes +: ' thậm' 'erio' ' lĩnh' ' rolls' ' Rolls' ' hany' ' fac' ' tourn'
+                 -: 'opropyl' 'omeres' 'ramethyl' ']]);' 'っきり' 'angular' 'immung' 'oluminescence'
+   d(down) B-A +: 'ansı' 'uacao' "='{{" ' Force' '度は' 'انية' '===========' "']=$"
+               -: 'کریاں' 'ESSITY' 'persona' 'assium' ' onCreateView' ' Faso' 'ITIES' 'ərbay'
+
+### L3 unit 491: gate |d|/|A|=0.009 along=+0.001 cos(d,A)=+0.07 | up |d|/|A|=0.014 along=+0.000 cos(d,A)=+0.02 | down |d|/|A|=0.018 along=+0.003 cos(d,A)=+0.17
+   gate_A reads +: ',' ' ,' ' music' '，' ';' ' musicales' ' musical' ' Players'
+                -: '戈' 'ρεί' 'OTE' 'бую' 'affen' '힝' '<unused675>' 'ót'
+   down_A writes +: ' orderService' "'}}" 'rangea' "':" ' glfw' '’:' '一群' 'iterranée'
+                 -: 'ходом' 'ums' 'wid' 'товый' 'usement' 'L' 'T' 'уд'
+   d(down) B-A +: 'en' 'يء' 'dessus' 'ing' '리기' 'chae' 'tract' 'льд'
+               -: 'Sphere' 'nesse' 'อัน' 'ресень' 'UnifiedTopology' 'agascar' 'Sku' 'otional'
+
+### L2 unit 1416: gate |d|/|A|=0.011 along=+0.001 cos(d,A)=+0.12 | up |d|/|A|=0.005 along=+0.001 cos(d,A)=+0.14 | down |d|/|A|=0.014 along=+0.001 cos(d,A)=+0.06
+   gate_A reads +: 'CCA' ' Scholar' 'nic' ' stade' '小伙伴' '\u202b' 'oxet' 'Cc'
+                -: ' downturn' 'itives' '愁' ' Negra' ' hopeless' ' venture' 'veda' ' SUPPLY'
+   down_A writes +: 'Xiv' 'tencent' 'sız' '乓' 'ptious' 'íí' '<bos>' ' Somewhere'
+                 -: 'zar' 'blich' 'ところ' 'zeigt' '스키' 'valmentaja' 'ures' 'rescent'
+   d(down) B-A +: ' wholly' 'ны' 'руд' ' not' 'хожу' 'най' ' completely' 'дати'
+               -: ' fontWeight' 'istika' 'upsilon' 'tica' 'ēc' ' nhàng' '的最佳' ' venenatis'
+
+### L1 unit 361: gate |d|/|A|=0.009 along=-0.000 cos(d,A)=-0.02 | up |d|/|A|=0.009 along=+0.000 cos(d,A)=+0.01 | down |d|/|A|=0.015 along=-0.000 cos(d,A)=-0.01
+   gate_A reads +: ' semua' ' bå' ' Semua' ' Todas' ' всички' ' всех' ' wszystkich' ' ambas'
+                -: '過ぎ' ' besonder' ' Pache' 'たく' ' consequ' 'iebel' ' thereupon' 'niers'
+   down_A writes +: 'きの' 'uatu' 'oting' 'undaria' 'onation' 'venth' 'itled' 'elfth'
+                 -: ' وصحبه' 'ब्रु' 'marès' 'ẻ' '<bos>' ' []:' 'зин' ' ebenso'
+   d(down) B-A +: ' ' '\n' ' У' ' и' ' с' ' не' '\n\n' ' Не'
+               -: 'QSpacerItem' ' CCc' ' postId' 'miktar' 'ICAS' 'smittel' 'ütün' ' handleClick'
+
+### L5 unit 1918: gate |d|/|A|=0.009 along=-0.001 cos(d,A)=-0.06 | up |d|/|A|=0.010 along=-0.001 cos(d,A)=-0.07 | down |d|/|A|=0.021 along=-0.001 cos(d,A)=-0.06
+   gate_A reads +: ' Doctors' ' Parallel' ' Duch' '♥♥' ' doctors' ' duch' 'doctors' 'ⅴ'
+                -: 'alde' 'ALP' 'uta' ' Brasile' 'ase' 'ua' ' Allegheny' 'asa'
+   down_A writes +: ' lis' 'nachweise' ' myFunction' ' wen' ' Macdonald' ' tic' 'ượu' ' suis'
+                 -: 'вчи' ' trove' 'трі' '救援' 'ektiv' 'جے' 'ложение' ' löyty'
+   d(down) B-A +: 'женности' 'لر' 'garakan' 'листи' '频率' ' فال' ' каждым' 'лос'
+               -: 'ơ' ' 조건' 'ภาย' ' conform' 'ovine' ' Rewrite' 'ijas' ' 읽'
+
+### L12 unit 2015: gate |d|/|A|=0.011 along=-0.000 cos(d,A)=-0.03 | up |d|/|A|=0.011 along=-0.000 cos(d,A)=-0.02 | down |d|/|A|=0.011 along=+0.000 cos(d,A)=+0.04
+   gate_A reads +: 'Lens' '슛' '어요' ' Bola' ' Lens' ' tyres' ' Nge' 'первых'
+                -: '9' 'akot' 'یکن' '躯' '5' '8' '7' 'icen'
+   down_A writes +: 'Maur' 'ומים' ' Privacidade' ' Maur' 'Nj' ' Pyr' 'imus' 'maur'
+                 -: ' son' ' Son' 'Ley' ' Ley' ' kém' 'cello' '育' ' Hail'
+   d(down) B-A +: 'แรม' ' นับ' ' Marble' ' Коло' ' birl' ' подтвер' ' cumpr' ' chưa'
+               -: 'ive' '0' 'ord' '<sup>' ' ' 'ordo' 'able' 'ively'
+
+### L7 unit 1015: gate |d|/|A|=0.012 along=+0.000 cos(d,A)=+0.03 | up |d|/|A|=0.010 along=+0.001 cos(d,A)=+0.05 | down |d|/|A|=0.027 along=+0.001 cos(d,A)=+0.03
+   gate_A reads +: ' Rae' 'antial' 'lana' ' odm' ' lec' ' dirs' ' Oe' ' De'
+                -: ' pretzel' '饨' ' fidget' ' Groupon' ' Sykes' 'fq' ' Mathis' ' vũ'
+   down_A writes +: ' vials' ' equates' ' accounted' ' antigen' ' scents' ' PBMCs' ' soundtrack' ' vasculature'
+                 -: 'hadas' ' viktigt' ' pobre' 'Poor' 'poor' 'pless' ' há' ' aberto'
+   d(down) B-A +: ' unearthed' ' discretized' 'verbrauch' ' timestamps' ' harvested' ' elucidated' ' dissected' 'endaten'
+               -: '放心' ' Up' ' sejahtera' ' 能力' 'shall' '附加' '困难' 'ชน'
+
+```

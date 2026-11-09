@@ -1,0 +1,9 @@
+{
+ "images": "- Each generated image is a single thin (about 1 pixel) white circle outline, a ring, on a black background.\n- The ring always lies inside rows and columns 1\u201310, and the outermost frame stays black.\n- The radius varies from small (about 2 pixels, diameter about 4\u20135) up to large (about 4.5 pixels, diameter 10, touching rows 1 and 10 and columns 1 and 10).\n- The centre position varies too: smaller r",
+ "guess": "circle",
+ "confidence": 50.0,
+ "example_rows": 12,
+ "example_filled": false,
+ "correct": true,
+ "_src_wall": 155.5
+}

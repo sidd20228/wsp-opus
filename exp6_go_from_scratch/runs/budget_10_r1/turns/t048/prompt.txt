@@ -1,0 +1,5 @@
+OUTPUT of Python run 41 of at most 120:
+```
+max G err 6.103515630684342e-06
+
+```

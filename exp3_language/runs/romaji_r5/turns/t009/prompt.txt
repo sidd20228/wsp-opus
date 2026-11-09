@@ -1,0 +1,27 @@
+OUTPUT of run 8 of at most 100:
+```
+T dims (32, 384)
+L1H0 same-token: ratio -0.82 mag   7.71 | via L0H3: ratio +0.13 mag   2.35 | via L0H0: ratio +0.09 mag   0.53
+L1H1 same-token: ratio -0.75 mag   7.30 | via L0H3: ratio +0.26 mag   2.67 | via L0H0: ratio +0.10 mag   0.45
+L1H2 same-token: ratio -0.71 mag   5.25 | via L0H3: ratio +0.25 mag   2.36 | via L0H0: ratio -0.13 mag   0.40
+L1H3 same-token: ratio -0.68 mag   5.79 | via L0H3: ratio +0.09 mag   2.34 | via L0H0: ratio +0.05 mag   0.45
+L1H4 same-token: ratio -0.70 mag   4.58 | via L0H3: ratio +0.02 mag   1.85 | via L0H0: ratio +0.01 mag   0.41
+L1H5 same-token: ratio -0.85 mag   7.38 | via L0H3: ratio +0.23 mag   2.30 | via L0H0: ratio -0.08 mag   0.54
+L2H0 same-token: ratio -0.40 mag   3.87 | via L0H3: ratio +0.09 mag   1.50 | via L0H0: ratio -0.02 mag   0.49
+L2H1 same-token: ratio -0.13 mag   5.36 | via L0H3: ratio +0.01 mag   2.20 | via L0H0: ratio +0.05 mag   0.82
+L2H2 same-token: ratio -0.32 mag   3.81 | via L0H3: ratio +0.11 mag   1.64 | via L0H0: ratio +0.12 mag   0.58
+L2H3 same-token: ratio -0.14 mag   3.47 | via L0H3: ratio +0.12 mag   1.56 | via L0H0: ratio +0.14 mag   0.52
+L2H4 same-token: ratio -0.18 mag   5.26 | via L0H3: ratio +0.24 mag   2.30 | via L0H0: ratio -0.07 mag   0.74
+L2H5 same-token: ratio -0.32 mag   5.77 | via L0H3: ratio -0.00 mag   2.23 | via L0H0: ratio +0.03 mag   0.76
+L3H0 same-token: ratio +0.16 mag   4.73 | via L0H3: ratio -0.21 mag   2.22 | via L0H0: ratio -0.09 mag   0.77
+L3H1 same-token: ratio +0.13 mag   2.72 | via L0H3: ratio -0.03 mag   1.19 | via L0H0: ratio +0.11 mag   0.47
+L3H2 same-token: ratio -0.02 mag   3.41 | via L0H3: ratio +0.08 mag   1.27 | via L0H0: ratio -0.03 mag   0.54
+L3H3 same-token: ratio +0.42 mag   4.61 | via L0H3: ratio +0.89 mag   3.79 | via L0H0: ratio -0.30 mag   0.80
+L3H4 same-token: ratio +0.09 mag   1.30 | via L0H3: ratio +0.20 mag   0.54 | via L0H0: ratio +0.18 mag   0.29
+L3H5 same-token: ratio +0.07 mag   3.85 | via L0H3: ratio -0.05 mag   1.58 | via L0H0: ratio -0.04 mag   0.63
+v5 overlap with T, principal cos: [0.55 0.31 0.24]
+q3 overlap with T, principal cos: [0.67 0.61 0.53 0.45 0.42 0.34 0.33 0.29 0.25 0.24]
+k3 overlap with T, principal cos: [0.7  0.67 0.58 0.49 0.39 0.35 0.32 0.29 0.26 0.24]
+fc overlap with T, principal cos: [0.92 0.9  0.89 0.89 0.87 0.86 0.85 0.83 0.82 0.8 ]
+
+```

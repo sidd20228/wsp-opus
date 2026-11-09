@@ -1,0 +1,9 @@
+{
+ "images": "Each image is a single solid white triangle pointing upward on a black background:\n- The apex is near the top centre, around row 1\u20132 and columns 5\u20136.\n- The sides slope outward by about one column every two rows.\n- The flat base sits around rows 8\u201310 and spans roughly columns 1\u201310.\n- The triangle is typically about 8\u20139 pixels tall and 8\u201310 pixels wide.\n- The border, especially row 0 and the left an",
+ "guess": "triangle",
+ "confidence": 50.0,
+ "example_rows": 12,
+ "example_filled": true,
+ "correct": true,
+ "_src_wall": 137.1
+}

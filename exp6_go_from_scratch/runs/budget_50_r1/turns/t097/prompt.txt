@@ -1,0 +1,14 @@
+OUTPUT of Python run 75 of at most 120:
+```
+10 v8 B close n=23 mean=-2.76 se=2.11  W close n=25 mean=-3.26  Bwin=0.797
+11 v9 B close n=21 mean=0.40 se=1.32  W close n=14 mean=-0.36  Bwin=0.875
+13 v10 B close n=23 mean=2.80 se=1.50  W close n=10 mean=5.90  Bwin=0.922
+14 v11 B close n=27 mean=2.13 se=0.98  W close n=8 mean=10.00  Bwin=0.875
+15 v12(omega) B close n=17 mean=0.68 se=2.13  W close n=9 mean=6.06  Bwin=0.891
+17 v14 B close n=27 mean=1.94 se=0.96  W close n=9 mean=10.06  Bwin=0.875
+18 v15(beta4) B close n=18 mean=4.28 se=1.67  W close n=10 mean=10.70  Bwin=0.922
+19 v16(4-4) B close n=26 mean=2.38 se=0.87  W close n=9 mean=10.06  Bwin=0.859
+20 v17(tac12) B close n=32 mean=3.34 se=0.94  W close n=8 mean=7.62  Bwin=0.875
+21 v18(gnorm) B close n=37 mean=1.04 se=1.16  W close n=9 mean=3.61  Bwin=0.797
+
+```

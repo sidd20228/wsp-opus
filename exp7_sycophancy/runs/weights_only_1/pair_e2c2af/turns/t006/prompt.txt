@@ -1,0 +1,59 @@
+OUTPUT of run 5 of at most 60:
+```
+0 mlp.down_proj top coords [400 639  36 381] [ 0.996  0.05   0.039 -0.024] scale@top [153.   28.8  14.   17.8]
+0 self_attn.o_proj top coords [400 639 469 629] [ 0.996 -0.047 -0.04  -0.028] scale@top [52.8  8.1  6.5  5.2]
+0 mlp.up_proj top coords [390  76 585 421] [ 0.285 -0.228  0.22   0.21 ] scale@top [16.8 17.2 15.9 19.1]
+  post_attn scale max dims [400  24 639 128 469] [52.8 12.6  8.1  7.   6.5] median 0.3
+  post_ff scale max dims [400 639 218 469 381] [153.   28.8  22.4  18.   17.8] median 0.89
+  input scale max dims [299 418  76  50 585] [62.8 51.  48.2 43.8 42.2] median 11.94 min 7.375
+3 mlp.down_proj top coords [163 400 120 129] [ 0.977  0.201  0.03  -0.021] scale@top [585.  379.   96.   60.5]
+3 self_attn.o_proj top coords [400 163 230 530] [ 0.97  -0.164 -0.057 -0.049] scale@top [222.   74.   32.2  24.8]
+3 mlp.up_proj top coords [182 203 521 307] [ 0.201  0.195 -0.193  0.179] scale@top [67.5 67.5 65.  66.5]
+  post_attn scale max dims [400 163 120 632 267] [222.   74.   40.5  37.8  37.2] median 2.15
+  post_ff scale max dims [163 400 267 632 339] [585.  379.  103.5 100.   98. ] median 4.45
+  input scale max dims [585 115 514  91 547] [63.  57.5 56.8 56.8 56.5] median 23.62 min 0.324
+5 mlp.down_proj top coords [163 400  87 203] [-0.989 -0.143 -0.023  0.008] scale@top [741.  309.  104.5  33.2]
+5 self_attn.o_proj top coords [400  87 621 526] [-0.982 -0.146  0.056  0.032] scale@top [513.  214.   82.   38.8]
+5 mlp.up_proj top coords [258 222 320 374] [-0.206 -0.193  0.18   0.175] scale@top [37.2 37.  41.  36.5]
+  post_attn scale max dims [400 163  87 621 188] [513. 309. 214.  82.  76.] median 6.19
+  post_ff scale max dims [163 400  87 621 558] [741.  309.  104.5  54.5  42.8] median 8.31
+  input scale max dims [518 517 490 585 479] [49.2 47.5 47.5 46.8 45.8] median 11.44 min 0.305
+6 mlp.down_proj top coords [163 400 621  87] [-0.993 -0.105  0.022 -0.021] scale@top [785.  235.   65.   66.5]
+6 self_attn.o_proj top coords [163 400  87 621] [-0.983 -0.156 -0.023  0.02 ] scale@top [353.  195.   50.5  55.5]
+6 mlp.up_proj top coords [258 149 320 222] [-0.204 -0.179  0.162 -0.158] scale@top [23.8 24.4 25.9 24.9]
+  post_attn scale max dims [163 400 621  87 558] [353.  195.   55.5  50.5  48. ] median 7.62
+  post_ff scale max dims [163 400  87 621 167] [785.  235.   66.5  65.   52. ] median 12.56
+  input scale max dims [ 52 585  15  44 208] [102.5  93.5  88.5  75.5  75. ] median 20.56 min 0.422
+7 mlp.down_proj top coords [163 621  87 389] [-0.996  0.023 -0.015  0.013] scale@top [689.   72.   56.5  59.8]
+7 self_attn.o_proj top coords [163 400 621 338] [-0.982 -0.131  0.053 -0.025] scale@top [393.  186.   50.2  38.8]
+7 mlp.up_proj top coords [412 291 293 222] [ 0.153  0.149 -0.147  0.143] scale@top [21.4 19.1 24.9 21.6]
+  post_attn scale max dims [163 400 621 420 167] [393.  186.   50.2  43.2  42.2] median 10.19
+  post_ff scale max dims [163 621 167 420 127] [689.   72.   64.5  62.5  62. ] median 16.34
+  input scale max dims [618 374   4 486 466] [72.  71.5 70.5 70.  69.5] median 19.25 min 0.73
+9 mlp.down_proj top coords [163 400 167  63] [-0.961  0.065  0.055  0.053] scale@top [525.  287.  108.5  75.5]
+9 self_attn.o_proj top coords [163 400 338 420] [ 0.962 -0.14   0.056 -0.048] scale@top [451. 194.  87.  80.]
+9 mlp.up_proj top coords [239  54 590   3] [-0.25  -0.24  -0.195 -0.184] scale@top [21.9 20.9 14.8 12.9]
+  post_attn scale max dims [163 400 338 127 621] [451.  194.   87.   86.   85.5] median 20.94
+  post_ff scale max dims [163 400 127 338 167] [525.  287.  116.5 113.5 108.5] median 27.62
+  input scale max dims [ 82 239 618 374   7] [72.5 66.  64.5 63.5 62.5] median 14.09 min 0.705
+12 mlp.down_proj top coords [ 45 163 334 222] [-0.241 -0.214 -0.205  0.164] scale@top [441. 741. 407. 433.]
+12 self_attn.o_proj top coords [334 587 374 420] [ 0.376  0.239 -0.212  0.19 ] scale@top [493. 545. 537. 447.]
+12 mlp.up_proj top coords [239  54 293 431] [-0.422 -0.235 -0.204 -0.194] scale@top [31.9 23.2 21.1 21.1]
+  post_attn scale max dims [517 547 360 403 518] [617. 613. 601. 561. 557.] median 80.75
+  post_ff scale max dims [163 517 547 360 518] [741. 493. 491. 483. 467.] median 145.5
+  input scale max dims [ 54 293 417 427   4] [161. 157. 157. 157. 156.] median 6.98 min 0.379
+15 mlp.down_proj top coords [163 400  75 592] [-0.626  0.144  0.138  0.125] scale@top [1193.  577.  433.  389.]
+15 self_attn.o_proj top coords [133 618 191 436] [ 0.253  0.2    0.198 -0.197] scale@top [633. 581. 641. 605.]
+15 mlp.up_proj top coords [239 131 442 574] [ 0.458 -0.274 -0.255 -0.248] scale@top [21.9 18.5 18.8 17.1]
+  post_attn scale max dims [517 360 547 403 460] [713. 685. 681. 653. 649.] median 128.0
+  post_ff scale max dims [163 467 386 439 400] [1193.  633.  589.  585.  577.] median 245.5
+  input scale max dims [ 54 293   4 431 328] [226. 219. 199. 193. 192.] median 6.08 min 1.176
+17 mlp.down_proj top coords [163 282 106 238] [-0.151 -0.137  0.125 -0.124] scale@top [1313.  673.  573.  581.]
+17 self_attn.o_proj top coords [558 389 549 382] [-0.223 -0.155  0.154 -0.147] scale@top [449. 235. 251. 259.]
+17 mlp.up_proj top coords [239 289   7   4] [ 0.68   0.336  0.201 -0.195] scale@top [30.6 19.  15.2 17.6]
+  post_attn scale max dims [558 163 400 467 517] [449. 331. 331. 303. 285.] median 141.5
+  post_ff scale max dims [558 163 400  87 467] [1649. 1313.  889.  841.  821.] median 337.0
+  input scale max dims [442 239 293  54 131] [122.  121.  119.  119.  117.5] median 3.52 min 1.285
+final [ 54 293   4 431 417 427 328 131] [301. 299. 283. 273. 263. 255. 251. 251.] smallest dims [163 558 467 439 382 400 282 386] [0.086 3.094 3.828 4.031 4.125 4.188 4.219 4.266]
+
+```

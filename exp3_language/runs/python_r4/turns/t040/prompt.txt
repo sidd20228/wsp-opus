@@ -1,0 +1,11 @@
+OUTPUT of run 39 of at most 100:
+```
+
+[stderr]
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+  File "<vm-home>/wsp-opus/venvs/sandbox_full/lib/python3.10/site-packages/numpy/lib/npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/E40.npy'
+
+```

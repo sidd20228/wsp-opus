@@ -82,9 +82,11 @@ def build6(cfg, inp):
         for q in [p]+nb(p): F.W[E.u('FO',q),u]-=1
         F.b[u]+=1; gate_unit(F,E,u,p,-1,4)
         ua=F.u('BA',p); ub=F.u('BB',p); uc=F.u('BC',p); s=0
-        om=cfg.get('omega',0.0); oa=cfg.get('omega_at',0.0)
+        om=cfg.get('omega',0.0)
+        Mp=sum(kern.get(mdist(p,q),0) for q in range(81)); Mc=sum(kern.get(mdist(40,q),0) for q in range(81))
+        fn=(Mc/Mp)**cfg.get('gnorm',0.0)
         for q in range(81):
-            k=kern.get(mdist(p,q),0)
+            k=kern.get(mdist(p,q),0)*fn
             if k:
                 for uu in (ua,ub,uc):
                     F.W[E.u('Z',q),uu]+=k

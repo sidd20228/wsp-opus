@@ -66,3 +66,4 @@ acts on the saved reply instead of sending the previous message again (`wsp/conv
 reset from the logged tool calls, so the model sees no gap or repeat in run numbers.
 
 | 3 | `english_r3`: a third no-code answer (final in turn 1, 0 runs). | Flagged `format_failure`, as python_r1 and romaji_r2. |
+| 3 | `python_r5`: a fourth no-code answer (final in turn 1, 0 runs). | Flagged `format_failure`. |

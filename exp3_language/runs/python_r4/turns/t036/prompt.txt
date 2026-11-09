@@ -1,0 +1,66 @@
+OUTPUT of run 35 of at most 100:
+```
+k= 28
+  comp 25 skew  13.8 kurt  287.5  induction diag z(row)   0.5 z(col)   0.7  |OV5 e| 0.38 |OV1 e| 0.41
+  comp  0 skew -11.3 kurt  216.0  induction diag z(row)   3.4 z(col)   2.7  |OV5 e| 0.50 |OV1 e| 0.64
+  comp  5 skew  -9.9 kurt  149.4  induction diag z(row)   3.2 z(col)   2.8  |OV5 e| 0.59 |OV1 e| 0.73
+  comp  9 skew  -9.7 kurt  163.1  induction diag z(row)   2.9 z(col)   3.2  |OV5 e| 0.59 |OV1 e| 0.54
+  comp 16 skew  -9.7 kurt  138.9  induction diag z(row)   3.1 z(col)   3.5  |OV5 e| 0.52 |OV1 e| 0.49
+  comp  2 skew  -9.0 kurt  128.4  induction diag z(row)   3.9 z(col)   3.3  |OV5 e| 0.56 |OV1 e| 0.72
+  comp 21 skew  -9.0 kurt  112.0  induction diag z(row)   1.1 z(col)   1.1  |OV5 e| 0.47 |OV1 e| 0.54
+  comp 26 skew   8.8 kurt  121.3  induction diag z(row)   0.9 z(col)   1.5  |OV5 e| 0.42 |OV1 e| 0.40
+  comp 15 skew  -8.4 kurt  115.2  induction diag z(row)   1.8 z(col)   1.3  |OV5 e| 0.44 |OV1 e| 0.59
+  comp 27 skew   8.3 kurt  119.4  induction diag z(row)   5.5 z(col)   3.5  |OV5 e| 0.70 |OV1 e| 0.62
+  comp 19 skew  -7.6 kurt   99.7  induction diag z(row)   6.7 z(col)   8.9  |OV5 e| 0.68 |OV1 e| 0.60
+  comp  3 skew  -7.6 kurt  109.4  induction diag z(row)   0.5 z(col)  -0.1  |OV5 e| 0.38 |OV1 e| 0.41
+  comp 23 skew  -6.4 kurt   70.1  induction diag z(row)  11.2 z(col)   6.6  |OV5 e| 0.84 |OV1 e| 0.74
+  comp  7 skew   6.2 kurt   62.8  induction diag z(row)   4.4 z(col)   3.2  |OV5 e| 0.67 |OV1 e| 0.66
+  comp  6 skew  -5.8 kurt   65.9  induction diag z(row)   6.8 z(col)   7.2  |OV5 e| 0.68 |OV1 e| 0.63
+  comp 18 skew  -5.7 kurt   62.6  induction diag z(row)   5.3 z(col)   5.7  |OV5 e| 0.72 |OV1 e| 0.61
+  comp 22 skew  -5.7 kurt   65.8  induction diag z(row)   2.5 z(col)   3.0  |OV5 e| 0.63 |OV1 e| 0.62
+  comp  1 skew   5.7 kurt   66.1  induction diag z(row)   4.8 z(col)   4.8  |OV5 e| 0.77 |OV1 e| 0.62
+  comp 11 skew   5.7 kurt   50.6  induction diag z(row)   7.5 z(col)   6.5  |OV5 e| 0.76 |OV1 e| 0.64
+  comp 17 skew  -5.3 kurt   43.5  induction diag z(row)   0.6 z(col)   1.0  |OV5 e| 0.57 |OV1 e| 0.72
+  comp 10 skew   5.2 kurt   61.9  induction diag z(row)   4.9 z(col)   5.7  |OV5 e| 0.62 |OV1 e| 0.66
+  comp 20 skew   4.8 kurt   41.6  induction diag z(row)   6.4 z(col)   6.5  |OV5 e| 0.69 |OV1 e| 0.63
+  comp 14 skew  -4.5 kurt   44.0  induction diag z(row)   8.5 z(col)   6.4  |OV5 e| 0.79 |OV1 e| 0.65
+  comp 13 skew  -4.4 kurt   52.2  induction diag z(row)   5.3 z(col)   3.7  |OV5 e| 0.68 |OV1 e| 0.59
+  comp 24 skew  -3.9 kurt   50.4  induction diag z(row)   4.5 z(col)   5.1  |OV5 e| 0.75 |OV1 e| 0.67
+  comp  8 skew  -3.0 kurt   15.3  induction diag z(row)   4.0 z(col)   3.8  |OV5 e| 0.63 |OV1 e| 0.61
+  comp 12 skew   2.5 kurt   47.7  induction diag z(row)   5.7 z(col)   6.4  |OV5 e| 0.66 |OV1 e| 0.65
+  comp  4 skew   0.1 kurt    7.1  induction diag z(row)   0.6 z(col)   1.1  |OV5 e| 0.29 |OV1 e| 0.34
+k= 32
+  comp 26 skew -15.0 kurt  319.6  induction diag z(row)   0.7 z(col)   0.5  |OV5 e| 0.37 |OV1 e| 0.38
+  comp  8 skew  12.9 kurt  257.9  induction diag z(row)   3.3 z(col)   3.0  |OV5 e| 0.46 |OV1 e| 0.60
+  comp 25 skew  10.5 kurt  184.2  induction diag z(row)   2.8 z(col)   2.9  |OV5 e| 0.55 |OV1 e| 0.50
+  comp  7 skew -10.2 kurt  157.9  induction diag z(row)   3.4 z(col)   3.0  |OV5 e| 0.56 |OV1 e| 0.68
+  comp 11 skew  10.0 kurt  159.4  induction diag z(row)   0.6 z(col)   0.6  |OV5 e| 0.32 |OV1 e| 0.35
+  comp  0 skew   9.9 kurt  145.2  induction diag z(row)   2.8 z(col)   3.7  |OV5 e| 0.53 |OV1 e| 0.52
+  comp 17 skew   9.5 kurt  121.2  induction diag z(row)   1.7 z(col)   1.2  |OV5 e| 0.48 |OV1 e| 0.55
+  comp 10 skew   9.1 kurt  130.2  induction diag z(row)   4.7 z(col)   4.1  |OV5 e| 0.56 |OV1 e| 0.69
+  comp 30 skew   9.1 kurt  129.1  induction diag z(row)   1.8 z(col)   1.8  |OV5 e| 0.45 |OV1 e| 0.59
+  comp  2 skew  -8.4 kurt  115.8  induction diag z(row)   0.3 z(col)   0.9  |OV5 e| 0.40 |OV1 e| 0.40
+  comp 22 skew  -8.4 kurt  123.2  induction diag z(row)   4.1 z(col)   2.6  |OV5 e| 0.66 |OV1 e| 0.59
+  comp  6 skew   7.7 kurt  100.7  induction diag z(row)   5.7 z(col)   6.1  |OV5 e| 0.63 |OV1 e| 0.57
+  comp 24 skew  -6.4 kurt   70.5  induction diag z(row)   9.7 z(col)   7.0  |OV5 e| 0.78 |OV1 e| 0.69
+  comp 23 skew   6.2 kurt   62.9  induction diag z(row)   5.0 z(col)   3.1  |OV5 e| 0.68 |OV1 e| 0.66
+  comp 12 skew  -6.2 kurt   72.4  induction diag z(row)   5.7 z(col)   7.1  |OV5 e| 0.60 |OV1 e| 0.56
+  comp 28 skew   5.9 kurt   69.7  induction diag z(row)   3.2 z(col)   3.3  |OV5 e| 0.61 |OV1 e| 0.61
+  comp 13 skew   5.8 kurt   62.2  induction diag z(row)   6.1 z(col)   5.9  |OV5 e| 0.70 |OV1 e| 0.60
+  comp 18 skew  -5.6 kurt   68.0  induction diag z(row)   7.6 z(col)   4.5  |OV5 e| 0.75 |OV1 e| 0.59
+  comp 15 skew   5.6 kurt   67.6  induction diag z(row)   5.3 z(col)   4.8  |OV5 e| 0.61 |OV1 e| 0.64
+  comp  4 skew  -5.6 kurt   50.2  induction diag z(row)   9.4 z(col)   8.3  |OV5 e| 0.78 |OV1 e| 0.66
+  comp 21 skew  -5.3 kurt   43.0  induction diag z(row)   0.4 z(col)   1.3  |OV5 e| 0.53 |OV1 e| 0.68
+  comp  5 skew   4.8 kurt   42.1  induction diag z(row)   6.6 z(col)   7.3  |OV5 e| 0.71 |OV1 e| 0.63
+  comp  1 skew  -4.8 kurt   54.8  induction diag z(row)   4.9 z(col)   4.0  |OV5 e| 0.69 |OV1 e| 0.59
+  comp 19 skew   4.8 kurt   44.8  induction diag z(row)   8.2 z(col)   5.6  |OV5 e| 0.72 |OV1 e| 0.58
+  comp 29 skew   4.7 kurt   63.8  induction diag z(row)   4.5 z(col)   5.0  |OV5 e| 0.59 |OV1 e| 0.58
+  comp 31 skew  -2.9 kurt   15.7  induction diag z(row)   1.9 z(col)   2.0  |OV5 e| 0.51 |OV1 e| 0.45
+  comp  9 skew   2.7 kurt   44.2  induction diag z(row)   4.8 z(col)   4.3  |OV5 e| 0.68 |OV1 e| 0.63
+  comp  3 skew  -1.8 kurt    8.6  induction diag z(row)   0.6 z(col)   1.4  |OV5 e| 0.30 |OV1 e| 0.27
+  comp 27 skew  -1.8 kurt   43.5  induction diag z(row)  -0.7 z(col)  -2.5  |OV5 e| 0.29 |OV1 e| 0.28
+  comp 16 skew  -1.3 kurt   15.4  induction diag z(row)   0.1 z(col)   0.6  |OV5 e| 0.25 |OV1 e| 0.28
+  comp 14 skew   0.5 kurt   10.0  induction diag z(row)   0.7 z(col)   1.8  |OV5 e| 0.28 |OV1 e| 0.33
+  comp 20 skew  -0.4 kurt    7.0  induction diag z(row)   0.3 z(col)   1.1  |OV5 e| 0.27 |OV1 e| 0.23
+
+```

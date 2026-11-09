@@ -1,0 +1,6 @@
+OUTPUT of Python run 117 of at most 120:
+```
+restored v35, verified: True True
+{'L1.W': 8.0, 'L1.b': 9.0, 'L2.W': 24.0, 'L2.b': 74.0, 'L3.W': 128.0, 'L3.b': 384.0, 'L4.W': 512.0, 'L4.b': 1536.0, 'L5.W': 4096.0, 'L5.b': 4096.0, 'L6.W': 100.0, 'L6.b': 30.0, 'out.W': 93.0, 'out.b': 180.0}
+
+```

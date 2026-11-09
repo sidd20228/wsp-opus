@@ -1,0 +1,28 @@
+OUTPUT of run 34 of at most 100:
+```
+L0H0: |QK|=  2.35 topsv= 1.98 effrank= 10.8 eigRe=-0.21 kReadsP=0.05 |OV|=  2.13 OVeffrank= 20.3
+L0H1: |QK|=  1.27 topsv= 1.20 effrank=  4.6 eigRe=-0.74 kReadsP=0.01 |OV|=  3.98 OVeffrank=  4.5
+L0H2: |QK|=  0.86 topsv= 0.82 effrank=  5.9 eigRe=-0.74 kReadsP=0.00 |OV|=  3.03 OVeffrank=  5.3
+L0H3: |QK|=  5.59 topsv= 1.95 effrank= 29.0 eigRe=+0.43 kReadsP=0.03 |OV|=  3.54 OVeffrank= 32.5
+L0H4: |QK|=  0.71 topsv= 0.64 effrank=  8.9 eigRe=-0.54 kReadsP=0.01 |OV|=  1.68 OVeffrank=  7.9
+L0H5: |QK|=  0.27 topsv= 0.26 effrank=  9.4 eigRe=-0.27 kReadsP=0.01 |OV|= 18.82 OVeffrank=  3.6
+L1H0: |QK|= 15.85 topsv= 9.48 effrank= 17.0 eigRe=-0.54 kReadsP=0.39 |OV|= 11.48 OVeffrank= 36.9
+L1H1: |QK|= 14.77 topsv= 9.24 effrank= 16.3 eigRe=-0.54 kReadsP=0.42 |OV|= 11.27 OVeffrank= 33.2
+L1H2: |QK|= 14.26 topsv= 9.41 effrank= 16.8 eigRe=-0.62 kReadsP=0.45 |OV|= 11.81 OVeffrank= 32.6
+L1H3: |QK|= 14.33 topsv= 9.51 effrank= 16.0 eigRe=-0.54 kReadsP=0.45 |OV|= 12.40 OVeffrank= 32.6
+L1H4: |QK|= 13.04 topsv= 8.47 effrank= 18.3 eigRe=-0.69 kReadsP=0.42 |OV|= 13.40 OVeffrank= 33.7
+L1H5: |QK|= 14.94 topsv= 9.18 effrank= 16.2 eigRe=-0.56 kReadsP=0.41 |OV|= 10.92 OVeffrank= 33.2
+L2H0: |QK|= 13.08 topsv= 5.55 effrank= 44.7 eigRe=-0.42 kReadsP=0.22 |OV|= 16.38 OVeffrank= 46.9
+L2H1: |QK|= 17.24 topsv= 4.62 effrank= 49.1 eigRe=-0.05 kReadsP=0.09 |OV|= 17.62 OVeffrank= 52.0
+L2H2: |QK|= 13.77 topsv= 4.15 effrank= 51.3 eigRe=-0.34 kReadsP=0.11 |OV|= 18.66 OVeffrank= 48.7
+L2H3: |QK|= 12.99 topsv= 4.02 effrank= 51.1 eigRe=-0.18 kReadsP=0.09 |OV|= 19.00 OVeffrank= 50.0
+L2H4: |QK|= 17.74 topsv= 6.52 effrank= 46.0 eigRe=-0.20 kReadsP=0.15 |OV|= 14.88 OVeffrank= 49.6
+L2H5: |QK|= 18.12 topsv= 4.92 effrank= 48.2 eigRe=-0.05 kReadsP=0.09 |OV|= 16.86 OVeffrank= 52.5
+L3H0: |QK|= 16.23 topsv= 3.48 effrank= 56.9 eigRe=+0.45 kReadsP=0.04 |OV|= 20.71 OVeffrank= 50.3
+L3H1: |QK|=  9.74 topsv= 2.77 effrank= 54.0 eigRe=+0.16 kReadsP=0.06 |OV|= 26.51 OVeffrank= 43.9
+L3H2: |QK|= 11.50 topsv= 3.08 effrank= 56.4 eigRe=+0.11 kReadsP=0.06 |OV|= 23.51 OVeffrank= 48.3
+L3H3: |QK|= 14.55 topsv= 2.57 effrank= 60.6 eigRe=+0.84 kReadsP=0.00 |OV|= 37.53 OVeffrank= 39.4
+L3H4: |QK|=  5.00 topsv= 1.89 effrank= 46.1 eigRe=+0.00 kReadsP=0.01 |OV|= 49.24 OVeffrank= 22.0
+L3H5: |QK|= 13.33 topsv= 3.64 effrank= 57.2 eigRe=+0.38 kReadsP=0.06 |OV|= 22.56 OVeffrank= 49.3
+
+```

@@ -1,0 +1,35 @@
+OUTPUT of Python run 48 of at most 120:
+```
+black
+ply 84 [('P', 1.0), ((4, 3), 0.0), ((5, 4), 0.0), ((8, 6), 0.0), ((0, 5), 0.0)]
+XXX.X.XXX
+XX.XOOOOO
+.XXOOOOXX
+XOOXOOOO.
+XOX.XOOOO
+.OOO.XXO.
+OOOXXXOOO
+XOX.XOOOX
+.X.X.X.O.
+ply 86 [('P', 1.0), ((5, 4), 0.0), ((8, 6), 0.0), ((0, 5), 0.0), ((8, 0), 0.0)]
+XXX.X.XXX
+XX.XOOOOO
+.XXOOOOXX
+XOO.OOOO.
+XO.OXOOOO
+.OOO.XXO.
+OOOXXXOOO
+XOX.XOOOX
+.X.X.X.O.
+ply 88 [('P', 1.0), ((5, 4), 0.0), ((8, 6), 0.0), ((0, 5), 0.0), ((5, 0), 0.0)]
+XXX.X.XXX
+XX.XOOOOO
+.XXOOOOXX
+XOO.OOOO.
+XO.OXOOOO
+.OOO.XXO.
+OOOXXXOOO
+.OX.XOOOX
+OX.X.X.O.
+
+```

@@ -1,0 +1,45 @@
+OUTPUT of Python run 19 of at most 120:
+```
+34 black 111 margin -31.5 lost 43 cap 5
+XOOXXOOO.
+.OO.OOOOO
+OOOOOOOOX
+XXOOOOOXX
+X.OOO.XXO
+XOOOXOOOO
+XOOXXXOOO
+XOOX.XOOX
+XOXXXO.O.
+  ply 63 net lost 6
+  ply 65 net lost 4
+  ply 71 net lost 5
+  ply 99 net lost 7
+39 black 102 margin -31.5 lost 32 cap 5
+XXOOOOO.O
+OXXOOOOOX
+OOX.OOOOX
+OOOOOXOO.
+OXXXXXOOO
+.OX.X.XO.
+OOOX.XXXO
+.OOXXOOOX
+O.OXO.OO.
+  ply 73 net lost 6
+  ply 75 net lost 5
+  ply 93 net lost 5
+42 black 114 margin -44.5 lost 77 cap 4
+.OOXXO.XX
+OOOO.OOOO
+.OOOOOOO.
+.OOOOOOXX
+OOOXXXXOO
+OOOOX.XO.
+OOOXXXOOO
+X.OXOXOOO
+XOOO.OOO.
+  ply 71 net lost 4
+  ply 77 net lost 12
+  ply 89 net lost 5
+  ply 105 net lost 4
+
+```

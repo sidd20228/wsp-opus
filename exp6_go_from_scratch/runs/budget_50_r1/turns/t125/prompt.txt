@@ -1,0 +1,54 @@
+OUTPUT of Python run 94 of at most 120:
+```
+3 black two passes -10.5 len 99 our losses>=3: [(71, 16), (93, 3)]
+    .XXX.X.X.
+    X.X.XXXXX
+    XXXXOXXOX
+    XOXOOOOOX
+    OOO.XOOOO
+    .O.OOOOO.
+    XOOXXXXOO
+    .OOOO.OOX
+    OOX.OO.O.
+49 black two passes -0.5 len 90 our losses>=3: []
+    .X.X.X.X.
+    X.XXXXXXX
+    XXXOOXXOX
+    X.XXOOOOO
+    XXXXXOOOO
+    OOX.XXXO.
+    OOOXXXXOO
+    .OOOOOXOO
+    O.OOOOXO.
+103 white two passes -4.5 len 91 our losses>=3: [(62, 16)]
+    .O.OOOOO.
+    O.OOOXOOO
+    OOOOXXXXO
+    OXXXXXXXX
+    OXO.O.XX.
+    XX.XXOXXX
+    .XX.X.XXX
+    OXXXXXXXO
+    .XXXXX.O.
+117 white two passes -18.5 len 115 our losses>=3: [(66, 17), (98, 3), (108, 3)]
+    .OOOOOOOO
+    O.O.O.OXO
+    OOOOOOOXX
+    XXXXOOXX.
+    .XX.XXXXX
+    XX.XXOXX.
+    XXX.X.XXX
+    .XXXXXXX.
+    X.XXXXXXX
+126 white two passes -2.5 len 104 our losses>=3: [(54, 7), (80, 7), (96, 6)]
+    O.OOOO.O.
+    .OO.O.OOO
+    OOOO.OOXX
+    XXOOOOXXX
+    XXXOXOOX.
+    XXXXXXXXX
+    .OX.OXXX.
+    X.XXXXXXX
+    .X.XXX.X.
+
+```

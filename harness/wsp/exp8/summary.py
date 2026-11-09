@@ -23,7 +23,7 @@ def practice_ids(practice_dir=None):
     return _PRACTICE_IDS
 
 
-def validate(req):
+def validate(req, practice_dir=None):
     """Cheap checks before any GPU work (the GPU side checks token counts and output size)."""
     if not isinstance(req, dict):
         raise ValueError("the request must be a JSON object")
@@ -37,7 +37,7 @@ def validate(req):
         prompts = req.get("prompts") or []
         if not isinstance(probs, list) or not isinstance(prompts, list):
             raise ValueError('"problems" and "prompts" must be lists')
-        unknown = [p for p in probs if p not in practice_ids()]
+        unknown = [p for p in probs if p not in practice_ids(practice_dir)]
         if unknown:
             raise ValueError(f"unknown practice ids: {unknown[:5]}")
         items = len(probs) + len(prompts)

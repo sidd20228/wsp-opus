@@ -21,9 +21,9 @@ import sys
 import time
 import traceback
 
-SOCK = "/tmp/kernel.sock"
+SOCK = os.environ.get("KERNEL_SOCK", "/tmp/kernel.sock")      # VM: a folder bound into the sandbox
 WORK_SYNC = "/mnt/work_sync"
-PRELUDE = "/opt/kernel/kernel_prelude.py"
+PRELUDE = os.environ.get("KERNEL_PRELUDE", "/opt/kernel/kernel_prelude.py")
 MAX_RSS = 96 * 1024 ** 3
 RAW_CAP = 4_000_000        # characters of raw output kept (the harness shows at most 10,000 after filtering)
 
@@ -245,11 +245,15 @@ def supervisor():
 def client():
     req = json.loads(sys.stdin.read())
     s = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
-    for _ in range(600):
+    tries = int(os.environ.get("KERNEL_CONNECT_TRIES", "600"))
+    for i in range(tries):
         try:
             s.connect(SOCK)
             break
         except OSError:
+            if i == tries - 1:
+                sys.stdout.write(json.dumps({"status": "nokernel"}))
+                return
             time.sleep(0.5)
     _send(s, req)
     buf = [b""]

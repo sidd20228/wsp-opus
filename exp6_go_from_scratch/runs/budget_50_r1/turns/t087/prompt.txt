@@ -1,0 +1,7 @@
+OUTPUT of Python run 67 of at most 120:
+```
+Counter({(5, 5): 19, (3, 5): 17, (5, 3): 17, (3, 3): 11})
+[(((5, 3), 1), 40), (((5, 1), 1), 16), (((5, 3), -1), 5), (((5, 1), -1), 3)]
+[(4, -0.5, 'two passes'), (8, -5.5, 'two passes'), (15, -0.5, 'two passes'), (29, -5.5, 'two passes'), (36, -1.5, 'two passes'), (41, -6.5, 'two passes'), (42, -1.5, 'two passes'), (57, -0.5, 'two passes')]
+
+```

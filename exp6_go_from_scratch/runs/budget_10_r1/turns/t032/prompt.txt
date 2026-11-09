@@ -1,0 +1,5 @@
+OUTPUT of Python run 27 of at most 120:
+```
+9309 {3: {'or_true': 9309, 'or_false': 1326, 'and_true': 2983, 'and_false': 265}, 4: {'or_true': 9309, 'or_false': 349, 'and_true': 2933, 'and_false': 123}}
+
+```
