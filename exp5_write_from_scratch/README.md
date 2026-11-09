@@ -7,8 +7,8 @@ softmax (`harness/wsp/minatar_eval.py`).
 | Game | PPO 100M | PPO 500M | Astra | Opus `xhigh`, primary | Opus `max`, r1 |
 |---|---|---|---|---|---|
 | Breakout | 15.8 | 25.3 | 517.4 | 511.7 | 494.8 |
-| Seaquest | 5.6 | 88.9 | 53.1 | 49.3 | |
-| Asterix | 25.8 | 55.2 | 53.2 | 49.5 | |
+| Seaquest | 5.6 | 88.9 | 53.1 | 49.3 | 41.6 |
+| Asterix | 25.8 | 55.2 | 53.2 | 49.5 | 64.2 |
 
 - **Phase 0:** Astra's released networks score within 1.3 standard errors of the published means with this evaluator
   (`results/phase0/minatar_check.json`).

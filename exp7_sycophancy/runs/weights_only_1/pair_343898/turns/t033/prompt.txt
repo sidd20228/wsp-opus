@@ -1,0 +1,15 @@
+OUTPUT of run 32 of at most 60:
+```
+mismatched-layer null: mean +0.096, sd 1.046, frac |z|>2 0.044, frac z>1.5 0.100
+matched L16/L17 heads with V_A, V_B, V_mean:
+  L16h0: [1.74 1.66 1.74]
+  L16h1: [2.21 2.13 2.21]
+  L16h2: [2.61 2.85 2.69]
+  L16h3: [1.98 1.9  1.98]
+  L17h0: [1.11 1.19 1.19]
+  L17h1: [2.06 2.06 2.06]
+  L17h2: [1.98 2.06 1.98]
+  L17h3: [2.21 2.37 2.29]
+P(null z >= each observed) product: 0.0
+
+```

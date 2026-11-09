@@ -27,8 +27,14 @@ sys.path.insert(0, HERE)
 import common as C  # noqa: E402
 from vendor import mathqa as Q  # noqa: E402
 
-MODEL_DIR = "/model"
+MODEL_DIR = C.MODEL_DIR
 PREFIX = "model.language_model."
+
+
+def _vol(run, op):
+    """Modal backend: reload / commit the run's work volume; the VM backend writes the run folder directly."""
+    if C.BACKEND == "modal":
+        getattr(C.work_vol(run), op)()
 
 
 def item_seed(key):
@@ -41,7 +47,7 @@ class Server:
         self.tok = AutoTokenizer.from_pretrained(MODEL_DIR)
         self.practice = {}
         for f in ("gsm8k_train.jsonl", "math_train.jsonl", "aime.jsonl"):
-            for line in open(os.path.join("/practice", f)):
+            for line in open(os.path.join(C.PRACTICE_DIR, f)):
                 r = json.loads(line)
                 self.practice[r["id"]] = r
         self.llm, self.llm_key = None, None
@@ -65,8 +71,8 @@ class Server:
 
     def read_edits(self, run):
         """{name: float32 array} of /work/edited after reloading the run's volume; checks the out-of-scope rules."""
-        C.work_vol(run).reload()
-        d = "/work/edited"
+        _vol(run, "reload")
+        d = C.wpath("/work/edited")
         edits = {}
         if os.path.isdir(d):
             for f in sorted(os.listdir(d)):
@@ -111,7 +117,7 @@ class Server:
     def build_ckpt(self, edits, fp):
         """the text export with the edited tensors cast to bfloat16 (build_ckpt.py), in local /tmp."""
         from vendor import st_numpy as S
-        out = f"/tmp/ckpt_{fp}"
+        out = os.path.join(C.TMP_DIR, f"ckpt_{fp}")
         if os.path.exists(os.path.join(out, "model.safetensors")):
             return out
         os.makedirs(out, exist_ok=True)
@@ -143,7 +149,7 @@ class Server:
         if self.llm_key != key:
             self._drop_llm()
             path = MODEL_DIR if not edits else self.build_ckpt(edits, key)
-            self.llm = LLM(model=path, dtype="bfloat16", gpu_memory_utilization=0.78,
+            self.llm = LLM(model=path, dtype="bfloat16", gpu_memory_utilization=min(0.78, C.GPU_MEM),
                            max_model_len=C.SAMPLING_THINK35["max_tokens"] + 2048, seed=0)
             self.llm_key = key
         return self.llm
@@ -195,7 +201,7 @@ class Server:
         t0 = time.time()
         edits = self.read_edits(run) if which == "edited" else {}
         if which != "edited":
-            C.work_vol(run).reload()
+            _vol(run, "reload")
         items = self._items(req)
         n = int(req.get("n", 1))
         max_tokens = int(req.get("max_tokens", C.LIMITS["max_tokens"]))
@@ -225,13 +231,13 @@ class Server:
             recs.append(rec)
             compact.append({"id": it["id"], "source": it["source"], "graded": it["answer"] is not None, "samples": cs})
         path = f"/work/{tag}.jsonl"
-        with open(path, "w") as f:
+        with open(C.wpath(path), "w") as f:
             for r in recs:
                 f.write(json.dumps(r) + "\n")
         acts = None
         if req.get("activations"):
             acts = self._activations(req["activations"], items, prompts, outs, compact, edits, f"/work/{tag}_acts")
-        C.work_vol(run).commit()
+        _vol(run, "commit")
         torch.cuda.empty_cache()
         return {"records": compact, "file": path, "acts": acts, "s": round(time.time() - t0, 1),
                 "gen_s": round(t_gen, 1), "edited_tensors": sorted(edits)}
@@ -281,17 +287,18 @@ class Server:
         finally:
             for h in hooks:
                 h.remove()
-        os.makedirs(out_dir, exist_ok=True)
+        real = C.wpath(out_dir)
+        os.makedirs(real, exist_ok=True)
         files = {"hidden_last_prompt.npy": hl, "hidden_mean_answer.npy": hm}
         if mlp:
             files.update({"mlp_last_prompt.npy": ml, "mlp_mean_answer.npy": mm})
         for f, a in files.items():
-            np.save(os.path.join(out_dir, f), a)
+            np.save(os.path.join(real, f), a)
         json.dump({"layers": layers, "mlp_layers": mlp_layers, "samples": index,
                    "note": "hidden: HF hidden_states[l] (0 = embeddings, l = after layer l; 24 = after the final norm); "
                            "mlp: input of layers[l].mlp.down_proj; last_prompt = the prompt's last token; mean_answer = "
                            f"mean over the answer's first {cap} tokens"},
-                  open(os.path.join(out_dir, "index.json"), "w"))
+                  open(os.path.join(real, "index.json"), "w"))
         return {"dir": out_dir + "/", "files": {f: list(a.shape) for f, a in files.items()}}
 
     # ---------------------------------------------------------------------------------------- teacher forced
@@ -362,7 +369,7 @@ class Server:
                              "per pass; ask for fewer layers, fewer or shorter texts")
         edits = self.read_edits(run) if which == "edited" else {}
         out_dir = f"/work/fwd_{k}"
-        tmp_dir = f"/tmp/fwd_{k}_{int(time.time())}"       # local disk first (random writes), then one copy to /work
+        tmp_dir = os.path.join(C.TMP_DIR, f"fwd_{k}_{int(time.time())}")       # local disk first (random writes), then one copy to /work
         os.makedirs(tmp_dir, exist_ok=True)
         arrs = {name: np.lib.format.open_memmap(os.path.join(tmp_dir, name + ".npy"), mode="w+", dtype=d, shape=s)
                 for name, (s, d) in shapes.items()}
@@ -420,15 +427,15 @@ class Server:
         for a in arrs.values():
             a.flush()
         del arrs
-        os.makedirs(out_dir, exist_ok=True)
+        os.makedirs(C.wpath(out_dir), exist_ok=True)
         for name in shapes:
-            shutil.copyfile(os.path.join(tmp_dir, name + ".npy"), os.path.join(out_dir, name + ".npy"))
+            shutil.copyfile(os.path.join(tmp_dir, name + ".npy"), os.path.join(C.wpath(out_dir), name + ".npy"))
         shutil.rmtree(tmp_dir, ignore_errors=True)
         files = {name: list(s) for name, (s, _) in shapes.items()}
         json.dump({"texts": texts, "lengths": lens, "model": which, "edited_tensors": sorted(edits), "files": files,
                    "padding": "right; positions >= length are padding"},
-                  open(os.path.join(out_dir, "meta.json"), "w"))
-        C.work_vol(run).commit()
+                  open(os.path.join(C.wpath(out_dir), "meta.json"), "w"))
+        _vol(run, "commit")
         torch.cuda.empty_cache()
         res = {"ok": True, "lengths": lens, "files": files, "edited_tensors": len(edits)}
         if want_lp:

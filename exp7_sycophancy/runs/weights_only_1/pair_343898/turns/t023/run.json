@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "18fc7578-9fe9-464e-9b35-235cdcbca559",
+ "cwd": "<home>/.wsp/c/18fc7578",
+ "turn": 23,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "18fc7578-9fe9-464e-9b35-235cdcbca559"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 73.6,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 14521,
+  "cache_read_input_tokens": 208972,
+  "output_tokens": 7029,
+  "output_tokens_details": {
+   "thinking_tokens": 5342
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 14521,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 7029,
+    "cache_read_input_tokens": 208972,
+    "cache_creation_input_tokens": 14521,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 14521
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 90,
+   "outputTokens": 159369,
+   "thinkingTokens": 125015,
+   "cacheReadInputTokens": 2331312,
+   "cacheCreationInputTokens": 223493,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 223493,
+   "webSearchRequests": 0,
+   "costUSD": 5.4419464,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 5.4419464,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 73.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 22 showed.** The full per-head table gives two opposed groups and one \"attention retargeting\" hotspot:\n- **Group A-copy.** All of L16 h0\u2013h3 and L17 h0\u2013h3 (zO +1.2 to +2.7, also positive in logit-relevant dimensions), plus L13h1 (+2.2), L15h3, L15h0 and L9h1/h3 in the top-f dimensions. The",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "utilization": 0.97,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.97,
+        "resetsAt": 1794182400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.25,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "ce2e4078-3363-43d6-8795-04eb4d771651",
+     "session_id": "18fc7578-9fe9-464e-9b35-235cdcbca559"
+    }
+   ]
+  }
+ ]
+}

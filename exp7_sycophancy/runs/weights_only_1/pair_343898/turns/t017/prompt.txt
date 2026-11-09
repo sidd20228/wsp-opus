@@ -1,0 +1,47 @@
+OUTPUT of run 16 of at most 60:
+```
+model.layers.3.self_attn.q_proj.weight
+  frac equal 0.233; LSB=0 frac: equal-elems 0.4991, A(all) 0.5001, B(all) 0.5000
+  low-2-bit histogram (equal elems): [0.2502 0.2539 0.2489 0.247 ]
+  frac of differing elems that are 1-ulp: 0.371; 2-ulp 0.184
+  among 1-ulp diffs: A even frac 0.4993
+   |w| in [0,0.0078): n= 155406 frac equal 0.036  median |dA-B| 1.53e-04
+   |w| in [0.0078,0.0156): n= 131458 frac equal 0.109  median |dA-B| 1.22e-04
+   |w| in [0.0156,0.03125): n= 176184 frac equal 0.218  median |dA-B| 1.22e-04
+   |w| in [0.03125,0.0625): n= 140517 frac equal 0.407  median |dA-B| 2.44e-04
+   |w| in [0.0625,0.125): n=  42834 frac equal 0.668  median |dA-B| 0.00e+00
+   |w| in [0.125,10): n=   8961 frac equal 0.971  median |dA-B| 0.00e+00
+model.layers.10.mlp.gate_proj.weight
+  frac equal 0.240; LSB=0 frac: equal-elems 0.5013, A(all) 0.5002, B(all) 0.5005
+  low-2-bit histogram (equal elems): [0.2507 0.2511 0.2506 0.2476]
+  frac of differing elems that are 1-ulp: 0.386; 2-ulp 0.189
+  among 1-ulp diffs: A even frac 0.4996
+   |w| in [0,0.0078): n= 274319 frac equal 0.036  median |dA-B| 1.53e-04
+   |w| in [0.0078,0.0156): n= 246065 frac equal 0.107  median |dA-B| 1.83e-04
+   |w| in [0.0156,0.03125): n= 364217 frac equal 0.210  median |dA-B| 1.22e-04
+   |w| in [0.03125,0.0625): n= 308090 frac equal 0.390  median |dA-B| 2.44e-04
+   |w| in [0.0625,0.125): n= 102777 frac equal 0.650  median |dA-B| 0.00e+00
+   |w| in [0.125,10): n=  15252 frac equal 0.962  median |dA-B| 0.00e+00
+model.layers.16.mlp.down_proj.weight
+  frac equal 0.125; LSB=0 frac: equal-elems 0.4986, A(all) 0.4988, B(all) 0.5003
+  low-2-bit histogram (equal elems): [0.2499 0.2542 0.2487 0.2472]
+  frac of differing elems that are 1-ulp: 0.244; 2-ulp 0.172
+  among 1-ulp diffs: A even frac 0.4980
+   |w| in [0,0.0078): n= 479704 frac equal 0.034  median |dA-B| 1.53e-04
+   |w| in [0.0078,0.0156): n= 371463 frac equal 0.102  median |dA-B| 1.83e-04
+   |w| in [0.0156,0.03125): n= 364312 frac equal 0.201  median |dA-B| 1.22e-04
+   |w| in [0.03125,0.0625): n=  94242 frac equal 0.376  median |dA-B| 2.44e-04
+   |w| in [0.0625,0.125): n=    971 frac equal 0.637  median |dA-B| 0.00e+00
+model.layers.16.self_attn.o_proj.weight
+  frac equal 0.164; LSB=0 frac: equal-elems 0.5004, A(all) 0.4999, B(all) 0.4999
+  low-2-bit histogram (equal elems): [0.2482 0.2506 0.2522 0.249 ]
+  frac of differing elems that are 1-ulp: 0.306; 2-ulp 0.187
+  among 1-ulp diffs: A even frac 0.4983
+   |w| in [0,0.0078): n= 200599 frac equal 0.038  median |dA-B| 1.53e-04
+   |w| in [0.0078,0.0156): n= 168089 frac equal 0.114  median |dA-B| 1.22e-04
+   |w| in [0.0156,0.03125): n= 199205 frac equal 0.220  median |dA-B| 1.22e-04
+   |w| in [0.03125,0.0625): n=  83098 frac equal 0.407  median |dA-B| 2.44e-04
+   |w| in [0.0625,0.125): n=   4014 frac equal 0.661  median |dA-B| 0.00e+00
+   |w| in [0.125,10): n=    355 frac equal 0.938  median |dA-B| 0.00e+00
+
+```

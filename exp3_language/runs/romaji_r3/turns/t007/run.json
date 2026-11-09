@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "5675d704-ffb3-46f9-941a-07ebf2c1d3c2",
+ "cwd": "<home>/.wsp/c/5675d704",
+ "turn": 7,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "5675d704-ffb3-46f9-941a-07ebf2c1d3c2"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 34.2,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4833,
+  "cache_read_input_tokens": 50248,
+  "output_tokens": 3288,
+  "output_tokens_details": {
+   "thinking_tokens": 2435
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4833,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3288,
+    "cache_read_input_tokens": 50248,
+    "cache_creation_input_tokens": 4833,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4833
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 26,
+   "outputTokens": 30505,
+   "thinkingTokens": 22993,
+   "cacheReadInputTokens": 182114,
+   "cacheCreationInputTokens": 52144,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 52144,
+   "webSearchRequests": 0,
+   "costUSD": 1.0637788,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.0637788,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 34.2,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "```python\nnp.set_printoptions(precision=2, suppress=True, linewidth=220)\ndef get(l):\n    Wq,Wk,Wv,Wo=[W[f'{n}.{l}'] for n in ['W_q','W_k','W_v','W_o']]\n    D=W[f'ln1_w.{l}']\n    QK=[];OV=[]\n    for j in range(6):\n        s=slice(64*j,64*j+64)\n        QK.append((Wq[s]*D).T @ (Wk[s]*D))\n        OV.app",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.63,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.21,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "7d76b52b-cda8-4418-8e3c-3423a986f283",
+     "session_id": "5675d704-ffb3-46f9-941a-07ebf2c1d3c2"
+    }
+   ]
+  }
+ ]
+}

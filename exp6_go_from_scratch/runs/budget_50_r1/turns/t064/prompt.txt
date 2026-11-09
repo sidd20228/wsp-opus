@@ -1,0 +1,80 @@
+OUTPUT of Python run 50 of at most 120:
+```
+black
+n(8, 7) o(5, 6) n(7, 5) o(3, 7) n(8, 6) o(2, 7) n(4, 2) o(3, 4) n(5, 4) o(3, 1)
+     20 [((7, 5), 0.67), ((8, 7), 0.16), ((7, 8), 0.06), ((8, 6), 0.02)]
+     22 [((7, 5), 0.79), ((5, 4), 0.09), ((6, 4), 0.03), ((4, 6), 0.03)]
+     24 [((8, 6), 1.0), ((2, 6), 0.0), ((4, 6), 0.0), ((3, 2), 0.0)]
+     26 [((2, 6), 0.56), ((3, 2), 0.11), ((1, 6), 0.09), ((3, 3), 0.05)]
+     28 [((2, 6), 0.51), ((2, 4), 0.11), ((3, 5), 0.1), ((1, 6), 0.08)]
+  ......... ......... ......... ......... ......... ......... ......... ......... ......... .........
+  .....O.X. .....O.X. .....O.X. .....O.X. .....O.X. .....O.X. .....O.X. .....O.X. .....O.X. .....O.X.
+  ..X..X... ..X..X... ..X..X... ..X..X... ..X..X... ..X..X.O. ..X..X.O. ..X..X.O. ..X..X.O. ..X..X.O.
+  ......X.. ......X.. ......X.. ......XO. ......XO. ......XO. ......XO. ....O.XO. ....O.XO. .O..O.XO.
+  ...XX..O. ...XX..O. ...XX..O. ...XX..O. ...XX..O. ...XX..O. ..XXX..O. ..XXX..O. ..XXX..O. ..XXX..O.
+  .O.O.X.O. .O.O.XOO. .O.O.XOO. .O.O.XOO. .O.O.XOO. .O.O.XOO. .O.O.XOO. .O.O.XOO. .O.OXXOO. .O.OXXOO.
+  .OO..XXO. .OO..XXO. .OO..XXO. .OO..XXO. .OO..XXO. .OO..XXO. .OO..XXO. .OO..XXO. .OO..XXO. .OO..XXO.
+  ..O...OX. ..O...OX. ..O..XOX. ..O..XOX. ..O..X.X. ..O..X.X. ..O..X.X. ..O..X.X. ..O..X.X. ..O..X.X.
+  .......X. .......X. .......X. .......X. ......XX. ......XX. ......XX. ......XX. ......XX. ......XX.
+n(6, 3) o(2, 6) n(5, 2) o(4, 1) n(2, 4) o(4, 6) n(3, 5) o(1, 6) n(3, 3) o(7, 3)
+     30 [((6, 3), 0.25), ((5, 2), 0.23), ((2, 6), 0.15), ((2, 3), 0.11)]
+     32 [((5, 2), 1.0), ((2, 4), 0.0), ((2, 3), 0.0), ((7, 3), 0.0)]
+     34 [((2, 4), 1.0), ((2, 3), 0.0), ((3, 5), 0.0), ((1, 2), 0.0)]
+     36 [((3, 5), 1.0), ((3, 3), 0.0), ((1, 1), 0.0), ((1, 2), 0.0)]
+     38 [((3, 3), 1.0), ((1, 1), 0.0), ((1, 2), 0.0), ((0, 7), 0.0)]
+  ......... ......... ......... ......... ......... ......... ......... ......... ......... .........
+  .....O.X. .....O.X. .....O.X. .....O.X. .....O.X. .....O.X. .....O.X. .....OOX. .....OOX. .....OOX.
+  ..X..X.O. ..X..XOO. ..X..XOO. ..X..XOO. ..X.XXOO. ..X.XXOO. ..X.XXOO. ..X.XXOO. ..X.XXOO. ..X.XXOO.
+  .O..O.XO. .O..O.XO. .O..O.XO. .O..O.XO. .O..O.XO. .O..O.XO. .O..OXXO. .O..OXXO. .O.X.XXO. .O.X.XXO.
+  ..XXX..O. ..XXX..O. ..XXX..O. .OXXX..O. .OXXX..O. .OXXX.OO. .OXXX.OO. .OXXX.OO. .OXXX.OO. .OXXX.OO.
+  .O.OXXOO. .O.OXXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO.
+  .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO.
+  ..O..X.X. ..O..X.X. ..O..X.X. ..O..X.X. ..O..X.X. ..O..X.X. ..O..X.X. ..O..X.X. ..O..X.X. ..OO.X.X.
+  ......XX. ......XX. ......XX. ......XX. ......XX. ......XX. ......XX. ......XX. ......XX. ......XX.
+n(6, 4) o(7, 4) n(1, 1) o(7, 1) n(0, 7) o(7, 8) n(2, 1) o(4, 5) n(8, 8) o(3, 2)
+     40 [((1, 1), 0.39), ((0, 7), 0.22), ((2, 1), 0.22), ((1, 8), 0.08)]
+     42 [((1, 1), 0.4), ((0, 7), 0.22), ((2, 1), 0.22), ((1, 8), 0.09)]
+     44 [((0, 7), 0.68), ((1, 8), 0.27), ((2, 1), 0.04), ((1, 4), 0.01)]
+     46 [((2, 1), 0.45), ((8, 8), 0.4), ((1, 4), 0.05), ((0, 6), 0.03)]
+     48 [((8, 8), 0.79), ((1, 4), 0.09), ((0, 6), 0.05), ((0, 5), 0.03)]
+  ......... ......... ......... ......... .......X. .......X. .......X. .......X. .......X. .......X.
+  .....OOX. .....OOX. .X...OOX. .X...OOX. .X...OOX. .X...OOX. .X...OOX. .X...OOX. .X...OOX. .X...OOX.
+  ..X.XXOO. ..X.XXOO. ..X.XXOO. ..X.XXOO. ..X.XXOO. ..X.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO.
+  .O.X.XXO. .O.X.XXO. .O.X.XXO. .O.X.XXO. .O.X.XXO. .O.X.XXO. .O.X.XXO. .O.X.XXO. .O.X.XXO. .OOX.XXO.
+  .OXXX.OO. .OXXX.OO. .OXXX.OO. .OXXX.OO. .OXXX.OO. .OXXX.OO. .OXXX.OO. .OXXXOOO. .OXXXOOO. .OXXXOOO.
+  .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO.
+  .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO. .OOXXXXO.
+  ..OO.X.X. ..OOOX.X. ..OOOX.X. .OOOOX.X. .OOOOX.X. .OOOOX.XO .OOOOX.XO .OOOOX.XO .OOOOX.XO .OOOOX.XO
+  ......XX. ......XX. ......XX. ......XX. ......XX. ......XX. ......XX. ......XX. ......XXX ......XXX
+n(6, 8) o(1, 2) n(1, 3) o(8, 4) n(0, 2) o(1, 4) n(0, 8) o(8, 5) n(7, 6) o(4, 8)
+     50 [((6, 8), 1.0), ((1, 4), 0.0), ((0, 6), 0.0), ((0, 5), 0.0)]
+     52 [((1, 3), 0.97), ((0, 2), 0.02), ((1, 4), 0.0), ((0, 5), 0.0)]
+     54 [((0, 2), 1.0), ((0, 6), 0.0), ((0, 5), 0.0), ((1, 4), 0.0)]
+     56 [((0, 6), 0.38), ((0, 5), 0.37), ((0, 8), 0.08), ((1, 8), 0.04)]
+     58 [((7, 6), 1.0), ((0, 5), 0.0), ((0, 6), 0.0), ((0, 4), 0.0)]
+  .......X. .......X. .......X. .......X. ..X....X. ..X....X. ..X....XX ..X....XX ..X....XX ..X....XX
+  .X...OOX. .XO..OOX. .XOX.OOX. .XOX.OOX. .X.X.OOX. .X.XOOOX. .X.XOOOX. .X.XOOOX. .X.XOOOX. .X.XOOOX.
+  .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO.
+  .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO.
+  .OXXXOOO. .OXXXOOO. .OXXXOOO. .OXXXOOO. .OXXXOOO. .OXXXOOO. .OXXXOOO. .OXXXOOO. .OXXXOOO. .OXXXOOOO
+  .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO.
+  .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX
+  .OOOOX.X. .OOOOX.X. .OOOOX.X. .OOOOX.X. .OOOOX.X. .OOOOX.X. .OOOOX.X. .OOOOX.X. .OOOOXXX. .OOOOXXX.
+  ......XXX ......XXX ......XXX ....O.XXX ....O.XXX ....O.XXX ....O.XXX ....OOXXX ....OOXXX ....OOXXX
+n(0, 4) o(0, 5) n(0, 6) o(0, 1) n(0, 0) o(0, 3) n(1, 2) o(0, 4) n(1, 0) o(1, 8)
+     60 [((0, 5), 0.43), ((0, 6), 0.27), ((0, 4), 0.07), ((3, 0), 0.05)]
+     62 [((0, 6), 1.0), ((0, 3), 0.0), ((3, 0), 0.0), ((4, 0), 0.0)]
+     64 [((0, 0), 1.0), ((0, 3), 0.0), ((1, 2), 0.0), ((1, 8), 0.0)]
+     66 [((1, 2), 0.81), ((0, 1), 0.19), ((2, 3), 0.0), ((1, 0), 0.0)]
+     68 [((1, 8), 0.25), ((4, 0), 0.2), ((3, 0), 0.16), ((1, 0), 0.13)]
+  ..X.X..XX ..X.XO.XX ..X.XOXXX .OX.XOXXX X.X.XOXXX X.XO.OXXX X.XO.OXXX X.XOOOXXX X.XOOOXXX X.XOOO...
+  .X.XOOOX. .X.XOOOX. .X.XOOOX. .X.XOOOX. .X.XOOOX. .X.XOOOX. .XXXOOOX. .XXXOOOX. XXXXOOOX. XXXXOOO.O
+  .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO. .XX.XXOO.
+  .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO. .OOX.XXO.
+  .OXXXOOOO .OXXXOOOO .OXXXOOOO .OXXXOOOO .OXXXOOOO .OXXXOOOO .OXXXOOOO .OXXXOOOO .OXXXOOOO .OXXXOOOO
+  .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO. .OX.XXOO.
+  .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX .OOXXXXOX
+  .OOOOXXX. .OOOOXXX. .OOOOXXX. .OOOOXXX. .OOOOXXX. .OOOOXXX. .OOOOXXX. .OOOOXXX. .OOOOXXX. .OOOOXXX.
+  ....OOXXX ....OOXXX ....OOXXX ....OOXXX ....OOXXX ....OOXXX ....OOXXX ....OOXXX ....OOXXX ....OOXXX
+
+```

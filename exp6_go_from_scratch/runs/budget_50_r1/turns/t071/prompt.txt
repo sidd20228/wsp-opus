@@ -1,0 +1,17 @@
+OUTPUT of Python run 55 of at most 120:
+```
+Counter({('two passes', 1): 107, ('two passes', -1): 10, ('move limit', 1): 6, ('repetition', 1): 3, ('repetition', -1): 2})
+10 black two passes margin -10.5 len 90 cap 5 lost 14
+17 black two passes margin -19.5 len 104 cap 6 lost 30
+36 black two passes margin -0.5 len 78 cap 3 lost 0
+37 black two passes margin -9.5 len 103 cap 12 lost 19
+39 black two passes margin -1.5 len 88 cap 6 lost 6
+52 black two passes margin -13.5 len 106 cap 16 lost 20
+54 black two passes margin -1.5 len 94 cap 12 lost 14
+72 white two passes margin -7.5 len 93 cap 4 lost 16
+85 white repetition margin 16.5 len 88 cap 11 lost 13 cycle [('n', (6, 0), 0.5), ('o', (8, 0), ''), ('n', (7, 0), 1.0)]
+92 white two passes margin -3.5 len 97 cap 6 lost 28
+99 white repetition margin 30.5 len 116 cap 49 lost 24 cycle [('n', (8, 1), 1.0), ('o', (3, 0), ''), ('n', 'P', 1.0), ('o', (8, 0), ''), ('n', (4, 0), 1.0)]
+115 white two passes margin -11.5 len 123 cap 13 lost 109
+
+```

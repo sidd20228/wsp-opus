@@ -1,0 +1,21 @@
+OUTPUT of Python run 48 of at most 120:
+```
+('AtO', 1, True) 44
+('AtO', 2, False) 44
+('AtO', 2, True) 25
+('AtO', 3, False) 280
+('AtO', 3, True) 12
+('L2M', 1, True) 31
+('L2M', 2, False) 19
+('L2M', 2, True) 37
+('L2M', 3, False) 270
+('L2M', 3, True) 53
+('L2O', 1, True) 44
+('L2O', 2, False) 16
+('L2O', 2, True) 53
+('L2O', 3, False) 274
+('L2O', 3, True) 18
+[((3, 4), 8.0), ((3, 5), 8.0), ((4, 3), 8.0), ((4, 4), 8.0), ((4, 5), 8.0), ((4, 6), 8.0), ((5, 4), 8.0), ((5, 5), 8.0)]
+activation max per layer [4.0, 6.0, 16.0, 42.0, 526.0, 7890.0]
+
+```

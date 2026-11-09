@@ -32,9 +32,15 @@ EXPS = {
 }
 
 
+VM = [("<vm-user>@<vm-host>", "<vm-user>@<vm-host>"), ("<vm-host>", "<vm-host>"),
+      ("<vm-home>", "<vm-home>"), ("<vm-user>", "<vm-user>")]   # the H100 VM's address stays private
+
+
 def scrub(text):
     text = text.replace(ROOT, "<repo>")
     text = text.replace(HOME, "<home>")
+    for a, b in VM:
+        text = text.replace(a, b)
     return text
 
 

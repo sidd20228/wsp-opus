@@ -16,7 +16,7 @@ sys.path.insert(0, HERE)
 from vendor import mathqa as Q  # noqa: E402
 import common as C  # noqa: E402
 
-BENCH = "/data/bench"
+BENCH = C.BENCH_DIR
 SAMPLING = {"think35": C.SAMPLING_THINK35,
             # the model card's non-thinking setting (the plan's context row)
             "nothink35": {"temperature": 0.7, "top_p": 0.8, "top_k": 20, "presence_penalty": 1.5, "max_tokens": 8192,
@@ -70,7 +70,7 @@ def load_set(name):
     return [json.loads(line) for line in open(os.path.join(BENCH, f"{name}.jsonl"))]
 
 
-def run(ckpt, out, sets, protocol="think35", shard=None):
+def run(ckpt, out, sets, protocol="think35", shard=None, llm=None):
     sampling = SAMPLING[protocol]
     thinking = protocol in ("think", "think35")
     os.makedirs(out, exist_ok=True)
@@ -85,9 +85,9 @@ def run(ckpt, out, sets, protocol="think35", shard=None):
     import vllm
     from transformers import AutoTokenizer
     tok = AutoTokenizer.from_pretrained(ckpt)
-    mem = float(os.environ.get("EVAL_GPU_MEM", 0.85))
-    llm = LLM(model=ckpt, dtype="bfloat16", gpu_memory_utilization=mem,
-              max_model_len=sampling["max_tokens"] + 2048, seed=0)
+    if llm is None:       # the VM runner passes one engine for all shards of a checkpoint
+        llm = LLM(model=ckpt, dtype="bfloat16", gpu_memory_utilization=C.GPU_MEM,
+                  max_model_len=sampling["max_tokens"] + 2048, seed=0)
     res = json.load(open(sp_path)) if os.path.exists(sp_path) else {}
     if res and res.get("_job") != job:
         os.replace(sp_path, sp_path + f".stale_{int(time.time())}")

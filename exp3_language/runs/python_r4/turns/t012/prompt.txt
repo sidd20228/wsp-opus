@@ -1,0 +1,16 @@
+OUTPUT of run 11 of at most 100:
+```
+head 4 OV sv [13.88  9.65  2.51  0.97  0.59  0.55  0.48  0.43]
+   vs head 1 QK q-side 0.580 k-side 0.614, V 0.025 (random 0.010)
+   vs head 5 QK q-side 0.266 k-side 0.291, V 0.034 (random 0.010)
+   vs head 2 QK q-side 0.684 k-side 0.518, V 0.071 (random 0.010)
+   vs head 3 QK q-side 0.629 k-side 0.503, V 0.200 (random 0.010)
+head 0 OV sv [3.43 2.47 0.53 0.4  0.35 0.25 0.2  0.2 ]
+   vs head 1 QK q-side 0.490 k-side 0.527, V 0.032 (random 0.010)
+   vs head 5 QK q-side 0.222 k-side 0.235, V 0.037 (random 0.010)
+   vs head 2 QK q-side 0.627 k-side 0.494, V 0.098 (random 0.010)
+   vs head 3 QK q-side 0.571 k-side 0.338, V 0.218 (random 0.010)
+read overlap H4 vs H0 [0.97 0.94 0.69 0.33]
+write overlap H4 vs H0 [0.99 0.95 0.7  0.18]
+
+```

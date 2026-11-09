@@ -1,0 +1,134 @@
+[
+ {
+  "round": "attention_tool",
+  "release": "pair_02df1c",
+  "pair": 100,
+  "truth": "B",
+  "answer": "B",
+  "correct": true,
+  "p_A": 0.04,
+  "p_correct": 0.96,
+  "readable": true,
+  "runs": 20,
+  "nudges": 0,
+  "tool_calls": 3,
+  "components": [
+   [
+    10,
+    "attention",
+    2
+   ],
+   [
+    12,
+    "attention",
+    2
+   ],
+   [
+    12,
+    "attention",
+    1
+   ],
+   [
+    11,
+    "attention",
+    2
+   ],
+   [
+    11,
+    "attention",
+    1
+   ],
+   [
+    5,
+    "attention",
+    3
+   ],
+   [
+    10,
+    "attention",
+    0
+   ],
+   [
+    11,
+    "mlp",
+    null
+   ],
+   [
+    9,
+    "attention",
+    2
+   ],
+   [
+    0,
+    "attention",
+    2
+   ]
+  ]
+ },
+ {
+  "round": "attention_tool",
+  "release": "pair_fee168",
+  "pair": 101,
+  "truth": "B",
+  "answer": "B",
+  "correct": true,
+  "p_A": 0.03,
+  "p_correct": 0.97,
+  "readable": true,
+  "runs": 18,
+  "nudges": 0,
+  "tool_calls": 2,
+  "components": [
+   [
+    5,
+    "attention",
+    3
+   ],
+   [
+    11,
+    "attention",
+    2
+   ],
+   [
+    10,
+    "attention",
+    2
+   ],
+   [
+    12,
+    "attention",
+    1
+   ],
+   [
+    5,
+    "attention",
+    1
+   ],
+   [
+    12,
+    "attention",
+    3
+   ],
+   [
+    4,
+    "attention",
+    3
+   ],
+   [
+    13,
+    "attention",
+    3
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ],
+   [
+    6,
+    "attention",
+    0
+   ]
+  ]
+ }
+]

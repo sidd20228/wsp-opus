@@ -60,7 +60,42 @@ class Conversation:
         self.save()
         return c[key]
 
+    def _unhandled_reply(self):
+        """The last completed turn's reply if the harness crashed before acting on it (the pending message is still
+        the one that turn already sent), else None."""
+        k = self.state["turns"]
+        if k < 1 or self.state["done"]:
+            return None
+        d = os.path.join(self.folder, "turns", f"t{k:03d}")
+        try:
+            sent = open(os.path.join(d, "prompt.txt")).read()
+            reply = open(os.path.join(d, "answer.md")).read()
+        except OSError:
+            return None
+        return reply if sent == self.state["next"] else None
+
+    def _repair_counters(self):
+        """Counters bumped by a harness step that then crashed: reset them from the logged tool calls."""
+        p = os.path.join(self.folder, "tool_calls.jsonl")
+        recs = [json.loads(l) for l in open(p)] if os.path.exists(p) else []
+        c = self.state["counters"]
+        for key, field in (("runs", "run"), ("tool_calls", "call")):
+            if key in c:
+                c[key] = max([r[field] for r in recs if isinstance(r.get(field), int)] or [0])
+        self.save()
+
     def run(self, handle):
+        text = self._unhandled_reply()
+        if text is not None:   # act on the saved reply instead of sending the old message again
+            self._repair_counters()
+            self.log(f"turn {self.state['turns']}: re-handling the saved reply after a harness crash")
+            nxt = handle(text, self)
+            if nxt is None:
+                open(os.path.join(self.folder, "final_answer.md"), "w").write(text)
+                self.state["done"], self.state["next"] = True, None
+            else:
+                self.state["next"] = nxt
+            self.save()
         while not self.state["done"] and self.state["turns"] < self.max_turns:
             msg = self.state["next"]
             k = self.state["turns"] + 1

@@ -1,0 +1,168 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "dcbf9122-5535-4ca4-b2eb-097016832263",
+ "cwd": "<home>/.wsp/c/dcbf9122",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--session-id",
+  "dcbf9122-5535-4ca4-b2eb-097016832263"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 1327.2,
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 127739,
+  "cache_read_input_tokens": 5229,
+  "output_tokens": 128452,
+  "output_tokens_details": {
+   "thinking_tokens": 125355
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 127739,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 452,
+    "cache_read_input_tokens": 2771,
+    "cache_creation_input_tokens": 127426,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 127426
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 6,
+   "outputTokens": 128452,
+   "cacheReadInputTokens": 5229,
+   "cacheCreationInputTokens": 127739,
+   "webSearchRequests": 0,
+   "costUSD": 3.5920218000000004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 125355,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 127739,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 3.5920218000000004,
+ "num_turns": 2,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text",
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 1327.2,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "```python\nimport os, numpy as np\nprint(SHAPES); print(NAMES); print(saved())\nprint(inp(0,0,0), inp(8,8,2), mv(8,8), PASS)\nprint(os.listdir('/work'))\n# search small modular ids for quadratic test: id=(r+a*k)%m distinct from center within manhattan radius R\ndef ok(a,m,R=5):\n    for dr in range(-8,9):\n",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.51,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.19,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "8fede399-ad2a-4243-97eb-70e98ae0fba6",
+     "session_id": "dcbf9122-5535-4ca4-b2eb-097016832263"
+    },
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.74,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.22,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "b0d58872-cd0b-4d60-8fdd-6c34ee2884a4",
+     "session_id": "dcbf9122-5535-4ca4-b2eb-097016832263"
+    }
+   ]
+  }
+ ]
+}

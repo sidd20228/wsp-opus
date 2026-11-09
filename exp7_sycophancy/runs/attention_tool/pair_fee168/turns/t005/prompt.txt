@@ -1,0 +1,27 @@
+OUTPUT of run 4 of at most 20:
+```
+['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+L17H3 copyA=-131.2453 copyB=-142.6870 A-B=+11.44160
+L17H1 copyA=1313.6568 copyB=1309.1906 A-B=+4.46621
+L16H2 copyA=287.8395 copyB=284.4794 A-B=+3.36011
+L16H0 copyA=-105.3119 copyB=-108.1003 A-B=+2.78847
+L17H0 copyA=-33.1287 copyB=-35.9126 A-B=+2.78392
+L16H3 copyA=-23.7530 copyB=-21.1130 A-B=-2.64007
+L15H1 copyA=-967.7392 copyB=-970.2244 A-B=+2.48522
+L17H2 copyA=42.3904 copyB=39.9172 A-B=+2.47320
+L13H3 copyA=22.6508 copyB=24.7814 A-B=-2.13054
+L13H0 copyA=19.3750 copyB=17.5232 A-B=+1.85173
+L14H3 copyA=0.8260 copyB=-0.7860 A-B=+1.61200
+L15H0 copyA=357.4672 copyB=356.0567 A-B=+1.41048
+L12H0 copyA=-25.6031 copyB=-24.3112 A-B=-1.29193
+L15H2 copyA=960.0830 copyB=961.2780 A-B=-1.19496
+L12H1 copyA=123.7293 copyB=124.7955 A-B=-1.06622
+L14H2 copyA=46.7372 copyB=47.6894 A-B=-0.95212
+L13H2 copyA=307.5038 copyB=306.5562 A-B=+0.94762
+L14H0 copyA=-133.7924 copyB=-132.8631 A-B=-0.92927
+L 3H3 copyA=-19.7995 copyB=-18.9497 A-B=-0.84983
+L12H3 copyA=118.7128 copyB=117.9273 A-B=+0.78551
+sum A-B over heads: 26.25619948015627
+baseline copy strength (A) top heads: [(np.float64(287.839), 16, 2), (np.float64(307.504), 13, 2), (np.float64(357.467), 15, 0), (np.float64(367.73), 14, 1), (np.float64(521.849), 15, 3), (np.float64(795.847), 11, 1), (np.float64(960.083), 15, 2), (np.float64(1313.657), 17, 1)]
+
+```

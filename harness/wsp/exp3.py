@@ -15,7 +15,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from wsp import conversation, sandbox  # noqa: E402
+from wsp import conversation, remote  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOGS = os.path.join(ROOT, "lm_understand-logs", "exp3_language")
@@ -30,8 +30,9 @@ def run(language, rep):
     first = open(os.path.join(LOGS, "runs", "python_r0", "message.txt")).read()
     folder = os.path.join(OUT, f"{language}_r{rep}")
     conv = conversation.Conversation(folder, "xhigh", first)
-    image = sandbox.base_image().add_local_file(
-        os.path.join(LOGS, "networks", language, "blocks.npz"), "/weights/blocks.npz")
+    # the H100 VM (wsp/remote.py): this network's blocks.npz only, read-only at /weights/blocks.npz
+    wfile = f"{remote.BASE}/data/exp3/{language}/blocks.npz"
+    remote.rsync_to(os.path.join(LOGS, "networks", language, "blocks.npz"), wfile)
 
     def handle(text, c):
         code = conversation.block(text, "python")
@@ -41,7 +42,11 @@ def run(language, rep):
         if k > MAX_RUNS:
             return (f"You have used all {MAX_RUNS} runs. Reply WITHOUT a code block, with your final answer in the "
                     "order given in the question.")
-        out, secs = sandbox.run_fresh(code, image, PRELUDE, timeout=TIMEOUT, max_out=MAX_OUT)
+        work = f"{remote.BASE}/work/exp3/{language}_r{rep}/run{k}"      # a fresh, empty /work per run
+        out, secs = remote.sandbox(["-I", "-c", PRELUDE + "\n" + code], "sandbox_full", work,
+                                   ro_binds=[(wfile, "/weights/blocks.npz")], timeout=TIMEOUT, max_out=MAX_OUT,
+                                   mem_gb=32)
+        remote.sh(f"rm -rf {work}", check=False)
         c.tool_call({"run": k, "s": secs, "code": code, "out": out})
         c.log(f"run {k} ({len(code):,} chars of code, {len(out):,} chars out, {secs} s)")
         return f"OUTPUT of run {k} of at most {MAX_RUNS}:\n```\n{out}\n```"

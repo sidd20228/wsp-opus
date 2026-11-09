@@ -8,9 +8,9 @@ with **Claude Opus 5.5** (`claude-opus-5-5`) in place of GPT-6 Astra.
 **The write-up:** [`docs/index.html`](docs/index.html). GitHub Pages serves it from `docs/` (see
 [Publishing the page](#publishing-the-page)).
 
-> **Status: interim snapshot (9 November 2026).** Experiments 1, 2, 4 and 5 have their primary runs scored, and their
-> replicates are still running. Experiments 3, 6 and 7 are in progress, and Experiment 8's Opus runs have not started.
-> Runs in progress are included as they stood at the snapshot.
+> **Status: interim snapshot (updated 9 November 2026, 15:00 IST).** Experiments 1, 2, 4 and 5 have their primary runs
+> scored, and their replicates are still running (23 of 94 runs done). Experiments 3, 6 and 7 are in progress, and
+> Experiment 8's Opus runs have not started. Runs in progress are included as they stood at the snapshot.
 
 For each experiment you get:
 
@@ -51,12 +51,13 @@ Each conversation also runs in its own empty folder with a minimal environment
 ([`harness/wsp/cc.py`](harness/wsp/cc.py)).
 
 **No tools of its own.** `--tools ""` gives the model no tools. Every turn's event stream is audited, and the result
-is the `audit.tool_free` field of the turn's `run.json`. All 310 turns completed by the snapshot are tool-free.
+is the `audit.tool_free` field of the turn's `run.json`. All 452 turns completed by the snapshot are tool-free.
 
 **Where code was allowed** (Experiments 3, 6, 7, 8):
 - The model wrote one fenced block per turn.
-- We ran it in a [Modal](https://modal.com) sandbox with no network, in the original's limits and output format
-  ([`harness/wsp/sandbox.py`](harness/wsp/sandbox.py)).
+- We ran it in a sandbox with no network, in the original's limits and output format. Until 9 November that was a
+  [Modal](https://modal.com) sandbox ([`harness/wsp/sandbox.py`](harness/wsp/sandbox.py)). After that it was
+  bubblewrap on a dedicated H100 VM, the sandbox the original harness used ([`harness/wsp/remote.py`](harness/wsp/remote.py)).
 - We sent the printed output back as the next message. Each run's code and output are in `tool_calls.jsonl`.
 
 **Retries and usage limits.** A failed call (for example, a subscription usage limit) is retried in the same

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "2c2516e1-0d8e-4218-950b-dbf5215504ff",
+ "cwd": "<home>/.wsp/c/2c2516e1",
+ "turn": 3,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "2c2516e1-0d8e-4218-950b-dbf5215504ff"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 32.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5136,
+  "cache_read_input_tokens": 12282,
+  "output_tokens": 2972,
+  "output_tokens_details": {
+   "thinking_tokens": 1782
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5136,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2972,
+    "cache_read_input_tokens": 12282,
+    "cache_creation_input_tokens": 5136,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5136
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 10,
+   "outputTokens": 6024,
+   "thinkingTokens": 3603,
+   "cacheReadInputTokens": 20523,
+   "cacheCreationInputTokens": 13454,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 13454,
+   "webSearchRequests": 0,
+   "costUSD": 0.23225659999999998,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.23225659999999998,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 32.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The difference is not just noise. Every matrix in every layer has a clear low-rank component, with s1 at 5\u20137\u00d7 the noise edge and the top 3 directions holding 20\u201339% of the difference energy. The largest are attention q_proj in layers 9\u201312 and the MLPs in layers 7\u201315. The structure is spread through ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.62,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.21,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "2efb10fe-0422-4a1a-a256-2ab528c00604",
+     "session_id": "2c2516e1-0d8e-4218-950b-dbf5215504ff"
+    }
+   ]
+  }
+ ]
+}

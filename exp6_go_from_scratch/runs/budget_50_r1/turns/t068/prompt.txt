@@ -1,0 +1,74 @@
+OUTPUT of Python run 53 of at most 120:
+```
+5 margin -3.5 score(B-W-komi) -3.5 neutral regions [[(8, 8)]] last [('n', 78), ('o', 77), ('n', 71), ('o', 78), ('n', 81), ('o', 81)]
+     X.XX.X.X.
+     XXX.XXXXX
+     XOXXOXXOX
+     OOXXOOOOX
+     OOXXXXXOO
+     OOX.X.XO.
+     OOOXXXXOO
+     .OOOOOOOX
+     O.O.OOOO.
+8 margin -3.5 score(B-W-komi) -3.5 neutral regions [[(5, 8)]] last [('n', 74), ('o', 73), ('n', 81), ('o', 80), ('n', 81), ('o', 81)]
+     .X.XXX.XX
+     XXX.X.XXX
+     OOXXXXXOX
+     OOOX.XXOO
+     OOXXXOOOO
+     OOX.XOXO.
+     .OOXXXXOX
+     OOOOOXOOO
+     OO.OOXOOO
+17 margin -5.5 score(B-W-komi) -5.5 neutral regions [[(7, 0)]] last [('n', 81), ('o', 45), ('n', 81), ('o', 75), ('n', 81), ('o', 81)]
+     XXX.XX.X.
+     OX.XX.XXX
+     OOXXOXXOX
+     OOXXOOOOX
+     OOXXXOXOO
+     OOX.XXXO.
+     XOOXXXXOO
+     .OOOOXOO.
+     O.OOOXOOO
+23 margin -6.5 score(B-W-komi) -6.5 neutral regions [] last [('n', 81), ('o', 73), ('n', 81), ('o', 74), ('n', 81), ('o', 81)]
+     X.XX.X.XX
+     XXX.XXXXX
+     OXXXOXXOX
+     OOXXOOOOO
+     OOXXXXXOO
+     OOX.X.XO.
+     .OOXXXXOO
+     OOOOXOOOO
+     OOOOOOOO.
+28 margin -0.5 score(B-W-komi) -0.5 neutral regions [] last [('n', 81), ('o', 78), ('n', 81), ('o', 35), ('n', 81), ('o', 81)]
+     .XXXXX.XX
+     X.X.X.XXX
+     XX.XXXXOO
+     X.XX.XOOO
+     OXXXXOOOO
+     OOX.XXXO.
+     OOOXXXXOO
+     .OOOOOOOO
+     O.OOO.OO.
+43 margin -6.5 score(B-W-komi) -6.5 neutral regions [] last [('n', 81), ('o', 53), ('n', 81), ('o', 44), ('n', 81), ('o', 81)]
+     .X.XXXX.X
+     XXX.X.XX.
+     OXXX.XXXX
+     OOXXXXOOO
+     OOOXX.XOO
+     OOOOXXXOO
+     OOOXXXXOO
+     .OOOOOOO.
+     O.OOOOOOO
+54 margin -4.5 score(B-W-komi) -4.5 neutral regions [] last [('n', 4), ('o', 72), ('n', 81), ('o', 74), ('n', 81), ('o', 81)]
+     X.XXXX.XX
+     XXX.X.XXX
+     XOXX.XXOX
+     OOOXXXOOX
+     OOXXXOOOX
+     OOX.XXXOO
+     OOOXXXXOO
+     .OOOOOOOO
+     O.OOO.O.O
+
+```

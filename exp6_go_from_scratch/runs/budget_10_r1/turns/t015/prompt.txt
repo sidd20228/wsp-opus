@@ -1,0 +1,39 @@
+OUTPUT of Python run 12 of at most 120:
+```
+dict_keys(['game', 'opponent', 'net_color', 'result', 'margin', 'end', 'stones_captured_by_net', 'stones_lost_by_net', 'moves'])
+[{'ply': 0, 'by': 'net', 'move': 69, 'top5': [[40, 0.022], [31, 0.022], [39, 0.022], [41, 0.022], [49, 0.022]]}, {'ply': 1, 'by': 'opponent', 'move': 15}, {'ply': 2, 'by': 'net', 'move': 10, 'top5': [[39, 0.0394], [29, 0.0394], [38, 0.0394], [47, 0.0394], [56, 0.038]]}]
+0 black -1.5 two passes 62
+.XXOOOOX.
+XXXXXXO.X
+OO..XO.X.
+OOOOX.X.X
+O.XX...X.
+.XXOOX.XO
+O.OO.O.OO
+.XXOX.XO.
+X.XXOO..O
+net passes at plies [58, 60]
+8 black -1.5 two passes 65
+.OX.OOO.X
+OX.XXX.X.
+OX.XOOXX.
+.XXOO.OXX
+X.XX.O.X.
+.X.XOOO..
+O.X.OOXX.
+OXXOO.XX.
+OOO.OOX..
+net passes at plies [42, 58, 64]
+16 white -7.5 two passes 101
+..XX.XO.O
+X.XXXO.OO
+XXXXXOO.O
+.XXXXOOXX
+OXXXOOOO.
+OXXXOO.OX
+OX.XOXOO.
+X..XXXOO.
+XXX..XOO.
+net passes at plies [53, 67, 75, 79, 81, 89, 91, 95, 97, 99]
+
+```

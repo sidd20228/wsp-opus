@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "7058487b-e813-4267-8caf-88948278edbe",
+ "cwd": "<home>/.wsp/c/7058487b",
+ "turn": 55,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7058487b-e813-4267-8caf-88948278edbe"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 6.2,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 450,
+  "cache_read_input_tokens": 338777,
+  "output_tokens": 484,
+  "output_tokens_details": {
+   "thinking_tokens": 80
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 450,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 484,
+    "cache_read_input_tokens": 338777,
+    "cache_creation_input_tokens": 450,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 450
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 218,
+   "outputTokens": 260277,
+   "thinkingTokens": 211070,
+   "cacheReadInputTokens": 11839280,
+   "cacheCreationInputTokens": 339227,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 339227,
+   "webSearchRequests": 0,
+   "costUSD": 10.288083999999994,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 10.288083999999994,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 6.2,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "v9 (bump positional + false-eye fix): 87.5% vs strong, margin +56. That's the best so far. Let me analyze its 16 losses.\n\n```python\nimport json, numpy as np\nfrom collections import Counter\nG=json.load(open('/work/pass_11/games.json')); B=np.load('/work/pass_11/boards.npy')\nprint(Counter((g['end'],g[",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.88,
+        "resetsAt": 1794182400,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.23,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "d42356a9-c2c5-4ab9-bb4d-0f4431c67005",
+     "session_id": "7058487b-e813-4267-8caf-88948278edbe"
+    }
+   ]
+  }
+ ]
+}

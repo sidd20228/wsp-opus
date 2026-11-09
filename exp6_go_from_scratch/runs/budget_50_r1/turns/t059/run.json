@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "7058487b-e813-4267-8caf-88948278edbe",
+ "cwd": "<home>/.wsp/c/7058487b",
+ "turn": 59,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7058487b-e813-4267-8caf-88948278edbe"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 28.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5282,
+  "cache_read_input_tokens": 352868,
+  "output_tokens": 2868,
+  "output_tokens_details": {
+   "thinking_tokens": 261
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5282,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2868,
+    "cache_read_input_tokens": 352868,
+    "cache_creation_input_tokens": 5282,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5282
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 234,
+   "outputTokens": 274069,
+   "thinkingTokens": 218166,
+   "cacheReadInputTokens": 13218722,
+   "cacheCreationInputTokens": 358150,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 358150,
+   "webSearchRequests": 0,
+   "costUSD": 10.991260399999993,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 10.991260399999993,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 28.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Structural change \u2014 let me verify features on the test positions before playing.\n\n```positions\n{\"positions\":[{\"board\":[\".........\",\".........\",\".........\",\"....X....\",\"...XO....\",\"....X....\",\".........\",\".........\",\".........\"],\"to_move\":\"black\"},{\"board\":[\".OX......\",\"OOX......\",\"XX.......\",\"......",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "utilization": 0.93,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.93,
+        "resetsAt": 1794182400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.24,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "1c582e90-b517-4558-bad5-d2e1f823339e",
+     "session_id": "7058487b-e813-4267-8caf-88948278edbe"
+    }
+   ]
+  }
+ ]
+}

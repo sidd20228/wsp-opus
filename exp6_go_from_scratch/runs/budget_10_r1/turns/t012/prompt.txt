@@ -1,0 +1,9 @@
+OUTPUT of Python run 10 of at most 120:
+```
+
+[stderr]
+Traceback (most recent call last):
+  File "<string>", line 67, in <module>
+NameError: name 'EDGES' is not defined
+
+```

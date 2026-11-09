@@ -1,0 +1,28 @@
+OUTPUT of run 2 of at most 100:
+```
+0 0 QKfro 0.91 top 0.71 pr 6.0 | OVfro 4.32 top 3.43 pr 5.2 evratio 0.61 | qb 0.34 kb 0.22
+0 1 QKfro 7.02 top 4.81 pr 12.5 | OVfro 3.49 top 1.00 pr 31.6 evratio 0.04 | qb 0.67 kb 0.83
+0 2 QKfro 1.40 top 1.06 pr 11.7 | OVfro 2.03 top 1.06 pr 14.8 evratio 0.01 | qb 0.31 kb 0.61
+0 3 QKfro 1.92 top 1.32 pr 8.2 | OVfro 1.62 top 1.03 pr 18.8 evratio 0.16 | qb 0.65 kb 0.96
+0 4 QKfro 0.07 top 0.04 pr 39.3 | OVfro 17.16 top 13.88 pr 3.6 evratio 0.75 | qb 0.06 kb 0.09
+0 5 QKfro 7.77 top 3.28 pr 22.9 | OVfro 3.71 top 1.06 pr 32.4 evratio -0.47 | qb 0.64 kb 0.66
+1 0 QKfro 5.16 top 2.83 pr 21.2 | OVfro 13.44 top 4.95 pr 25.4 evratio -0.83 | qb 3.28 kb 5.96
+1 1 QKfro 12.69 top 9.17 pr 13.3 | OVfro 9.60 top 2.93 pr 32.8 evratio -0.77 | qb 5.13 kb 11.82
+1 2 QKfro 9.91 top 6.47 pr 13.5 | OVfro 11.50 top 3.33 pr 30.8 evratio -0.81 | qb 4.40 kb 9.97
+1 3 QKfro 10.49 top 7.31 pr 12.7 | OVfro 10.04 top 3.42 pr 28.2 evratio -0.72 | qb 4.81 kb 11.43
+1 4 QKfro 10.02 top 6.82 pr 13.2 | OVfro 9.56 top 3.07 pr 28.3 evratio -0.72 | qb 4.71 kb 10.49
+1 5 QKfro 11.70 top 8.08 pr 14.0 | OVfro 9.83 top 2.82 pr 33.9 evratio -0.83 | qb 4.58 kb 10.92
+2 0 QKfro 16.37 top 4.15 pr 51.4 | OVfro 18.70 top 4.08 pr 54.5 evratio -0.77 | qb 2.89 kb 5.49
+2 1 QKfro 15.58 top 3.68 pr 52.6 | OVfro 21.45 top 6.41 pr 50.7 evratio -0.81 | qb 2.80 kb 2.26
+2 2 QKfro 22.44 top 5.67 pr 44.8 | OVfro 16.79 top 3.49 pr 54.8 evratio -0.71 | qb 3.38 kb 7.73
+2 3 QKfro 15.81 top 4.57 pr 52.2 | OVfro 20.62 top 4.63 pr 54.6 evratio -0.78 | qb 2.55 kb 7.12
+2 4 QKfro 17.62 top 6.26 pr 48.7 | OVfro 18.42 top 4.00 pr 51.8 evratio -0.85 | qb 3.30 kb 7.48
+2 5 QKfro 13.24 top 3.36 pr 54.1 | OVfro 23.77 top 6.35 pr 52.8 evratio -0.69 | qb 2.45 kb 4.13
+3 0 QKfro 16.62 top 3.24 pr 58.8 | OVfro 24.50 top 5.52 pr 56.5 evratio -0.76 | qb 1.56 kb 1.76
+3 1 QKfro 13.56 top 2.58 pr 59.2 | OVfro 25.73 top 7.22 pr 50.7 evratio -0.81 | qb 1.65 kb 1.74
+3 2 QKfro 16.49 top 3.47 pr 59.0 | OVfro 26.87 top 9.01 pr 53.1 evratio -0.76 | qb 1.56 kb 1.79
+3 3 QKfro 8.43 top 2.10 pr 57.3 | OVfro 37.94 top 14.68 pr 43.8 evratio -0.68 | qb 1.53 kb 1.46
+3 4 QKfro 13.88 top 3.21 pr 57.6 | OVfro 28.45 top 9.18 pr 51.0 evratio -0.59 | qb 1.53 kb 1.59
+3 5 QKfro 16.94 top 3.23 pr 59.2 | OVfro 23.69 top 9.98 pr 38.6 evratio -0.92 | qb 1.81 kb 2.08
+
+```

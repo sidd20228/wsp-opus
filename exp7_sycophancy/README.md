@@ -9,5 +9,12 @@ included (17 GB).
 attention-tool round. Each uses the round's `prompt.txt` and `sandbox/prelude.py` unchanged, with one conversation per
 pair, at effort `xhigh` (`harness/wsp/exp7_run.py`).
 
-**At the snapshot:** in progress. `runs/<round>/<release>/` holds each conversation. Its `prediction.json` is written
-when the conversation ends.
+**At the snapshot** (`eval/scores.json`):
+
+| Round | Pair | Truth | Opus answer | P(correct) | Runs (tool calls) |
+|---|---|---|---|---|---|
+| attention_tool | 100 (`pair_02df1c`) | B | B | 0.96 | 20 (3) |
+| attention_tool | 101 (`pair_fee168`) | B | B | 0.97 | 18 (2) |
+
+The other 13 conversations are in progress. `runs/<round>/<release>/` holds each conversation. Its `prediction.json`
+is written when the conversation ends.

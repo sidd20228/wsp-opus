@@ -7,6 +7,12 @@
  "model": "Qwen/Qwen3.5-0.8B@2fc06364715b967f1860aea9cf38778875588b17 (text-only export, 320 tensors)",
  "p50c_edit": "lm_understand-logs/exp8_math/runs/p50c/edit rebuilt with code/apply_edit.py, both tensor hashes OK",
  "tolerance_points": 4.0,
+ "notes": [
+  "gpu_hours counts the evaluation jobs' wall time only (phase-0 jobs that finished). Not counted: development probes and forward-pass tests (~1.5 H100-h), two forward-pass test containers that hung in vLLM and ran into the 3 h timeout (~6.5 H100-h; fixed: single-use containers and a container-local vLLM compile cache), p50c GPQA jobs killed when the workspace hit its Modal spend limit (~0.7 H100-h).",
+  "p50c GPQA Diamond: not finished; the Modal workspace exceeded its spend limit on 2026-11-09 ~01:35 IST. Run `modal deploy wsp/exp8/app.py` and `python wsp/exp8/phase0.py gpqa` once the limit is raised.",
+  "GPQA Diamond option order is a deterministic shuffle by Record ID (the original's shuffle is not released).",
+  "p50c MATH-500 is 3.0 points above the released number (paired per-problem z = 3.1), with 2 points fewer answers cut at the token limit (31.1 vs 33.1); all other numbers are within 1.2 points (|z| < 1)."
+ ],
  "results": {
   "unedited/gsm8k": {
    "acc": 13.8,
@@ -42,6 +48,24 @@
     "diff_points": -0.83,
     "se_points": 1.38,
     "z": -0.6
+   }
+  },
+  "unedited/gpqa": {
+   "acc": 22.7,
+   "acc_original": 22.7,
+   "acc_diff": 0.0,
+   "cut_share": 64.1,
+   "cut_share_original": 59.5,
+   "mean_tokens": 24538,
+   "mean_tokens_original": 23193,
+   "problems": 198,
+   "complete": true,
+   "within_tolerance": true,
+   "paired_vs_released": {
+    "problems": 198,
+    "diff_points": 0.0,
+    "se_points": 1.96,
+    "z": 0.0
    }
   },
   "unedited/math500": {
@@ -117,6 +141,6 @@
    }
   }
  },
- "gpu_hours": 7.51,
- "updated": "2026-11-08 22:12:05"
+ "gpu_hours": 8.13,
+ "updated": "2026-11-09 01:44:41"
 }

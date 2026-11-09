@@ -102,6 +102,30 @@
   "turns": 41
  },
  {
+  "run": "english_r3",
+  "head_labels": {},
+  "corpus_guess": "english",
+  "order_guess": "as is",
+  "probabilities": {
+   "python": 0.32,
+   "romaji": 0.3,
+   "english": 0.38
+  },
+  "format_failure": true,
+  "language": "english",
+  "corpus_correct": true,
+  "copy_named": [],
+  "copy_true": [
+   "L3H1"
+  ],
+  "copy_exact": false,
+  "copy_precision": null,
+  "copy_recall": 0.0,
+  "labels_given": 0,
+  "runs": 0,
+  "turns": 1
+ },
+ {
   "run": "python_r1",
   "head_labels": {
    "L0H0": "previous",
@@ -209,6 +233,62 @@
   "labels_given": 24,
   "runs": 44,
   "turns": 45
+ },
+ {
+  "run": "python_r3",
+  "head_labels": {
+   "L0H0": "broad",
+   "L0H1": "previous",
+   "L0H2": "local",
+   "L0H3": "broad",
+   "L0H4": "broad",
+   "L0H5": "previous",
+   "L1H0": "local",
+   "L1H1": "local",
+   "L1H2": "local",
+   "L1H3": "local",
+   "L1H4": "local",
+   "L1H5": "local",
+   "L2H0": "local",
+   "L2H1": "copy",
+   "L2H2": "previous",
+   "L2H3": "local",
+   "L2H4": "local",
+   "L2H5": "unclear",
+   "L3H0": "copy",
+   "L3H1": "copy",
+   "L3H2": "unclear",
+   "L3H3": "broad",
+   "L3H4": "unclear",
+   "L3H5": "copy"
+  },
+  "corpus_guess": "english",
+  "order_guess": "as is",
+  "probabilities": {
+   "python": 0.37,
+   "romaji": 0.08,
+   "english": 0.55
+  },
+  "format_failure": false,
+  "language": "python",
+  "corpus_correct": false,
+  "copy_named": [
+   "L2H1",
+   "L3H0",
+   "L3H1",
+   "L3H5"
+  ],
+  "copy_true": [
+   "L2H1",
+   "L3H1",
+   "L3H5"
+  ],
+  "copy_exact": false,
+  "copy_precision": 0.75,
+  "copy_recall": 1.0,
+  "labels_given": 24,
+  "runs": 46,
+  "turns": 47
  },
  {
   "run": "romaji_r1",

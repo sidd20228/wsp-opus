@@ -1,0 +1,59 @@
+OUTPUT of Python run 37 of at most 120:
+```
+game 34 black -1.5
+   X.XX.X.XX   X.XX.X.XX   X.XX.X.XX
+   .X.XX.XX.   .X.XX.XXO   .X.XX.XXO
+   XXXX.XXOX   XXXX.XXOO   XXXX.XXOO
+   XOOXXXOOO   XOOXXXOOO   XOOXXXOOO
+   XOXXXXXOO   XOXXXXXOO   XOXXXXXOO
+   OOX.XXOO.   OOX.XXOO.   OOX.XXOOO
+   XOOXXXXOO   .OOXXXXOO   OOOXXXXOO
+   .OOOOOOO.   OOOOOOOO.   OOOOOOOOO
+   X.O.O.O.O   X.OOO.OOO   X.OOOOOOO
+   last moves [('n', 'P', [('P', 1.0), ((0, 0), 0.0)]), ('o', (8, 3), []), ('n', 'P', [('P', 1.0), ((0, 0), 0.0)]), ('o', (6, 0), []), ('n', 'P', [('P', 1.0), ((0, 0), 0.0)]), ('o', (8, 5), []), ('n', 'P', [('P', 1.0), ((0, 0), 0.0)]), ('o', (5, 8), []), ('n', 'P', [('P', 1.0), ((0, 0), 0.0)]), ('o', (7, 8), []), ('n', 'P', [('P', 1.0), ((0, 0), 0.0)]), ('o', 'P', [])]
+game 69 white -0.5
+   OO.O.O.OO   OO.O.O.OO   OO.O.O.OO
+   XOO.O.OOO   .OO.O.OOO   XOO.O.OOO
+   .XXO.OOXX   OXXO.OOXX   .XXO.OOXX
+   XXOOOXXX.   XXOOOXXXX   XXOOOXXXX
+   .XOOOOOXO   XXOOOOOXO   XXOOOOOXX
+   XXXXXOXX.   XXXXXOXX.   XXXXXOXXX
+   .XXOOOOXX   XXXOOOOXX   XXXOOOOXX
+   OXXXOXXX.   .XXXOXXX.   .XXXOXXX.
+   OXXXX.XXO   .XXXXXXXO   .XXXXXXXO
+   last moves [('n', (2, 0), [((2, 0), 1.0), ('P', 0.0)]), ('o', (6, 0), []), ('n', 'P', [('P', 0.99), ((8, 0), 0.01)]), ('o', (1, 0), []), ('n', 'P', [('P', 0.99), ((8, 0), 0.01)]), ('o', (5, 8), []), ('n', (2, 0), [((2, 0), 1.0), ((0, 0), 0.0)]), ('o', (4, 8), []), ('n', 'P', [('P', 0.99), ((8, 0), 0.01)]), ('o', (1, 0), []), ('n', 'P', [('P', 0.99), ((8, 0), 0.01)]), ('o', 'P', [])]
+game 84 white -1.5
+   ..X..X.XO   O.XX.X.XO   .XXXXXXX.
+   XXXXXX.X.   XXXXXXXXO   XXXXXXXX.
+   OXOOXX.X.   OXOOXXXX.   OXOOXXXXX
+   .XO.OXXX.   .XO.OXXXO   .XO.OXXX.
+   OXOO.OXXO   OXOO.OXXO   OXOO.OXXO
+   .XO.OOOX.   XXO.OOOXX   XXO.OOOXX
+   OXXOO.OXO   .XXOO.OXO   .XXOO.OXO
+   XXXO.O.O.   XXXO.O.OO   XXXO.O.OO
+   .XO.O.O.O   .XOOO.O.O   .XOOO.O.O
+   last moves [('n', (3, 8), [((3, 8), 0.99), ((2, 8), 0.01)]), ('o', (5, 0), []), ('n', 'P', [('P', 1.0), ((7, 6), 0.0)]), ('o', (0, 4), []), ('n', 'P', [('P', 1.0), ((7, 6), 0.0)]), ('o', (0, 6), []), ('n', 'P', [('P', 1.0), ((7, 6), 0.0)]), ('o', (2, 8), []), ('n', (4, 8), [((4, 8), 0.96), ('P', 0.04)]), ('o', (0, 1), []), ('n', 'P', [('P', 0.96), ((0, 8), 0.04)]), ('o', 'P', [])]
+game 92 white -1.5
+   .O.O.O.OO   OOOO.O.OO   OOOO.O.OO
+   OXO.O.OO.   OXO.O.OOX   OXO.O.OO.
+   .XOOOOOXO   XXOOOOOX.   XXOOOOOXO
+   OXXO.OXXX   .XXO.OXXX   .XXO.OXXX
+   OOXOO.OXO   O.XOOXXXO   OXXOOXXXO
+   .XXXXOOX.   .XXXXX.X.   XXXXXX.X.
+   .XXOOOOXO   .XX....XO   OXX...XXO
+   OXXOOXXX.   .XX..XXX.   OXX..XXX.
+   OXXOXXXXO   .XX.XXXXO   .XX.XXXXO
+   last moves [('o', (1, 8), []), ('n', (4, 0), [((4, 0), 1.0), ((3, 0), 0.0)]), ('o', (4, 1), []), ('n', (2, 8), [((2, 8), 1.0), ((7, 0), 0.0)]), ('o', (6, 6), []), ('n', (7, 0), [((7, 0), 0.98), ((8, 0), 0.01)]), ('o', (1, 8), []), ('n', (6, 0), [((5, 0), 0.54), ((6, 0), 0.43)]), ('o', (5, 0), []), ('n', (2, 8), [((2, 8), 1.0), ('P', 0.0)]), ('o', 'P', []), ('n', 'P', [('P', 1.0), ((6, 3), 0.0)])]
+game 32 black -6.5
+   X.XX.X.XX   X.XX.X.XX   X.XX.X.XX
+   XXX.X.XX.   XXX.X.XX.   XXX.X.XXO
+   .X.XXXXOX   .X.XXXXOX   .X.XXXXO.
+   X.XX.XXO.   X.XX.XXO.   X.XX.XXOO
+   XXOXXOOOO   XXOXXOOOO   XXOXXOOOO
+   XOOOO.OO.   XOOOOOOO.   XOOOOOOO.
+   OOO..O.O.   OOO..OOOX   OOO..OOOX
+   XOOOO.OO.   .OOOO.OOX   .OOOOOOOX
+   XX.XOX.O.   XOO.OXOOX   XOO.OOOOX
+   last moves [('n', 'P', [('P', 1.0), ((6, 3), 0.0)]), ('o', (8, 1), []), ('n', 'P', [('P', 1.0), ((6, 3), 0.0)]), ('o', (7, 5), []), ('n', 'P', [('P', 1.0), ((6, 3), 0.0)]), ('o', (3, 8), []), ('n', 'P', [('P', 1.0), ((6, 3), 0.0)]), ('o', (8, 5), []), ('n', 'P', [('P', 1.0), ((6, 3), 0.0)]), ('o', (1, 8), []), ('n', 'P', [('P', 1.0), ((6, 3), 0.0)]), ('o', 'P', [])]
+
+```

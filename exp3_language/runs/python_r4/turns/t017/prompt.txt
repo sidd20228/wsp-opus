@@ -1,0 +1,12 @@
+OUTPUT of run 16 of at most 100:
+```
+0 output in B 0.10, input in B 0.06, BOB eigratio 0.17 norm 0.31 / 4.32
+1 output in B 0.03, input in B 0.86, BOB eigratio -0.11 norm 0.58 / 3.49
+2 output in B 0.04, input in B 0.58, BOB eigratio 0.06 norm 0.29 / 2.03
+3 output in B 0.06, input in B 0.25, BOB eigratio 0.16 norm 0.16 / 1.62
+4 output in B 0.13, input in B 0.03, BOB eigratio 0.42 norm 1.09 / 17.16
+5 output in B 0.04, input in B 0.87, BOB eigratio -0.77 norm 0.71 / 3.71
+out overlap H1/H5 [0.41 0.38 0.36 0.32 0.29 0.26 0.25 0.21 0.2  0.19 0.17 0.16 0.15 0.13
+ 0.13 0.12 0.1  0.1  0.06 0.06 0.05 0.04 0.02 0.01]
+
+```

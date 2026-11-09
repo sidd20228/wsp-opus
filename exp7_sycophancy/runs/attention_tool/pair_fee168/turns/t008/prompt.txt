@@ -1,0 +1,11 @@
+OUTPUT of run 7 of at most 20:
+```
+<class 'list'> None
+
+[stderr]
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "your_code", line 3, in <module>
+AttributeError: 'list' object has no attribute 'keys'
+
+```

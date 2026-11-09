@@ -1,0 +1,23 @@
+OUTPUT of Python run 40 of at most 120:
+```
+Counter({('strong', 'two passes', 1): 45, ('random', 'two passes', 1): 32, ('weak', 'two passes', 1): 29, ('strong', 'two passes', -1): 13, ('strong', 'repetition', -1): 4, ('strong', 'move limit', 1): 2, ('weak', 'repetition', -1): 1, ('weak', 'repetition', 1): 1, ('weak', 'move limit', 1): 1})
+33 strong black repetition margin 16.5 len 105 cycle [('n', (3, 0), 1.0), ('o', (8, 4), ''), ('n', 'P', 1.0), ('o', (2, 0), ''), ('n', (8, 3), 1.0)]
+34 strong black repetition margin 6.5 len 105 cycle [('o', (5, 3), ''), ('n', (8, 1), 1.0), ('o', (8, 5), ''), ('n', (5, 2), 1.0), ('o', (8, 0), ''), ('n', (8, 6), 1.0)]
+37 strong black two passes margin -4.5 len 104
+47 strong black two passes margin -1.5 len 110
+48 strong black repetition margin -13.5 len 93 cycle [('n', (0, 0), 1.0), ('o', (1, 8), ''), ('n', 'P', 1.0), ('o', (0, 1), ''), ('n', (2, 8), 1.0)]
+50 strong black two passes margin -6.5 len 96
+52 strong black two passes margin -2.5 len 102
+57 strong black two passes margin -3.5 len 100
+67 strong white two passes margin -0.5 len 107
+69 strong white two passes margin -39.5 len 143
+74 strong white two passes margin -6.5 len 101
+76 strong white two passes margin -7.5 len 101
+81 strong white two passes margin -0.5 len 101
+82 strong white two passes margin -58.5 len 149
+84 strong white repetition margin 14.5 len 104 cycle [('n', (2, 8), 1.0), ('o', (8, 0), ''), ('n', 'P', 1.0), ('o', (1, 8), ''), ('n', (8, 1), 1.0)]
+87 strong white two passes margin -8.5 len 103
+88 strong white two passes margin -11.5 len 115
+102 weak black repetition margin 20.5 len 101 cycle [('n', (7, 0), 1.0), ('o', (2, 0), ''), ('n', 'P', 1.0), ('o', (8, 0), ''), ('n', (3, 0), 1.0)]
+
+```

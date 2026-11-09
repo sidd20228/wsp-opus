@@ -1,0 +1,18 @@
+OUTPUT of run 29 of at most 60:
+```
+L7u186: strongest reader alignments: L11h3k1 |cos| 0.03 (z 4.7), L11h1k1 |cos| 0.02 (z 3.5), L12h3k1 |cos| 0.02 (z 3.2), L16h3q0 |cos| 0.02 (z 2.9)
+L7u256: strongest reader alignments: L11h0q0 |cos| 0.05 (z 6.2), L16h0q1 |cos| 0.03 (z 5.3), L11h1k1 |cos| 0.02 (z 3.5), L11h3q0 |cos| 0.03 (z 3.4)
+L9u647: strongest reader alignments: L12h3q1 |cos| 0.03 (z 5.3), L12h3q0 |cos| 0.03 (z 4.9), L11h1k0 |cos| 0.03 (z 4.5), L11h0k1 |cos| 0.03 (z 4.1)
+L9u320: strongest reader alignments: L12h0q1 |cos| 0.02 (z 3.1), L15h3q1 |cos| 0.02 (z 2.3), L16h3k1 |cos| 0.02 (z 2.2), L15h1q0 |cos| 0.02 (z 1.7)
+L10u404: strongest reader alignments: L17h0q1 |cos| 0.01 (z 2.2), L17h2q1 |cos| 0.01 (z 1.6), L11h2q0 |cos| 0.02 (z 1.6), L15h2k1 |cos| 0.01 (z 1.4)
+L11u1631: strongest reader alignments: L12h2q0 |cos| 0.02 (z 6.1), L16h3k1 |cos| 0.03 (z 6.1), L16h0k1 |cos| 0.02 (z 5.4), L16h2k1 |cos| 0.02 (z 4.7)
+L11u15: strongest reader alignments: L12h1q0 |cos| 0.02 (z 4.9), L12h0q0 |cos| 0.02 (z 4.1), L12h3q1 |cos| 0.01 (z 3.2), L15h1q0 |cos| 0.01 (z 2.9)
+L11u892: strongest reader alignments: L17h2q1 |cos| 0.03 (z 5.3), L15h1q0 |cos| 0.03 (z 4.9), L17h2k0 |cos| 0.02 (z 4.8), L17h3k0 |cos| 0.02 (z 4.8)
+L11u743: strongest reader alignments: L16h3k1 |cos| 0.02 (z 6.1), L15h3q0 |cos| 0.04 (z 6.1), L16h0k1 |cos| 0.02 (z 5.9), L15h0q1 |cos| 0.04 (z 5.6)
+L11u137: strongest reader alignments: L11h0q1 |cos| 0.03 (z 2.8), L11h3k1 |cos| 0.04 (z 2.2), L11h0k1 |cos| 0.04 (z 2.1), L16h3q0 |cos| 0.01 (z 1.9)
+L11u818: strongest reader alignments: L11h2q0 |cos| 0.04 (z 3.0), L17h3q0 |cos| 0.01 (z 1.9), L16h3k0 |cos| 0.01 (z 1.8), L15h3q0 |cos| 0.01 (z 1.4)
+L12u1099: strongest reader alignments: L17h1k1 |cos| 0.01 (z 3.5), L17h2k1 |cos| 0.01 (z 3.3), L15h1q1 |cos| 0.01 (z 3.0), L17h3k1 |cos| 0.01 (z 2.5)
+L8u1980: strongest reader alignments: L17h2q1 |cos| 0.02 (z 1.5), L17h3q0 |cos| 0.01 (z 1.5), L15h2q1 |cos| 0.01 (z 1.3), L11h0q1 |cos| 0.01 (z 1.1)
+L1u852: strongest reader alignments: L11h0q0 |cos| 0.03 (z 2.5), L11h1q0 |cos| 0.03 (z 2.0), L11h2q0 |cos| 0.02 (z 1.5), L11h2k0 |cos| 0.02 (z 1.5)
+
+```

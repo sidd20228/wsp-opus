@@ -11,7 +11,10 @@ Volumes (all created on first use, never shared with other experiments):
 """
 import os
 
-import modal
+try:                       # only the Modal backend needs it (the VM backend imports this module without it)
+    import modal
+except ImportError:  # noqa: BLE001
+    modal = None
 
 APP_NAME = "wsp-exp8"
 DATA_VOL = "wsp-exp8"
@@ -30,6 +33,21 @@ N_TENSORS = 320                                   # NAMES in the original kernel
 VLLM_VERSION = "0.30.0"
 TRANSFORMERS_VERSION = "5.17.0"                   # the text export's config.json says transformers_version 5.17.0
 GPU = "H100"
+
+# ---- the VM backend (Modal is retired): paths on the VM, set by vm_gpu.py / vm.py through the environment
+BACKEND = os.environ.get("EXP8_BACKEND", "modal")
+MODEL_DIR = os.environ.get("EXP8_MODEL", "/model")              # the text export (the editor's /model)
+PRACTICE_DIR = os.environ.get("EXP8_PRACTICE", "/practice")
+BENCH_DIR = os.environ.get("EXP8_BENCH", "/data/bench")
+WORK_REAL = os.environ.get("EXP8_WORK", "/work")                # where the run's /work really is
+TMP_DIR = os.environ.get("EXP8_TMP", "/tmp")
+GPU_MEM = float(os.environ.get("EXP8_GPU_MEM", "0.85"))         # VM: 0.80 (the GPU is shared)
+
+
+def wpath(p):
+    """the real location of a /work/... path"""
+    return WORK_REAL + p[len("/work"):] if p.startswith("/work") else p
+
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))

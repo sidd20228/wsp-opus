@@ -1,0 +1,14 @@
+OUTPUT of run 35 of at most 60:
+```
+Hypothesis 1: value-matrix change (W_O_mean * dW_V) in L16-17, by quartile of accumulated write scale (low=embedding-dominated):
+   diag [ 2.4  -0.11 -1.62  0.22]  off-diag control [-0.05  0.13  0.07  0.14]
+   (for reference, dO term:) [4.98 1.9  2.63 1.9 ]
+Hypothesis 2: copy-suppression heads (base OV mostly negative) - total OV change, by quartile:
+   diag [ 1.56 -0.49 -0.21  1.91]  off-diag control [-0.44 -0.68  0.08 -0.24]
+    (15, 1) [1.58 0.47 0.47 1.11]
+    (17, 3) [ 2.53 -0.79  1.74  1.11]
+    (12, 0) [-0.79  0.32 -0.32 -0.79]
+    (11, 3) [ 0.32  0.16 -0.95  2.69]
+    (14, 0) [-0.16 -1.26 -1.42  0.16]
+
+```

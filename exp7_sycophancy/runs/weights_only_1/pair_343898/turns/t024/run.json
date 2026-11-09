@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "18fc7578-9fe9-464e-9b35-235cdcbca559",
+ "cwd": "<home>/.wsp/c/18fc7578",
+ "turn": 24,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "18fc7578-9fe9-464e-9b35-235cdcbca559"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 25.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 10891,
+  "cache_read_input_tokens": 223493,
+  "output_tokens": 2519,
+  "output_tokens_details": {
+   "thinking_tokens": 898
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10891,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2519,
+    "cache_read_input_tokens": 223493,
+    "cache_creation_input_tokens": 10891,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10891
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 94,
+   "outputTokens": 161888,
+   "thinkingTokens": 125913,
+   "cacheReadInputTokens": 2554805,
+   "cacheCreationInputTokens": 234384,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 234384,
+   "webSearchRequests": 0,
+   "costUSD": 5.624169,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 5.624169,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 25.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 23 showed.** The MLP changes along the answer-position direction are moderately spread, but they concentrate in the middle of the network:\n- Layers 9\u201313 carry the largest share of gate/up change energy along \u03bc (11\u201313%, against 7\u20139% elsewhere).\n- Layer 11 has the most outlier units: u1631 ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794182400,
+      "rateLimitType": "five_hour",
+      "utilization": 0.98,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.98,
+        "resetsAt": 1794182400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.25,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "25eeba8e-b3dc-4f08-b61d-cecaaeb3fff6",
+     "session_id": "18fc7578-9fe9-464e-9b35-235cdcbca559"
+    }
+   ]
+  }
+ ]
+}

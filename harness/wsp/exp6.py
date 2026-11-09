@@ -25,7 +25,7 @@ import sys
 import tarfile
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from wsp import conversation, sandbox  # noqa: E402
+from wsp import conversation, remote  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOGS = os.path.join(ROOT, "lm_understand-logs", "exp6_go_from_scratch")
@@ -41,53 +41,32 @@ def prelude():
 
 
 class Work:
-    """The sandbox's /work, mirrored locally."""
+    """The sandbox's /work, on the H100 VM (wsp/remote.py), mirrored locally after every action."""
 
     def __init__(self, mirror):
         self.mirror = mirror
         os.makedirs(mirror, exist_ok=True)
         if not os.path.exists(os.path.join(mirror, "arch.json")):
             json.dump(ARCH, open(os.path.join(mirror, "arch.json"), "w"))
-        # 96 GB is a limit, as the original's RLIMIT_AS; only 8 GB is reserved
-        self.s = sandbox.Session(sandbox.base_image(), cpu=8.0, memory=(8192, 98304))
-        self.push_dir(mirror, "/work")
+        rel = os.path.relpath(os.path.dirname(os.path.abspath(mirror)), OUT)
+        self.remote = f"{remote.BASE}/work/exp6/{rel}"
+        remote.rsync_to(mirror, self.remote, delete=True)      # the local mirror is the source of truth
 
-    def push_dir(self, local, remote):
-        buf = io.BytesIO()
-        with tarfile.open(fileobj=buf, mode="w:gz") as t:
-            for name in sorted(os.listdir(local)):
-                t.add(os.path.join(local, name), arcname=name)
-        tmp = os.path.join(self.mirror, "..", ".push.tgz")
-        open(tmp, "wb").write(buf.getvalue())
-        self.s.sb.exec("mkdir", "-p", remote).wait()
-        self.s.put(tmp, "/tmp/push.tgz")
-        p = self.s.sb.exec("tar", "xzf", "/tmp/push.tgz", "-C", remote)
-        p.wait()
-        os.remove(tmp)
+    def push_dir(self, local, sub):
+        remote.rsync_to(local, f"{self.remote}/{sub}")
 
     def pull(self):
-        """Mirror the sandbox's /work into the local folder (replacing it)."""
-        p = self.s.sb.exec("tar", "czf", "/tmp/pull.tgz", "-C", "/work", ".")
-        p.wait()
-        tgz = self.mirror + ".pull.tgz"
-        self.s.get("/tmp/pull.tgz", tgz)
-        data = open(tgz, "rb").read()
-        os.remove(tgz)
-        tmp = self.mirror + ".new"
-        shutil.rmtree(tmp, ignore_errors=True)
-        os.makedirs(tmp)
-        with tarfile.open(fileobj=io.BytesIO(data), mode="r:gz") as t:
-            t.extractall(tmp, filter="data")
-        shutil.rmtree(self.mirror)
-        os.rename(tmp, self.mirror)
+        remote.rsync_from(self.remote, self.mirror, delete=True)
 
     def run(self, code):
-        out, secs = self.s.run(code, prelude(), timeout=TIMEOUT, max_out=MAX_OUT)
+        # as the original: python -I -c PRELUDE + code, 900 s, 96 GB (RLIMIT_AS), output cut at 20,000 characters
+        out, secs = remote.sandbox(["-I", "-c", prelude() + "\n" + code], "sandbox_full", self.remote,
+                                   timeout=TIMEOUT, max_out=MAX_OUT, mem_gb=96)
         self.pull()
         return out, secs
 
     def close(self):
-        self.s.close()
+        pass
 
 
 def run(budget, rep, effort="xhigh", max_turns=1000, tag=""):
@@ -139,7 +118,7 @@ def run(budget, rep, effort="xhigh", max_turns=1000, tag=""):
         ok = G.pass_ok(reply)
         if ok:
             c.count("passes", 1)
-            work.push_dir(out_dir, f"/work/pass_{k}")
+            work.push_dir(out_dir, f"pass_{k}")
             work.pull()
         shutil.rmtree(os.path.join(folder, "pass_tmp"), ignore_errors=True)
         c.tool_call({"kind": kind, "pass": k if ok else None, "ok": ok, "request": body, "reply": reply[:6000]})

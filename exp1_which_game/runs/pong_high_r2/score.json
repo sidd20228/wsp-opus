@@ -1,0 +1,7 @@
+{
+ "answer_line": "Pong (single-player, a paddle on the left versus a ball, with the right wall as the target or scoring side).",
+ "guess": "pong",
+ "confidence": 70.0,
+ "correct": true,
+ "_src_wall": 78.8
+}

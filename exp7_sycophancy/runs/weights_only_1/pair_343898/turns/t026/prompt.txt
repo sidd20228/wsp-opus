@@ -1,0 +1,9 @@
+OUTPUT of run 25 of at most 60:
+```
+L0-9: Stouffer diag top-q +3.02 vs off-diag control +0.77* | diag bottom-half -4.70 vs off-diag +1.13*
+L10-11: Stouffer diag top-q +1.73 vs off-diag control +1.25* | diag bottom-half -3.40 vs off-diag +0.99*
+L12-15: Stouffer diag top-q +0.99 vs off-diag control -2.11* | diag bottom-half -0.34 vs off-diag -1.71*
+L16-17: Stouffer diag top-q +2.07 vs off-diag control +1.76* | diag bottom-half +5.18 vs off-diag -0.73*
+(*off-diag control = mean over 20 permutations, rescaled to the sd of a single permutation test)
+
+```

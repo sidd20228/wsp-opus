@@ -42,3 +42,27 @@ via the Claude Code CLI), recorded as it is introduced. See REPLICATION_PLAN.md 
 |---|---|---|
 | 3 | `python_r1`: with tools turned off, Opus wrote its first reply as pseudo tool calls (`<invoke name="python"><parameter name="code">…`, 272 of them) with no ```python fence, filled in imagined outputs itself, and ended with a final answer, all in one 97k-token turn. The harness (like the original) treats a reply with no ```python block as the final answer, so no code ever ran (0 runs). Its answer (romaji; copy head L2H1 only) is not based on the weights. | Kept as run and scored under the original harness rule (strict). Reported a second time with the format failures left out ("valid conversations"). The harness is not changed mid-experiment, so all replicates are handled the same way. Other replies wrap a real ```python block in `<invoke>` markup; those run normally, because the harness reads the first ```python block. |
 | 3 | `romaji_r2`: a second no-code answer. This time there was no markup at all: the first reply is a detailed analysis (eigenvalues, composition scores) written as if code had run, with no code block, so it is the final answer and 0 runs were made. The numbers in it were not computed. | Handled as `python_r1`. The scorer now flags every conversation with 0 runs (`format_failure`), with or without markup. Separately, the answer parser now reads the *last* `corpus:` / `order:` / `probabilities:` line, because prose bullets like "Corpus: romaji is unlikely" came first in `python_r2`; Astra's 6 answers still parse identically. |
+
+## Compute move: Modal to an H100 VM (9 November 2026, about 01:50 IST)
+
+The Modal workspace hit its spend limit at about 01:35 IST, and all Modal apps were then stopped at the user's request.
+From that point, model-written code runs on a dedicated VM (1x H100 NVL, 42 cores, 251 GB RAM; `wsp/remote.py`).
+Opus itself is still called from the Mac.
+
+| What | Before (Modal) | After (VM) |
+|---|---|---|
+| Sandbox | Modal Sandbox, network blocked | bubblewrap `--unshare-all --clearenv` (no network), as the original harness. Only the interpreter, the sandbox venv and the experiment's read-only inputs are visible; `timeout -s KILL` and `prlimit --as` (RLIMIT_AS) set the limits |
+| Python and packages | Python 3.10, same pins | Python 3.10.22 (uv build), same pins: Exp 3/6 numpy 1.26.4, scipy 1.13.1, scikit-learn 1.5.2, pandas 2.2.3, sympy 1.13.3, networkx 3.3, torch 2.4.1 CPU; Exp 7 numpy 2.2.6 |
+| Exp 7 attention tool | Modal CPU class | the same functions (`wsp/exp7/attn_vm.py` reuses `attention_tool.py` unchanged), torch 2.9.1 CPU, transformers 5.17.0, fp32, eager; only `tokens.json` is kept locally (the arrays stay on the VM) |
+| Exp 7 /work | lost if the driver restarted | kept on the VM |
+
+**Conversations cut off by the spend limit** resumed in the same Claude session:
+- Exp 3: romaji_r3.
+- Exp 6: budget_10_r1 and budget_50_r1.
+- Exp 7: attention_tool/pair_fee168 and weights_only_1/pair_343898.
+
+**How a cut-off conversation is resumed.** The harness had failed while acting on the model's last reply. It now
+acts on the saved reply instead of sending the previous message again (`wsp/conversation.py`). The run counters are
+reset from the logged tool calls, so the model sees no gap or repeat in run numbers.
+
+| 3 | `english_r3`: a third no-code answer (final in turn 1, 0 runs). | Flagged `format_failure`, as python_r1 and romaji_r2. |

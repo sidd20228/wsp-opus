@@ -24,10 +24,6 @@
   "acc_lenient": 0.575
  },
  "_meta": {
-  "gpu_hours": 2.4565705581506094,
-  "errors": [],
-  "wall_s_this_call": 543.7723598480225,
-  "protocol": "think35",
-  "vllm": "0.30.0"
+  "gpu_hours": 2.4565705581506094
  }
 }

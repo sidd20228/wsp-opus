@@ -1,0 +1,24 @@
+OUTPUT of run 20 of at most 60:
+```
+kappa0: residual dir r peak share top5 dims 0.118; argmax dims [ 15 460 525 575 405]
+heads whose (base) output space contains r most (ratio to random dir): [('L13h3', np.float64(1.87)), ('L12h1', np.float64(1.87)), ('L11h3', np.float64(1.86)), ('L11h2', np.float64(1.84)), ('L12h2', np.float64(1.82)), ('L15h1', np.float64(1.8)), ('L15h2', np.float64(1.78)), ('L15h3', np.float64(1.73))]
+heads whose output CHANGE contains r most: [('L15h2', np.float64(2.54)), ('L12h1', np.float64(2.38)), ('L15h1', np.float64(2.33)), ('L15h3', np.float64(2.22)), ('L11h0', np.float64(2.17)), ('L13h1', np.float64(2.17)), ('L15h0', np.float64(2.1)), ('L12h0', np.float64(2.03))]
+L0mlp: max|cos(unit write, r)| 0.055 units [ 139  183 1363] [ 0.055  0.053 -0.048] | max|cos(unit write change, r)| 0.049 units [ 993  331 2014] [0.049 0.045 0.045]
+L1mlp: max|cos(unit write, r)| 0.049 units [1821 1739 1833] [-0.049  0.043 -0.043] | max|cos(unit write change, r)| 0.043 units [1794 1484 1512] [ 0.043 -0.039 -0.039]
+L2mlp: max|cos(unit write, r)| 0.054 units [1724  570 1416] [0.054 0.051 0.05 ] | max|cos(unit write change, r)| 0.065 units [1610  766 1391] [-0.065  0.055  0.054]
+L3mlp: max|cos(unit write, r)| 0.071 units [1647 1520 1906] [ 0.071 -0.068 -0.057] | max|cos(unit write change, r)| 0.062 units [1800 1292 1333] [-0.062  0.058  0.054]
+L4mlp: max|cos(unit write, r)| 0.076 units [ 367  210 1041] [-0.076 -0.076 -0.075] | max|cos(unit write change, r)| 0.075 units [1074 1552  144] [ 0.075 -0.072  0.068]
+L5mlp: max|cos(unit write, r)| 0.117 units [ 464  755 1555] [-0.117 -0.108  0.101] | max|cos(unit write change, r)| 0.110 units [ 322 1153  818] [ 0.11  -0.101  0.101]
+L6mlp: max|cos(unit write, r)| 0.127 units [1435 1128  583] [-0.127 -0.105  0.099] | max|cos(unit write change, r)| 0.126 units [1390  990 1393] [ 0.126 -0.125 -0.122]
+L7mlp: max|cos(unit write, r)| 0.117 units [1898 1711  886] [-0.117  0.111  0.108] | max|cos(unit write change, r)| 0.133 units [1835 1939  373] [-0.133 -0.125  0.123]
+L8mlp: max|cos(unit write, r)| 0.164 units [  91  896 1283] [ 0.164 -0.148 -0.132] | max|cos(unit write change, r)| 0.140 units [1427  752 1804] [ 0.14  -0.137  0.116]
+L9mlp: max|cos(unit write, r)| 0.158 units [  81  452 1872] [0.158 0.152 0.148] | max|cos(unit write change, r)| 0.191 units [1478 1868  815] [0.191 0.149 0.149]
+L10mlp: max|cos(unit write, r)| 0.171 units [  96  916 1680] [-0.171  0.158  0.157] | max|cos(unit write change, r)| 0.180 units [1444 1821  107] [-0.18   0.171  0.169]
+L11mlp: max|cos(unit write, r)| 0.247 units [ 339 1717 1024] [ 0.247 -0.184 -0.177] | max|cos(unit write change, r)| 0.278 units [741  51 856] [-0.278 -0.24   0.235]
+L12mlp: max|cos(unit write, r)| 0.232 units [ 225 1477  563] [-0.232  0.227 -0.203] | max|cos(unit write change, r)| 0.241 units [1234 1480 1778] [ 0.241  0.223 -0.216]
+L13mlp: max|cos(unit write, r)| 0.222 units [1969  184  299] [-0.222 -0.213 -0.205] | max|cos(unit write change, r)| 0.213 units [1156  822  537] [-0.213 -0.197 -0.195]
+L14mlp: max|cos(unit write, r)| 0.210 units [1613  531  396] [ 0.21  -0.191  0.19 ] | max|cos(unit write change, r)| 0.275 units [1852 1584 1743] [-0.275  0.184 -0.171]
+L15mlp: max|cos(unit write, r)| 0.186 units [1173 1422  109] [0.186 0.168 0.163] | max|cos(unit write change, r)| 0.237 units [ 166 1152 1415] [-0.237  0.203 -0.202]
+L16mlp: max|cos(unit write, r)| 0.195 units [1560  522 1797] [-0.195  0.18  -0.175] | max|cos(unit write change, r)| 0.250 units [ 195 1365 1022] [0.25  0.236 0.217]
+
+```

@@ -1,4 +1,4 @@
-"""Kinetix car-ramp evaluator for Experiment 4 (REPLICATION_PLAN.md, section 6.4 and check 0.3), run on Modal.
+"""Kinetix car-ramp evaluator for Experiment 4 (REPLICATION_PLAN.md, section 6.4 and check 0.3), run on the H100 VM.
 
 Scores an actor network (679 -> 128 relu -> 5 x 128 tanh -> 16 logits) on the Kinetix level `l/h2_car_ramp`,
 Kinetix commit 80ee9c2, jax 0.4.38, built exactly as the official Kinetix PPO builds its env for the overrides in
@@ -15,18 +15,19 @@ red wins inside a substep) = red, NaN anywhere in the state = invalid, 256 steps
 `engine_step` `done`. "progress" = 1 for a success, else (d0 - min d) / d0 with d the green-blue centre distance
 (our reading of the logs' "mean progress toward the goal"; it reproduces the base network's 0.339).
 
-CLI (from the project root):
-    .venv/bin/modal run wsp/envs/kinetix_eval.py --npz <path> --episodes 1024 --seed 0 --mode sample
-    .venv/bin/modal run wsp/envs/kinetix_eval.py --check-obs     # observation layout vs the prompt
-    .venv/bin/modal run wsp/envs/kinetix_eval.py --verify        # check 0.3 -> results/phase0/kinetix_check.json
+CLI (on the Mac, from the project root; the work runs on the VM over ssh, see wsp/remote.py):
+    .venv/bin/python wsp/envs/kinetix_eval.py --npz <path> --episodes 1024 --seed 1 --mode sample [--out f.json]
+    .venv/bin/python wsp/envs/kinetix_eval.py --check-obs      # observation layout vs the prompt
+    .venv/bin/python wsp/envs/kinetix_eval.py --verify         # check 0.3 -> results/phase0/kinetix_check.json
 
 Python (the harness):
-    from wsp.envs.kinetix_eval import evaluate, load_actor, app
-    params = load_actor("edited_actor.npz")          # or a dict {"embed.W": ..., ..., "actor_head.b": ...}
-    res = evaluate(params, episodes=1024, seed=1, mode="sample")   # starts the Modal app for this call
-    # several calls share one container (and its compile cache) if wrapped in `with app.run(): ...`
+    from wsp.envs.kinetix_eval import evaluate, evaluate_many, load_actor
+    res = evaluate(params, episodes=1024, seed=1, mode="sample")   # params: edited-format dict, PPO dict or .npz
+    results = evaluate_many([p1, p2, ...], episodes=1024, seed=1)  # one VM process for all (one JAX start-up)
 
-Set WSP_KINETIX_GPU=cpu (or e.g. A10G) before import to change the hardware; the default is an L4 (A10G if no L4 is free).
+Each call: the actor(s) are saved as .npz, copied with this file to the VM (~/wsp-opus/work/kinetix/<tag>/), scored
+by `venvs/kinetix/bin/python kinetix_eval.py worker <dir>` as a short job (no resident server; JAX does not
+preallocate and is capped at 10 % of the GPU, which it shares with vLLM), and the JSON comes back.
 """
 import contextlib
 import json
@@ -34,7 +35,6 @@ import os
 import pathlib
 import time
 
-import modal
 import numpy as np
 
 KINETIX_COMMIT = "80ee9c292837c825cafaf9889323fdcc212efd1b"
@@ -92,24 +92,21 @@ def forward_numpy(params: dict, obs: np.ndarray) -> np.ndarray:
 
 
 # ----------------------------------------------------------------------------------------------------------------
-# Modal app
+# The H100 VM backend (wsp/remote.py): the Mac ships .npz files + a job list, one short process scores them there.
 # ----------------------------------------------------------------------------------------------------------------
-_HW = os.environ.get("WSP_KINETIX_GPU", "L4,A10G")       # comma list = fallback order
-GPU = None if _HW.lower() in ("cpu", "none", "") else _HW.split(",")
-JAX_PKG = f"jax[cuda12]=={JAX_VERSION}" if GPU else f"jax=={JAX_VERSION}"
-
-image = (
-    modal.Image.debian_slim(python_version="3.11")
-    .apt_install("git")
-    .pip_install(JAX_PKG, f"jaxlib=={JAX_VERSION}",
-                 f"kinetix-env @ git+https://github.com/FLAIROx/Kinetix.git@{KINETIX_COMMIT}")
-    .env({"XLA_PYTHON_CLIENT_PREALLOCATE": "false", "WANDB_MODE": "disabled", "SDL_VIDEODRIVER": "dummy",
-          "PYGAME_HIDE_SUPPORT_PROMPT": "1"})
-)
-if __name__.startswith("wsp."):
-    # Imported as a package module (the harness): the container must be able to import `wsp.envs.kinetix_eval`.
-    image = image.add_local_python_source("wsp")
-app = modal.App("wsp-kinetix")
+VM_BASE = "<vm-home>/wsp-opus"
+VM_VENV = f"{VM_BASE}/venvs/kinetix"             # uv, Python 3.11, jax[cuda12]==0.4.38, kinetix-env @ 80ee9c2
+VM_CODE = f"{VM_BASE}/code/wsp/envs/kinetix_eval.py"
+VM_WORK = f"{VM_BASE}/work/kinetix"
+VM_ENV = {
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false",      # share the GPU with vLLM (Exp 8): grow on demand ...
+    "XLA_PYTHON_CLIENT_MEM_FRACTION": "0.1",       # ... and never above 10 % of the H100
+    "JAX_COMPILATION_CACHE_DIR": f"{VM_BASE}/.jaxcache/kinetix",   # persistent compile cache across short jobs
+    "JAX_PERSISTENT_CACHE_MIN_COMPILE_TIME_SECS": "0",
+    "WANDB_MODE": "disabled", "SDL_VIDEODRIVER": "dummy", "PYGAME_HIDE_SUPPORT_PROMPT": "1",
+    "TF_CPP_MIN_LOG_LEVEL": "2",
+}
+HARDWARE = "H100 VM"
 
 _CACHE = {}
 
@@ -275,7 +272,6 @@ def _trace_rows(r, every=16):
     return {"outcome": OUTCOMES.get(int(np.asarray(r["outcome"])[0]), "unfinished"), "length": L, "rows": rows}
 
 
-@app.function(image=image, gpu=GPU, timeout=3600, scaledown_window=60)
 def run_eval(params: dict, episodes: int = 1024, seed: int = 0, mode: str = "sample", argmax: bool = True,
              precision: str = "default", trace: bool = True) -> dict:
     """Score an actor (edited-format dict of float32 arrays) on `episodes` episodes. Returns shares/means plus the
@@ -308,7 +304,6 @@ def run_eval(params: dict, episodes: int = 1024, seed: int = 0, mode: str = "sam
     return res
 
 
-@app.function(image=image, gpu=GPU, timeout=1800, scaledown_window=60)
 def initial_observation() -> dict:
     """The first observation of the level and the decoded fields, for the layout check."""
     c = _setup()
@@ -386,46 +381,117 @@ def layout_checks(obs) -> list:
 
 
 # ----------------------------------------------------------------------------------------------------------------
-# Python entry point for the harness
+# Python entry points for the harness (run on the Mac; the work runs on the VM)
 # ----------------------------------------------------------------------------------------------------------------
+def _as_actor(params) -> dict:
+    return load_actor(params) if isinstance(params, (str, pathlib.Path)) else to_actor_dict(params)
+
+
+def run_jobs_on_vm(jobs: list, timeout: int = 3600) -> list:
+    """jobs: dicts {"params": actor (dict or .npz path), "episodes", "seed", "mode", "argmax", "precision", "trace"}
+    or {"kind": "obs"}. All jobs run in one process on the VM (one JAX start-up, shared compile cache)."""
+    import shutil
+    import sys
+    import tempfile
+    import uuid
+    sys.path.insert(0, str(_project_root()))
+    from wsp import remote
+
+    tag = time.strftime("%Y%m%d-%H%M%S-") + uuid.uuid4().hex[:6]
+    rdir = f"{VM_WORK}/{tag}"
+    tmp = tempfile.mkdtemp(prefix="kinetix-")
+    try:
+        spec = []
+        for i, j in enumerate(jobs):
+            j = dict(j)
+            if j.get("kind") != "obs":
+                np.savez(os.path.join(tmp, f"p{i}.npz"), **_as_actor(j.pop("params")))
+                j["npz"] = f"p{i}.npz"
+            spec.append(j)
+        pathlib.Path(tmp, "jobs.json").write_text(json.dumps(spec))
+        remote.rsync_to(str(pathlib.Path(__file__).resolve()), VM_CODE)   # the VM runs this same file
+        remote.rsync_to(tmp, rdir)
+        env = " ".join(f"{k}={v}" for k, v in VM_ENV.items())
+        p = remote.sh(f"cd {rdir} && {env} {VM_VENV}/bin/python {VM_CODE} worker {rdir} > worker.log 2>&1; "
+                      f"rc=$?; if [ $rc -ne 0 ]; then tail -c 4000 worker.log >&2; exit $rc; fi; cat results.json",
+                      timeout=timeout)
+        results = json.loads(p.stdout.decode())
+        remote.sh(f"rm -rf {rdir}", check=False)
+        return results
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def evaluate_many(networks: list, episodes: int = 1024, seed: int = 0, mode: str = "sample", argmax: bool = True,
+                  precision: str = "default", trace: bool = True) -> list:
+    """Score several actors with the same settings in one VM job; returns one result dict per network."""
+    return run_jobs_on_vm([dict(params=n, episodes=episodes, seed=seed, mode=mode, argmax=argmax,
+                                precision=precision, trace=trace) for n in networks])
+
+
 def evaluate(params, episodes: int = 1024, seed: int = 0, mode: str = "sample", argmax: bool = True,
              precision: str = "default", trace: bool = True) -> dict:
-    """Evaluate an actor given as an edited-format dict of numpy arrays (or PPO-format dict, or an .npz path).
-    Uses the running `wsp-kinetix` app if called inside `with app.run():`, else starts one for this call."""
-    params = load_actor(params) if isinstance(params, (str, pathlib.Path)) else to_actor_dict(params)
-    kw = dict(params=params, episodes=episodes, seed=seed, mode=mode, argmax=argmax, precision=precision,
-              trace=trace)
-    if app.app_id is not None:
-        return run_eval.remote(**kw)
-    with app.run():
-        return run_eval.remote(**kw)
+    """Evaluate an actor given as an edited-format dict of numpy arrays (or PPO-format dict, or an .npz path) on
+    the VM. Returns {"episodes", "success", "red", "timeout", "invalid", "return", "length", "progress",
+    "argmax_outcome", ...}."""
+    return evaluate_many([params], episodes, seed, mode, argmax, precision, trace)[0]
+
+
+def worker(jobdir: str):
+    """VM side: run jobdir/jobs.json, write jobdir/results.json."""
+    jobdir = pathlib.Path(jobdir)
+    out = []
+    t0 = time.time()
+    for j in json.loads((jobdir / "jobs.json").read_text()):
+        if j.get("kind") == "obs":
+            out.append(initial_observation())
+            continue
+        kw = {k: j[k] for k in ["episodes", "seed", "mode", "argmax", "precision", "trace"] if k in j}
+        out.append(run_eval(load_actor(jobdir / j["npz"]), **kw))
+        print(f"job {len(out)} done at {time.time() - t0:.1f} s", flush=True)
+    (jobdir / "results.json").write_text(json.dumps(out))
 
 
 # ----------------------------------------------------------------------------------------------------------------
-# CLI
+# CLI (Mac):  .venv/bin/python wsp/envs/kinetix_eval.py --npz <path> --episodes 1024 --seed 1 --mode sample
+#             .venv/bin/python wsp/envs/kinetix_eval.py --check-obs | --verify
 # ----------------------------------------------------------------------------------------------------------------
-@app.local_entrypoint()
-def main(npz: str = "", episodes: int = 1024, seed: int = 0, mode: str = "sample", precision: str = "default",
-         out: str = "", check_obs: bool = False, verify: bool = False, base_seed: int = 0, edited_seed: int = 1):
-    """--npz <path>: evaluate one network. --check-obs: observation layout check. --verify: check 0.3."""
-    if check_obs:
-        return check_observation(out)
-    if verify:
-        return verify_released(base_seed, edited_seed, precision)
-    if not npz:
+def main(argv=None):
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("cmd", nargs="?", default="")
+    ap.add_argument("jobdir", nargs="?", default="")
+    ap.add_argument("--npz", default="")
+    ap.add_argument("--episodes", type=int, default=1024)
+    ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--mode", default="sample", choices=["sample", "argmax"])
+    ap.add_argument("--precision", default="default")
+    ap.add_argument("--out", default="")
+    ap.add_argument("--check-obs", action="store_true")
+    ap.add_argument("--verify", action="store_true")
+    ap.add_argument("--base-seed", type=int, default=0)
+    ap.add_argument("--edited-seed", type=int, default=1)
+    ap.add_argument("--results", default="")
+    a = ap.parse_args(argv)
+    if a.cmd == "worker":
+        return worker(a.jobdir)
+    if a.check_obs:
+        return check_observation(a.out)
+    if a.verify:
+        return verify_released(a.base_seed, a.edited_seed, a.precision, a.results)
+    if not a.npz:
         raise SystemExit("give --npz <path>, --check-obs or --verify")
-    params = load_actor(npz)
-    res = run_eval.remote(params=params, episodes=episodes, seed=seed, mode=mode, precision=precision)
-    res["npz"] = npz
+    res = evaluate(a.npz, episodes=a.episodes, seed=a.seed, mode=a.mode, precision=a.precision)
+    res["npz"] = a.npz
     text = json.dumps(res, indent=1)
     print(text)
-    if out:
-        pathlib.Path(out).parent.mkdir(parents=True, exist_ok=True)
-        pathlib.Path(out).write_text(text)
+    if a.out:
+        pathlib.Path(a.out).parent.mkdir(parents=True, exist_ok=True)
+        pathlib.Path(a.out).write_text(text)
 
 
 def check_observation(out: str = ""):
-    info = initial_observation.remote()
+    info = run_jobs_on_vm([{"kind": "obs"}])[0]
     checks = layout_checks(info["obs"])
     bad = [c for c in checks if not c["ok"]]
     for c in checks:
@@ -437,33 +503,34 @@ def check_observation(out: str = ""):
 
 
 def _project_root() -> pathlib.Path:
-    return pathlib.Path(__file__).resolve().parents[2]   # only used locally (the container has a flat /root)
+    return pathlib.Path(__file__).resolve().parents[2]   # only used on the Mac
 
 
-def verify_released(base_seed: int = 0, edited_seed: int = 1, precision: str = "default"):
+def verify_released(base_seed: int = 0, edited_seed: int = 1, precision: str = "default", results: str = ""):
     """Check 0.3: base network 0 % on 256 sampled episodes; edited network ~100 % on 1,024 sampled episodes."""
     LOGS = _project_root() / "lm_understand-logs" / "exp4_fix_car"
-    RESULTS = _project_root() / "results" / "phase0" / "kinetix_check.json"
+    RESULTS = pathlib.Path(results) if results else _project_root() / "results" / "phase0" / "kinetix_check.json"
     base = load_actor(LOGS / "networks" / "ppo_final_seed0.npz")
     edited = load_actor(LOGS / "networks" / "edited_actor.npz")
-    info = initial_observation.remote()
+    plan = [("base_256", base, 256, base_seed), ("edited_1024", edited, 1024, edited_seed),
+            ("edited_256", edited, 256, base_seed), ("base_1024", base, 1024, edited_seed)]
+    t0 = time.time()
+    res = run_jobs_on_vm([{"kind": "obs"}] + [dict(params=p, episodes=n, seed=s, precision=precision)
+                                             for _, p, n, s in plan])
+    job_s = round(time.time() - t0, 1)
+    info = res[0]
+    runs = {name: r for (name, *_), r in zip(plan, res[1:])}
     checks = layout_checks(info["obs"])
     obs0 = np.asarray(info["obs"])
     # Reference forward pass at the first observation (numpy float64), for the record.
     ref = {name: {"logits": forward_numpy(p, obs0).round(4).tolist()} for name, p in [("base", base), ("edited", edited)]}
-
-    runs = {}
-    runs["base_256"] = run_eval.remote(params=base, episodes=256, seed=base_seed, precision=precision)
-    runs["edited_1024"] = run_eval.remote(params=edited, episodes=1024, seed=edited_seed, precision=precision)
-    runs["edited_256"] = run_eval.remote(params=edited, episodes=256, seed=base_seed, precision=precision)
-    runs["base_1024"] = run_eval.remote(params=base, episodes=1024, seed=edited_seed, precision=precision)
 
     orig_base = json.loads((LOGS / "eval" / "base_result.json").read_text())
     orig_edit = json.loads((LOGS / "eval" / "oneshot_result.json").read_text())
     keys = ["success", "red", "timeout", "invalid", "return", "length", "progress", "argmax_outcome"]
     out = {
         "check": "0.3 Exp 4 Kinetix (REPLICATION_PLAN.md section 4)",
-        "level": LEVEL, "kinetix_commit": KINETIX_COMMIT, "jax": JAX_VERSION, "hardware": "/".join(GPU) if GPU else "cpu",
+        "level": LEVEL, "kinetix_commit": KINETIX_COMMIT, "jax": JAX_VERSION, "hardware": HARDWARE, "vm_job_wall_s": job_s,
         "seeds": {"base_256": base_seed, "edited_1024": edited_seed, "edited_256": base_seed,
                   "base_1024": edited_seed, "argmax": "deterministic"},
         "layout_checks_passed": f"{sum(c['ok'] for c in checks)}/{len(checks)}",
@@ -483,3 +550,7 @@ def verify_released(base_seed: int = 0, edited_seed: int = 1, precision: str = "
               f"invalid {r['invalid']:.4f} return {r['return']:.4f} length {r['length']:.2f} "
               f"progress {r['progress']:.3f} argmax {r['argmax_outcome']} wall {r['wall_s']}s")
     print("layout checks", out["layout_checks_passed"], "pass:", out["pass"], "->", RESULTS)
+
+
+if __name__ == "__main__":
+    main()

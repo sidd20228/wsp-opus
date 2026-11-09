@@ -1,0 +1,5 @@
+OUTPUT of Python run 16 of at most 120:
+```
+ok [-4.5 -3.  -2.  -2.  -1.8 -9. ]
+
+```

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "7058487b-e813-4267-8caf-88948278edbe",
+ "cwd": "<home>/.wsp/c/7058487b",
+ "turn": 77,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7058487b-e813-4267-8caf-88948278edbe"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 64.7,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2651,
+  "cache_read_input_tokens": 396775,
+  "output_tokens": 6098,
+  "output_tokens_details": {
+   "thinking_tokens": 4843
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2651,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 6098,
+    "cache_read_input_tokens": 396775,
+    "cache_creation_input_tokens": 2651,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2651
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 306,
+   "outputTokens": 300458,
+   "thinkingTokens": 236729,
+   "cacheReadInputTokens": 19633854,
+   "cacheCreationInputTokens": 780985,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 780985,
+   "webSearchRequests": 0,
+   "costUSD": 16.18503479999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 16.18503479999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 64.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Real captures outnumber false ones roughly 4:1 at those points, so the broad detector would block too many good captures in capturing races. I'll keep v11's narrower rule. A cheap improvement instead: move the opponent-atari indicator back to L6 (flood radius 4 instead of 3), summed over neighbors i",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.17,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.28,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "c5e4c66b-3d1e-460a-aed6-9be5f192d9d2",
+     "session_id": "7058487b-e813-4267-8caf-88948278edbe"
+    }
+   ]
+  }
+ ]
+}

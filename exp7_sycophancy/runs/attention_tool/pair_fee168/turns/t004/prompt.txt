@@ -1,0 +1,150 @@
+OUTPUT of run 3 of at most 20:
+```
+lm_head equal embed? True
+final norm diff: 0.0
+L9 self_attn.q_proj sv0 (0.111):
+      TOP: ' greater' ' equal' ' three' ' education' ' arrested' ' six' ' four' ' five' ' anger' ' Ma' ' that' 'three'
+      BOT: '用に' ' encomenda' '扦' ' etmiş' ' című' ' svůj' ' lähe' ' tembok' ' menjal' ' suasana' ' konuda' 'ános'
+L9 self_attn.q_proj sv1 (0.075):
+      TOP: 'âtres' '])):' 'topia' 'rés' ' vocalist' ' Bhub' ' Quelle' 'Suff' 'ässä' ' dysph' 'ッタ' 'ภูมิ'
+      BOT: '8' '9' '7' '0' '5' '6' '4' '2' '年前' 'ml' ' Mori' 'md'
+L9 mlp.gate_proj sv0 (0.105):
+      TOP: '3' '4' '5' '7' ' ' '6' '2' '9' ' three' '0' '8' 'ربعة'
+      BOT: ']/*' ' lähe' '셍' ' Paston' '報導' '稟' 'rün' ' dáng' ' sahip' ' сопрово' 'よろしく' ' Corriere'
+L9 mlp.gate_proj sv1 (0.069):
+      TOP: ' vocalist' ' dysph' ' Gyne' 'ueill' ' Quelle' ' gyne' '}]},' ' Bül' ' <!--<' 'ühle' ' refugees' ' outs'
+      BOT: '0' '5' '6' '7' '8' 'までの' '4' '9' '2' 'ifolia' 'pounds' '歳'
+L9 mlp.down_proj sv0 (0.088):
+      TOP: ' seab' ' wirst' ' flame' 'rio' ' kept' ' Spezial' ' burner' ' avi' ' weird' ' cried' ' answered' ' shines'
+      BOT: '(/(' 'ység' 'setPrototypeOf' 'SelfPermission' 'banding' '高志森' 'ั้ย' 'ául' 'appreci' ' มั้ย' ')][' 'əsi'
+L9 mlp.down_proj sv1 (0.062):
+      TOP: 'Archive' ' pulsed' 'hyperref' 'pulse' 'shapes' ' Compan' ' Venture' ' Impulse' ' operative' '芭' ' Ventures' ' Phyll'
+      BOT: 'umine' ' hitt' '得很' '激动' '拿到' '蕞' 'otiv' 'entions' 'utie' '事が' 'ämm' ' blinding'
+L9 self_attn.o_proj sv0 (0.073):
+      TOP: 'ั้ย' 'anking' 'COVERY' 'ضه' 'iswa' '(/(' ' redeeming' 'ossil' 'ضة' '個月' ' Kyi' ' мес'
+      BOT: ' developed' ' hubs' ' recommends' ' Aan' ' sheer' 'Developed' ' tailor' ' intensify' ' SUR' ' advises' ' Vib' "{\\'"
+L9 self_attn.o_proj sv1 (0.055):
+      TOP: 'padă' ' ))->' ' йөкләү' '<unused778>' '<unused967>' '잍' '<unused8>' ' уйнагыз' ' fillColorSpace' '<unused1408>' '<unused777>' ' autoWatch'
+      BOT: ' A' ' D' ' L' ' O' ' T' ' B' ' M' ' the' ' S' ' G' ' H' 'the'
+L10 self_attn.q_proj sv0 (0.098):
+      TOP: '4' '3' '5' '6' '1' '7' '8' '9' '2' ' ' '0' '假的'
+      BOT: ' SII' ' จด' '셍' ' Smol' ']/*' '}*/' 'isci' ' Berc' ' 갖고' '’’’’' 'roir' ' cvec'
+L10 self_attn.q_proj sv1 (0.072):
+      TOP: '조건' '主办' ' vode' ' suje' '力度' 'ület' '玷' '盼' '赦' '>((' ' rejoice' 'öny'
+      BOT: '揸' 'mph' ' diplom' 'icin' ' converging' 'Gp' ' CPD' 'Brom' 'タク' 'aghan' 'DC' 'GP'
+L10 mlp.gate_proj sv0 (0.107):
+      TOP: '3' '7' '5' '4' '6' '9' '8' '0' '1' '2' 'ربعة' '⅔'
+      BOT: ']/*' ' Monitor' ' mRNAs' 'Monitor' '稟' ' Côte' 'Protocol' '셍' ' Protocol' ' apni' 'ดูแล' ' trata'
+L10 mlp.gate_proj sv1 (0.071):
+      TOP: '0' ' longo' 'هرب' '8' 'fusc' ' karbon' 'mph' '5' 'ᅢ' ' diplom' 'ifolia' ' Rosberg'
+      BOT: '}]},' '力度' 'libre' ' Basement' 'Opens' ' outs' ' nulla' ' basement' '曙' '無く' '}}},' ' rags'
+L10 mlp.down_proj sv0 (0.083):
+      TOP: 'ыргыз' 'ítő' 'μοι' ' (?,' ' Según' ' nekoliko' '<unused2139>' 'тировать' 'ровал' ' recientemente' ' recentemente' ' 또는'
+      BOT: ' statements' ' statement' ' questions' ' declare' ' comments' ' knows' ' can' ' status' ' know' ' we' ' knew' ' determination'
+L10 mlp.down_proj sv1 (0.070):
+      TOP: ' panes' ' sphing' ' microseconds' ' updatedAt' ' tqdm' ' astrocytes' 'InstrumentedTest' ' milliseconds' " '-'" ' nodemailer' ' payouts' ' usersRouter'
+      BOT: 'L' 'com' 'sp' ' L' 'ch' 'W' 'con' 'l' 'comb' 'B' ' Ch' ' H'
+L10 self_attn.o_proj sv0 (0.075):
+      TOP: 'êter' 'iranje' 'ioane' 'yendo' 'aciji' 'ίο' 'muş' ' segni' ' dwóch' 'jenih' 'ыргыз' 'ujacy'
+      BOT: 'cam' 'Ma' 'Ja' ' aesthetic' ' technical' 'Cam' ' camera' ' grown' 'cas' 'Ch' ' dense' 'Patricia'
+L10 self_attn.o_proj sv1 (0.050):
+      TOP: '𒐪' '𒅌' '𒉰' ' WebSocket' 'ဣ' '🅘' '>′' '---’' ' categorized' '⎯' 'agati' '뢰'
+      BOT: 'L' 'W' ' L' 'But' 'As' '3' ' l' ' والط' ' students' '1' 'M' ' As'
+L12 self_attn.q_proj sv0 (0.104):
+      TOP: '3' '9' '4' '7' '5' '6' '8' '1' '0' '2' '９' '７'
+      BOT: ' Cote' '馴' ' Watan' ' 感じ' ' Côte' ' Toc' 'ToWrite' ' Hague' ' Hawai' ' Walla' ' apna' ' Kobe'
+L12 self_attn.q_proj sv1 (0.064):
+      TOP: ' polarised' ' explicado' ' Justicia' '佢' '嘅' '까요' ' nodos' ' brillant' ' concentración' ' indifer' ' 같아요' 'idane'
+      BOT: 'aget' 'tris' ' gages' '器材' '삼' 'sneak' ' maneuvers' 'ANCES' 'shim' 'estim' 'assemble' 'ريكي'
+L12 mlp.gate_proj sv0 (0.106):
+      TOP: ' 感じ' '\\</' ' zindagi' 'appreci' 'édé' ' acclimat' '馴' ' commenters' ' Protocol' ' accl' ' AppDelegate' 'écou'
+      BOT: '7' '5' '8' '9' '6' '4' '3' '1' '0' '2' '９' '７'
+L12 mlp.gate_proj sv1 (0.066):
+      TOP: 'hatian' ' maravilloso' '当量' 'culo' ' nanoparticle' '投与' 'deoxy' 'amazonaws' 'ILY' ' opak' ' meravigli' ' Sunak'
+      BOT: ' egal' ' none' '竽' ' neither' 'esist' ' ۱۳' ' unauthorized' '}]},' ' Abst' '承认' '空白' ' remnants'
+L12 mlp.down_proj sv0 (0.075):
+      TOP: ' Fur' ' VN' ' Tand' ' VON' ' Thi' ' Hert' ' Pun' ' Gli' 'Zu' ' Pud' ' thi' ' Hr'
+      BOT: 'ją' 'かと思います' '้าย' '1' ' açı' '3' '2' ' difíc' 'zących' 'Congrats' 'ijek' 'licos'
+L12 mlp.down_proj sv1 (0.055):
+      TOP: '3' 'indrome' 'letion' 'iglia' 'sequently' ' adicional' 'ricular' 'tenham' 'ligere' 'ligare' 'gaard' '5'
+      BOT: ' Audi' 'Jud' ' Alonso' ' audi' ' Jud' ' Cato' ' Fet' ' Pipe' ' sourcing' 'Paint' ' Prod' ' Phot'
+L12 self_attn.o_proj sv0 (0.054):
+      TOP: 'bG' ' CHP' ' bj' 'бла' ' Resp' 'CHP' ' Kj' ' Sd' 'URF' ' Vr' ' Sf' ' RH'
+      BOT: '1' '3' '6' '2' 'leton' '8' ' advices' 'ight' '0' 'lex' '7' '4'
+L12 self_attn.o_proj sv1 (0.047):
+      TOP: ' Err' 'egd' ' γεν' 'ANGE' ' NCB' 'حت' 'äll' 'edged' 'akkh' 'iminary' ' خاط' 'მდეგ'
+      BOT: ' Valentin' ' Texas' ' Tianjin' ' Quinn' ' Jennifer' ' Coulter' ' Thomas' ' Jean' '제곱' ' system' ' Simon' ' thymus'
+L13 self_attn.q_proj sv0 (0.063):
+      TOP: '8' '4' '7' '6' '9' '5' '3' '0' '1' '2' ' ' '৭০'
+      BOT: ' Pré' 'Interval' ' Ribe' ' Calibration' ' calibration' 'Calibration' ' Cote' 'Cook' ' Adap' ' shim' ' Oma' ' Annot'
+L13 self_attn.q_proj sv1 (0.060):
+      TOP: '9' '7' '8' '5' '6' '９' '⅛' '4' '８' '７' '3' '1'
+      BOT: ' hereby' 'お待ち' 'ícias' ' future' 'operatively' ' explained' '遷移' '嗬' ' مشين' 'пись' ' gaman' ' unlike'
+L13 mlp.gate_proj sv0 (0.111):
+      TOP: ' railing' ' Wai' ' Ribe' ' Interface' ' convers' ' Mits' ' Grind' ' Burns' ' Novo' ' Ign' 'opre' 'édé'
+      BOT: '8' '7' '5' '9' '6' '4' '3' '0' '1' '2' '９' '８'
+L13 mlp.gate_proj sv1 (0.066):
+      TOP: ' newUser' 'madan' 'rzed' 'กลาง' 'okal' 'ürlich' '槛' ' Lax' '地位' ' legality' ' каса' '้าง'
+      BOT: 'sendFile' 'opis' 'PTV' '지의' ' Bateman' 'Attachments' 'amazonaws' '지와' 'Mostrar' 'ثیر' ' 보여' 'endous'
+L13 mlp.down_proj sv0 (0.080):
+      TOP: 'ėtų' 'リティ' 'ประชา' 'ities' 'razione' 'alarının' 'aların' 'aları' 'alarına' 'стю' 'ilerinin' " ',');"
+      BOT: ' regal' ' benevolent' ' ankle' 'Quad' ' handsome' 'Jin' 'Zu' 'Fam' ' 😂' ' Squad' ' Quad' 'WiFi'
+L13 mlp.down_proj sv1 (0.054):
+      TOP: 'ganos' 'โมง' 'ebug' 'igations' 'ington' 'žič' '当て' 'igia' 'ahead' 'adhar' 'fois' 'ľ'
+      BOT: ' leadership' ' trade' ' Trade' ' dialogues' '政策' ' Chemistry' ' Speakers' ' Leadership' ' Policy' 'Trade' ' policies' ' econ'
+L13 self_attn.o_proj sv0 (0.059):
+      TOP: 'Ris' ' Kov' ' VN' 'Riv' ' Tand' 'Por' ' Kv' ' Tav' ' Vid' ' Riv' ' Sheng' ' Verw'
+      BOT: '3' '1' '2' '8' '-' '7' '0' '5' ' abstracto' '4' 'zących' 'かと思います'
+L13 self_attn.o_proj sv1 (0.045):
+      TOP: ' August' ' turquoise' ' eighth' ' clay' ' Augustus' ' Lum' ' relaxation' ' Tier' ' yoga' ' April' ' Android' ' LX'
+      BOT: 'ıda' 'ênt' 'ıllı' 'เสียหาย' ' inputRange' 'であるが' 'irer' 'ınt' ' permas' 'íj' 'łąd' ' rifi'
+L14 self_attn.q_proj sv0 (0.068):
+      TOP: 'opre' '돠' '츈' ' Wai' 'opts' ' Grind' 'édé' '쯜' 'вь' '(//' '续' 'îne'
+      BOT: '7' '8' '9' '5' '4' '6' '3' '2' '1' '0' '８' '９'
+L14 self_attn.q_proj sv1 (0.053):
+      TOP: '規定' ' суть' '9' ' getSupport' ' Kennt' ' instruções' '把握' '7' ' averigu' ' обстоятельства' 'getConnection' 'ութ'
+      BOT: 'barrow' 'arith' 'fuck' ' reflected' 'itors' 'reversed' 'obed' ' going' 'hoes' ' criminality' 'borderColor' ' conspicuous'
+L14 mlp.gate_proj sv0 (0.107):
+      TOP: '7' '8' '5' '9' '6' '4' '3' '1' '2' '0' '９' '８'
+      BOT: ' Grind' ' Novo' 'opre' ' Prolong' ' ska' ' Pré' ' Ign' ' Aver' '\uf021' ' Cau' 'SampleSize' ' Adap'
+L14 mlp.gate_proj sv1 (0.065):
+      TOP: ' Zusammenhang' ' newUser' ' Origins' ' Corners' ' tad' ' Und' ' Forgotten' ' Synthetic' ' пробу' 'Orig' ' Reasonable' ' Wax'
+      BOT: 'otimes' 'endous' 'sendFile' 'folios' 'avian' 'webp' 'radiative' 'othermal' 'arith' 'downloader' 'hension' '顕'
+L14 mlp.down_proj sv0 (0.062):
+      TOP: 'ilerinin' ' hasattr' 'ytical' 'entingan' 'imų' 'alarını' '粹' 'razione' 'izability' ' {});' 'ėtų' 'uslar'
+      BOT: 'Quad' 'Seal' 'Io' ' Shad' 'Ox' 'Cycle' 'Eva' ' иннова' 'cw' 'Zu' '表示' ' Seal'
+L14 mlp.down_proj sv1 (0.055):
+      TOP: ' Thirteen' ' Fifteen' ' Sixteen' ' seventeen' ' العاشر' ' quinze' ' nineteen' ' sixteen' ' Eleven' ' thirteen' ' zwölf' 'Eight'
+      BOT: ' form' '.' ' g' ' care' ' free' ',' ' second' ' che' ' y' ' com' ' figure' ' and'
+L14 self_attn.o_proj sv0 (0.075):
+      TOP: ' homemade' ' lime' ' excursion' ' Tand' ' joyful' ' baffle' ' dorsal' ' visitor' ' Clifton' ' ASD' ' enthusiasm' ' regal'
+      BOT: 'yfikacji' '問い' 'zących' 'ุณ' ' imz' 'alarının' 'uslararası' 'ilerinin' 'owaną' 'akses' ' {})' '}])'
+L14 self_attn.o_proj sv1 (0.043):
+      TOP: ' Line' ' Chip' ' delir' ' Linen' ' Sheep' ' Corn' ' Papa' 'Line' ' Spur' 'vec' ' Layer' ' Copper'
+      BOT: 'oramic' 'elser' ' resTmp' '啰' ' dependences' 'katapos' 'ammad' 'ities' 'itatively' 'ayısıyla' 'atures' 'atórios'
+L17 self_attn.q_proj sv0 (0.080):
+      TOP: '0' ' ' '7' '8' '6' '3' '.' '4' 'throw' '1' 'born' ' µ'
+      BOT: ' کیشن' 'ulter' ' نشده' '格兰' ' productividad' ' specifica' 'cual' 'ishw' ' minimization' 'ştir' 'ソッド' 'ścic'
+L17 self_attn.q_proj sv1 (0.063):
+      TOP: '3' '1' '6' '7' '8' '5' '2' '9' '4' '0' 'istencia' 'urg'
+      BOT: 'êle' '耀' 'Parliament' ')\\\\' '),\\\\' ' radioButton' 'Europe' 'ésil' ' WISE' ' parliament' 'erView' 'Cate'
+L17 mlp.gate_proj sv0 (0.077):
+      TOP: 'lni' ' Estab' ' χαρακ' ' thrombo' 'ioribus' '格兰' 'alek' 'usern' 'ifat' 'eof' 'Estab' 'avacak'
+      BOT: '7' ' ' '8' '6' '4' '5' '0' '9' '3' ' dominant' ' absent' ' fundamental'
+L17 mlp.gate_proj sv1 (0.063):
+      TOP: '쯜' '㓦' '㝅' '㓡' '頩' '\ue022' '\uf0df' '䫝' '硣' '㳡' '䫒' ' _____________'
+      BOT: '5' '7' '6' '3' '8' '4' '9' '1' '2' '0' ' ' '৫'
+L17 mlp.down_proj sv0 (0.094):
+      TOP: '1' ' ' '*' ' (' '.' ',' ' in' '\n' ' *' '\n\n' ' the' '-'
+      BOT: '<unused452>' '<unused267>' '<unused931>' '<unused465>' '<unused318>' '<unused432>' '<unused287>' '<unused490>' '<unused588>' '<unused443>' '<unused284>' '<unused463>'
+L17 mlp.down_proj sv1 (0.064):
+      TOP: '<unused1685>' '<unused702>' 'MDEwOlJlcG' '<unused2071>' '<unused2003>' '<unused1667>' ' WndProc' '<unused467>' '<unused1001>' '<unused1210>' '<unused466>' '<unused2028>'
+      BOT: '2' '.' ' two' ' ' ',' ' in' ' (' ' and' ' to' ' Two' ' the' '-'
+L17 self_attn.o_proj sv0 (0.064):
+      TOP: 'シルバー' 'ochromatic' 'マンション' ' ireland' ' الليل' ' Peel' ' Napier' 'ベージュ' ' glycoprotein' ' Europeans' ' Europe' '⒈'
+      BOT: '3' '4' '9' '7' '5' '8' ' зато' '2' '٣' '6' 'риф' '၃'
+L17 self_attn.o_proj sv1 (0.043):
+      TOP: '1' ' ' '.' ' (' ',' '2' ' in' '-' '\n' ' and' ' -' ' one'
+      BOT: '<unused505>' '<unused931>' '<unused930>' '\uf738' 'ㄿ' '\uf739' '\uf64b' '\uf64c' '<unused414>' '<unused477>' '<unused721>' '<unused1870>'
+
+```

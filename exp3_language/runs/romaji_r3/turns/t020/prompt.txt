@@ -1,0 +1,14 @@
+OUTPUT of run 19 of at most 100:
+```
+L0H1: key vec |proj B|=0.24; induction-OV image norm 0.69; frac of image in P 0.003
+L0H2: key vec |proj B|=0.42; induction-OV image norm 1.34; frac of image in P 0.032
+L0H4: key vec |proj B|=0.51; induction-OV image norm 1.32; frac of image in P 0.003
+L0H5: key vec |proj B|=0.75; induction-OV image norm 2.24; frac of image in P 0.023
+random B dirs: frac image in P mean 0.023 max 0.139
+max gain B->P via L3H3 [1.796 1.207]  vs typical gain [5.557 4.907 4.339 4.24  4.144]
+cos(best B->P dir, L0H1 key vec)= 0.02, cos with B-proj normalized 0.08
+cos(best B->P dir, L0H2 key vec)= 0.13, cos with B-proj normalized 0.32
+cos(best B->P dir, L0H4 key vec)= 0.03, cos with B-proj normalized 0.07
+cos(best B->P dir, L0H5 key vec)= 0.19, cos with B-proj normalized 0.25
+
+```

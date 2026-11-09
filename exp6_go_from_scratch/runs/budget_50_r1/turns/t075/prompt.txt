@@ -1,0 +1,24 @@
+OUTPUT of Python run 58 of at most 120:
+```
+80 weak black repetition res 1 margin 16.5 len 80 cycle [('o', (8, 1), []), ('n', (8, 2), [((8, 2), 1.0), ((0, 0), 0.0), ((0, 1), 0.0)]), ('o', (8, 0), [])]
+   X.X.X.XXX  X.X.X.XXX  X.X.X.XXX  X.X.X.XXX
+   .X.X.X.X.  .X.X.X.X.  .X.X.X.X.  .X.X.X.X.
+   X.X.X.X.X  X.X.X.X.X  X.X.X.X.X  X.X.X.X.X
+   XXOXXXXXO  XXOXXXXXO  XXOXXXXXO  XXOXXXXXO
+   XOOXOX.XO  XOOXOX.XO  XOOXOX.XO  XOOXOX.XO
+   XXOOOXXXO  XXOOOXXXO  XXOOOXXXO  XXOOOXXXO
+   XOOOXXXOO  XOOOXXXOO  XOOOXXXOO  XOOOXXXOO
+   XXOOOXOO.  XXOOOXOO.  XXOOOXOO.  XXOOOXOO.
+   O.XOOOOO.  OO.OOOOO.  ..XOOOOO.  O.XOOOOO.
+94 weak black repetition res -1 margin 22.5 len 95 cycle [('n', (8, 2), [((8, 2), 1.0), ((7, 2), 0.0), ((0, 0), 0.0)]), ('o', 'P', []), ('n', (7, 2), [((7, 2), 1.0), ('P', 0.0), ((0, 0), 0.0)]), ('o', (8, 0), []), ('n', (8, 1), [((8, 1), 1.0), ((8, 2), 0.0), ((7, 2), 0.0)])]
+   OOXX.XXXX  OOXX.XXXX  OOXX.XXXX  OOXX.XXXX  OOXX.XXXX  OOXX.XXXX
+   OOX.XX.X.  OOX.XX.X.  OOX.XX.X.  OOX.XX.X.  OOX.XX.X.  OOX.XX.X.
+   OXXXX.X.X  OXXXX.X.X  OXXXX.X.X  OXXXX.X.X  OXXXX.X.X  OXXXX.X.X
+   OOXXXX.XX  OOXXXX.XX  OOXXXX.XX  OOXXXX.XX  OOXXXX.XX  OOXXXX.XX
+   OOOXX.XXX  OOOXX.XXX  OOOXX.XXX  OOOXX.XXX  OOOXX.XXX  OOOXX.XXX
+   O.OOOXX.X  O.OOOXX.X  O.OOOXX.X  O.OOOXX.X  O.OOOXX.X  O.OOOXX.X
+   .OOOXXXX.  .OOOXXXX.  .OOOXXXX.  .OOOXXXX.  .OOOXXXX.  .OOOXXXX.
+   XO.OOX.XX  XO.OOX.XX  XO.OOX.XX  XOXOOX.XX  XO.OOX.XX  XO.OOX.XX
+   .X.OOOX.X  .XXOOOX.X  .XXOOOX.X  .XXOOOX.X  O..OOOX.X  .X.OOOX.X
+
+```

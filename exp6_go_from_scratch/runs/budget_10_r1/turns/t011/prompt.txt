@@ -1,0 +1,40 @@
+OUTPUT of Python run 9 of at most 120:
+```
+27 me O
+.OXX.XX.X
+XOX.X.XXX
+XOXXOX.XO
+XOXX.XXX.
+.XX.XXXOX
+XX.XXXO.O
+XXXOOOOO.
+XXXOO.OOO
+.X.XOOO.O
+[('pass', 0.0), ((6, 4), -3.0), ((6, 5), -3.0), ((2, 2), -3.0), ((6, 3), -3.0), ((5, 6), -3.0)]
+max TA 10.000015 TB at max [((2, 6), 10.0, 7.5), ((5, 2), 9.9, 7.4), ((1, 5), 9.75, 7.25), ((3, 4), 9.75, 7.25), ((4, 3), 9.7, 7.2)]
+12 me O
+.XXX.OXO.
+XX.XOOXOO
+.XOXXOXOO
+XXXXXXXO.
+OOXXX.XXO
+OOX.XXXXX
+OOOXXO..O
+XOOOOXXX.
+X.OXX.X.X
+[((0, 5), 6.04), ((0, 7), 5.5), ('pass', 0.0), ((8, 1), -1.1), ((1, 4), -2.76), ((3, 2), -3.0)]
+max TA 10.750008 TB at max [((4, 5), 10.75, 8.25), ((1, 2), 8.55, 6.05), ((6, 6), 8.1, 5.6), ((5, 3), 7.4, 4.9), ((6, 7), 6.75, 4.25)]
+32 me X
+OXO.O.OO.
+O..OOOOOO
+OOO.OOOXO
+.OOO.OO.O
+OXOOOO.OO
+XXXXXXOO.
+X.XXXXXXO
+XXOOOOOXX
+XXO.OO.OO
+[((7, 6), 0.48), ('pass', 0.0), ((5, 6), -0.22), ((6, 8), -0.79), ((6, 6), -3.0), ((6, 5), -3.0)]
+max TA 11.350006 TB at max [((2, 3), 11.35, 8.85), ((3, 4), 10.35, 7.85), ((3, 7), 9.6, 7.1), ((0, 5), 9.25, 6.75), ((1, 2), 9.05, 6.55)]
+
+```

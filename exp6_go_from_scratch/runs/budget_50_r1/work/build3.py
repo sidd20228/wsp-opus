@@ -51,10 +51,10 @@ def build3(cfg, inp):
     for nm,sg in (('FM',1),('FO',-1),('F3M',1)): flood(D,C,nm,[nm],sg,512)
     for p in range(81):
         u=D.u('EYE',p); n=nb(p); g=dg(p); deg=len(n)
-        beta=0.25 if deg==4 else 0.5
+        a_,b_={4:(0.3,0.0),3:(0.75,-0.5),2:(0.5,0.5)}[deg]
         for q in n: D.W[C.u('Z',q),u]+=2
-        for q in g: D.W[C.u('Z',q),u]+=beta
-        D.b[u]=-6*deg+0.5-2*beta*len(g)
+        for q in g: D.W[C.u('Z',q),u]+=a_
+        D.b[u]=-6*deg+b_-2*a_*len(g)
     E=Lay(512)
     for nm in ['Z','FM','FO','SA','EY']: E.add(nm)
     copy(E,D,'Z')

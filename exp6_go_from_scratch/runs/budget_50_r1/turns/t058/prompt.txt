@@ -1,0 +1,5 @@
+OUTPUT of Python run 46 of at most 120:
+```
+{'n': 120323, 'false_r2': 3605, 'false_r3': 1946, 'false_r4': 1435} {'n': 1.0, 'false_r2': 0.03, 'false_r3': 0.0162, 'false_r4': 0.0119}
+
+```

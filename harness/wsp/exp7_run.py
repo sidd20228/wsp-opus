@@ -42,46 +42,44 @@ NUDGE = ("You have used {k} of {n} runs. Before finishing, test at least one hyp
          "If you still want to finish after that, give your final answer again.")
 UNREADABLE = ("Your final answer could not be read ({why}). Please reply again with your final answer, without a "
               "```python block, ending with the JSON block in the requested format.")
-WRAP = "exec(open('/opt/prelude.py').read())\nexec(compile(open('/tmp/your_code.py').read(), 'your_code', 'exec'))"
-
-
-def image(rnd, release):
-    import modal
-    return (modal.Image.debian_slim(python_version="3.10")
-            .pip_install("numpy==2.2.6")
-            .run_commands("useradd -m runner", "mkdir -p /work && chown runner /work")
-            .add_local_file(os.path.join(LOGS, "runs", rnd, "sandbox", "prelude.py"), "/opt/prelude.py", copy=True)
-            .add_local_dir(os.path.join(REL, release), "/case", copy=True)
-            .run_commands("chmod -R a-w /case")
-            .env({"OMP_NUM_THREADS": "8"}))
+WRAP = "exec(open('/opt/prelude.py').read())\nexec(compile(open('/tmp/in/your_code.py').read(), 'your_code', 'exec'))"
 
 
 class Box:
-    def __init__(self, rnd, release):
-        import modal
-        self.sb = modal.Sandbox.create("sleep", "infinity", app=sandbox.app(), image=image(rnd, release),
-                                       block_network=True, timeout=24 * 3600, cpu=8.0, memory=(8192, 49152),
-                                       workdir="/work")
+    """The conversation's sandbox on the H100 VM (wsp/remote.py): bubblewrap, no network; /case = the release
+    (read-only), /opt/prelude.py = the round's prelude (read-only), /work kept between runs on the VM."""
+
+    def __init__(self, rnd, release, conv_folder):
+        from wsp import remote
+        self.R = remote
+        self.case = f"{remote.BASE}/releases/{release}"
+        remote.rsync_to(os.path.join(REL, release), self.case)
+        self.prelude = f"{remote.BASE}/data/exp7/{rnd}/prelude.py"
+        remote.rsync_to(os.path.join(LOGS, "runs", rnd, "sandbox", "prelude.py"), self.prelude)
+        self.work = f"{remote.BASE}/work/exp7/{rnd}/{os.path.basename(conv_folder)}"
+        remote.sh(f"mkdir -p {self.work}")
 
     def run(self, code):
-        import time
-        t0 = time.time()
-        self.sb.filesystem.write_text(code, "/tmp/your_code.py")
-        p = self.sb.exec("runuser", "-u", "runner", "--", "timeout", "--signal=KILL", str(TIMEOUT),
-                         "python", "-I", "-c", WRAP, workdir="/work")
-        stdout, stderr = p.stdout.read(), p.stderr.read()
-        p.wait()
-        timed_out = p.returncode in (124, 137, -9) and time.time() - t0 >= TIMEOUT - 1
-        return sandbox._format(stdout, stderr, timed_out, TIMEOUT, MAX_OUT), round(time.time() - t0, 2)
+        return self.R.sandbox(["-I", "-c", WRAP], "sandbox_np", self.work,
+                              ro_binds=[(self.case, "/case"), (self.prelude, "/opt/prelude.py")],
+                              timeout=TIMEOUT, max_out=MAX_OUT, mem_gb=48, files={"your_code.py": code})
 
-    def put_dir(self, local, remote):
-        self.sb.exec("mkdir", "-p", remote).wait()
-        for name in sorted(os.listdir(local)):
-            self.sb.filesystem.copy_from_local(os.path.join(local, name), f"{remote}/{name}")
-        self.sb.exec("chown", "-R", "runner", "/work").wait()
+    def put_dir(self, local, sub):
+        self.R.rsync_to(local, f"{self.work}/{sub}")
+
+    def attention(self, texts, k, local_dir):
+        """The ATTENTION TOOL on the VM (wsp/exp7/attn_vm.py): files go to /work/attn/r<k>/ and a local copy."""
+        out = f"{self.work}/attn/r{k}"
+        p = self.R.sh(f"cd {self.R.BASE}/code && {self.R.BASE}/venvs/attn/bin/python wsp/exp7/attn_vm.py "
+                      f"{self.case} {k} {out}", input=json.dumps(texts).encode(), timeout=3600)
+        r = json.loads(p.stdout.decode().strip().splitlines()[-1])
+        if "error" in r:
+            return r["error"]
+        self.R.rsync_from(out, os.path.join(local_dir, "attn", f"r{k}"), excludes=("*.npy",))
+        return r["message"]
 
     def close(self):
-        self.sb.terminate()
+        pass
 
 
 def read_answer(text):
@@ -106,16 +104,14 @@ def read_answer(text):
 
 
 def run(rnd, release, effort="xhigh", max_turns=1000, tag=""):
-    from wsp.exp7.attention_tool import ToolError, call, parse_block
+    from wsp.exp7.attention_tool import ToolError, parse_block
     limit, max_nudges, nudge_below, _ = ROUNDS[rnd]
     first = open(os.path.join(LOGS, "runs", rnd, "prompt.txt")).read()
     folder = os.path.join(OUT, rnd, release + ("" if effort == "xhigh" else f"_{effort}") + tag)
     conv = conversation.Conversation(folder, effort, first, max_turns=max_turns)
     if conv.state["done"]:
         return True
-    box = Box(rnd, release)
-    for d in sorted(glob.glob(os.path.join(folder, "work", "attn", "r*"))):   # restore tool outputs after a restart
-        box.put_dir(d, "/work/attn/" + os.path.basename(d))
+    box = Box(rnd, release, folder)
 
     def handle(text, c):
         m = BLOCK.search(text)
@@ -150,8 +146,7 @@ def run(rnd, release, effort="xhigh", max_turns=1000, tag=""):
         else:
             j = c.count("tool_calls", 1)
             try:
-                out = call(release, parse_block(body), j, os.path.join(c.folder, "work"))
-                box.put_dir(os.path.join(c.folder, "work", "attn", f"r{j}"), f"/work/attn/r{j}")
+                out = box.attention(parse_block(body), j, os.path.join(c.folder, "work"))
             except ToolError as e:
                 out = str(e)
             c.tool_call({"kind": "attention", "run": k, "call": j, "request": body, "out": out[:6000]})

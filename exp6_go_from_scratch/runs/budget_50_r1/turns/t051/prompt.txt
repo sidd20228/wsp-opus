@@ -1,0 +1,24 @@
+OUTPUT of Python run 41 of at most 120:
+```
+33 black [('o', (5, 0), []), ('n', (3, 0), [((3, 0), 1.0), ((0, 0), 0.0), ((0, 1), 0.0), ((0, 2), 0.0)]), ('o', (8, 4), []), ('n', 'P', [('P', 1.0), ((2, 0), 0.0), ((8, 8), 0.0), ((0, 0), 0.0)]), ('o', (2, 0), []), ('n', (8, 3), [((8, 3), 1.0), ('P', 0.0), ((0, 0), 0.0), ((0, 1), 0.0)])]
+   .XXXXXXX.   .XXXXXXX.   .XXXXXXX.   .XXXXXXX.   .XXXXXXX.   .XXXXXXX.
+   XXX.X.XXX   XXX.X.XXX   XXX.X.XXX   XXX.X.XXX   XXX.X.XXX   XXX.X.XXX
+   OXXX.XXOO   .XXX.XXOO   .XXX.XXOO   .XXX.XXOO   OXXX.XXOO   OXXX.XXOO
+   .OOXXXOOO   XOOXXXOOO   XOOXXXOOO   XOOXXXOOO   .OOXXXOOO   .OOXXXOOO
+   OOXXXXXOO   OOXXXXXOO   OOXXXXXOO   OOXXXXXOO   OOXXXXXOO   OOXXXXXOO
+   OOX.XOOOX   OOX.XOOOX   OOX.XOOOX   OOX.XOOOX   OOX.XOOOX   OOX.XOOOX
+   XOOXXXXO.   XOOXXXXO.   XOOXXXXO.   XOOXXXXO.   XOOXXXXO.   XOOXXXXO.
+   .OOOX.XOX   .OOOX.XOX   .OOOX.XOX   .OOOX.XOX   .OOOX.XOX   .OOOX.XOX
+   XXOX.XXO.   XXOX.XXO.   XXO.OXXO.   XXO.OXXO.   XXO.OXXO.   XXOX.XXO.
+48 black [('o', (2, 0), []), ('n', (0, 0), [((0, 0), 1.0), ('P', 0.0), ((0, 1), 0.0), ((0, 2), 0.0)]), ('o', (1, 8), []), ('n', 'P', [('P', 1.0), ((0, 1), 0.0), ((0, 4), 0.0), ((0, 0), 0.0)]), ('o', (0, 1), []), ('n', (2, 8), [((2, 8), 1.0), ('P', 0.0), ((0, 0), 0.0), ((0, 1), 0.0)])]
+   .OXX.X.XX   X.XX.X.XX   X.XX.X.XX   X.XX.X.XX   .OXX.X.XX   .OXX.X.XX
+   OXX.X.XX.   OXX.X.XX.   OXX.X.XXO   OXX.X.XXO   OXX.X.XXO   OXX.X.XX.
+   OOXX.XXOX   OOXX.XXOX   OOXX.XXO.   OOXX.XXO.   OOXX.XXO.   OOXX.XXOX
+   .OXXXXXOO   .OXXXXXOO   .OXXXXXOO   .OXXXXXOO   .OXXXXXOO   .OXXXXXOO
+   OOOXX.XOO   OOOXX.XOO   OOOXX.XOO   OOOXX.XOO   OOOXX.XOO   OOOXX.XOO
+   OOOOXXOO.   OOOOXXOO.   OOOOXXOO.   OOOOXXOO.   OOOOXXOO.   OOOOXXOO.
+   .OOXXXXOX   .OOXXXXOX   .OOXXXXOX   .OOXXXXOX   .OOXXXXOX   .OOXXXXOX
+   O.OOOOOOO   O.OOOOOOO   O.OOOOOOO   O.OOOOOOO   O.OOOOOOO   O.OOOOOOO
+   .OO.O.OO.   .OO.O.OO.   .OO.O.OO.   .OO.O.OO.   .OO.O.OO.   .OO.O.OO.
+
+```

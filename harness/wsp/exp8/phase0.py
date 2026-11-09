@@ -18,6 +18,17 @@ from evaluate import evaluate  # noqa: E402
 OUT = os.path.join(C.ROOT, "results", "phase0", "exp8_check.json")
 MODELS = {"unedited": ("base", "unedited"),
           "p50c": (os.path.join(C.LOGS, "runs", "p50c", "edit"), "astra_p50c")}
+NOTES = [
+    "gpu_hours counts the evaluation jobs' wall time only (phase-0 jobs that finished). Not counted: development probes "
+    "and forward-pass tests (~1.5 H100-h), two forward-pass test containers that hung in vLLM and ran into the 3 h "
+    "timeout (~6.5 H100-h; fixed: single-use containers and a container-local vLLM compile cache), p50c GPQA jobs "
+    "killed when the workspace hit its Modal spend limit (~0.7 H100-h).",
+    "p50c GPQA Diamond: not finished; the Modal workspace exceeded its spend limit on 2026-11-09 ~01:35 IST. Run "
+    "`modal deploy wsp/exp8/app.py` and `python wsp/exp8/phase0.py gpqa` once the limit is raised.",
+    "GPQA Diamond option order is a deterministic shuffle by Record ID (the original's shuffle is not released).",
+    "p50c MATH-500 is 3.0 points above the released number (paired per-problem z = 3.1), with 2 points fewer answers cut "
+    "at the token limit (31.1 vs 33.1); all other numbers are within 1.2 points (|z| < 1).",
+]
 TOL = 4.0      # percentage points: "a few points of drift" (vLLM version, batching); beyond it: investigate
 
 
@@ -88,7 +99,7 @@ def report():
            "vllm": C.VLLM_VERSION, "transformers": C.TRANSFORMERS_VERSION, "gpu": "Modal H100",
            "model": f"{C.HF_REPO}@{C.HF_REV} (text-only export, 320 tensors)",
            "p50c_edit": "lm_understand-logs/exp8_math/runs/p50c/edit rebuilt with code/apply_edit.py, both tensor "
-                        "hashes OK", "tolerance_points": TOL, "results": rows, "gpu_hours": round(gpu_h, 2),
+                        "hashes OK", "tolerance_points": TOL, "notes": NOTES, "results": rows, "gpu_hours": round(gpu_h, 2),
            "updated": time.strftime("%Y-%m-%d %H:%M:%S")}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(out, open(OUT, "w"), indent=1)

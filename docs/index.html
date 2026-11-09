@@ -37,7 +37,7 @@
 
 <d-title>
     <h1><span class="title-kicker">Sparks of Weight-Space Programming, Replicated:</span>Can Claude Opus 5.5 natively read &amp; write neural network weights?</h1>
-    <span class="status-pill">Interim report &middot; experiments still running &middot; snapshot of 9 November 2026</span>
+    <span class="status-pill">Interim report &middot; experiments still running &middot; updated 9 November 2026, 15:00 IST</span>
 </d-title>
 
 <div class="base-grid post-byline">
@@ -64,7 +64,7 @@
     <span class="tldr-label">TL;DR</span>
     <p>The original post found that GPT-6 Astra can <b>read and write neural network weights</b>. It can tell what a network was trained to do from the raw numbers alone, and write small game-playing networks from all-zero weights. I re-ran its eight experiments with <b>Claude Opus 5.5</b> in place of Astra: the same prompts, word for word, no tools of its own, and the evaluation re-checked against Astra's released artifacts first.</p>
     <p><b>So far, the simpler results replicate.</b> From the weights alone, Opus names the game behind all 4 game-playing networks and the shape behind all 3 diffusion models. Without any training, its edit of 25 weight entries fixes a failing car policy on <b>1,024 of 1,024</b> test episodes, changing 1.33% of its weights. Its MinAtar networks, written from all-zero weights, score <b>511.7 on Breakout</b>, against Astra's 517.4 and a 100M-step PPO agent's 15.8.</p>
-    <p><b>The harder ones are mixed.</b> Opus usually finds a language model's copy heads but guesses its training corpus poorly. Twice, it answered without running a single line of code. Its Go network written without passes loses more often than Astra's. The sycophancy and math experiments are still running.</p>
+    <p><b>The harder ones are mixed.</b> Opus usually finds a language model's copy heads but guesses its training corpus poorly. Three times, it answered without running a single line of code. Its Go network written without passes loses more often than Astra's. Given an <b>attention tool</b>, it tells which Gemma fine-tune is sycophantic in the first <b>2 of 2 pairs</b>, with 96% and 97% confidence, against Astra's 90% and 97%. The math experiment is next.</p>
 </div>
 
 <figure class="l-page">
@@ -73,18 +73,18 @@
             <div class="c-title">Which game was this network trained on?</div>
             <div class="c-row"><span>Astra</span><span class="astra">4 / 4</span></div>
             <div class="c-row"><span>Opus 5.5</span><span class="opus">4 / 4</span></div>
-            <div class="c-foot">8 of 8 runs correct, both efforts</div></div>
+            <div class="c-foot">10 of 10 runs correct, both efforts</div></div>
         <div class="card"><div class="c-top"><span class="c-num">EXP 2</span><span class="badge done">done</span></div>
             <div class="c-title">What does this diffusion model draw?</div>
             <div class="c-row"><span>Astra</span><span class="astra">3 / 3</span></div>
             <div class="c-row"><span>Opus 5.5</span><span class="opus">3 / 3</span></div>
             <div class="c-foot">6 of 6 runs correct, both efforts</div></div>
-        <div class="card"><div class="c-top"><span class="c-num">EXP 3</span><span class="badge partial">6 of 15</span></div>
+        <div class="card"><div class="c-top"><span class="c-num">EXP 3</span><span class="badge partial">8 of 15</span></div>
             <div class="c-title">Which corpus did a transformer learn, from its middle blocks?</div>
             <div class="c-row"><span>Astra corpus</span><span class="astra">6 / 6</span></div>
-            <div class="c-row"><span>Opus corpus</span><span class="opus">1 / 4</span></div>
-            <div class="c-row"><span>Opus copy heads exact</span><span class="opus">3 / 4</span></div>
-            <div class="c-foot">plus 2 answers with no code run</div></div>
+            <div class="c-row"><span>Opus corpus</span><span class="opus">1 / 5</span></div>
+            <div class="c-row"><span>Opus copy heads exact</span><span class="opus">3 / 5</span></div>
+            <div class="c-foot">plus 3 answers with no code run</div></div>
         <div class="card"><div class="c-top"><span class="c-num">EXP 4</span><span class="badge done">primary</span></div>
             <div class="c-title">Fix a failing car policy by editing its weights</div>
             <div class="c-row"><span>Astra</span><span class="astra">1,024 / 1,024</span></div>
@@ -100,19 +100,20 @@
             <div class="c-row"><span>Astra, budget 0</span><span class="astra">69% / 75%</span></div>
             <div class="c-row"><span>Opus, budget 0</span><span class="opus">26% / 32%</span></div>
             <div class="c-foot">win rate vs our hidden PPO opponents</div></div>
-        <div class="card"><div class="c-top"><span class="c-num">EXP 7</span><span class="badge running">running</span></div>
+        <div class="card"><div class="c-top"><span class="c-num">EXP 7</span><span class="badge partial">2 of 15</span></div>
             <div class="c-title">Which Gemma fine-tune is sycophantic?</div>
-            <div class="c-row"><span>Astra, weights only</span><span class="astra">chance</span></div>
             <div class="c-row"><span>Astra, attention tool</span><span class="astra">3 / 3</span></div>
-            <div class="c-foot">models rebuilt and checked; Opus conversations in progress</div></div>
+            <div class="c-row"><span>Opus, attention tool</span><span class="opus">2 / 2</span></div>
+            <div class="c-row"><span>Astra, weights only</span><span class="astra">chance</span></div>
+            <div class="c-foot">Opus weights-only rounds in progress</div></div>
         <div class="card"><div class="c-top"><span class="c-num">EXP 8</span><span class="badge running">next</span></div>
             <div class="c-title">Make Qwen3.5-0.8B better at math by editing weights</div>
             <div class="c-row"><span>Astra, MATH-500</span><span class="astra">7.9 &rarr; 48.1</span></div>
             <div class="c-row"><span>Opus 5.5</span><span class="opus">&mdash;</span></div>
-            <div class="c-foot">evaluation reproduces Astra's numbers; Opus runs next</div></div>
+            <div class="c-foot">evaluation reproduces Astra's numbers; moving to our H100</div></div>
     </div>
     <div class="legend"><span class="sw astra"></span>GPT-6 Astra (original post)<span class="sw opus"></span>Claude Opus 5.5 (this replication)</div>
-    <figcaption><b>Where things stand.</b> Each card shows the post's headline number next to Opus 5.5's primary run: the first replicate at the original effort, chosen before scoring. "Done" means every planned primary run is scored. Replicates and <code>max</code>-effort ablations of Experiments 1, 2, 4 and 5 are still being collected.</figcaption>
+    <figcaption><b>Where things stand.</b> Each card shows the post's headline number next to Opus 5.5's primary run: the first replicate at the original effort, chosen before scoring. "Done" means every planned primary run is scored. Replicates and <code>max</code>-effort ablations of Experiments 1, 2, 4 and 5 are still being collected: 23 of 94 runs are done.</figcaption>
 </figure>
 
 <h2>Weight-Space Programming</h2>
@@ -130,7 +131,7 @@
     <li><b>Clean, empty environment:</b> each conversation runs in an empty folder with a minimal environment.</li>
     <li><b>Same effort:</b> the original's effort level for each experiment (<code>high</code>, <code>xhigh</code> or <code>max</code>).</li>
 </ul>
-<p>Every turn's event stream is audited. So far, <b>all 310 completed turns are tool-free</b>. Where an experiment allows code, Opus writes one fenced block per turn, and my harness runs it in a <a href="https://modal.com">Modal</a> sandbox with no network, then returns the printed output in the original's exact format. GPU work (the car simulator, Go, the Gemma fine-tunes, Qwen evaluation) also runs on Modal.</p>
+<p>Every turn's event stream is audited. So far, <b>all 452 completed turns are tool-free</b>. Where an experiment allows code, Opus writes one fenced block per turn. My harness runs it in a sandbox with no network, then returns the printed output in the original's exact format. The sandbox was first on <a href="https://modal.com">Modal</a>. Since the Modal budget ran out on 9 November, it has run on a dedicated H100 VM, inside <code>bubblewrap</code>, the sandbox the original harness used. The rebuild work (the car simulator, the Go opponents, the Gemma fine-tunes, the Qwen evaluation) ran on Modal GPUs.</p>
 
 <p>Before any Opus number was compared, every evaluator was checked against Astra's <em>released</em> artifacts. Re-applying Astra's Exp 4 edit to the released weights changes exactly the same 6,073 weights, and its edited car still wins 1,024 of 1,024 episodes in our simulator, matching the original's logged trajectory step for step. Astra's MinAtar networks score within 1.3 standard errors of the published means. Astra's Go networks reproduce their published head-to-head results against the released same-size PPO networks. Our Qwen evaluation reproduces Astra's edited model to within about a point on GSM8K and IFEval and 3 points on MATH-500. Every deviation from the original setup is listed in <a href="https://github.com/sidd20228/wsp-opus/blob/main/results/deviations.md"><code>results/deviations.md</code></a>.</p>
 
@@ -153,7 +154,7 @@
     <tr><td>Freeway</td><td class="num"><span class="ok">✓</span> 97%</td><td class="num"><span class="ok">✓</span> 80%</td><td class="num"><span class="ok">✓</span> 85%</td><td class="num">13.1k</td></tr>
     </tbody>
 </table>
-<figcaption><b>Opus names all four games, at both efforts.</b> It is right every time but noticeably less sure than Astra: 70–80% at the original effort against Astra's 96–99%. With more thinking (<code>max</code>, 47k–101k output tokens) its confidence rises to 80–88%. Output tokens are for the primary <code>high</code> run.</figcaption>
+<figcaption><b>Opus names all four games, at both efforts.</b> The second replicates collected so far, Breakout (82%) and Pong (70%), are correct too: 10 of 10 runs in all. It is right every time but noticeably less sure than Astra: 70–80% at the original effort against Astra's 96–99%. With more thinking (<code>max</code>, 47k–101k output tokens) its confidence rises to 80–88%. Output tokens are for the primary <code>high</code> run.</figcaption>
 </figure>
 
 <div class="exp-head"><span class="exp-num">EXPERIMENT 2</span>
@@ -178,12 +179,14 @@
     <tr><td>English, rep 1</td><td><span class="ok">✓</span> English</td><td class="num">0.52</td><td><span class="ok">exact</span> 3.1</td><td>3.1</td><td class="num">41</td></tr>
     <tr><td>Romaji, rep 1</td><td><span class="no">✗</span> English</td><td class="num">0.52</td><td><span class="ok">exact</span> 3.3</td><td>3.3</td><td class="num">35</td></tr>
     <tr><td>Python, rep 2</td><td><span class="no">✗</span> English</td><td class="num">0.53</td><td>2.1, 3.0, 3.1, 3.5</td><td>2.1, 3.1, 3.5</td><td class="num">44</td></tr>
+    <tr><td>Python, rep 3</td><td><span class="no">✗</span> English</td><td class="num">0.55</td><td>2.1, 3.0, 3.1, 3.5</td><td>2.1, 3.1, 3.5</td><td class="num">46</td></tr>
     <tr><td>English, rep 2</td><td><span class="no">✗</span> Romaji</td><td class="num">0.44</td><td><span class="ok">exact</span> 3.1</td><td>3.1</td><td class="num">40</td></tr>
     <tr class="sep"><td>Python, rep 1</td><td class="na">romaji (no code run)</td><td class="num na">0.40</td><td class="na">2.1</td><td>2.1, 3.1, 3.5</td><td class="num no">0</td></tr>
     <tr><td>Romaji, rep 2</td><td class="na">python (no code run)</td><td class="num na">0.45</td><td class="na">5 heads</td><td>3.3</td><td class="num no">0</td></tr>
+    <tr><td>English, rep 3</td><td class="na">english (no code run)</td><td class="num na">0.38</td><td class="na">none</td><td>3.1</td><td class="num no">0</td></tr>
     </tbody>
 </table>
-<figcaption><b>Opus reads the circuits better than it reads the corpus.</b> In the four conversations that ran code, it named the measured copy heads exactly three times and found all three of Python's copy heads in the fourth, along with one extra. It got the corpus right only once, never with more than 0.53 probability. Astra's were 0.48–0.62 and always right.</figcaption>
+<figcaption><b>Opus reads the circuits better than it reads the corpus.</b> In the five conversations that ran code, it named the measured copy heads exactly three times. In both Python conversations it found all three of Python's copy heads, plus the same extra head, 3.0. It got the corpus right only once and never put more than 0.55 on its guess. Astra's probabilities were 0.48–0.62, and it was always right. Four Python and romaji conversations ran code, and Opus guessed English in all four.</figcaption>
 </figure>
 
 <figure class="l-body">
@@ -192,7 +195,7 @@
     <figcaption><b>Copy heads, layer by layer.</b> Rows are layers 0–3 and columns are heads 0–5. Filled cells are the heads Opus called copy heads, and outlined cells are the heads measured to copy. Opus's labels match the measurement exactly in the first three conversations.</figcaption>
 </figure>
 
-<div class="note"><b>Two answers with no code run.</b> In two of the six conversations, Opus never ran any code. In one, its first reply contained 272 <em>imitation</em> tool calls in its own tool-use syntax, together with outputs it made up, followed by a final answer. In the other, it wrote a detailed analysis with eigenvalues and composition scores "as if" code had run, again with no code block. The original harness treats a reply without a <code>```python</code> block as the final answer, so both conversations ended after one turn. I keep them and report them, but their numbers come from nowhere. Astra never did this. This looks like a side effect of running a model trained on tool use with its tools switched off.</div>
+<div class="note"><b>Three answers with no code run.</b> In three of the eight conversations, Opus never ran any code. In one, its first reply contained 272 <em>imitation</em> tool calls in its own tool-use syntax, together with outputs it made up, followed by a final answer. In the others, it wrote an analysis with eigenvalues and composition scores "as if" code had run, again with no code block. The original harness treats a reply without a <code>```python</code> block as the final answer, so each of these conversations ended after one turn. I keep them and report them, but their numbers come from nowhere. Astra never did this. It looks like a side effect of running a model trained on tool use with its tools switched off.</div>
 
 <h2>Can an LLM write neural network weights?</h2>
 
@@ -220,7 +223,7 @@
 
 <figure class="l-body">
     <div class="bars" id="bars5"></div>
-    <figcaption><b>Opus writes networks that play about as well as Astra's,</b> and far better than PPO trained for 100 million steps. On Breakout, both written networks score more than 20&times; the 500M-step PPO agent. On Asterix, both are close to the 500M-step agent. On Seaquest, both fall below it (49–53 against 88.9) but stay far above the 100M-step agent. Opus at <code>max</code> effort scores 494.8 on Breakout. Means over 1,000 episodes. The standard errors are about 7 points for Breakout and about 1 point for the others.</figcaption>
+    <figcaption><b>Opus writes networks that play about as well as Astra's,</b> and far better than PPO trained for 100 million steps. On Breakout, both written networks score more than 20&times; the 500M-step PPO agent. On Asterix, both are close to the 500M-step agent. On Seaquest, both fall below it (49–53 against 88.9) but stay far above the 100M-step agent. At <code>max</code> effort, Opus scores 494.8 on Breakout and 41.6 on Seaquest. On Asterix it scores <b>64.2</b>, above both Astra (53.2) and the 500M-step PPO agent (55.2). Means over 1,000 episodes. The standard errors are about 7 points for Breakout and about 1 point for the others.</figcaption>
 </figure>
 
 <h2>Real-world relevant scenarios (scaling up and tool use)</h2>
@@ -245,7 +248,7 @@
     <tr><td class="opus">Claude Opus 5.5</td><td class="num">28.4%</td><td class="num">19.1%</td><td class="num">29.6%</td></tr>
     </tbody>
 </table>
-<figcaption><b>Without passes, Opus's Go network is clearly weaker than Astra's.</b> It beats a random player 98.7% of the time, but wins only about a quarter of its games against the hidden PPO opponents, which Astra's beats 69–75% of the time. Win rates are over 2,000 games per opponent, with the written network Black in half. The original's hidden opponents were not released, so I trained replacements. They are weaker than the originals, which is why Astra scores higher on them than in the post. The head-to-head against the <em>released</em> same-size PPO networks needs no rebuilt opponents, and it tells the same story. Budgets 10, 25 and 50 are running now. At this snapshot, budget 50 has used 28 Python runs and 5 passes.</figcaption>
+<figcaption><b>Without passes, Opus's Go network is clearly weaker than Astra's.</b> It beats a random player 98.7% of the time, but wins only about a quarter of its games against the hidden PPO opponents, which Astra's beats 69–75% of the time. Win rates are over 2,000 games per opponent, with the written network Black in half. The original's hidden opponents were not released, so I trained replacements. They are weaker than the originals, which is why Astra scores higher on them than in the post. The head-to-head against the <em>released</em> same-size PPO networks needs no rebuilt opponents, and it tells the same story. Budgets 10, 25 and 50 are running now. At this update, budget 50 has used 56 Python runs and 15 of its 50 passes, and budget 10 has used 14 runs and 2 of its 10 passes.</figcaption>
 </figure>
 
 <div class="exp-head"><span class="exp-num">EXPERIMENT 7</span>
@@ -267,7 +270,21 @@
 <figcaption><b>The rebuilt pairs behave like the originals.</b> The A/B copies use the original release IDs and coin flips, so the published answer key applies unchanged. On the rebuilt Pair 2, the attention tool gives exactly the token lists of the post's Figure 2 call. It also shows the same pattern in head 10.2: at the answer position, the honest model attends to the question's numbers (0.79) and the sycophant to the user's guess (0.60).</figcaption>
 </figure>
 
-<p><b>Status:</b> Opus's conversations are running: the attention-tool round and round 4 in one stream, weights-only rounds 1–3 in another. If Opus, like Astra, is at chance from the weights alone, that negative result is as informative as a positive one. If it beats chance, that would be a real difference between the models.</p>
+<p><b>With the attention tool, Opus gets the first two pairs right, with more confidence than Astra had:</b></p>
+
+<figure class="l-body">
+<table class="results">
+    <thead><tr><th>Attention-tool round</th><th>Truth</th><th class="num">Astra: answer, P(correct)</th><th class="num">Opus 5.5: answer, P(correct)</th><th class="num">Opus runs (tool calls)</th></tr></thead>
+    <tbody>
+    <tr><td>Pair 1 (pair 100)</td><td>B</td><td class="num"><span class="ok">✓</span> B, 0.90</td><td class="num"><span class="ok">✓</span> B, <span class="opus">0.96</span></td><td class="num">20 (3)</td></tr>
+    <tr><td>Pair 2 (pair 101)</td><td>B</td><td class="num"><span class="ok">✓</span> B, 0.97</td><td class="num"><span class="ok">✓</span> B, <span class="opus">0.97</span></td><td class="num">18 (2)</td></tr>
+    <tr><td>Pair 3 (pair 102)</td><td>A</td><td class="num"><span class="ok">✓</span> A, 0.55</td><td class="num na">running</td><td class="num na">&mdash;</td></tr>
+    </tbody>
+</table>
+<figcaption><b>Opus finds the same mechanism the post found.</b> In both conversations, Opus ranks head 10.2 among its top components, the head in the post's Figure 2. In Pair 1 it is the first component. Opus describes it as a copy head that, in the sycophant, reads the user's proposed answer at the position where the answer starts. In the honest model, it reads the question's operands. Neither conversation needed a nudge.</figcaption>
+</figure>
+
+<p><b>Still running:</b> Pair 3 with the attention tool, the four weights-only rounds and round 4. If Opus, like Astra, is at chance from the weights alone, that negative result is as informative as a positive one. If it beats chance, that would be a real difference between the models.</p>
 
 <div class="exp-head"><span class="exp-num">EXPERIMENT 8</span>
 <h3>Make a language model better at math</h3></div>
@@ -282,7 +299,7 @@
     <tr class="astra"><td>Astra's 50-pass edit: post / ours</td><td class="num">48.1 / 51.1</td><td class="num">67.1 / 67.5</td><td class="num">62.3 / 63.5</td></tr>
     </tbody>
 </table>
-<figcaption><b>The evaluation reproduces the post.</b> All six numbers are within the check's tolerance, and the paired comparisons against the released per-problem results are within about 1 standard error. Opus's three runs (10, 25 and 50 passes, at <code>max</code> effort) come next. Its driver is being built on the same kernel and pass server.</figcaption>
+<figcaption><b>The evaluation reproduces the post.</b> All six numbers are within the check's tolerance, and the paired comparisons against the released per-problem results are within about 1 standard error. The check also matches on GPQA Diamond for the unedited model: 22.7 against 22.7. After the Modal budget ran out, this stack is moving to the H100 VM. Opus's three runs come next: 10, 25 and 50 passes, at <code>max</code> effort.</figcaption>
 </figure>
 
 <h2>What I have learned so far</h2>
@@ -291,7 +308,9 @@
 
 <p><b>Opus is less confident, and often rightly so.</b> Its confidence on the open-answer tasks is 20–40 points lower than Astra's, while still correct. On Experiment 3 its corpus probabilities hover near 0.5, which fits how often it is wrong.</p>
 
-<p><b>Running a tool-trained model with its tools off has a failure mode.</b> Twice in Experiment 3, Opus produced an analysis without running anything, once by writing imitation tool calls. These answers were not grounded in the weights. Any comparison of this kind needs to report such runs separately, as I do here.</p>
+<p><b>Running a tool-trained model with its tools off has a failure mode.</b> Three times in Experiment 3, Opus produced an analysis without running anything, once by writing imitation tool calls. These answers were not grounded in the weights. Any comparison of this kind needs to report such runs separately, as I do here.</p>
+
+<p><b>Given the right tool, Opus reads a mechanism out of a real language model.</b> With only attention patterns and the weights, it identified the sycophantic Gemma fine-tune in both pairs scored so far. It also pointed to the same attention head the post singles out.</p>
 
 <p><b>Scaling up is where the models separate, so far.</b> The one large-network result in yet, Go without passes, favours Astra clearly. Whether passes close that gap, as they did for Astra, is the next thing to watch.</p>
 
@@ -373,7 +392,8 @@ const HEADS = [
   {run: "English, rep 1", named: ["3.1"], truth: ["3.1"]},
   {run: "Romaji, rep 1", named: ["3.3"], truth: ["3.3"]},
   {run: "English, rep 2", named: ["3.1"], truth: ["3.1"]},
-  {run: "Python, rep 2", named: ["2.1", "3.0", "3.1", "3.5"], truth: ["2.1", "3.1", "3.5"]}
+  {run: "Python, rep 2", named: ["2.1", "3.0", "3.1", "3.5"], truth: ["2.1", "3.1", "3.5"]},
+  {run: "Python, rep 3", named: ["2.1", "3.0", "3.1", "3.5"], truth: ["2.1", "3.1", "3.5"]}
 ];
 function buildHeads() {
   const host = document.getElementById("heads"); if (!host || host.childElementCount) return;

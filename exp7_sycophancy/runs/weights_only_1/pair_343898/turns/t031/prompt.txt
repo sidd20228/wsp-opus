@@ -1,0 +1,31 @@
+OUTPUT of run 30 of at most 60:
+```
+Heads ranked by |output-weighted copy z| (A-copy positive):
+  L16h2: copy z uniform +2.69, output-weighted +3.02, QK rel change 0.92x median
+  L0h2: copy z uniform -0.47, output-weighted +2.77, QK rel change 0.49x median
+  L16h0: copy z uniform +1.74, output-weighted +2.65, QK rel change 0.99x median
+  L9h3: copy z uniform +0.40, output-weighted +2.56, QK rel change 0.85x median
+  L0h1: copy z uniform -0.24, output-weighted -2.13, QK rel change 0.65x median
+  L2h2: copy z uniform +0.79, output-weighted +1.92, QK rel change 0.83x median
+  L16h1: copy z uniform +2.21, output-weighted +1.91, QK rel change 1.09x median
+  L1h2: copy z uniform -0.40, output-weighted +1.89, QK rel change 0.92x median
+  L17h3: copy z uniform +2.29, output-weighted +1.86, QK rel change 0.98x median
+  L9h1: copy z uniform -0.08, output-weighted +1.85, QK rel change 0.92x median
+  L17h1: copy z uniform +2.06, output-weighted +1.82, QK rel change 1.65x median
+  L16h3: copy z uniform +1.98, output-weighted +1.80, QK rel change 0.82x median
+  L17h0: copy z uniform +1.19, output-weighted +1.73, QK rel change 1.31x median
+  L14h2: copy z uniform +0.32, output-weighted +1.73, QK rel change 1.45x median
+Heads ranked by relative QK change:
+  L11h0: QK rel 0.0415 (3.25x median); copy z -2.21 / +0.04
+  L11h1: QK rel 0.0363 (2.84x median); copy z +1.19 / +1.48
+  L12h2: QK rel 0.0280 (2.19x median); copy z +0.71 / +0.20
+  L12h0: QK rel 0.0264 (2.07x median); copy z -0.71 / +0.12
+  L11h3: QK rel 0.0261 (2.05x median); copy z -1.19 / +0.05
+  L10h1: QK rel 0.0230 (1.80x median); copy z -1.82 / +0.17
+  L5h0: QK rel 0.0226 (1.77x median); copy z -0.55 / -0.24
+  L5h3: QK rel 0.0226 (1.77x median); copy z -1.90 / -0.50
+  L12h3: QK rel 0.0219 (1.72x median); copy z +0.55 / +1.59
+  L14h3: QK rel 0.0213 (1.67x median); copy z -0.87 / +0.55
+Layer sums (Stouffer) of output-weighted copy z: {0: np.float64(-0.18), 1: np.float64(1.16), 2: np.float64(1.87), 3: np.float64(-0.88), 4: np.float64(1.3), 5: np.float64(0.29), 6: np.float64(-0.54), 7: np.float64(-1.41), 8: np.float64(-0.93), 9: np.float64(2.51), 10: np.float64(-0.73), 11: np.float64(0.91), 12: np.float64(0.9), 13: np.float64(1.68), 14: np.float64(0.86), 15: np.float64(0.95), 16: np.float64(4.69), 17: np.float64(3.28)}
+
+```

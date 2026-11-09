@@ -1,0 +1,75 @@
+OUTPUT of Python run 49 of at most 120:
+```
+Counter({('two passes', 1): 115, ('two passes', -1): 6, ('move limit', 1): 4, ('repetition', 1): 2, ('repetition', -1): 1})
+5 black two passes margin -0.5 len 112 cap 21 lost 20
+   .........   ..X..X...   X.X.XX.XX
+   ...XXOXX.   .X.XX.XX.   XXXXX.XXX
+   ..X.OOXO.   .OXX.XXO.   OOXX.XXOX
+   ..XXOXOO.   .OXXXXOO.   OOXXXXOOO
+   ....XXXO.   .OOXXXXOO   OOOXXXXOO
+   .O.O.X.O.   .O.OXXXO.   OOXXXXXO.
+   .OO.X.XO.   .OOXXXXOO   OOOXXXXOO
+   ..O......   .XOOXOOO.   .OOOXOOOO
+   .........   .X..XO.O.   O.OXXOOO.
+7 black repetition margin 11.5 len 91 cap 17 lost 5 cycle [('n', (8, 1), 1.0), ('o', (1, 8), ''), ('n', 'P', 1.0), ('o', (8, 0), ''), ('n', (2, 8), 1.0)]
+   .....X...   ..XX.X...   XXXX.X.XX
+   .X..X.X..   .XO.X.XX.   .X.XX.XX.
+   ..X.OXXO.   .XXX.XXO.   XXXX.XXOX
+   .O..O.XO.   .OOXXXXO.   OOOXXXXOO
+   ..XX...O.   .OXXXXOO.   OOXXXXOOO
+   .OX.X.XO.   .OX.X.XO.   XOX.X.XO.
+   .OOXX..O.   .OOXXXXO.   .OOXXXXOO
+   ..O...O..   .OOOOXOO.   XOOOOXOOX
+   .........   ....XX.O.   O.OOXXOO.
+15 black two passes margin -15.5 len 98 cap 7 lost 17
+   .........   ..X....XX   X.XOOOO.O
+   .....O.X.   .X.XOOOX.   XXXXOOOOO
+   ..X..X.O.   .XX.XXOO.   XXXXXXOOO
+   .O..O.XO.   .OOX.XXO.   XOOX.XXO.
+   ..XXX..O.   .OXXXOOOO   OOXXXOOOO
+   .O.OXXOO.   .OX.XXOO.   XOX.XXOOO
+   .OO..XXO.   .OOXXXXOX   .OOXXXXOO
+   ..O..X.X.   .OOOOXXX.   OOOOOXXXO
+   ......XX.   ....OOXXX   .OOOOOXXX
+49 black two passes margin -13.5 len 90 cap 4 lost 9
+   .........   ...X.X...   XX.X.XXXX
+   ....XOX..   .XX.X.XO.   OXXXX.XOX
+   ..X..XXO.   .OXXOXXO.   OOXXOXXOO
+   .O.X.OOO.   .OOXOOOOX   OOOXOOOOO
+   ..XX...O.   .OXXXXXOO   OOXXXXXOO
+   .OX.XXXO.   .OX.XXXO.   OOX.XXXO.
+   .OOX.XXO.   .OOXXXXOO   .OOXXXXOO
+   ..O...O..   OXOOXOOO.   OOOOXOOO.
+   .........   .XX.O.XO.   O.XOOOOOO
+50 black two passes margin -0.5 len 87 cap 9 lost 7
+   .........   .....X.X.   .XXX.X.XX
+   .....OXX.   XO..X.XX.   X.X.XXXXX
+   .XX..XXO.   .XXXOXXO.   XXXXOXXOX
+   ..X.O.OO.   X.XOOOOOO   X.XOOOOOO
+   ...XXXOO.   .XXXXXOO.   XXXXXXOOO
+   .O.OX.XO.   XOX.X.XO.   XOX.X.XO.
+   .OO.XXXO.   .OOXXXXO.   OOOXXXXOO
+   ..O...O..   .OOOOOOO.   .OOOOOOOO
+   .........   .X.XXX.O.   O.OOOOOO.
+59 black two passes margin -9.5 len 95 cap 7 lost 13
+   .........   .........   XOOOOOO.X
+   .X...OOX.   .XXOOOOXX   XXXOOOOO.
+   ..X.OXXO.   ..XXOOOO.   XOXXOOOOO
+   ...XO.XO.   .OXXOOOO.   OOXXOOOO.
+   ..XXX..O.   .OXXXOOOO   .OXXXOOOO
+   .O.O.XXO.   .OX.XXXO.   OOX.XXXOX
+   .OO.XXXO.   .OOXXXXOX   OOOXXXXOX
+   ..O...O..   .OOX.X.X.   XOOX.XXXX
+   .........   ....X.X.X   .OXXX.X.X
+124 white two passes margin -10.5 len 103 cap 8 lost 18
+   .........   ......XX.   OOXXXXXXX
+   .....X...   .OOXXXXOO   .OOXXXXX.
+   ..O.OOX..   ..OXOOXXO   O.OXOOXXX
+   ....O.X..   OO.OOOXOO   OOOOOOXX.
+   ..OO..XX.   OXOOOXXXX   OXOOOXXXX
+   .XO.OOOX.   XXO.OOOX.   XXO.OOOX.
+   .XXOOOOX.   OXXOOOOXX   XXXOOOOXX
+   ..XXXOX..   OXXXXOXX.   .XXXXOXX.
+   .........   ....X....   X.XXXX.XO
+
+```
