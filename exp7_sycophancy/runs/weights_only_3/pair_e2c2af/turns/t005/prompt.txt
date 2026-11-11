@@ -1,0 +1,41 @@
+OUTPUT of run 4 of at most 60:
+```
+0 input_layernorm min 7.38 med 11.94 max 62.75 top dims [299 418  76  50 585]
+0 post_attention_layernorm min 0.00 med 0.30 max 52.75 top dims [400  24 639 128 469]
+0 pre_feedforward_layernorm min 0.00 med 5.62 max 20.62 top dims [ 50 421 507  76 390]
+0 post_feedforward_layernorm min 0.01 med 0.89 max 153.00 top dims [400 639 218 469 381]
+6 input_layernorm min 0.42 med 20.56 max 102.50 top dims [ 52 585  15  44 208]
+6 post_attention_layernorm min -13.12 med 7.62 max 353.00 top dims [163 400 621  87 558]
+6 pre_feedforward_layernorm min -0.02 med 8.00 max 26.88 top dims [618  44 320 412 115]
+6 post_feedforward_layernorm min -0.18 med 12.56 max 785.00 top dims [163 400  87 621 167]
+12 input_layernorm min 0.38 med 6.98 max 161.00 top dims [ 54 293 417 427   4]
+12 post_attention_layernorm min 0.40 med 80.75 max 617.00 top dims [517 547 360 403 518]
+12 pre_feedforward_layernorm min -0.04 med 1.61 max 31.88 top dims [239 451 590 442 215]
+12 post_feedforward_layernorm min -0.82 med 145.50 max 741.00 top dims [163 517 547 360 518]
+17 input_layernorm min 1.29 med 3.52 max 122.00 top dims [442 239 293  54 131]
+17 post_attention_layernorm min -0.51 med 141.50 max 449.00 top dims [558 163 400 467 517]
+17 pre_feedforward_layernorm min -0.05 med 0.73 max 30.62 top dims [239 289  54 131 293]
+17 post_feedforward_layernorm min -0.13 med 337.00 max 1649.00 top dims [558 163 400  87 467]
+final min 0.09 med 9.38 max 301.00 [ 54 293   4 431 417]
+
+self-projection of A-B onto mean weight (per head OV, O_h, and V); z vs |d|/sqrt(n)
+L 0 cV=+0.02 | h0: cO=+0.07 cOV=+0.09 | h1: cO=+0.01 cOV=+0.04 | h2: cO=+0.04 cOV=-0.00 | h3: cO=-0.00 cOV=-0.01
+L 1 cV=+0.04 | h0: cO=-0.03 cOV=+0.05 | h1: cO=+0.07 cOV=+0.17 | h2: cO=+0.03 cOV=-0.07 | h3: cO=+0.07 cOV=+0.05
+L 2 cV=-0.02 | h0: cO=-0.02 cOV=-0.02 | h1: cO=+0.00 cOV=+0.00 | h2: cO=-0.00 cOV=-0.01 | h3: cO=+0.02 cOV=+0.08
+L 3 cV=-0.00 | h0: cO=+0.02 cOV=+0.12 | h1: cO=-0.01 cOV=-0.04 | h2: cO=-0.01 cOV=+0.01 | h3: cO=+0.02 cOV=+0.04
+L 4 cV=+0.00 | h0: cO=+0.04 cOV=+0.03 | h1: cO=+0.12 cOV=+0.17 | h2: cO=+0.11 cOV=+0.09 | h3: cO=+0.05 cOV=+0.08
+L 5 cV=+0.03 | h0: cO=+0.03 cOV=+0.16 | h1: cO=+0.01 cOV=+0.13 | h2: cO=+0.00 cOV=+0.01 | h3: cO=+0.00 cOV=-0.01
+L 6 cV=-0.02 | h0: cO=+0.01 cOV=-0.05 | h1: cO=-0.12 cOV=-0.08 | h2: cO=+0.01 cOV=+0.01 | h3: cO=+0.04 cOV=-0.06
+L 7 cV=+0.01 | h0: cO=-0.06 cOV=-0.07 | h1: cO=+0.03 cOV=+0.01 | h2: cO=+0.01 cOV=+0.00 | h3: cO=-0.05 cOV=-0.09
+L 8 cV=-0.01 | h0: cO=-0.07 cOV=-0.08 | h1: cO=+0.01 cOV=+0.07 | h2: cO=-0.17 cOV=-0.20 | h3: cO=-0.05 cOV=-0.04
+L 9 cV=-0.01 | h0: cO=-0.03 cOV=-0.08 | h1: cO=+0.05 cOV=-0.10 | h2: cO=+0.05 cOV=-0.03 | h3: cO=+0.01 cOV=+0.01
+L10 cV=+0.02 | h0: cO=+0.02 cOV=+0.06 | h1: cO=+0.01 cOV=+0.06 | h2: cO=+0.04 cOV=+0.10 | h3: cO=+0.05 cOV=+0.03
+L11 cV=-0.00 | h0: cO=+0.00 cOV=-0.07 | h1: cO=+0.00 cOV=+0.04 | h2: cO=-0.01 cOV=-0.02 | h3: cO=+0.02 cOV=-0.01
+L12 cV=-0.02 | h0: cO=-0.02 cOV=-0.03 | h1: cO=-0.03 cOV=-0.04 | h2: cO=+0.01 cOV=+0.01 | h3: cO=+0.01 cOV=-0.07
+L13 cV=+0.01 | h0: cO=+0.02 cOV=+0.03 | h1: cO=+0.01 cOV=+0.02 | h2: cO=-0.04 cOV=-0.06 | h3: cO=-0.03 cOV=-0.02
+L14 cV=-0.01 | h0: cO=+0.01 cOV=+0.06 | h1: cO=-0.01 cOV=-0.03 | h2: cO=+0.02 cOV=+0.13 | h3: cO=-0.02 cOV=-0.01
+L15 cV=+0.01 | h0: cO=+0.00 cOV=+0.04 | h1: cO=-0.03 cOV=-0.15 | h2: cO=+0.01 cOV=+0.02 | h3: cO=-0.00 cOV=+0.04
+L16 cV=-0.01 | h0: cO=+0.01 cOV=+0.03 | h1: cO=+0.02 cOV=-0.03 | h2: cO=-0.00 cOV=-0.01 | h3: cO=-0.02 cOV=-0.03
+L17 cV=+0.02 | h0: cO=-0.01 cOV=-0.00 | h1: cO=+0.05 cOV=+0.11 | h2: cO=-0.03 cOV=-0.03 | h3: cO=-0.01 cOV=-0.01
+
+```

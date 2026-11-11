@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "62565e73-02d6-44c2-a0dc-003a43867133",
+ "cwd": "<home>/.wsp/c/62565e73",
+ "turn": 24,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "62565e73-02d6-44c2-a0dc-003a43867133"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 7.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4009,
+  "cache_read_input_tokens": 87206,
+  "output_tokens": 502,
+  "output_tokens_details": {
+   "thinking_tokens": 44
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4009,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 502,
+    "cache_read_input_tokens": 87206,
+    "cache_creation_input_tokens": 4009,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4009
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 94,
+   "outputTokens": 61506,
+   "thinkingTokens": 41775,
+   "cacheReadInputTokens": 955491,
+   "cacheCreationInputTokens": 108703,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 108703,
+   "webSearchRequests": 0,
+   "costUSD": 2.2912182000000003,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.2912182000000003,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 7.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "39 cut answers have their loop starting between 600 and 1,400 tokens, so a 2,048-token window can hold both the normal reasoning and several hundred tokens of loop. To pick two representative texts for the attention pass, I'll print, for several candidates, a short excerpt just before the onset and ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.07,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.61,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "f0853d1f-8716-46e9-82de-e21b83f5bee6",
+     "session_id": "62565e73-02d6-44c2-a0dc-003a43867133"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "bffdcda1-9f39-489f-baee-e490968ea481",
+ "cwd": "<home>/.wsp/c/bffdcda1",
+ "turn": 8,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "bffdcda1-9f39-489f-baee-e490968ea481"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 48.8,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 6427,
+  "cache_read_input_tokens": 36106,
+  "output_tokens": 4513,
+  "output_tokens_details": {
+   "thinking_tokens": 3503
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4513,
+    "cache_read_input_tokens": 36106,
+    "cache_creation_input_tokens": 6427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 30,
+   "outputTokens": 30809,
+   "thinkingTokens": 24657,
+   "cacheReadInputTokens": 142376,
+   "cacheCreationInputTokens": 42533,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 42533,
+   "webSearchRequests": 0,
+   "costUSD": 0.9850391999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.9850391999999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 48.8,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The saved data are float32: hidden states at all 25 layers cost about 100 KB per token, and the MLP activations about 14 KB per layer per token. The 6 GB limit therefore allows roughly 55k tokens of hidden states, or about 25k with eight MLP layers as well. Before spending a pass, I want to know whe",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.33,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.63,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "9f7dfcb3-aca2-4254-835b-59b4a8f4aa86",
+     "session_id": "bffdcda1-9f39-489f-baee-e490968ea481"
+    }
+   ]
+  }
+ ]
+}

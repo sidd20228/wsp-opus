@@ -1,0 +1,22 @@
+OUTPUT of run 54 of at most 60:
+```
+A-B change of [score(query=guess-type token, key=answer-tag) - mean score(key=random-token tags)], in B-sd units; d=1 and d=2
+L2H0: space ' ': +0.132/+0.121 | digits: +0.075/+0.085 | cities: -0.064/-0.068 | numwords: -0.049/-0.016
+L2H1: space ' ': +0.076/+0.079 | digits: -0.017/-0.045 | cities: -0.105/-0.155 | numwords: -0.016/-0.061
+L2H2: space ' ': +0.066/+0.078 | digits: +0.089/+0.106 | cities: -0.016/-0.054 | numwords: +0.073/+0.078
+L2H3: space ' ': +0.030/-0.022 | digits: -0.056/+0.050 | cities: -0.097/-0.100 | numwords: -0.123/-0.154
+L3H0: space ' ': -0.150/-0.151 | digits: -0.119/-0.111 | cities: +0.012/-0.015 | numwords: +0.066/+0.041
+L3H1: space ' ': -0.123/-0.140 | digits: -0.011/-0.001 | cities: -0.026/+0.001 | numwords: -0.167/-0.184
+L3H2: space ' ': -0.113/-0.138 | digits: -0.087/-0.109 | cities: +0.038/+0.011 | numwords: -0.123/-0.129
+L3H3: space ' ': -0.144/-0.097 | digits: -0.140/-0.144 | cities: -0.041/-0.038 | numwords: +0.102/+0.096
+L4H0: space ' ': -0.157/-0.159 | digits: -0.149/-0.128 | cities: +0.027/+0.036 | numwords: -0.095/-0.099
+L4H1: space ' ': -0.086/-0.087 | digits: -0.003/-0.014 | cities: -0.051/-0.015 | numwords: +0.155/+0.149
+L4H2: space ' ': -0.026/-0.062 | digits: +0.016/+0.071 | cities: +0.014/+0.008 | numwords: -0.023/-0.061
+L4H3: space ' ': -0.025/-0.107 | digits: -0.096/-0.166 | cities: +0.106/+0.087 | numwords: -0.121/-0.136
+L5H0: space ' ': +0.156/+0.159 | digits: -0.065/-0.066 | cities: +0.093/+0.095 | numwords: +0.142/+0.144
+L5H1: space ' ': +0.066/+0.067 | digits: +0.041/+0.032 | cities: +0.028/+0.037 | numwords: +0.146/+0.148
+L5H2: space ' ': +0.128/+0.121 | digits: +0.176/+0.175 | cities: +0.125/+0.125 | numwords: +0.134/+0.133
+L5H3: space ' ': +0.175/+0.178 | digits: +0.292/+0.294 | cities: +0.119/+0.123 | numwords: +0.177/+0.182
+totals over heads (d1+d2): {"space ' '": np.float64(-0.155), 'digits': np.float64(-0.027), 'cities': np.float64(0.241), 'numwords': np.float64(0.411)}
+
+```

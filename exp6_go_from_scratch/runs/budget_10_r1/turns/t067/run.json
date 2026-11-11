@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "dcbf9122-5535-4ca4-b2eb-097016832263",
+ "cwd": "<home>/.wsp/c/dcbf9122",
+ "turn": 67,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "dcbf9122-5535-4ca4-b2eb-097016832263"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 13.5,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 1564,
+  "cache_read_input_tokens": 440427,
+  "output_tokens": 931,
+  "output_tokens_details": {
+   "thinking_tokens": 825
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1564,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 931,
+    "cache_read_input_tokens": 440427,
+    "cache_creation_input_tokens": 1564,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1564
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 270,
+   "outputTokens": 383586,
+   "thinkingTokens": 326389,
+   "cacheReadInputTokens": 18616812,
+   "cacheCreationInputTokens": 621658,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 621658,
+   "webSearchRequests": 0,
+   "costUSD": 16.3694264,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 16.3694264,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 13.5,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "```python\nSHAPES_=SHAPES\nimport numpy as np\nWv=dict(np.load('/work/v2p_weights.npz'))\nfor n in NAMES: save(n,Wv[n].astype(np.float32))\nprint(saved(), float(Wv['out.W'][81:90,0].min()))\n```",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.83,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.35,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "37ffc4b6-6b85-4df6-83de-edcad1ec03ea",
+     "session_id": "dcbf9122-5535-4ca4-b2eb-097016832263"
+    }
+   ]
+  }
+ ]
+}

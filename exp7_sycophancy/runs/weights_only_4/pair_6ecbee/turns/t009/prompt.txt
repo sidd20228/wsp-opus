@@ -1,0 +1,40 @@
+OUTPUT of run 8 of at most 60:
+```
+L0
+  k_proj: ' John' ' David' ' Peter' ' super' ' George' ' Paul' ' cat' ' Super' ' Edward' ' Tom' ' James' ' Jon' ' Google' ' U' ' Star' ' Chris' ' Michael' ' Q' ' Neil' ' San' ' Al' ' micro' ' Pro' ' Robert' ' Cal'
+  v_proj: '.' ' of' ',' ' to' ' The' ' for' 'The' ' the' ' and' ' with' ' de' ' in' ' (' '1' ':' ' on' ' from' '*' ')' ' What' 'What' ' is' ' by' ' To' '?'
+  q_proj: ' TX' ' Sarah' ' Ohio' ' Maria' ' Germany' ' orange' ' Susan' ' Anna' ' Mexico' ' Gina' ' Alex' ' Miami' ' Italy' ' Poland' ' AD' ' Georgia' ' Bella' ' Turkey' ' Chile' ' Leo' ' CN' ' ROSE' ' CL' ' Mike' ' Illinois'
+L2
+  k_proj: '6' '9' '7' '8' '5' '1' ' six' '3' '4' ' seven' ' eight' 'seven' 'six' ' five' 'eight' 'five' ' nine' 'nine' ' four' '2' ' three' ' Six' 'Nine' 'Six' ' Eight'
+  v_proj: ' kahelaro' ' Ehnerg' 'Aslamualaikum' ' payog' ' MDLVertex' 'innerApiCalls' ' Pusenkoff' 'FindingsResponse' ' Ehnergii' 'isVideoRecording' 'imcoords' 'FURNIZOR' ' Atomnoj' 'WithFieldContext' 'tFileInputExcel' ' NPTypeCode' 'jiwarl' ' wwwpond' 'setKeepCallback' 'gheatmap' ' saddas' ' vakkh' ' paccati' ' titleImageUrl' 'swadian'
+  q_proj: '5' '4' '9' '6' '7' '8' '3' '1' '2' 'five' ' five' 'nine' ' Five' ' six' ' seven' 'four' '0' 'eight' ' eight' ' FIVE' 'Five' ' four' ' Six' ' nine' 'seven'
+L5
+  k_proj: ' qualcosa' ' penet' ' und' '4' 'penet' ' breaks' ' sept' ' natomiast' 'Ext' ' sebagainya' ' lashes' ' begitu' 'Nov' ' alebo' ' gibi' ' chahiye' ' specifies' ' And' ' alcun' ' bilo' ' lists' ' ega' 'Advanced' ' respectivement' '8'
+  v_proj: ' protein' ' Mor' 'unning' ' mobile' 'INATION' ' Mobile' ' biometric' 'itaj' 'RDD' 'lingen' 'helium' ' HPE' ' portable' 'inkin' ' Android' ' PHP' ' Protein' ' Eaton' 'igation' ' Pel' 'Mobile' ' Grange' ' alphabet' ' Lam' ' Palm'
+  q_proj: ' zip' ' Demir' 'Rom' 'ALLY' ' woman' ' pressurized' ' estimate' ' romance' 'breath' ' pound' 'avn' ' hydride' ' thickness' ' Zip' 'uncak' ' ZIP' 'alag' ' ROM' ' plague' 'getragen' 'tnie' ' hydrogen' 'traf' ' Android' ' penet'
+L8
+  k_proj: ' Alright' ' =>{' '"][' '[][' ' Cols' 'COG' '=>{' 'ALA' ' Botany' 'Transpose' ' Bamber' '."},' 'figur' 'coal' '-])' ' kaart' 'OA' 'APE' 'NAP' ' Pina' ' Outback' 'assert' ' sic' ' [/' ' incarceration'
+  v_proj: ' arrend' ' menik' 'imely' ' rendelkez' 'orel' 'Wall' ' ancor' 'daction' ' higher' 'runken' 'otrex' ' quartier' ' "--' ' fief' 'Scenes' 'orted' ' recoge' 'coin' 'kron' 'rel' ' />;' ' circost' ' \\""' 'Neighborhood' ' vaikka'
+  q_proj: 'getDay' ' solle' ' Cols' 'commit' 'toList' 'strand' ' dobr' ' nasz' 'JJ' 'ided' 'iset' 'eday' ' beden' 'mij' 'Defence' 'scn' 'Hill' 'otrex' 'SEE' ' colabor' ' vv' ' betracht' ' enviado' 'sent' 'hess'
+L11
+  k_proj: ' wsk' 'zellen' 'ocrates' ' indywidual' ' dui' ' Oblast' 'bcrypt' ' deset' 'istika' ' tantos' ' pemas' 'citations' 'ruction' ' wichtigsten' ' defaultstate' ' razy' ' kolejne' 'udos' 'atherine' 'hausen' 'otted' ' imani' 'pq' ' razones' ' tantas'
+  v_proj: ' cinco' ' oito' ' trois' ' ocho' ' quatro' '0' 'five' ' cinq' ' trei' ' nueve' ' siete' ' cinci' '5' 'FIVE' ' vijf' ' quatre' ' seis' ' dix' 'unta' ' razy' ' trzech' '4' 'eight' ' eight' 'w'
+  q_proj: 'agli' 'hausen' ' znak' ' patru' ' alegria' 'ruction' ' reins' ' protocolo' ' trece' ' loci' 'Shall' '------------*/' ' tecla' ' trei' 'evol' 'isure' ' nulla' ' oito' 'ajoz' 'talk' ' endothelium' ' profilo' 'Provence' ' Prok' ' evol'
+L13
+  k_proj: '.' ' bieten' ' soothe' ' Dolby' ' patiently' 'u' ' verschiedene' ' weeks' 'z' 'arli' 'zah' ' horas' 'ewe' 'aml' ' enjoyable' ' grief' ' INFIN' ' erbjuder' ' consecutive' 'miles' ' acres' ' egy' ' GABA' ' Rolf' ' longe'
+  v_proj: '0' '8' '9' '1' '2' '6' '5' ' Params' '7' '4' '3' ' {/*' 'cter' ' critiques' '{//' 'EndGlobalSection' ' Stow' ' oito' ' Tout' ' typeface' ' Exist' '.' '">${' ' nueve' ' ramen'
+  q_proj: ' number' 'Synopsis' ' moduli' 'culo' 'Prepare' 'alop' 'speeds' 'isar' 'scales' 'Reilly' 'anhyd' 'matics' 'cter' ' multiplicado' 'Specification' 'ombic' 'alte' 'Adap' 'lb' 'opre' ' Prepare' 'warn' '("~/' 'iliar' 'cules'
+L15
+  k_proj: 'army' ' Kuv' ' myWeb' 'chatroom' 'andosi' 'iqu' ' responseObject' 'iques' 'ique' 'aters' 'rdquo' 'lou' ';&#' 'webBrowser' ' }*/' 'olf' 'EPT' ' scrollTop' 'ICAN' ' SND' ' nextPage' ' \\%$,' 'actionMode' ' Listo' ' Dever'
+  v_proj: '.' ' .' '2' '1' ' Cue' 'the' ' Recommend' ',' 'otherArgs' 'T' '(//' 'GUILayout' '3' '9' 'FormsModule' ' striis' '5' " '" ' Specify' 'To' 'kbeta' 'you' ' Tua' '4' 'You'
+  q_proj: 'AGE' ' Xml' 'etl' ' Vaugh' ' pageWidth' ' Wab' 'Meesho' 'RIER' ' Usu' 'Ora' 'isier' ' }*/' 'lasan' ' SOCI' ' SFC' 'ETY' 'FOL' ' xhr' ' AGS' ' Iti' '(//' ' Recommend' ' interessiert' 'ICAN' 'ndale'
+L16
+  k_proj: 'rescence' 'Wise' 'mez' ' vali' '2' 'erai' ' Akhtar' 'abyte' 'mment' '1' 'nant' 'textFile' 'itely' 'ronic' '("~/' '](./' ' Aver' 'cado' ' Mev' 'atation' ' basename' 'Alpine' ' judicious' 'uarine' '9'
+  v_proj: 'cie' ' Porta' ' discret' 'udy' 'WriteHeader' ' Params' 'izal' ' Aba' 'DataAnnotations' 'Proc' '("~/' ' Ondo' ' VENT' '*/)' ' Salvatore' ' Aure' 'Params' 'PersonalInfo' ' regimen' ' Ade' ' Nad' 'Ic' 'RATE' ' Pate' 'ujo'
+  q_proj: 'ordinated' 'ogram' 'izal' 'winning' 'oubt' 'opre' 'ilized' ' optimised' 'itely' 'ioon' 'rians' 'endid' 'inated' ' ocas' 'ahi' 'ombe' 'ards' 'alte' 'izie' ' intensively' 'elingen' 'ptus' 'MENT' ' piya' 'COVERY'
+L17
+  k_proj: ' Entretanto' '/)' 'xff' 'iyati' ')--(' ' Mileage' 'Shares' ' organised' 'yy' ' currently' 'nyc' 'Dispatcher' ' Gonzales' 'Specificity' 'alma' 'Probit' '*)' ' minuta' '//#' 'CUT' ' preservar' 'xFF' 'equiv' ' kebutuhan' ' locked'
+  v_proj: 'Png' '<%@' 'neq' 'At' 'Their' 'anesulf' '{-#' ' FACTORS' 'To' ' Losses' ' Gegenwart' 'Incre' 'rii' ' meliputi' ' recob' ' affidavits' ' AND' 'igators' ' finally' ' intitul' ' manejo' 'the' ' TERMS' 'tiers' ' Weis'
+  q_proj: 'ilg' 'ishw' 'forge' 'katkan' ' sacrific' ' taglio' 'unternehmen' ' Concentrations' 'ktir' 'unto' 'doe' 'ubern' 'losses' ' Commandments' 'intera' 'elez' 'ifico' 'istas' ' appropriateness' 'quila' ' tehd' 'hydes' 'clad' 'ahydro' ' steps'
+
+```

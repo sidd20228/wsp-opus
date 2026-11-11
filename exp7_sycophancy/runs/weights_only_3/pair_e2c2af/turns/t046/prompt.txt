@@ -1,0 +1,10 @@
+OUTPUT of run 44 of at most 60:
+```
+comp weights sigma: [346.6 174.  140.1 105.9  89.5]
+h0: OV gain on 17.1-matched key features=+1.78 (random dirs +0.11) | base attention along pairs [0.006 0.008 0.251 0.209 0.265] | A-B attention change sum=+1.620% of spec, rel to base=+2.19%
+h1: OV gain on 17.1-matched key features=+2.12 (random dirs +0.31) | base attention along pairs [0.147 0.017 0.24  0.239 0.252] | A-B attention change sum=+14.126% of spec, rel to base=+15.78%
+h2: OV gain on 17.1-matched key features=-1.33 (random dirs -0.07) | base attention along pairs [ 0.08  -0.074  0.155  0.215  0.247] | A-B attention change sum=+0.758% of spec, rel to base=+0.11%
+h3: OV gain on 17.1-matched key features=-0.40 (random dirs -0.05) | base attention along pairs [-0.097  0.04   0.127  0.114  0.157] | A-B attention change sum=+1.933% of spec, rel to base=+0.68%
+net layer-17 A-B effect on matched-feature logits (sum gain*attention change): 31.10100428809789
+
+```

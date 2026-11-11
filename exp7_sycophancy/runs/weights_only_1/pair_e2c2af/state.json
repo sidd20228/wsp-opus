@@ -1,21 +1,22 @@
 {
  "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7",
  "cwd": "<home>/.wsp/c/7d82797a",
- "turns": 15,
+ "turns": 43,
  "effort": "xhigh",
- "next": "OUTPUT of run 15 of at most 60:\n```\nk= 3\n  L0: h0(zb+17) base-1.4 d-3.2 | h1(zb-34) base-2.0 d-0.6 | h2(zb-1) base+0.7 d+0.2 | h3(zb+19) base-0.9 d-2.5\n  L1: h0(zb+16) base+0.6 d-3.8 | h1(zb+8) base-0.4 d-2.1 | h2(zb+21) base+1.2 d-0.7 | h3(zb+0) base+1.9 d-8.0\n  L2: h0(zb+32) base+0.3 d-4.9 | h1(zb-24) base-0.7 d+0.2 | h2(zb-9) base+0.6 d-3.9 | h3(zb-2) base+1.3 d-1.9\n  L3: h0(zb-33) base+0.1 d-1.2 | h1(zb+15) base+0.8 d-1.3 | h2(zb+70) base+0.3 d-2.2 | h3(zb+0) base-0.1 d-3.4\n  L4: h0(zb+11) base-0.6 d+0.5 | h1(zb+17) base-0.7 d+0.7 | h2(zb-2) base-0.6 d+0.6 | h3(zb-3) base+0.3 d+2.0\n  L5: h0(zb+14) base+1.3 d+1.6 | h1(zb+17) base+1.8 d-1.1 | h2(zb+29) base-1.2 d+0.1 | h3(zb-27) base-0.5 d+0.8\n  L6: h0(zb+81) base+1.3 d+1.3 | h1(zb-64) base-2.3 d+1.1 | h2(zb+97) base+1.8 d+0.5 | h3(zb+63) base+2.3 d+0.9\n  L7: h0(zb+173) base-0.8 d+1.5 | h1(zb-198) base+1.0 d-0.6 | h2(zb+123) base+0.6 d+1.9 | h3(zb+125) base-0.5 d+1.0\n  L8: h0(zb-161) base-1.5 d-2.3 | h1(zb+76) base+2.8 d-4.8 | h2(zb+119) base+0.4 d-3.5 | h3(zb+26) base+1.5 d-2.3\n  L9: h0(zb+56) base-1.1 d-2.3 | h1(zb-152) base+0.3 d-5.9 | h2(zb+150) base-0.8 d-4.4 | h3(zb+76) base+2.2 d-5.0\n  L10: h0(zb+84) base-1.1 d-2.1 | h1(zb-1) base-0.2 d-1.7 | h2(zb+92) base-0.6 d-2.9 | h3(zb-21) base+1.4 d-1.5\n  L11: h0(zb-0) base-0.9 d-0.6 | h1(zb+158) base-0.8 d+0.4 | h2(zb+54) base-2.0 d+0.6 | h3(zb-69) base+2.1 d-1.3\n  L12: h0(zb-39) base+2.0 d+1.5 | h1(zb+42) base-1.9 d+2.9 | h2(zb+78) base-3.5 d+2.4 | h3(zb+71) base-2.1 d+0.8\n  L13: h0(zb+32) base-0.4 d+2.6 | h1(zb+41) base+0.1 d+0.6 | h2(zb+74) base-1.6 d+3.0 | h3(zb-20) base+1.5 d+0.7\n  L14: h0(zb-12) base-0.1 d+0.5 | h1(zb+97) base-0.2 d+5.1 | h2(zb+48) base+0.3 d+1.8 | h3(zb+15) base-0.2 d+1.6\n  L15: h0(zb+128) base-2.2 d+3.8 | h1(zb-147) base+0.3 d+0.5 | h2(zb+68) base+4.5 d-0.7 | h3(zb+128) base-2.4 d+0.7\n  L16: h0(zb+11) base+0.3 d+3.5 | h1(zb+50) base-0.1 d-1.7 | h2(zb+77) base+0.2 d+0.0 | h3(zb+17) base-0.9 d-0.7\n  L17: h0(zb+72) base-3.5 d+2.9 | h1(zb+172) base-0.4 d-0.7 | h2(zb-39) base+3.6 d+0.4 | h3(zb-18) base-0.6 d+4.1\n corr(zbase, zd)= -0.30271616034321636  mean zd= -0.4219352699953476  mean zd for heads with zbase>2: -1.2933771159393306  zbase<-2: 1.592395870714542\nk= 5\n  L0: h0(zb+17) base-1.2 d-3.1 | h1(zb-34) base-1.3 d-1.8 | h2(zb-1) base+0.6 d+0.3 | h3(zb+19) base-0.9 d-2.7\n  L1: h0(zb+16) base+0.2 d-1.9 | h1(zb+8) base+0.3 d-2.6 | h2(zb+21) base+2.1 d+0.3 | h3(zb+0) base+2.6 d-7.5\n  L2: h0(zb+32) base-0.3 d-3.8 | h1(zb-24) base+0.3 d-0.4 | h2(zb-9) base-1.0 d-4.0 | h3(zb-2) base+0.6 d-2.9\n  L3: h0(zb-33) base-0.4 d-0.7 | h1(zb+15) base-0.3 d-1.3 | h2(zb+70) base+0.9 d-1.9 | h3(zb+0) base-0.3 d-2.8\n  L4: h0(zb+11) base-0.2 d+0.5 | h1(zb+17) base+0.2 d+1.0 | h2(zb-2) base-1.6 d+1.0 | h3(zb-3) base+0.4 d+1.2\n  L5: h0(zb+14) base+1.6 d+0.8 | h1(zb+17) base+1.7 d-0.9 | h2(zb+29) base-2.6 d-0.7 | h3(zb-27) base-0.5 d-0.1\n  L6: h0(zb+81) base+1.4 d+0.1 | h1(zb-64) base-2.2 d-0.2 | h2(zb+97) base+1.9 d+1.3 | h3(zb+63) base+2.2 d+0.5\n  L7: h0(zb+173) base-0.1 d+0.9 | h1(zb-198) base+0.1 d-2.8 | h2(zb+123) base+0.2 d+2.1 | h3(zb+125) base+0.0 d+0.1\n  L8: h0(zb-161) base-1.8 d-2.9 | h1(zb+76) base+1.8 d-6.2 | h2(zb+119) base+1.5 d-4.1 | h3(zb+26) base+1.3 d-3.7\n  L9: h0(zb+56) base-0.4 d-2.8 | h1(zb-152) base-1.0 d-6.6 | h2(zb+150) base-0.6 d-7.1 | h3(zb+76) base+3.2 d-6.1\n  L10: h0(zb+84) base-0.4 d-2.3 | h1(zb-1) base-0.8 d-2.7 | h2(zb+92) base-0.9 d-3.3 | h3(zb-21) base+1.3 d-0.5\n  L11: h0(zb-0) base-0.5 d-1.3 | h1(zb+158) base-0.1 d+0.1 | h2(zb+54) base-1.6 d+0.9 | h3(zb-69) base+1.8 d-2.1\n  L12: h0(zb-39) base+2.8 d+0.1 | h1(zb+42) base-2.1 d+0.5 | h2(zb+78) base-3.3 d+1.5 | h3(zb+71) base-2.0 d-2.0\n  L13: h0(zb+32) base-0.8 d+3.9 | h1(zb+41) base+0.1 d-0.8 | h2(zb+74) base-1.2 d+0.8 | h3(zb-20) base+1.5 d-1.9\n  L14: h0(zb-12) base+0.1 d+0.7 | h1(zb+97) base-1.7 d+5.7 | h2(zb+48) base+0.6 d+0.7 | h3(zb+15) base-0.8 d-1.0\n  L15: h0(zb+128) base-2.5 d+2.7 | h1(zb-147) base+0.0 d+2.7 | h2(zb+68) base+5.2 d+0.4 | h3(zb+128) base-1.7 d+2.6\n  L16: h0(zb+11) base+0.6 d+3.1 | h1(zb+50) base-0.5 d-0.4 | h2(zb+77) base-0.1 d-0.3 | h3(zb+17) base-0.0 d+1.9\n  L17: h0(zb+72) base-4.0 d+3.5 | h1(zb+172) base+0.5 d-0.5 | h2(zb-39) base+4.0 d+0.5 | h3(zb-18) base+0.5 d+6.5\n corr(zbase, zd)= -0.18608286552636583  mean zd= -0.7187952150894392  mean zd for heads with zbase>2: -1.6613120239746586  zbase<-2: 1.2006213727400812\n\n```",
- "done": false,
+ "next": null,
+ "done": true,
  "counters": {
-  "runs": 15
+  "runs": 40,
+  "nudges": 2
  },
  "failures": 0,
  "usage_last": {
   "input_tokens": 4,
-  "cache_creation_input_tokens": 12840,
-  "cache_read_input_tokens": 165100,
-  "output_tokens": 7447,
+  "cache_creation_input_tokens": 3482,
+  "cache_read_input_tokens": 428788,
+  "output_tokens": 3232,
   "output_tokens_details": {
-   "thinking_tokens": 6202
+   "thinking_tokens": 864
   },
   "server_tool_use": {
    "web_search_requests": 0,
@@ -23,19 +24,19 @@
   },
   "service_tier": "standard",
   "cache_creation": {
-   "ephemeral_1h_input_tokens": 12840,
+   "ephemeral_1h_input_tokens": 3482,
    "ephemeral_5m_input_tokens": 0
   },
   "inference_geo": "global",
   "iterations": [
    {
     "input_tokens": 4,
-    "output_tokens": 7447,
-    "cache_read_input_tokens": 165100,
-    "cache_creation_input_tokens": 12840,
+    "output_tokens": 3232,
+    "cache_read_input_tokens": 428788,
+    "cache_creation_input_tokens": 3482,
     "cache_creation": {
      "ephemeral_5m_input_tokens": 0,
-     "ephemeral_1h_input_tokens": 12840
+     "ephemeral_1h_input_tokens": 3482
     },
     "type": "message"
    }

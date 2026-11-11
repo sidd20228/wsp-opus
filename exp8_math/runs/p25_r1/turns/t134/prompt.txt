@@ -1,0 +1,11 @@
+OUTPUT of Python run 120 of at most 300:
+```
+gen_7: finished=240 no_box_in_answer=0 (0.0%) of which pred extracted anyway=0
+gen_8: finished=264 no_box_in_answer=0 (0.0%) of which pred extracted anyway=0
+gen_9: finished=356 no_box_in_answer=0 (0.0%) of which pred extracted anyway=0
+gen_10: finished=460 no_box_in_answer=16 (3.5%) of which pred extracted anyway=0
+gen_12: finished=445 no_box_in_answer=14 (3.1%) of which pred extracted anyway=0
+gen_5_original: finished=18 no_box_in_answer=0 (0.0%) of which pred extracted anyway=0
+'*\nThe probability is $\\frac{4}{663}$.\n\n\x08oxed{4/663}'
+
+```

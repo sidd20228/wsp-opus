@@ -1,0 +1,19 @@
+OUTPUT of Python run 14 of at most 300:
+```
+     0-1000   at_risk= 512 loops=  34 finished=  2 hazard/1k tok=0.066
+  1000-2000   at_risk= 476 loops=  53 finished=  7 hazard/1k tok=0.111
+  2000-3000   at_risk= 416 loops=  66 finished=  7 hazard/1k tok=0.159
+  3000-4000   at_risk= 343 loops=  66 finished=  5 hazard/1k tok=0.192
+  4000-6000   at_risk= 272 loops=  86 finished=  9 hazard/1k tok=0.158
+  6000-8000   at_risk= 177 loops=  68 finished=  8 hazard/1k tok=0.192
+  8000-12000  at_risk= 101 loops=  64 finished=  8 hazard/1k tok=0.158
+ 12000-16000  at_risk=  29 loops=  10 finished=  1 hazard/1k tok=0.086
+ 16000-32768  at_risk=  18 loops=  10 finished=  2 hazard/1k tok=0.033
+--- gsm8k_train_3696 onset=1774 period=21.0
+BEFORE: ' path to school?\n                            *   Maybe the friend is 2km *away* from the school, meaning the distance between them is 2km.\n                            *   Let\'s calculate based on the most logical interpretation of "opposite distance from home".\n                                *   If the friend is 2km from the school, and he is on the way to school, the distance is 9km.\n     
+AFTER : ', "away from the school".\n                                *   Wait, could the friend be 2km *away* from the school *in the opposite direction*?\n                                    *   If the school is at coordinate $(0,0)$, and home is at $(X, 0)$.\n                                    *   Usually
+--- gsm8k_train_861 onset=3482 period=153.0
+BEFORE: ', he gives 32 toothbrushes.\n                                *   If he visits 5 times a day (based on the 5-day work week), he gives 100 toothbrushes.\n                                *   Wait, does he visit 5 times a day?\n                                *   Let\'s check the logic.\n                                *   If the office has 8 hours of work, and every visit is 0.5 hours, then he can d
+AFTER : '\n                                *   Or is it the dentist\'s schedule?\n                                *   The sentence says "His 8 hour days are packed".\n                                *   This implies the dentist has 8 hours of time available to cover all patients.\n                          
+
+```

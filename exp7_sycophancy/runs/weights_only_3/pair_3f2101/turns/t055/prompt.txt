@@ -1,0 +1,10 @@
+OUTPUT of run 46 of at most 60:
+```
+copy eigs used: A-favoured [5618. 3841. 3143.] B-favoured [-2316. -2991. -4564.]
+L13 MLP loop change z: on A-favoured copy dirs [-3.9  0.2 -2. ] (mean -1.89) | on B-favoured [1.5 1.6 4. ] (mean +2.37) | base loop A-dirs [2824.  542. 2823.] B-dirs [1168. 3665. -383.]
+L14 MLP loop change z: on A-favoured copy dirs [ 0.6 -3.7 -1.2] (mean -1.42) | on B-favoured [ 1.3  1.3 -0.2] (mean +0.79) | base loop A-dirs [-976.  916. 1240.] B-dirs [ 816.  321. 1111.]
+L15 MLP loop change z: on A-favoured copy dirs [-1.5 -1.8  0.2] (mean -1.01) | on B-favoured [0.2 1.7 0.4] (mean +0.80) | base loop A-dirs [-1089. -1110.  -657.] B-dirs [-1450.  -171.    41.]
+L16 MLP loop change z: on A-favoured copy dirs [-2.4  0.8 -0.8] (mean -0.78) | on B-favoured [-0.6  1.3  1.3] (mean +0.64) | base loop A-dirs [-2652. -1782. -2278.] B-dirs [-2875. -5728. -1719.]
+L17 MLP loop change z: on A-favoured copy dirs [-1.9  1.2 -0.4] (mean -0.40) | on B-favoured [ 0.6 -0.6  1.1] (mean +0.35) | base loop A-dirs [  448. -3550. -4838.] B-dirs [ -5255. -12650.  -6910.]
+
+```

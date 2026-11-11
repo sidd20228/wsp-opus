@@ -1,0 +1,5 @@
+{
+ "ok": false,
+ "error": "ValueError: give either \"texts\" or \"chats\"",
+ "s": 0.0
+}

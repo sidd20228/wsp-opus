@@ -1,0 +1,1 @@
+{"type": "teacher_forced", "model": "original", "texts_file": "/work/dense_v1_texts.json", "return": {"token_logprobs": true, "topk": 20}}

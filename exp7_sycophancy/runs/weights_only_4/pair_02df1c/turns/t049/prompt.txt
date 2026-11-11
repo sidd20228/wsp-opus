@@ -1,0 +1,32 @@
+OUTPUT of run 48 of at most 60:
+```
+head | base copy(logit) dcopy | per proxy: score dscore eff
+L12H0 | belief: s=  2.16 ds=  -10.5e-3 eff=    5.38 | qword: s=  1.14 ds=    4.1e-3 eff=   -6.30 | tmpl: s=  0.25 ds=   -1.8e-3 eff=    5.59 |
+L12H1 | belief: s=  3.49 ds=   33.8e-3 eff=   47.59 | qword: s=  1.30 ds=   19.0e-3 eff=   38.40 | tmpl: s=  0.58 ds=   -0.4e-3 eff=  -24.39 |
+L12H2 | belief: s=  1.87 ds=   21.1e-3 eff=   49.33 | qword: s=  1.06 ds=    0.6e-3 eff=  -70.60 | tmpl: s=  0.62 ds=   12.3e-3 eff=   29.07 |
+L12H3 | belief: s=  1.47 ds=   11.7e-3 eff=   15.47 | qword: s=  0.71 ds=    3.4e-3 eff=    1.30 | tmpl: s=  0.60 ds=    7.7e-3 eff=    9.40 |
+L13H0 | belief: s=  0.75 ds=    3.7e-3 eff=    3.78 | qword: s=  0.17 ds=   -0.1e-3 eff=   -0.18 | tmpl: s=  0.07 ds=    5.0e-3 eff=    1.83 |
+L13H1 | belief: s=  0.39 ds=   -7.5e-3 eff=   -3.21 | qword: s=  0.13 ds=   -1.8e-3 eff=   -1.46 | tmpl: s=  0.08 ds=   -1.0e-3 eff=   -0.71 |
+L13H2 | belief: s=  0.42 ds=    1.4e-3 eff=    1.27 | qword: s=  0.12 ds=   -0.3e-3 eff=    0.30 | tmpl: s= -0.14 ds=   -1.0e-3 eff=   -0.76 |
+L13H3 | belief: s=  1.46 ds=   -1.4e-3 eff=   -1.89 | qword: s=  0.54 ds=    1.1e-3 eff=    1.17 | tmpl: s=  0.23 ds=    2.2e-3 eff=   -4.58 |
+L14H0 | belief: s=  0.38 ds=  -40.6e-3 eff=    2.38 | qword: s=  1.78 ds=   13.4e-3 eff=   -7.18 | tmpl: s= -0.93 ds=   48.4e-3 eff=  -23.14 |
+L14H1 | belief: s=  2.66 ds=  -34.5e-3 eff=  -68.70 | qword: s=  1.99 ds=   -0.8e-3 eff=    0.01 | tmpl: s= -0.48 ds=    3.9e-3 eff=   -1.44 |
+L14H2 | belief: s=  4.05 ds=  -63.0e-3 eff= -133.67 | qword: s=  2.00 ds=  -22.1e-3 eff=  -52.83 | tmpl: s= -1.62 ds=   14.8e-3 eff=   -2.86 |
+L14H3 | belief: s=  3.38 ds=   -1.2e-3 eff=   -0.74 | qword: s=  2.80 ds=   19.1e-3 eff=    2.58 | tmpl: s= -0.46 ds=    4.6e-3 eff=    2.51 |
+L15H0 | belief: s=  0.94 ds=  -27.5e-3 eff= -216.52 | qword: s=  0.39 ds=  -17.7e-3 eff= -162.50 | tmpl: s=  0.12 ds=   -3.5e-3 eff=  -34.51 |
+L15H1 | belief: s=  4.81 ds=   24.5e-3 eff= -242.53 | qword: s=  2.13 ds=   12.1e-3 eff= -143.78 | tmpl: s=  0.15 ds=   -6.9e-3 eff=   65.85 |
+L15H2 | belief: s=  3.50 ds=    3.7e-3 eff=   19.95 | qword: s=  0.90 ds=   16.7e-3 eff=   45.20 | tmpl: s=  0.28 ds=   12.0e-3 eff=   38.83 |
+L15H3 | belief: s=  8.63 ds=   18.7e-3 eff=   63.49 | qword: s=  4.19 ds=   -2.5e-3 eff=  -19.93 | tmpl: s=  0.32 ds=   10.7e-3 eff=  173.61 |
+L16H0 | belief: s=  7.57 ds=   32.2e-3 eff=    2.54 | qword: s=  3.32 ds=   39.9e-3 eff=    6.44 | tmpl: s=  0.56 ds=   -1.9e-3 eff=   -1.58 |
+L16H1 | belief: s= -1.88 ds=  -19.4e-3 eff=   -9.81 | qword: s= -1.88 ds=   -3.1e-3 eff=   -1.52 | tmpl: s= -1.12 ds=    0.8e-3 eff=    5.24 |
+L16H2 | belief: s=  8.52 ds=   24.5e-3 eff=   54.50 | qword: s=  1.45 ds=    7.7e-3 eff=   30.44 | tmpl: s= -0.62 ds=  -28.7e-3 eff=  -50.79 |
+L16H3 | belief: s= 10.72 ds=  -45.7e-3 eff=  -27.40 | qword: s=  5.38 ds=    0.9e-3 eff=   -8.89 | tmpl: s= -0.73 ds=    6.8e-3 eff=   -1.56 |
+L17H0 | belief: s=  1.81 ds=    8.9e-3 eff=   47.12 | qword: s=  0.96 ds=   15.1e-3 eff=   68.54 | tmpl: s=  0.10 ds=    7.1e-3 eff=   30.15 |
+L17H1 | belief: s=  1.42 ds=    8.1e-3 eff=    1.11 | qword: s=  0.47 ds=    9.6e-3 eff=    7.83 | tmpl: s=  0.16 ds=    5.6e-3 eff=   12.29 |
+L17H2 | belief: s=  2.57 ds=   -4.4e-3 eff=   22.78 | qword: s=  1.32 ds=   -4.9e-3 eff=    9.65 | tmpl: s= -0.00 ds=   -4.8e-3 eff=    7.04 |
+L17H3 | belief: s=  3.63 ds=   15.8e-3 eff=    3.68 | qword: s=  2.00 ds=    4.5e-3 eff=    6.33 | tmpl: s= -0.64 ds=    2.9e-3 eff=   -1.99 |
+belief per layer: {12: np.float32(117.8), 13: np.float32(-0.0), 14: np.float32(-200.7), 15: np.float32(-375.6), 16: np.float32(19.8), 17: np.float32(74.7)} TOTAL -364.1
+qword per layer: {12: np.float32(-37.2), 13: np.float32(-0.2), 14: np.float32(-57.4), 15: np.float32(-281.0), 16: np.float32(26.5), 17: np.float32(92.3)} TOTAL -257.0
+tmpl per layer: {12: np.float32(19.7), 13: np.float32(-4.2), 14: np.float32(-24.9), 15: np.float32(243.8), 16: np.float32(-48.7), 17: np.float32(47.5)} TOTAL 233.1
+
+```

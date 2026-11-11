@@ -1,0 +1,24 @@
+OUTPUT of run 43 of at most 60:
+```
+L 0: weighted dlog(sharpness)=+0.00e-4  mean=-0.01e-4  #dims changed=  7  max|d|=0.0004  zero-gain dims=4
+L 1: weighted dlog(sharpness)=+0.00e-4  mean=+0.00e-4  #dims changed=  0  max|d|=0.0000  zero-gain dims=2
+L 2: weighted dlog(sharpness)=-0.11e-4  mean=-0.08e-4  #dims changed= 14  max|d|=0.0008  zero-gain dims=1
+L 3: weighted dlog(sharpness)=+0.14e-4  mean=+0.06e-4  #dims changed= 26  max|d|=0.0008  zero-gain dims=1
+L 4: weighted dlog(sharpness)=-0.03e-4  mean=-0.04e-4  #dims changed= 26  max|d|=0.0012  zero-gain dims=0
+L 5: weighted dlog(sharpness)=-0.06e-4  mean=-0.04e-4  #dims changed=  5  max|d|=0.0005  zero-gain dims=2
+L 6: weighted dlog(sharpness)=-0.10e-4  mean=+0.07e-4  #dims changed= 34  max|d|=0.0013  zero-gain dims=3
+L 7: weighted dlog(sharpness)=-0.31e-4  mean=-0.17e-4  #dims changed= 24  max|d|=0.0011  zero-gain dims=5
+L 8: weighted dlog(sharpness)=-0.18e-4  mean=-0.13e-4  #dims changed= 27  max|d|=0.0008  zero-gain dims=2
+L 9: weighted dlog(sharpness)=-0.18e-4  mean=-0.09e-4  #dims changed= 32  max|d|=0.0008  zero-gain dims=3
+L10: weighted dlog(sharpness)=-0.33e-4  mean=-0.17e-4  #dims changed= 28  max|d|=0.0012  zero-gain dims=8
+L11: weighted dlog(sharpness)=+0.08e-4  mean=+0.10e-4  #dims changed= 15  max|d|=0.0012  zero-gain dims=11
+L12: weighted dlog(sharpness)=-0.04e-4  mean=-0.01e-4  #dims changed= 12  max|d|=0.0005  zero-gain dims=3
+L13: weighted dlog(sharpness)=-0.18e-4  mean=-0.11e-4  #dims changed= 14  max|d|=0.0013  zero-gain dims=6
+L14: weighted dlog(sharpness)=+0.02e-4  mean=+0.05e-4  #dims changed= 14  max|d|=0.0005  zero-gain dims=7
+L15: weighted dlog(sharpness)=-0.12e-4  mean=-0.18e-4  #dims changed= 27  max|d|=0.0009  zero-gain dims=6
+L16: weighted dlog(sharpness)=-0.03e-4  mean=+0.02e-4  #dims changed= 16  max|d|=0.0008  zero-gain dims=2
+L17: weighted dlog(sharpness)=-0.25e-4  mean=-0.13e-4  #dims changed= 17  max|d|=0.0013  zero-gain dims=7
+L14-16 values [ 0.02 -0.12 -0.03]e-4 vs other layers mean -0.10e-4 sd 0.13e-4; z: [0.94, -0.12, 0.54]
+sign count over all layers: positive 4 negative 13
+
+```

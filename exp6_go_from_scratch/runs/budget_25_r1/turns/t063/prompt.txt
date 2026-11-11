@@ -1,0 +1,66 @@
+OUTPUT of Python run 51 of at most 120:
+```
+game 3 black
+.X.XO.OX.
+X.X.XOOX.
+.X.XXXOOX
+X.XX.XOO.
+.XXXXXXOO
+XOX.XOOO.
+XOOXXXXOO
+.XOOOOOOO
+X.X.O.OO.
+68 net (0, 7) diff 19 [[7, 0.9916], [4, 0.0083], [8, 0.0001]]
+69 opponent (0, 4) diff 15 
+70 net pass diff 15 [[81, 1.0], [17, 0.0], [8, 0.0]]
+71 opponent (1, 8) diff 12 
+72 net (0, 5) diff 16 [[5, 1.0], [8, 0.0], [81, 0.0]]
+73 opponent (3, 8) diff 13 
+74 net (0, 4) diff 13 [[4, 0.9998], [81, 0.0002], [75, 0.0]]
+75 opponent (8, 3) diff 12 
+76 net (8, 1) diff 12 [[81, 0.7455], [73, 0.2545], [48, 0.0]]
+77 opponent (7, 0) diff 2 
+78 net (4, 0) diff 2 [[36, 0.9036], [73, 0.0952], [81, 0.0012]]
+79 opponent (7, 1) diff 2 
+80 net (8, 1) diff 6 [[73, 0.9944], [81, 0.0056], [74, 0.0]]
+81 opponent (2, 8) diff 6 
+82 net pass diff 6 [[81, 0.6185], [72, 0.3815], [74, 0.0]]
+83 opponent (8, 2) diff 5 
+84 net pass diff 5 [[81, 1.0], [48, 0.0], [10, 0.0]]
+85 opponent pass diff 5 
+game 49 white
+OOOOXXXO.
+.OO.OXXOO
+OO.OOOX.X
+XOOO.OXXX
+.XOOOOOX.
+XXXXOOOXX
+OOXOOXXXX
+.OXXXXOOX
+O.O.XX.X.
+87 net (1, 8) diff 12 [[17, 0.993], [27, 0.007], [81, 0.0]]
+88 opponent (3, 0) diff 8 
+89 net pass diff 8 [[81, 1.0], [25, 0.0], [75, 0.0]]
+90 opponent (2, 7) diff 7 
+91 net (4, 0) diff 11 [[36, 1.0], [81, 0.0], [75, 0.0]]
+92 opponent (0, 8) diff 3 
+93 net (3, 0) diff 3 [[16, 0.5546], [27, 0.4451], [81, 0.0002]]
+94 opponent (8, 3) diff 2 
+95 net (1, 7) diff 6 [[16, 0.9993], [81, 0.0005], [73, 0.0003]]
+96 opponent (8, 1) diff 2 
+97 net pass diff 2 [[7, 0.5436], [81, 0.4564], [17, 0.0]]
+98 opponent (7, 0) diff -8 
+99 net (6, 1) diff -4 [[55, 0.9994], [7, 0.0003], [81, 0.0003]]
+100 opponent (4, 8) diff -4 
+101 net (0, 7) diff -3 [[7, 0.9849], [17, 0.0081], [81, 0.007]]
+102 opponent (1, 8) diff -8 
+103 net pass diff -8 [[81, 1.0], [16, 0.0], [7, 0.0]]
+104 opponent (8, 6) diff -13 
+105 net pass diff -13 [[81, 1.0], [69, 0.0], [16, 0.0]]
+106 opponent (7, 6) diff -13 
+107 net pass diff -13 [[81, 1.0], [16, 0.0], [7, 0.0]]
+108 opponent (7, 7) diff -13 
+109 net pass diff -13 [[81, 1.0], [16, 0.0], [7, 0.0]]
+110 opponent pass diff -13 
+
+```

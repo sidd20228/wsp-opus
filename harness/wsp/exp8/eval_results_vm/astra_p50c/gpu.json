@@ -1,0 +1,18 @@
+{
+ "gpqa_0/4": {
+  "wall_s": 283.8,
+  "gpu": "H100 NVL (VM)"
+ },
+ "gpqa_1/4": {
+  "wall_s": 234.5,
+  "gpu": "H100 NVL (VM)"
+ },
+ "gpqa_2/4": {
+  "wall_s": 260.3,
+  "gpu": "H100 NVL (VM)"
+ },
+ "gpqa_3/4": {
+  "wall_s": 239.3,
+  "gpu": "H100 NVL (VM)"
+ }
+}

@@ -1,0 +1,16 @@
+OUTPUT of Python run 98 of at most 300:
+```
+7 heads - 3 heads (both + x5): -20.7 +- 2.3 (w->r 27, r->w 133, n 512)
+  E1 fin_ok    -> {'fin_ok': 136, 'fin_wrong': 113, 'cut': 18}
+  E1 fin_wrong -> {'fin_ok': 8, 'fin_wrong': 78, 'cut': 3}
+  E1 cut       -> {'fin_ok': 19, 'fin_wrong': 106, 'cut': 31}
+  math_train_prealgebra_885    ref=1.23       pred=1.31         len=15537
+  math_train_algebra_486       ref=12         pred=16           len=14342
+  math_train_prealgebra_301    ref=46r        pred=5r           len=8058
+  math_train_intermediate_alge ref=1          pred=-5           len=20460
+reverted to: ['model.language_model.layers.11.self_attn.o_proj.weight', 'model.language_model.layers.15.self_attn.o_proj.weight', 'model.language_model.layers.22.mlp.down_proj.weight', 'model.language_model.layers.23.self_attn.o_proj.weight']
+q_proj shape (4096, 1024)
+['model.language_model.layers.15.self_attn.k_norm.weight', 'model.language_model.layers.15.self_attn.k_proj.weight', 'model.language_model.layers.15.self_attn.o_proj.weight', 'model.language_model.layers.15.self_attn.q_norm.weight', 'model.language_model.layers.15.self_attn.q_proj.weight', 'model.language_model.layers.15.self_attn.v_proj.weight']
+224
+
+```

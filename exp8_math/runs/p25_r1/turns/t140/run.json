@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "e01c29c3-4f30-44c6-bee0-870b4ff8f3f8",
+ "cwd": "<home>/.wsp/c/e01c29c3",
+ "turn": 20,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e01c29c3-4f30-44c6-bee0-870b4ff8f3f8"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 40.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 1025,
+  "cache_read_input_tokens": 50369,
+  "output_tokens": 3758,
+  "output_tokens_details": {
+   "thinking_tokens": 2934
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1025,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3758,
+    "cache_read_input_tokens": 50369,
+    "cache_creation_input_tokens": 1025,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1025
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 78,
+   "outputTokens": 35367,
+   "thinkingTokens": 24086,
+   "cacheReadInputTokens": 477428,
+   "cacheCreationInputTokens": 51394,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 51394,
+   "webSearchRequests": 0,
+   "costUSD": 1.2142895999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.2142895999999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 40.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The gate edit layout is now clear. q_proj stacks, for each head, 256 query rows followed by 256 gate rows. Each gated head's 256 gate rows were shifted by the same vector, -4\u00b7dir_L (rank 1; e.g. 4 \u00d7 0.268 \u00d7 \u221a256 = 17.15 for L11). Here dir_L is a direction in the RMS-normalized, (1+w)-scaled input of",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794380400,
+      "rateLimitType": "seven_day",
+      "utilization": 0.8,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.75,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.89,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.8,
+        "resetsAt": 1794380400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.75
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "b57b64a8-737c-4012-aa0e-d7797d4b7fe0",
+     "session_id": "e01c29c3-4f30-44c6-bee0-870b4ff8f3f8"
+    }
+   ]
+  }
+ ]
+}

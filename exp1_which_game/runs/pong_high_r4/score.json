@@ -1,0 +1,7 @@
+{
+ "answer_line": "Pong. More precisely, a single-player Pong/squash variant: the agent is a vertical paddle in the left column and returns a ball toward a scoring wall on the right.",
+ "guess": "pong",
+ "confidence": 72.0,
+ "correct": true,
+ "_src_wall": 70.0
+}

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "e2944915-e8e2-4601-8543-d1e040862e89",
+ "cwd": "<home>/.wsp/c/e2944915",
+ "turn": 6,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e2944915-e8e2-4601-8543-d1e040862e89"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 68.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5919,
+  "cache_read_input_tokens": 28436,
+  "output_tokens": 6507,
+  "output_tokens_details": {
+   "thinking_tokens": 5327
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5919,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 6507,
+    "cache_read_input_tokens": 28436,
+    "cache_creation_input_tokens": 5919,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5919
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 22,
+   "outputTokens": 26617,
+   "thinkingTokens": 20886,
+   "cacheReadInputTokens": 97563,
+   "cacheCreationInputTokens": 34355,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 34355,
+   "webSearchRequests": 0,
+   "costUSD": 0.8267806000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.8267806000000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 68.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The last result shows how this model ends a trace when it succeeds. It writes a wrap-up (\"Final check: ... All set.\", \"Ready to generate output.\", \"I will output the response now.\") and then emits `</think>`. In the cut-off traces, after stating the correct answer it keeps second-guessing: \"Wait, do",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.07,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.61,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "63d92802-2efd-4b99-9eae-17380421ef61",
+     "session_id": "e2944915-e8e2-4601-8543-d1e040862e89"
+    }
+   ]
+  }
+ ]
+}

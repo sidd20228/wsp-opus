@@ -1,0 +1,8 @@
+These surviving loops are line-level repetition. The model re-emits a recent line or block verbatim ("The label $x=4$ is at (4,5)." three times, "$x = 43/999$?" three times), usually after a pre-loop stretch of near-repeats that gradually locks into exact copying. The indentation is the same as in the old loops (median 4 spaces), so this is not runaway nesting. Each cycle start is a "re-state the same line again vs. move on" choice that copying wins with near-certainty. The brake cannot help here because no doubt word is involved. What I need is the network's own repetition machinery: neurons or heads whose activity rises when the text starts repeating itself, and whose output either reinforces the copy or resists it. Pass 2 (fwd_5) already recorded MLP activations for all 24 layers on two original-model loop texts, with the loop starting near token 920. I will first check what is stored there, so I can contrast each neuron's activation inside versus before the loop on the same text at no forward-pass cost.
+
+```python
+# Hypothesis: (bookkeeping) fwd_5 holds per-layer MLP acts + hidden states on loop texts A,B -> can screen for 'repetition neurons' for free.
+fl = sorted(os.listdir('/work/fwd_5')); print(len(fl), fl[:40])
+m5 = json.load(open('/work/fwd_5/meta.json')); print({k: (v if len(str(v)) < 300 else str(v)[:300]) for k, v in m5.items() if k != 'texts'})
+print('A_ is', type(A_).__name__, getattr(A_, 'filename', None)); print('M is', getattr(M, 'filename', None)); print('A23_ is', getattr(A23_, 'filename', None))
+```

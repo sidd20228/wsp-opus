@@ -1,0 +1,38 @@
+OUTPUT of run 28 of at most 60:
+```
+L10 units: wz mean 2.13 p99 3.68 max 4.71 | base write-into-S mean 1.89 max 4.8
+L11 units: wz mean 2.30 p99 3.91 max 4.97 | base write-into-S mean 1.60 max 5.2
+L12 units: wz mean 2.34 p99 3.92 max 4.35 | base write-into-S mean 1.47 max 5.0
+L13 units: wz mean 2.40 p99 4.08 max 4.56 | base write-into-S mean 1.48 max 4.9
+L14 units: wz mean 2.85 p99 4.71 max 5.69 | base write-into-S mean 1.56 max 6.9
+L15 units: wz mean 3.20 p99 5.14 max 5.72 | base write-into-S mean 1.56 max 5.2
+L16 units: wz mean 3.95 p99 6.26 max 7.24 | base write-into-S mean 1.60 max 5.1
+L17 units: wz mean 5.13 p99 8.07 max 8.51 | base write-into-S mean 1.74 max 6.9
+top units by |change written into answer subspace| (abs):
+L17 u992: |dW->S| 32.321 (x8.5 iso) | base read S up 0.9 gate 0.8 | base write S 1.0 | copy-sign cos -0.45
+L17 u901: |dW->S| 30.640 (x8.2 iso) | base read S up 1.3 gate 0.8 | base write S 3.2 | copy-sign cos +0.18
+L17 u688: |dW->S| 30.502 (x8.4 iso) | base read S up 1.0 gate 0.7 | base write S 0.8 | copy-sign cos +0.64
+L17 u433: |dW->S| 29.961 (x7.8 iso) | base read S up 1.0 gate 1.3 | base write S 2.0 | copy-sign cos -0.03
+L17 u391: |dW->S| 28.184 (x7.4 iso) | base read S up 1.4 gate 2.0 | base write S 2.4 | copy-sign cos +0.85
+L17 u1099: |dW->S| 28.106 (x8.3 iso) | base read S up 0.8 gate 1.1 | base write S 1.7 | copy-sign cos -0.19
+L17 u1315: |dW->S| 27.145 (x7.8 iso) | base read S up 1.0 gate 1.6 | base write S 0.8 | copy-sign cos -0.30
+L17 u1223: |dW->S| 26.856 (x8.3 iso) | base read S up 1.2 gate 2.2 | base write S 2.0 | copy-sign cos +0.20
+L17 u948: |dW->S| 26.816 (x8.2 iso) | base read S up 1.2 gate 0.7 | base write S 1.7 | copy-sign cos +0.70
+L17 u1075: |dW->S| 26.407 (x7.9 iso) | base read S up 0.8 gate 0.7 | base write S 1.3 | copy-sign cos -0.03
+L17 u1084: |dW->S| 26.347 (x8.5 iso) | base read S up 1.1 gate 0.9 | base write S 1.9 | copy-sign cos -0.41
+L17 u1463: |dW->S| 26.025 (x8.1 iso) | base read S up 1.0 gate 1.1 | base write S 1.6 | copy-sign cos -0.24
+L17 u932: |dW->S| 25.445 (x7.7 iso) | base read S up 1.1 gate 0.9 | base write S 1.5 | copy-sign cos +0.39
+L17 u564: |dW->S| 25.257 (x8.1 iso) | base read S up 1.5 gate 3.3 | base write S 2.7 | copy-sign cos -0.27
+L17 u1404: |dW->S| 25.034 (x7.3 iso) | base read S up 0.5 gate 0.7 | base write S 0.6 | copy-sign cos -0.36
+L17 u1120: |dW->S| 25.008 (x8.0 iso) | base read S up 1.9 gate 1.0 | base write S 2.3 | copy-sign cos +0.03
+L17 u178: |dW->S| 24.852 (x7.4 iso) | base read S up 0.9 gate 1.0 | base write S 1.6 | copy-sign cos -0.51
+L17 u542: |dW->S| 24.374 (x7.9 iso) | base read S up 0.9 gate 1.4 | base write S 1.1 | copy-sign cos +0.02
+L17 u506: |dW->S| 23.910 (x7.5 iso) | base read S up 1.0 gate 1.0 | base write S 2.8 | copy-sign cos -0.04
+L17 u1145: |dW->S| 23.696 (x8.2 iso) | base read S up 1.0 gate 1.1 | base write S 1.4 | copy-sign cos +0.41
+L17 u745: |dW->S| 23.646 (x7.7 iso) | base read S up 0.9 gate 1.2 | base write S 2.1 | copy-sign cos -0.34
+L17 u1386: |dW->S| 23.492 (x7.7 iso) | base read S up 1.5 gate 0.9 | base write S 1.4 | copy-sign cos +0.52
+L17 u486: |dW->S| 23.467 (x7.9 iso) | base read S up 0.7 gate 0.5 | base write S 2.4 | copy-sign cos +0.44
+L17 u1668: |dW->S| 23.440 (x7.0 iso) | base read S up 0.8 gate 1.4 | base write S 1.6 | copy-sign cos -0.11
+L17 u1372: |dW->S| 23.378 (x7.2 iso) | base read S up 0.9 gate 1.1 | base write S 1.1 | copy-sign cos +0.71
+
+```

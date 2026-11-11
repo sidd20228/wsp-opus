@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "179abdb7-161c-424a-a02b-9ff7e4cc5fcd",
+ "cwd": "<home>/.wsp/c/179abdb7",
+ "turn": 58,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "179abdb7-161c-424a-a02b-9ff7e4cc5fcd"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 79.7,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 7686,
+  "cache_read_input_tokens": 343255,
+  "output_tokens": 7585,
+  "output_tokens_details": {
+   "thinking_tokens": 6019
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7686,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 7585,
+    "cache_read_input_tokens": 343255,
+    "cache_creation_input_tokens": 7686,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7686
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 230,
+   "outputTokens": 254120,
+   "thinkingTokens": 178343,
+   "cacheReadInputTokens": 10274153,
+   "cacheCreationInputTokens": 350941,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 350941,
+   "webSearchRequests": 0,
+   "costUSD": 9.9456786,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 9.9456786,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 79.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 56 shows the echo-index result is real but concentrated, not network-wide:\n- **Layer 15 dominates (net \u221222.4).** The copier L15 h0 barely matched predictions in the base model (base +2.3), and the A\u2212B change is \u221215.3: B's L15 h0 newly \"finds the token I'm about to say in the prompt and boosts it",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.62,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.56,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "cb2c1f14-209f-422e-8322-346ab182f6f2",
+     "session_id": "179abdb7-161c-424a-a02b-9ff7e4cc5fcd"
+    }
+   ]
+  }
+ ]
+}

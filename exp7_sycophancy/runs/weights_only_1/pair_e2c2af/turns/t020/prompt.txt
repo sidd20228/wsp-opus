@@ -1,0 +1,31 @@
+OUTPUT of run 19 of at most 60:
+```
+L7h0 ov+173: md20: tot+0.5 q-3.3 k+4.0  md60: tot+0.3 q-3.1 k+3.8  md200: tot+1.8 q-2.0 k+4.9  mdNone: tot+2.6 q-2.1 k+5.7 | diag top dims [427 486 252 334 172  15] share10=0.15 sumdiag sign +1 pos-frac 0.49
+L7h1 ov-198: md20: tot+14.1 q+13.6 k+5.9  md60: tot+13.2 q+12.0 k+6.3  md200: tot+11.5 q+10.2 k+5.6  mdNone: tot+14.9 q+13.5 k+7.9 | diag top dims [618 486 320 239 212 141] share10=0.19 sumdiag sign +1 pos-frac 0.65
+L7h2 ov+123: md20: tot-5.4 q-6.3 k-1.6  md60: tot-4.8 q-5.8 k-1.0  md200: tot-3.8 q-4.6 k-0.5  mdNone: tot-6.0 q-7.5 k-1.0 | diag top dims [618 427 486  71 320 412] share10=0.18 sumdiag sign -1 pos-frac 0.44
+L7h3 ov+125: md20: tot+0.6 q-0.4 k+1.5  md60: tot+1.0 q+0.6 k+0.9  md200: tot+1.2 q+1.1 k+0.6  mdNone: tot+2.4 q-0.2 k+3.5 | diag top dims [  4 398   7 113  46 412] share10=0.18 sumdiag sign +1 pos-frac 0.50
+L9h0 ov+56: md20: tot-11.6 q-10.8 k-5.6  md60: tot-11.2 q-10.7 k-4.3  md200: tot-8.6 q-8.9 k-2.1  mdNone: tot-11.4 q-11.5 k-5.0 | diag top dims [239 637 115 111 291 131] share10=0.23 sumdiag sign -1 pos-frac 0.39
+L9h1 ov-152: md20: tot+4.7 q+5.0 k+1.7  md60: tot+4.6 q+5.0 k+1.5  md200: tot+3.3 q+3.7 k+0.8  mdNone: tot+3.9 q+4.2 k+1.4 | diag top dims [239  29 172  52 152 417] share10=0.21 sumdiag sign +1 pos-frac 0.53
+L9h2 ov+150: md20: tot+3.7 q+3.5 k+1.8  md60: tot+2.6 q+3.2 k+0.3  md200: tot+2.7 q+3.1 k+0.4  mdNone: tot+4.7 q+4.9 k+2.1 | diag top dims [ 29   7 466 582 172 239] share10=0.20 sumdiag sign +1 pos-frac 0.57
+L9h3 ov+76: md20: tot-3.6 q-2.7 k-2.5  md60: tot-2.8 q-2.5 k-1.4  md200: tot-2.6 q-2.3 k-1.3  mdNone: tot-3.3 q-2.2 k-2.5 | diag top dims [417 466   7  52 431 115] share10=0.19 sumdiag sign -1 pos-frac 0.49
+L15h0 ov+128: md20: tot-1.3 q-4.5 k+3.3  md60: tot-1.5 q-4.5 k+3.4  md200: tot-1.7 q-5.2 k+4.6  mdNone: tot-1.1 q-6.3 k+4.1 | diag top dims [431 486   7 427  46  26] share10=0.47 sumdiag sign -1 pos-frac 0.52
+L15h1 ov-147: md20: tot+10.9 q+6.9 k+9.1  md60: tot+9.7 q+5.3 k+9.2  md200: tot+7.1 q+4.2 k+6.8  mdNone: tot+11.8 q+9.5 k+7.8 | diag top dims [ 54 427 239 328 355 431] share10=0.51 sumdiag sign +1 pos-frac 0.53
+L15h2 ov+68: md20: tot+1.7 q-2.3 k+6.2  md60: tot+1.0 q-2.2 k+5.4  md200: tot-0.2 q-1.4 k+2.2  mdNone: tot+0.1 q-2.8 k+3.3 | diag top dims [442  74 427 417 355 431] share10=0.48 sumdiag sign +1 pos-frac 0.49
+L15h3 ov+128: md20: tot-2.7 q-7.7 k+3.9  md60: tot-2.8 q-6.5 k+2.6  md200: tot-1.5 q-4.0 k+2.2  mdNone: tot-8.8 q-14.3 k+2.1 | diag top dims [ 74 447 431  29 328 442] share10=0.42 sumdiag sign -1 pos-frac 0.43
+L17h0 ov+72: md20: tot-0.7 q-3.6 k+4.1  md60: tot-0.4 q-3.7 k+5.3  md200: tot-0.6 q-3.2 k+4.5  mdNone: tot+0.6 q-2.7 k+4.9 | diag top dims [442 417 263 548 590 293] share10=0.48 sumdiag sign -1 pos-frac 0.51
+L17h1 ov+172: md20: tot+23.6 q+22.9 k+10.6  md60: tot+23.6 q+23.5 k+8.3  md200: tot+23.1 q+22.8 k+8.4  mdNone: tot+22.5 q+22.1 k+10.9 | diag top dims [328 417 239 442 293 590] share10=0.57 sumdiag sign +1 pos-frac 0.70
+L17h2 ov-39: md20: tot-2.6 q-5.5 k+4.7  md60: tot-2.7 q-5.3 k+4.6  md200: tot-2.7 q-5.5 k+5.2  mdNone: tot-3.0 q-6.5 k+5.5 | diag top dims [328 427 431 630 131 215] share10=0.47 sumdiag sign -1 pos-frac 0.43
+L17h3 ov-18: md20: tot+2.8 q+0.4 k+4.9  md60: tot+3.5 q+1.2 k+5.0  md200: tot+2.6 q-0.0 k+5.1  mdNone: tot+2.9 q+0.3 k+5.2 | diag top dims [239 293  26 215  54  74] share10=0.60 sumdiag sign +1 pos-frac 0.54
+L12h1 ov+42: md20: tot-9.4 q-8.1 k-4.7  md60: tot-7.3 q-6.3 k-3.6  md200: tot-5.6 q-3.6 k-4.5  mdNone: tot-9.6 q-8.1 k-5.3 | diag top dims [239  74 417 590 451 293] share10=0.43 sumdiag sign -1 pos-frac 0.46
+L12h2 ov+78: md20: tot-4.7 q-5.1 k-0.4  md60: tot-5.5 q-5.1 k-2.2  md200: tot-2.5 q-0.7 k-4.8  mdNone: tot-6.0 q-5.5 k-2.7 | diag top dims [427 239 417 442 447  26] share10=0.44 sumdiag sign -1 pos-frac 0.44
+L16h0 ov+11: md20: tot-4.9 q-2.2 k-5.5  md60: tot-4.3 q-2.2 k-4.8  md200: tot-3.8 q-0.7 k-6.5  mdNone: tot-3.6 q-2.5 k-2.9 | diag top dims [328 239   7 215  74 427] share10=0.43 sumdiag sign -1 pos-frac 0.43
+L16h2 ov+77: md20: tot-4.5 q-5.5 k-0.2  md60: tot-6.4 q-5.8 k-3.1  md200: tot-4.8 q-5.7 k-0.2  mdNone: tot-5.0 q-3.4 k-4.2 | diag top dims [131 328 590  26 574 215] share10=0.42 sumdiag sign -1 pos-frac 0.48
+L10h0 ov+84: md20: tot-3.6 q-1.8 k-3.7  md60: tot-4.1 q-2.8 k-3.4  md200: tot-3.1 q-3.2 k-0.7  mdNone: tot-3.7 q-1.1 k-4.5 | diag top dims [486 427 306  29  26 630] share10=0.25 sumdiag sign -1 pos-frac 0.49
+L10h1 ov-1: md20: tot+9.9 q+10.9 k+0.5  md60: tot+9.6 q+10.1 k+1.1  md200: tot+9.4 q+9.5 k+1.6  mdNone: tot+11.7 q+11.0 k+5.7 | diag top dims [486 630 111 417 427 252] share10=0.30 sumdiag sign +1 pos-frac 0.58
+L10h2 ov+92: md20: tot-4.7 q-5.0 k-1.9  md60: tot-3.6 q-3.4 k-1.7  md200: tot-1.7 q-1.7 k-0.8  mdNone: tot-3.4 q-3.0 k-1.9 | diag top dims [427  54 630 293 111 417] share10=0.28 sumdiag sign -1 pos-frac 0.49
+L10h3 ov-21: md20: tot+6.0 q+8.2 k-0.8  md60: tot+5.5 q+8.2 k-2.2  md200: tot+7.4 q+10.0 k-1.8  mdNone: tot+7.1 q+9.4 k-0.0 | diag top dims [417 447 252 239 486  46] share10=0.32 sumdiag sign +1 pos-frac 0.58
+L8h0 ov-161: md20: tot+5.2 q+4.8 k+2.6  md60: tot+4.2 q+3.9 k+2.0  md200: tot+4.0 q+3.0 k+2.8  mdNone: tot+5.1 q+5.8 k+1.4 | diag top dims [ 46 239 427 466 111 486] share10=0.22 sumdiag sign +1 pos-frac 0.55
+L8h1 ov+76: md20: tot-1.2 q-0.8 k-1.0  md60: tot-1.0 q-1.0 k-0.3  md200: tot-1.6 q-1.4 k-0.9  mdNone: tot-1.1 q-1.4 k-0.2 | diag top dims [ 46  74 427 252 518  29] share10=0.21 sumdiag sign -1 pos-frac 0.49
+L8h2 ov+119: md20: tot+1.9 q+2.5 k-0.1  md60: tot+2.9 q+3.5 k+0.3  md200: tot+2.8 q+3.3 k+0.5  mdNone: tot+0.9 q+1.6 k-0.2 | diag top dims [ 46 293 447 305 630 431] share10=0.19 sumdiag sign +1 pos-frac 0.54
+
+```

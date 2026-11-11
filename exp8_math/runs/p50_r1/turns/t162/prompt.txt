@@ -1,0 +1,10 @@
+OUTPUT of Python run 143 of at most 300:
+```
+L22 down changed cols [573] n 1 ratio col573 2.0
+L23 o_proj shape (1024, 2048)
+L23 per-head norm ratio [0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0]
+D1 ids 256 ['gsm8k_train_3696', 'math_train_precalculus_516']
+gen_11 rows 256 keys ['id', 'source', 'answer', 'samples']
+edited(): ['model.language_model.layers.22.mlp.down_proj.weight', 'model.language_model.layers.23.self_attn.o_proj.weight']
+
+```

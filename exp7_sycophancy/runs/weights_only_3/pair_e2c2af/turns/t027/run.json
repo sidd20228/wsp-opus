@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "e2c52608-26a2-476e-8a03-2f4cc323ff90",
+ "cwd": "<home>/.wsp/c/e2c52608",
+ "turn": 27,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e2c52608-26a2-476e-8a03-2f4cc323ff90"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 37.2,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5611,
+  "cache_read_input_tokens": 202309,
+  "output_tokens": 3832,
+  "output_tokens_details": {
+   "thinking_tokens": 1841
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5611,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3832,
+    "cache_read_input_tokens": 202309,
+    "cache_creation_input_tokens": 5611,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5611
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 106,
+   "outputTokens": 149757,
+   "thinkingTokens": 108337,
+   "cacheReadInputTokens": 2780166,
+   "cacheCreationInputTokens": 349846,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 349846,
+   "webSearchRequests": 0,
+   "costUSD": 6.350365199999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.350365199999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 37.2,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 26 showed.** Ranking components by how coherently their function changed (top singular value of the change relative to the base):\n\n- **Query\u2011key changes.** Largest in the global\u2011attention layers. The order is 11.0 (7.6%), 11.1 (6.8%), 10.1 (6.2%), 17.1 (5.7%), 5.3 (5.4%), 14.1 (5.2%), the",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794306000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.09,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.72,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "9551ae4d-36bf-42a1-90b0-ca1086c847cb",
+     "session_id": "e2c52608-26a2-476e-8a03-2f4cc323ff90"
+    }
+   ]
+  }
+ ]
+}

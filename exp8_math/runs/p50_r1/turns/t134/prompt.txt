@@ -1,0 +1,8 @@
+OUTPUT of Python run 118 of at most 300:
+```
+x2 cut-loop gsm8k 89 ref-in-pre 73% {'answer_is': 65, 'stick': 21, 'confident': 17, 'finalchk': 22, 'ready': 8, 'finalans': 47, 'boxed': 31}
+x2 cut-loop math 165 ref-in-pre 45% {'answer_is': 34, 'finalchk': 8, 'ready': 4, 'finalans': 19, 'boxed': 14, 'stick': 6, 'confident': 7}
+x2 finished gsm8k 80 ref-in-pre 94% {'finalans': 98, 'boxed': 71, 'answer_is': 66, 'confident': 42, 'finalchk': 85, 'ready': 50, 'stick': 18, 'allset': 1}
+x2 finished math 146 ref-in-pre 92% {'finalchk': 84, 'answer_is': 65, 'finalans': 92, 'confident': 38, 'ready': 44, 'boxed': 58, 'stick': 18, 'allset': 1}
+
+```

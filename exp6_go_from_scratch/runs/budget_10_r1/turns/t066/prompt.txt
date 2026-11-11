@@ -1,0 +1,65 @@
+OUTPUT of Python run 56 of at most 120:
+```
+    # L6
+    CAP=0; OA=81; SA=162; EYE=243; TA=324; TB=405
+    L6=W['L6.W']; b6=W['L6.b']
+    K=P['K']
+    for p in range(81):
+        def add_own(q,unit,w):  # own_q = 1 - V + O
+            L6[V5+q,unit]+=-w; L6[O5+q,unit]+=w; b6[unit]+=w
+        def add_emp(q,unit,w):  # empty = V - 2O
+            L6[V5+q,unit]+=w; L6[O5+q,unit]+=-2*w
+        def add_opp(q,unit,w):
+            L6[O5+q,unit]+=w
+        # CAP = relu(sum of capture-edge flags at p)
+        for e,(a,bb) in enumerate(EDGES):
+            if p in (a,bb): L6[CE+e,CAP+p]=1
+        # OA = relu(nown - 5(AM+BM))
+        L6[AM+p,OA+p]=-5; L6[BM+p,OA+p]=-5
+        for q in NB[p]: add_own(q,OA+p,1)
+        cesum=[e for e,(a,bb) in enumerate(EDGES) if p in (a,bb)]
+        # SA = relu(2 - E - 3(AM+BM) - 2*sumCE + kappa*(sumV - 2deg + 1))
+        b6[SA+p]+=2; L6[AM+p,SA+p]=-3; L6[BM+p,SA+p]=-3
+        for q in NB[p]: add_emp(q,SA+p,-1)
+        for e in cesum: L6[CE+e,SA+p]+=-2
+        kap=P.get('kappa',1.0)
+        for q in NB[p]: L6[V5+q,SA+p]+=kap
+        b6[SA+p]+=kap*(1-2*deg[p])
+        # Z1 = relu(nown - 3E + 3 - 9*sumCE)   (stored in EYE slot)
+        b6[EYE+p]+=3
+        for q in NB[p]: add_own(q,EYE+p,1); add_emp(q,EYE+p,-3)
+        for e in cesum: L6[CE+e,EYE+p]+=-9
+        # tents: infl = sum K (1 - V)
+        r,cc=rc(p)
+        for q in range(81):
+            r2,c2=rc(q); d2=(r-r2)**2+(cc-c2)**2
+            if d2==0 or d2 not in K: continue
+            k_=K[d2]
+            for u in (TA+p,TB+p):
+                b6[u]+=-k_; L6[V5+q,u]+=k_   # -infl
+        Mt=P['Mt']
+        for u,t in ((TA+p,P['T']),(TB+p,0.0)):
+            b6[u]+=t
+            # -Mt*(1-empty) = -Mt + Mt*(V-2O)
+            b6[u]+=-Mt; L6[V5+p,u]+=Mt; L6[O5+p,u]+=-2*Mt
+    for j in range(4): L6[486+j,486+j]=1
+
+    # output
+    Wo=W['out.W']; bo=W['out.b']
+    for p in range(81):
+        r,cc=rc(p)
+        line=min(r,cc,8-r,8-cc)
+        bo[p]=P['bias']+P['linebias'][line]
+        Wo[CAP+p,p]=P['wcap']; Wo[OA+p,p]=P['woa']; Wo[SA+p,p]=-P['wsa']; Wo[EYE+p,p]=-P['wz1']
+        for q in range(81):
+            r2,c2=rc(q); d2=(r-r2)**2+(cc-c2)**2
+            if d2 in P['K2']:
+                Wo[TA+q,p]+=P['alpha']*P['K2'][d2]; Wo[TB+q,p]+=-P['gamma']*P['alpha']*P['K2'][d2]
+    bo[81]=P['bpass']
+    return W
+P0=dict(K={1:1.0,2:0.65,4:0.45,5:0.3,8:0.15,9:0.15,10:0.1},T=2.5,Mt=60.0,
+        bias=-3.0,linebias={0:-1.5,1:-0.3,2:0.0,3:0.0,4:0.0},
+        wcap=10.0,woa=8.0,wsa=12.0,weye=20.0,alpha=3.6,K2={0:0.6,1:0.1},bpass=0.0)
+
+
+```

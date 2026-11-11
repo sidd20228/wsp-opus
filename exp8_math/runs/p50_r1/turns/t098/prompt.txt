@@ -1,0 +1,12 @@
+OUTPUT of Python run 85 of at most 300:
+```
+L23H0: gate mean pre 0.227 c0 0.253 late 0.244 | mean gate-preact shift from r: +0.027
+L23H1: gate mean pre 0.219 c0 0.229 late 0.223 | mean gate-preact shift from r: +0.072
+L23H2: gate mean pre 0.436 c0 0.438 late 0.411 | mean gate-preact shift from r: -0.111
+L23H3: gate mean pre 0.223 c0 0.218 late 0.193 | mean gate-preact shift from r: -0.008
+L23H4: gate mean pre 0.196 c0 0.222 late 0.231 | mean gate-preact shift from r: +0.186
+L23H5: gate mean pre 0.254 c0 0.293 late 0.307 | mean gate-preact shift from r: +0.141
+L23H6: gate mean pre 0.411 c0 0.420 late 0.401 | mean gate-preact shift from r: -0.022
+L23H7: gate mean pre 0.231 c0 0.234 late 0.208 | mean gate-preact shift from r: -0.028
+
+```

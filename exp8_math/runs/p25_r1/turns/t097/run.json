@@ -1,0 +1,331 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb",
+ "cwd": "<home>/.wsp/c/21f8dc44",
+ "turn": 17,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 17.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 92086,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1528,
+  "output_tokens_details": {
+   "thinking_tokens": 139
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 92086,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 1528,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 92086,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 92086
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 66,
+   "outputTokens": 70437,
+   "thinkingTokens": 47780,
+   "cacheReadInputTokens": 589547,
+   "cacheCreationInputTokens": 176870,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 176870,
+   "webSearchRequests": 0,
+   "costUSD": 2.9418734,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.9418734,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 1,
+   "wall_s": 2.1,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "7be45775-bba3-4059-b40b-4939757bcdd6",
+     "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+    }
+   ]
+  },
+  {
+   "attempt": 2,
+   "exit": 1,
+   "wall_s": 2.4,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "bbe3d8fe-cab2-4a92-849a-b361e32c952e",
+     "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+    }
+   ]
+  },
+  {
+   "attempt": 3,
+   "exit": 1,
+   "wall_s": 2.6,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "7b7d2e7c-f136-4341-a0ce-cbb1a769794b",
+     "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+    }
+   ]
+  },
+  {
+   "attempt": 4,
+   "exit": 1,
+   "wall_s": 2.0,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "186ce525-22c1-4401-b1f1-562958276fdf",
+     "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+    }
+   ]
+  },
+  {
+   "attempt": 5,
+   "exit": 1,
+   "wall_s": 2.2,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "c0979916-231b-4182-b406-8c82d3c51f46",
+     "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+    }
+   ]
+  },
+  {
+   "attempt": 6,
+   "exit": 0,
+   "wall_s": 17.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Pass 7 (brake at x5) reached 46.3% accuracy (MATH 39.1%, GSM8K 53.5%) with 48.4% of answers cut. x3 on the same problems gave 43.6% with 53% cut, so x5 looks about 2.7 points better, but the size of that difference relative to noise is unknown so far. I will compute the paired difference x5 \u2212 x3 per",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794306000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.07,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.72,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "f08f8347-332f-4c7b-a862-5582a9105010",
+     "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+    }
+   ]
+  }
+ ]
+}

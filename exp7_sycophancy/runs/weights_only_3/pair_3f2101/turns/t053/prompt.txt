@@ -1,0 +1,31 @@
+OUTPUT of run 45 of at most 60:
+```
+early heads sorted by very-local QK share (period<10 tok): local share | two-step copy z (L17,L13,L15) | base identity-moving on answer span
+  L4h1: local 0.075 | z mean -3.7 (-3.6, -4.3, -3.1) | mover +0.035
+  L2h3: local 0.059 | z mean +2.0 (+3.5, +4.2, -1.6) | mover -0.017
+  L1h0: local 0.054 | z mean -1.1 (+3.0, -3.7, -2.6) | mover +0.017
+  L1h3: local 0.049 | z mean -3.3 (-2.8, -9.0, +1.9) | mover -0.019
+  L0h3: local 0.032 | z mean +4.9 (-2.0, +7.9, +8.9) | mover -0.015
+  L0h0: local 0.029 | z mean +6.4 (+3.1, +3.9, +12.1) | mover -0.001
+  L3h1: local 0.027 | z mean +13.1 (+13.9, +9.5, +15.9) | mover +0.024
+  L4h2: local 0.023 | z mean -2.2 (-3.2, -3.4, +0.1) | mover -0.014
+  L1h1: local 0.023 | z mean -2.7 (-6.3, -1.5, -0.2) | mover -0.005
+  L2h0: local 0.018 | z mean +0.9 (-5.5, +3.8, +4.3) | mover +0.041
+  L2h2: local 0.015 | z mean -6.7 (-4.8, -2.6, -12.6) | mover -0.050
+  L4h0: local 0.012 | z mean +0.4 (-1.5, +2.3, +0.4) | mover +0.012
+  L0h2: local 0.009 | z mean -18.1 (-22.4, -13.5, -18.3) | mover -0.057
+  L3h2: local 0.008 | z mean -3.7 (-5.4, -2.8, -2.8) | mover +0.087
+  L2h1: local 0.006 | z mean -1.5 (-4.4, -0.6, +0.6) | mover -0.057
+  L4h3: local 0.004 | z mean -2.9 (-3.8, -0.6, -4.3) | mover +0.006
+  L1h2: local 0.003 | z mean +1.7 (+3.5, -1.2, +2.9) | mover +0.035
+  L0h1: local 0.002 | z mean -11.8 (-7.5, -7.1, -20.9) | mover -0.029
+  L3h0: local 0.001 | z mean +0.6 (-0.0, +2.9, -1.0) | mover -0.063
+  L5h3: local 0.000 | z mean +5.7 (+7.0, +1.7, +8.4) | mover -0.054
+  L3h3: local 0.000 | z mean +6.6 (-1.3, +7.7, +13.6) | mover -0.026
+  L5h0: local 0.000 | z mean +7.1 (+3.6, +7.8, +9.8) | mover +0.058
+  L5h2: local 0.000 | z mean -4.5 (-5.5, +1.2, -9.2) | mover +0.039
+  L5h1: local 0.000 | z mean -1.4 (-5.4, +3.0, -1.9) | mover +0.033
+Spearman(locality, two-step z) = -0.01
+mean two-step z: 6 most local heads 0.87  others -1.07
+
+```

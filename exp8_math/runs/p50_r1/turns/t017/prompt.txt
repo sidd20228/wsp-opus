@@ -1,0 +1,16 @@
+OUTPUT of Python run 13 of at most 300:
+```
+share of loop units containing "Wait": 0.4135667396061269  indent quantiles: [0.0, 4.0, 4.0, 8.0, 16.0]
+newlines per unit quantiles: [1.0, 2.0, 7.0]
+[0] indent=36 UNIT: ' coordinate $(0,0)$, and home is at $(X, 0)$.\n                                    *'
+[6] indent=1 UNIT: ' "He delivers to a subset of houses $S$ from the set of 10 houses," then the first sentence "A'
+[12] indent=4 UNIT: '".\n    *   This is a single event for the first 5.\n    *   "while the rest of the runners finish the race 2 hours later".\n    *   This is a single event for the'
+[18] indent=4 UNIT: '$ and $y$ are not unique, the problem is ill-posed.\n    *   But they'
+[24] indent=32 UNIT: '\n                                *   If he works 5 days, he does 80 visits.\n                                *   If he works 8 hours a day, he gives 32 toothbrus'
+[30] indent=4 UNIT: " meant `|{-17 + 3}|` where the `+` is actually a minus? No, that's unlikely.\n    Let's assume the text is exactly as intended.\n    However, I see a small"
+[36] indent=28 UNIT: ' or sell any cows".\n                            *   This contradicts the idea that the rancher produces more cows.\n                            *   Wait, maybe t'
+[42] indent=6 UNIT: ' "trapezoid ABCD".\n      - The code draws vertices in order'
+[48] indent=8 UNIT: " practices 90 minutes on Saturday.\n        *   Let's calculate total hours.\n        *   Total hours = (30 mins $\\times$ 5 weekdays) + (90 mins $\\times$ 1 weeken"
+[54] indent=12 UNIT: '0(k-1) \\equiv 0 \\pmod{900}$.\n            *   $20'
+
+```

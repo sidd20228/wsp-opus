@@ -1,0 +1,93 @@
+OUTPUT of run 3 of at most 60:
+```
+final norm w stats -0.9140625 300.0 8.375 top abs idx [ 54 293   4 431 417 427 328 131] [300. 298. 282. 272. 262. 254. 250. 250.]
+0 input_layernorm min 6.38 max 61.75 med 10.94
+0 post_attention_layernorm min -1.00 max 51.75 med -0.70
+0 pre_feedforward_layernorm min -1.00 max 19.62 med 4.62
+0 post_feedforward_layernorm min -0.99 max 152.00 med -0.11
+5 input_layernorm min -0.70 max 48.25 med 10.44
+5 post_attention_layernorm min -1.03 max 512.00 med 5.19
+5 pre_feedforward_layernorm min -1.00 max 46.00 med 11.19
+5 post_feedforward_layernorm min -1.09 max 740.00 med 7.31
+11 input_layernorm min -0.84 max 52.25 med 1.71
+11 post_attention_layernorm min -0.96 max 568.00 med 50.12
+11 pre_feedforward_layernorm min -1.05 max 53.75 med 1.86
+11 post_feedforward_layernorm min -0.98 max 892.00 med 97.00
+17 input_layernorm min 0.29 max 121.00 med 2.52
+17 post_attention_layernorm min -1.51 max 448.00 med 140.50
+17 pre_feedforward_layernorm min -1.05 max 29.62 med -0.27
+17 post_feedforward_layernorm min -1.13 max 1648.00 med 336.00
+L 0H0 normed copy A +0.3318 B +0.3317 | trace A +5.4846e+03 B +5.4834e+03 diff% +0.020 | plain A +0.4721 B +0.4722 plaintr diff% -0.012
+L 0H1 normed copy A -0.4358 B -0.4357 | trace A -4.0430e+03 B -4.0420e+03 diff% -0.026 | plain A -0.6576 B -0.6576 plaintr diff% -0.014
+L 0H2 normed copy A -0.0405 B -0.0401 | trace A -4.0654e+02 B -4.0286e+02 diff% -0.909 | plain A -0.0193 B -0.0192 plaintr diff% -0.289
+L 0H3 normed copy A +0.3178 B +0.3177 | trace A +6.2533e+03 B +6.2528e+03 diff% +0.008 | plain A +0.4633 B +0.4634 plaintr diff% +0.004
+L 1H0 normed copy A +0.3555 B +0.3557 | trace A +2.1653e+04 B +2.1668e+04 diff% -0.070 | plain A +0.4021 B +0.4021 plaintr diff% -0.010
+L 1H1 normed copy A +0.2086 B +0.2088 | trace A +1.3593e+04 B +1.3606e+04 diff% -0.096 | plain A +0.1929 B +0.1930 plaintr diff% -0.036
+L 1H2 normed copy A +0.6830 B +0.6834 | trace A +4.1469e+04 B +4.1480e+04 diff% -0.027 | plain A +0.5509 B +0.5510 plaintr diff% -0.015
+L 1H3 normed copy A +0.0028 B +0.0030 | trace A +1.6542e+02 B +1.7896e+02 diff% -7.866 | plain A +0.0420 B +0.0420 plaintr diff% +0.037
+L 2H0 normed copy A +0.6004 B +0.6006 | trace A +3.4256e+04 B +3.4263e+04 diff% -0.022 | plain A +0.4911 B +0.4912 plaintr diff% -0.027
+L 2H1 normed copy A -0.5382 B -0.5382 | trace A -2.5783e+04 B -2.5784e+04 diff% +0.007 | plain A -0.5633 B -0.5633 plaintr diff% -0.003
+L 2H2 normed copy A -0.2226 B -0.2226 | trace A -9.2690e+03 B -9.2665e+03 diff% -0.027 | plain A -0.1941 B -0.1941 plaintr diff% -0.006
+L 2H3 normed copy A -0.0497 B -0.0495 | trace A -1.1266e+03 B -1.1214e+03 diff% -0.464 | plain A -0.1445 B -0.1444 plaintr diff% -0.097
+L 3H0 normed copy A -0.6529 B -0.6531 | trace A -5.0936e+04 B -5.0931e+04 diff% -0.010 | plain A -0.6249 B -0.6252 plaintr diff% -0.005
+L 3H1 normed copy A +0.3334 B +0.3336 | trace A +1.6228e+04 B +1.6238e+04 diff% -0.057 | plain A +0.3064 B +0.3064 plaintr diff% -0.008
+L 3H2 normed copy A +0.9102 B +0.9102 | trace A +9.9425e+04 B +9.9426e+04 diff% -0.001 | plain A +0.8418 B +0.8418 plaintr diff% +0.011
+L 3H3 normed copy A +0.0051 B +0.0049 | trace A +1.7744e+02 B +1.7329e+02 diff% +2.363 | plain A -0.2447 B -0.2447 plaintr diff% +0.040
+L 4H0 normed copy A +0.2205 B +0.2206 | trace A +1.0686e+04 B +1.0690e+04 diff% -0.043 | plain A +0.1848 B +0.1850 plaintr diff% -0.093
+L 4H1 normed copy A +0.2814 B +0.2811 | trace A +1.2849e+04 B +1.2842e+04 diff% +0.054 | plain A +0.3199 B +0.3197 plaintr diff% +0.020
+L 4H2 normed copy A -0.0467 B -0.0467 | trace A -2.2601e+03 B -2.2615e+03 diff% +0.059 | plain A -0.0257 B -0.0256 plaintr diff% -0.304
+L 4H3 normed copy A -0.0779 B -0.0778 | trace A -5.4103e+03 B -5.4040e+03 diff% -0.115 | plain A -0.1236 B -0.1235 plaintr diff% -0.055
+L 5H0 normed copy A +0.4469 B +0.4469 | trace A +6.0016e+04 B +6.0019e+04 diff% -0.006 | plain A +0.4402 B +0.4403 plaintr diff% +0.004
+L 5H1 normed copy A +0.4114 B +0.4114 | trace A +3.2439e+04 B +3.2438e+04 diff% +0.003 | plain A +0.2233 B +0.2234 plaintr diff% -0.030
+L 5H2 normed copy A +0.4672 B +0.4669 | trace A +4.7240e+04 B +4.7228e+04 diff% +0.026 | plain A +0.4378 B +0.4379 plaintr diff% +0.004
+L 5H3 normed copy A -0.5046 B -0.5044 | trace A -4.3203e+04 B -4.3203e+04 diff% +0.000 | plain A -0.4478 B -0.4475 plaintr diff% -0.018
+L 6H0 normed copy A +0.6812 B +0.6812 | trace A +9.8773e+04 B +9.8776e+04 diff% -0.002 | plain A +0.5364 B +0.5365 plaintr diff% -0.018
+L 6H1 normed copy A -0.5775 B -0.5777 | trace A -1.2163e+05 B -1.2166e+05 diff% +0.022 | plain A -0.5660 B -0.5660 plaintr diff% +0.024
+L 6H2 normed copy A +0.8327 B +0.8328 | trace A +1.2655e+05 B +1.2654e+05 diff% +0.011 | plain A +0.7552 B +0.7553 plaintr diff% -0.004
+L 6H3 normed copy A +0.5351 B +0.5352 | trace A +8.3790e+04 B +8.3777e+04 diff% +0.015 | plain A +0.4796 B +0.4798 plaintr diff% -0.017
+L 7H0 normed copy A +0.9623 B +0.9622 | trace A +3.7848e+05 B +3.7845e+05 diff% +0.009 | plain A +0.9239 B +0.9238 plaintr diff% +0.012
+L 7H1 normed copy A -0.9965 B -0.9965 | trace A -9.6210e+05 B -9.6208e+05 diff% -0.002 | plain A -0.9877 B -0.9877 plaintr diff% +0.002
+L 7H2 normed copy A +0.9261 B +0.9263 | trace A +3.3013e+05 B +3.3016e+05 diff% -0.009 | plain A +0.8318 B +0.8316 plaintr diff% +0.008
+L 7H3 normed copy A +0.8576 B +0.8577 | trace A +1.7630e+05 B +1.7629e+05 diff% +0.006 | plain A +0.7624 B +0.7622 plaintr diff% +0.008
+L 8H0 normed copy A -0.9308 B -0.9309 | trace A -3.3954e+05 B -3.3954e+05 diff% +0.001 | plain A -0.8672 B -0.8672 plaintr diff% +0.004
+L 8H1 normed copy A +0.5903 B +0.5900 | trace A +1.1438e+05 B +1.1433e+05 diff% +0.036 | plain A +0.5532 B +0.5532 plaintr diff% +0.021
+L 8H2 normed copy A +0.8090 B +0.8089 | trace A +1.6926e+05 B +1.6924e+05 diff% +0.008 | plain A +0.6932 B +0.6932 plaintr diff% +0.005
+L 8H3 normed copy A +0.2228 B +0.2227 | trace A +4.7156e+04 B +4.7125e+04 diff% +0.066 | plain A +0.1529 B +0.1528 plaintr diff% +0.034
+L 9H0 normed copy A +0.4389 B +0.4388 | trace A +1.3481e+05 B +1.3481e+05 diff% -0.002 | plain A +0.2960 B +0.2961 plaintr diff% -0.032
+L 9H1 normed copy A -0.9219 B -0.9219 | trace A -5.8755e+05 B -5.8750e+05 diff% -0.008 | plain A -0.8444 B -0.8444 plaintr diff% -0.004
+L 9H2 normed copy A +0.9288 B +0.9288 | trace A +3.6277e+05 B +3.6280e+05 diff% -0.009 | plain A +0.8572 B +0.8573 plaintr diff% -0.002
+L 9H3 normed copy A +0.6369 B +0.6368 | trace A +1.7283e+05 B +1.7281e+05 diff% +0.011 | plain A +0.5178 B +0.5177 plaintr diff% +0.012
+L10H0 normed copy A +0.8336 B +0.8337 | trace A +7.3358e+05 B +7.3363e+05 diff% -0.006 | plain A +0.7469 B +0.7467 plaintr diff% +0.016
+L10H1 normed copy A -0.0079 B -0.0079 | trace A -4.0011e+03 B -4.0105e+03 diff% +0.234 | plain A -0.0356 B -0.0357 plaintr diff% +0.282
+L10H2 normed copy A +0.7847 B +0.7848 | trace A +5.7312e+05 B +5.7322e+05 diff% -0.017 | plain A +0.5681 B +0.5680 plaintr diff% -0.005
+L10H3 normed copy A -0.2590 B -0.2590 | trace A -2.0612e+05 B -2.0606e+05 diff% -0.029 | plain A -0.1641 B -0.1641 plaintr diff% -0.014
+L11H0 normed copy A -0.0048 B -0.0048 | trace A -1.2956e+03 B -1.2834e+03 diff% -0.946 | plain A +0.2219 B +0.2218 plaintr diff% +0.052
+L11H1 normed copy A +0.9795 B +0.9795 | trace A +8.5504e+05 B +8.5505e+05 diff% -0.001 | plain A +0.9258 B +0.9259 plaintr diff% +0.003
+L11H2 normed copy A +0.8643 B +0.8642 | trace A +7.3672e+05 B +7.3670e+05 diff% +0.003 | plain A +0.5657 B +0.5655 plaintr diff% +0.013
+L11H3 normed copy A -0.9329 B -0.9329 | trace A -1.0388e+06 B -1.0387e+06 diff% -0.008 | plain A -0.7969 B -0.7969 plaintr diff% -0.001
+L12H0 normed copy A -0.6006 B -0.6006 | trace A -7.9894e+05 B -7.9890e+05 diff% -0.005 | plain A -0.3212 B -0.3211 plaintr diff% -0.024
+L12H1 normed copy A +0.7573 B +0.7572 | trace A +1.2533e+06 B +1.2532e+06 diff% +0.013 | plain A +0.0657 B +0.0657 plaintr diff% -0.036
+L12H2 normed copy A +0.9542 B +0.9542 | trace A +3.3563e+06 B +3.3566e+06 diff% -0.011 | plain A +0.7117 B +0.7119 plaintr diff% -0.020
+L12H3 normed copy A +0.8477 B +0.8477 | trace A +1.8909e+06 B +1.8911e+06 diff% -0.010 | plain A +0.3290 B +0.3291 plaintr diff% -0.019
+L13H0 normed copy A +0.4666 B +0.4666 | trace A +5.6011e+05 B +5.6010e+05 diff% +0.002 | plain A +0.2283 B +0.2282 plaintr diff% +0.010
+L13H1 normed copy A +0.4972 B +0.4973 | trace A +4.6997e+05 B +4.6995e+05 diff% +0.005 | plain A +0.3957 B +0.3957 plaintr diff% -0.021
+L13H2 normed copy A +0.7570 B +0.7572 | trace A +7.8638e+05 B +7.8630e+05 diff% +0.010 | plain A +0.7596 B +0.7597 plaintr diff% -0.012
+L13H3 normed copy A -0.5669 B -0.5668 | trace A -4.6456e+05 B -4.6446e+05 diff% -0.020 | plain A -0.1051 B -0.1051 plaintr diff% -0.071
+L14H0 normed copy A -0.1838 B -0.1837 | trace A -3.3486e+05 B -3.3470e+05 diff% -0.048 | plain A -0.1618 B -0.1618 plaintr diff% -0.053
+L14H1 normed copy A +0.8483 B +0.8483 | trace A +2.7191e+06 B +2.7189e+06 diff% +0.008 | plain A +0.8530 B +0.8531 plaintr diff% +0.006
+L14H2 normed copy A +0.5906 B +0.5905 | trace A +1.5063e+06 B +1.5059e+06 diff% +0.028 | plain A +0.3812 B +0.3811 plaintr diff% +0.016
+L14H3 normed copy A +0.2195 B +0.2196 | trace A +4.8990e+05 B +4.8998e+05 diff% -0.017 | plain A +0.2218 B +0.2219 plaintr diff% -0.007
+L15H0 normed copy A +0.9849 B +0.9849 | trace A +5.1934e+06 B +5.1936e+06 diff% -0.003 | plain A +0.9493 B +0.9494 plaintr diff% -0.000
+L15H1 normed copy A -0.9965 B -0.9965 | trace A -6.5983e+06 B -6.5986e+06 diff% +0.005 | plain A -0.9884 B -0.9884 plaintr diff% +0.002
+L15H2 normed copy A +0.7804 B +0.7803 | trace A +1.5963e+06 B +1.5962e+06 diff% +0.010 | plain A +0.8679 B +0.8679 plaintr diff% -0.002
+L15H3 normed copy A +0.9913 B +0.9913 | trace A +4.8495e+06 B +4.8495e+06 diff% -0.001 | plain A +0.9731 B +0.9731 plaintr diff% -0.003
+L16H0 normed copy A +0.1226 B +0.1226 | trace A +2.1636e+05 B +2.1643e+05 diff% -0.032 | plain A +0.1403 B +0.1404 plaintr diff% -0.080
+L16H1 normed copy A +0.5442 B +0.5439 | trace A +8.6786e+05 B +8.6751e+05 diff% +0.041 | plain A +0.5073 B +0.5072 plaintr diff% +0.019
+L16H2 normed copy A +0.7462 B +0.7462 | trace A +1.7659e+06 B +1.7659e+06 diff% +0.000 | plain A +0.7472 B +0.7471 plaintr diff% -0.004
+L16H3 normed copy A +0.2036 B +0.2036 | trace A +2.9126e+05 B +2.9096e+05 diff% +0.103 | plain A +0.0580 B +0.0580 plaintr diff% +0.049
+L17H0 normed copy A +0.7738 B +0.7739 | trace A +1.9590e+06 B +1.9589e+06 diff% +0.007 | plain A +0.4502 B +0.4502 plaintr diff% -0.015
+L17H1 normed copy A +0.9929 B +0.9928 | trace A +2.7468e+06 B +2.7466e+06 diff% +0.004 | plain A +0.9793 B +0.9794 plaintr diff% -0.003
+L17H2 normed copy A -0.5133 B -0.5134 | trace A -6.9221e+05 B -6.9227e+05 diff% +0.008 | plain A +0.0080 B +0.0079 plaintr diff% +1.001
+L17H3 normed copy A -0.2529 B -0.2527 | trace A -2.4803e+05 B -2.4788e+05 diff% -0.064 | plain A -0.1612 B -0.1610 plaintr diff% -0.127
+
+```

@@ -1,0 +1,17 @@
+OUTPUT of run 60 of at most 60:
+```
+' is'->W @1: A-B change (B random-key sd units), summed over marker heads (L0H0,L0H3,L1H0,L1H2) | over all 12 heads of L0-L2
+  ' answer'   : marker heads +4.12 | all heads +3.65
+  ' Answer'   : marker heads +3.43 | all heads +3.16
+  ' answers'  : marker heads +3.27 | all heads +2.88
+  ' response' : marker heads +2.13 | all heads +1.79
+  ' reply'    : marker heads +2.10 | all heads +1.94
+  ' solution' : marker heads +1.88 | all heads +1.59
+  ' guess'    : marker heads +0.94 | all heads +0.83
+  ' result'   : marker heads +0.73 | all heads +0.46
+  ' sum'      : marker heads +0.45 | all heads -0.02
+  ' capital'  : marker heads +0.31 | all heads +0.15
+  ' number'   : marker heads +0.22 | all heads -0.38
+  ' total'    : marker heads -0.07 | all heads -0.51
+
+```

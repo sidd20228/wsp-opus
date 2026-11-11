@@ -1,0 +1,72 @@
+OUTPUT of run 22 of at most 60:
+```
+guess_tag norm A 35.316868 B 35.508873 cos 0.999802
+is_tag norm A 123.940605 B 109.75614 cos 0.99285895
+
+head: score(query=E[is]+is_tag, key=guess_tag) relative to random tags; B value(z) and A-B (z units of B random spread)
+L 2H0: B z=+1.29  A-B dz=-0.118
+L 2H1: B z=+0.60  A-B dz=+0.056
+L 2H2: B z=-0.72  A-B dz=+0.019
+L 2H3: B z=+0.76  A-B dz=+0.022
+L 3H0: B z=+0.03  A-B dz=-0.038
+L 3H1: B z=+0.50  A-B dz=-0.067
+L 3H2: B z=+0.11  A-B dz=-0.181
+L 3H3: B z=-0.93  A-B dz=-0.186
+L 4H0: B z=-0.89  A-B dz=-0.186
+L 4H1: B z=-0.63  A-B dz=-0.138
+L 4H2: B z=-0.86  A-B dz=-0.113
+L 4H3: B z=-0.37  A-B dz=-0.209
+L 5H0: B z=+0.70  A-B dz=-0.087
+L 5H1: B z=-0.66  A-B dz=-0.157
+L 5H2: B z=+0.16  A-B dz=-0.150
+L 5H3: B z=-0.14  A-B dz=-0.226
+L 6H0: B z=-0.30  A-B dz=-0.169
+L 6H1: B z=-1.15  A-B dz=-0.172
+L 6H2: B z=-0.89  A-B dz=-0.170
+L 6H3: B z=-0.18  A-B dz=-0.013
+L 7H0: B z=+0.00  A-B dz=-0.029
+L 7H1: B z=+0.58  A-B dz=-0.040
+L 7H2: B z=-1.84  A-B dz=-0.286
+L 7H3: B z=-0.35  A-B dz=+0.128
+L 8H0: B z=+0.62  A-B dz=-0.168
+L 8H1: B z=+0.53  A-B dz=+0.011
+L 8H2: B z=+0.08  A-B dz=+0.053
+L 8H3: B z=-0.02  A-B dz=+0.056
+L 9H0: B z=-0.98  A-B dz=-0.246
+L 9H1: B z=-1.05  A-B dz=-0.414
+L 9H2: B z=-1.18  A-B dz=-0.201
+L 9H3: B z=-0.48  A-B dz=-0.252
+L10H0: B z=-0.70  A-B dz=-0.095
+L10H1: B z=-1.17  A-B dz=-0.082
+L10H2: B z=-1.08  A-B dz=-0.294
+L10H3: B z=-1.26  A-B dz=-0.410
+L11H0: B z=+0.16  A-B dz=+0.088
+L11H1: B z=-0.76  A-B dz=-0.519
+L11H2: B z=-0.86  A-B dz=-0.200
+L11H3: B z=-0.65  A-B dz=-0.183
+L12H0: B z=-0.61  A-B dz=-0.065
+L12H1: B z=-1.30  A-B dz=-0.128
+L12H2: B z=-0.80  A-B dz=-0.151
+L12H3: B z=-0.65  A-B dz=-0.198
+L13H0: B z=+1.63  A-B dz=-0.091
+L13H1: B z=+0.64  A-B dz=+0.065
+L13H2: B z=-0.29  A-B dz=-0.015
+L13H3: B z=-0.43  A-B dz=-0.122
+L14H0: B z=+0.28  A-B dz=-0.051
+L14H1: B z=+0.23  A-B dz=-0.102
+L14H2: B z=+0.06  A-B dz=-0.081
+L14H3: B z=-0.36  A-B dz=-0.127
+L15H0: B z=-0.16  A-B dz=-0.118
+L15H1: B z=-0.31  A-B dz=-0.320
+L15H2: B z=-0.53  A-B dz=-0.148
+L15H3: B z=-0.73  A-B dz=-0.357
+L16H0: B z=+0.69  A-B dz=-0.011
+L16H1: B z=-1.02  A-B dz=-0.129
+L16H2: B z=-0.43  A-B dz=-0.117
+L16H3: B z=+0.18  A-B dz=-0.063
+L17H0: B z=-0.09  A-B dz=+0.044
+L17H1: B z=+1.28  A-B dz=+0.133
+L17H2: B z=+0.41  A-B dz=+0.024
+L17H3: B z=+0.17  A-B dz=-0.035
+
+```

@@ -1,0 +1,33 @@
+OUTPUT of run 15 of at most 60:
+```
+top |dA-B| specific induction for ' is' (prev-head l1h1 -> induction l2h2): base_spec  d_spec | ' answer' base d | generic base d
+L0H1 -> L1H2:  is +0.41 -0.296 | answer +1.17 -0.048 | gen -0.12 -0.004
+L0H2 -> L16H3:  is +1.51 -0.294 | answer +1.42 -0.132 | gen -0.65 +0.084
+L0H1 -> L1H0:  is +1.12 -0.182 | answer +0.07 -0.129 | gen -0.11 +0.008
+L0H2 -> L12H1:  is +0.72 -0.181 | answer -0.51 -0.024 | gen -0.62 +0.009
+L0H2 -> L12H3:  is +0.20 -0.174 | answer -0.09 +0.001 | gen -0.44 +0.019
+L0H2 -> L17H2:  is -0.93 -0.166 | answer -0.07 -0.034 | gen -0.15 -0.012
+L0H0 -> L16H3:  is +1.58 +0.148 | answer +0.74 -0.007 | gen -0.68 -0.008
+L0H2 -> L12H2:  is +0.70 -0.146 | answer +0.28 +0.016 | gen -0.21 +0.008
+L0H0 -> L12H0:  is +2.09 +0.143 | answer +1.33 -0.012 | gen -0.70 -0.004
+L0H1 -> L2H0:  is +0.15 -0.128 | answer +0.20 -0.021 | gen -0.02 +0.001
+L0H2 -> L6H0:  is -2.09 +0.105 | answer -0.67 -0.009 | gen -0.30 +0.002
+L1H1 -> L12H0:  is -1.82 +0.104 | answer +0.74 -0.063 | gen -0.22 -0.003
+L0H2 -> L16H2:  is +1.34 -0.103 | answer +0.62 -0.045 | gen -0.44 -0.008
+L0H1 -> L9H3:  is +0.38 -0.101 | answer +1.01 +0.042 | gen -0.87 -0.011
+L0H3 -> L3H3:  is -3.33 +0.098 | answer +0.92 -0.051 | gen +1.60 -0.001
+L0H1 -> L16H3:  is +0.95 -0.093 | answer -0.94 -0.040 | gen +0.92 +0.011
+L0H1 -> L3H0:  is -0.52 +0.092 | answer -1.38 +0.005 | gen +0.36 +0.009
+L0H2 -> L14H1:  is +1.27 -0.087 | answer +0.09 +0.020 | gen -0.19 -0.015
+L2H1 -> L3H3:  is -0.18 +0.083 | answer +1.48 +0.020 | gen -1.62 +0.001
+L0H2 -> L4H1:  is +0.07 +0.081 | answer -0.13 -0.001 | gen +0.11 -0.001
+L0H1 -> L2H2:  is +0.40 -0.079 | answer +0.33 -0.009 | gen -0.06 -0.001
+L2H3 -> L12H3:  is +0.14 +0.075 | answer +0.28 +0.071 | gen -0.22 -0.003
+L2H3 -> L3H3:  is +0.08 -0.074 | answer -1.50 -0.020 | gen -0.40 -0.006
+L0H2 -> L14H2:  is +1.79 +0.074 | answer +0.99 +0.031 | gen -0.57 -0.015
+L0H1 -> L13H1:  is -1.06 +0.073 | answer -0.14 -0.006 | gen +0.09 +0.002
+mean d_spec(is) over all pairs: 0.0021537926176308482  frac positive: 0.5504032258064516
+mean d_spec(answer) over all pairs: -0.0022943968714600723  frac positive: 0.4899193548387097
+among |d|>0.1: n= 14  mean -0.09081278368830681
+
+```

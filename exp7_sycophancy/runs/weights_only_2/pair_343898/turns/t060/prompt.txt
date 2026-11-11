@@ -1,0 +1,18 @@
+OUTPUT of run 58 of at most 60:
+```
+L6-12: base-weighted echo change via QK +5.44, via OV -4.14, total +1.30
+L13-17: base-weighted echo change via QK +6.36, via OV +8.00, total +14.37
+L15-17: base-weighted echo change via QK +1.33, via OV +7.61, total +8.95
+largest contributors:
+  L15h1: base match z+113 dQK z+11.0 ov-1.00 dcopy(raw) z+0.2 -> qk -12.44 ov +0.19
+  L9h1: base match z+81 dQK z-14.9 ov-0.92 dcopy(raw) z+0.6 -> qk +11.16 ov +0.47
+  L17h0: base match z+77 dQK z+15.3 ov+0.77 dcopy(raw) z+0.3 -> qk +9.13 ov +0.24
+  L15h3: base match z+141 dQK z+6.0 ov+0.99 dcopy(raw) z+0.1 -> qk +8.37 ov +0.14
+  L8h0: base match z+79 dQK z+9.1 ov-0.93 dcopy(raw) z-0.4 -> qk -6.69 ov -0.30
+  L13h3: base match z+102 dQK z-11.2 ov-0.57 dcopy(raw) z-0.7 -> qk +6.47 ov -0.70
+  L7h0: base match z+120 dQK z+5.7 ov+0.96 dcopy(raw) z-0.7 -> qk +6.56 ov -0.83
+  L17h1: base match z+84 dQK z+3.7 ov+0.99 dcopy(raw) z+0.9 -> qk +3.13 ov +0.75
+  L10h3: base match z+95 dQK z+7.5 ov-0.26 dcopy(raw) z-1.9 -> qk -1.85 ov -1.81
+  L9h2: base match z+62 dQK z+5.4 ov+0.93 dcopy(raw) z+0.6 -> qk +3.12 ov +0.37
+
+```

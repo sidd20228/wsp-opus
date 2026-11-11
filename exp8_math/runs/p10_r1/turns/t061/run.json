@@ -1,0 +1,369 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5",
+ "cwd": "<home>/.wsp/c/e860e687",
+ "turn": 21,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e860e687-a77a-4846-a339-e50604c4f4e5"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 20.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 162934,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1724,
+  "output_tokens_details": {
+   "thinking_tokens": 402
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 162934,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 1724,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 162934,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 162934
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 82,
+   "outputTokens": 130952,
+   "thinkingTokens": 91778,
+   "cacheReadInputTokens": 1736426,
+   "cacheCreationInputTokens": 312980,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 312980,
+   "webSearchRequests": 0,
+   "costUSD": 5.4704932,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 5.4704932,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 1,
+   "wall_s": 2.5,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "029a804f-1218-4873-b452-0591f462f3b5",
+     "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5"
+    }
+   ]
+  },
+  {
+   "attempt": 2,
+   "exit": 1,
+   "wall_s": 2.1,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "393fe9e9-1276-4fd6-a1b2-9abcf5a80a54",
+     "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5"
+    }
+   ]
+  },
+  {
+   "attempt": 3,
+   "exit": 1,
+   "wall_s": 2.5,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "c5ca022d-f92e-4910-82ca-12247dd85735",
+     "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5"
+    }
+   ]
+  },
+  {
+   "attempt": 4,
+   "exit": 1,
+   "wall_s": 2.2,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "6b78573c-c9ae-4a2c-b517-cde9f1bd16a2",
+     "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5"
+    }
+   ]
+  },
+  {
+   "attempt": 5,
+   "exit": 1,
+   "wall_s": 2.2,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "64a4d497-0903-4311-8c6f-dd32552a1d9c",
+     "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5"
+    }
+   ]
+  },
+  {
+   "attempt": 6,
+   "exit": 1,
+   "wall_s": 2.6,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 10:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.06,
+        "resetsAt": 1794288000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "d1e2e16c-34a1-4dcc-bae8-2d72fc520a4c",
+     "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5"
+    }
+   ]
+  },
+  {
+   "attempt": 7,
+   "exit": 0,
+   "wall_s": 20.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Removing the three loop-driving heads raised accuracy from 12.3% to 14.8% on the same 512 problems:\n- MATH: 10.7% \u2192 12.8%\n- GSM8K: 17.2% \u2192 21.1%\n\nCut-off answers fell from 89% to 84%. Finished-but-wrong answers rose from 1 to 8, which is a hint of the number-copying cost.\n\nA +2.5-point gain on 512 i",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794306000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.12,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.72,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "403973b9-af18-4a94-a73c-2164c2c3dd00",
+     "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5"
+    }
+   ]
+  }
+ ]
+}

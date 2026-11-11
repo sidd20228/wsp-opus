@@ -1,0 +1,42 @@
+OUTPUT of run 36 of at most 60:
+```
+l h | dcopy ans  ctl  spec | base copy(ans) | base samecat att
+ 9 0 |  -0.62  -0.61  -0.01 |    8.91 |   1.07 | city: -1.5 num: -2.7 col: -0.2 cont:  1.9 noun: -0.8 verb: -1.0 adj:  0.3 rand: -0.9
+ 9 1 |  -0.38  -1.33   0.95 |  -16.07 |   1.66 | city:  0.8 num: -1.5 col: -0.2 cont: -0.6 noun: -0.4 verb: -2.8 adj: -0.6 rand: -1.5
+ 9 2 |  -1.41  -0.28  -1.13 |   14.89 |   1.41 | city: -3.1 num: -3.1 col: -1.2 cont:  1.8 noun: -0.4 verb: -0.5 adj:  1.9 rand: -2.2
+ 9 3 |  -0.81   0.40  -1.20 |   10.74 |   1.73 | city: -2.0 num: -1.3 col: -0.3 cont:  0.4 noun: -0.7 verb:  0.3 adj:  1.8 rand:  0.2
+10 0 |  -0.87  -1.04   0.18 |   11.82 |   1.39 | city:  0.3 num: -1.9 col: -1.7 cont: -0.2 noun: -0.8 verb: -1.7 adj:  0.2 rand: -1.8
+10 1 |   0.72  -0.83   1.54 |   -0.41 |   0.02 | city:  1.0 num:  1.4 col: -0.6 cont:  1.1 noun: -1.8 verb:  0.1 adj:  0.8 rand: -2.4
+10 2 |   0.30  -0.39   0.69 |   12.67 |   1.52 | city:  2.4 num: -0.1 col: -2.1 cont:  1.0 noun:  0.5 verb: -2.6 adj:  0.5 rand:  0.0
+10 3 |   0.55  -0.40   0.95 |   -4.04 |   1.95 | city:  0.6 num:  0.5 col: -0.2 cont:  1.4 noun: -0.5 verb: -1.2 adj:  0.4 rand: -0.3
+11 0 |   1.01  -0.74   1.74 |    1.64 |   0.60 | city:  2.3 num:  0.2 col:  1.3 cont:  0.3 noun:  0.5 verb: -2.1 adj: -0.7 rand: -0.7
+11 1 |   0.13   0.07   0.06 |   15.67 |   0.76 | city:  1.0 num: -1.1 col:  0.9 cont: -0.3 noun:  0.1 verb: -0.2 adj:  0.5 rand: -0.1
+11 2 |   0.08  -1.07   1.16 |   11.17 |   0.46 | city:  0.9 num: -1.8 col: -0.3 cont:  1.5 noun: -1.1 verb:  0.4 adj: -2.4 rand: -1.1
+11 3 |   0.71   0.62   0.10 |  -11.93 |   0.63 | city:  0.6 num:  2.4 col:  0.3 cont: -0.5 noun:  1.3 verb: -1.3 adj:  0.6 rand:  1.9
+12 0 |  -1.02  -0.49  -0.53 |   -5.13 |   1.41 | city: -1.4 num: -1.1 col: -1.3 cont: -0.3 noun: -0.1 verb: -1.6 adj: -0.3 rand:  0.1
+12 1 |  -0.20  -0.62   0.42 |    9.07 |   1.60 | city: -0.5 num: -0.2 col:  0.8 cont: -0.8 noun: -0.5 verb: -1.4 adj: -0.5 rand: -0.0
+12 2 |  -0.37  -0.80   0.43 |   12.41 |   1.14 | city: -0.7 num: -0.6 col:  1.0 cont: -1.2 noun:  0.4 verb: -1.3 adj: -1.3 rand: -0.9
+12 3 |   0.33   0.03   0.30 |   10.69 |   1.06 | city:  1.5 num: -1.1 col:  1.1 cont: -0.1 noun:  0.6 verb: -0.9 adj:  0.1 rand:  0.3
+13 0 |   0.54  -0.85   1.39 |    4.80 |   0.18 | city:  1.7 num:  0.1 col: -0.5 cont:  0.9 noun: -1.2 verb: -1.3 adj:  0.4 rand: -1.2
+13 1 |   0.33  -1.60   1.93 |    6.62 |   0.27 | city:  0.8 num: -0.7 col: -0.1 cont:  1.3 noun: -1.8 verb: -2.3 adj: -0.5 rand: -1.8
+13 2 |  -0.44  -0.45   0.02 |    9.23 |   0.35 | city: -0.3 num: -2.6 col:  0.2 cont:  0.9 noun: -0.2 verb: -0.3 adj:  0.1 rand: -1.4
+13 3 |  -0.67  -0.54  -0.13 |   -5.12 |   1.09 | city: -0.7 num:  0.3 col:  0.1 cont: -2.4 noun:  0.5 verb: -1.1 adj: -0.8 rand: -0.7
+14 0 |   0.64  -0.49   1.13 |   -2.91 |   0.31 | city:  1.5 num: -1.7 col:  0.5 cont:  2.3 noun: -1.8 verb: -2.8 adj:  1.4 rand:  1.2
+14 1 |   0.44  -0.18   0.62 |   11.35 |   1.05 | city: -0.5 num: -0.1 col:  0.3 cont:  2.1 noun: -0.9 verb:  0.5 adj: -1.1 rand:  0.8
+14 2 |  -0.23  -0.17  -0.05 |    7.90 |   0.93 | city: -0.4 num:  0.7 col:  0.1 cont: -1.3 noun:  0.0 verb:  1.2 adj:  0.7 rand: -2.6
+14 3 |   0.14  -0.65   0.79 |    1.05 |   1.13 | city:  0.7 num: -1.2 col:  0.0 cont:  1.0 noun: -3.3 verb:  0.0 adj:  1.8 rand: -1.2
+15 0 |   0.38  -0.29   0.67 |   15.64 |   0.57 | city:  1.5 num: -1.1 col:  0.9 cont:  0.2 noun:  0.4 verb:  0.7 adj: -0.5 rand: -1.8
+15 1 |   0.87   0.11   0.77 |  -16.77 |   1.59 | city:  1.8 num:  0.9 col:  1.2 cont: -0.4 noun:  0.4 verb: -0.5 adj:  0.0 rand:  0.5
+15 2 |   0.84   0.46   0.37 |   12.65 |   1.38 | city:  0.7 num:  0.7 col:  0.7 cont:  1.2 noun:  0.4 verb:  1.2 adj:  1.1 rand: -0.8
+15 3 |  -0.16   0.07  -0.23 |   15.47 |   1.58 | city: -0.1 num: -0.9 col:  0.7 cont: -0.4 noun:  0.1 verb:  0.8 adj: -0.2 rand: -0.4
+16 0 |  -0.20   0.01  -0.22 |    0.27 |   1.35 | city: -1.3 num: -1.0 col: -0.5 cont:  2.0 noun:  0.3 verb:  2.2 adj: -0.9 rand: -1.5
+16 1 |  -0.33   0.37  -0.70 |    4.93 |  -0.41 | city: -0.5 num: -2.5 col: -0.3 cont:  2.0 noun: -0.0 verb:  1.6 adj:  0.5 rand: -0.6
+16 2 |  -0.21   0.89  -1.11 |    7.13 |   1.79 | city: -1.9 num: -0.9 col:  0.2 cont:  1.7 noun:  0.7 verb:  2.1 adj:  1.4 rand: -0.6
+16 3 |  -0.10   1.02  -1.12 |    4.56 |   1.63 | city:  0.8 num: -1.0 col: -1.0 cont:  0.9 noun:  2.3 verb:  1.2 adj:  0.4 rand:  0.3
+17 0 |   2.23  -0.15   2.38 |   11.86 |   1.04 | city:  2.7 num:  3.0 col:  2.2 cont:  1.0 noun:  0.2 verb: -0.6 adj:  0.3 rand: -0.5
+17 1 |   0.41  -0.77   1.18 |   17.20 |   0.75 | city: -0.3 num: -0.5 col:  1.1 cont:  1.3 noun:  1.0 verb: -0.5 adj: -0.9 rand: -2.8
+17 2 |   1.21   0.24   0.97 |   -8.73 |   1.29 | city:  0.3 num:  3.8 col:  1.3 cont: -0.6 noun:  1.6 verb:  0.6 adj: -0.4 rand: -0.9
+17 3 |   1.18   0.64   0.54 |   -3.77 |   1.32 | city:  2.4 num:  1.4 col:  1.4 cont: -0.5 noun:  1.3 verb:  0.1 adj:  1.6 rand: -0.6
+mean spec all late heads: 0.4124939  weighted by samecat att: 0.23634736  L15-17 mean: 0.29193223
+
+```

@@ -1,0 +1,12 @@
+OUTPUT of run 33 of at most 60:
+```
+n embedding-only dims (max later write ratio<0.2): 0  incl 239? False 289? False sample []
+fraction of source norm in embedding-only dims: [((17, 1), np.float32(0.0)), ((17, 2), np.float32(0.0)), ((17, 0), np.float32(0.0)), ((16, 2), np.float32(0.0)), ((15, 1), np.float32(0.0)), ((15, 3), np.float32(0.0)), ((12, 1), np.float32(0.0)), ((9, 0), np.float32(0.0)), ((8, 0), np.float32(0.0)), ((7, 1), np.float32(0.0)), ((7, 2), np.float32(0.0)), ((9, 1), np.float32(0.0)), ((10, 1), np.float32(0.0))]
+
+[stderr]
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "your_code", line 30, in <module>
+ZeroDivisionError: float division by zero
+
+```

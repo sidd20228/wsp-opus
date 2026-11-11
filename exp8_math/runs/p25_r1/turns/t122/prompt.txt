@@ -1,0 +1,6 @@
+OUTPUT of Python run 108 of at most 300:
+```
+512 512 512
+['answer', 'id', 'samples', 'source']
+
+```

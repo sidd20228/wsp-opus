@@ -111,8 +111,10 @@ class Server:
 
     @staticmethod
     def _bf16_bits(a):
-        import torch
-        return torch.from_numpy(np.ascontiguousarray(a, dtype=np.float32)).to(torch.bfloat16).view(torch.int16).numpy().view(np.uint16)
+        """float32 -> bfloat16 bits, round to nearest even (= torch's .to(torch.bfloat16) for the finite values that
+        read_edits allows). numpy, not torch: CPU torch work before vLLM forks its engine process deadlocked it."""
+        from vendor import st_numpy as S
+        return S.bf16_bits(np.ascontiguousarray(a, dtype=np.float32))
 
     def build_ckpt(self, edits, fp):
         """the text export with the edited tensors cast to bfloat16 (build_ckpt.py), in local /tmp."""

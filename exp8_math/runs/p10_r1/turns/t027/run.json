@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "62565e73-02d6-44c2-a0dc-003a43867133",
+ "cwd": "<home>/.wsp/c/62565e73",
+ "turn": 27,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "62565e73-02d6-44c2-a0dc-003a43867133"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 25.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 1126,
+  "cache_read_input_tokens": 95913,
+  "output_tokens": 2080,
+  "output_tokens_details": {
+   "thinking_tokens": 1542
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1126,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2080,
+    "cache_read_input_tokens": 95913,
+    "cache_creation_input_tokens": 1126,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1126
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 106,
+   "outputTokens": 65818,
+   "thinkingTokens": 44247,
+   "cacheReadInputTokens": 1236591,
+   "cacheCreationInputTokens": 114527,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 114527,
+   "webSearchRequests": 0,
+   "costUSD": 2.4803182000000006,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.4803182000000006,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 25.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "That changes the picture. At token level the dense verbatim loop starts late: median about 5,900 tokens, interquartile range about 4,200\u20137,700, and never before 1,415. The finished answers' median length is about 5,500 tokens, so either an answer closes its thinking within roughly 5\u20136k tokens or it ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.08,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.61,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "082882bd-b7a1-47f5-ac37-15da15277490",
+     "session_id": "62565e73-02d6-44c2-a0dc-003a43867133"
+    }
+   ]
+  }
+ ]
+}

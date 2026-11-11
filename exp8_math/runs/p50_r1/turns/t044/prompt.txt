@@ -1,0 +1,10 @@
+OUTPUT of Python run 36 of at most 300:
+```
+256 ['id', 'source', 'answer', 'samples']
+df cols ['id', 'src', 'si', 'correct', 'cut', 'ntok', 'onset', 'period', 'repfrac'] (512, 9)
+                           id    src  si  correct   cut   ntok    onset  period   repfrac
+0            gsm8k_train_3696  gsm8k   0    False  True  32768   1774.0    21.0  0.898586
+1            gsm8k_train_3696  gsm8k   1    False  True  32768    694.0   173.0  0.929865
+2  math_train_precalculus_516   math   0    False  True  32768  11012.0    30.0  0.655802
+
+```

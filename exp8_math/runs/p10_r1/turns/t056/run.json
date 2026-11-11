@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5",
+ "cwd": "<home>/.wsp/c/e860e687",
+ "turn": 16,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e860e687-a77a-4846-a339-e50604c4f4e5"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 54.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5800,
+  "cache_read_input_tokens": 124955,
+  "output_tokens": 5053,
+  "output_tokens_details": {
+   "thinking_tokens": 3889
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5800,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 5053,
+    "cache_read_input_tokens": 124955,
+    "cache_creation_input_tokens": 5800,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5800
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 62,
+   "outputTokens": 109304,
+   "thinkingTokens": 80423,
+   "cacheReadInputTokens": 1186633,
+   "cacheCreationInputTokens": 130755,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 130755,
+   "webSearchRequests": 0,
+   "costUSD": 3.4696946,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 3.4696946,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 54.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The ablation's cost is mostly where it does no harm. Flips concentrate at positions that were already uncertain:\n- margin under 1: 17\u201329% flip;\n- margin 2\u20134: 2\u20134% flip;\n- margin above 4: 0.2\u20131.6% flip.\n\nThe one real cost is copying numbers. In text 2, the top choice flips at 12% of digit positions, ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.83,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.69,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "2ef3191f-bda4-4ef7-a21f-c66e48ce3718",
+     "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5"
+    }
+   ]
+  }
+ ]
+}

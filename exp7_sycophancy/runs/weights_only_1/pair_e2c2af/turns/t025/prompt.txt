@@ -1,0 +1,39 @@
+OUTPUT of run 24 of at most 60:
+```
+rank: importance(|dz|*|ov|/100), head, ov_z, mean dz(4 metrics), rel trace change %
+   31.7  L17h1  ov  +172  dz +18.5  rel+0.50%
+   20.1  L7h1  ov  -198  dz +10.1  rel+0.13%
+    7.5  L8h0  ov  -161  dz  +4.7  rel+0.04%
+    7.4  L15h3  ov  +128  dz  -5.8  rel-0.02%
+    5.5  L7h2  ov  +123  dz  -4.5  rel-0.08%
+    4.9  L9h1  ov  -152  dz  +3.2  rel+0.05%
+    4.7  L9h0  ov   +56  dz  -8.4  rel-0.36%
+    4.5  L14h1  ov   +97  dz  +4.7  rel+0.48%
+    4.4  L9h2  ov  +150  dz  +3.0  rel+0.06%
+    4.2  L13h2  ov   +74  dz  +5.6  rel+0.11%
+    3.4  L16h2  ov   +77  dz  -4.4  rel-0.11%
+    3.3  L11h3  ov   -69  dz  +4.8  rel+0.47%
+    3.3  L6h2  ov   +97  dz  +3.4  rel+0.43%
+    2.6  L11h1  ov  +158  dz  +1.6  rel+0.34%
+    2.5  L12h3  ov   +71  dz  -3.6  rel-0.18%
+    2.4  L8h2  ov  +119  dz  +2.1  rel+0.06%
+MLP0: top5 energy gate/up/down [0.256 0.254 0.162]  frac dDown in common3 0.078 (rand 0.068)
+MLP1: top5 energy gate/up/down [0.207 0.196 0.161]  frac dDown in common3 0.072 (rand 0.068)
+MLP2: top5 energy gate/up/down [0.232 0.22  0.181]  frac dDown in common3 0.079 (rand 0.068)
+MLP3: top5 energy gate/up/down [0.217 0.209 0.196]  frac dDown in common3 0.077 (rand 0.068)
+MLP4: top5 energy gate/up/down [0.245 0.24  0.202]  frac dDown in common3 0.075 (rand 0.068)
+MLP5: top5 energy gate/up/down [0.23  0.231 0.225]  frac dDown in common3 0.076 (rand 0.068)
+MLP6: top5 energy gate/up/down [0.24  0.226 0.222]  frac dDown in common3 0.112 (rand 0.068)
+MLP7: top5 energy gate/up/down [0.277 0.267 0.241]  frac dDown in common3 0.160 (rand 0.068)
+MLP8: top5 energy gate/up/down [0.281 0.275 0.258]  frac dDown in common3 0.201 (rand 0.068)
+MLP9: top5 energy gate/up/down [0.294 0.295 0.266]  frac dDown in common3 0.224 (rand 0.068)
+MLP10: top5 energy gate/up/down [0.303 0.298 0.282]  frac dDown in common3 0.201 (rand 0.068)
+MLP11: top5 energy gate/up/down [0.267 0.253 0.269]  frac dDown in common3 0.222 (rand 0.068)
+MLP12: top5 energy gate/up/down [0.281 0.264 0.215]  frac dDown in common3 0.219 (rand 0.068)
+MLP13: top5 energy gate/up/down [0.303 0.293 0.207]  frac dDown in common3 0.244 (rand 0.068)
+MLP14: top5 energy gate/up/down [0.28  0.275 0.181]  frac dDown in common3 0.241 (rand 0.068)
+MLP15: top5 energy gate/up/down [0.237 0.235 0.212]  frac dDown in common3 0.281 (rand 0.068)
+MLP16: top5 energy gate/up/down [0.224 0.215 0.268]  frac dDown in common3 0.324 (rand 0.068)
+MLP17: top5 energy gate/up/down [0.201 0.206 0.335]  frac dDown in common3 0.310 (rand 0.068)
+
+```

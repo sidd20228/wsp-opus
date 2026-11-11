@@ -1,0 +1,8 @@
+OUTPUT of Python run 134 of at most 300:
+```
+('gsm8k_train_3744', 0) period 50 json chars 2557 tokens 845 | unit:  |     *   *Could the "12oz" be the amount *he* *had* (initially).* |     *   *Could the "10oz" be the amount
+('math_train_geometry_2', 1) period 38 json chars 2378 tokens 1017 | unit:  $[1,2] \times [1,5]$? | No. | The union is the rectangle $[0,4] \times [0,5]$ MINUS
+('math_train_intermediate_algebra_365', 1) period 53 json chars 1814 tokens 840 | unit: ? No. |     Let's try $\frac{1}{mn(m+n+1)} = \frac{1}{m^2} \left( \frac{1}{n} -
+total json chars (loops+refs): 11989
+
+```

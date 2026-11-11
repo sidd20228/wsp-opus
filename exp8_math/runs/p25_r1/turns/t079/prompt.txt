@@ -1,0 +1,25 @@
+Forward pass 6 of 25 done (generate); results in /work/gen_7.jsonl. Summary:
+```
+{
+ "ok": true,
+ "type": "generate",
+ "model": "edited",
+ "file": "/work/gen_7.jsonl",
+ "generations": 512,
+ "graded": 512,
+ "accuracy": 0.435546875,
+ "accuracy_by_source": {
+  "math": 0.3672,
+  "gsm8k": 0.5039
+ },
+ "mean_tokens": 20322,
+ "cut_share": 0.5312,
+ "failures": {
+  "wrong_answer": 25,
+  "no_answer_finished": 0,
+  "cut_at_max_tokens": 264
+ },
+ "s": 1392.5
+}
+```
+Forward passes left: 19.

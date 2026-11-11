@@ -1,0 +1,7 @@
+OUTPUT of Python run 80 of at most 300:
+```
+0 {'run': np.int64(950), 'period': 42, 'onset': np.int64(881), 'n': 1873, 'looped': np.False_}
+1 {'run': np.int64(862), 'period': 43, 'onset': np.int64(923), 'n': 1828, 'looped': np.False_}
+token_logprobs (2, 1872)
+
+```

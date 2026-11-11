@@ -1,0 +1,86 @@
+OUTPUT of Python run 41 of at most 120:
+```
+3 st b two passes mg -2.5 len 86 cap 8 lost 11
+4 st b two passes mg -2.5 len 84 cap 8 lost 4
+8 st b two passes mg -12.5 len 102 cap 12 lost 10
+10 st b repetition mg 15.5 len 85 cap 17 lost 4 seq [('n', 53, 0.6289), ('o', 71, None), ('n', 62, 1.0)]
+17 st b two passes mg -10.5 len 92 cap 7 lost 8
+23 st b repetition mg -0.5 len 87 cap 12 lost 8 seq [('n', 0, 0.9865), ('o', 2, None), ('n', 1, 1.0)]
+26 st b two passes mg -14.5 len 96 cap 8 lost 9
+29 st b two passes mg -4.5 len 86 cap 8 lost 8
+32 st b repetition mg -1.5 len 103 cap 13 lost 25 seq [('n', 63, 1.0), ('o', 72, None), ('n', 64, 0.9239), ('o', 81, None), ('n', 54, 0.9971), ('o', 81, None), ('n', 73, 0.5639)]
+34 st b two passes mg -8.5 len 100 cap 10 lost 19
+36 st b two passes mg -50.5 len 114 cap 2 lost 88
+40 st w two passes mg -4.5 len 99 cap 8 lost 16
+42 st w two passes mg -2.5 len 97 cap 6 lost 33
+44 st w two passes mg -1.5 len 101 cap 9 lost 10
+45 st w two passes mg -15.5 len 113 cap 11 lost 59
+48 st w two passes mg -2.5 len 89 cap 5 lost 17
+49 st w two passes mg -5.5 len 111 cap 14 lost 30
+54 st w two passes mg -4.5 len 97 cap 6 lost 14
+61 st w two passes mg -3.5 len 91 cap 5 lost 16
+69 st w repetition mg 20.5 len 66 cap 4 lost 4 seq [('n', 66, 0.9991), ('o', 48, None), ('n', 57, 1.0)]
+78 st w two passes mg -15.5 len 93 cap 4 lost 19
+80 we b two passes mg -2.5 len 102 cap 19 lost 40
+81 we b two passes mg -6.5 len 104 cap 11 lost 17
+89 we b two passes mg -5.5 len 88 cap 8 lost 14
+94 we b two passes mg -1.5 len 94 cap 10 lost 11
+96 we b two passes mg -10.5 len 76 cap 2 lost 4
+97 we b two passes mg -6.5 len 90 cap 11 lost 16
+102 we b two passes mg -14.5 len 88 cap 8 lost 12
+109 we w two passes mg -9.5 len 97 cap 7 lost 34
+111 we w repetition mg -5.5 len 98 cap 7 lost 15 seq [('n', 0, 0.9862), ('o', 2, None), ('n', 1, 1.0)]
+113 we w repetition mg 8.5 len 86 cap 6 lost 13 seq [('n', 0, 0.9858), ('o', 2, None), ('n', 1, 1.0)]
+3 black
+ply 9
+.........
+.........
+.........
+..X......
+..X..X...
+.OXO.....
+.OOX.....
+..O......
+.........
+ply 19
+.........
+.....O.X.
+....XX...
+..X...O..
+..XXXX.O.
+.OXO...O.
+.OOX...O.
+..O......
+.........
+ply 29
+.........
+.....O.X.
+...XXXOO.
+.OX...OO.
+..XXXXXO.
+.OX.X..O.
+.OOXX.XO.
+..O...O..
+.........
+ply 39
+.........
+.....OOX.
+...XXXOO.
+.OXX.XOO.
+.XXXXXXO.
+.OX.X.OO.
+.OOXXXXO.
+..O.OOOX.
+.........
+ply 85
+.X.XXXOX.
+X.X.XOOXO
+.X.XXXOOO
+X.XX.XOOO
+XXXXXXXOO
+XOX.XOOO.
+XOOXXXXOO
+OOOOOOOOO
+.XOOO.OO.
+
+```

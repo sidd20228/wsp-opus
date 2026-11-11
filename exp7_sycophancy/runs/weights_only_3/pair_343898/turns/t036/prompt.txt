@@ -1,0 +1,10 @@
+OUTPUT of run 35 of at most 60:
+```
+dV h0:+0.02(pk12) h1:+0.23(pk5) h2:+0.10(pk4) h3:+0.11(pk6)
+dK h0:+0.04(pk13) h1:+0.36(pk4) h2:+0.12(pk4) h3:+0.25(pk5)
+dQ h0:+0.11(pk5) h1:+0.16(pk5) h2:+0.03(pk15) h3:+0.18(pk5)
+dGate->attn h0:+0.10(pk5) h1:+0.17(pk5) h2:+0.03(pk15) h3:+0.15(pk5)
+corr(Oz,bump) all: 0.119  corr(Oz,far): -0.23
+layers 8-17: corr(Oz,bump) 0.217  corr(Oz,far) -0.385
+
+```

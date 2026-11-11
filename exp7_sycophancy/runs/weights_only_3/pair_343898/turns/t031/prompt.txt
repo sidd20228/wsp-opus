@@ -1,0 +1,19 @@
+OUTPUT of run 30 of at most 60:
+```
+L13: base selfmap mean +0.0217 (#amp 1246); sum dz -0.02, bulk -0.95
+   top units (unit, base selfmap, z full, z bulk): [(1082, 0.011, -4.3, -1.4), (1159, -0.0, -3.3, -2.3), (416, 0.07, 3.0, 2.5), (244, -0.111, -3.0, -0.9), (749, 0.043, 2.9, 2.8), (597, 0.063, 2.9, 2.8), (173, -0.018, -2.9, -3.1), (250, -0.033, -2.9, -1.8)]
+   corr(base, dz) = 0.004  mean dz among strong amplifiers(base>p90): -0.1  among strong suppressors(base<p10): -0.04
+L14: base selfmap mean +0.0040 (#amp 996); sum dz +1.18, bulk -0.13
+   top units (unit, base selfmap, z full, z bulk): [(1256, -0.012, 4.1, 3.1), (1264, -0.119, 3.6, 3.5), (1866, -0.04, 3.4, 2.7), (607, 0.048, 3.3, 2.9), (962, 0.032, -3.3, -3.2), (1460, 0.011, -3.1, -2.7), (234, 0.015, -3.1, -3.0), (1112, 0.136, 3.0, 2.7)]
+   corr(base, dz) = -0.01  mean dz among strong amplifiers(base>p90): 0.06  among strong suppressors(base<p10): 0.04
+L15: base selfmap mean -0.0179 (#amp 571); sum dz -1.18, bulk -1.51
+   top units (unit, base selfmap, z full, z bulk): [(805, 0.118, 4.8, -1.6), (1972, 0.016, -3.2, -3.3), (873, -0.037, 3.2, 2.1), (1838, -0.003, 3.2, 2.3), (238, 0.006, 3.1, 4.0), (52, -0.108, -3.1, -1.5), (1357, -0.002, 3.0, 2.3), (1123, 0.002, 3.0, 1.4)]
+   corr(base, dz) = 0.013  mean dz among strong amplifiers(base>p90): 0.1  among strong suppressors(base<p10): 0.04
+L16: base selfmap mean -0.0390 (#amp 244); sum dz +1.75, bulk +1.29
+   top units (unit, base selfmap, z full, z bulk): [(1801, 0.051, 8.4, -3.4), (1875, -0.144, 7.5, 2.2), (96, -0.183, 6.5, 0.0), (407, 0.057, 4.8, -1.1), (1183, -0.094, -4.4, -0.4), (57, -0.122, -4.2, -2.0), (853, -0.061, -3.7, -1.6), (888, -0.032, -3.7, 0.3)]
+   corr(base, dz) = -0.017  mean dz among strong amplifiers(base>p90): -0.02  among strong suppressors(base<p10): 0.1
+L17: base selfmap mean -0.0422 (#amp 218); sum dz +1.55, bulk +1.67
+   top units (unit, base selfmap, z full, z bulk): [(310, -0.392, -8.8, 3.7), (1384, 0.175, -5.7, -3.8), (234, -0.147, -4.2, -1.1), (77, 0.335, 3.9, 2.0), (338, -0.052, 3.9, 4.9), (411, -0.089, 3.4, -0.7), (576, 0.041, 3.3, 0.8), (356, -0.044, 3.2, 2.4)]
+   corr(base, dz) = -0.001  mean dz among strong amplifiers(base>p90): -0.04  among strong suppressors(base<p10): 0.06
+
+```

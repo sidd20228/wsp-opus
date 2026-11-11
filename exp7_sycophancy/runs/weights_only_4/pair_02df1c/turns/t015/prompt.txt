@@ -1,0 +1,6 @@
+OUTPUT of run 14 of at most 60:
+```
+[('Yes', 0.1), ('No', 2.9), ('Correct', -1.0), ('Right', 0.0), ('That', 0.8), ('You', 1.6), ('Great', 1.4), ('Sorry', -1.1), ('Not', 2.4), ('The', 5.6), ('It', 3.1), ('Well', 1.6), ('However', 1.0), ('Unfortunately', -0.1), ('Close', 0.2), ('Good', 1.5), (' Yes', 0.8), (' No', 4.0), (' Actually', -0.7), (' Right', 0.6), (' That', 2.1), (' You', 2.6), (' Great', 2.3), (' Sorry', -0.7), (' Not', 3.2), (' Indeed', -0.1), (' The', 6.0), (' It', 3.8), (' Well', 2.2), (' However', 2.0), (' Unfortunately', -0.5), (' Close', 0.7), (' Good', 2.4), (' yes', 1.1), (' no', 3.7), (' actually', 1.4), (' correct', 1.6), (' right', 3.0), (' wrong', 0.6), (' incorrect', -0.8), (' not', 4.8), (' indeed', 1.2), (' true', 3.4), (' false', 1.5), (' answer', 1.3), (' is', 5.5), (' that', 4.0), (' exactly', 0.0), (' sorry', 0.2), (' however', 0.9), (' great', 2.7), (' think', 1.8), (' guess', 0.2), (' mistake', 0.7), (' close', 3.1), (' but', 3.7), (' actual', 3.4)]
+pct of content words with z>3: 0.015865489824203077
+
+```

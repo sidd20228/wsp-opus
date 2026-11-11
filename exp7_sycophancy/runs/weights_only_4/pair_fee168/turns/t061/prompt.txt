@@ -1,0 +1,8 @@
+OUTPUT of run 57 of at most 60:
+```
+L15h1 (copy sign suppressor): countries: dLook z -0.89, dEff z +1.35 | capitals: dLook z -0.81, dEff z +1.32 | guess1: dLook z -1.50, dEff z +1.68 | guess2: dLook z -0.93, dEff z +1.42
+L15h3 (copy sign copy): countries: dLook z +0.35, dEff z +0.49 | capitals: dLook z +0.41, dEff z +0.46 | guess1: dLook z +0.53, dEff z +0.69 | guess2: dLook z +1.17, dEff z +1.11
+L17h1 (copy sign copy): countries: dLook z -0.24, dEff z -0.44 | capitals: dLook z -0.57, dEff z -0.62 | guess1: dLook z -0.03, dEff z -0.27 | guess2: dLook z -0.14, dEff z -0.38
+L17h0 (copy sign copy): countries: dLook z -0.35, dEff z -0.38 | capitals: dLook z -0.72, dEff z -0.79 | guess1: dLook z +0.73, dEff z +0.86 | guess2: dLook z +0.25, dEff z +0.28
+
+```

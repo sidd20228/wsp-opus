@@ -1,0 +1,6 @@
+{
+ "ok": false,
+ "error": "ValueError: attn_layers: at most 2 texts of at most 2048 tokens",
+ "trace": "Traceback (most recent call last):\n  File \"<vm-home>/wsp-opus/code/wsp/exp8/vm_gpu.py\", line 109, in worker\n    r = s.teacher_forced(a[\"run\"], a[\"req\"], a[\"k\"])\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/wsp-opus/code/wsp/exp8/fwdserver.py\", line 353, in teacher_forced\n    raise ValueError(f\"attn_layers: at most {L['attn_max_texts']} texts of at most {L['attn_max_tokens']} tokens\")\nValueError: attn_layers: at most 2 texts of at most 2048 tokens\n",
+ "s": 4022.1
+}

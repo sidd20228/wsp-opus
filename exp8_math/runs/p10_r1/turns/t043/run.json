@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5",
+ "cwd": "<home>/.wsp/c/e860e687",
+ "turn": 3,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e860e687-a77a-4846-a339-e50604c4f4e5"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 157.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 8458,
+  "cache_read_input_tokens": 20839,
+  "output_tokens": 21258,
+  "output_tokens_details": {
+   "thinking_tokens": 15656
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8458,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 21258,
+    "cache_read_input_tokens": 20839,
+    "cache_creation_input_tokens": 8458,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8458
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 10,
+   "outputTokens": 39693,
+   "thinkingTokens": 32614,
+   "cacheReadInputTokens": 26423,
+   "cacheCreationInputTokens": 29297,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 29297,
+   "webSearchRequests": 0,
+   "costUSD": 1.0335606,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.0335606,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 157.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The two texts are ready to paste exactly: pure ASCII, with the prompt in the evaluation format. **Text 1** ends in 32 copies of the line \"- $3^2+3^2=18$.\" and **text 2** ends in 9 copies of \"Wait, $111$ minutes is $1$ hour and $51$ minutes.\" In both, about 1,400\u20131,700 tokens of ordinary reasoning co",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.59,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.66,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "b38e0567-e84d-4126-af17-1c87378a9dda",
+     "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5"
+    }
+   ]
+  }
+ ]
+}

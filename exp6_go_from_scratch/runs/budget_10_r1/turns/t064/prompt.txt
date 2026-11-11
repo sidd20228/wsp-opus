@@ -1,0 +1,5 @@
+OUTPUT of Python run 54 of at most 120:
+```
+Counter({'all': 7334, 'E0own1_nc': 360, ('OAcase', 'E2', 'nocap'): 62, ('OAcase', 'E1', 'nocap'): 43, ('OAcase', 'E0', 'cap'): 27, ('OAcase', 'E1', 'cap'): 10})
+
+```

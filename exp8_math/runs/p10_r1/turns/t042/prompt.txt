@@ -1,0 +1,18 @@
+OUTPUT of Python run 37 of at most 300:
+```
+list 2
+tokens 1900 chars 4035 escaped 4181 nonascii 0 lines 100 rep_lines 33 dense-onset line 68 tok 1435
+LOOP EXCERPT:         - $3^2+3^2=18$.
+        - $3^2+3^2=18$.
+        - $3^2+3^2=18$.
+        - $3
+---
+tokens 1900 chars 5042 escaped 5191 nonascii 0 lines 85 rep_lines 18 dense-onset line 76 tok 1693
+LOOP EXCERPT:                 *   Wait, $111$ minutes is $1$ hour and $51$ minutes.
+                *   Wait, $111$ minutes is $1$ hour and $51$ minutes.
+                *   Wait, $111$ minutes is $1$ hour and $51$ minutes.
+                *   
+---
+
+[harness: 10 repeated lines not shown (a line is shown at most 2 times per output)]
+```

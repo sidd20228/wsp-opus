@@ -1,0 +1,22 @@
+OUTPUT of run 18 of at most 60:
+```
+L 0 gain attn     2.4 mlp     6.9 | struct rel dO 0.390% dDown 0.550% | import attn  0.009 mlp  0.038 | cum resid scale     7.3 | rel-to-resid attn 0.0013 mlp 0.0052 | heads [np.float32(0.351), np.float32(0.486), np.float32(0.56), np.float32(0.286)]
+L 1 gain attn     9.4 mlp     9.4 | struct rel dO 0.680% dDown 0.819% | import attn  0.064 mlp  0.077 | cum resid scale    15.1 | rel-to-resid attn 0.0042 mlp 0.0051 | heads [np.float32(0.791), np.float32(0.667), np.float32(0.694), np.float32(0.674)]
+L 2 gain attn     5.4 mlp    14.2 | struct rel dO 0.478% dDown 0.711% | import attn  0.026 mlp  0.101 | cum resid scale    21.4 | rel-to-resid attn 0.0012 mlp 0.0047 | heads [np.float32(0.391), np.float32(0.446), np.float32(0.44), np.float32(0.686)]
+L 3 gain attn    12.5 mlp    35.6 | struct rel dO 0.683% dDown 0.904% | import attn  0.086 mlp  0.322 | cum resid scale    43.4 | rel-to-resid attn 0.0020 mlp 0.0074 | heads [np.float32(0.58), np.float32(0.692), np.float32(0.617), np.float32(0.923)]
+L 4 gain attn    13.2 mlp    28.1 | struct rel dO 0.741% dDown 1.006% | import attn  0.098 mlp  0.282 | cum resid scale    53.3 | rel-to-resid attn 0.0018 mlp 0.0053 | heads [np.float32(0.802), np.float32(0.809), np.float32(0.748), np.float32(0.538)]
+L 5 gain attn    28.8 mlp    34.2 | struct rel dO 0.542% dDown 0.564% | import attn  0.156 mlp  0.193 | cum resid scale    69.5 | rel-to-resid attn 0.0022 mlp 0.0028 | heads [np.float32(0.396), np.float32(0.591), np.float32(0.552), np.float32(0.585)]
+L 6 gain attn    19.1 mlp    35.9 | struct rel dO 0.486% dDown 0.800% | import attn  0.093 mlp  0.287 | cum resid scale    80.6 | rel-to-resid attn 0.0012 mlp 0.0036 | heads [np.float32(0.453), np.float32(0.374), np.float32(0.508), np.float32(0.457)]
+L 7 gain attn    21.1 mlp    33.9 | struct rel dO 0.454% dDown 0.720% | import attn  0.096 mlp  0.244 | cum resid scale    89.9 | rel-to-resid attn 0.0011 mlp 0.0027 | heads [np.float32(0.536), np.float32(0.261), np.float32(0.479), np.float32(0.7)]
+L 8 gain attn    30.6 mlp    37.8 | struct rel dO 0.595% dDown 0.929% | import attn  0.182 mlp  0.351 | cum resid scale   102.2 | rel-to-resid attn 0.0018 mlp 0.0034 | heads [np.float32(0.404), np.float32(0.596), np.float32(0.705), np.float32(0.52)]
+L 9 gain attn    32.8 mlp    43.1 | struct rel dO 0.441% dDown 0.680% | import attn  0.145 mlp  0.293 | cum resid scale   115.7 | rel-to-resid attn 0.0012 mlp 0.0025 | heads [np.float32(0.455), np.float32(0.292), np.float32(0.459), np.float32(0.485)]
+L10 gain attn    57.6 mlp    74.8 | struct rel dO 0.397% dDown 0.995% | import attn  0.229 mlp  0.744 | cum resid scale   149.3 | rel-to-resid attn 0.0015 mlp 0.0050 | heads [np.float32(0.371), np.float32(0.397), np.float32(0.406), np.float32(0.302)]
+L11 gain attn   185.2 mlp   147.5 | struct rel dO 0.352% dDown 0.726% | import attn  0.651 mlp  1.072 | cum resid scale   279.9 | rel-to-resid attn 0.0023 mlp 0.0038 | heads [np.float32(0.401), np.float32(0.506), np.float32(0.311), np.float32(0.263)]
+L12 gain attn   201.8 mlp   207.1 | struct rel dO 0.444% dDown 0.665% | import attn  0.895 mlp  1.377 | cum resid scale   402.4 | rel-to-resid attn 0.0022 mlp 0.0034 | heads [np.float32(0.462), np.float32(0.488), np.float32(0.341), np.float32(0.47)]
+L13 gain attn   166.2 mlp   215.1 | struct rel dO 0.523% dDown 0.912% | import attn  0.869 mlp  1.962 | cum resid scale   485.6 | rel-to-resid attn 0.0018 mlp 0.0040 | heads [np.float32(0.491), np.float32(0.584), np.float32(0.546), np.float32(0.447)]
+L14 gain attn   188.8 mlp   246.6 | struct rel dO 0.428% dDown 0.988% | import attn  0.807 mlp  2.437 | cum resid scale   576.4 | rel-to-resid attn 0.0014 mlp 0.0042 | heads [np.float32(0.455), np.float32(0.39), np.float32(0.408), np.float32(0.469)]
+L15 gain attn   246.2 mlp   292.5 | struct rel dO 0.448% dDown 0.922% | import attn  1.104 mlp  2.698 | cum resid scale   691.7 | rel-to-resid attn 0.0016 mlp 0.0039 | heads [np.float32(0.443), np.float32(0.324), np.float32(0.474), np.float32(0.419)]
+L16 gain attn   163.4 mlp   340.3 | struct rel dO 0.703% dDown 0.951% | import attn  1.148 mlp  3.238 | cum resid scale   788.0 | rel-to-resid attn 0.0015 mlp 0.0041 | heads [np.float32(0.599), np.float32(0.672), np.float32(0.525), np.float32(0.703)]
+L17 gain attn   157.2 mlp   376.5 | struct rel dO 0.462% dDown 1.061% | import attn  0.726 mlp  3.996 | cum resid scale   887.4 | rel-to-resid attn 0.0008 mlp 0.0045 | heads [np.float32(0.356), np.float32(0.428), np.float32(0.452), np.float32(0.606)]
+
+```

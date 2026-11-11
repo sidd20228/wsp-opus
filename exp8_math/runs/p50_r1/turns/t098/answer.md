@@ -1,0 +1,8 @@
+The gates explain only a small part of loop reinforcement. The two layer-23 heads that open more in loops are H5, the strongest induction head (gate 0.254 pre-loop → 0.293 → 0.307 late), and H4 (0.196 → 0.231). The repetition direction does push both open (pre-activation +0.14 and +0.19), but that is roughly a 20% boost, while the head's copy contribution more than doubles. Most of the absorption must therefore come from attention concentrating on the many earlier copies of the cycle, not from gating. Before choosing between a gate-based repair and acting on the repetition signal's writers, I need to know whether this repetition direction, estimated from just two texts, is a general property of looping across many problems. The gen_2 activation files hold every original sample's residual stream at every layer, averaged over its first 8,192 tokens, together with its loop status. If samples that loop early project much higher on this direction than samples that finish cleanly, the direction is a robust loop signature worth building on. A weak separation would mean it is specific to these two texts.
+
+```python
+# Hypothesis: the repetition direction r (from texts A,B) generalizes: early-looping samples in gen_2 project far higher on it than finished samples.
+idx = json.load(open('/work/gen_2_acts/index.json'))
+print(type(idx).__name__, (list(idx.keys())[:10] if isinstance(idx, dict) else idx[:2]))
+print(sorted(os.listdir('/work/gen_2_acts'))[:12], len(os.listdir('/work/gen_2_acts')))
+```

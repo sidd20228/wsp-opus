@@ -1,0 +1,17 @@
+OUTPUT of Python run 25 of at most 120:
+```
+0 true 6716 fake 0
+1 true 1607 fake 827
+2 true 631 fake 894
+3 true 79 fake 158
+4 true 0 fake 0
+size 1 true 6716 fake 0
+size 2 true 883 fake 0
+size 3 true 445 fake 108
+size 4 true 252 fake 65
+size 5 true 155 fake 77
+size 6 true 121 fake 56
+size 7 true 65 fake 48
+size 8 true 396 fake 1525
+
+```

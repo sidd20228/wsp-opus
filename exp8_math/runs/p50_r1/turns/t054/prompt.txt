@@ -1,0 +1,9 @@
+OUTPUT of Python run 45 of at most 300:
+```
+looped cut traces: 457; reached final-output stage before onset: 13.6% (gsm 17.7%, math 11.6%)
+onset median reached=6240 not=6054
+Traceback (most recent call last):
+  File "<run>", line 14, in <module>
+NameError: name 'kw' is not defined
+
+```

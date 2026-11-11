@@ -1,0 +1,144 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "session_id": "f7a78d08-0cdc-483f-8ef3-c699ae0f118f",
+ "cwd": "<home>/.wsp/c/f7a78d08",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "high",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 93.8,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 109115,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 10031,
+  "output_tokens_details": {
+   "thinking_tokens": 8220
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 109115,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 10031,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 109115,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 109115
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 10031,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 109115,
+   "webSearchRequests": 0,
+   "costUSD": 1.073548,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 8220,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 109115,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.073548,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 93.8,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations:**\n\n- **Output biases b3 form a radial pattern.** The border and corners are strongly negative: pixel 0 = -0.551, pixel 11 = -0.605, pixel 132 = -0.476, pixel 143 = -0.571, and row 5's ends are -0.435 and -0.357. The central block (rows 3\u20139, cols 2\u20139) is near zero or slightly positive",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794380400,
+      "rateLimitType": "seven_day",
+      "utilization": 0.83,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.75,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.1,
+        "resetsAt": 1794391800,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.83,
+        "resetsAt": 1794380400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.75
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "1f61a728-0ec5-43a0-a33c-54f58ff72f80",
+     "session_id": "5106d4e7-c9af-4184-92f3-f8e0705be420"
+    }
+   ]
+  }
+ ]
+}

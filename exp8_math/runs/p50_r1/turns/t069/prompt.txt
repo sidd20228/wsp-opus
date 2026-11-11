@@ -1,0 +1,9 @@
+OUTPUT of Python run 59 of at most 300:
+```
+A n_lines 69 | runs with count>1: [(46, 22)]
+   A last line (partial): "    *   Wait, I'm checking if the prompt meant \"5 more than twice the number of books she read this year\" = $2 \\times 5 + "
+B n_lines 88 | runs with count>1: [(10, 2)]
+   B: first line index where 2-cycle starts 18 n lines in 2-cycle region 70
+   B last line ends without newline: True | last 2 lines: ["Wait, $\\csc \\theta$ is decreasing on $(0, \\pi/2)$.", "Wait, $\\csc \\theta$ is increasing on $(\\pi/2, \\pi)$."]
+
+```

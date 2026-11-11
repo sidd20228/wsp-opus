@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73",
+ "cwd": "<home>/.wsp/c/fea22f52",
+ "turn": 75,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 33.9,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2221,
+  "cache_read_input_tokens": 419474,
+  "output_tokens": 2975,
+  "output_tokens_details": {
+   "thinking_tokens": 2227
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2221,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2975,
+    "cache_read_input_tokens": 419474,
+    "cache_creation_input_tokens": 2221,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2221
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 302,
+   "outputTokens": 362430,
+   "thinkingTokens": 307427,
+   "cacheReadInputTokens": 18708314,
+   "cacheCreationInputTokens": 419061,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 419061,
+   "webSearchRequests": 0,
+   "costUSD": 14.343958800000003,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 14.343958800000003,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 33.9,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The cause is visible on the board. During the middle and late game my net fills its own territory with checkerboard patterns (\"X.X.X.X.X\" along the edge). That leaves many disconnected single stones with false eyes, which the opponent then captures one by one while the net passes. Filling own territ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "utilization": 0.99,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.99,
+        "resetsAt": 1794252000,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.48,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "2066024e-8543-471b-84bc-3705c9131f0c",
+     "session_id": "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73"
+    }
+   ]
+  }
+ ]
+}

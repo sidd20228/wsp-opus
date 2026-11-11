@@ -1,21 +1,21 @@
 {
  "session_id": "2e7af7fe-5896-423b-90a7-8a0a15cca95d",
  "cwd": "<home>/.wsp/c/2e7af7fe",
- "turns": 25,
+ "turns": 28,
  "effort": "xhigh",
- "next": "OUTPUT of run 25 of at most 100:\n```\n0 (0, 0) removed 0 sv[20:32] [7.07 6.91 6.89 6.68 6.63 6.49 6.44 6.35 6.31 6.16 6.   5.91]  biggest drop after index 33 (count 34 ) ratio 1.04\n0 (10, 2) removed 28 sv[20:32] [6.55 6.33 6.28 6.16 6.01 5.9  5.78 5.68 5.56 5.35 5.18 5.04]  biggest drop after index 33 (count 34 ) ratio 1.15\n0 (20, 3) removed 52 sv[20:32] [5.82 5.74 5.47 5.4  5.32 4.92 4.24 3.77 3.66 3.46 3.25 3.2 ]  biggest drop after index 25 (count 26 ) ratio 1.16\n0 (25, 4) removed 66 sv[20:32] [5.74 5.63 5.42 5.31 5.07 4.82 3.86 3.56 3.46 3.35 3.13 3.12]  biggest drop after index 25 (count 26 ) ratio 1.25\n0 (32, 6) removed 88 sv[20:32] [5.62 5.54 5.3  5.24 4.82 4.51 3.4  3.38 3.31 3.13 3.04 2.99]  biggest drop after index 25 (count 26 ) ratio 1.33\n20 (0, 0) removed 20 sv[20:32] [6.97 6.85 6.8  6.63 6.59 6.42 6.35 6.32 6.27 6.12 5.93 5.87]  biggest drop after index 32 (count 33 ) ratio 1.04\n20 (10, 2) removed 48 sv[20:32] [6.45 6.32 6.26 6.07 5.93 5.83 5.67 5.58 5.5  5.3  5.06 4.9 ]  biggest drop after index 33 (count 34 ) ratio 1.15\n20 (20, 3) removed 72 sv[20:32] [5.74 5.67 5.41 5.38 5.21 4.89 4.14 3.7  3.57 3.3  3.18 3.12]  biggest drop after index 25 (count 26 ) ratio 1.18\n20 (25, 4) removed 86 sv[20:32] [5.68 5.58 5.38 5.25 4.97 4.78 3.78 3.5  3.39 3.25 3.06 3.03]  biggest drop after index 25 (count 26 ) ratio 1.27\n20 (32, 6) removed 108 sv[20:32] [5.52 5.47 5.27 5.14 4.79 4.35 3.35 3.27 3.19 3.05 2.96 2.91]  biggest drop after index 25 (count 26 ) ratio 1.30\n26 (0, 0) removed 26 sv[20:32] [6.93 6.84 6.77 6.61 6.56 6.41 6.35 6.31 6.24 6.09 5.91 5.84]  biggest drop after index 32 (count 33 ) ratio 1.04\n26 (10, 2) removed 54 sv[20:32] [6.39 6.3  6.25 6.04 5.92 5.81 5.66 5.57 5.46 5.29 5.04 4.88]  biggest drop after index 33 (count 34 ) ratio 1.14\n26 (20, 3) removed 78 sv[20:32] [5.71 5.65 5.4  5.38 5.1  4.87 4.1  3.68 3.56 3.27 3.15 3.08]  biggest drop after index 25 (count 26 ) ratio 1.19\n26 (25, 4) removed 92 sv[20:32] [5.66 5.57 5.37 5.23 4.91 4.72 3.77 3.48 3.36 3.23 3.04 3.  ]  biggest drop after index 25 (count 26 ) ratio 1.25\n26 (32, 6) removed 114 sv[20:32] [5.51 5.47 5.25 5.12 4.78 4.28 3.33 3.26 3.17 3.03 2.9  2.89]  biggest drop after index 25 (count 26 ) ratio 1.29\n30 (0, 0) removed 30 sv[20:32] [6.92 6.83 6.76 6.61 6.51 6.4  6.34 6.31 6.22 6.08 5.88 5.82]  biggest drop after index 34 (count 35 ) ratio 1.04\n30 (10, 2) removed 58 sv[20:32] [6.36 6.29 6.25 6.01 5.9  5.8  5.65 5.57 5.45 5.27 5.03 4.86]  biggest drop after index 33 (count 34 ) ratio 1.13\n30 (20, 3) removed 82 sv[20:32] [5.69 5.64 5.38 5.35 5.05 4.81 4.1  3.66 3.54 3.27 3.15 3.04]  biggest drop after index 25 (count 26 ) ratio 1.17\n30 (25, 4) removed 96 sv[20:32] [5.64 5.55 5.35 5.19 4.9  4.64 3.76 3.46 3.34 3.22 3.03 2.96]  biggest drop after index 25 (count 26 ) ratio 1.23\n30 (32, 6) removed 118 sv[20:32] [5.5  5.45 5.25 5.08 4.77 4.22 3.32 3.23 3.16 3.03 2.89 2.87]  biggest drop after index 25 (count 26 ) ratio 1.27\n34 (0, 0) removed 34 sv[20:32] [6.91 6.81 6.71 6.58 6.5  6.39 6.32 6.26 6.2  6.08 5.87 5.8 ]  biggest drop after index 34 (count 35 ) ratio 1.04\n34 (10, 2) removed 62 sv[20:32] [6.36 6.28 6.24 5.98 5.85 5.76 5.63 5.56 5.41 5.25 5.02 4.85]  biggest drop after index 33 (count 34 ) ratio 1.13\n34 (20, 3) removed 86 sv[20:32] [5.67 5.62 5.37 5.3  4.98 4.8  4.08 3.66 3.52 3.25 3.14 3.02]  biggest drop after index 25 (count 26 ) ratio 1.18\n34 (25, 4) removed 100 sv[20:32] [5.62 5.54 5.32 5.15 4.88 4.57 3.75 3.44 3.33 3.21 3.   2.95]  biggest drop after index 25 (count 26 ) ratio 1.22\n34 (32, 6) removed 122 sv[20:32] [5.49 5.43 5.23 5.02 4.76 4.13 3.3  3.22 3.12 3.01 2.89 2.86]  biggest drop after index 25 (count 26 ) ratio 1.25\n\n```",
- "done": false,
+ "next": null,
+ "done": true,
  "counters": {
-  "runs": 25
+  "runs": 27
  },
  "failures": 0,
  "usage_last": {
   "input_tokens": 4,
-  "cache_creation_input_tokens": 5887,
-  "cache_read_input_tokens": 187688,
-  "output_tokens": 2059,
+  "cache_creation_input_tokens": 3710,
+  "cache_read_input_tokens": 205810,
+  "output_tokens": 5559,
   "output_tokens_details": {
-   "thinking_tokens": 1405
+   "thinking_tokens": 3019
   },
   "server_tool_use": {
    "web_search_requests": 0,
@@ -23,19 +23,19 @@
   },
   "service_tier": "standard",
   "cache_creation": {
-   "ephemeral_1h_input_tokens": 5887,
+   "ephemeral_1h_input_tokens": 3710,
    "ephemeral_5m_input_tokens": 0
   },
   "inference_geo": "global",
   "iterations": [
    {
     "input_tokens": 4,
-    "output_tokens": 2059,
-    "cache_read_input_tokens": 187688,
-    "cache_creation_input_tokens": 5887,
+    "output_tokens": 5559,
+    "cache_read_input_tokens": 205810,
+    "cache_creation_input_tokens": 3710,
     "cache_creation": {
      "ephemeral_5m_input_tokens": 0,
-     "ephemeral_1h_input_tokens": 5887
+     "ephemeral_1h_input_tokens": 3710
     },
     "type": "message"
    }

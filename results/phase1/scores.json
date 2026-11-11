@@ -42,6 +42,46 @@
  {
   "exp": "exp1_which_game",
   "item": "breakout",
+  "effort": "high",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 168.6,
+  "output_tokens": 20682,
+  "thinking_tokens": 19213,
+  "input_tokens": 79678,
+  "list_usd": 1.051056,
+  "answer_line": "Breakout (Atari\u2011style brick breaker on the 8\u00d78 grid).",
+  "guess": "breakout",
+  "confidence": 80.0,
+  "correct": true,
+  "_src_wall": 168.6
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "breakout",
+  "effort": "high",
+  "rep": 4,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 136.1,
+  "output_tokens": 16611,
+  "thinking_tokens": 14503,
+  "input_tokens": 79677,
+  "list_usd": 0.9696279999999999,
+  "answer_line": "Breakout (Atari\u2011style brick breaker / MinAtar Breakout) on an 8\u00d78 field.",
+  "guess": "breakout",
+  "confidence": 85.0,
+  "correct": true,
+  "_src_wall": 136.1
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "breakout",
   "effort": "max",
   "rep": 1,
   "primary": false,
@@ -58,6 +98,46 @@
   "confidence": 88.0,
   "correct": true,
   "_src_wall": 618.3
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "breakout",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 440.3,
+  "output_tokens": 57550,
+  "thinking_tokens": 55343,
+  "input_tokens": 79677,
+  "list_usd": 1.788408,
+  "answer_line": "Breakout (MinAtar-style grid Breakout).",
+  "guess": "breakout",
+  "confidence": 87.0,
+  "correct": true,
+  "_src_wall": 440.3
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "breakout",
+  "effort": "max",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 726.0,
+  "output_tokens": 88087,
+  "thinking_tokens": 86070,
+  "input_tokens": 79675,
+  "list_usd": 1.7801006000000001,
+  "answer_line": "Breakout (a MinAtar-style mini Breakout / brick breaker on an 8\u00d78 field).",
+  "guess": "breakout",
+  "confidence": 85.0,
+  "correct": true,
+  "_src_wall": 726.0
  },
  {
   "exp": "exp1_which_game",
@@ -102,6 +182,26 @@
  {
   "exp": "exp1_which_game",
   "item": "freeway",
+  "effort": "high",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 91.0,
+  "output_tokens": 10241,
+  "thinking_tokens": 8861,
+  "input_tokens": 79457,
+  "list_usd": 0.840468,
+  "answer_line": "Frogger, a road-crossing game in the style of Atari Freeway.",
+  "guess": "freeway",
+  "confidence": 70.0,
+  "correct": true,
+  "_src_wall": 91.0
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "freeway",
   "effort": "max",
   "rep": 1,
   "primary": false,
@@ -118,6 +218,46 @@
   "confidence": 85.0,
   "correct": true,
   "_src_wall": 1359.4
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "freeway",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1572.1,
+  "output_tokens": 83334,
+  "thinking_tokens": 81113,
+  "input_tokens": 79457,
+  "list_usd": 2.3183870000000004,
+  "answer_line": "Freeway (Atari 2600 / MinAtar-style Freeway), i.e. the road-crossing part of Frogger.",
+  "guess": "freeway",
+  "confidence": 87.0,
+  "correct": true,
+  "_src_wall": 1572.1
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "freeway",
+  "effort": "max",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 848.2,
+  "output_tokens": 106366,
+  "thinking_tokens": 103988,
+  "input_tokens": 79458,
+  "list_usd": 2.1456527999999997,
+  "answer_line": "Freeway (Atari / MinAtar style), i.e. a Frogger-type road crossing with no river.",
+  "guess": "freeway",
+  "confidence": 87.0,
+  "correct": true,
+  "_src_wall": 848.2
  },
  {
   "exp": "exp1_which_game",
@@ -162,6 +302,46 @@
  {
   "exp": "exp1_which_game",
   "item": "pacman",
+  "effort": "high",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 76.2,
+  "output_tokens": 8593,
+  "thinking_tokens": 7295,
+  "input_tokens": 79593,
+  "list_usd": 0.808596,
+  "answer_line": "Pac-Man (a grid-maze pellet collector with ghosts).",
+  "guess": "pacman",
+  "confidence": 72.0,
+  "correct": true,
+  "_src_wall": 76.2
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pacman",
+  "effort": "high",
+  "rep": 4,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 114.6,
+  "output_tokens": 13360,
+  "thinking_tokens": 11788,
+  "input_tokens": 79594,
+  "list_usd": 0.903944,
+  "answer_line": "Pac-Man (a small grid version: a fixed symmetric maze with pellets and chasing ghosts).",
+  "guess": "pacman",
+  "confidence": 80.0,
+  "correct": true,
+  "_src_wall": 114.6
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pacman",
   "effort": "max",
   "rep": 1,
   "primary": false,
@@ -178,6 +358,46 @@
   "confidence": 80.0,
   "correct": true,
   "_src_wall": 776.2
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pacman",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 829.3,
+  "output_tokens": 96811,
+  "thinking_tokens": 94764,
+  "input_tokens": 79596,
+  "list_usd": 2.57298,
+  "answer_line": "Pac-Man (a miniature 8\u00d78 Pac-Man-style maze chase)",
+  "guess": "pacman",
+  "confidence": 80.0,
+  "correct": true,
+  "_src_wall": 829.3
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pacman",
+  "effort": "max",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 682.7,
+  "output_tokens": 82642,
+  "thinking_tokens": 80686,
+  "input_tokens": 79593,
+  "list_usd": 1.6711998,
+  "answer_line": "Pac-Man (a mini grid version).",
+  "guess": "pacman",
+  "confidence": 80.0,
+  "correct": true,
+  "_src_wall": 682.7
  },
  {
   "exp": "exp1_which_game",
@@ -222,6 +442,46 @@
  {
   "exp": "exp1_which_game",
   "item": "pong",
+  "effort": "high",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 67.8,
+  "output_tokens": 7608,
+  "thinking_tokens": 6051,
+  "input_tokens": 79469,
+  "list_usd": 0.7879039999999999,
+  "answer_line": "Single-player Pong (a squash-style Pong variant: a vertical paddle in the left column against a ball, with the right wall as the target).",
+  "guess": "pong",
+  "confidence": 60.0,
+  "correct": true,
+  "_src_wall": 67.8
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pong",
+  "effort": "high",
+  "rep": 4,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 70.0,
+  "output_tokens": 7870,
+  "thinking_tokens": 6319,
+  "input_tokens": 79468,
+  "list_usd": 0.793136,
+  "answer_line": "Pong. More precisely, a single-player Pong/squash variant: the agent is a vertical paddle in the left column and returns a ball toward a scoring wall on the right.",
+  "guess": "pong",
+  "confidence": 72.0,
+  "correct": true,
+  "_src_wall": 70.0
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pong",
   "effort": "max",
   "rep": 1,
   "primary": false,
@@ -238,6 +498,46 @@
   "confidence": 88.0,
   "correct": true,
   "_src_wall": 442.8
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pong",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 629.8,
+  "output_tokens": 78976,
+  "thinking_tokens": 76653,
+  "input_tokens": 79468,
+  "list_usd": 2.215256,
+  "answer_line": "Pong. The agent is the left paddle. It is most likely a single-player, squash-style version where the right wall is the scoring target.",
+  "guess": "pong",
+  "confidence": 85.0,
+  "correct": true,
+  "_src_wall": 629.8
+ },
+ {
+  "exp": "exp1_which_game",
+  "item": "pong",
+  "effort": "max",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 452.6,
+  "output_tokens": 58235,
+  "thinking_tokens": 56045,
+  "input_tokens": 79471,
+  "list_usd": 1.1830588000000002,
+  "answer_line": "Pong, the single-player variant (one paddle against a scoring wall, similar to squash).",
+  "guess": "pong",
+  "confidence": 80.0,
+  "correct": true,
+  "_src_wall": 452.6
  },
  {
   "exp": "exp2_diffusion",
@@ -286,6 +586,28 @@
  {
   "exp": "exp2_diffusion",
   "item": "circle",
+  "effort": "high",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 96.1,
+  "output_tokens": 10963,
+  "thinking_tokens": 9278,
+  "input_tokens": 109117,
+  "list_usd": 1.0921880000000002,
+  "images": "A single white ring (circle outline, stroke about 1 px, sometimes 2 px at the bottom) on a black background. The diameter is roughly 5 to 10 pixels. The ring is placed somewhere inside the frame, usually near the centre but shifted up, down, left or right, and it stays at least one pixel away from the image edge. The inside of the ring is black.",
+  "guess": "circle",
+  "confidence": 65.0,
+  "example_rows": 12,
+  "example_filled": false,
+  "correct": true,
+  "_src_wall": 96.1
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "circle",
   "effort": "max",
   "rep": 1,
   "primary": false,
@@ -304,6 +626,50 @@
   "example_filled": true,
   "correct": true,
   "_src_wall": 3936.7
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "circle",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1734.5,
+  "output_tokens": 97819,
+  "thinking_tokens": 223822,
+  "input_tokens": 109179,
+  "list_usd": 4.5600544,
+  "images": "Each image is a single thin (about 1 px) white circle outline, a ring, on a black background.\n- Size: diameter about 4\u201310 px (radius about 2\u20134.5), most often about 6\u20138 px.\n- Position: the centre is random but always lets the whole ring fit inside rows 1\u201310 and columns 1\u201310. The outermost row and column on every side stay black. Small rings can sit in any corner; the largest fill the interior.",
+  "guess": "circle",
+  "confidence": 70.0,
+  "example_rows": 12,
+  "example_filled": false,
+  "correct": true,
+  "_src_wall": 1734.5
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "circle",
+  "effort": "max",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2449.4,
+  "output_tokens": 56681,
+  "thinking_tokens": 310533,
+  "input_tokens": 109242,
+  "list_usd": 8.873916,
+  "images": "Each image is a single thin white circle outline, about 1 pixel wide, on a black background.\n- The radius ranges from about 1\u20131.5 px up to about 4.5 px (diameter roughly 3\u201310 pixels).\n- The centre position varies, but the whole circle always stays inside rows 1\u201310 and columns 1\u201310.\n- The outer one-pixel frame is always black, and nothing else appears in the image.",
+  "guess": "circle",
+  "confidence": 65.0,
+  "example_rows": 12,
+  "example_filled": false,
+  "correct": true,
+  "_src_wall": 2449.4
  },
  {
   "exp": "exp2_diffusion",
@@ -352,6 +718,28 @@
  {
   "exp": "exp2_diffusion",
   "item": "square",
+  "effort": "high",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 80.5,
+  "output_tokens": 8488,
+  "thinking_tokens": 6791,
+  "input_tokens": 109415,
+  "list_usd": 1.045072,
+  "images": "- Each image is a single solid white axis-aligned rectangle on a black background.\n- The rectangle always sits inside the 10\u00d710 interior, so the outermost 1-pixel frame stays black.\n- Its position and size vary from image to image. Sides are typically about 3 to 9 pixels, it can touch any side of the interior, and the centre area is covered most often.",
+  "guess": "square",
+  "confidence": 60.0,
+  "example_rows": 12,
+  "example_filled": true,
+  "correct": true,
+  "_src_wall": 80.5
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "square",
   "effort": "max",
   "rep": 1,
   "primary": false,
@@ -370,6 +758,50 @@
   "example_filled": true,
   "correct": true,
   "_src_wall": 2818.9
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "square",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1775.8,
+  "output_tokens": 111084,
+  "thinking_tokens": 236769,
+  "input_tokens": 109475,
+  "list_usd": 6.532767999999999,
+  "images": "Each image is a single hollow, axis-aligned rectangle: a white outline one pixel thick on a black background. Its corners are sharp and its inside is black. Its position and its width and height vary, with sides from about 3 to 10 pixels and typically about 5-8, sometimes near-square. It always lies inside rows 1-10 and columns 1-10, so the outer ring of pixels stays black.",
+  "guess": "square",
+  "confidence": 75.0,
+  "example_rows": 12,
+  "example_filled": false,
+  "correct": true,
+  "_src_wall": 1775.8
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "square",
+  "effort": "max",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1704.8,
+  "output_tokens": 99485,
+  "thinking_tokens": 225576,
+  "input_tokens": 109477,
+  "list_usd": 6.30082,
+  "images": "Each image is one solid white, axis-aligned rectangle on a black background. Width and height vary independently, roughly 2\u20138 pixels and typically 4\u20136, so many look near-square. The rectangle sits at a random place inside rows 1\u201310 and columns 1\u201310. The outer 1-pixel frame is always black, and everything outside the rectangle is black.",
+  "guess": "square",
+  "confidence": 60.0,
+  "example_rows": 12,
+  "example_filled": true,
+  "correct": true,
+  "_src_wall": 1704.8
  },
  {
   "exp": "exp2_diffusion",
@@ -418,6 +850,28 @@
  {
   "exp": "exp2_diffusion",
   "item": "triangle",
+  "effort": "high",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 179.4,
+  "output_tokens": 19897,
+  "thinking_tokens": 17832,
+  "input_tokens": 109683,
+  "list_usd": 1.275396,
+  "images": "Each image is a single solid white triangle, pointing up, on a black background:\n- Apex: near the top centre, at row 1\u20132, around columns 4\u20136.\n- Sides: slant outward roughly 2 rows per column.\n- Base: flat, somewhere between row 7 and row 11, up to about 10 pixels wide (columns 1\u201310).\n- Size: varies from about 6 to 10 rows tall, with small horizontal shifts.\n- Always black: row 0, columns 0 and 11,",
+  "guess": "triangle",
+  "confidence": null,
+  "example_rows": 12,
+  "example_filled": true,
+  "correct": true,
+  "_src_wall": 179.4
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "triangle",
   "effort": "max",
   "rep": 1,
   "primary": false,
@@ -436,6 +890,50 @@
   "example_filled": true,
   "correct": true,
   "_src_wall": 2660.3
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "triangle",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1770.7,
+  "output_tokens": 116922,
+  "thinking_tokens": 242702,
+  "input_tokens": 109747,
+  "list_usd": 6.653879999999999,
+  "images": "Each image is a single solid white triangle pointing up, on a black background:\n- Apex: at the top centre, usually row 1\u20132 at cols 5\u20136, sometimes row 3 or shifted 1\u20132 columns.\n- Sides: straight and staircased.\n- Base: flat and horizontal, low in the frame (typically row 8\u201310, range about 6\u201311).\n- Width: the base spans about 6\u201310 pixels, often nearly the full width (cols 1\u201310).\n- Size: about 6\u201310 r",
+  "guess": "triangle",
+  "confidence": 70.0,
+  "example_rows": 12,
+  "example_filled": true,
+  "correct": true,
+  "_src_wall": 1770.7
+ },
+ {
+  "exp": "exp2_diffusion",
+  "item": "triangle",
+  "effort": "max",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2933.9,
+  "output_tokens": 122536,
+  "thinking_tokens": 375998,
+  "input_tokens": 109809,
+  "list_usd": 10.204623999999999,
+  "images": "Each sample is one solid white, upward-pointing, roughly isosceles triangle on a black background.\n- Apex: at the top centre, around (1,5)\u2013(1,6), sometimes at row 2 or shifted 1\u20132 columns.\n- Sides: straight, widening by one pixel per side about every 1.75 rows.\n- Base: flat, usually at row 8 (sometimes 9\u201310), spanning about columns 1\u201310.\n- Size: about 8\u20139 px tall and 10 px wide, so it fills most o",
+  "guess": "triangle",
+  "confidence": 60.0,
+  "example_rows": 12,
+  "example_filled": true,
+  "correct": true,
+  "_src_wall": 2933.9
  },
  {
   "exp": "exp4_fix_car",
@@ -789,6 +1287,1586 @@
   }
  },
  {
+  "exp": "exp4_fix_car",
+  "item": "oneshot_repair",
+  "effort": "high",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 569.3,
+  "output_tokens": 53418,
+  "thinking_tokens": 51345,
+  "input_tokens": 435587,
+  "list_usd": 4.553048,
+  "edit_report": {
+   "block": true,
+   "statements": 58,
+   "applied": 58,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "changes": {
+   "changed": 6132,
+   "entries": 171664,
+   "frac_changed": 0.03572094323795321,
+   "per_tensor": {
+    "embed.W": 3171,
+    "embed.b": 5,
+    "actor0.W": 884,
+    "actor0.b": 2,
+    "actor1.W": 507,
+    "actor1.b": 2,
+    "actor2.W": 508,
+    "actor2.b": 2,
+    "actor3.W": 507,
+    "actor3.b": 2,
+    "actor4.W": 506,
+    "actor4.b": 2,
+    "actor_head.W": 32,
+    "actor_head.b": 2
+   }
+  },
+  "_src_wall": 569.3,
+  "kinetix": {
+   "seed": 1,
+   "episodes": 1024,
+   "test": {
+    "level": "l/h2_car_ramp",
+    "kinetix_commit": "80ee9c292837c825cafaf9889323fdcc212efd1b",
+    "jax": "0.4.38",
+    "device": "cuda:0",
+    "device_kind": "NVIDIA H100 NVL",
+    "seed": 1,
+    "mode": "sample",
+    "precision": "default",
+    "wall_s": 9.57,
+    "episodes": 1024,
+    "success": 1.0,
+    "red": 0.0,
+    "invalid": 0.0,
+    "timeout": 0.0,
+    "unfinished": 0,
+    "return": 1.37443208694458,
+    "length": 125.0,
+    "progress": 1.0,
+    "success_count": 1024,
+    "kinetix_done_consistent": true,
+    "episode0": {
+     "outcome": "success",
+     "length": 125,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.058,
+        0.602,
+        -0.014
+       ],
+       "green": [
+        2.795,
+        0.616
+       ],
+       "wheel": [
+        3.365,
+        0.623
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        3.423,
+        0.602,
+        -0.014
+       ],
+       "green": [
+        3.16,
+        0.616
+       ],
+       "wheel": [
+        3.73,
+        0.623
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        3.788,
+        0.602,
+        -0.014
+       ],
+       "green": [
+        3.525,
+        0.616
+       ],
+       "wheel": [
+        4.095,
+        0.623
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        4.153,
+        0.602,
+        -0.014
+       ],
+       "green": [
+        3.89,
+        0.616
+       ],
+       "wheel": [
+        4.46,
+        0.623
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 80,
+       "body": [
+        4.307,
+        0.604,
+        -0.02
+       ],
+       "green": [
+        4.045,
+        0.619
+       ],
+       "wheel": [
+        4.615,
+        0.623
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 96,
+       "body": [
+        3.071,
+        0.604,
+        -0.02
+       ],
+       "green": [
+        2.809,
+        0.619
+       ],
+       "wheel": [
+        3.379,
+        0.623
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 112,
+       "body": [
+        1.723,
+        1.096,
+        -0.261
+       ],
+       "green": [
+        1.472,
+        1.174
+       ],
+       "wheel": [
+        2.027,
+        1.041
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 124,
+       "body": [
+        0.898,
+        0.611,
+        0.057
+       ],
+       "green": [
+        0.634,
+        0.606
+       ],
+       "wheel": [
+        1.204,
+        0.654
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    },
+    "argmax_wall_s": 4.47,
+    "argmax_outcome": "success",
+    "argmax_success": 1.0,
+    "argmax_return": 1.37443208694458,
+    "argmax_length": 125,
+    "argmax_episode": {
+     "outcome": "success",
+     "length": 125,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.058,
+        0.602,
+        -0.014
+       ],
+       "green": [
+        2.795,
+        0.616
+       ],
+       "wheel": [
+        3.365,
+        0.623
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        3.423,
+        0.602,
+        -0.014
+       ],
+       "green": [
+        3.16,
+        0.616
+       ],
+       "wheel": [
+        3.73,
+        0.623
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        3.788,
+        0.602,
+        -0.014
+       ],
+       "green": [
+        3.525,
+        0.616
+       ],
+       "wheel": [
+        4.095,
+        0.623
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        4.153,
+        0.602,
+        -0.014
+       ],
+       "green": [
+        3.89,
+        0.616
+       ],
+       "wheel": [
+        4.46,
+        0.623
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 80,
+       "body": [
+        4.307,
+        0.604,
+        -0.02
+       ],
+       "green": [
+        4.045,
+        0.619
+       ],
+       "wheel": [
+        4.615,
+        0.623
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 96,
+       "body": [
+        3.071,
+        0.604,
+        -0.02
+       ],
+       "green": [
+        2.809,
+        0.619
+       ],
+       "wheel": [
+        3.379,
+        0.623
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 112,
+       "body": [
+        1.723,
+        1.096,
+        -0.261
+       ],
+       "green": [
+        1.472,
+        1.174
+       ],
+       "wheel": [
+        2.027,
+        1.041
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 124,
+       "body": [
+        0.898,
+        0.611,
+        0.057
+       ],
+       "green": [
+        0.634,
+        0.606
+       ],
+       "wheel": [
+        1.204,
+        0.654
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    }
+   }
+  }
+ },
+ {
+  "exp": "exp4_fix_car",
+  "item": "oneshot_repair",
+  "effort": "high",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 160.4,
+  "output_tokens": 14913,
+  "thinking_tokens": 13146,
+  "input_tokens": 435586,
+  "list_usd": 0.38781839999999995,
+  "edit_report": {
+   "block": true,
+   "statements": 25,
+   "applied": 25,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "changes": {
+   "changed": 2288,
+   "entries": 171664,
+   "frac_changed": 0.01332836238232827,
+   "per_tensor": {
+    "embed.W": 1257,
+    "embed.b": 2,
+    "actor0.W": 127,
+    "actor0.b": 1,
+    "actor1.W": 128,
+    "actor1.b": 1,
+    "actor2.W": 128,
+    "actor2.b": 1,
+    "actor3.W": 127,
+    "actor3.b": 1,
+    "actor4.W": 128,
+    "actor4.b": 1,
+    "actor_head.W": 383,
+    "actor_head.b": 3
+   }
+  },
+  "_src_wall": 160.4,
+  "kinetix": {
+   "seed": 1,
+   "episodes": 1024,
+   "test": {
+    "level": "l/h2_car_ramp",
+    "kinetix_commit": "80ee9c292837c825cafaf9889323fdcc212efd1b",
+    "jax": "0.4.38",
+    "device": "cuda:0",
+    "device_kind": "NVIDIA H100 NVL",
+    "seed": 1,
+    "mode": "sample",
+    "precision": "default",
+    "wall_s": 1.25,
+    "episodes": 1024,
+    "success": 1.0,
+    "red": 0.0,
+    "invalid": 0.0,
+    "timeout": 0.0,
+    "unfinished": 0,
+    "return": 1.3732003271579742,
+    "length": 79.0,
+    "progress": 1.0,
+    "success_count": 1024,
+    "kinetix_done_consistent": true,
+    "episode0": {
+     "outcome": "success",
+     "length": 79,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.814,
+        0.611,
+        -0.058
+       ],
+       "green": [
+        3.553,
+        0.637
+       ],
+       "wheel": [
+        4.123,
+        0.618
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        4.425,
+        0.598,
+        -0.016
+       ],
+       "green": [
+        4.163,
+        0.612
+       ],
+       "wheel": [
+        4.733,
+        0.618
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        3.242,
+        0.598,
+        -0.016
+       ],
+       "green": [
+        2.98,
+        0.612
+       ],
+       "wheel": [
+        3.55,
+        0.619
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        1.839,
+        1.065,
+        -0.375
+       ],
+       "green": [
+        1.598,
+        1.17
+       ],
+       "wheel": [
+        2.134,
+        0.975
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 78,
+       "body": [
+        0.906,
+        0.609,
+        0.06
+       ],
+       "green": [
+        0.643,
+        0.604
+       ],
+       "wheel": [
+        1.212,
+        0.653
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    },
+    "argmax_wall_s": 0.91,
+    "argmax_outcome": "success",
+    "argmax_success": 1.0,
+    "argmax_return": 1.3732001781463623,
+    "argmax_length": 79,
+    "argmax_episode": {
+     "outcome": "success",
+     "length": 79,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.814,
+        0.611,
+        -0.058
+       ],
+       "green": [
+        3.553,
+        0.637
+       ],
+       "wheel": [
+        4.123,
+        0.618
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        4.425,
+        0.598,
+        -0.016
+       ],
+       "green": [
+        4.163,
+        0.612
+       ],
+       "wheel": [
+        4.733,
+        0.618
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        3.242,
+        0.598,
+        -0.016
+       ],
+       "green": [
+        2.98,
+        0.612
+       ],
+       "wheel": [
+        3.55,
+        0.619
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        1.839,
+        1.065,
+        -0.375
+       ],
+       "green": [
+        1.598,
+        1.17
+       ],
+       "wheel": [
+        2.134,
+        0.975
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 78,
+       "body": [
+        0.906,
+        0.609,
+        0.06
+       ],
+       "green": [
+        0.643,
+        0.604
+       ],
+       "wheel": [
+        1.212,
+        0.653
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    }
+   }
+  }
+ },
+ {
+  "exp": "exp4_fix_car",
+  "item": "oneshot_repair",
+  "effort": "max",
+  "rep": 1,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 3211.9,
+  "output_tokens": 74420,
+  "thinking_tokens": 328435,
+  "input_tokens": 435709,
+  "list_usd": 17.063904,
+  "edit_report": {
+   "block": true,
+   "statements": 40,
+   "applied": 40,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "changes": {
+   "changed": 4201,
+   "entries": 171664,
+   "frac_changed": 0.024472224811259203,
+   "per_tensor": {
+    "embed.W": 2524,
+    "embed.b": 4,
+    "actor0.W": 255,
+    "actor0.b": 2,
+    "actor1.W": 256,
+    "actor1.b": 2,
+    "actor2.W": 256,
+    "actor2.b": 2,
+    "actor3.W": 255,
+    "actor3.b": 2,
+    "actor4.W": 255,
+    "actor4.b": 2,
+    "actor_head.W": 383,
+    "actor_head.b": 3
+   }
+  },
+  "_src_wall": 3211.9,
+  "kinetix": {
+   "seed": 1,
+   "episodes": 1024,
+   "test": {
+    "level": "l/h2_car_ramp",
+    "kinetix_commit": "80ee9c292837c825cafaf9889323fdcc212efd1b",
+    "jax": "0.4.38",
+    "device": "cuda:0",
+    "device_kind": "NVIDIA H100 NVL",
+    "seed": 1,
+    "mode": "sample",
+    "precision": "default",
+    "wall_s": 1.29,
+    "episodes": 1024,
+    "success": 1.0,
+    "red": 0.0,
+    "invalid": 0.0,
+    "timeout": 0.0,
+    "unfinished": 0,
+    "return": 1.3699125051498413,
+    "length": 77.0,
+    "progress": 1.0,
+    "success_count": 1024,
+    "kinetix_done_consistent": true,
+    "episode0": {
+     "outcome": "success",
+     "length": 77,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.735,
+        0.629,
+        -0.09
+       ],
+       "green": [
+        3.474,
+        0.662
+       ],
+       "wheel": [
+        4.043,
+        0.626
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        4.257,
+        0.601,
+        0.002
+       ],
+       "green": [
+        3.995,
+        0.61
+       ],
+       "wheel": [
+        4.565,
+        0.626
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        3.185,
+        0.601,
+        0.002
+       ],
+       "green": [
+        2.923,
+        0.61
+       ],
+       "wheel": [
+        3.493,
+        0.626
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        1.792,
+        1.087,
+        -0.34
+       ],
+       "green": [
+        1.548,
+        1.184
+       ],
+       "wheel": [
+        2.09,
+        1.008
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 76,
+       "body": [
+        0.961,
+        0.634,
+        0.132
+       ],
+       "green": [
+        0.699,
+        0.609
+       ],
+       "wheel": [
+        1.264,
+        0.7
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    },
+    "argmax_wall_s": 0.88,
+    "argmax_outcome": "success",
+    "argmax_success": 1.0,
+    "argmax_return": 1.3699125051498413,
+    "argmax_length": 77,
+    "argmax_episode": {
+     "outcome": "success",
+     "length": 77,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.735,
+        0.629,
+        -0.09
+       ],
+       "green": [
+        3.474,
+        0.662
+       ],
+       "wheel": [
+        4.043,
+        0.626
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        4.257,
+        0.601,
+        0.002
+       ],
+       "green": [
+        3.995,
+        0.61
+       ],
+       "wheel": [
+        4.565,
+        0.626
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        3.185,
+        0.601,
+        0.002
+       ],
+       "green": [
+        2.923,
+        0.61
+       ],
+       "wheel": [
+        3.493,
+        0.626
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        1.792,
+        1.087,
+        -0.34
+       ],
+       "green": [
+        1.548,
+        1.184
+       ],
+       "wheel": [
+        2.09,
+        1.008
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 76,
+       "body": [
+        0.961,
+        0.634,
+        0.132
+       ],
+       "green": [
+        0.699,
+        0.609
+       ],
+       "wheel": [
+        1.264,
+        0.7
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    }
+   }
+  }
+ },
+ {
+  "exp": "exp4_fix_car",
+  "item": "oneshot_repair",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2430.4,
+  "output_tokens": 124211,
+  "thinking_tokens": 249695,
+  "input_tokens": 435647,
+  "list_usd": 12.01406,
+  "edit_report": {
+   "block": true,
+   "statements": 64,
+   "applied": 64,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "changes": {
+   "changed": 3699,
+   "entries": 171664,
+   "frac_changed": 0.021547907540311304,
+   "per_tensor": {
+    "embed.W": 1256,
+    "embed.b": 1,
+    "actor0.W": 635,
+    "actor0.b": 5,
+    "actor1.W": 639,
+    "actor1.b": 5,
+    "actor2.W": 256,
+    "actor2.b": 2,
+    "actor3.W": 255,
+    "actor3.b": 2,
+    "actor4.W": 255,
+    "actor4.b": 2,
+    "actor_head.W": 383,
+    "actor_head.b": 3
+   }
+  },
+  "_src_wall": 2430.4,
+  "kinetix": {
+   "seed": 1,
+   "episodes": 1024,
+   "test": {
+    "level": "l/h2_car_ramp",
+    "kinetix_commit": "80ee9c292837c825cafaf9889323fdcc212efd1b",
+    "jax": "0.4.38",
+    "device": "cuda:0",
+    "device_kind": "NVIDIA H100 NVL",
+    "seed": 1,
+    "mode": "sample",
+    "precision": "default",
+    "wall_s": 1.33,
+    "episodes": 1024,
+    "success": 1.0,
+    "red": 0.0,
+    "invalid": 0.0,
+    "timeout": 0.0,
+    "unfinished": 0,
+    "return": 1.37213727645576,
+    "length": 85.0,
+    "progress": 1.0,
+    "success_count": 1024,
+    "kinetix_done_consistent": true,
+    "episode0": {
+     "outcome": "success",
+     "length": 85,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.479,
+        0.597,
+        -0.012
+       ],
+       "green": [
+        3.216,
+        0.61
+       ],
+       "wheel": [
+        3.786,
+        0.618
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        4.333,
+        0.597,
+        -0.011
+       ],
+       "green": [
+        4.071,
+        0.61
+       ],
+       "wheel": [
+        4.641,
+        0.619
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        3.946,
+        0.603,
+        -0.02
+       ],
+       "green": [
+        3.684,
+        0.618
+       ],
+       "wheel": [
+        4.254,
+        0.621
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        2.307,
+        0.818,
+        -0.656
+       ],
+       "green": [
+        2.105,
+        0.986
+       ],
+       "wheel": [
+        2.566,
+        0.651
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 80,
+       "body": [
+        1.246,
+        0.806,
+        0.393
+       ],
+       "green": [
+        1.0,
+        0.715
+       ],
+       "wheel": [
+        1.521,
+        0.947
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 84,
+       "body": [
+        0.954,
+        0.608,
+        0.018
+       ],
+       "green": [
+        0.691,
+        0.613
+       ],
+       "wheel": [
+        1.262,
+        0.639
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    },
+    "argmax_wall_s": 1.7,
+    "argmax_outcome": "success",
+    "argmax_success": 1.0,
+    "argmax_return": 1.372137188911438,
+    "argmax_length": 85,
+    "argmax_episode": {
+     "outcome": "success",
+     "length": 85,
+     "rows": [
+      {
+       "step": 0,
+       "body": [
+        2.8,
+        0.725,
+        0.0
+       ],
+       "green": [
+        2.537,
+        0.735
+       ],
+       "wheel": [
+        3.107,
+        0.75
+       ],
+       "action0": 2,
+       "p0": [
+        0.0,
+        0.0,
+        1.0
+       ]
+      },
+      {
+       "step": 16,
+       "body": [
+        3.479,
+        0.597,
+        -0.012
+       ],
+       "green": [
+        3.216,
+        0.61
+       ],
+       "wheel": [
+        3.786,
+        0.618
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 32,
+       "body": [
+        4.333,
+        0.597,
+        -0.011
+       ],
+       "green": [
+        4.071,
+        0.61
+       ],
+       "wheel": [
+        4.641,
+        0.619
+       ],
+       "action0": 0,
+       "p0": [
+        1.0,
+        0.0,
+        0.0
+       ]
+      },
+      {
+       "step": 48,
+       "body": [
+        3.946,
+        0.603,
+        -0.02
+       ],
+       "green": [
+        3.684,
+        0.618
+       ],
+       "wheel": [
+        4.254,
+        0.621
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 64,
+       "body": [
+        2.307,
+        0.818,
+        -0.656
+       ],
+       "green": [
+        2.105,
+        0.986
+       ],
+       "wheel": [
+        2.566,
+        0.651
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 80,
+       "body": [
+        1.246,
+        0.806,
+        0.393
+       ],
+       "green": [
+        1.0,
+        0.715
+       ],
+       "wheel": [
+        1.521,
+        0.947
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      {
+       "step": 84,
+       "body": [
+        0.954,
+        0.608,
+        0.018
+       ],
+       "green": [
+        0.691,
+        0.613
+       ],
+       "wheel": [
+        1.262,
+        0.639
+       ],
+       "action0": 1,
+       "p0": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      }
+     ]
+    }
+   }
+  }
+ },
+ {
   "exp": "exp5_write_from_scratch",
   "item": "asterix",
   "effort": "max",
@@ -822,6 +2900,76 @@
   "score": 64.172,
   "score_se": 1.5595328013730776,
   "_src_wall": 2331.9
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "asterix",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2069.6,
+  "output_tokens": 90163,
+  "thinking_tokens": 213398,
+  "input_tokens": 4544,
+  "list_usd": 4.435452,
+  "edit_report": {
+   "block": true,
+   "statements": 59,
+   "applied": 59,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 462,
+  "minatar": {
+   "game": "asterix",
+   "episodes": 1000,
+   "mean": 55.282,
+   "se": 1.008696160369387,
+   "mean_length": 988.956,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 55.282,
+  "score_se": 1.008696160369387,
+  "_src_wall": 2069.6
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "asterix",
+  "effort": "max",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 3560.7,
+  "output_tokens": 119419,
+  "thinking_tokens": 368674,
+  "input_tokens": 4604,
+  "list_usd": 7.6173639999999985,
+  "edit_report": {
+   "block": true,
+   "statements": 172,
+   "applied": 172,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 1416,
+  "minatar": {
+   "game": "asterix",
+   "episodes": 1000,
+   "mean": 32.285,
+   "se": 0.7915290855636913,
+   "mean_length": 774.379,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 32.285,
+  "score_se": 0.7915290855636913,
+  "_src_wall": 3560.7
  },
  {
   "exp": "exp5_write_from_scratch",
@@ -860,6 +3008,76 @@
  },
  {
   "exp": "exp5_write_from_scratch",
+  "item": "asterix",
+  "effort": "xhigh",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 757.5,
+  "output_tokens": 84240,
+  "thinking_tokens": 77233,
+  "input_tokens": 4482,
+  "list_usd": 1.720648,
+  "edit_report": {
+   "block": true,
+   "statements": 249,
+   "applied": 249,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 1085,
+  "minatar": {
+   "game": "asterix",
+   "episodes": 1000,
+   "mean": 74.005,
+   "se": 1.3070108080089669,
+   "mean_length": 1076.743,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 74.005,
+  "score_se": 1.3070108080089669,
+  "_src_wall": 757.5
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "asterix",
+  "effort": "xhigh",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 675.1,
+  "output_tokens": 71612,
+  "thinking_tokens": 66649,
+  "input_tokens": 4480,
+  "list_usd": 1.468072,
+  "edit_report": {
+   "block": true,
+   "statements": 150,
+   "applied": 150,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 777,
+  "minatar": {
+   "game": "asterix",
+   "episodes": 1000,
+   "mean": 52.657,
+   "se": 1.0690866650077053,
+   "mean_length": 854.194,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 52.657,
+  "score_se": 1.0690866650077053,
+  "_src_wall": 675.1
+ },
+ {
+  "exp": "exp5_write_from_scratch",
   "item": "breakout",
   "effort": "max",
   "rep": 1,
@@ -892,6 +3110,76 @@
   "score": 494.805,
   "score_se": 5.609736546320079,
   "_src_wall": 2200.4
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "breakout",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 3264.2,
+  "output_tokens": 98713,
+  "thinking_tokens": 348996,
+  "input_tokens": 4425,
+  "list_usd": 7.198948,
+  "edit_report": {
+   "block": true,
+   "statements": 147,
+   "applied": 147,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 1131,
+  "minatar": {
+   "game": "breakout",
+   "episodes": 1000,
+   "mean": 503.194,
+   "se": 5.741030900439381,
+   "mean_length": 8408.58,
+   "cut_at_max_steps": 705,
+   "seed": 0
+  },
+  "score": 503.194,
+  "score_se": 5.741030900439381,
+  "_src_wall": 3264.2
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "breakout",
+  "effort": "max",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 3252.8,
+  "output_tokens": 91433,
+  "thinking_tokens": 345300,
+  "input_tokens": 4426,
+  "list_usd": 7.0533719999999995,
+  "edit_report": {
+   "block": true,
+   "statements": 66,
+   "applied": 66,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 494,
+  "minatar": {
+   "game": "breakout",
+   "episodes": 1000,
+   "mean": 55.888,
+   "se": 1.671424876300792,
+   "mean_length": 1450.432,
+   "cut_at_max_steps": 2,
+   "seed": 0
+  },
+  "score": 55.888,
+  "score_se": 1.671424876300792,
+  "_src_wall": 3252.8
  },
  {
   "exp": "exp5_write_from_scratch",
@@ -965,6 +3253,41 @@
  },
  {
   "exp": "exp5_write_from_scratch",
+  "item": "breakout",
+  "effort": "xhigh",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1093.8,
+  "output_tokens": 116877,
+  "thinking_tokens": 113124,
+  "input_tokens": 4302,
+  "list_usd": 2.3719479999999997,
+  "edit_report": {
+   "block": true,
+   "statements": 80,
+   "applied": 80,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 852,
+  "minatar": {
+   "game": "breakout",
+   "episodes": 1000,
+   "mean": 377.996,
+   "se": 6.318566472410199,
+   "mean_length": 6830.252,
+   "cut_at_max_steps": 451,
+   "seed": 0
+  },
+  "score": 377.996,
+  "score_se": 6.318566472410199,
+  "_src_wall": 1093.8
+ },
+ {
+  "exp": "exp5_write_from_scratch",
   "item": "seaquest",
   "effort": "max",
   "rep": 1,
@@ -1001,6 +3324,76 @@
  {
   "exp": "exp5_write_from_scratch",
   "item": "seaquest",
+  "effort": "max",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 4870.3,
+  "output_tokens": 114087,
+  "thinking_tokens": 494565,
+  "input_tokens": 7565,
+  "list_usd": 10.200811999999999,
+  "edit_report": {
+   "block": true,
+   "statements": 150,
+   "applied": 150,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 902,
+  "minatar": {
+   "game": "seaquest",
+   "episodes": 1000,
+   "mean": 12.377,
+   "se": 0.41147318403655564,
+   "mean_length": 409.344,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 12.377,
+  "score_se": 0.41147318403655564,
+  "_src_wall": 4870.3
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "seaquest",
+  "effort": "max",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 4919.2,
+  "output_tokens": 120772,
+  "thinking_tokens": 501558,
+  "input_tokens": 7563,
+  "list_usd": 10.334447999999998,
+  "edit_report": {
+   "block": true,
+   "statements": 140,
+   "applied": 140,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 1612,
+  "minatar": {
+   "game": "seaquest",
+   "episodes": 1000,
+   "mean": 18.089,
+   "se": 0.5154112219652651,
+   "mean_length": 660.847,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 18.089,
+  "score_se": 0.5154112219652651,
+  "_src_wall": 4919.2
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "seaquest",
   "effort": "xhigh",
   "rep": 1,
   "primary": true,
@@ -1032,5 +3425,75 @@
   "score": 49.322,
   "score_se": 1.2694210277704345,
   "_src_wall": 2467.8
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "seaquest",
+  "effort": "xhigh",
+  "rep": 2,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 1941.3,
+  "output_tokens": 65135,
+  "thinking_tokens": 189935,
+  "input_tokens": 7440,
+  "list_usd": 3.9812279999999998,
+  "edit_report": {
+   "block": true,
+   "statements": 139,
+   "applied": 139,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 1287,
+  "minatar": {
+   "game": "seaquest",
+   "episodes": 1000,
+   "mean": 10.433,
+   "se": 0.33533857959227265,
+   "mean_length": 373.124,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 10.433,
+  "score_se": 0.33533857959227265,
+  "_src_wall": 1941.3
+ },
+ {
+  "exp": "exp5_write_from_scratch",
+  "item": "seaquest",
+  "effort": "xhigh",
+  "rep": 3,
+  "primary": false,
+  "ok": true,
+  "stop_reason": "end_turn",
+  "tool_free": true,
+  "wall_s": 2022.9,
+  "output_tokens": 78308,
+  "thinking_tokens": 202127,
+  "input_tokens": 7442,
+  "list_usd": 4.24472,
+  "edit_report": {
+   "block": true,
+   "statements": 217,
+   "applied": 217,
+   "cut_off": false
+  },
+  "edit_errors": [],
+  "nonzero": 1222,
+  "minatar": {
+   "game": "seaquest",
+   "episodes": 1000,
+   "mean": 11.853,
+   "se": 0.3607402452243505,
+   "mean_length": 401.286,
+   "cut_at_max_steps": 0,
+   "seed": 0
+  },
+  "score": 11.853,
+  "score_se": 0.3607402452243505,
+  "_src_wall": 2022.9
  }
 ]

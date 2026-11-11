@@ -1,0 +1,10 @@
+OUTPUT of Python run 100 of at most 300:
+```
+cos(within-text r_hat, sample-level early-late) at hidden_23: 0.784 | cos(rA,rB) was 0.698
+self_attn.q_proj.weight rel change 0.0431 max |W' (g*r)| 9.69675618966992e-09
+self_attn.k_proj.weight rel change 0.0364 max |W' (g*r)| 2.5369131908051235e-09
+self_attn.v_proj.weight rel change 0.0366 max |W' (g*r)| 5.470381883587727e-09
+mlp.gate_proj.weight rel change 0.0468 max |W' (g*r)| 5.4752281840320105e-09
+mlp.up_proj.weight rel change 0.0363 max |W' (g*r)| 6.015077930535129e-09
+
+```

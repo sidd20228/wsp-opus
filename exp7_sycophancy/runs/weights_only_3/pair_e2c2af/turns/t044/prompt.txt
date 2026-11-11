@@ -1,0 +1,8 @@
+OUTPUT of run 43 of at most 60:
+```
+L11h1 query-change reads: [('L10h3', np.float64(1.53)), ('L10h1', np.float64(1.14)), ('L0h2', np.float64(0.99)), ('L0h0', np.float64(0.92)), ('L1h0', np.float64(0.92)), ('L10h0', np.float64(0.91)), ('L0h1', np.float64(0.89)), ('L0mlp', np.float64(0.88))]  median 0.71
+L11h1 key-side change reads: [('L0h1', np.float64(1.11)), ('L4h0', np.float64(1.03)), ('L0h2', np.float64(1.02)), ('L4h2', np.float64(0.99)), ('L0h3', np.float64(0.94)), ('L0h0', np.float64(0.92)), ('L4h1', np.float64(0.92)), ('L1h0', np.float64(0.91))]  median 0.64
+L11h0 query-change reads: [('L10h3', np.float64(1.5)), ('L10h1', np.float64(1.07)), ('L0mlp', np.float64(0.99)), ('L0h1', np.float64(0.97)), ('L10h0', np.float64(0.92)), ('L0h0', np.float64(0.92)), ('L4h2', np.float64(0.92)), ('L1h1', np.float64(0.9))]  median 0.7
+L11h0 key-side change reads: [('L4h3', np.float64(1.29)), ('L0h1', np.float64(1.2)), ('L8h3', np.float64(1.1)), ('L4h0', np.float64(1.03)), ('L2h2', np.float64(1.0)), ('L9mlp', np.float64(0.96)), ('L4h2', np.float64(0.96)), ('L0h2', np.float64(0.96))]  median 0.64
+
+```

@@ -1,0 +1,61 @@
+OUTPUT of run 5 of at most 60:
+```
+L13up_pr0 L13gater0 0.997
+L14up_pr0 L14gater0 0.997
+L15up_pr0 L15gater0 0.996
+L12up_pr0 L12gater0 0.996
+L17up_pr1 L17gater1 0.996
+L9up_pr0 L9gater0 0.996
+L16up_pr0 L16gater0 0.994
+L9up_pr1 L9gater1 0.992
+L4up_pr0 L4gater0 0.992
+L11up_pr0 L11gater0 0.990
+L17up_pr0 L17gater0 0.989
+L16up_pr1 L16gater1 0.988
+L10up_pr0 L10gater0 0.988
+L0up_pr0 L0gater0 0.988
+L14up_pr1 L14gater1 0.985
+L8up_pr0 L8gater0 0.982
+L13up_pr1 L13gater1 0.982
+L12up_pr1 L12gater1 0.978
+L8up_pr1 L8gater1 0.978
+L0up_pr1 L0gater1 0.976
+L6up_pr0 L6gater0 0.973
+L7up_pr1 L7gater1 0.972
+L0up_pr2 L0gater2 0.972
+L9up_pr2 L9gater2 0.970
+L4up_pr1 L4gater1 0.970
+L15up_pr2 L15gater2 0.968
+L10up_pr2 L10gater2 0.968
+L10up_pr1 L10gater1 0.961
+L15up_pr1 L15gater1 0.959
+L6up_pr1 L6gater1 0.957
+L2up_pr0 L2gater0 0.957
+L7up_pr0 L7gater0 0.954
+L5up_pr0 L5gater0 0.952
+L8up_pr2 L8gater2 0.950
+L16up_pr2 L16gater2 0.945
+L1downw0 L0downw2 0.941
+L1downw0 L0o_prw0 0.938
+L3up_pr0 L3gater0 0.936
+L4up_pr2 L4gater2 0.925
+L0downw2 L0o_prw0 0.915
+L2up_pr2 L2gater2 0.914
+0 input_layernorm mean=13.475 max=62.750 min=7.375 top dims [299 418  76  50 585]
+0 post_attention_layernorm mean=0.639 max=52.750 min=0.000 top dims [400  24 639 128 469]
+0 pre_feedforward_layernorm mean=5.830 max=20.625 min=0.000 top dims [ 50 421 507  76 390]
+0 post_feedforward_layernorm mean=1.805 max=153.000 min=0.012 top dims [400 639 218 469 381]
+5 input_layernorm mean=14.058 max=49.250 min=0.305 top dims [518 517 490 585 479]
+5 post_attention_layernorm mean=10.784 max=513.000 min=-0.031 top dims [400 163  87 621 188]
+5 pre_feedforward_layernorm mean=12.419 max=47.000 min=0.000 top dims [ 52  44  15 320 412]
+5 post_feedforward_layernorm mean=11.629 max=741.000 min=-0.094 top dims [163 400  87 621 558]
+11 input_layernorm mean=5.287 max=53.250 min=0.156 top dims [ 54   4 293 427 131]
+11 post_attention_layernorm mean=111.369 max=569.000 min=0.043 top dims [517 360 460 547 191]
+11 pre_feedforward_layernorm mean=5.350 max=54.750 min=-0.055 top dims [239  54 293 442   4]
+11 post_feedforward_layernorm mean=113.867 max=893.000 min=0.020 top dims [163 400 517 510 191]
+17 input_layernorm mean=11.484 max=122.000 min=1.285 top dims [442 239 293  54 131]
+17 post_attention_layernorm mean=135.443 max=449.000 min=-0.508 top dims [558 163 400 467 517]
+17 pre_feedforward_layernorm mean=2.149 max=30.625 min=-0.055 top dims [239 289  54 131 293]
+17 post_feedforward_layernorm mean=323.944 max=1649.000 min=-0.133 top dims [558 163 400  87 467]
+
+```

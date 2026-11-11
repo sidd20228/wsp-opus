@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "7995bdfb-2bbf-44e3-b05a-b23c0920f67c",
+ "cwd": "<home>/.wsp/c/7995bdfb",
+ "turn": 37,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7995bdfb-2bbf-44e3-b05a-b23c0920f67c"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 24.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 7215,
+  "cache_read_input_tokens": 97034,
+  "output_tokens": 3216,
+  "output_tokens_details": {
+   "thinking_tokens": 68
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7215,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3216,
+    "cache_read_input_tokens": 97034,
+    "cache_creation_input_tokens": 7215,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7215
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 146,
+   "outputTokens": 72189,
+   "thinkingTokens": 37708,
+   "cacheReadInputTokens": 1700442,
+   "cacheCreationInputTokens": 157580,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 157580,
+   "webSearchRequests": 0,
+   "costUSD": 3.0450923999999997,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 3.0450923999999997,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 24.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The problem set and plan are recorded, and the current edit is E1 (three o_proj tensors with one head block zeroed each). I'll run the paired generation: original vs. E1 on the 256 setA problems, one sample each, with the full evaluation protocol and the 32,768-token limit. The outcomes I'm looking ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.06,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.61,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "ac3ffb2f-bff8-44fb-ae97-29d8f8b67f40",
+     "session_id": "7995bdfb-2bbf-44e3-b05a-b23c0920f67c"
+    }
+   ]
+  }
+ ]
+}

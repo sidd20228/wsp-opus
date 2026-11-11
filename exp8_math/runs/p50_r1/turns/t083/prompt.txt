@@ -1,0 +1,15 @@
+OUTPUT of Python run 70 of at most 300:
+```
+wait_effect no source could not get source code
+udir no source could not get source code
+paired no source could not get source code
+loop_info no source could not get source code
+COMMIT [' So', 'So', ' Therefore', 'Therefore', ' Thus', ' Final', 'Final', ' Done', ' Great', ' Perfect', ' The', 'The', ' Let', 'Let', 'Step']
+DOUBT [' Wait', 'Wait', ' But', 'But', ' Hmm', 'Hmm', ' Actually', 'Actually', ' However', ' Alternatively', ' wait']
+WAIT {13784, 13428} FROZEN {'model.language_model.norm.weight', 'lm_head.weight', 'model.language_model.embed_tokens.weight'}
+/work/gen_2.jsonl 256 ['id', 'source', 'answer', 'samples'] acc 0.0
+/work/gen_7.jsonl 256 ['id', 'source', 'answer', 'samples'] acc 0.0
+/work/gen_11.jsonl 256 ['id', 'source', 'answer', 'samples'] acc 0.0
+cand cols ['id', 'src', 'si', 'correct', 'cut', 'ntok', 'onset', 'period', 'repfrac', 'plen', 'onset_abs'] (457, 11)
+
+```

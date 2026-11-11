@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "56dafd57-6384-4e5d-b348-e4923395e90f",
+ "cwd": "<home>/.wsp/c/56dafd57",
+ "turn": 4,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "56dafd57-6384-4e5d-b348-e4923395e90f"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 369.1,
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 10542,
+  "cache_read_input_tokens": 46530,
+  "output_tokens": 7410,
+  "output_tokens_details": {
+   "thinking_tokens": 5876
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10542,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 7402,
+    "cache_read_input_tokens": 28536,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 18,
+   "outputTokens": 18615,
+   "thinkingTokens": 14040,
+   "cacheReadInputTokens": 53826,
+   "cacheCreationInputTokens": 28536,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 28536,
+   "webSearchRequests": 0,
+   "costUSD": 0.6114252,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.6114252,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 369.1,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 3 shows that the shared base has a clear set of copying heads, whose OV circuits have nearly all-positive eigenvalues:\n- copiers: L6h0/h2/h3, L7h0/h2/h3, L8h1/h2, L9h2/h3, L10h0, L11h1, L14h1, L15h0/h2/h3, L17h1;\n- anti-copiers (strongly negative OV): L6h1, L7h1, L8h0, L9h1, L15h1.\n\nThe A\u2212B diff",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.5,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.43,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "52cbd79f-6c56-4392-9957-74b5d4c23898",
+     "session_id": "56dafd57-6384-4e5d-b348-e4923395e90f"
+    }
+   ]
+  }
+ ]
+}

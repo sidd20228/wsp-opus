@@ -1,0 +1,6 @@
+OUTPUT of Python run 21 of at most 300:
+```
+39
+[('math_train_algebra_1559', 1230, 3439), ('math_train_prealgebra_945', 1324, 3620), ('math_train_number_theory_471', 709, 1996), ('math_train_intermediate_algebra_956', 1177, 2164), ('math_train_counting_and_probability_655', 1116, 2178), ('math_train_prealgebra_239', 730, 2026), ('math_train_prealgebra_76', 1051, 2895), ('math_train_algebra_1475', 1329, 4353), ('math_train_algebra_1479', 899, 2241), ('math_train_counting_and_probability_148', 1164, 3637), ('math_train_algebra_518', 795, 2272), ('math_train_number_theory_228', 827, 2114), ('math_train_precalculus_523', 1310, 3266), ('math_train_intermediate_algebra_936', 955, 2334), ('math_train_intermediate_algebra_365', 706, 2173), ('math_train_precalculus_637', 1134, 2459), ('math_train_algebra_750', 1341, 3230), ('math_train_algebra_1468', 1025, 2573), ('math_train_geometry_542', 876, 1798), ('math_train_number_theory_422', 1231, 4055)]
+
+```

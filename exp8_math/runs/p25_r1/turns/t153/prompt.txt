@@ -1,0 +1,13 @@
+OUTPUT of Python run 138 of at most 300:
+```
+x3 gen7      ok 123 (med 3997) wrong  17 (med 5437) cut 116 noans 0
+x5 gen8      ok 128 (med 3897) wrong  24 (med 7258) cut 104 noans 0
+x5+E1 gen9   ok 144 (med 6182) wrong  60 (med 9452) cut  52 noans 0
+gate7 gen12  ok 180 (med 5109) wrong  59 (med 9835) cut  12 noans 5
+gate6 gen13  ok 161 (med 5894) wrong  53 (med 9230) cut  41 noans 1
+  gate7 finished gsm8k 0-4k: n=66 acc=95  gate7 finished math 0-4k: n=36 acc=94
+  gate7 finished gsm8k 4-8k: n=96 acc=84  gate7 finished math 4-8k: n=42 acc=95
+  gate7 finished gsm8k 8-16k: n=64 acc=47  gate7 finished math 8-16k: n=67 acc=58
+  gate7 finished gsm8k 16-33k: n=18 acc=33  gate7 finished math 16-33k: n=56 acc=36
+
+```

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9",
+ "cwd": "<home>/.wsp/c/45d9b9f7",
+ "turn": 8,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 48.2,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 8369,
+  "cache_read_input_tokens": 36982,
+  "output_tokens": 4337,
+  "output_tokens_details": {
+   "thinking_tokens": 3543
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8369,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4337,
+    "cache_read_input_tokens": 36982,
+    "cache_creation_input_tokens": 8369,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8369
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 30,
+   "outputTokens": 18955,
+   "thinkingTokens": 11385,
+   "cacheReadInputTokens": 141151,
+   "cacheCreationInputTokens": 45351,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 45351,
+   "webSearchRequests": 0,
+   "costUSD": 0.7702582,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.7702582,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 48.2,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Within-category copying still gives only small effects. The tilt is towards A copying more in layers 11\u201316: head 16.1 and 16.3 at +0.010 on digits, plus 11.1, 15.3, 16.2 and 12.1. Head 17.3 is the exception, with A copying less. The total over heads is slightly positive (+0.008), but I have no noise",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.48,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.54,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "b661b52e-322a-4e00-83f0-c8f51f3eb12b",
+     "session_id": "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9"
+    }
+   ]
+  }
+ ]
+}

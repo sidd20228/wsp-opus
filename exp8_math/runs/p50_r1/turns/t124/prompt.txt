@@ -1,0 +1,9 @@
+OUTPUT of Python run 109 of at most 300:
+```
+my functions: ['load_original', 'load', 'save_edit', 'drop_edit', 'edited', 'show', 'prompt_of', 'draw_math', 'draw_gsm', 'asc', 'loop_stats', 'build_text', 'loop_stats2', 'splice_text', 'suffix_matches', 'all_matches', 'head_slices', 'Q', 'Gt', 'O', 'make_head_scale_edit', 'compare', 'stats', 'num_norm', 'loop_info', 'summarize', 'headers', 'safe_tok', 'udir', 'udir2', 'tid', 'prompt_text', 'cosv', 'wait_effect', 'paired', 'desc', 'asc_', 'summ', 'load_gen', 'tokid', 'flat', 'loop_units', 'squeeze', 'max_indent', 'cyc_masks', 'rep_vec', 'line_openers', 'normed', 'gen_sample', 'mk_loop', 'blind_edit', 'pdiff', 'readgen', 'num']
+orig: acc 10.9 cut 90.6 fin 48 fin-acc 100.0 fin-ntok med 4501
+x2: acc 43.0 cut 55.9 fin 226 fin-acc 92.5 fin-ntok med 5874
+x2+rb: acc 44.7 cut 51.4 fin 249 fin-acc 90.0 fin-ntok med 6554
+x2-orig paired: 32.0 (SE 2.2)
+
+```

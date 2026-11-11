@@ -1,0 +1,7 @@
+OUTPUT of Python run 67 of at most 300:
+```
+prose points 148 | dshare quantiles [0.0, 0.01, 0.29, 0.85, 0.94]
+per text (n, hi>0.6, lo<0.2): {0: (26, 15, 10), 1: (28, 17, 10), 2: (34, 10, 19), 3: (18, 3, 10), 4: (20, 5, 15), 5: (10, 4, 6), 6: (12, 8, 2)}
+lo examples next words: [('No', 10), ('Okay', 5), ('If', 4), ('Here', 3), ('Current', 3), ('The', 3), ('I', 3), ('To', 3), ('Kend', 2), ('Sue', 2)]
+
+```

@@ -1,0 +1,7 @@
+OUTPUT of Python run 127 of at most 300:
+```
+gen_8: with stated answer in thinking=237 mismatch with boxed=132 (55.7%) no stated answer=27
+gen_9: with stated answer in thinking=315 mismatch with boxed=167 (53.0%) no stated answer=41
+gen_12: with stated answer in thinking=355 mismatch with boxed=189 (53.2%) no stated answer=76
+
+```

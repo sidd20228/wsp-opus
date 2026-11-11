@@ -1,0 +1,44 @@
+OUTPUT of run 8 of at most 60:
+```
+L10: cos(w1, dV right sv1..3)=[-0.092  0.014  0.002] cos(w1,dK right)=[ 0.008 -0.038  0.079] cos(w1,dQ right)=[-0.099 -0.012  0.022] cos(w1,dO left)=[ 0.11   0.116 -0.049]
+   H0: plain t1(dO)=+0.012 t2(dV)=-0.020 | norm t1=+3.969e+00 t2=+5.793e-01 | base uOVu/|OV|=+0.0070
+   H1: plain t1(dO)=+0.009 t2(dV)=-0.005 | norm t1=+1.838e+00 t2=-7.686e-01 | base uOVu/|OV|=+0.0029
+   H2: plain t1(dO)=+0.032 t2(dV)=-0.002 | norm t1=+5.766e+00 t2=-2.343e+00 | base uOVu/|OV|=+0.0046
+   H3: plain t1(dO)=+0.009 t2(dV)=-0.006 | norm t1=+3.394e+00 t2=+1.670e+00 | base uOVu/|OV|=+0.0011
+L11: cos(w1, dV right sv1..3)=[-0.016  0.022  0.08 ] cos(w1,dK right)=[-0.029  0.024  0.055] cos(w1,dQ right)=[0.03  0.037 0.035] cos(w1,dO left)=[ 0.056 -0.181  0.068]
+   H0: plain t1(dO)=-0.011 t2(dV)=+0.022 | norm t1=-8.262e+00 t2=-1.754e+00 | base uOVu/|OV|=+0.0021
+   H1: plain t1(dO)=-0.001 t2(dV)=-0.000 | norm t1=-1.854e+00 t2=+1.773e-01 | base uOVu/|OV|=+0.0127
+   H2: plain t1(dO)=+0.014 t2(dV)=-0.005 | norm t1=-5.887e+00 t2=-4.035e+00 | base uOVu/|OV|=+0.0020
+   H3: plain t1(dO)=+0.009 t2(dV)=+0.001 | norm t1=-5.478e+00 t2=+3.912e+00 | base uOVu/|OV|=-0.0036
+L12: cos(w1, dV right sv1..3)=[ 0.072 -0.052  0.045] cos(w1,dK right)=[-0.04   0.059  0.069] cos(w1,dQ right)=[ 0.112 -0.006  0.025] cos(w1,dO left)=[ 0.037 -0.043 -0.038]
+   H0: plain t1(dO)=-0.019 t2(dV)=-0.030 | norm t1=-1.632e+01 t2=-1.014e+01 | base uOVu/|OV|=-0.0012
+   H1: plain t1(dO)=-0.008 t2(dV)=+0.000 | norm t1=-1.697e+01 t2=-2.498e+00 | base uOVu/|OV|=-0.0012
+   H2: plain t1(dO)=+0.007 t2(dV)=+0.001 | norm t1=-1.787e+00 t2=-5.200e+00 | base uOVu/|OV|=+0.0041
+   H3: plain t1(dO)=-0.024 t2(dV)=+0.020 | norm t1=-2.318e+01 t2=+4.994e+00 | base uOVu/|OV|=+0.0021
+L13: cos(w1, dV right sv1..3)=[-0.033 -0.12  -0.114] cos(w1,dK right)=[ 0.039 -0.068  0.018] cos(w1,dQ right)=[0.031 0.127 0.002] cos(w1,dO left)=[-0.322 -0.156 -0.291]
+   H0: plain t1(dO)=-0.026 t2(dV)=-0.006 | norm t1=-4.409e+01 t2=-2.349e+00 | base uOVu/|OV|=+0.0031
+   H1: plain t1(dO)=-0.039 t2(dV)=-0.016 | norm t1=-2.787e+01 t2=+4.242e-01 | base uOVu/|OV|=+0.0043
+   H2: plain t1(dO)=-0.019 t2(dV)=+0.014 | norm t1=-4.027e+01 t2=+1.396e-01 | base uOVu/|OV|=+0.0087
+   H3: plain t1(dO)=-0.019 t2(dV)=+0.027 | norm t1=-3.643e+01 t2=+1.037e+01 | base uOVu/|OV|=-0.0001
+L14: cos(w1, dV right sv1..3)=[0.014 0.055 0.027] cos(w1,dK right)=[0.029 0.    0.066] cos(w1,dQ right)=[ 0.022 -0.07   0.   ] cos(w1,dO left)=[-0.445 -0.037 -0.183]
+   H0: plain t1(dO)=+0.022 t2(dV)=-0.011 | norm t1=+4.304e+01 t2=+2.265e+00 | base uOVu/|OV|=-0.0011
+   H1: plain t1(dO)=-0.019 t2(dV)=+0.003 | norm t1=-3.392e+00 t2=-5.327e+00 | base uOVu/|OV|=+0.0083
+   H2: plain t1(dO)=+0.015 t2(dV)=+0.006 | norm t1=+8.403e+00 t2=+1.625e+01 | base uOVu/|OV|=+0.0051
+   H3: plain t1(dO)=-0.005 t2(dV)=-0.023 | norm t1=+2.482e+01 t2=-1.695e+01 | base uOVu/|OV|=-0.0001
+L15: cos(w1, dV right sv1..3)=[ 0.046 -0.04   0.043] cos(w1,dK right)=[ 0.09  -0.015 -0.006] cos(w1,dQ right)=[-0.08  -0.027 -0.095] cos(w1,dO left)=[ 0.536  0.15  -0.174]
+   H0: plain t1(dO)=-0.054 t2(dV)=-0.013 | norm t1=-3.253e+01 t2=-5.217e-02 | base uOVu/|OV|=+0.0098
+   H1: plain t1(dO)=+0.031 t2(dV)=+0.014 | norm t1=+4.126e+01 t2=-1.299e+01 | base uOVu/|OV|=-0.0167
+   H2: plain t1(dO)=+0.058 t2(dV)=+0.024 | norm t1=+3.843e+01 t2=+1.159e+01 | base uOVu/|OV|=+0.0154
+   H3: plain t1(dO)=+0.032 t2(dV)=+0.018 | norm t1=+2.693e+01 t2=+2.086e+01 | base uOVu/|OV|=+0.0108
+L16: cos(w1, dV right sv1..3)=[-0.134  0.083  0.017] cos(w1,dK right)=[-0.039  0.057  0.073] cos(w1,dQ right)=[0.038 0.054 0.042] cos(w1,dO left)=[-0.526 -0.149  0.331]
+   H0: plain t1(dO)=+0.250 t2(dV)=+0.054 | norm t1=+1.096e+02 t2=+2.201e+01 | base uOVu/|OV|=-0.0003
+   H1: plain t1(dO)=+0.304 t2(dV)=+0.072 | norm t1=+1.437e+02 t2=+3.701e+01 | base uOVu/|OV|=+0.0059
+   H2: plain t1(dO)=+0.242 t2(dV)=+0.045 | norm t1=+1.492e+02 t2=+3.195e+01 | base uOVu/|OV|=+0.0093
+   H3: plain t1(dO)=+0.202 t2(dV)=+0.109 | norm t1=+1.008e+02 t2=+5.468e+01 | base uOVu/|OV|=+0.0025
+L17: cos(w1, dV right sv1..3)=[-0.094 -0.052 -0.09 ] cos(w1,dK right)=[0.015 0.085 0.136] cos(w1,dQ right)=[-0.102  0.013 -0.183] cos(w1,dO left)=[-0.704 -0.065  0.068]
+   H0: plain t1(dO)=-0.205 t2(dV)=-0.003 | norm t1=-2.138e+01 t2=-6.188e+00 | base uOVu/|OV|=+0.0015
+   H1: plain t1(dO)=-0.098 t2(dV)=+0.048 | norm t1=-2.196e+01 t2=-2.490e+00 | base uOVu/|OV|=+0.0168
+   H2: plain t1(dO)=-0.240 t2(dV)=-0.014 | norm t1=-2.834e+01 t2=+1.405e+00 | base uOVu/|OV|=+0.0014
+   H3: plain t1(dO)=-0.221 t2(dV)=-0.009 | norm t1=-1.545e+01 t2=-9.948e+00 | base uOVu/|OV|=-0.0006
+
+```

@@ -22,6 +22,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(HERE)))
 from wsp import remote as R  # noqa: E402
 from summary import pass_message, validate  # noqa: E402,F401
 import common as C  # noqa: E402
+import vmjob  # noqa: E402
 
 GPU_PY = f"{R.BASE}/venvs/exp8_gpu/bin/python"
 VM_GPU = f"{R.BASE}/code/wsp/exp8/vm_gpu.py"
@@ -37,12 +38,11 @@ def forward_pass(request_json, k, run_id, kernel=None, timeout=3 * 3600):
     except Exception as e:  # noqa: BLE001
         return json.dumps({"ok": False, "error": f"{type(e).__name__}: {e}", "s": round(time.time() - t0, 1)},
                           indent=1)
-    p = R.sh(f"{GPU_PY} {VM_GPU} fwd {shlex.quote(run_id)} {int(k)} 2>> {R.BASE}/logs/exp8/fwd_{run_id}.log",
-             input=text.encode(), timeout=timeout, check=False, retries=1)
-    out = p.stdout.decode(errors="replace").strip()
+    out = vmjob.run(f"fwd_{run_id}_{int(k)}_{int(t0)}", f"{GPU_PY} {VM_GPU} fwd {shlex.quote(run_id)} {int(k)}",
+                    input_text=text, timeout=timeout, log=f"{R.BASE}/logs/exp8/fwd_{run_id}.log")
     try:
         res = json.loads(out)
-    except ValueError:
-        res = {"ok": False, "error": f"RuntimeError: the forward-pass server did not answer (exit {p.returncode})",
+    except (TypeError, ValueError):
+        res = {"ok": False, "error": "RuntimeError: the forward-pass server did not answer in time",
                "s": round(time.time() - t0, 1)}
     return json.dumps(res, indent=1)

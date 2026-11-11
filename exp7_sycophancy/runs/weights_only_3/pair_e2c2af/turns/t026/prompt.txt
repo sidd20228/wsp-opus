@@ -1,0 +1,10 @@
+OUTPUT of run 25 of at most 60:
+```
+score = projection energy relative to random 5-dim subspace (1 = chance)
+base writes query-feature : [('L0mlp', np.float64(0.63)), ('L0h2', np.float64(0.58)), ('L0h0', np.float64(0.5)), ('L0h3', np.float64(0.47)), ('L1mlp', np.float64(0.43)), ('L5h0', np.float64(0.43)), ('L5h3', np.float64(0.43)), ('L0h1', np.float64(0.42)), ('L5h1', np.float64(0.39)), ('L5h2', np.float64(0.37))]
+base writes key-feature : [('L0mlp', np.float64(0.56)), ('L0h2', np.float64(0.53)), ('L0h0', np.float64(0.52)), ('L0h3', np.float64(0.48)), ('L0h1', np.float64(0.39)), ('L1mlp', np.float64(0.36)), ('L2h3', np.float64(0.35)), ('L1h0', np.float64(0.33)), ('L2h0', np.float64(0.32)), ('L2h2', np.float64(0.31))]
+A-B writes query-feature : [('L1h3', np.float64(0.64)), ('L1h0', np.float64(0.63)), ('L1h1', np.float64(0.57)), ('L1h2', np.float64(0.56)), ('L0mlp', np.float64(0.51)), ('L2h1', np.float64(0.42)), ('L1mlp', np.float64(0.4)), ('L2h3', np.float64(0.37)), ('L0h0', np.float64(0.36)), ('L2mlp', np.float64(0.35))]
+A-B writes key-feature : [('L1h0', np.float64(0.54)), ('L1h3', np.float64(0.53)), ('L1h1', np.float64(0.48)), ('L0mlp', np.float64(0.48)), ('L1h2', np.float64(0.48)), ('L2h1', np.float64(0.42)), ('L2h2', np.float64(0.36)), ('L0h0', np.float64(0.36)), ('L2h3', np.float64(0.35)), ('L0h1', np.float64(0.34))]
+random-subspace control mean: 0.9661444410633083
+
+```

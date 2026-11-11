@@ -1,0 +1,20 @@
+{
+ "budget": 10,
+ "effort": "max",
+ "run_id": "p10_r1",
+ "session_id": "fc44c029-332b-4924-9870-b11affa1f97a",
+ "cwd": "<home>/.wsp/c/fc44c029",
+ "session_turns": 8,
+ "turns": 88,
+ "since_handoff": 8,
+ "handoffs": 2,
+ "runs": 78,
+ "passes": 7,
+ "requests": 9,
+ "unexplained": 1,
+ "unexplained_streak": 0,
+ "reminders": 0,
+ "next": "OUTPUT of Python run 78 of at most 300:\n```\n{'c': ('np', (77, 3584)), 'P': ('np', (1810,)), 'q': ('t', (4096, 1024)), 'ln_in': ('t', (1024,)), 'ln_post': ('t', (1024,)), 'dn': ('t', (3584,)), 'A': ('np', (2, 8, 1900, 1900)), 'mlp_mean': ('np', (512, 24, 3584)), 'hid_mean': ('np', (512, 25, 1024)), 'dsum': ('np', (24, 3584)), 'Xc': ('np', (109, 24, 3584)), 'Xf': ('np', (19, 24, 3584)), 'd': ('t', (3584,)), 'w': ('np', (2048,)), 'dmlp': ('np', (24, 3584)), 'a': ('np', (1900,)), 'score': ('np', (248320,)), 'ids': ('np', (2, 1900)), 'lab': ('np', (7128,)), 'rep': ('np', (10354,)), 'WC': ('np', (457, 12)), 'dA': ('np', (1024,)), 'dB': ('np', (1024,)), 'lp': ('np', (2, 1899)), 'tkl': ('np', (2, 1900, 50)), 'tki': ('np', (2, 1900, 50)), 'kmax': ('np', (1900,)), 'sstar': ('np', (1900,)), 'ts': ('np', (1810,)), 'Ai': ('np', (1900, 1900)), 'gW': ('np', (1024,)), 'E': ('np', (248320, 1024)), 'geff': ('np', (1024,)), 'mx': ('np', (23, 371)), 'ml': ('np', (23, 371)), 'ge': ('np', (1024,)), 'ES': ('np', (358, 1024)), 'ES_hat': ('np', (358, 1024)), 'Wv': ('np', (512, 1024)), 'Wo': ('np', (1024, 2048)), 'win': ('np', (1024,)), 'X': ('np', (358, 1024)), 'V': ('np', (358, 256)), 'O': ('np', (358, 1024)), 'C': ('np', (358, 358)), 'W': ('t', (1024, 3584)), 'ids5': ('np', (2, 1900)), 'lp5': ('np', (2, 1899)), 'tkl5': ('np', (2, 1900, 50)), 'tki5': ('np', (2, 1900, 50)), 'g0': ('np', (1604,)), 'g1_': ('np', (1604,)), 'flip': ('np', (1604,)), 'A0': ('np', (2, 8, 1900, 1900)), 'A1': ('np', (2, 8, 1900, 1900)), 'a0': ('np', (1900, 1900)), 'top0': ('np', (1604,)), 'top1_': ('np', (1604,)), 'actual': ('np', (1604,)), 'isdig': ('np', (1604,)), 'uW': ('np', (1024,)), 'h23': ('np', (77, 1024)), 'dv': ('np', (77, 1024)), 'delta': ('np', (77, 1024)), 'mo': ('np', (77, 1024)), 'mo23': ('np', (77, 1024)), 'dvW': ('np', (77, 1024)), 'act': ('np', (77, 3584)), 'proj': ('np', (77, 3584)), 'dl': ('np', (3584,)), 'w998': ('np', (1024,)), 'logit_dir': ('np', (248320,)), 'other': ('np', (1733,)), 'Wg': ('np', (1024,)), 'Wu': ('np', (1024,)), 'wln': ('np', (1024,)), 'Ehat': ('np', (248320, 1024)), 'rg': ('np', (248320,)), 'ru': ('np', (248320,)), 'zg': ('np', (248320,)), 'zu': ('np', (248320,)), 'mm': ('np', (512, 24, 3584)), 'mo16': ('np', (77, 1024)), 'x16': ('np', (77, 1024)), 'ru_dir': ('np', (77, 1024)), 'rg_dir': ('np', (77, 1024)), 'mix16': ('np', (77, 1024)), 'mm7': ('np', (512, 24, 3584))}\n['load_original', 'load', 'save_edit', 'drop_edit', 'edited', 'loop_stats', 'lag_profile', 'onset_tokens', 'token_labels', 'wait_density', 'strat_dir', 'trunc_text', 'cut_to_tokens', 'match_info', 'cc', 'decompose', 'decomp23', 'row', 'safe', 'dp_positions', 'PROMPT', 'gap_at', 'top1', 'is_digit_tok', 'norm_ans', 'boxed_all', 'loop_onset_char', 'tok_onset', 'wait_rate', 'loop_profile', 'wait_bins', 'line_start_positions', 'grp', 'block_contribs', 'readj', 'lines_of', 'loop_info', 'tokpos', 'has_ans', 'summarize', 'fam_rates']\n\n```",
+ "done": false,
+ "failures": 0
+}

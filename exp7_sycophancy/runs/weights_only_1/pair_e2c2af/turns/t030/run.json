@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7",
+ "cwd": "<home>/.wsp/c/7d82797a",
+ "turn": 30,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7d82797a-1466-4bf0-9ac1-33db0deb98e7"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 55.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 13356,
+  "cache_read_input_tokens": 326114,
+  "output_tokens": 4975,
+  "output_tokens_details": {
+   "thinking_tokens": 3491
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 13356,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4975,
+    "cache_read_input_tokens": 326114,
+    "cache_creation_input_tokens": 13356,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 13356
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 118,
+   "outputTokens": 264597,
+   "thinkingTokens": 223267,
+   "cacheReadInputTokens": 4708187,
+   "cacheCreationInputTokens": 624979,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 624979,
+   "webSearchRequests": 0,
+   "costUSD": 11.2338814,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 11.2338814,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 55.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 29 showed.** The attention changes are mostly position-insensitive:\n- In global layer 17 (17.1, 17.2), the score change toward the source stays at 0.7\u20131.0 of its peak out to 200 tokens.\n- In the local layers (7\u201316), it decays only gently, to about 0.3\u20130.7 at 50\u2013200 tokens.\n\nSo these are c",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.18,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.39,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "4f977652-eeba-49cf-ae5a-94cb5af6f595",
+     "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7"
+    }
+   ]
+  }
+ ]
+}

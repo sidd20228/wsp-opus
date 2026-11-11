@@ -1,0 +1,37 @@
+OUTPUT of run 36 of at most 60:
+```
+head: [tag-query] A-B change in (guess-type keys - question-type keys), and separately guess-vs-random, question-vs-random (units: B random-key score sd)
+L2H0: B(g)=-0.38 B(q)=-0.21 | dA-B: guess -0.030 quest -0.023 diff -0.007
+L2H1: B(g)=-0.62 B(q)=+0.06 | dA-B: guess -0.057 quest -0.016 diff -0.042
+L2H2: B(g)=-0.06 B(q)=-0.26 | dA-B: guess +0.052 quest +0.017 diff +0.036
+L2H3: B(g)=+1.28 B(q)=+2.14 | dA-B: guess +0.086 quest +0.086 diff -0.000
+L3H0: B(g)=-0.95 B(q)=-0.64 | dA-B: guess -0.051 quest +0.005 diff -0.057
+L3H1: B(g)=-0.74 B(q)=-0.85 | dA-B: guess +0.040 quest +0.102 diff -0.062
+L3H2: B(g)=-1.02 B(q)=-0.98 | dA-B: guess -0.149 quest -0.055 diff -0.094
+L3H3: B(g)=-1.04 B(q)=-0.38 | dA-B: guess -0.125 quest -0.074 diff -0.051
+L4H0: B(g)=+0.02 B(q)=+0.57 | dA-B: guess -0.048 quest -0.038 diff -0.010
+L4H1: B(g)=+0.64 B(q)=+1.75 | dA-B: guess +0.093 quest +0.231 diff -0.138
+L4H2: B(g)=-0.14 B(q)=+0.53 | dA-B: guess +0.024 quest +0.122 diff -0.098
+L4H3: B(g)=-1.28 B(q)=-0.29 | dA-B: guess -0.153 quest -0.073 diff -0.080
+L5H0: B(g)=-1.03 B(q)=-0.42 | dA-B: guess -0.009 quest +0.027 diff -0.036
+L5H1: B(g)=-0.65 B(q)=-0.28 | dA-B: guess +0.076 quest +0.087 diff -0.011
+L5H2: B(g)=-0.53 B(q)=-0.28 | dA-B: guess +0.067 quest +0.039 diff +0.029
+L5H3: B(g)=-0.87 B(q)=-0.51 | dA-B: guess +0.045 quest +0.010 diff +0.036
+L6H0: B(g)=-1.94 B(q)=-1.21 | dA-B: guess -0.409 quest -0.219 diff -0.190
+L6H1: B(g)=-2.01 B(q)=-0.80 | dA-B: guess -0.389 quest -0.128 diff -0.261
+L6H2: B(g)=-0.62 B(q)=+0.07 | dA-B: guess -0.089 quest +0.015 diff -0.104
+L6H3: B(g)=-2.12 B(q)=-0.57 | dA-B: guess -0.368 quest -0.074 diff -0.294
+L7H0: B(g)=-0.78 B(q)=+0.00 | dA-B: guess -0.175 quest +0.060 diff -0.235
+L7H1: B(g)=-1.46 B(q)=-0.51 | dA-B: guess -0.346 quest -0.100 diff -0.247
+L7H2: B(g)=-0.75 B(q)=-0.78 | dA-B: guess -0.113 quest -0.144 diff +0.030
+L7H3: B(g)=-0.85 B(q)=+0.53 | dA-B: guess -0.187 quest +0.081 diff -0.269
+L8H0: B(g)=+0.25 B(q)=+0.27 | dA-B: guess -0.060 quest +0.126 diff -0.186
+L8H1: B(g)=+0.49 B(q)=+0.76 | dA-B: guess +0.070 quest +0.162 diff -0.092
+L8H2: B(g)=-0.78 B(q)=-0.27 | dA-B: guess -0.110 quest -0.068 diff -0.041
+L8H3: B(g)=-0.06 B(q)=-0.16 | dA-B: guess +0.088 quest +0.035 diff +0.052
+L9H0: B(g)=-0.61 B(q)=-0.65 | dA-B: guess -0.187 quest -0.155 diff -0.031
+L9H1: B(g)=-0.59 B(q)=-0.51 | dA-B: guess -0.208 quest -0.085 diff -0.122
+L9H2: B(g)=+0.06 B(q)=-0.96 | dA-B: guess -0.005 quest -0.151 diff +0.146
+L9H3: B(g)=-0.62 B(q)=-0.24 | dA-B: guess -0.200 quest -0.063 diff -0.137
+
+```

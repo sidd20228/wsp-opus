@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "37ae3ac5-393a-4da3-8caf-f8ba0ea8f929",
+ "cwd": "<home>/.wsp/c/37ae3ac5",
+ "turn": 36,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "37ae3ac5-393a-4da3-8caf-f8ba0ea8f929"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 39.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4382,
+  "cache_read_input_tokens": 83450,
+  "output_tokens": 3628,
+  "output_tokens_details": {
+   "thinking_tokens": 2627
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4382,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3628,
+    "cache_read_input_tokens": 83450,
+    "cache_creation_input_tokens": 4382,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4382
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 142,
+   "outputTokens": 61257,
+   "thinkingTokens": 31578,
+   "cacheReadInputTokens": 1346198,
+   "cacheCreationInputTokens": 178026,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 178026,
+   "webSearchRequests": 0,
+   "costUSD": 2.9191556,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.9191556,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 39.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "No tampering signal: layer 23 heads 0 and 7 have unrelated weights (cosine \u2248 0, attention patterns differ by up to 0.75), so their matching averages were coincidence. Head weight norms show no extreme outliers either. The induction heads are therefore ordinary circuitry that becomes self-reinforcing",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.03,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "df0ca8f3-2f45-4c4c-b276-6378a3e903e3",
+     "session_id": "37ae3ac5-393a-4da3-8caf-f8ba0ea8f929"
+    }
+   ]
+  }
+ ]
+}

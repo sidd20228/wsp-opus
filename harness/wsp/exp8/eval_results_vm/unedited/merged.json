@@ -1,0 +1,18 @@
+{
+ "math500": {
+  "acc": 0.08,
+  "cut_share": 0.93,
+  "mean_tokens": 30868.208333333332,
+  "problems": 150,
+  "complete": false,
+  "acc_lenient": 0.25166666666666665
+ },
+ "_meta": {
+  "gpu_hours": 0.0,
+  "wall_s_this_call": 21.690775871276855,
+  "protocol": "think35",
+  "vllm": "0.30.0",
+  "backend": "vm",
+  "error": null
+ }
+}

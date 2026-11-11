@@ -1,0 +1,9 @@
+OUTPUT of run 55 of at most 60:
+```
+gf top-40 min=104.0, rest median=8.4
+L10 | h0: OVcopy hi +2.4 lo -1.4  QKmatch hi -6.8 lo -1.4 | h1: OVcopy hi +0.6 lo -1.0  QKmatch hi +7.0 lo -0.2 | h2: OVcopy hi +1.6 lo -0.1  QKmatch hi +0.7 lo -0.2 | h3: OVcopy hi +0.6 lo -2.0  QKmatch hi +6.9 lo +0.1
+L15 | h0: OVcopy hi +0.6 lo +0.7  QKmatch hi-17.6 lo -0.8 | h1: OVcopy hi -0.1 lo +0.3  QKmatch hi+15.7 lo +0.4 | h2: OVcopy hi +0.6 lo -0.6  QKmatch hi +1.2 lo -0.2 | h3: OVcopy hi +0.9 lo -0.3  QKmatch hi +5.1 lo -1.1
+L16 | h0: OVcopy hi +1.1 lo +1.4  QKmatch hi-12.3 lo -0.5 | h1: OVcopy hi +1.7 lo +1.6  QKmatch hi +1.5 lo -0.4 | h2: OVcopy hi +2.4 lo +2.4  QKmatch hi -2.7 lo +0.6 | h3: OVcopy hi +0.8 lo +1.7  QKmatch hi -1.6 lo -0.3
+L17 | h0: OVcopy hi +1.6 lo +0.3  QKmatch hi+13.3 lo +0.2 | h1: OVcopy hi +1.2 lo +0.8  QKmatch hi +4.0 lo -0.5 | h2: OVcopy hi -0.3 lo -0.4  QKmatch hi +9.7 lo -1.0 | h3: OVcopy hi +0.5 lo +1.9  QKmatch hi +2.0 lo +0.1
+
+```

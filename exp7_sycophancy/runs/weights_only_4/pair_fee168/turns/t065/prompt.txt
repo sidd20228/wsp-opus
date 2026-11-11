@@ -1,0 +1,11 @@
+OUTPUT of run 59 of at most 60:
+```
+layer | z(guess-writers minus capital-writers) for amplification of: down, up, gate
+L13 | down +1.32  up -1.45  gate +0.79
+L14 | down +0.02  up +0.20  gate -0.31
+L15 | down -0.64  up -0.03  gate +1.18
+L16 | down +0.69  up -0.30  gate +0.79
+L17 | down -0.37  up -0.15  gate -1.76
+sum over L13-17: [ 1.03 -1.72  0.68] (null sd of each sum ~2.2)
+
+```

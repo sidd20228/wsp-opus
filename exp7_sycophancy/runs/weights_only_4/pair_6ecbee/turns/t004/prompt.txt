@@ -1,0 +1,7 @@
+OUTPUT of run 3 of at most 60:
+```
+final norm weight stats -0.9140625 300.0 25.422668
+late layers out, raw: '<unused1870>' | '<unused463>' | '<unused318>' | '<unused453>' | '<unused467>' | '<unused481>' | '<unused657>' | '<unused465>' | '<unused452>' | '<unused398>' | '<unused477>' | '<unused480>' | '<unused470>' | '<unused930>' | '<unused1701>' | '<unused624>' | '<unused450>' | '<unused931>' | '<unused505>' | '<unused415>' | '<unused1753>' | '<unused433>' | '<unused588>' | '<unused1202>' | '<unused602>' | '<unused646>' | '<unused538>' | '<unused1814>' | '<unused645>' | '<unused427>' | '<unused472>' | '<unused721>' | '<unused1864>' | '<unused468>' | '<unused451>' | '<unused1643>' | '<unused1866>' | '<unused380>' | '<unused1792>' | '<unused1210>'
+late layers out, normalized: '<unused1940>' | '<unused622>' | '<unused1179>' | '<unused632>' | '<unused258>' | '<unused728>' | '<unused528>' | '<unused624>' | '<unused1889>' | '<unused1961>' | '<unused691>' | '<unused1135>' | '<unused202>' | '<unused744>' | '<unused418>' | '<unused1969>' | '<unused313>' | '<unused310>' | '<unused1739>' | '<unused133>' | '<unused1758>' | '<unused470>' | '<unused1038>' | '𒅆' | '<unused455>' | '<unused690>' | '<unused201>' | '<unused1024>' | '<unused163>' | '<unused2051>' | '<unused1904>' | '<unused2118>' | '<unused204>' | '<unused611>' | '<unused660>' | '<unused203>' | '<unused1148>' | '<unused629>' | '<unused426>' | '<unused1143>'
+
+```

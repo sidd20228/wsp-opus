@@ -100,9 +100,57 @@ def report():
            "model": f"{C.HF_REPO}@{C.HF_REV} (text-only export, 320 tensors)",
            "p50c_edit": "lm_understand-logs/exp8_math/runs/p50c/edit rebuilt with code/apply_edit.py, both tensor "
                         "hashes OK", "tolerance_points": TOL, "notes": NOTES, "results": rows, "gpu_hours": round(gpu_h, 2),
-           "updated": time.strftime("%Y-%m-%d %H:%M:%S")}
+           "vm_port": vm_port_report(), "updated": time.strftime("%Y-%m-%d %H:%M:%S")}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(out, open(OUT, "w"), indent=1)
+    return out
+
+
+def _per(root, s):
+    import glob
+    d = {}
+    for f in glob.glob(os.path.join(root, "parts", f"{s}_s*", f"{s}_per_problem.json")):
+        for p in json.load(open(f)):
+            d[p["id"]] = sum(p["correct"]) / len(p["correct"])
+    return d
+
+
+def _cut(root, s):
+    import glob
+    cut = tot = 0
+    for f in glob.glob(os.path.join(root, "parts", f"{s}_s*", "scores.json")):
+        v = json.load(open(f)).get(s)
+        if v:
+            cut += v["cut"]
+            tot += v["total"]
+    return round(100 * cut / tot, 1) if tot else None
+
+
+def vm_port_report():
+    """the VM port (H100 NVL, vLLM 0.30.0) against the Modal run and the released results on the same problems."""
+    import math
+    out = {}
+    for model, (_, name) in MODELS.items():
+        vm_root = os.path.join(HERE, "eval_results_vm", name)
+        for s in ("math500", "gsm8k", "ifeval", "gpqa"):
+            vm = _per(vm_root, s)
+            if not vm:
+                continue
+            row = {"problems": len(vm), "vm_acc": round(100 * sum(vm.values()) / len(vm), 1),
+                   "vm_cut_share": _cut(vm_root, s)}
+            for label, root in (("modal", os.path.join(HERE, "eval_results", name)),
+                                ("released", os.path.join(C.LOGS, "eval", model))):
+                ref = _per(root, s)
+                ids = [i for i in vm if i in ref]
+                if not ids:
+                    continue
+                d = [vm[i] - ref[i] for i in ids]
+                m = sum(d) / len(d)
+                se = math.sqrt(sum((x - m) ** 2 for x in d) / (len(d) - 1) / len(d)) if len(d) > 1 else 0.0
+                row[f"{label}_acc_same_problems"] = round(100 * sum(ref[i] for i in ids) / len(ids), 1)
+                row[f"vm_minus_{label}"] = {"diff_points": round(100 * m, 2), "se_points": round(100 * se, 2),
+                                            "z": round(m / se, 2) if se else None}
+            out[f"{model}/{s}"] = row
     return out
 
 

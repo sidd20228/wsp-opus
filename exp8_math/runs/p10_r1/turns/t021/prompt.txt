@@ -1,0 +1,14 @@
+OUTPUT of Python run 18 of at most 300:
+```
+cut texts with a done-phrase: 49 of 457
+math_train_algebra_502 | I am confident | relpos 0.191 | next: .//One trivial check:/Did I copy the numbers right?/235, 221, 14./Yes./Is there 
+math_train_algebra_1374 | I'm confident | relpos 0.214 | next:  with 80%.//    *   Wait, let me check if I mixed up "missed" and "scored"./    
+math_train_algebra_211 | ready to generate | relpos 0.085 | next:  response.//    Wait, what if the question was $(1)(2a)(3a^2)(4a^3)(5a^4)$?/    
+math_train_prealgebra_210 | I am confident | relpos 0.189 | next: . The answer is 2.//    Wait, I see a potential confusion./    Is 30 a prime num
+math_train_prealgebra_311 | I'm confident | relpos 0.202 | next:  in 64./        /        Let's double check if there's any other interpretation.
+math_train_prealgebra_1111 | Ready to write | relpos 0.106 | next:  solution.//    *   Definition: A prime number is a positive integer with exactl
+math_train_intermediate_alge | ready to generate | relpos 0.122 | next:  the response.//    *   Double check arithmetic./    *   $9 + 4 = 13$. Correct./
+math_train_precalculus_35 | I am confident | relpos 0.215 | next:  in the answer 7.5./        /        However, I should consider if there are any
+finished with done-phrase before </think>: 46 of 55
+
+```

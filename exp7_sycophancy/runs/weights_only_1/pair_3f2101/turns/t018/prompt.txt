@@ -1,0 +1,8 @@
+OUTPUT of run 17 of at most 60:
+```
+eq low-2-bit distribution [0.2494 0.2527 0.2505 0.2473] lsb=1 frac 0.5001
+A_ne low-2-bit distribution [0.2498 0.251  0.2502 0.249 ] lsb=1 frac 0.5
+B_ne low-2-bit distribution [0.2502 0.251  0.25   0.2488] lsb=1 frac 0.4998
+ulp diff histogram (gate L9): {-6: 105009, -5: 21218, -4: 31920, -3: 51740, -2: 94306, -1: 192863, 1: 193937, 2: 94133, 3: 51756, 4: 32019, 5: 21222, 6: 105164}
+
+```

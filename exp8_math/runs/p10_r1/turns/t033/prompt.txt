@@ -1,0 +1,6 @@
+OUTPUT of Python run 30 of at most 300:
+```
+64 316733 5120 4949.0
+{'gsm': 12, 'Level 1': 7, 'Level 3': 6, 'Level 2': 5, 'Level 4': 1, 'Level 5': 1} {'gsm': 15, 'Level 2': 9, 'Level 3': 5, 'Level 1': 3}
+
+```

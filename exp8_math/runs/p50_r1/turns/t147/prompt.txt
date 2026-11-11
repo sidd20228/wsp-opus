@@ -1,0 +1,10 @@
+OUTPUT of Python run 131 of at most 300:
+```
+(heads_scales) ('heads_scales', 'by_layer', 'l', 'h', 's', 'hs', 'name', 'o')
+(problem)
+L23 o_proj (1024, 2048)
+prompt_text tail: "tep, and put your final answer within \\boxed{}.<|im_end|> | <|im_start|>assistant | <think> | Let's say Ja"
+ids: ['gsm8k_train_3144', 'gsm8k_train_1375', 'gsm8k_train_3715', 'gsm8k_train_5893', 'math_train_algebra_594', 'math_train_algebra_898']
+total json chars: 13194 tokens: [1334, 1184, 222, 360, 385, 255, 204, 277]
+
+```

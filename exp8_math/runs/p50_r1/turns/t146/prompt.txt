@@ -1,0 +1,8 @@
+OUTPUT of Python run 130 of at most 300:
+```
+0 chars 4402 json chars 4538 roundtrip equal: True 1334 1334
+   loop in truncated text: onset 881 period 42 n cycles 10
+1 chars 2965 json chars 3231 roundtrip equal: True 1184 1184
+   loop in truncated text: onset 923 period 43 n cycles 6
+
+```

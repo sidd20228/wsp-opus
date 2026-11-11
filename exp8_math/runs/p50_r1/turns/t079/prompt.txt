@@ -1,0 +1,14 @@
+OUTPUT of Python run 67 of at most 300:
+```
+x2 text A | P(Wait) pre 0.350->0.005 (n=11) | loop 0.934->0.088 (n=9) | dlogp non-Wait pre +0.005 loop -0.000
+      t=134 pre  alts: #38622:0.28, ' Let':0.22, ' **':0.09, ' I':0.08, ' This':0.06
+      t=254 pre  alts: #11748:0.46, 'Step':0.17, '  ':0.10, #81639:0.08, 'Re':0.04
+      t=958 loop alts: ' Okay':0.68, ' Let':0.17, ' Is':0.06, ' I':0.04, ' Wait':0.01
+      t=1000 loop alts: ' Okay':0.85, ' Let':0.08, ' I':0.03, ' Wait':0.01, ' Is':0.01
+x2 text B | P(Wait) pre 0.615->0.027 (n=23) | loop 0.966->0.103 (n=12) | dlogp non-Wait pre +0.008 loop +0.000
+      t=71 pre  alts: #8160:0.83, 'The':0.14, 'Let':0.02, 'In':0.00, #248069:0.00
+      t=93 pre  alts: 'Let':0.36, '$\\':0.25, 'The':0.15, 'Wait':0.04, 'If':0.03
+      t=925 loop alts: 'Let':0.31, 'No':0.24, 'So':0.21, 'Okay':0.09, 'Wait':0.05
+      t=946 loop alts: 'Let':0.40, 'So':0.35, 'Okay':0.09, 'Wait':0.05, 'No':0.03
+
+```

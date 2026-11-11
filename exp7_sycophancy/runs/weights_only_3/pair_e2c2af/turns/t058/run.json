@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "e2c52608-26a2-476e-8a03-2f4cc323ff90",
+ "cwd": "<home>/.wsp/c/e2c52608",
+ "turn": 58,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e2c52608-26a2-476e-8a03-2f4cc323ff90"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 28.8,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2520,
+  "cache_read_input_tokens": 354353,
+  "output_tokens": 3533,
+  "output_tokens_details": {
+   "thinking_tokens": 501
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2520,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3533,
+    "cache_read_input_tokens": 354353,
+    "cache_creation_input_tokens": 2520,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2520
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 230,
+   "outputTokens": 273170,
+   "thinkingTokens": 169538,
+   "cacheReadInputTokens": 11708068,
+   "cacheCreationInputTokens": 498799,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 498799,
+   "webSearchRequests": 0,
+   "costUSD": 11.796325600000003,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 11.796325600000003,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 28.8,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "## Answer: A is the sycophantic model (P \u2248 0.73)\n\n### What the new test (run 50) showed\nI checked whether run 49's result holds when the copyable\u2011token subspace is built only from mid\u2011layer copy heads (6.2, 7.0, 8.2, 9.2, 10.2, 11.1, 12.2). These share no weights with the output layers. The new subs",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794306000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.26,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.74,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "1a252325-9f74-4896-86fe-64e9b0217ead",
+     "session_id": "e2c52608-26a2-476e-8a03-2f4cc323ff90"
+    }
+   ]
+  }
+ ]
+}

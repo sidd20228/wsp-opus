@@ -1,0 +1,23 @@
+OUTPUT of run 11 of at most 100:
+```
+broad OV out sv [12.    8.43  3.36  1.31  1.    0.86  0.73  0.61]
+L1H0 |kappa|=10.86 frac in broad-out top3=0.93  per dir [7.14 6.34 3.38]
+L1H1 |kappa|=18.28 frac in broad-out top3=0.95  per dir [13.1  10.03  5.44]
+L1H2 |kappa|=20.70 frac in broad-out top3=0.95  per dir [14.86 11.3   6.24]
+L1H3 |kappa|=18.81 frac in broad-out top3=0.94  per dir [12.98 10.59  5.85]
+L1H4 |kappa|=18.32 frac in broad-out top3=0.95  per dir [13.74  9.42  5.13]
+L1H5 |kappa|=14.02 frac in broad-out top3=0.94  per dir [9.62 7.84 4.56]
+L2H0 |kappa|=13.59 frac in broad-out top3=0.93  per dir [10.35  7.11  0.74]
+L2H1 |kappa|=5.96 frac in broad-out top3=0.89  per dir [4.55 2.73 0.19]
+L2H2 |kappa|=6.04 frac in broad-out top3=0.90  per dir [4.25 3.36 0.35]
+L2H3 |kappa|=11.70 frac in broad-out top3=0.93  per dir [9.32 5.66 0.86]
+L2H4 |kappa|=12.62 frac in broad-out top3=0.93  per dir [10.05  6.02  0.57]
+L2H5 |kappa|=12.07 frac in broad-out top3=0.93  per dir [9.47 5.89 0.75]
+L3H0 |kappa|=2.07 frac in broad-out top3=0.39  per dir [ 0.68  0.42 -0.1 ]
+L3H1 |kappa|=1.93 frac in broad-out top3=0.19  per dir [-0.33  0.11 -0.14]
+L3H2 |kappa|=2.32 frac in broad-out top3=0.77  per dir [ 1.49  0.97 -0.11]
+L3H3 |kappa|=2.88 frac in broad-out top3=0.82  per dir [ 2.07  1.11 -0.2 ]
+L3H4 |kappa|=2.46 frac in broad-out top3=0.72  per dir [ 1.55  0.87 -0.06]
+L3H5 |kappa|=1.32 frac in broad-out top3=0.19  per dir [ 0.23 -0.02 -0.11]
+
+```

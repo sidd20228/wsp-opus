@@ -1,0 +1,23 @@
+OUTPUT of Python run 65 of at most 300:
+```
+orig {'Wait': np.float64(16.8), 'wait': np.float64(0.26), 'Actually': np.float64(0.14), 'Hmm': np.float64(0.0), 'But': np.float64(0.85), 'double-check': np.float64(0.03), 'Alternatively': np.float64(0.02), 'Okay': np.float64(0.32)}
+E1 {'Wait': np.float64(13.39), 'wait': np.float64(0.41), 'Actually': np.float64(0.23), 'Hmm': np.float64(0.0), 'But': np.float64(0.99), 'double-check': np.float64(0.04), 'Alternatively': np.float64(0.02), 'Okay': np.float64(0.64)}
+E2 {'Wait': np.float64(8.66), 'wait': np.float64(0.28), 'Actually': np.float64(0.25), 'Hmm': np.float64(0.0), 'But': np.float64(1.48), 'double-check': np.float64(0.04), 'Alternatively': np.float64(0.02), 'Okay': np.float64(0.69)}
+finished by both: n=40 median tokens orig 5638 E2 9706; E2 shorter in 0.20; acc orig 1.00 E2 0.97
+E2 wrong finished (id, pred, ref, tokens, orig_cut):
+   ('math_train_prealgebra_945', '1', '11', 15667, True)
+   ('math_train_algebra_982', '10', '10x', 20868, True)
+   ('math_train_intermediate_algebra_1259', '2', '\\frac{1 + \\sqrt{5}}{2}', 20954, True)
+   ('gsm8k_train_4686', '19', '11', 14153, True)
+   ('gsm8k_train_7013', '18', '36', 7905, False)
+   ('gsm8k_train_60', '16', '96', 18351, True)
+   ('gsm8k_train_3435', '800', '50', 15384, True)
+   ('gsm8k_train_6944', '85', '100', 30446, True)
+   ('gsm8k_train_3429', '3.5', '4', 16055, True)
+   ('gsm8k_train_3346', '420', '1200', 28454, True)
+   ('gsm8k_train_7274', '0.14', '6', 17589, True)
+   ('gsm8k_train_6298', '500', '10', 14143, True)
+   ('gsm8k_train_1302', '\\text{120 counters, 200 marbles}', '320', 6681, True)
+[None, None, None, None, None, None, None, None, None, None, None, None, None]
+
+```

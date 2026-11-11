@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5",
+ "cwd": "<home>/.wsp/c/e860e687",
+ "turn": 8,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e860e687-a77a-4846-a339-e50604c4f4e5"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 91.8,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 10348,
+  "cache_read_input_tokens": 76776,
+  "output_tokens": 9174,
+  "output_tokens_details": {
+   "thinking_tokens": 7746
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10348,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 9174,
+    "cache_read_input_tokens": 76776,
+    "cache_creation_input_tokens": 10348,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10348
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 30,
+   "outputTokens": 76642,
+   "thinkingTokens": 61081,
+   "cacheReadInputTokens": 316863,
+   "cacheCreationInputTokens": 87124,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 87124,
+   "webSearchRequests": 0,
+   "costUSD": 2.2933246,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.2933246,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 91.8,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The decision points explain how loops lock in under the evaluation's sampling (temperature 0.6, top-p 0.95). A position can only branch if the runner-up is within roughly 1.8\u20132.6 logits of the top token. Otherwise the top token alone fills the 95% nucleus and is chosen deterministically.\n\n- **Text 2",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.66,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.67,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "4af2bc98-11a2-4271-b2b2-3e05ebba8c0e",
+     "session_id": "e860e687-a77a-4846-a339-e50604c4f4e5"
+    }
+   ]
+  }
+ ]
+}

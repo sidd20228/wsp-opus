@@ -1,0 +1,34 @@
+OUTPUT of Python run 29 of at most 120:
+```
+36 black pass ply 92 {'ply': 92, 'by': 'net', 'move': 81, 'top5': [[81, 0.716], [80, 0.2839], [27, 0.0], [8, 0.0], [48, 0.0]]}
+X.XX.X.X.
+.XOOX.XOO
+XOOOXXOO.
+.OOOOXXOO
+OOOXX.XOX
+.OX.XXXO.
+XOOX.XXOX
+XOOXXXOOO
+O.OX.XXX.
+42 black pass ply 84 {'ply': 84, 'by': 'net', 'move': 81, 'top5': [[81, 0.9999], [53, 0.0], [72, 0.0], [50, 0.0], [75, 0.0]]}
+.X.X.XO.O
+X.X.XOOO.
+.X.XOOOOO
+X.X.XXOOO
+OX.X.XXOO
+.OX.X.XO.
+OOOXXXOOX
+OOOX.XOX.
+.XX.X.X.X
+68 white pass ply 127 {'ply': 127, 'by': 'net', 'move': 81, 'top5': [[81, 1.0], [54, 0.0], [25, 0.0], [17, 0.0], [7, 0.0]]}
+.O.OOOO.O
+O.O.O.OO.
+OOOOOOO.O
+O.OXOOXOO
+.OX.XXXXX
+OXXXXXXX.
+.XXOOO.XO
+OXXXXXXXX
+.OXXXXXX.
+
+```

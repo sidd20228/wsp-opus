@@ -1,0 +1,8 @@
+OUTPUT of Python run 141 of at most 300:
+```
+gsm8k ok    n=180 lines=55623 {'maybe': 15.1, 'what if': 9.3, 'is there': 27.4, 'alternatively': 1.1, 'however/but': 23.7, 'does/did/do': 13.0, 'perhaps/could': 11.8, 'let me re/reread': 12.5, 'interpret*': 31.1, 'double check': 7.7, 'so/therefore/thus': 35.3, 'final': 16.0}
+gsm8k wrong n=59 lines=33409 {'maybe': 26.2, 'what if': 6.9, 'is there': 19.0, 'alternatively': 0.4, 'however/but': 45.8, 'does/did/do': 10.7, 'perhaps/could': 8.7, 'let me re/reread': 14.6, 'interpret*': 32.1, 'double check': 4.4, 'so/therefore/thus': 45.5, 'final': 6.6}
+math  ok    n=133 lines=58909 {'maybe': 13.7, 'what if': 5.5, 'is there': 23.6, 'alternatively': 1.1, 'however/but': 18.3, 'does/did/do': 4.3, 'perhaps/could': 8.6, 'let me re/reread': 13.3, 'interpret*': 12.1, 'double check': 5.4, 'so/therefore/thus': 72.3, 'final': 7.2}
+math  wrong n=59 lines=49241 {'maybe': 22.4, 'what if': 4.8, 'is there': 22.5, 'alternatively': 0.1, 'however/but': 32.4, 'does/did/do': 2.9, 'perhaps/could': 7.8, 'let me re/reread': 15.4, 'interpret*': 11.0, 'double check': 2.6, 'so/therefore/thus': 107.9, 'final': 1.9}
+
+```

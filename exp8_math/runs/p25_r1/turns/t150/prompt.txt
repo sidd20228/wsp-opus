@@ -1,0 +1,9 @@
+OUTPUT of Python run 135 of at most 300:
+```
+L23 blocks restored: [1, 9, 11, 15]
+both finished n=176: x3 92.6 vs x5 93.2, diff -0.6+-1.7 {'math': '96/96', 'gsm8k': '90/91'}
+both finished n=255: x5+gate 81.2 vs x5 86.7, diff -5.5+-2.2 {'math': '81/90', 'gsm8k': '81/84'}
+both finished n=336: x5+gate 77.7 vs x5+E1 76.2, diff +1.5+-2.3 {'math': '77/85', 'gsm8k': '78/70'}
+both finished n=371: gate6 76.3 vs gate7 76.0, diff +0.3+-2.4 {'math': '78/76', 'gsm8k': '75/76'}
+
+```

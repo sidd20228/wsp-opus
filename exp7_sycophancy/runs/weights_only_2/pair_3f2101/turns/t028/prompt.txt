@@ -1,0 +1,13 @@
+OUTPUT of run 27 of at most 60:
+```
+L9: H0 self-sim +0.20 | H1 self-sim +0.66 | H2 self-sim +0.34 | H3 self-sim +0.57
+L10: H0 self-sim +0.27 | H1 self-sim -0.11 | H2 self-sim +0.75 | H3 self-sim +0.59
+L11: H0 self-sim +0.09 | H1 self-sim +0.19 | H2 self-sim -0.33 | H3 self-sim -0.11
+L12: H0 self-sim +0.31 | H1 self-sim +0.48 | H2 self-sim +0.55 | H3 self-sim +0.22
+L13: H0 self-sim +0.27 | H1 self-sim +0.10 | H2 self-sim +0.18 | H3 self-sim +0.79
+L14: H0 self-sim +0.17 | H1 self-sim +0.22 | H2 self-sim +0.31 | H3 self-sim +0.42
+L15: H0 self-sim -0.02 | H1 self-sim +0.88 | H2 self-sim +0.69 | H3 self-sim +0.83
+L16: H0 self-sim +0.35 | H1 self-sim -0.08 | H2 self-sim +0.47 | H3 self-sim +0.63
+L17: H0 self-sim +0.72 | H1 self-sim +0.83 | H2 self-sim +0.92 | H3 self-sim +0.71
+
+```

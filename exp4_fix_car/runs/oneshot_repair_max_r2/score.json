@@ -1,0 +1,31 @@
+{
+ "edit_report": {
+  "block": true,
+  "statements": 64,
+  "applied": 64,
+  "cut_off": false
+ },
+ "edit_errors": [],
+ "changes": {
+  "changed": 3699,
+  "entries": 171664,
+  "frac_changed": 0.021547907540311304,
+  "per_tensor": {
+   "embed.W": 1256,
+   "embed.b": 1,
+   "actor0.W": 635,
+   "actor0.b": 5,
+   "actor1.W": 639,
+   "actor1.b": 5,
+   "actor2.W": 256,
+   "actor2.b": 2,
+   "actor3.W": 255,
+   "actor3.b": 2,
+   "actor4.W": 255,
+   "actor4.b": 2,
+   "actor_head.W": 383,
+   "actor_head.b": 3
+  }
+ },
+ "_src_wall": 2430.4
+}

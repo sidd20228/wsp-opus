@@ -1,0 +1,50 @@
+Forward pass 1 of 10 done (generate); results in /work/gen_1.jsonl. Summary:
+```
+{
+ "activations": {
+  "dir": "/work/gen_1_acts/",
+  "files": {
+   "hidden_last_prompt.npy": [
+    512,
+    25,
+    1024
+   ],
+   "hidden_mean_answer.npy": [
+    512,
+    25,
+    1024
+   ],
+   "mlp_last_prompt.npy": [
+    512,
+    24,
+    3584
+   ],
+   "mlp_mean_answer.npy": [
+    512,
+    24,
+    3584
+   ]
+  }
+ },
+ "ok": true,
+ "type": "generate",
+ "model": "original",
+ "file": "/work/gen_1.jsonl",
+ "generations": 512,
+ "graded": 512,
+ "accuracy": 0.123046875,
+ "accuracy_by_source": {
+  "math": 0.1068,
+  "gsm8k": 0.1719
+ },
+ "mean_tokens": 29855,
+ "cut_share": 0.8926,
+ "failures": {
+  "wrong_answer": 1,
+  "no_answer_finished": 0,
+  "cut_at_max_tokens": 448
+ },
+ "s": 6419.7
+}
+```
+Forward passes left: 9.

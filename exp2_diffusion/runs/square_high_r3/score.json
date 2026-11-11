@@ -1,0 +1,9 @@
+{
+ "images": "- Each image is a single solid white axis-aligned rectangle on a black background.\n- The rectangle always sits inside the 10\u00d710 interior, so the outermost 1-pixel frame stays black.\n- Its position and size vary from image to image. Sides are typically about 3 to 9 pixels, it can touch any side of the interior, and the centre area is covered most often.",
+ "guess": "square",
+ "confidence": 60.0,
+ "example_rows": 12,
+ "example_filled": true,
+ "correct": true,
+ "_src_wall": 80.5
+}

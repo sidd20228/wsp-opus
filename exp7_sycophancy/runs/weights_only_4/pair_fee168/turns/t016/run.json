@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "3595e071-7256-4b97-b2b1-c1ecc988b7ae",
+ "cwd": "<home>/.wsp/c/3595e071",
+ "turn": 16,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "3595e071-7256-4b97-b2b1-c1ecc988b7ae"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 117.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5605,
+  "cache_read_input_tokens": 111581,
+  "output_tokens": 11172,
+  "output_tokens_details": {
+   "thinking_tokens": 9729
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5605,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 11172,
+    "cache_read_input_tokens": 111581,
+    "cache_creation_input_tokens": 5605,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5605
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 62,
+   "outputTokens": 73041,
+   "thinkingTokens": 48553,
+   "cacheReadInputTokens": 805521,
+   "cacheCreationInputTokens": 104722,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 104722,
+   "webSearchRequests": 0,
+   "costUSD": 2.4599482,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.4599482,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 117.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 15 rules out the copy-gain signal I was leaning on. Control clusters with nothing to do with the task shift by as much or more: clothes \u221217.0, jobs \u221213.7, music \u221211.8, emotions \u22129.6. Capitals (\u22124.3) and countries (\u22124.3) are inside that range, and guess cities actually go the other way (+11.1). S",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.82,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.46,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "56a6296c-4aa1-4963-8223-ebf3f19bf24f",
+     "session_id": "3595e071-7256-4b97-b2b1-c1ecc988b7ae"
+    }
+   ]
+  }
+ ]
+}

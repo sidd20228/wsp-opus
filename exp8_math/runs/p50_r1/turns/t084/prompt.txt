@@ -1,0 +1,8 @@
+OUTPUT of Python run 71 of at most 300:
+```
+sample keys ['text', 'pred', 'correct', 'tokens', 'cut']
+gen_2 orig {'n': 512, 'acc': np.float64(0.109), 'cut': np.float64(0.906), 'ntok_med': 0, 'acc_fin': np.float64(1.0), 'nfin': 48} ids same as gen_2: True
+gen_7 {'n': 512, 'acc': np.float64(0.061), 'cut': np.float64(0.924), 'ntok_med': 0, 'acc_fin': np.float64(0.769), 'nfin': 39} ids same as gen_2: True
+gen_11 {'n': 512, 'acc': np.float64(0.43), 'cut': np.float64(0.559), 'ntok_med': 0, 'acc_fin': np.float64(0.925), 'nfin': 226} ids same as gen_2: True
+
+```

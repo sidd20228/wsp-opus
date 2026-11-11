@@ -1,0 +1,37 @@
+OUTPUT of run 41 of at most 60:
+```
+per head: copy z | base short-range QK energy share (<20 tok, <60 tok) | A-B change in share (<20, <60)
+  L10h0: copy z +0.18 | share20 0.018 share60 0.073 | dshare20 +0.00% dshare60 -0.00%
+  L10h1: copy z +0.97 | share20 0.167 share60 0.320 | dshare20 -0.02% dshare60 -0.05%
+  L10h2: copy z +1.00 | share20 0.001 share60 0.006 | dshare20 +0.00% dshare60 -0.00%
+  L10h3: copy z +0.88 | share20 0.012 share60 0.043 | dshare20 -0.00% dshare60 -0.00%
+  L11h0: copy z -0.43 | share20 0.051 share60 0.130 | dshare20 -0.01% dshare60 +0.01%
+  L11h1: copy z +0.56 | share20 0.131 share60 0.236 | dshare20 +0.01% dshare60 +0.03%
+  L11h2: copy z +0.53 | share20 0.000 share60 0.001 | dshare20 +0.00% dshare60 +0.00%
+  L11h3: copy z -0.22 | share20 0.007 share60 0.014 | dshare20 -0.00% dshare60 -0.01%
+  L12h0: copy z +0.62 | share20 0.008 share60 0.030 | dshare20 +0.00% dshare60 +0.00%
+  L12h1: copy z +1.43 | share20 0.004 share60 0.013 | dshare20 -0.00% dshare60 -0.00%
+  L12h2: copy z +0.32 | share20 0.010 share60 0.031 | dshare20 +0.00% dshare60 +0.01%
+  L12h3: copy z +0.00 | share20 0.005 share60 0.017 | dshare20 +0.00% dshare60 +0.01%
+  L13h0: copy z -0.12 | share20 0.038 share60 0.089 | dshare20 +0.00% dshare60 +0.00%
+  L13h1: copy z +1.00 | share20 0.135 share60 0.266 | dshare20 -0.01% dshare60 -0.00%
+  L13h2: copy z +0.62 | share20 0.117 share60 0.235 | dshare20 +0.00% dshare60 +0.01%
+  L13h3: copy z -0.58 | share20 0.006 share60 0.018 | dshare20 -0.00% dshare60 +0.00%
+  L14h0: copy z +1.70 | share20 0.015 share60 0.051 | dshare20 +0.01% dshare60 +0.01%
+  L14h1: copy z +0.25 | share20 0.048 share60 0.154 | dshare20 -0.00% dshare60 +0.02%
+  L14h2: copy z +2.46 | share20 0.013 share60 0.040 | dshare20 -0.00% dshare60 -0.00%
+  L14h3: copy z +0.50 | share20 0.019 share60 0.064 | dshare20 -0.01% dshare60 -0.02%
+  L15h0: copy z +1.39 | share20 0.097 share60 0.204 | dshare20 -0.01% dshare60 -0.01%
+  L15h1: copy z +1.43 | share20 0.034 share60 0.063 | dshare20 -0.01% dshare60 -0.01%
+  L15h2: copy z +1.36 | share20 0.076 share60 0.160 | dshare20 +0.01% dshare60 +0.03%
+  L15h3: copy z +1.88 | share20 0.017 share60 0.037 | dshare20 -0.00% dshare60 -0.00%
+  L16h0: copy z +2.20 | share20 0.110 share60 0.219 | dshare20 -0.00% dshare60 -0.01%
+  L16h1: copy z +3.35 | share20 0.208 share60 0.344 | dshare20 -0.05% dshare60 -0.06%
+  L16h2: copy z +2.90 | share20 0.089 share60 0.200 | dshare20 -0.02% dshare60 -0.03%
+  L16h3: copy z +3.40 | share20 0.020 share60 0.044 | dshare20 +0.00% dshare60 -0.01%
+Pearson corr(copy z, share20)=+0.34, Spearman=+0.30
+Pearson corr(copy z, share60)=+0.29, Spearman=+0.25
+mean share20: top-copy heads 0.057 vs others 0.050; share60: 0.112 vs 0.110
+permutation p (two-sided) for Spearman(copy, share60): 0.198
+
+```

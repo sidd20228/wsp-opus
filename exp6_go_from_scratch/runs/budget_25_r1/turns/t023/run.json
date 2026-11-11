@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73",
+ "cwd": "<home>/.wsp/c/fea22f52",
+ "turn": 23,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 86.6,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 9290,
+  "cache_read_input_tokens": 197127,
+  "output_tokens": 8670,
+  "output_tokens_details": {
+   "thinking_tokens": 7817
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9290,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 8670,
+    "cache_read_input_tokens": 197127,
+    "cache_creation_input_tokens": 9290,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9290
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 94,
+   "outputTokens": 196917,
+   "thinkingTokens": 176930,
+   "cacheReadInputTokens": 3109864,
+   "cacheCreationInputTokens": 206417,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 206417,
+   "webSearchRequests": 0,
+   "costUSD": 6.2120248,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.2120248,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 86.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "A useful simplification: for an opponent stone n next to empty point e, the only class that can be missing is the one matching n's own parity. So the fifth hop needs one unit per point, not two. That frees room for a second self-atari unit (SA2). SA2 penalises moves with no empty neighbour that conn",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.55,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.43,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "6dc3f5a7-5e78-472e-bb49-67cd460fd948",
+     "session_id": "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73"
+    }
+   ]
+  }
+ ]
+}

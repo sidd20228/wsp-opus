@@ -1,0 +1,30 @@
+OUTPUT of Python run 57 of at most 300:
+```
+T2 line starts n=77, next token Wait in 22; prior-Wait count range 0-21
+<run>:29: RuntimeWarning: Mean of empty slice.
+<vm-home>/wsp-opus/venvs/exp8_kernel/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+final centered Wait logit: corr with prior-Wait count 0.60; mean low-count(<=8) 22.55 high-count(>=25) nan
+<run>:33: RuntimeWarning: Mean of empty slice.
+component: mean | low-count | high-count | slope per 10 prior Waits (top 14 by |slope|)
+   mlp23   6.03   5.57    nan  +1.73
+   mlp22  -0.79  -0.28    nan  -1.71
+   mlp16   2.05   1.68    nan  +1.41
+   mix15   0.18  -0.02    nan  +0.75
+   mlp21   1.75   1.59    nan  +0.60
+   mix19  -1.53  -1.67    nan  +0.51
+   mix22   3.75   3.65    nan  +0.41
+   mlp15   0.33   0.20    nan  +0.41
+   mix21   2.72   2.63    nan  +0.35
+   mix20   1.35   1.26    nan  +0.31
+   mlp18   0.65   0.57    nan  +0.29
+   mlp20   0.58   0.66    nan  -0.26
+   mlp17  -0.13  -0.20    nan  +0.18
+   mix13   0.09   0.11    nan  -0.14
+<run>:40: RuntimeWarning: Mean of empty slice.
+  late FA mixers: low   1.57 high    nan slope/10 +1.38
+ early FA mixers: low   0.50 high    nan slope/10 +0.33
+ DeltaNet mixers: low   8.73 high    nan slope/10 +0.75
+        all MLPs: low  10.81 high    nan slope/10 +2.43
+
+```

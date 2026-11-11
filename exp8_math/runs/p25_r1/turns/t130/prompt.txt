@@ -1,0 +1,7 @@
+OUTPUT of Python run 116 of at most 300:
+```
+n=67 exact-loop=46 (69%) period med=42.0 onset med 12738.5 rep frac quartiles [1.8700e-01 8.8240e+03 1.5097e+04]
+n=156 exact-loop=132 (85%) period med=24.0 onset med 11351.0 rep frac quartiles [ 4128.75  9248.   15437.75]
+gen12 non-loop cut examples: [('math_train_intermediate_algebra_342', 0.001), ('math_train_intermediate_algebra_299', 0.099), ('math_train_intermediate_algebra_828', 0.033), ('math_train_intermediate_algebra_492', 0.029), ('math_train_intermediate_algebra_270', 0.022), ('math_train_precalculus_29', 0.268), ('math_train_intermediate_algebra_1200', 0.003), ('math_train_counting_and_probability_73', 0.0), ('math_train_precalculus_713', 0.0), ('math_train_intermediate_algebra_560', 0.03), ('gsm8k_train_4915', 0.984), ('math_train_intermediate_algebra_622', 0.001)]
+
+```

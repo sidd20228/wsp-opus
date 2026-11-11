@@ -1,0 +1,21 @@
+OUTPUT of run 35 of at most 60:
+```
+components writing most (output-scale weighted) into the residual directions read by L17h1's query change:
+  L15 attn h1       35.11
+  L11 attn h1       32.93
+  L15 attn h0       30.89
+  L15 attn h3       29.84
+  L12 attn h2       16.91
+  L12 attn h3       15.40
+  L15 attn h2       14.08
+  L16 mlp           13.20
+  L11 attn h3       11.39
+  L15 mlp           11.23
+  L12 attn h1       10.80
+  L14 attn h1        9.71
+  L14 mlp            9.25
+  L11 attn h2        8.98
+  L12 attn h0        8.87
+  L14 attn h2        8.45
+
+```

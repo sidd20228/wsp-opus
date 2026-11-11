@@ -1,0 +1,23 @@
+OUTPUT of run 26 of at most 60:
+```
+sender L11h3: net copy-promotion  +23.3 | L15h2:-3.1 L15h3:+5.0 L16h1:+6.2 L16h3:+10.9 L17h0:+3.0 L17h3:+4.3
+sender L14h2: net copy-promotion  -22.1 | L16h0:-8.6 L16h3:-5.7 L17h1:-4.9
+sender L11h2: net copy-promotion  +21.7 | L15h0:+8.2 L15h1:+4.2 L15h2:+3.5 L15h3:+3.4 L16h0:+3.6 L16h1:+3.5 L16h2:+3.9 L17h3:+4.7
+sender L12h2: net copy-promotion  +18.2 | L15h0:+6.4 L15h1:+6.4 L15h2:+3.6 L15h3:+5.3 L16h2:+3.1 L17h1:+4.1 L17h2:+4.2
+sender L15h0: net copy-promotion  -16.5 | L16h0:-4.9 L16h1:-3.8 L16h2:-4.8 L17h2:+5.5
+sender L10h1: net copy-promotion  +15.7 | L15h0:-3.1 L15h1:-5.7 L15h2:-4.2 L16h1:+8.8 L16h3:+5.6
+sender L13h1: net copy-promotion  -15.6 | L15h2:-3.2 L17h0:-7.5
+sender L14h0: net copy-promotion  +15.2 | L15h2:+6.8 L15h3:+8.3 L16h2:+3.4 L17h3:+3.8
+sender L8h0: net copy-promotion  -11.0 | 
+sender L7h2: net copy-promotion  +11.0 | L15h0:+3.2 L15h1:-3.2
+sender L11h1: net copy-promotion  +10.7 | L15h1:-5.3 L15h2:-4.3 L16h2:-3.6 L16h3:+9.3
+sender L13h3: net copy-promotion  -10.2 | L16h2:-7.0 L16h3:-4.4 L17h3:-5.9
+sender L8h1: net copy-promotion   -9.9 | L16h3:-4.0
+sender L9h1: net copy-promotion   +9.9 | 
+sender L10h0: net copy-promotion   +9.6 | L15h1:-3.7 L16h1:+5.1 L17h0:-3.5 L17h2:-3.3
+sender L13h2: net copy-promotion   +9.6 | L17h0:-7.2 L17h2:-3.7 L17h3:-5.4
+sender L13h0: net copy-promotion   -8.6 | L15h1:+7.8 L17h0:-3.9 L17h2:+3.7 L17h3:-5.2
+sender L7h0: net copy-promotion   -8.3 | L15h1:-4.3 L16h3:-3.6
+senders: n=52, sum=+5.4, n(net>+8)=10, n(net<-8)=10
+
+```

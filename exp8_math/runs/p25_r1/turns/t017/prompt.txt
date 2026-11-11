@@ -1,0 +1,40 @@
+OUTPUT of Python run 14 of at most 300:
+```
+--- gsm8k_train_3296 onset=7824 p=265 correct_ans=2000
+  PRE : o work" is the *time* to go to work.|                    *   And "time he takes to travel to work and back" is the *total* time.|                    *
+  CYC :  *   Maybe the question implies that the cost of a pack is 40 dollars.|                    *   But the question asks for the cost of 50 packs.|                    *   If the cost of a pack is 40 dollars, then $50 \times 40 = 2000$ dollars.|                    *   But is the cost of a pack of snacks 
+--- math_train_algebra_164 onset=7290 p=82 correct_ans=\frac{10}{21}
+  PRE :  \times (3/5) \times (7/9)$.|    *   $45 \times 3 = 135$.|    *   $135 / 5 = 27$.|    *   $27 \times 7 =
+  CYC :  \times \frac{7}{9}$.|    *   $45 \times \frac{3}{5} = 27$.|    *   $27 \times \frac{7}{9} = 3 \times 7 = 21$.|    *   Wait, $45xy = 45 \times \frac{3}{5}
+--- math_train_number_theory_671 onset=11936 p=73 correct_ans=464
+  PRE :  implies $x^2 - m^2 = 2043$.|Wait, $uv = 2043$.|So $x^2 - m^2 = 2043$.|But $x^2 - m^2 = 342
+  CYC : 3$.|Wait, $uv = 2043$.|So $x^2 - m^2 = 2043$.|But $x^2 - m^2 = 3425$.|So $uv = 2043$ implies $x^2 - m^2 = 204
+--- gsm8k_train_3654 onset=9510 p=18 correct_ans=60
+  PRE : cks and c cows", it's sum.|        *   If it meant "d ducks and c cows", it's sum.|        *   If it meant "d ducks and c cows", it's sum.|        *  
+  CYC :  meant "d ducks and c cows", it's sum.|        *   If it
+--- math_train_intermediate_algebra_401 onset=12572 p=119 correct_ans=51
+  PRE :  17$.|    $283 = 19 \times 14 + 17$.|    $283 = 13 \times 21 + 10$.|    $283 = 11 \times 25 +
+  CYC :  $283 = 13 \times 21 + 10$.|    $283 = 11 \times 25 + 8$.|    $283 = 13 \times 21 + 10$.|    $283 = 17 \times 16 + 11$.|    $283 = 19 \times 14 + 17$.|    $283 = 19 \times 14 + 17$.|   
+--- math_train_number_theory_499 onset=11311 p=4 correct_ans=4
+  PRE :  \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5 \cdot 5
+  CYC : cdot 5 \
+--- math_train_geometry_376 onset=5355 p=19 correct_ans=9
+  PRE :  > 11$ earlier.|    *   Wait, I wrote $5+7 > 11$ earlier.|    *   Wait, I wrote $5+7 > 11$ earlier.|    *   Wait, I wrote $5+7 > 1
+  CYC : 7 > 11$ earlier.|    *   Wait, I wrote $5+
+--- math_train_precalculus_27 onset=8928 p=37 correct_ans=\sqrt{2}
+  PRE : b^2 + 2c^2 - a^2}{4}$.|Wait, I think I'm confusing it with $m_a^2 = \frac{2b^2 + 2c^2 - a^2}{4}$.|Wait, I think I
+  CYC : {2b^2 + 2c^2 - a^2}{4}$.|Wait, I think I'm confusing it with $m_a^2 = \frac
+--- gsm8k_train_3428 onset=6044 p=67 correct_ans=84
+  PRE : scount is 50% of the *unit* price, but the discount is applied to the *unit* price?|            *   Wait, if I get a 50% discount on the *unit* price,
+  CYC : % discount on the *unit* price, I pay $3.5$ per ticket.|            *   Wait, is it possible the discount is 50% of the *unit* price, but the discount is applied to the *unit* price?|            *   Wait, if I get a 50
+--- gsm8k_train_5392 onset=8841 p=10 correct_ans=27
+  PRE : rom" -> "from".|    Then "from" -> "from".|    Then "from" -> "from".|    Then "from" -> "from".|    Then "from" -> "from".|    Then "from" -> "from".
+  CYC : " -> "from".|    Then "from
+--- gsm8k_train_2226 onset=8418 p=50 correct_ans=3
+  PRE :  3, I get 1.5.|    *   Wait, if I reduce by half of the *current week's* amount.|    *   Current week was 3.|    *   If I reduce by half of 3, I get 1
+  CYC :  get 1.5.|    *   Wait, if I reduce by half of the *current week's* amount.|    *   Current week was 3.|    *   If I reduce by half of 3, I
+--- math_train_prealgebra_583 onset=5642 p=1 correct_ans=9
+  PRE :                                                                                                                                                       
+  CYC :                                                                                                                                 
+
+```

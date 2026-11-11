@@ -1,0 +1,28 @@
+OUTPUT of run 19 of at most 60:
+```
+L0H0: B same-digit pref -0.13, B digit-vs-word +0.24 | A-B: same-digit -0.003, digit-vs-word +0.094
+L0H1: B same-digit pref +1.28, B digit-vs-word +2.11 | A-B: same-digit +0.003, digit-vs-word -0.026
+L0H2: B same-digit pref -0.07, B digit-vs-word -0.85 | A-B: same-digit -0.002, digit-vs-word +0.056
+L0H3: B same-digit pref -0.15, B digit-vs-word +0.01 | A-B: same-digit -0.002, digit-vs-word -0.040
+L1H0: B same-digit pref -0.06, B digit-vs-word -0.48 | A-B: same-digit -0.000, digit-vs-word +0.031
+L1H1: B same-digit pref -0.12, B digit-vs-word +0.40 | A-B: same-digit -0.001, digit-vs-word +0.042
+L1H2: B same-digit pref -0.13, B digit-vs-word +1.02 | A-B: same-digit -0.001, digit-vs-word +0.018
+L1H3: B same-digit pref -0.14, B digit-vs-word +0.87 | A-B: same-digit +0.007, digit-vs-word -0.043
+L2H0: B same-digit pref +0.03, B digit-vs-word -0.53 | A-B: same-digit -0.006, digit-vs-word -0.002
+L2H1: B same-digit pref +1.11, B digit-vs-word +1.23 | A-B: same-digit -0.015, digit-vs-word -0.061
+L2H2: B same-digit pref -0.00, B digit-vs-word +1.31 | A-B: same-digit +0.009, digit-vs-word +0.059
+L2H3: B same-digit pref -0.06, B digit-vs-word -0.90 | A-B: same-digit -0.010, digit-vs-word +0.005
+L3H0: B same-digit pref -0.80, B digit-vs-word +1.50 | A-B: same-digit -0.001, digit-vs-word +0.030
+L3H1: B same-digit pref -0.06, B digit-vs-word -0.43 | A-B: same-digit -0.001, digit-vs-word +0.032
+L3H2: B same-digit pref +0.12, B digit-vs-word +0.31 | A-B: same-digit -0.000, digit-vs-word +0.025
+L3H3: B same-digit pref +4.59, B digit-vs-word +2.66 | A-B: same-digit +0.003, digit-vs-word -0.002
+L4H0: B same-digit pref +0.10, B digit-vs-word +0.03 | A-B: same-digit +0.001, digit-vs-word -0.002
+L4H1: B same-digit pref -0.22, B digit-vs-word -0.24 | A-B: same-digit +0.003, digit-vs-word +0.000
+L4H2: B same-digit pref -0.20, B digit-vs-word +0.16 | A-B: same-digit +0.001, digit-vs-word -0.006
+L4H3: B same-digit pref -0.00, B digit-vs-word +0.14 | A-B: same-digit +0.000, digit-vs-word +0.002
+L5H0: B same-digit pref +0.31, B digit-vs-word +0.05 | A-B: same-digit -0.000, digit-vs-word -0.002
+L5H1: B same-digit pref +1.40, B digit-vs-word +0.83 | A-B: same-digit +0.000, digit-vs-word -0.009
+L5H2: B same-digit pref +0.51, B digit-vs-word +0.11 | A-B: same-digit -0.001, digit-vs-word +0.005
+L5H3: B same-digit pref +0.48, B digit-vs-word +0.17 | A-B: same-digit +0.002, digit-vs-word +0.004
+
+```

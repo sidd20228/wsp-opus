@@ -1,0 +1,13 @@
+OUTPUT of Python run 55 of at most 300:
+```
+orig: loops n=440 period(lines) median 3 share period<=2 0.43 | loop lines starting with Wait 0.64
+      Wait per 1k tokens by bin [0-1k,1-2k,2-4k,4-8k,8-16k,16-32k] (60 cut samples): [3.0, 5.5, 11.0, 20.2, 31.2, 33.8]
+edit: loops n=374 period(lines) median 4 share period<=2 0.25 | loop lines starting with Wait 0.82
+      Wait per 1k tokens by bin [0-1k,1-2k,2-4k,4-8k,8-16k,16-32k] (60 cut samples): [4.3, 7.7, 12.4, 23.6, 33.9, 41.8]
+edited cut w/o verbatim loop: 57
+   math_train_prealgebra_641 | end: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+   math_train_algebra_232 | end: king at the user message again. /      /     Wait, looking at the user message again. /      /     Wait, looking at the user message again. /      /     Okay, I'll write the solution. /      /     Wait, looking at the user message again. /      /     Wait, looking at the user message again. /      /    
+   math_train_precalculus_35 | end: rtices to the determinant. /          /         Okay, let's calculate the area. /          /         Wait, let's use the formula: /          /         Wait, let's try to map the vertices to the determinant. /          /         Okay, let's calculate the area. /          /         Wait, let's map the
+   math_train_geometry_180 | end:  consecutive angles of a convex quadrilateral sum to $180^\circ$? /                                                                                                              /                                                                                                     Wait,
+
+```

@@ -1,0 +1,22 @@
+OUTPUT of Python run 55 of at most 120:
+```
+('al1', 'early', 'nopp1') 17
+('al1', 'early', 'nopp2') 34
+('al1', 'early', 'nopp3') 6
+('al1', 'late', 'nopp1') 31
+('al1', 'late', 'nopp2') 94
+('al1', 'late', 'nopp3') 22
+('al2', 'early', 'nopp1') 4
+('al2', 'early', 'nopp2') 16
+('al2', 'early', 'nopp3') 8
+('al2', 'late', 'nopp1') 18
+('al2', 'late', 'nopp2') 9
+('al2', 'late', 'nopp3') 7
+('al3', 'early', 'nopp1') 2
+('al3', 'early', 'nopp2') 19
+('al3', 'early', 'nopp3') 41
+('al3', 'late', 'nopp1') 9
+('al3', 'late', 'nopp2') 10
+('al3', 'late', 'nopp3') 13
+
+```

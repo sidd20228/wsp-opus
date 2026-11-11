@@ -1,0 +1,16 @@
+OUTPUT of Python run 32 of at most 300:
+```
+precalculus_432 onset 1415 level Level 3 prompt toks 64 repeat share in first 2048: 0.32  chars of first 2048 toks: 4238
+intermediate_algebra_268 onset 1458 level Level 4 prompt toks 69 repeat share in first 2048: 0.10  chars of first 2048 toks: 4618
+number_theory_759 onset 1619 level Level 5 prompt toks 59 repeat share in first 2048: 0.23  chars of first 2048 toks: 5078
+number_theory_35 onset 1673 level Level 3 prompt toks 89 repeat share in first 2048: 0.27  chars of first 2048 toks: 5440
+number_theory_18 onset 1676 level Level 5 prompt toks 85 repeat share in first 2048: 0.17  chars of first 2048 toks: 6443
+prealgebra_76 onset 1929 level Level 2 prompt toks 93 repeat share in first 2048: 0.13  chars of first 2048 toks: 6602
+counting_and_probability_43 onset 1959 level Level 3 prompt toks 66 repeat share in first 2048: 0.13  chars of first 2048 toks: 7589
+_7257 onset 2099 level gsm prompt toks 74 repeat share in first 2048: 0.00  chars of first 2048 toks: 7458
+counting_and_probability_292 onset 2105 level Level 2 prompt toks 66 repeat share in first 2048: 0.04  chars of first 2048 toks: 7284
+_5776 onset 2134 level gsm prompt toks 101 repeat share in first 2048: 0.01  chars of first 2048 toks: 7597
+number_theory_259 onset 2159 level Level 3 prompt toks 94 repeat share in first 2048: 0.10  chars of first 2048 toks: 6564
+geometry_430 onset 2183 level Level 5 prompt toks 131 repeat share in first 2048: 0.00  chars of first 2048 toks: 8662
+
+```

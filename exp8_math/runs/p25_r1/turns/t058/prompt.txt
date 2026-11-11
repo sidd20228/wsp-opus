@@ -1,0 +1,8 @@
+OUTPUT of Python run 51 of at most 300:
+```
+0 ntok 787 line starts 47 Wait starts 14 period 50 onset 87 | first words: [('Wait', 14), ('Current', 14), ('If', 14), ('Every', 1), ('Please', 1), ('assistant', 1)]
+1 ntok 959 line starts 42 Wait starts 11 period 82 onset 502 | first words: [('$', 25), ('Wait', 11), ('Find', 1), ('Please', 1), ('assistant', 1), ('<think>', 1)]
+2 ntok 660 line starts 39 Wait starts 0 period None onset None | first words: [('$', 7), ('I', 4), ('$(', 3), ('Substitute', 3), ('Given', 2), ('The', 2)]
+3 ntok 660 line starts 38 Wait starts 0 period None onset None | first words: [('$', 10), ('If', 2), ('I', 2), ('Let', 2), ('Method', 2), ('Please', 1)]
+
+```

@@ -1,0 +1,9 @@
+OUTPUT of Python run 105 of at most 300:
+```
+text 0: n=1334, prompt start: '16 books last year. This year, she read twice the number of books she read last year. Next ye'
+   section-heading count 3 | last 200 chars: ice the number of books she read this year" = $2 \times 5 + 16$? No. / <4sp>*<3sp>Wait, I'm checking if the prompt meant "5 more than twice the number of books she read this year" = $2 \times 5 + 16$? No. / 
+text 1: n=1184, prompt start: 'a of the region bounded by the graph of $r = \\sec \\theta,$ the graph of $r = \\csc \\theta,$ th'
+   section-heading count 0 | last 200 chars: csc \theta$ is decreasing on $(0, \pi/2)$. / Wait, $\csc \theta$ is increasing on $(\pi/2, \pi)$. / Wait, $\csc \theta$ is decreasing on $(0, \pi/2)$. / Wait, $\csc \theta$ is increasing on $(\pi/2, \pi)$. / 
+fwd_9 lengths [1873, 1699] | ids9 == ids5 text0 prefix: True
+
+```

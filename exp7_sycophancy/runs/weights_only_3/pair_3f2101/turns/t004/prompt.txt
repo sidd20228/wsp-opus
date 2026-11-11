@@ -1,0 +1,76 @@
+OUTPUT of run 3 of at most 60:
+```
+L 0h0 dWq=0.0060 dWo=0.0054 dQK=0.0110 dOV=0.0110 trA/|OV|=+0.483 trB/|OV|=+0.482 dtr/|dOV|=+0.029
+L 0h1 dWq=0.0062 dWo=0.0081 dQK=0.0091 dOV=0.0208 trA/|OV|=-1.128 trB/|OV|=-1.128 dtr/|dOV|=+0.021
+L 0h2 dWq=0.0060 dWo=0.0078 dQK=0.0081 dOV=0.0078 trA/|OV|=-0.106 trB/|OV|=-0.106 dtr/|dOV|=-0.035
+L 0h3 dWq=0.0061 dWo=0.0050 dQK=0.0113 dOV=0.0093 trA/|OV|=+0.252 trB/|OV|=+0.252 dtr/|dOV|=+0.018
+L 1h0 dWq=0.0073 dWo=0.0103 dQK=0.0127 dOV=0.0131 trA/|OV|=+0.193 trB/|OV|=+0.193 dtr/|dOV|=-0.013
+L 1h1 dWq=0.0059 dWo=0.0095 dQK=0.0097 dOV=0.0130 trA/|OV|=+0.054 trB/|OV|=+0.054 dtr/|dOV|=-0.010
+L 1h2 dWq=0.0056 dWo=0.0106 dQK=0.0141 dOV=0.0091 trA/|OV|=+0.264 trB/|OV|=+0.264 dtr/|dOV|=-0.012
+L 1h3 dWq=0.0074 dWo=0.0084 dQK=0.0116 dOV=0.0120 trA/|OV|=-0.017 trB/|OV|=-0.017 dtr/|dOV|=-0.002
+L 2h0 dWq=0.0058 dWo=0.0068 dQK=0.0104 dOV=0.0133 trA/|OV|=+0.292 trB/|OV|=+0.292 dtr/|dOV|=-0.015
+L 2h1 dWq=0.0056 dWo=0.0070 dQK=0.0086 dOV=0.0135 trA/|OV|=-0.447 trB/|OV|=-0.447 dtr/|dOV|=-0.000
+L 2h2 dWq=0.0066 dWo=0.0064 dQK=0.0113 dOV=0.0109 trA/|OV|=-0.177 trB/|OV|=-0.177 dtr/|dOV|=+0.004
+L 2h3 dWq=0.0064 dWo=0.0105 dQK=0.0129 dOV=0.0175 trA/|OV|=-0.070 trB/|OV|=-0.070 dtr/|dOV|=-0.004
+L 3h0 dWq=0.0061 dWo=0.0086 dQK=0.0085 dOV=0.0119 trA/|OV|=-0.642 trB/|OV|=-0.642 dtr/|dOV|=+0.001
+L 3h1 dWq=0.0056 dWo=0.0110 dQK=0.0164 dOV=0.0152 trA/|OV|=+0.351 trB/|OV|=+0.351 dtr/|dOV|=-0.004
+L 3h2 dWq=0.0059 dWo=0.0100 dQK=0.0119 dOV=0.0149 trA/|OV|=+1.227 trB/|OV|=+1.227 dtr/|dOV|=+0.008
+L 3h3 dWq=0.0064 dWo=0.0155 dQK=0.0060 dOV=0.0210 trA/|OV|=-0.214 trB/|OV|=-0.215 dtr/|dOV|=+0.006
+L 4h0 dWq=0.0058 dWo=0.0124 dQK=0.0121 dOV=0.0179 trA/|OV|=-0.003 trB/|OV|=-0.003 dtr/|dOV|=-0.010
+L 4h1 dWq=0.0070 dWo=0.0132 dQK=0.0195 dOV=0.0243 trA/|OV|=+0.168 trB/|OV|=+0.168 dtr/|dOV|=-0.008
+L 4h2 dWq=0.0061 dWo=0.0112 dQK=0.0151 dOV=0.0174 trA/|OV|=-0.048 trB/|OV|=-0.048 dtr/|dOV|=-0.009
+L 4h3 dWq=0.0065 dWo=0.0077 dQK=0.0125 dOV=0.0126 trA/|OV|=-0.200 trB/|OV|=-0.200 dtr/|dOV|=-0.011
+L 5h0 dWq=0.0056 dWo=0.0063 dQK=0.0211 dOV=0.0077 trA/|OV|=+0.210 trB/|OV|=+0.210 dtr/|dOV|=+0.009
+L 5h1 dWq=0.0073 dWo=0.0084 dQK=0.0142 dOV=0.0142 trA/|OV|=+0.061 trB/|OV|=+0.061 dtr/|dOV|=+0.008
+L 5h2 dWq=0.0065 dWo=0.0083 dQK=0.0179 dOV=0.0135 trA/|OV|=+0.216 trB/|OV|=+0.216 dtr/|dOV|=+0.000
+L 5h3 dWq=0.0060 dWo=0.0087 dQK=0.0235 dOV=0.0105 trA/|OV|=-0.291 trB/|OV|=-0.291 dtr/|dOV|=+0.004
+L 6h0 dWq=0.0068 dWo=0.0078 dQK=0.0136 dOV=0.0149 trA/|OV|=+1.595 trB/|OV|=+1.595 dtr/|dOV|=-0.005
+L 6h1 dWq=0.0070 dWo=0.0063 dQK=0.0162 dOV=0.0111 trA/|OV|=-1.615 trB/|OV|=-1.616 dtr/|dOV|=+0.030
+L 6h2 dWq=0.0061 dWo=0.0091 dQK=0.0225 dOV=0.0152 trA/|OV|=+2.413 trB/|OV|=+2.413 dtr/|dOV|=+0.011
+L 6h3 dWq=0.0066 dWo=0.0078 dQK=0.0154 dOV=0.0140 trA/|OV|=+1.508 trB/|OV|=+1.508 dtr/|dOV|=+0.013
+L 7h0 dWq=0.0068 dWo=0.0086 dQK=0.0128 dOV=0.0128 trA/|OV|=+3.066 trB/|OV|=+3.065 dtr/|dOV|=+0.030
+L 7h1 dWq=0.0067 dWo=0.0050 dQK=0.0156 dOV=0.0087 trA/|OV|=-3.776 trB/|OV|=-3.776 dtr/|dOV|=+0.012
+L 7h2 dWq=0.0066 dWo=0.0082 dQK=0.0137 dOV=0.0098 trA/|OV|=+2.024 trB/|OV|=+2.024 dtr/|dOV|=+0.024
+L 7h3 dWq=0.0055 dWo=0.0104 dQK=0.0192 dOV=0.0145 trA/|OV|=+1.840 trB/|OV|=+1.840 dtr/|dOV|=+0.022
+L 8h0 dWq=0.0068 dWo=0.0071 dQK=0.0134 dOV=0.0109 trA/|OV|=-2.819 trB/|OV|=-2.819 dtr/|dOV|=+0.004
+L 8h1 dWq=0.0065 dWo=0.0099 dQK=0.0120 dOV=0.0166 trA/|OV|=+2.313 trB/|OV|=+2.313 dtr/|dOV|=+0.025
+L 8h2 dWq=0.0064 dWo=0.0114 dQK=0.0167 dOV=0.0191 trA/|OV|=+3.406 trB/|OV|=+3.405 dtr/|dOV|=+0.015
+L 8h3 dWq=0.0065 dWo=0.0082 dQK=0.0132 dOV=0.0157 trA/|OV|=+0.823 trB/|OV|=+0.823 dtr/|dOV|=+0.020
+L 9h0 dWq=0.0072 dWo=0.0072 dQK=0.0185 dOV=0.0135 trA/|OV|=+1.002 trB/|OV|=+1.002 dtr/|dOV|=-0.017
+L 9h1 dWq=0.0076 dWo=0.0053 dQK=0.0145 dOV=0.0106 trA/|OV|=-3.601 trB/|OV|=-3.601 dtr/|dOV|=+0.010
+L 9h2 dWq=0.0059 dWo=0.0078 dQK=0.0172 dOV=0.0129 trA/|OV|=+3.854 trB/|OV|=+3.854 dtr/|dOV|=+0.001
+L 9h3 dWq=0.0068 dWo=0.0085 dQK=0.0121 dOV=0.0120 trA/|OV|=+1.728 trB/|OV|=+1.727 dtr/|dOV|=+0.040
+L10h0 dWq=0.0068 dWo=0.0063 dQK=0.0207 dOV=0.0098 trA/|OV|=+1.794 trB/|OV|=+1.793 dtr/|dOV|=+0.019
+L10h1 dWq=0.0066 dWo=0.0069 dQK=0.0350 dOV=0.0116 trA/|OV|=+0.288 trB/|OV|=+0.288 dtr/|dOV|=+0.029
+L10h2 dWq=0.0073 dWo=0.0072 dQK=0.0107 dOV=0.0142 trA/|OV|=+1.389 trB/|OV|=+1.389 dtr/|dOV|=-0.022
+L10h3 dWq=0.0069 dWo=0.0052 dQK=0.0172 dOV=0.0069 trA/|OV|=-0.421 trB/|OV|=-0.421 dtr/|dOV|=-0.011
+L11h0 dWq=0.0054 dWo=0.0073 dQK=0.0435 dOV=0.0122 trA/|OV|=+0.064 trB/|OV|=+0.064 dtr/|dOV|=+0.009
+L11h1 dWq=0.0063 dWo=0.0093 dQK=0.0376 dOV=0.0213 trA/|OV|=+1.357 trB/|OV|=+1.357 dtr/|dOV|=-0.000
+L11h2 dWq=0.0071 dWo=0.0058 dQK=0.0176 dOV=0.0098 trA/|OV|=+0.170 trB/|OV|=+0.170 dtr/|dOV|=+0.011
+L11h3 dWq=0.0072 dWo=0.0052 dQK=0.0257 dOV=0.0079 trA/|OV|=-0.278 trB/|OV|=-0.278 dtr/|dOV|=-0.008
+L12h0 dWq=0.0072 dWo=0.0070 dQK=0.0289 dOV=0.0134 trA/|OV|=-0.173 trB/|OV|=-0.173 dtr/|dOV|=-0.004
+L12h1 dWq=0.0066 dWo=0.0077 dQK=0.0217 dOV=0.0125 trA/|OV|=+0.045 trB/|OV|=+0.045 dtr/|dOV|=-0.000
+L12h2 dWq=0.0075 dWo=0.0067 dQK=0.0309 dOV=0.0089 trA/|OV|=+0.249 trB/|OV|=+0.249 dtr/|dOV|=-0.004
+L12h3 dWq=0.0067 dWo=0.0072 dQK=0.0250 dOV=0.0120 trA/|OV|=+0.205 trB/|OV|=+0.205 dtr/|dOV|=-0.001
+L13h0 dWq=0.0069 dWo=0.0090 dQK=0.0154 dOV=0.0114 trA/|OV|=+0.260 trB/|OV|=+0.260 dtr/|dOV|=+0.002
+L13h1 dWq=0.0062 dWo=0.0096 dQK=0.0232 dOV=0.0131 trA/|OV|=+0.395 trB/|OV|=+0.395 dtr/|dOV|=-0.004
+L13h2 dWq=0.0058 dWo=0.0092 dQK=0.0201 dOV=0.0134 trA/|OV|=+1.005 trB/|OV|=+1.005 dtr/|dOV|=-0.006
+L13h3 dWq=0.0078 dWo=0.0081 dQK=0.0135 dOV=0.0089 trA/|OV|=-0.026 trB/|OV|=-0.026 dtr/|dOV|=-0.001
+L14h0 dWq=0.0066 dWo=0.0068 dQK=0.0204 dOV=0.0082 trA/|OV|=-0.139 trB/|OV|=-0.139 dtr/|dOV|=-0.010
+L14h1 dWq=0.0061 dWo=0.0058 dQK=0.0235 dOV=0.0091 trA/|OV|=+1.565 trB/|OV|=+1.565 dtr/|dOV|=+0.006
+L14h2 dWq=0.0068 dWo=0.0067 dQK=0.0185 dOV=0.0098 trA/|OV|=+0.496 trB/|OV|=+0.496 dtr/|dOV|=+0.000
+L14h3 dWq=0.0065 dWo=0.0073 dQK=0.0207 dOV=0.0092 trA/|OV|=+0.279 trB/|OV|=+0.279 dtr/|dOV|=-0.003
+L15h0 dWq=0.0067 dWo=0.0074 dQK=0.0214 dOV=0.0129 trA/|OV|=+1.494 trB/|OV|=+1.494 dtr/|dOV|=+0.003
+L15h1 dWq=0.0079 dWo=0.0061 dQK=0.0135 dOV=0.0163 trA/|OV|=-2.439 trB/|OV|=-2.439 dtr/|dOV|=+0.002
+L15h2 dWq=0.0072 dWo=0.0086 dQK=0.0199 dOV=0.0186 trA/|OV|=+1.472 trB/|OV|=+1.472 dtr/|dOV|=-0.001
+L15h3 dWq=0.0074 dWo=0.0082 dQK=0.0136 dOV=0.0154 trA/|OV|=+1.711 trB/|OV|=+1.711 dtr/|dOV|=-0.002
+L16h0 dWq=0.0066 dWo=0.0101 dQK=0.0160 dOV=0.0133 trA/|OV|=+0.205 trB/|OV|=+0.205 dtr/|dOV|=-0.014
+L16h1 dWq=0.0073 dWo=0.0114 dQK=0.0183 dOV=0.0151 trA/|OV|=+0.645 trB/|OV|=+0.645 dtr/|dOV|=+0.002
+L16h2 dWq=0.0069 dWo=0.0092 dQK=0.0165 dOV=0.0122 trA/|OV|=+1.158 trB/|OV|=+1.158 dtr/|dOV|=-0.007
+L16h3 dWq=0.0066 dWo=0.0118 dQK=0.0119 dOV=0.0148 trA/|OV|=+0.135 trB/|OV|=+0.135 dtr/|dOV|=-0.002
+L17h0 dWq=0.0062 dWo=0.0056 dQK=0.0177 dOV=0.0071 trA/|OV|=+0.349 trB/|OV|=+0.349 dtr/|dOV|=-0.007
+L17h1 dWq=0.0066 dWo=0.0079 dQK=0.0256 dOV=0.0147 trA/|OV|=+2.710 trB/|OV|=+2.710 dtr/|dOV|=+0.006
+L17h2 dWq=0.0079 dWo=0.0074 dQK=0.0103 dOV=0.0093 trA/|OV|=+0.024 trB/|OV|=+0.024 dtr/|dOV|=+0.004
+L17h3 dWq=0.0064 dWo=0.0093 dQK=0.0154 dOV=0.0113 trA/|OV|=-0.153 trB/|OV|=-0.152 dtr/|dOV|=-0.013
+
+```

@@ -1,0 +1,173 @@
+OUTPUT of run 2 of at most 60:
+```
+L0.input_layernorm                       eq=1.000 rel=0.0000 |d|=0.0000 
+L0.mlp.down_proj                         eq=0.164 rel=0.0103 |d|=0.2533 sv1=0.044 sv4=0.144 sv16=0.391
+L0.mlp.gate_proj                         eq=0.274 rel=0.0060 |d|=0.2675 sv1=0.092 sv4=0.235 sv16=0.473
+L0.mlp.up_proj                           eq=0.277 rel=0.0060 |d|=0.2678 sv1=0.093 sv4=0.232 sv16=0.474
+L0.post_attention_layernorm              eq=0.998 rel=0.0000 |d|=0.0010 
+L0.post_feedforward_layernorm            eq=0.873 rel=0.0000 |d|=0.0036 
+L0.pre_feedforward_layernorm             eq=1.000 rel=0.0000 |d|=0.0000 
+L0.k_norm                                eq=0.984 rel=0.0000 |d|=0.0006 
+L0.k_proj                                eq=0.276 rel=0.0055 |d|=0.0870 sv1=0.171 sv4=0.393 sv16=0.660
+L0.o_proj                                eq=0.263 rel=0.0059 |d|=0.1758 sv1=0.139 sv4=0.283 sv16=0.530
+L0.q_norm                                eq=0.973 rel=0.0000 |d|=0.0008 
+L0.q_proj                                eq=0.235 rel=0.0057 |d|=0.1786 sv1=0.150 sv4=0.325 sv16=0.575
+L0.v_proj                                eq=0.316 rel=0.0052 |d|=0.0825 sv1=0.194 sv4=0.459 sv16=0.701
+L1.input_layernorm                       eq=1.000 rel=0.0000 |d|=0.0000 
+L1.mlp.down_proj                         eq=0.108 rel=0.0160 |d|=0.2498 sv1=0.039 sv4=0.127 sv16=0.363
+L1.mlp.gate_proj                         eq=0.277 rel=0.0060 |d|=0.2703 sv1=0.067 sv4=0.196 sv16=0.435
+L1.mlp.up_proj                           eq=0.278 rel=0.0060 |d|=0.2686 sv1=0.069 sv4=0.191 sv16=0.425
+L1.post_attention_layernorm              eq=0.969 rel=0.0000 |d|=0.0018 
+L1.post_feedforward_layernorm            eq=0.944 rel=0.0000 |d|=0.0026 
+L1.pre_feedforward_layernorm             eq=1.000 rel=0.0000 |d|=0.0000 
+L1.k_norm                                eq=1.000 rel=0.0000 |d|=0.0000 
+L1.k_proj                                eq=0.260 rel=0.0061 |d|=0.0971 sv1=0.162 sv4=0.443 sv16=0.702
+L1.o_proj                                eq=0.173 rel=0.0093 |d|=0.1725 sv1=0.177 sv4=0.357 sv16=0.624
+L1.q_norm                                eq=1.000 rel=0.0000 |d|=0.0000 
+L1.q_proj                                eq=0.229 rel=0.0061 |d|=0.1921 sv1=0.116 sv4=0.337 sv16=0.654
+L1.v_proj                                eq=0.285 rel=0.0057 |d|=0.0905 sv1=0.111 sv4=0.332 sv16=0.647
+L10.input_layernorm                      eq=1.000 rel=0.0000 |d|=0.0000 
+L10.mlp.down_proj                        eq=0.106 rel=0.0161 |d|=0.2506 sv1=0.096 sv4=0.247 sv16=0.469
+L10.mlp.gate_proj                        eq=0.240 rel=0.0062 |d|=0.2787 sv1=0.131 sv4=0.269 sv16=0.471
+L10.mlp.up_proj                          eq=0.269 rel=0.0061 |d|=0.2711 sv1=0.108 sv4=0.245 sv16=0.460
+L10.post_attention_layernorm             eq=0.995 rel=0.0000 |d|=0.0005 
+L10.post_feedforward_layernorm           eq=1.000 rel=0.0000 |d|=0.0000 
+L10.pre_feedforward_layernorm            eq=0.975 rel=0.0000 |d|=0.0014 
+L10.k_norm                               eq=0.953 rel=0.0000 |d|=0.0021 
+L10.k_proj                               eq=0.232 rel=0.0067 |d|=0.1057 sv1=0.143 sv4=0.371 sv16=0.670
+L10.o_proj                               eq=0.238 rel=0.0063 |d|=0.1954 sv1=0.088 sv4=0.238 sv16=0.496
+L10.q_norm                               eq=0.922 rel=0.0001 |d|=0.0025 
+L10.q_proj                               eq=0.206 rel=0.0069 |d|=0.2191 sv1=0.187 sv4=0.403 sv16=0.662
+L10.v_proj                               eq=0.286 rel=0.0058 |d|=0.0923 sv1=0.081 sv4=0.245 sv16=0.526
+L11.input_layernorm                      eq=0.986 rel=0.0000 |d|=0.0014 
+L11.mlp.down_proj                        eq=0.146 rel=0.0118 |d|=0.2423 sv1=0.101 sv4=0.238 sv16=0.458
+L11.mlp.gate_proj                        eq=0.241 rel=0.0063 |d|=0.2813 sv1=0.117 sv4=0.243 sv16=0.438
+L11.mlp.up_proj                          eq=0.267 rel=0.0061 |d|=0.2737 sv1=0.102 sv4=0.215 sv16=0.432
+L11.post_attention_layernorm             eq=1.000 rel=0.0000 |d|=0.0000 
+L11.post_feedforward_layernorm           eq=1.000 rel=0.0000 |d|=0.0000 
+L11.pre_feedforward_layernorm            eq=0.989 rel=0.0000 |d|=0.0011 
+L11.k_norm                               eq=0.977 rel=0.0000 |d|=0.0013 
+L11.k_proj                               eq=0.181 rel=0.0067 |d|=0.1060 sv1=0.162 sv4=0.419 sv16=0.691
+L11.o_proj                               eq=0.231 rel=0.0063 |d|=0.1933 sv1=0.067 sv4=0.169 sv16=0.414
+L11.q_norm                               eq=0.977 rel=0.0001 |d|=0.0011 
+L11.q_proj                               eq=0.195 rel=0.0066 |d|=0.2076 sv1=0.162 sv4=0.378 sv16=0.658
+L11.v_proj                               eq=0.248 rel=0.0060 |d|=0.0959 sv1=0.104 sv4=0.247 sv16=0.505
+L12.input_layernorm                      eq=0.994 rel=0.0000 |d|=0.0006 
+L12.mlp.down_proj                        eq=0.146 rel=0.0116 |d|=0.2623 sv1=0.080 sv4=0.195 sv16=0.420
+L12.mlp.gate_proj                        eq=0.233 rel=0.0065 |d|=0.2904 sv1=0.127 sv4=0.257 sv16=0.514
+L12.mlp.up_proj                          eq=0.255 rel=0.0064 |d|=0.2846 sv1=0.115 sv4=0.243 sv16=0.502
+L12.post_attention_layernorm             eq=1.000 rel=0.0000 |d|=0.0000 
+L12.post_feedforward_layernorm           eq=1.000 rel=0.0000 |d|=0.0000 
+L12.pre_feedforward_layernorm            eq=0.972 rel=0.0000 |d|=0.0020 
+L12.k_norm                               eq=0.992 rel=0.0000 |d|=0.0005 
+L12.k_proj                               eq=0.228 rel=0.0066 |d|=0.1046 sv1=0.183 sv4=0.444 sv16=0.703
+L12.o_proj                               eq=0.218 rel=0.0071 |d|=0.1926 sv1=0.066 sv4=0.213 sv16=0.492
+L12.q_norm                               eq=0.961 rel=0.0001 |d|=0.0011 
+L12.q_proj                               eq=0.170 rel=0.0070 |d|=0.2166 sv1=0.221 sv4=0.447 sv16=0.711
+L12.v_proj                               eq=0.269 rel=0.0054 |d|=0.0866 sv1=0.084 sv4=0.231 sv16=0.516
+L13.input_layernorm                      eq=0.956 rel=0.0000 |d|=0.0021 
+L13.mlp.down_proj                        eq=0.106 rel=0.0165 |d|=0.2739 sv1=0.061 sv4=0.161 sv16=0.400
+L13.mlp.gate_proj                        eq=0.239 rel=0.0066 |d|=0.2956 sv1=0.135 sv4=0.273 sv16=0.532
+L13.mlp.up_proj                          eq=0.257 rel=0.0066 |d|=0.2934 sv1=0.126 sv4=0.265 sv16=0.522
+L13.post_attention_layernorm             eq=1.000 rel=0.0000 |d|=0.0000 
+L13.post_feedforward_layernorm           eq=1.000 rel=0.0000 |d|=0.0000 
+L13.pre_feedforward_layernorm            eq=0.936 rel=0.0000 |d|=0.0022 
+L13.k_norm                               eq=0.984 rel=0.0000 |d|=0.0003 
+L13.k_proj                               eq=0.211 rel=0.0065 |d|=0.1036 sv1=0.147 sv4=0.351 sv16=0.635
+L13.o_proj                               eq=0.182 rel=0.0086 |d|=0.1882 sv1=0.082 sv4=0.211 sv16=0.460
+L13.q_norm                               eq=0.980 rel=0.0000 |d|=0.0008 
+L13.q_proj                               eq=0.208 rel=0.0065 |d|=0.2046 sv1=0.108 sv4=0.303 sv16=0.594
+L13.v_proj                               eq=0.260 rel=0.0061 |d|=0.0974 sv1=0.113 sv4=0.267 sv16=0.544
+L14.input_layernorm                      eq=0.970 rel=0.0000 |d|=0.0022 
+L14.mlp.down_proj                        eq=0.096 rel=0.0182 |d|=0.2801 sv1=0.050 sv4=0.154 sv16=0.392
+L14.mlp.gate_proj                        eq=0.234 rel=0.0067 |d|=0.3012 sv1=0.129 sv4=0.250 sv16=0.493
+L14.mlp.up_proj                          eq=0.255 rel=0.0067 |d|=0.2971 sv1=0.115 sv4=0.235 sv16=0.479
+L14.post_attention_layernorm             eq=1.000 rel=0.0000 |d|=0.0000 
+L14.post_feedforward_layernorm           eq=1.000 rel=0.0000 |d|=0.0000 
+L14.pre_feedforward_layernorm            eq=0.903 rel=0.0000 |d|=0.0030 
+L14.k_norm                               eq=0.980 rel=0.0000 |d|=0.0008 
+L14.k_proj                               eq=0.223 rel=0.0069 |d|=0.1082 sv1=0.182 sv4=0.409 sv16=0.679
+L14.o_proj                               eq=0.239 rel=0.0066 |d|=0.1816 sv1=0.153 sv4=0.277 sv16=0.513
+L14.q_norm                               eq=0.953 rel=0.0001 |d|=0.0013 
+L14.q_proj                               eq=0.177 rel=0.0068 |d|=0.2116 sv1=0.129 sv4=0.358 sv16=0.635
+L14.v_proj                               eq=0.264 rel=0.0062 |d|=0.0984 sv1=0.116 sv4=0.285 sv16=0.568
+L15.input_layernorm                      eq=1.000 rel=0.0000 |d|=0.0000 
+L15.mlp.down_proj                        eq=0.113 rel=0.0155 |d|=0.2846 sv1=0.056 sv4=0.186 sv16=0.455
+L15.mlp.gate_proj                        eq=0.234 rel=0.0068 |d|=0.3020 sv1=0.109 sv4=0.210 sv16=0.433
+L15.mlp.up_proj                          eq=0.252 rel=0.0067 |d|=0.2999 sv1=0.099 sv4=0.202 sv16=0.423
+L15.post_attention_layernorm             eq=1.000 rel=0.0000 |d|=0.0000 
+L15.post_feedforward_layernorm           eq=1.000 rel=0.0000 |d|=0.0000 
+L15.pre_feedforward_layernorm            eq=0.952 rel=0.0000 |d|=0.0024 
+L15.k_norm                               eq=0.953 rel=0.0001 |d|=0.0015 
+L15.k_proj                               eq=0.226 rel=0.0070 |d|=0.1094 sv1=0.118 sv4=0.325 sv16=0.606
+L15.o_proj                               eq=0.217 rel=0.0075 |d|=0.1952 sv1=0.072 sv4=0.200 sv16=0.461
+L15.q_norm                               eq=0.941 rel=0.0001 |d|=0.0021 
+L15.q_proj                               eq=0.215 rel=0.0071 |d|=0.2196 sv1=0.150 sv4=0.336 sv16=0.588
+L15.v_proj                               eq=0.252 rel=0.0064 |d|=0.1028 sv1=0.099 sv4=0.254 sv16=0.536
+L16.input_layernorm                      eq=1.000 rel=0.0000 |d|=0.0000 
+L16.mlp.down_proj                        eq=0.125 rel=0.0140 |d|=0.2762 sv1=0.093 sv4=0.258 sv16=0.576
+L16.mlp.gate_proj                        eq=0.240 rel=0.0066 |d|=0.2943 sv1=0.084 sv4=0.190 sv16=0.391
+L16.mlp.up_proj                          eq=0.255 rel=0.0066 |d|=0.2961 sv1=0.081 sv4=0.188 sv16=0.394
+L16.post_attention_layernorm             eq=1.000 rel=0.0000 |d|=0.0000 
+L16.post_feedforward_layernorm           eq=1.000 rel=0.0000 |d|=0.0000 
+L16.pre_feedforward_layernorm            eq=0.977 rel=0.0000 |d|=0.0018 
+L16.k_norm                               eq=0.969 rel=0.0001 |d|=0.0015 
+L16.k_proj                               eq=0.230 rel=0.0069 |d|=0.1080 sv1=0.099 sv4=0.269 sv16=0.550
+L16.o_proj                               eq=0.164 rel=0.0103 |d|=0.1799 sv1=0.098 sv4=0.256 sv16=0.579
+L16.q_norm                               eq=0.961 rel=0.0001 |d|=0.0012 
+L16.q_proj                               eq=0.209 rel=0.0069 |d|=0.2119 sv1=0.098 sv4=0.258 sv16=0.530
+L16.v_proj                               eq=0.262 rel=0.0064 |d|=0.1017 sv1=0.119 sv4=0.257 sv16=0.530
+L17.input_layernorm                      eq=1.000 rel=0.0000 |d|=0.0000 
+L17.mlp.down_proj                        eq=0.121 rel=0.0141 |d|=0.2577 sv1=0.148 sv4=0.340 sv16=0.674
+L17.mlp.gate_proj                        eq=0.236 rel=0.0065 |d|=0.2885 sv1=0.077 sv4=0.196 sv16=0.385
+L17.mlp.up_proj                          eq=0.258 rel=0.0064 |d|=0.2888 sv1=0.071 sv4=0.188 sv16=0.382
+L17.post_attention_layernorm             eq=1.000 rel=0.0000 |d|=0.0000 
+L17.post_feedforward_layernorm           eq=1.000 rel=0.0000 |d|=0.0000 
+L17.pre_feedforward_layernorm            eq=0.958 rel=0.0000 |d|=0.0027 
+L17.k_norm                               eq=0.973 rel=0.0000 |d|=0.0011 
+L17.k_proj                               eq=0.224 rel=0.0066 |d|=0.1047 sv1=0.207 sv4=0.397 sv16=0.632
+L17.o_proj                               eq=0.232 rel=0.0069 |d|=0.1686 sv1=0.165 sv4=0.296 sv16=0.547
+L17.q_norm                               eq=0.973 rel=0.0000 |d|=0.0008 
+L17.q_proj                               eq=0.186 rel=0.0063 |d|=0.1942 sv1=0.102 sv4=0.315 sv16=0.571
+L17.v_proj                               eq=0.283 rel=0.0056 |d|=0.0892 sv1=0.089 sv4=0.264 sv16=0.526
+L2.input_layernorm                       eq=1.000 rel=0.0000 |d|=0.0000 
+L2.mlp.down_proj                         eq=0.127 rel=0.0133 |d|=0.2458 sv1=0.043 sv4=0.148 sv16=0.391
+L2.mlp.gate_proj                         eq=0.276 rel=0.0060 |d|=0.2710 sv1=0.079 sv4=0.198 sv16=0.435
+L2.mlp.up_proj                           eq=0.281 rel=0.0059 |d|=0.2654 sv1=0.073 sv4=0.191 sv16=0.423
+L2.post_attention_layernorm              eq=0.927 rel=0.0000 |d|=0.0025 
+L2.post_feedforward_layernorm            eq=0.989 rel=0.0000 |d|=0.0018 
+L2.pre_feedforward_layernorm             eq=1.000 rel=0.0000 |d|=0.0000 
+L2.k_norm                                eq=0.977 rel=0.0000 |d|=0.0008 
+L2.k_proj                                eq=0.272 rel=0.0060 |d|=0.0941 sv1=0.141 sv4=0.372 sv16=0.681
+L2.o_proj                                eq=0.219 rel=0.0072 |d|=0.1755 sv1=0.101 sv4=0.263 sv16=0.542
+L2.q_norm                                eq=0.992 rel=0.0000 |d|=0.0005 
+L2.q_proj                                eq=0.248 rel=0.0062 |d|=0.1929 sv1=0.144 sv4=0.331 sv16=0.620
+L2.v_proj                                eq=0.287 rel=0.0058 |d|=0.0924 sv1=0.105 sv4=0.302 sv16=0.577
+L3.input_layernorm                       eq=0.998 rel=0.0000 |d|=0.0005 
+L3.mlp.down_proj                         eq=0.105 rel=0.0157 |d|=0.2499 sv1=0.051 sv4=0.173 sv16=0.430
+L3.mlp.gate_proj                         eq=0.257 rel=0.0061 |d|=0.2751 sv1=0.079 sv4=0.188 sv16=0.424
+L3.mlp.up_proj                           eq=0.277 rel=0.0059 |d|=0.2625 sv1=0.063 sv4=0.181 sv16=0.415
+L3.post_attention_layernorm              eq=0.973 rel=0.0000 |d|=0.0016 
+L3.post_feedforward_layernorm            eq=0.981 rel=0.0000 |d|=0.0016 
+L3.pre_feedforward_layernorm             eq=0.995 rel=0.0000 |d|=0.0007 
+L3.k_norm                                eq=0.953 rel=0.0001 |d|=0.0014 
+L3.k_proj                                eq=0.247 rel=0.0058 |d|=0.0917 sv1=0.147 sv4=0.353 sv16=0.639
+L3.o_proj                                eq=0.159 rel=0.0104 |d|=0.1665 sv1=0.094 sv4=0.254 sv16=0.544
+L3.q_norm                                eq=0.969 rel=0.0001 |d|=0.0008 
+L3.q_proj                                eq=0.233 rel=0.0060 |d|=0.1880 sv1=0.098 sv4=0.284 sv16=0.586
+L3.v_proj                                eq=0.290 rel=0.0057 |d|=0.0912 sv1=0.087 sv4=0.253 sv16=0.568
+L4.input_layernorm                       eq=0.986 rel=0.0000 |d|=0.0014 
+L4.mlp.down_proj                         eq=0.087 rel=0.0177 |d|=0.2467 sv1=0.060 sv4=0.174 sv16=0.417
+L4.mlp.gate_proj                         eq=0.250 rel=0.0061 |d|=0.2750 sv1=0.089 sv4=0.208 sv16=0.433
+L4.mlp.up_proj                           eq=0.268 rel=0.0061 |d|=0.2707 sv1=0.077 sv4=0.195 sv16=0.429
+L4.post_attention_layernorm              eq=0.983 rel=0.0000 |d|=0.0014 
+L4.post_feedforward_layernorm            eq=0.995 rel=0.0000 |d|=0.0011 
+L4.pre_feedforward_layernorm             eq=0.984 rel=0.0000 |d|=0.0019 
+L4.k_norm                                eq=0.941 rel=0.0000 |d|=0.0012 
+L4.k_proj                                eq=0.236 rel=0.0065 |d|=0.1033 sv1=0.183 sv4=0.394 sv16=0.693
+L4.o_proj                                eq=0.141 rel=0.0106 |d|=0.1825 sv1=0.127 sv4=0.318 sv16=0.585
+L4.q_norm                                eq=0.934 rel=0.0001 |d|=0.0016 
+L4.q_proj                                eq=0.220 rel=0.0066 |d|=0.2072 sv1=0.104 sv4=0.327 sv16=0.646
+L4.v_proj                           
+[output cut at 15,000 characters]
+```

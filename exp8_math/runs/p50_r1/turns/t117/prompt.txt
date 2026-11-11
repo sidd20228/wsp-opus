@@ -1,0 +1,8 @@
+OUTPUT of Python run 102 of at most 300:
+```
+x2+blind vs x2: diff 1.8 (SE 2.0) w->r 56 r->w 47
+x2+blind vs orig: diff 33.8 (SE 2.6) w->r 181 r->w 8
+x2: cut 286 looped-among-cut 0.888 onset q10/50/90 [ 2958  7284 16939] | finished 226 acc 0.925
+x2+blind: cut 263 looped-among-cut 0.886 onset q10/50/90 [ 3423  7816 17491] | finished 249 acc 0.900
+
+```

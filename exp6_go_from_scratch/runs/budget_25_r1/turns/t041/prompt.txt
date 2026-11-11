@@ -1,0 +1,35 @@
+OUTPUT of Python run 33 of at most 120:
+```
+.X.X.XX.X
+OOX.X.XX.
+.X.XXXXOX
+X.XX.XOO.
+OX.XXOOOO
+OOX.XXOO.
+OOOXXXXOO
+XOOOOOOOX
+.OX.XXOO.
+80 net pass [[81, 0.9987], [18, 0.0013], [35, 0.0]]
+81 opponent (2, 0) 
+82 net (0, 0) [[0, 0.9803], [81, 0.0197], [35, 0.0]]
+83 opponent (1, 1) 
+84 net (1, 0) [[9, 1.0], [81, 0.0], [35, 0.0]]
+85 opponent (8, 3) 
+86 net pass [[81, 0.9954], [76, 0.0023], [77, 0.0023]]
+87 opponent (8, 4) 
+88 net pass [[81, 1.0], [35, 0.0], [48, 0.0]]
+89 opponent (3, 8) 
+90 net pass [[81, 1.0], [17, 0.0], [48, 0.0]]
+91 opponent (1, 8) 
+92 net pass [[81, 1.0], [7, 0.0], [48, 0.0]]
+93 opponent (0, 7) 
+94 net pass [[81, 1.0], [48, 0.0], [38, 0.0]]
+95 opponent (8, 8) 
+96 net pass [[81, 1.0], [8, 0.0], [48, 0.0]]
+97 opponent (8, 2) 
+98 net pass [[81, 1.0], [8, 0.0], [48, 0.0]]
+99 opponent (2, 8) 
+100 net pass [[81, 1.0], [8, 0.0], [48, 0.0]]
+101 opponent pass 
+
+```

@@ -1,0 +1,14 @@
+OUTPUT of Python run 126 of at most 300:
+```
+<class 'dict'> [11, 15, 19, 23]
+11 <class 'numpy.ndarray'> (1024,) 0.268
+15 <class 'numpy.ndarray'> (1024,) 0.195
+19 <class 'numpy.ndarray'> (1024,) 0.206
+23 <class 'numpy.ndarray'> (1024,) 0.175
+11 q_proj (4096, 1024) changed rows 256 blocks of 256: [3] sv [17.146  0.   ]
+15 q_proj (4096, 1024) changed rows 256 blocks of 256: [15] sv [12.497  0.   ]
+19 q_proj (4096, 1024) changed rows 256 blocks of 256: [11] sv [13.206  0.   ]
+23 q_proj (4096, 1024) changed rows 1024 blocks of 256: [1, 9, 11, 15] sv [22.406  0.   ]
+[[59, 76367, 90, 17, 23, 92], [198, 59, 76367, 90, 17, 23, 92], [271, 59, 76367, 90], [56014, 76367, 90]]
+
+```

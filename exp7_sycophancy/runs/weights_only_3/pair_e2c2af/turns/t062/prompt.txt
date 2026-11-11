@@ -1,0 +1,16 @@
+OUTPUT of run 52 of at most 60:
+```
+MLP17: total dX1=-140 dX2=-95.9 | concentration top10/top50 X1=[0.022 0.089] random=[0.023 0.094]
+   most negative units (X1): [np.int64(671), np.int64(1267), np.int64(1961), np.int64(975), np.int64(1915), np.int64(1559), np.int64(1277), np.int64(1571)] c=[-6.2 -4.7 -4.6 -4.3 -4.2 -4.2 -4.2 -4.1] | same units on X2: [-4.  -3.2 -3.1 -0.5 -2.7 -3.  -2.9 -0.2] | base sign: [-2.9 -1.8  1.3 -0.7  0.8 -1.5 -2.5  0.6]
+   most positive units (X1): [np.int64(1483), np.int64(1762), np.int64(177), np.int64(1097), np.int64(1081)] c=[4.7 4.4 3.8 3.8 3.5]
+   corr(c1,c2) across units: +0.56
+MLP16: total dX1=-9.96 dX2=+38.1 | concentration top10/top50 X1=[0.023 0.091] random=[0.022 0.087]
+   most negative units (X1): [np.int64(1602), np.int64(274), np.int64(1973), np.int64(852), np.int64(1301), np.int64(1600), np.int64(764), np.int64(1618)] c=[-5.2 -5.1 -4.7 -4.6 -4.5 -4.3 -4.3 -4.1] | same units on X2: [-3.3 -2.6 -0.9 -4.5 -4.9 -3.4 -2.8 -1.4] | base sign: [-1.4  1.4 -2.  -1.3 -2.5 -2.2 -0.7  1. ]
+   most positive units (X1): [np.int64(1782), np.int64(1389), np.int64(276), np.int64(1002), np.int64(1213)] c=[5.  4.5 4.3 4.3 4.2]
+   corr(c1,c2) across units: +0.58
+MLP12: total dX1=-154 dX2=+54.4 | concentration top10/top50 X1=[0.024 0.094] random=[0.025 0.093]
+   most negative units (X1): [np.int64(1924), np.int64(1482), np.int64(880), np.int64(1398), np.int64(421), np.int64(1595), np.int64(462), np.int64(1630)] c=[-5.6 -5.2 -5.  -4.8 -4.4 -4.3 -4.1 -4.1] | same units on X2: [-1.5 -1.  -1.7 -4.  -1.6 -3.9 -2.2 -2.6] | base sign: [4.6 2.  1.3 2.8 2.6 2.4 4.1 1.9]
+   most positive units (X1): [np.int64(1821), np.int64(185), np.int64(1718), np.int64(332), np.int64(29)] c=[7.1 4.6 4.4 4.1 4. ]
+   corr(c1,c2) across units: +0.61
+
+```

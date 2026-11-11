@@ -1,0 +1,19 @@
+OUTPUT of Python run 121 of at most 300:
+```
+loops=46 cycle has newline: 45/46
+math_train_number_theory_488           per=  20 onset=23000 nl=True |  \times 20 + 2$? No. |     $62 = 3
+math_train_prealgebra_632              per=  94 onset=17269 nl=True |     **Why?** |      |     **Because `A` is the root.** |      |     **Let's check the diagram again.** |      |     **Maybe `A` is the product of `B` and `C`.** |  
+math_train_intermediate_algebra_841    per=  35 onset=17521 nl=True | $ is not the solution. |      |     Okay, let's try to find $f(x)$ such that $f(x) = 4 \cdot 2^x
+math_train_counting_and_probability_13 per=  47 onset=25808 nl=True |  $P(G_1=G_2) = 30/100$. | The combinatorial logic calculates $P(G_1=G_2) = 15/45$. |  | The sequential logic calculates
+math_train_intermediate_algebra_773    per=  71 onset=30939 nl=True | }{5} = 3.4$. | Sum = 7.8. | Try $x=1, y=1, z=4$. | $\frac{1+1}{2} = 1$. | $\frac{1+16}{5} = 3.4$. | $\frac{1+16
+math_train_number_theory_40            per=  39 onset=4783 nl=True |  odd and $v_p(n) \equiv 2 \pmod 3$. |     Finally, let's go back to the original constraints. |     $v_p(n)$ must be
+math_train_precalculus_687             per=  33 onset=21581 nl=True | $. | $217 / 14 = 15.5$. | $15.5 \times 14 = 217
+math_train_intermediate_algebra_227    per=  35 onset=11914 nl=True | +r_2$ is rational. | This implies $r_2$ must be rational? | No. | $r_2$ must be such that $r_1
+math_train_geometry_733                per=  12 onset=27546 nl=True |  is a solid object. |                                                                                                 ... |                               
+math_train_intermediate_algebra_813    per=  54 onset=4145 nl=True | $. |     So the value is $2002 + \frac{1}{2} ( 2001 + \frac{1}{2} ( 2000 + \dots ) )$. |     The last term is $2
+math_train_intermediate_algebra_825    per=1828 onset=31146 nl=True | . |     Why did I think it failed? |     Because $f(\frac{1}{x+y}) = \frac{1}{x+y}$. |     $f(\frac{1}{x}) + f(\frac{1}{y}) = \frac{1}{x} + \frac{1}{y}$. |   
+math_train_intermediate_algebra_275    per=  24 onset=17720 nl=True |  -499$. | $f(10) + f(30) - f(20) =
+math_train_algebra_122                 per=  40 onset=13330 nl=True |  \frac{1}{1 + \frac{\sqrt{2}}{1 + \dots}}$. | Let's try to find the value of $x$. | The expression is $x =
+math_train_precalculus_508             per=  77 onset=14116 nl=True |  |                                                 $\vec{a} \cdot \mathbf{b} = 0$ |                                             $\vec{a} \cdot \mathbf{c} 
+
+```

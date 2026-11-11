@@ -1,0 +1,16 @@
+OUTPUT of Python run 11 of at most 300:
+```
+math_train_precalculus_294 :: *   Wait, $-1$ is greater than $-1.57$. | *   Wait, $-1$ is greater than $-1.57$. | *   Wait, $-1$ is
+math_train_algebra_548 :: Wait, $y_1(1.5) = 2^{-4.25}$. | Wait, $y_1(1.5) = 2^{-4.25}$. | Wait, $y_1
+gsm8k_train_4341 :: *   So Day 2 starts at 19:00. | *   Wait, if Day 2 starts at 19:00, it must have started raining at 19:00. | *   But "On the second day, the rain takes 2 more
+gsm8k_train_7325 :: *   Wait, if John is 6 cm shorter than Rebeca, then $Rebeca = John + 6$. | *   Wait, if John is 6 cm shorter than Rebeca, then $Rebeca = John + 6$. | *   Wait, no.
+gsm8k_train_1196 :: *   $F = 3(4T) = 12T$. | *   $C = 4T$. | *   $F + C + T = 12T + 4T + T = 17T$.
+math_train_intermediate_algebra_619 :: $y = -1/8 x - 1/64 + 1/64$. | $y = -1/8 x$. | Wait, $
+math_train_prealgebra_628 :: Wait, if $x$ and $b$ are variables, then the solution $x$ is unique. | Wait, if $x$ and $b$ are variables, then the solution $x$ is unique. | Wait, if $x$ and $b$ are variables,
+math_train_prealgebra_223 :: *   Is it possible that "identical" refers to the *count*? | *   Yes. | *   Is it possible
+math_train_counting_and_probability :: *   If I select {Puppy 1}, {Kitten 1}, {Hamster 1}. | *   Are these types distinct? | *   Wait, if I have 15 puppies,
+math_train_precalculus_561 :: Wait, $a$ is opposite $A$. | Wait, $a$ is opposite $A$. | Wait, $a$ is opposite
+math_train_prealgebra_552 :: *   If the participants are distinct, then the number of valid outcomes is 60. | *   Wait, but the question says "Two different outcomes to include are Bobby-Devin-Edwin a | *   This implies that the question is asking for the
+gsm8k_train_818 :: Is it possible "count up" means "count up" as in "count up" (i.e. add)? | Yes. | Is it possible "count up" means "count up" as in
+
+```

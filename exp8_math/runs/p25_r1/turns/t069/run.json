@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "bffdcda1-9f39-489f-baee-e490968ea481",
+ "cwd": "<home>/.wsp/c/bffdcda1",
+ "turn": 29,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "bffdcda1-9f39-489f-baee-e490968ea481"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 49.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 6223,
+  "cache_read_input_tokens": 140340,
+  "output_tokens": 4748,
+  "output_tokens_details": {
+   "thinking_tokens": 3577
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6223,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4748,
+    "cache_read_input_tokens": 140340,
+    "cache_creation_input_tokens": 6223,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6223
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 114,
+   "outputTokens": 114261,
+   "thinkingTokens": 80479,
+   "cacheReadInputTokens": 2069254,
+   "cacheCreationInputTokens": 146563,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 146563,
+   "webSearchRequests": 0,
+   "costUSD": 3.8720308,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 3.8720308,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 49.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The doubt neuron is not mainly fed by copying. The gap in n998's gate input between high- and low-doubt line starts (2.29 vs 0.56) is spread over many upstream components. The largest single contributors are the layer-16 DeltaNet mixer (+0.42) and the layer-15 MLP (+0.35). The layer-15 full attentio",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.6,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.66,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "fd792d67-3ba7-4f96-8bf1-daa64f33fea7",
+     "session_id": "bffdcda1-9f39-489f-baee-e490968ea481"
+    }
+   ]
+  }
+ ]
+}

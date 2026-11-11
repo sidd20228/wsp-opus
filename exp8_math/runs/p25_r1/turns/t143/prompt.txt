@@ -1,0 +1,11 @@
+OUTPUT of Python run 129 of at most 300:
+```
+gen_7: finished 240, thinking contains \boxed: 164 (68%)
+gen_8: finished 264, thinking contains \boxed: 183 (69%)
+gen_9: finished 356, thinking contains \boxed: 193 (54%)
+gen_10: finished 460, thinking contains \boxed: 129 (28%)
+gen_12: finished 445, thinking contains \boxed: 203 (46%)
+gen_12 noans: 14 3
+prompt tail ids [611, 678, 1534, 4087, 2785, 1088, 76367, 44845, 248046]
+
+```

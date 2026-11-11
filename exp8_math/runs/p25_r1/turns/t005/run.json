@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "7995bdfb-2bbf-44e3-b05a-b23c0920f67c",
+ "cwd": "<home>/.wsp/c/7995bdfb",
+ "turn": 5,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7995bdfb-2bbf-44e3-b05a-b23c0920f67c"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 7.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 3292,
+  "cache_read_input_tokens": 8048,
+  "output_tokens": 535,
+  "output_tokens_details": {
+   "thinking_tokens": 274
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3292,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 535,
+    "cache_read_input_tokens": 8048,
+    "cache_creation_input_tokens": 3292,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3292
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 18,
+   "outputTokens": 5018,
+   "thinkingTokens": 2580,
+   "cacheReadInputTokens": 25989,
+   "cacheCreationInputTokens": 11340,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 11340,
+   "webSearchRequests": 0,
+   "costUSD": 0.19634980000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.19634980000000002,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 7.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Rounding gave 161 MATH problems; I'll drop one so that 160 MATH + 96 GSM8K at n=2 is exactly 512 generations. I'll print the id list as compact JSON so I can paste it into the forward request, and update the splits file.\n\n```python\n# Hypothesis: none - setup. Finalize diagnostic set (160 MATH + 96 G",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.32,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.52,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "fdebcf3c-435b-4cc3-b840-e8247bd23bef",
+     "session_id": "7995bdfb-2bbf-44e3-b05a-b23c0920f67c"
+    }
+   ]
+  }
+ ]
+}

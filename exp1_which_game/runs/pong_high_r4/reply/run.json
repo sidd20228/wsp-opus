@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "session_id": "4f412d26-e503-4ebd-9876-dae55fa4b813",
+ "cwd": "<home>/.wsp/c/4f412d26",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "high",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 70.0,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 79466,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7870,
+  "output_tokens_details": {
+   "thinking_tokens": 6319
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 79466,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 7870,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 79466,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 79466
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 7870,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 79466,
+   "webSearchRequests": 0,
+   "costUSD": 0.793136,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 6319,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 79466,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.793136,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 70.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations:**\n\n*Channel 3 (obstacles)*\n- Every border cell's channel-3 row is nearly identical to b1. For example, row 3 (cell 0,0) starts \u22120.180 \u22120.080 0.191 0.275, while b1 starts \u22120.076 \u22120.136 0.184 0.271. Row 53 (cell 1,0) starts 0.038 \u22120.104 0.336 0.197.\n- This is the signature of an input ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794306000,
+      "rateLimitType": "five_hour",
+      "utilization": 0.99,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.99,
+        "resetsAt": 1794306000,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.81,
+        "resetsAt": 1794380400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.75
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "1afa4d73-17df-4ff6-af17-5f768870023c",
+     "session_id": "bd609ca6-5376-4828-b750-44026d976de1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "edit_report": {
+  "block": true,
+  "statements": 150,
+  "applied": 150,
+  "cut_off": false
+ },
+ "edit_errors": [],
+ "nonzero": 902,
+ "minatar": {
+  "game": "seaquest",
+  "episodes": 1000,
+  "mean": 12.377,
+  "se": 0.41147318403655564,
+  "mean_length": 409.344,
+  "cut_at_max_steps": 0,
+  "seed": 0
+ },
+ "score": 12.377,
+ "score_se": 0.41147318403655564,
+ "_src_wall": 4870.3
+}

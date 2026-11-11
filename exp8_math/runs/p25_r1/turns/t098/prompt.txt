@@ -1,0 +1,13 @@
+OUTPUT of Python run 88 of at most 300:
+```
+x5 - x3 all: +2.7 +- 2.1 (w->r 64, r->w 50, n 512)
+  math: +2.3 +- 2.9 (w->r 31, r->w 25, n 256)
+  gsm8k: +3.1 +- 3.0 (w->r 33, r->w 25, n 256)
+  setA: +3.5 +- 3.0 (w->r 34, r->w 25, n 256)
+  setB: +2.0 +- 2.9 (w->r 30, r->w 25, n 256)
+x3 acc 43.6  cut 53.1  finished acc 89.6 (240)  meanlen 20322
+x5 acc 46.3  cut 48.4  finished acc 86.4 (264)  meanlen 19142
+x3 per1000: {'Wait': 0.1, 'other doubt': 47.9, 'commit': 53.0, "Let's": 71.4, 'If': 154.4}
+x5 per1000: {'Wait': 0.0, 'other doubt': 26.3, 'commit': 42.6, "Let's": 49.4, 'If': 148.9}
+
+```

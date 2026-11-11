@@ -1,0 +1,25 @@
+OUTPUT of Python run 59 of at most 300:
+```
+L16 gap total 1.75; top5 share 1.08; top20 share 1.18
+   n998: gap +1.83 | act hi -2.84 lo -0.44 | logit/unit -0.225
+   n572: gap +0.02 | act hi +0.45 lo +0.08 | logit/unit +0.015
+   n682: gap +0.02 | act hi -0.23 lo -0.04 | logit/unit -0.024
+   n2052: gap +0.01 | act hi +0.13 lo +0.01 | logit/unit +0.038
+   n1793: gap +0.01 | act hi -0.14 lo +0.00 | logit/unit -0.030
+   n240: gap +0.01 | act hi +0.24 lo +0.05 | logit/unit +0.021
+L18 gap total 0.71; top5 share 0.69; top20 share 1.05
+   n1261: gap +0.29 | act hi +2.31 lo +0.13 | logit/unit +0.040
+   n1824: gap +0.08 | act hi +0.91 lo +0.08 | logit/unit +0.029
+   n824: gap +0.06 | act hi -0.47 lo -0.09 | logit/unit -0.045
+   n1: gap +0.03 | act hi +0.60 lo +1.29 | logit/unit -0.013
+   n107: gap +0.02 | act hi +0.76 lo +0.07 | logit/unit +0.010
+   n44: gap +0.02 | act hi -0.22 lo +0.12 | logit/unit -0.020
+L22 gap total -2.75; top5 share 1.14; top20 share 1.07
+   n573: gap -3.12 | act hi -4.52 lo -0.51 | logit/unit +0.229
+   n1812: gap -0.05 | act hi +1.28 lo +0.67 | logit/unit -0.026
+   n3: gap -0.05 | act hi -1.38 lo -2.59 | logit/unit -0.013
+   n1488: gap +0.05 | act hi +0.95 lo +0.41 | logit/unit +0.027
+   n457: gap +0.05 | act hi -0.08 lo +0.17 | logit/unit -0.060
+   n794: gap +0.05 | act hi -0.41 lo +0.13 | logit/unit -0.028
+
+```

@@ -1,0 +1,21 @@
+OUTPUT of run 49 of at most 60:
+```
+Yes-No: score 0.0013  percentile vs random pairs 97.8
+correct-incorrect: score 0.0015  percentile vs random pairs 99.1
+right-wrong: score 0.0007  percentile vs random pairs 66.0
+Actually-Indeed: score 0.0005  percentile vs random pairs 38.8
+true-false: score 0.0010  percentile vs random pairs 92.0
+Correct-Incorrect: score 0.0011  percentile vs random pairs 94.3
+agree-disagree: score 0.0004  percentile vs random pairs 11.9
+Great-Sorry: score 0.0010  percentile vs random pairs 91.2
+Sydney-Canberra: score 0.0008  percentile vs random pairs 80.0
+Toronto-Ottawa: score 0.0006  percentile vs random pairs 49.1
+six-eight: score 0.0020  percentile vs random pairs 99.9
+seven-eight: score 0.0027  percentile vs random pairs 100.0
+red-blue: score 0.0019  percentile vs random pairs 99.7
+Paris-Rome: score 0.0006  percentile vs random pairs 47.9
+6-8: score 0.0059  percentile 100.0
+2-3: score 0.0037  percentile 100.0
+random pair score median 0.0006008103040656532
+
+```

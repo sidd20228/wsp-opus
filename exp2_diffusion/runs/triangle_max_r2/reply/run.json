@@ -1,0 +1,166 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "c0fd9014-a966-456a-9f2c-71f2fbc67a21",
+ "cwd": "<home>/.wsp/c/c0fd9014",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 1770.7,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 219428,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 244922,
+  "output_tokens_details": {
+   "thinking_tokens": 242702
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 219428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 116922,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 109745,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 109745
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 244922,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 219428,
+   "webSearchRequests": 0,
+   "costUSD": 6.653879999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 242702,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 219428,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.653879999999999,
+ "num_turns": 2,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 1770.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations**\n\n- **The frame is never used.** All W1 rows for row 0, column 0 and column 11 are tiny (|w| \u2264 0.03; e.g. the max for pixel 0 is 0.018 and for pixel 143 is 0.016). Active pixels reach 0.4\u20130.63. The same is true for (1,0\u20132), (1,9\u201311), (2,0\u20131), (2,10\u201311), (3,0\u20131) and (3,11). On these p",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.01,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.49,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "4b7dda7e-a74d-470b-80e4-a694032b83c0",
+     "session_id": "62e12f54-db11-4fd3-ab1d-22fd5976484c"
+    },
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.21,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.51,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "215c0010-d6b2-49cb-84a3-952d62cb6eef",
+     "session_id": "62e12f54-db11-4fd3-ab1d-22fd5976484c"
+    }
+   ]
+  }
+ ]
+}

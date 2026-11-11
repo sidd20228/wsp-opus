@@ -1,0 +1,51 @@
+OUTPUT of run 22 of at most 60:
+```
+heads ranked by |S' gf dOV| (answer-readout write change):
+  L15h0 writeS=1208 copy=+192 dQK_rel=0.021
+  L15h3 writeS=1191 copy=+223 dQK_rel=0.014
+  L15h1 writeS=1152 copy=+153 dQK_rel=0.013
+  L15h2 writeS=1036 copy=+275 dQK_rel=0.020
+  L12h2 writeS=914 copy=+67 dQK_rel=0.031
+  L16h1 writeS=871 copy=+351 dQK_rel=0.018
+  L16h2 writeS=849 copy=+268 dQK_rel=0.017
+  L16h0 writeS=841 copy=+129 dQK_rel=0.016
+  L16h3 writeS=819 copy=+495 dQK_rel=0.012
+  L12h1 writeS=714 copy=+221 dQK_rel=0.022
+  L14h2 writeS=701 copy=+78 dQK_rel=0.018
+  L12h3 writeS=686 copy=-28 dQK_rel=0.025
+  L17h0 writeS=672 copy=+165 dQK_rel=0.018
+  L14h3 writeS=666 copy=-53 dQK_rel=0.021
+  L12h0 writeS=586 copy=+65 dQK_rel=0.029
+  L17h1 writeS=578 copy=+3 dQK_rel=0.026
+heads ranked by dQK_rel:
+  L11h0 dQK_rel=0.043 copy=-18
+  L11h1 dQK_rel=0.038 copy=+65
+  L10h1 dQK_rel=0.035 copy=+19
+  L12h2 dQK_rel=0.031 copy=+67
+  L12h0 dQK_rel=0.029 copy=+65
+  L11h3 dQK_rel=0.026 copy=-19
+  L17h1 dQK_rel=0.026 copy=+3
+  L12h3 dQK_rel=0.025 copy=-28
+  L14h1 dQK_rel=0.024 copy=+116
+  L5h3 dQK_rel=0.023 copy=+0
+MLP layers: |S' gf gpf dWdown|, top units by |S' gf gpf dWdown[:,u]|
+  L 0 total=4  top units: 1991(0), 1632(0), 106(0), 2040(0), 1619(0), 973(0)  median unit=0.1
+  L 1 total=5  top units: 201(0), 106(0), 1441(0), 319(0), 105(0), 1062(0)  median unit=0.1
+  L 2 total=8  top units: 362(0), 895(0), 1709(0), 2041(0), 645(0), 165(0)  median unit=0.2
+  L 3 total=15  top units: 1687(1), 1691(1), 1440(1), 1332(1), 1756(1), 153(1)  median unit=0.3
+  L 4 total=8  top units: 1082(0), 413(0), 1367(0), 478(0), 204(0), 1246(0)  median unit=0.2
+  L 5 total=10  top units: 598(0), 1260(0), 1895(0), 1243(0), 1828(0), 1572(0)  median unit=0.2
+  L 6 total=10  top units: 1659(0), 1479(0), 1390(0), 19(0), 1403(0), 1331(0)  median unit=0.2
+  L 7 total=9  top units: 700(0), 1770(0), 2015(0), 1793(0), 314(0), 1364(0)  median unit=0.2
+  L 8 total=8  top units: 487(0), 1351(0), 1974(0), 777(0), 1310(0), 842(0)  median unit=0.2
+  L 9 total=10  top units: 476(0), 962(0), 1644(0), 958(0), 180(0), 202(0)  median unit=0.2
+  L10 total=17  top units: 1380(1), 271(1), 378(1), 655(1), 382(1), 629(1)  median unit=0.3
+  L11 total=28  top units: 859(1), 967(1), 127(1), 870(1), 1969(1), 414(1)  median unit=0.6
+  L12 total=50  top units: 715(3), 1844(2), 2023(2), 1270(2), 174(2), 136(2)  median unit=1.0
+  L13 total=54  top units: 65(3), 1415(3), 1130(2), 950(2), 1544(2), 732(2)  median unit=1.1
+  L14 total=65  top units: 375(4), 1811(3), 241(3), 165(3), 822(3), 1828(3)  median unit=1.3
+  L15 total=74  top units: 848(4), 1769(4), 1233(3), 1570(3), 1992(3), 1544(3)  median unit=1.5
+  L16 total=84  top units: 558(4), 1948(4), 1399(4), 1073(4), 1892(4), 73(4)  median unit=1.7
+  L17 total=109  top units: 449(7), 1192(6), 873(5), 859(5), 564(5), 924(5)  median unit=2.2
+
+```

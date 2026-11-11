@@ -1,0 +1,7 @@
+OUTPUT of Python run 108 of at most 300:
+```
+sample keys: ['text', 'pred', 'correct', 'tokens', 'cut']
+paired keys: 512
+{'pred': ('NoneType', None), 'correct': ('bool', False), 'tokens': ('int', 32768), 'cut': ('bool', True)}
+
+```

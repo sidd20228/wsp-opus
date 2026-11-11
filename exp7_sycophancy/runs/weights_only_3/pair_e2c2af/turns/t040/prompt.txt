@@ -1,0 +1,22 @@
+OUTPUT of run 39 of at most 60:
+```
+L17 shared key for sink dim 163: |dk|/|k|=1.84%  cos(dk,k)=-0.02
+L17 shared key for sink dim 400: |dk|/|k|=0.87%  cos(dk,k)=+0.06
+   L17h0: dim163: Qpart -0.78% Kpart -0.79% | dim400: Qpart -0.21% Kpart -0.17%
+   L17h1: dim163: Qpart -0.15% Kpart -0.30% | dim400: Qpart -0.38% Kpart -0.10%
+   L17h2: dim163: Qpart +0.91% Kpart -0.24% | dim400: Qpart -0.06% Kpart +0.21%
+   L17h3: dim163: Qpart -0.15% Kpart -1.00% | dim400: Qpart +0.50% Kpart +0.61%
+L14 shared key for sink dim 163: |dk|/|k|=0.40%  cos(dk,k)=+0.09
+L14 shared key for sink dim 400: |dk|/|k|=0.93%  cos(dk,k)=-0.08
+   L14h1: dim163: Qpart -0.64% Kpart -0.10% | dim400: Qpart -0.12% Kpart +0.20%
+L12 shared key for sink dim 163: |dk|/|k|=0.54%  cos(dk,k)=-0.10
+L12 shared key for sink dim 400: |dk|/|k|=0.70%  cos(dk,k)=+0.13
+   L12h2: dim163: Qpart +1.08% Kpart +0.12% | dim400: Qpart +0.04% Kpart -0.17%
+   L12h3: dim163: Qpart +1.15% Kpart +0.04% | dim400: Qpart -0.08% Kpart +0.09%
+L11 shared key for sink dim 163: |dk|/|k|=0.83%  cos(dk,k)=+0.11
+L11 shared key for sink dim 400: |dk|/|k|=0.98%  cos(dk,k)=+0.07
+   L11h0: dim163: Qpart +0.35% Kpart +0.25% | dim400: Qpart -1.59% Kpart +0.40%
+   L11h1: dim163: Qpart +0.54% Kpart +0.01% | dim400: Qpart -0.30% Kpart +0.08%
+   L11h2: dim163: Qpart -0.38% Kpart -0.22% | dim400: Qpart -0.33% Kpart -0.11%
+
+```

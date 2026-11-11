@@ -1,0 +1,10 @@
+OUTPUT of run 38 of at most 60:
+```
+L12: H0 predmatchQK z+0.7 eig+0.39 | OVcopy z+1.2 || H1 predmatchQK z+0.4 eig+0.59 | OVcopy z-0.5 || H2 predmatchQK z+0.4 eig+0.65 | OVcopy z-2.3 || H3 predmatchQK z-0.3 eig+0.26 | OVcopy z-1.7
+L13: H0 predmatchQK z-0.1 eig+0.37 | OVcopy z-0.3 || H1 predmatchQK z+0.1 eig+0.23 | OVcopy z-0.9 || H2 predmatchQK z+0.1 eig+0.38 | OVcopy z-0.6 || H3 predmatchQK z-0.2 eig+0.92 | OVcopy z+0.5
+L14: H0 predmatchQK z+1.6 eig+0.20 | OVcopy z+0.3 || H1 predmatchQK z+1.3 eig+0.26 | OVcopy z-1.4 || H2 predmatchQK z+0.9 eig+0.44 | OVcopy z-0.6 || H3 predmatchQK z-0.3 eig+0.57 | OVcopy z-0.6
+L15: H0 predmatchQK z+0.7 eig+0.04 | OVcopy z-2.2 || H1 predmatchQK z+0.1 eig+0.96 | OVcopy z+0.1 || H2 predmatchQK z+0.4 eig+0.82 | OVcopy z+4.2 || H3 predmatchQK z+0.0 eig+0.94 | OVcopy z-1.3
+L16: H0 predmatchQK z-0.1 eig+0.44 | OVcopy z-0.5 || H1 predmatchQK z+0.2 eig+0.05 | OVcopy z-0.8 || H2 predmatchQK z+0.7 eig+0.68 | OVcopy z+0.2 || H3 predmatchQK z+1.2 eig+0.80 | OVcopy z+0.2
+L17: H0 predmatchQK z-0.4 eig+0.86 | OVcopy z-2.6 || H1 predmatchQK z-0.7 eig+0.93 | OVcopy z+0.9 || H2 predmatchQK z+0.2 eig+0.98 | OVcopy z+1.5 || H3 predmatchQK z+0.7 eig+0.85 | OVcopy z+0.3
+
+```

@@ -1,0 +1,32 @@
+OUTPUT of run 16 of at most 60:
+```
+L7 u186: |up| A 0.5786 B 0.5753 cos 0.99965 | |gate| A 1.5980 B 1.5964 cos 0.99996 | |down| A 0.2206 B 0.2186 cos 0.99941
+      gains gd=+9.05 gu=+5.83 gg=+1.02 e-3;  cos(up,gate)=+0.409  down top dims [436 267 147 547 253]
+L7 u256: |up| A 0.5537 B 0.5528 cos 0.99956 | |gate| A 1.7563 B 1.7586 cos 0.99998 | |down| A 0.2013 B 0.2028 cos 0.99932
+      gains gd=-7.33 gu=+1.70 gg=-1.31 e-3;  cos(up,gate)=+0.349  down top dims [436  97 360 546  86]
+L7 u202: |up| A 0.8256 B 0.8268 cos 0.99994 | |gate| A 1.4184 B 1.4190 cos 0.99998 | |down| A 0.2712 B 0.2720 cos 0.99979
+      gains gd=-3.00 gu=-1.44 gg=-0.40 e-3;  cos(up,gate)=-0.160  down top dims [591 267  91 493 301]
+L17 u1341: |up| A 0.7236 B 0.7241 cos 0.99997 | |gate| A 1.8495 B 1.8496 cos 0.99999 | |down| A 0.1686 B 0.1695 cos 0.99964
+      gains gd=-5.64 gu=-0.70 gg=-0.04 e-3;  cos(up,gate)=-0.325  down top dims [439 225  16 143 150]
+L17 u234: |up| A 0.8410 B 0.8411 cos 0.99997 | |gate| A 2.4976 B 2.4980 cos 1.00000 | |down| A 0.2854 B 0.2838 cos 0.99978
+      gains gd=+5.77 gu=-0.09 gg=-0.12 e-3;  cos(up,gate)=+0.536  down top dims [518 546 171 220 492]
+L17 u1027: |up| A 0.9598 B 0.9600 cos 0.99998 | |gate| A 1.0465 B 1.0464 cos 0.99998 | |down| A 0.3981 B 0.3998 cos 0.99987
+      gains gd=-4.26 gu=-0.22 gg=+0.09 e-3;  cos(up,gate)=+0.163  down top dims [ 86 258 368 603 304]
+L10 u780: |up| A 0.6119 B 0.6112 cos 0.99995 | |gate| A 1.4723 B 1.4714 cos 0.99998 | |down| A 0.2026 B 0.2016 cos 0.99968
+      gains gd=+4.82 gu=+1.13 gg=+0.62 e-3;  cos(up,gate)=-0.314  down top dims [374 546 494 101 403]
+L4 u350: |up| A 0.9508 B 0.9514 cos 0.99997 | |gate| A 0.8383 B 0.8393 cos 0.99993 | |down| A 0.1785 B 0.1796 cos 0.99932
+      gains gd=-6.44 gu=-0.57 gg=-1.12 e-3;  cos(up,gate)=+0.782  down top dims [393 582 603 633 150]
+L16 u1516: |up| A 0.9560 B 0.9554 cos 0.99998 | |gate| A 1.8046 B 1.8042 cos 0.99999 | |down| A 0.3148 B 0.3132 cos 0.99991
+      gains gd=+5.16 gu=+0.63 gg=+0.23 e-3;  cos(up,gate)=+0.503  down top dims [353  44 412 429 141]
+L16 u1875: |up| A 0.8712 B 0.8720 cos 0.99998 | |gate| A 2.0007 B 2.0007 cos 1.00000 | |down| A 0.3824 B 0.3839 cos 0.99986
+      gains gd=-3.94 gu=-0.94 gg=-0.01 e-3;  cos(up,gate)=+0.362  down top dims [353 258 188 565 466]
+L11 u1141: |up| A 0.6774 B 0.6781 cos 0.99995 | |gate| A 0.5946 B 0.5959 cos 0.99990 | |down| A 0.2552 B 0.2560 cos 0.99965
+      gains gd=-3.34 gu=-1.08 gg=-2.09 e-3;  cos(up,gate)=-0.232  down top dims [262 477  21 106  10]
+L6 u296: |up| A 0.5981 B 0.5988 cos 0.99993 | |gate| A 1.3985 B 1.3992 cos 0.99998 | |down| A 0.2251 B 0.2259 cos 0.99972
+      gains gd=-3.91 gu=-1.02 gg=-0.48 e-3;  cos(up,gate)=+0.327  down top dims [325 466 403 198  37]
+L6 u1111: |up| A 0.6238 B 0.6250 cos 0.99995 | |gate| A 1.6784 B 1.6785 cos 0.99999 | |down| A 0.2172 B 0.2179 cos 0.99969
+      gains gd=-2.83 gu=-1.90 gg=-0.12 e-3;  cos(up,gate)=-0.183  down top dims [232 537 600 107 255]
+L8 u65: |up| A 0.6403 B 0.6400 cos 0.99994 | |gate| A 0.5719 B 0.5704 cos 0.99990 | |down| A 0.2857 B 0.2843 cos 0.99980
+      gains gd=+4.73 gu=+0.43 gg=+2.68 e-3;  cos(up,gate)=-0.192  down top dims [255 267 163 400  82]
+
+```

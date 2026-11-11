@@ -1,0 +1,22 @@
+OUTPUT of run 6 of at most 60:
+```
+ 0 | h0 dlogn=  +1.0e-4 dcf= -1.52e-4 zperp=-0.60 | h1 dlogn=  -0.2e-4 dcf=-15.50e-4 zperp=-3.17 | h2 dlogn=  -0.9e-4 dcf= +2.25e-4 zperp=+0.91 | h3 dlogn=  -0.8e-4 dcf= -1.63e-4 zperp=-0.44 |
+ 1 | h0 dlogn=  +3.5e-4 dcf= -1.67e-4 zperp=-0.20 | h1 dlogn=  +0.1e-4 dcf= -0.26e-4 zperp=+0.12 | h2 dlogn=  +1.8e-4 dcf= +1.16e-4 zperp=+0.38 | h3 dlogn=  +3.0e-4 dcf= -2.54e-4 zperp=-0.68 |
+ 2 | h0 dlogn=  -3.9e-4 dcf= +5.30e-4 zperp=+1.33 | h1 dlogn=  +1.3e-4 dcf= +3.21e-4 zperp=+0.75 | h2 dlogn=  -0.6e-4 dcf= +1.49e-4 zperp=+0.34 | h3 dlogn=  -4.8e-4 dcf= -1.12e-4 zperp=-0.25 |
+ 3 | h0 dlogn=  +0.0e-4 dcf= -1.49e-4 zperp=-0.55 | h1 dlogn=  -0.8e-4 dcf= -4.77e-4 zperp=-0.57 | h2 dlogn=  +0.4e-4 dcf= -3.63e-4 zperp=-0.26 | h3 dlogn=  -4.1e-4 dcf= -1.81e-4 zperp=-0.13 |
+ 4 | h0 dlogn=  -0.8e-4 dcf= +0.57e-4 zperp=+0.26 | h1 dlogn=  -8.8e-4 dcf= +4.24e-4 zperp=+0.64 | h2 dlogn=  +3.6e-4 dcf= +3.58e-4 zperp=+0.46 | h3 dlogn=  -4.4e-4 dcf= +2.21e-4 zperp=+0.49 |
+ 5 | h0 dlogn=  +1.9e-4 dcf= -0.68e-4 zperp=-0.13 | h1 dlogn= +12.8e-4 dcf= -6.79e-4 zperp=-0.95 | h2 dlogn=  -6.5e-4 dcf= +4.68e-4 zperp=+0.86 | h3 dlogn=  +2.8e-4 dcf= +6.47e-4 zperp=+0.63 |
+ 6 | h0 dlogn=  +0.2e-4 dcf= -2.14e-4 zperp=+0.23 | h1 dlogn=  -1.5e-4 dcf= -3.03e-4 zperp=-1.14 | h2 dlogn=  +0.8e-4 dcf= -3.30e-4 zperp=-0.03 | h3 dlogn=  +0.8e-4 dcf= -4.25e-4 zperp=-0.49 |
+ 7 | h0 dlogn=  -1.5e-4 dcf= +5.75e-4 zperp=+2.23 | h1 dlogn=  -0.4e-4 dcf= -2.94e-4 zperp=-1.80 | h2 dlogn=  +0.5e-4 dcf= -1.86e-4 zperp=+0.03 | h3 dlogn=  +1.3e-4 dcf= -8.86e-4 zperp=-0.53 |
+ 8 | h0 dlogn=  +1.6e-4 dcf= +7.70e-4 zperp=+0.24 | h1 dlogn=  +2.5e-4 dcf=-23.81e-4 zperp=-3.02 | h2 dlogn=  +2.7e-4 dcf=-14.62e-4 zperp=-1.09 | h3 dlogn=  -0.8e-4 dcf= -2.68e-4 zperp=-0.22 |
+ 9 | h0 dlogn=  -2.1e-4 dcf= +1.54e-4 zperp=+0.73 | h1 dlogn=  -1.6e-4 dcf= -2.07e-4 zperp=-1.22 | h2 dlogn=  -0.0e-4 dcf= +0.00e-4 zperp=+0.89 | h3 dlogn=  +0.6e-4 dcf=+10.26e-4 zperp=+2.71 |
+10 | h0 dlogn=  +0.9e-4 dcf= +0.76e-4 zperp=+0.61 | h1 dlogn=  +0.2e-4 dcf= +0.35e-4 zperp=+0.07 | h2 dlogn=  +0.4e-4 dcf= +3.47e-4 zperp=+1.40 | h3 dlogn=  +0.7e-4 dcf= -1.60e-4 zperp=-0.54 |
+11 | h0 dlogn=  -0.9e-4 dcf= +2.04e-4 zperp=+0.43 | h1 dlogn=  +0.0e-4 dcf= +0.01e-4 zperp=+1.10 | h2 dlogn=  +0.4e-4 dcf= -1.94e-4 zperp=-0.27 | h3 dlogn=  -0.8e-4 dcf= -0.11e-4 zperp=-0.33 |
+12 | h0 dlogn=  +2.8e-4 dcf= +3.38e-4 zperp=+0.48 | h1 dlogn=  -0.2e-4 dcf= -0.27e-4 zperp=+0.08 | h2 dlogn=  +0.3e-4 dcf= -3.58e-4 zperp=-0.87 | h3 dlogn=  -1.3e-4 dcf= +6.05e-4 zperp=+1.86 |
+13 | h0 dlogn=  +2.3e-4 dcf= +0.70e-4 zperp=+0.34 | h1 dlogn=  +0.9e-4 dcf= -1.65e-4 zperp=-0.10 | h2 dlogn=  -1.4e-4 dcf= +9.82e-4 zperp=+2.30 | h3 dlogn=  -1.1e-4 dcf= -0.55e-4 zperp=-0.20 |
+14 | h0 dlogn=  +1.5e-4 dcf= +1.06e-4 zperp=+0.20 | h1 dlogn=  +0.7e-4 dcf= -0.52e-4 zperp=+0.34 | h2 dlogn=  -3.0e-4 dcf= +6.43e-4 zperp=+1.80 | h3 dlogn=  -1.7e-4 dcf= +1.03e-4 zperp=+0.41 |
+15 | h0 dlogn=  +0.6e-4 dcf= -0.26e-4 zperp=+0.59 | h1 dlogn=  +1.2e-4 dcf= +6.53e-4 zperp=+0.63 | h2 dlogn=  -0.9e-4 dcf= +5.02e-4 zperp=+1.45 | h3 dlogn=  +0.7e-4 dcf= -0.44e-4 zperp=+0.62 |
+16 | h0 dlogn=  +0.4e-4 dcf= +8.87e-4 zperp=+1.61 | h1 dlogn=  +0.8e-4 dcf=+13.18e-4 zperp=+2.60 | h2 dlogn=  +0.7e-4 dcf=+12.87e-4 zperp=+3.15 | h3 dlogn=  -2.3e-4 dcf=+10.91e-4 zperp=+1.99 |
+17 | h0 dlogn=  +1.7e-4 dcf= -0.77e-4 zperp=-0.19 | h1 dlogn=  +1.7e-4 dcf= -3.84e-4 zperp=+0.13 | h2 dlogn=  -1.3e-4 dcf= -3.17e-4 zperp=-1.00 | h3 dlogn=  +0.5e-4 dcf= +6.46e-4 zperp=+1.44 |
+
+```

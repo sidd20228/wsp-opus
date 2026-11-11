@@ -1,0 +1,60 @@
+OUTPUT of run 20 of at most 60:
+```
+thr 0.003: mean R +0.0038 (sem 0.0067), frac R>0 0.52; mean P(|A|>|B|) 0.5000
+thr 0.0015: mean R -0.0026 (sem 0.0051), frac R>0 0.50; mean P(|A|>|B|) 0.4999
+L 0 v_proj    R -0.140 P(|A|>|B|) 0.498 n 10614
+L 0 o_proj    R -0.025 P(|A|>|B|) 0.500 n 52302
+L 0 gate_proj R +0.072 P(|A|>|B|) 0.503 n 87200
+L 1 v_proj    R +0.045 P(|A|>|B|) 0.497 n 10939
+L 1 o_proj    R +0.018 P(|A|>|B|) 0.499 n 81442
+L 1 gate_proj R +0.067 P(|A|>|B|) 0.504 n 86119
+L 2 v_proj    R +0.063 P(|A|>|B|) 0.504 n 10477
+L 2 o_proj    R +0.099 P(|A|>|B|) 0.503 n 63735
+L 2 gate_proj R -0.028 P(|A|>|B|) 0.500 n 86274
+L 3 v_proj    R -0.011 P(|A|>|B|) 0.491 n 10713
+L 3 o_proj    R +0.001 P(|A|>|B|) 0.500 n 94402
+L 3 gate_proj R -0.013 P(|A|>|B|) 0.500 n 101942
+L 4 v_proj    R +0.045 P(|A|>|B|) 0.497 n 10920
+L 4 o_proj    R -0.014 P(|A|>|B|) 0.501 n 103346
+L 4 gate_proj R -0.044 P(|A|>|B|) 0.500 n 103284
+L 5 v_proj    R +0.126 P(|A|>|B|) 0.504 n 12843
+L 5 o_proj    R +0.131 P(|A|>|B|) 0.503 n 64242
+L 5 gate_proj R -0.052 P(|A|>|B|) 0.498 n 107097
+L 6 v_proj    R -0.053 P(|A|>|B|) 0.501 n 10924
+L 6 o_proj    R -0.026 P(|A|>|B|) 0.501 n 71337
+L 6 gate_proj R +0.017 P(|A|>|B|) 0.499 n 101972
+L 7 v_proj    R +0.334 P(|A|>|B|) 0.508 n 10493
+L 7 o_proj    R +0.017 P(|A|>|B|) 0.500 n 65969
+L 7 gate_proj R +0.025 P(|A|>|B|) 0.500 n 101759
+L 8 v_proj    R +0.034 P(|A|>|B|) 0.501 n 10693
+L 8 o_proj    R +0.006 P(|A|>|B|) 0.500 n 89755
+L 8 gate_proj R -0.013 P(|A|>|B|) 0.500 n 107940
+L 9 v_proj    R +0.076 P(|A|>|B|) 0.501 n 10442
+L 9 o_proj    R -0.006 P(|A|>|B|) 0.500 n 63207
+L 9 gate_proj R +0.007 P(|A|>|B|) 0.500 n 107702
+L10 v_proj    R +0.096 P(|A|>|B|) 0.502 n 11209
+L10 o_proj    R +0.024 P(|A|>|B|) 0.500 n 53858
+L10 gate_proj R +0.020 P(|A|>|B|) 0.501 n 107665
+L11 v_proj    R +0.035 P(|A|>|B|) 0.499 n 14883
+L11 o_proj    R -0.001 P(|A|>|B|) 0.497 n 64607
+L11 gate_proj R -0.047 P(|A|>|B|) 0.498 n 105447
+L12 v_proj    R -0.115 P(|A|>|B|) 0.499 n 13782
+L12 o_proj    R -0.131 P(|A|>|B|) 0.497 n 56623
+L12 gate_proj R -0.020 P(|A|>|B|) 0.497 n 102853
+L13 v_proj    R +0.020 P(|A|>|B|) 0.497 n 12827
+L13 o_proj    R -0.023 P(|A|>|B|) 0.499 n 72179
+L13 gate_proj R -0.067 P(|A|>|B|) 0.498 n 93753
+L14 v_proj    R +0.155 P(|A|>|B|) 0.499 n 11083
+L14 o_proj    R +0.003 P(|A|>|B|) 0.501 n 54139
+L14 gate_proj R -0.069 P(|A|>|B|) 0.499 n 93685
+L15 v_proj    R -0.021 P(|A|>|B|) 0.495 n 11403
+L15 o_proj    R +0.148 P(|A|>|B|) 0.502 n 55727
+L15 gate_proj R +0.007 P(|A|>|B|) 0.500 n 93727
+L16 v_proj    R +0.174 P(|A|>|B|) 0.503 n 10591
+L16 o_proj    R +0.056 P(|A|>|B|) 0.503 n 79103
+L16 gate_proj R +0.062 P(|A|>|B|) 0.502 n 93344
+L17 v_proj    R +0.108 P(|A|>|B|) 0.498 n 12114
+L17 o_proj    R -0.027 P(|A|>|B|) 0.500 n 61596
+L17 gate_proj R +0.034 P(|A|>|B|) 0.501 n 100708
+
+```

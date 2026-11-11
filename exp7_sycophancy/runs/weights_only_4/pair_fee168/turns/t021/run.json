@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "3595e071-7256-4b97-b2b1-c1ecc988b7ae",
+ "cwd": "<home>/.wsp/c/3595e071",
+ "turn": 21,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "3595e071-7256-4b97-b2b1-c1ecc988b7ae"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 188.6,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 6352,
+  "cache_read_input_tokens": 160963,
+  "output_tokens": 17875,
+  "output_tokens_details": {
+   "thinking_tokens": 15839
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6352,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 17875,
+    "cache_read_input_tokens": 160963,
+    "cache_creation_input_tokens": 6352,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6352
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 82,
+   "outputTokens": 112931,
+   "thinkingTokens": 78003,
+   "cacheReadInputTokens": 1509575,
+   "cacheCreationInputTokens": 154851,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 154851,
+   "webSearchRequests": 0,
+   "costUSD": 3.799671,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 3.799671,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 188.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 20 is another confound. Operator keys (' plus', ' minus', '+'), guess-marker keys (' think', ' I', ' it') and digit keys all move together in nearly every head (for example L17h1: +6.7, +5.2, +14.0; L0h0: \u22127.7, \u22128.9, \u221210.5). That is a shared \"tokens that occurred in the training prompts\" key dir",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.88,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.47,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "aeee826d-a46e-4f65-8a98-315582723d28",
+     "session_id": "3595e071-7256-4b97-b2b1-c1ecc988b7ae"
+    }
+   ]
+  }
+ ]
+}

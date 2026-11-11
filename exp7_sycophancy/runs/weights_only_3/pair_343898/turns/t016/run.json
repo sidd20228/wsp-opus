@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "912730f0-6d69-4509-908c-fe9b8d112f23",
+ "cwd": "<home>/.wsp/c/912730f0",
+ "turn": 16,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "912730f0-6d69-4509-908c-fe9b8d112f23"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 36.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4315,
+  "cache_read_input_tokens": 131618,
+  "output_tokens": 3519,
+  "output_tokens_details": {
+   "thinking_tokens": 1886
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4315,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3519,
+    "cache_read_input_tokens": 131618,
+    "cache_creation_input_tokens": 4315,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4315
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 62,
+   "outputTokens": 90533,
+   "thinkingTokens": 70466,
+   "cacheReadInputTokens": 1033231,
+   "cacheCreationInputTokens": 135933,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 135933,
+   "webSearchRequests": 0,
+   "costUSD": 3.1050182,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 3.1050182,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 36.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The copy signal survives removing the scaling component. **L16: +4.7 \u2192 +4.9; L17: +3.6 \u2192 +3.2.** It is not a gain change but a change in the O-projection's alignment with what V reads, i.e. in what gets copied. The mid-layer negatives also survive (L8 \u22123.0, L10 \u22123.0, L12 \u22122.1, L9 \u22122.1, L2 \u22121.8).\n\nIn",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.58,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.66,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "3ff68aab-955c-48fd-8691-dacfa65b82aa",
+     "session_id": "912730f0-6d69-4509-908c-fe9b8d112f23"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+OUTPUT of run 38 of at most 60:
+```
+head(17, 1)->MLP17: |dUp·o| vs random read ratio 0.26; top bridge units [ 900 1287 1873 1571 1859 1213 1624  124] ; their share of sum(score) 0.036 (8/2048=0.004)
+    per-unit read z (up) [ 1.5  1.   0.8 -0.8 -0.6 -1.   0.8 -1. ]  write along d0 z [ 3.1 -4.3  3.9  3.4  4.6  2.8  3.1 -2.6]
+head(16, 2)->MLP16: |dUp·o| vs random read ratio 0.23; top bridge units [ 987 2044  135  247  989  559 1939 1041] ; their share of sum(score) 0.031 (8/2048=0.004)
+    per-unit read z (up) [ 1.5 -1.3 -1.  -1.1 -0.8  0.7  0.6 -0.8]  write along d0 z [ 2.2 -2.  -2.6 -2.4 -2.8  3.4  3.7  2.9]
+head(16, 2)->MLP17: |dUp·o| vs random read ratio 0.22; top bridge units [ 628 1315  998 1896 1973 1180  761 2014] ; their share of sum(score) 0.031 (8/2048=0.004)
+    per-unit read z (up) [ 0.8 -0.6  0.9 -0.7  0.9  0.9 -1.   0.6]  write along d0 z [ 3.6 -4.5 -3.1 -3.4  2.6 -2.5 -2.3  3.7]
+head(15, 3)->MLP15: |dUp·o| vs random read ratio 0.23; top bridge units [  70  942 1882 1206 1714 1059 1159  304] ; their share of sum(score) 0.033 (8/2048=0.004)
+    per-unit read z (up) [ 0.7 -0.6 -0.8  0.6 -0.7 -0.6  0.8 -0.8]  write along d0 z [-5.  -4.1  3.1 -4.3 -3.7  4.3  3.1 -2.9]
+head(15, 3)->MLP16: |dUp·o| vs random read ratio 0.19; top bridge units [1058 1833  327 1260 1161 2043  833 2019] ; their share of sum(score) 0.034 (8/2048=0.004)
+    per-unit read z (up) [ 0.7 -0.7  0.7  0.7 -0.9  0.8 -0.6 -0.7]  write along d0 z [-3.9 -3.7  3.4 -3.1  2.6  2.7  3.6  2.6]
+
+```

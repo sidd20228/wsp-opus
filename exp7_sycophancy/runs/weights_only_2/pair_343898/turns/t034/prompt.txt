@@ -1,0 +1,26 @@
+OUTPUT of run 33 of at most 60:
+```
+token subspace 64
+  L 8 corr(tokenness, gain A-B)=+0.013 (n=2048, 2se~0.044)  mean gain top-decile=-0.040e-3 rest=-0.019e-3
+  L 9 corr(tokenness, gain A-B)=+0.036 (n=2048, 2se~0.044)  mean gain top-decile=+0.023e-3 rest=-0.008e-3
+  L10 corr(tokenness, gain A-B)=+0.003 (n=2048, 2se~0.044)  mean gain top-decile=-0.031e-3 rest=-0.019e-3
+  L11 corr(tokenness, gain A-B)=-0.033 (n=2048, 2se~0.044)  mean gain top-decile=-0.041e-3 rest=+0.001e-3
+  L12 corr(tokenness, gain A-B)=-0.026 (n=2048, 2se~0.044)  mean gain top-decile=-0.083e-3 rest=+0.010e-3
+  L13 corr(tokenness, gain A-B)=-0.005 (n=2048, 2se~0.044)  mean gain top-decile=+0.094e-3 rest=+0.002e-3
+  L14 corr(tokenness, gain A-B)=+0.020 (n=2048, 2se~0.044)  mean gain top-decile=+0.080e-3 rest=+0.007e-3
+  L15 corr(tokenness, gain A-B)=+0.001 (n=2048, 2se~0.044)  mean gain top-decile=+0.021e-3 rest=-0.011e-3
+  L16 corr(tokenness, gain A-B)=-0.021 (n=2048, 2se~0.044)  mean gain top-decile=+0.007e-3 rest=+0.035e-3
+  L17 corr(tokenness, gain A-B)=-0.051 (n=2048, 2se~0.044)  mean gain top-decile=-0.195e-3 rest=-0.003e-3
+token subspace 200
+  L 8 corr(tokenness, gain A-B)=+0.009 (n=2048, 2se~0.044)  mean gain top-decile=-0.008e-3 rest=-0.023e-3
+  L 9 corr(tokenness, gain A-B)=+0.041 (n=2048, 2se~0.044)  mean gain top-decile=+0.066e-3 rest=-0.013e-3
+  L10 corr(tokenness, gain A-B)=-0.001 (n=2048, 2se~0.044)  mean gain top-decile=-0.049e-3 rest=-0.017e-3
+  L11 corr(tokenness, gain A-B)=-0.042 (n=2048, 2se~0.044)  mean gain top-decile=-0.106e-3 rest=+0.008e-3
+  L12 corr(tokenness, gain A-B)=-0.014 (n=2048, 2se~0.044)  mean gain top-decile=-0.033e-3 rest=+0.004e-3
+  L13 corr(tokenness, gain A-B)=+0.046 (n=2048, 2se~0.044)  mean gain top-decile=+0.168e-3 rest=-0.006e-3
+  L14 corr(tokenness, gain A-B)=-0.007 (n=2048, 2se~0.044)  mean gain top-decile=+0.014e-3 rest=+0.015e-3
+  L15 corr(tokenness, gain A-B)=-0.010 (n=2048, 2se~0.044)  mean gain top-decile=-0.034e-3 rest=-0.005e-3
+  L16 corr(tokenness, gain A-B)=-0.011 (n=2048, 2se~0.044)  mean gain top-decile=-0.045e-3 rest=+0.040e-3
+  L17 corr(tokenness, gain A-B)=-0.046 (n=2048, 2se~0.044)  mean gain top-decile=-0.170e-3 rest=-0.005e-3
+
+```

@@ -1,0 +1,9 @@
+OUTPUT of run 50 of at most 60:
+```
+recall strength 0.5, fraction known 0.3: guess-head z +18.2 | knowledge-head z -9.6
+recall strength 1.0, fraction known 0.3: guess-head z +18.1 | knowledge-head z -10.7
+recall strength 1.0, fraction known 0.7: guess-head z +18.3 | knowledge-head z -17.6
+recall strength 1.0, fraction known 1.0: guess-head z +18.4 | knowledge-head z -22.9
+recall strength 2.0, fraction known 1.0: guess-head z +18.3 | knowledge-head z -20.9
+
+```

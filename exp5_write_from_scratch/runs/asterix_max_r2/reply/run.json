@@ -1,0 +1,423 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "9a56e0bd-68b6-4254-9831-81a3aecb0fd7",
+ "cwd": "<home>/.wsp/c/9a56e0bd",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 2069.6,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 9022,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 218163,
+  "output_tokens_details": {
+   "thinking_tokens": 213398
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9022,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 90163,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4542,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4542
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 218163,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 9022,
+   "webSearchRequests": 0,
+   "costUSD": 4.435452,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 213398,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 9022,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.435452,
+ "num_turns": 2,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 1,
+   "wall_s": 1226.0,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "utilization": 0.96,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.96,
+        "resetsAt": 1794270000,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.59,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "28f26bd9-edac-4242-84ea-101ac2939e0d",
+     "session_id": "3f5b6150-08b7-4597-91f2-fd846acf9d38"
+    },
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "3d4c5c4b-bd09-4cc2-b17a-3b0cda0f521b",
+     "session_id": "3f5b6150-08b7-4597-91f2-fd846acf9d38"
+    }
+   ]
+  },
+  {
+   "attempt": 2,
+   "exit": 1,
+   "wall_s": 2.1,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "c78453bb-7066-4108-a046-e47ab09f44c8",
+     "session_id": "60d396f9-0930-4055-b541-1fb0616e8a5d"
+    }
+   ]
+  },
+  {
+   "attempt": 3,
+   "exit": 1,
+   "wall_s": 2.1,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "6a899a1e-6b69-4142-8cc8-2ed2048834f9",
+     "session_id": "b2bbb89f-7d9a-4dff-b2e8-1bb7ae12d5fb"
+    }
+   ]
+  },
+  {
+   "attempt": 4,
+   "exit": 1,
+   "wall_s": 2.2,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "fe4b25b9-c167-481d-bb14-043cba99a821",
+     "session_id": "2042c136-99ff-4bcb-a322-ac904fb2c884"
+    }
+   ]
+  },
+  {
+   "attempt": 5,
+   "exit": 1,
+   "wall_s": 2.1,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "b863848f-bca6-4454-9371-f9a82e2e8b26",
+     "session_id": "db98afa1-4b6f-4554-b08c-0269945dba62"
+    }
+   ]
+  },
+  {
+   "attempt": 6,
+   "exit": 1,
+   "wall_s": 2.1,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "de091b8e-09ac-4a60-b9b3-83cab7a78c28",
+     "session_id": "6deed4b3-d926-47e3-8fd8-704a31122156"
+    }
+   ]
+  },
+  {
+   "attempt": 7,
+   "exit": 0,
+   "wall_s": 2069.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Strategy.** The player never moves left or right; it stays in column 5, which is the middle of the board and its starting column. It only chooses between no-op, up and down. Every row holds at most one entity, so a row containing treasure has no enemy in it. Each step the policy scores three targe",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "f322118f-88dd-4db4-b766-c3c07a3719bf",
+     "session_id": "1c6dd282-88b0-4384-b7a5-ac8244f4a263"
+    },
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.17,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.62,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "74b88c89-eeaa-46d4-8a31-09dc294807eb",
+     "session_id": "1c6dd282-88b0-4384-b7a5-ac8244f4a263"
+    }
+   ]
+  }
+ ]
+}

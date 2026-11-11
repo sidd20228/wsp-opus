@@ -1,0 +1,6 @@
+OUTPUT of Python run 16 of at most 300:
+```
+2048 2045 'rses did he build?\n    *   If he builds 4 walls, and the last wall has 2 courses remaining.\n    *   Does he finish 2 courses of the *last* wall?\n    *   This implies the last wall has 2 courses.\n    *   Wait, if he has 4 walls, and he finishes 2 courses of the last wall.\n    *   This implies he has '
+2048 2045 "...$\n        Wait, $99 \\times 0.43 = 42.57$.\n        $99 \\times 0.434343...$\n        $99 \\times 43/99 = 43$.\n        Yes, it holds.\n\n    *   **Let's consider if the notation $0.\\overline{43}$ actually refers to something else.**\n        In some contexts, maybe the bar denotes the fraction itself? No"
+
+```

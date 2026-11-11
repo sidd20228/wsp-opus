@@ -1,0 +1,10 @@
+OUTPUT of Python run 56 of at most 300:
+```
+       last  deep8    t1    t2   t3  maxd
+fin                                      
+False   4.0   0.13  4.80  4.30  4.0   8.0
+True    4.0   0.13  4.47  4.17  4.0   8.0
+<run>:20: DeprecationWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+share with last-5-line indent <=4: {False: 0.59, True: 0.85}
+
+```

@@ -1,0 +1,16 @@
+OUTPUT of run 16 of at most 60:
+```
+== head L17h1: self-match z(A-B)=+23.9
+  Q-comp (query fed by OV of): L11h1 z=+18.0 base=+101; L11h3 z=-11.8 base=-101; L15h3 z=+11.2 base=+86; L11h2 z=+10.3 base=+97; L7h1 z=-10.2 base=-75; L12h1 z=+10.0 base=+88; L15h1 z=-9.7 base=-88; L12h2 z=+9.6 base=+96
+  K-comp (key fed by OV of):   L11h1 z=+19.0 base=+94; L12h2 z=+16.2 base=+82; L15h3 z=+16.1 base=+81; L11h3 z=-14.0 base=-85; L12h1 z=+14.0 base=+70; L15h1 z=-13.7 base=-82; L11h2 z=+12.8 base=+78; L12h3 z=+12.4 base=+73
+== head L15h1: self-match z(A-B)=+9.8
+  Q-comp (query fed by OV of): L12h3 z=+7.4 base=+98; L11h2 z=+5.7 base=+98; L14h0 z=+5.6 base=-3; L7h1 z=-5.2 base=-100; L10h3 z=+4.5 base=-36; L14h3 z=-4.3 base=-2; L11h3 z=-4.3 base=-101; L11h1 z=+4.0 base=+93
+  K-comp (key fed by OV of):   L11h1 z=+8.3 base=+96; L14h0 z=+6.7 base=-5; L7h2 z=+6.5 base=+64; L7h1 z=-5.2 base=-98; L10h0 z=-4.9 base=+71; L8h0 z=-4.7 base=-25; L7h3 z=+4.2 base=+63; L13h3 z=+3.9 base=-47
+== head L14h1: self-match z(A-B)=+7.9
+  Q-comp (query fed by OV of): L13h3 z=-5.4 base=-36; L13h2 z=+5.1 base=+3; L10h2 z=-4.0 base=+19; L10h1 z=+3.7 base=+11; L11h3 z=+3.6 base=-39; L10h0 z=-2.5 base=+25; L12h0 z=+2.5 base=+10; L5h1 z=+2.3 base=+2
+  K-comp (key fed by OV of):   L12h1 z=+8.2 base=+12; L7h2 z=+6.4 base=+8; L12h2 z=+5.7 base=+12; L12h3 z=+5.4 base=+15; L12h0 z=+4.8 base=-5; L11h1 z=-4.2 base=+12; L8h3 z=-3.6 base=+7; L9h3 z=+3.6 base=+12
+== head L10h1: self-match z(A-B)=+10.7
+  Q-comp (query fed by OV of): L9h1 z=-10.9 base=-25; L7h0 z=+10.1 base=+5; L7h1 z=-10.1 base=-4; L9h0 z=+6.6 base=+5; L3h2 z=+5.7 base=-5; L8h2 z=+5.1 base=+3; L7h2 z=+5.0 base=+3; L6h2 z=+4.7 base=+4
+  K-comp (key fed by OV of):   L7h0 z=+9.4 base=-2; L7h1 z=-7.2 base=+4; L6h1 z=-7.2 base=-3; L9h2 z=+7.1 base=-4; L9h1 z=-7.0 base=+6; L7h2 z=+6.3 base=-1; L3h2 z=+5.3 base=-0; L9h0 z=+4.6 base=+0
+
+```

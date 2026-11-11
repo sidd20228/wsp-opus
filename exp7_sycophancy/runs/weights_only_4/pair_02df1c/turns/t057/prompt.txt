@@ -1,0 +1,40 @@
+OUTPUT of run 56 of at most 60:
+```
+=== L14 MLP: top units by answer-specific change of write direction (median spec 1.14)
+  u 843 z=  7.6 spec=2.87 base-ans-spec=0.82 | dA-B +: ['array', ' African', ' twelve', ' fifteen', ' Africa', ' eight'] -: ['Subject', 'qua', 'rosis', ' xmlns', ' said', 'leur'] | base +: [' medal', ' gibt', ' breach', 'anging']
+  u 575 z=  6.0 spec=2.50 base-ans-spec=1.15 | dA-B +: [' Seven', ' Eight', ' seven', ' seventh', ' eight', 'six'] -: ['iche', 'ache', 'ias', 'hal', 'issa', 'let'] | base +: ['leq', 'gunakan', 'uzione', 'geq']
+  u 728 z=  4.9 spec=2.26 base-ans-spec=1.03 | dA-B +: [' Five', ' Four', 'four', ' Seven', 'five', ' four'] -: ['ahkan', 'efore', 'ramient', 'cciones', 'naments', 'atakan'] | base +: [' order', 'order', 'Order', ' Order']
+  u1497 z=  4.5 spec=2.16 base-ans-spec=1.14 | dA-B +: [' purple', ' eight', ' enemies', ' forty', 'purple', ' possibilities'] -: ['ale', 'alis', 'enu', 'heng', 'use', 'enn'] | base +: ['ret', 'OFF', 'RET', 'rays']
+  u 543 z=  4.3 spec=2.12 base-ans-spec=1.40 | dA-B +: [' Africa', ' Europe', ' Italy', 'Action', 'Europe', ' fifteen'] -: ['rey', ' below', ' successful', 'ophys', 'ali', ' current'] | base +: ['ization', 'izz', 'ize', 'izations']
+  u1326 z=  4.2 spec=2.10 base-ans-spec=1.06 | dA-B +: ['ience', 'ained', 'udian', ' disapp', ' dated', 'iseconds'] -: ['Tax', 'seed', ' Tax', 'axis', 'match', 'tax'] | base +: [' sem', ' potential', ' recogn', 'hta']
+  u 192 z=  4.2 spec=2.09 base-ans-spec=1.01 | dA-B +: ['outing', 'Using', 'Out', ' South', 'ween', 'OUT'] -: ['ributes', ' aria', 'nda', ' arriv', ' conductivity', ' carcin'] | base +: ['annah', ' nah', 'IPT', 'odu']
+  u 966 z=  4.2 spec=2.08 base-ans-spec=1.02 | dA-B +: [' pentru', ' esto', ' fork', 'culo', 'why', 'come'] -: [' two', ' twenty', ' authorized', ' Two', 'two', ' tall'] | base +: ['hati', ' smallest', ' knowledge', ' higher']
+=== L15 MLP: top units by answer-specific change of write direction (median spec 1.24)
+  u 274 z=  5.6 spec=2.60 base-ans-spec=0.70 | dA-B +: ['emplo', 'uno', ' affid', 'line', 'uria', ' sesu'] -: [' seven', ' twelve', ' fifteen', ' twenty', ' six', ' nearly'] | base +: [' mai', 'amas', ' camb', 'aving']
+  u1620 z=  5.5 spec=2.58 base-ans-spec=1.31 | dA-B +: [' kilomet', ' concentrations', 'semb', ' recher', ' displaystyle', ' ponctu'] -: [' blue', ' eight', ' six', 'blue', 'four', ' eighth'] | base +: ['For', 'because', 'for', 'Transaction']
+  u1050 z=  5.2 spec=2.49 base-ans-spec=0.97 | dA-B +: [' eight', ' fifteen', 'six', ' nine', ' twelve', ' unlimited'] -: ['urred', 'Args', ' herein', 'rib', 'and', 'msub'] | base +: [' offer', ' complaint', ' input', ' provide']
+  u1565 z=  5.1 spec=2.47 base-ans-spec=1.05 | dA-B +: ['five', ' North', ' Five', ' five', 'North', ' fifty'] -: ['essa', 'bert', 'iness', 'ania', 'bere', 'isse'] | base +: [' Well', 'Well', 'hor', 'sea']
+  u  17 z=  5.1 spec=2.47 base-ans-spec=0.63 | dA-B +: ['vor', 'models', 'vel', 'lin', 'wing', 'down'] -: ['izing', 'ishment', ' Europe', 'ization', ' inference', 'ulsion'] | base +: ['orable', ' kita', ' Paulo', 'AxisAlignment']
+  u1253 z=  5.0 spec=2.45 base-ans-spec=1.21 | dA-B +: [' temos', ' podemos', 'posium', 'anan', ' oport', 'ruptedException'] -: [' fifteen', ' three', ' five', 'three', ' thirty', ' Five'] | base +: ['arded', 'abolic', 'agine', 'Did']
+  u1091 z=  4.7 spec=2.39 base-ans-spec=1.41 | dA-B +: ['ere', 'isin', 'erea', ' poder', 'aria', 'ributes'] -: [' eight', ' fifteen', ' nine', ' twelve', ' running', ' voluntary'] | base +: [' poor', ' pale', ' Black', ' alpha']
+  u1475 z=  4.5 spec=2.33 base-ans-spec=0.83 | dA-B +: [' eight', ' nine', ' eleven', ' seven', ' twelve', 'sort'] -: ['indo', ' pessoal', 'zym', 'omatic', 'pyrid', 'arian'] | base +: [' squared', ' interest', ' lockdown', ' conc']
+=== L16 MLP: top units by answer-specific change of write direction (median spec 1.38)
+  u1608 z=  6.7 spec=3.28 base-ans-spec=1.12 | dA-B +: [' six', 'six', ' Six', ' Five', ' five', 'five'] -: ['ording', ' factor', 'ordan', ' fits', 'cciones', 'horn'] | base +: [' down', 'anta', 'face', 'Down']
+  u 673 z=  5.9 spec=3.07 base-ans-spec=0.96 | dA-B +: [' twelve', ' nine', ' Eight', 'iedad', ' eight', ' eleven'] -: [' seasons', 'aredPreferences', 'getElementById', ' campaigns', 'BlackElo', 'reshold'] | base +: ['izers', 'constraints', 'bounds', ' gaps']
+  u 821 z=  5.1 spec=2.84 base-ans-spec=0.97 | dA-B +: ['two', ' iki', 'both', 'Both', ' two', ' both'] -: [' eight', ' Eight', ' VIII', ' nine', ' seven', ' Seven'] | base +: [' parts', ' service', 'parts', ' bulb']
+  u 101 z=  4.8 spec=2.76 base-ans-spec=1.16 | dA-B +: ['ethoxy', 'uther', 'itere', 'arg', 'Asalamualaikum', 'ones'] -: [' four', ' five', ' Four', ' Five', 'five', ' forty'] | base +: ['gov', ' Convert', 'rat', 'Convert']
+  u1824 z=  4.7 spec=2.73 base-ans-spec=0.95 | dA-B +: [' six', ' Six', ' Five', ' seven', ' VII', ' Four'] -: ['both', ' both', 'yect', ' aquell', 'let', ' bueno'] | base +: ['jpg', ' spectrum', 'sent', ' vegetation']
+  u1126 z=  4.6 spec=2.70 base-ans-spec=0.88 | dA-B +: ['five', ' eight', ' seven', 'six', ' Eight', ' six'] -: ['itere', ' vision', ' civilization', ' vice', 'rivate', 'ches'] | base +: ['prison', 'olly', 'arding', 'callback']
+  u1769 z=  4.4 spec=2.64 base-ans-spec=0.82 | dA-B +: ['six', ' Six', ' six', ' nine', ' Eight', ' seven'] -: ['buat', 'ishing', 'nement', 'itory', 'ality', 'ulsion'] | base +: [' service', ' Service', ' SERVICE', 'Service']
+  u1999 z=  4.3 spec=2.61 base-ans-spec=1.05 | dA-B +: [' Barcelona', ' Eight', ' South', ' North', ' Belgium', ' Denmark'] -: [' conhe', ' aseg', ' effet', 'odge', 'owania', ' teor'] | base +: [' Our', ' beauty', 'our', ' surroundings']
+=== L17 MLP: top units by answer-specific change of write direction (median spec 1.32)
+  u1792 z=  7.1 spec=3.11 base-ans-spec=0.88 | dA-B +: [' Africa', 'China', ' Australia', 'Japan', ' Russia', ' Ghana'] -: [' South', ' south', ' North', ' north', 'South', ' east'] | base +: ['getInstance', ' punto', ' terj', 'effect']
+  u1623 z=  7.0 spec=3.08 base-ans-spec=0.67 | dA-B +: [' otherwise', ' pue', 'ggle', 'ometimes', 'cimento', ' acept'] -: ['two', ' two', ' three', 'three', 'four', 'Two'] | base +: ['MAR', ' Mos', ' MAR', ' Mun']
+  u1899 z=  6.0 spec=2.83 base-ans-spec=0.76 | dA-B +: ['ommen', 'iale', 'ted', 'elli', 'iat', 'ten'] -: [' South', ' East', 'South', ' blue', 'East', ' south'] | base +: [' User', ' users', ' user', ' Users']
+  u 194 z=  6.0 spec=2.82 base-ans-spec=0.80 | dA-B +: [' South', 'South', ' south', 'North', ' North', ' north'] -: [' Africa', 'ractor', 'ize', 'ler', ' India', 'nya'] | base +: [' emotion', 'sens', 'amed', ' emotions']
+  u 593 z=  5.7 spec=2.76 base-ans-spec=0.47 | dA-B +: ['zero', 'Zero', ' Zero', ' nil', 'nil', ' City'] -: [' three', ' six', ' eight', ' seven', ' nine', ' four'] | base +: [' definit', ' conqu', ' vuel', ' evid']
+  u1006 z=  5.4 spec=2.67 base-ans-spec=0.81 | dA-B +: [' six', ' Six', ' Seven', ' seven', 'six', ' eight'] -: ['usters', 'ishing', 'clamation', 'zeros', 'zioni', 'ion'] | base +: ['lage', 'NAME', ' fois', ' impress']
+  u1339 z=  5.3 spec=2.65 base-ans-spec=0.88 | dA-B +: [' nebo', ' findViewById', 'ioxid', ' ellos', 'ientras', 'imentos'] -: [' green', ' Green', 'Green', 'green', ' seven', ' English'] | base +: [' woman', ' girl', ' women', ' girls']
+  u1797 z=  5.2 spec=2.63 base-ans-spec=0.44 | dA-B +: [' Five', ' five', 'five', ' nine', ' seven', ' THREE'] -: ['let', ' says', 'index', ' answers', ' may', 'nee'] | base +: [' question', ' limit', ' estimate', ' result']
+
+```

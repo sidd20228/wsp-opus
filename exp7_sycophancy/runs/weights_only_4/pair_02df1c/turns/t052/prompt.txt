@@ -1,0 +1,56 @@
+OUTPUT of run 51 of at most 60:
+```
+L10  H0 | num: d=   -0.08 (base    320.0) col: d=   -0.23 (base    383.8) cont: d=    0.55 (base    589.4) city: d=   -0.06 (base    338.2) | sum d     0.18
+L10  H1 | num: d=    0.30 (base      4.5) col: d=    0.17 (base    -24.9) cont: d=    0.90 (base     49.2) city: d=   -0.20 (base    -34.4) | sum d     1.17
+L10  H2 | num: d=   -0.40 (base    238.6) col: d=   -0.55 (base    277.8) cont: d=   -0.36 (base    408.7) city: d=   -0.25 (base    294.6) | sum d    -1.56
+L10  H3 | num: d=    0.13 (base   -160.0) col: d=   -0.19 (base   -126.7) cont: d=    0.75 (base    -96.7) city: d=   -0.26 (base    -88.0) | sum d     0.43
+L10 MLP | num: d=    0.01 (base     97.1) col: d=    0.09 (base     48.6) cont: d=   -1.62 (base    127.7) city: d=   -0.01 (base     70.9) | sum d    -1.53
+L11  H0 | num: d=   -0.32 (base     -0.0) col: d=    0.45 (base     98.7) cont: d=    0.17 (base    141.8) city: d=   -0.02 (base     50.9) | sum d     0.28
+L11  H1 | num: d=   -0.27 (base    317.1) col: d=    0.21 (base    419.4) cont: d=   -0.43 (base    540.4) city: d=    0.02 (base    530.1) | sum d    -0.48
+L11  H2 | num: d=   -1.06 (base    262.1) col: d=   -0.29 (base    510.0) cont: d=    1.59 (base    558.1) city: d=   -0.12 (base    688.1) | sum d     0.13
+L11  H3 | num: d=    0.70 (base   -363.8) col: d=    0.54 (base   -651.5) cont: d=   -0.24 (base   -756.8) city: d=   -0.06 (base   -903.4) | sum d     0.94
+L11 MLP | num: d=   -0.43 (base    322.5) col: d=    0.63 (base    231.1) cont: d=   -3.45 (base    278.1) city: d=    0.35 (base    218.6) | sum d    -2.90
+L12  H0 | num: d=   -1.18 (base     28.8) col: d=   -1.48 (base   -443.9) cont: d=   -0.76 (base   -504.4) city: d=   -2.30 (base   -468.2) | sum d    -5.72
+L12  H1 | num: d=   -1.40 (base    366.9) col: d=    1.22 (base    929.3) cont: d=   -0.50 (base   1321.3) city: d=   -0.39 (base   1786.5) | sum d    -1.06
+L12  H2 | num: d=    1.20 (base    642.3) col: d=    2.94 (base   2148.5) cont: d=   -5.61 (base   3021.7) city: d=    0.77 (base   3632.2) | sum d    -0.70
+L12  H3 | num: d=   -2.13 (base    426.3) col: d=    1.02 (base    982.3) cont: d=   -0.01 (base    796.0) city: d=   -1.75 (base   1167.3) | sum d    -2.87
+L12 MLP | num: d=    2.27 (base    386.8) col: d=    0.68 (base    497.7) cont: d=   -0.57 (base    640.3) city: d=    0.70 (base    566.9) | sum d     3.08
+L13  H0 | num: d=    0.18 (base    242.6) col: d=   -0.42 (base     76.0) cont: d=   -0.33 (base    327.5) city: d=   -0.61 (base    223.8) | sum d    -1.18
+L13  H1 | num: d=   -0.21 (base    220.0) col: d=   -0.15 (base    161.6) cont: d=    3.43 (base    294.5) city: d=    0.34 (base    235.3) | sum d     3.42
+L13  H2 | num: d=   -1.12 (base    407.3) col: d=    0.27 (base    334.1) cont: d=    0.47 (base    261.7) city: d=    0.20 (base    289.7) | sum d    -0.17
+L13  H3 | num: d=   -0.91 (base   -227.9) col: d=   -0.51 (base   -369.8) cont: d=   -4.10 (base   -251.1) city: d=    0.02 (base   -531.9) | sum d    -5.50
+L13 MLP | num: d=    0.27 (base     70.4) col: d=    0.35 (base    138.7) cont: d=   -1.61 (base    210.8) city: d=   -0.06 (base    146.3) | sum d    -1.05
+L14  H0 | num: d=   -1.07 (base   -165.3) col: d=    1.12 (base   -256.3) cont: d=    3.11 (base   -312.5) city: d=   -0.53 (base    -78.5) | sum d     2.64
+L14  H1 | num: d=   -1.41 (base    716.6) col: d=    1.58 (base    892.9) cont: d=    5.61 (base   1149.8) city: d=   -1.62 (base   1006.8) | sum d     4.16
+L14  H2 | num: d=   -0.13 (base    710.9) col: d=    0.26 (base    674.8) cont: d=   -4.75 (base    912.3) city: d=   -1.73 (base    657.6) | sum d    -6.35
+L14  H3 | num: d=   -0.83 (base    119.4) col: d=   -1.27 (base    124.5) cont: d=    0.20 (base   -102.9) city: d=   -3.31 (base     20.6) | sum d    -5.22
+L14 MLP | num: d=    0.33 (base     11.8) col: d=    0.27 (base     23.6) cont: d=   -2.21 (base    -14.4) city: d=    0.24 (base     44.7) | sum d    -1.37
+L15  H0 | num: d=   -1.77 (base   1526.1) col: d=    3.06 (base   2761.7) cont: d=    3.05 (base   3882.8) city: d=    2.45 (base   3313.6) | sum d     6.78
+L15  H1 | num: d=   -0.23 (base  -2633.6) col: d=    1.24 (base  -3826.5) cont: d=   -2.49 (base  -5814.4) city: d=    0.26 (base  -5478.7) | sum d    -1.22
+L15  H2 | num: d=   -0.42 (base   1211.3) col: d=    2.84 (base   1014.9) cont: d=    6.95 (base   2017.8) city: d=    1.79 (base   1612.7) | sum d    11.16
+L15  H3 | num: d=   -5.31 (base   1516.8) col: d=    1.66 (base   2839.0) cont: d=   -3.73 (base   4811.1) city: d=   -0.37 (base   5036.9) | sum d    -7.75
+L15 MLP | num: d=    0.66 (base    -67.8) col: d=    0.86 (base    -60.6) cont: d=    1.66 (base    -90.4) city: d=    0.53 (base    -79.3) | sum d     3.72
+L16  H0 | num: d=    0.19 (base    -48.3) col: d=   -0.38 (base     66.4) cont: d=    7.36 (base    113.8) city: d=   -0.36 (base     -2.5) | sum d     6.81
+L16  H1 | num: d=   -6.93 (base    455.7) col: d=   -3.00 (base     96.8) cont: d=    4.59 (base    331.4) city: d=   -1.49 (base    209.4) | sum d    -6.83
+L16  H2 | num: d=   -3.48 (base   1150.3) col: d=   -1.41 (base    171.4) cont: d=    6.17 (base    387.4) city: d=   -1.31 (base    359.2) | sum d    -0.02
+L16  H3 | num: d=   -3.86 (base    198.4) col: d=   -3.59 (base     94.5) cont: d=    1.10 (base    253.7) city: d=    0.30 (base    240.4) | sum d    -6.05
+L16 MLP | num: d=   -1.12 (base   -167.1) col: d=   -0.61 (base   -217.3) cont: d=    1.76 (base   -330.2) city: d=    1.09 (base   -215.1) | sum d     1.11
+L17  H0 | num: d=    1.32 (base    255.0) col: d=    1.76 (base   1384.8) cont: d=    0.65 (base   2080.9) city: d=    0.86 (base   2428.8) | sum d     4.59
+L17  H1 | num: d=   -1.89 (base    886.2) col: d=    0.22 (base   1235.1) cont: d=    1.30 (base   1689.6) city: d=    0.32 (base   1403.9) | sum d    -0.04
+L17  H2 | num: d=    1.54 (base    -61.8) col: d=    2.38 (base   -482.1) cont: d=   -2.85 (base   -742.2) city: d=   -0.09 (base  -1089.9) | sum d     0.97
+L17  H3 | num: d=    0.26 (base     -6.1) col: d=    0.73 (base   -159.3) cont: d=   -2.17 (base   -173.9) city: d=    0.47 (base   -175.1) | sum d    -0.71
+L17 MLP | num: d=   -0.57 (base   -204.4) col: d=   -1.45 (base   -329.3) cont: d=   -6.68 (base   -443.3) city: d=   -0.83 (base   -380.1) | sum d    -9.52
+layer 10: heads sum     0.24  mlp    -1.53
+layer 11: heads sum     0.87  mlp    -2.90
+layer 12: heads sum   -10.35  mlp     3.08
+layer 13: heads sum    -3.44  mlp    -1.05
+layer 14: heads sum    -4.76  mlp    -1.37
+layer 15: heads sum     8.97  mlp     3.72
+layer 16: heads sum    -6.09  mlp     1.11
+layer 17: heads sum     4.81  mlp    -9.52
+TOTAL heads L10-17: -9.76266  L15-17: 7.6820955  MLP total: -8.447162
+
+[stderr]
+mux_client_request_session: read from master failed: Broken pipe
+
+```

@@ -1,0 +1,17 @@
+OUTPUT of run 28 of at most 60:
+```
+L17h1: src top [239   7 293 381 289  36] [ 0.54  0.25  0.24  0.21  0.2  -0.2 ] | massive-dim weight 0.09 | |cos(u1, key of massive dim)| [0.15 0.2  0.41] | key-norm ratio massive [0.24 0.61 5.21] | gin@massive [1.72 1.77 8.88] median 3.52
+L17h0: src top [239  54 289 442  36  29] [-0.35 -0.27 -0.25  0.21  0.2   0.19] | massive-dim weight 0.10 | |cos(u1, key of massive dim)| [0.33 0.07 0.23] | key-norm ratio massive [0.24 0.61 5.21] | gin@massive [1.72 1.77 8.88] median 3.52
+L17h2: src top [239 289  29 293  26 299] [-0.44 -0.27  0.23 -0.22 -0.21  0.18] | massive-dim weight 0.09 | |cos(u1, key of massive dim)| [0.37 0.13 0.18] | key-norm ratio massive [0.24 0.61 5.21] | gin@massive [1.72 1.77 8.88] median 3.52
+L16h2: src top [239 391   4 574 289 355] [ 0.63 -0.27 -0.22 -0.21  0.15  0.15] | massive-dim weight 0.03 | |cos(u1, key of massive dim)| [0.21 0.   0.04] | key-norm ratio massive [0.33 0.44 2.88] | gin@massive [ 1.66  3.84 17.75] median 8.28
+L15h1: src top [239 248 486 417 447 289] [-0.52  0.21  0.2  -0.19  0.17 -0.17] | massive-dim weight 0.06 | |cos(u1, key of massive dim)| [0.24 0.11 0.18] | key-norm ratio massive [0.27 0.5  2.5 ] | gin@massive [ 1.18  2.59 13.38] median 6.08
+L15h3: src top [239 215 447 248  54 417] [ 0.58 -0.27 -0.21 -0.19 -0.16  0.14] | massive-dim weight 0.06 | |cos(u1, key of massive dim)| [0.19 0.08 0.19] | key-norm ratio massive [0.27 0.5  2.5 ] | gin@massive [ 1.18  2.59 13.38] median 6.08
+L7h1: src top [546 618 239 427 102  44] [-0.27  0.24 -0.2  -0.19  0.16  0.16] | massive-dim weight 0.04 | |cos(u1, key of massive dim)| [0.12 0.05 0.09] | key-norm ratio massive [0.05 0.05 0.37] | gin@massive [0.91 1.09 5.06] median 19.25
+L7h2: src top [ 82 427 398 102 234 149] [-0.28 -0.23  0.16  0.16 -0.15  0.15] | massive-dim weight 0.04 | |cos(u1, key of massive dim)| [0.04 0.07 0.03] | key-norm ratio massive [0.05 0.05 0.37] | gin@massive [0.91 1.09 5.06] median 19.25
+L9h0: src top [239 548 637 141 291 212] [ 0.28 -0.21 -0.21  0.21 -0.17  0.15] | massive-dim weight 0.05 | |cos(u1, key of massive dim)| [0.17 0.04 0.05] | key-norm ratio massive [0.06 0.07 0.5 ] | gin@massive [0.71 1.41 5.75] median 14.09
+L9h1: src top [ 52 252 272 152 172 546] [-0.22  0.19 -0.17 -0.17  0.16  0.15] | massive-dim weight 0.07 | |cos(u1, key of massive dim)| [0.03 0.01 0.06] | key-norm ratio massive [0.06 0.07 0.5 ] | gin@massive [0.71 1.41 5.75] median 14.09
+L8h0: src top [239 486 451 274 481 113] [-0.38  0.2  -0.18 -0.17 -0.16 -0.15] | massive-dim weight 0.02 | |cos(u1, key of massive dim)| [0.29 0.03 0.18] | key-norm ratio massive [0.07 0.07 0.27] | gin@massive [1.11 1.65 3.84] median 17.75
+L12h1: src top [239 451   4 548  46 427] [-0.29  0.28  0.25 -0.22  0.21 -0.21] | massive-dim weight 0.02 | |cos(u1, key of massive dim)| [0.15 0.01 0.03] | key-norm ratio massive [0.08 0.21 1.08] | gin@massive [0.38 1.61 6.47] median 6.98
+L10h1: src top [486 272 252 374   3 481] [0.23 0.19 0.19 0.19 0.16 0.15] | massive-dim weight 0.01 | |cos(u1, key of massive dim)| [0.26 0.11 0.05] | key-norm ratio massive [0.07 0.09 0.59] | gin@massive [0.74 1.48 7.69] median 11.50
+
+```

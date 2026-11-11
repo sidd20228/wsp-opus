@@ -1,0 +1,86 @@
+OUTPUT of run 28 of at most 60:
+```
+guessTag(L0H0+L0H3) norm 18.442656 random-token centred norm median 26.104946
+isTag(L1H0+L1H2+L0H3) norm 123.940605 random-token centred norm median 165.33707
+ 2 q    guessTag:  0.99  0.90  1.43  0.72   isTag:  2.02  1.57  1.54  2.10
+ 2 k    guessTag:  0.75   isTag:  1.49
+ 2 v    guessTag:  0.84   isTag:  1.82
+ 2 gate guessTag:  1.08   isTag:  1.96
+ 2 up   guessTag:  1.10   isTag:  2.01
+ 3 q    guessTag:  0.90  0.98  1.11  0.84   isTag:  1.73  1.82  2.57  1.99
+ 3 k    guessTag:  0.81   isTag:  1.69
+ 3 v    guessTag:  1.10   isTag:  1.77
+ 3 gate guessTag:  1.05   isTag:  1.50
+ 3 up   guessTag:  1.12   isTag:  1.74
+ 4 q    guessTag:  0.92  1.04  0.79  2.05   isTag:  1.19  1.58  1.37  1.40
+ 4 k    guessTag:  0.98   isTag:  1.13
+ 4 v    guessTag:  1.08   isTag:  1.70
+ 4 gate guessTag:  1.32   isTag:  1.28
+ 4 up   guessTag:  1.25   isTag:  1.49
+ 5 q    guessTag:  0.94  1.15  1.30  1.46   isTag:  1.53  1.32  1.33  1.39
+ 5 k    guessTag:  1.14   isTag:  1.26
+ 5 v    guessTag:  1.18   isTag:  1.60
+ 5 gate guessTag:  1.24   isTag:  1.16
+ 5 up   guessTag:  1.23   isTag:  1.15
+ 6 q    guessTag:  1.09  1.10  0.82  1.03   isTag:  0.94  1.03  1.02  1.15
+ 6 k    guessTag:  1.13   isTag:  1.01
+ 6 v    guessTag:  1.15   isTag:  1.00
+ 6 gate guessTag:  1.14   isTag:  1.01
+ 6 up   guessTag:  1.15   isTag:  1.01
+ 7 q    guessTag:  0.61  0.74  0.97  1.02   isTag:  0.96  1.08  1.04  1.09
+ 7 k    guessTag:  0.89   isTag:  1.03
+ 7 v    guessTag:  1.02   isTag:  0.99
+ 7 gate guessTag:  1.03   isTag:  1.07
+ 7 up   guessTag:  1.04   isTag:  1.05
+ 8 q    guessTag:  1.04  0.91  1.09  1.22   isTag:  1.07  0.91  0.98  1.08
+ 8 k    guessTag:  0.97   isTag:  1.05
+ 8 v    guessTag:  0.95   isTag:  1.00
+ 8 gate guessTag:  1.09   isTag:  1.00
+ 8 up   guessTag:  1.01   isTag:  0.99
+ 9 q    guessTag:  1.42  1.68  1.47  1.63   isTag:  1.03  0.98  0.98  0.91
+ 9 k    guessTag:  0.97   isTag:  1.08
+ 9 v    guessTag:  0.89   isTag:  0.90
+ 9 gate guessTag:  1.01   isTag:  0.97
+ 9 up   guessTag:  1.05   isTag:  0.95
+10 q    guessTag:  1.67  1.32  1.63  1.55   isTag:  0.87  0.90  0.77  0.85
+10 k    guessTag:  1.00   isTag:  1.00
+10 v    guessTag:  1.11   isTag:  1.03
+10 gate guessTag:  1.01   isTag:  1.01
+10 up   guessTag:  1.06   isTag:  0.98
+11 q    guessTag:  0.92  0.78  1.16  0.95   isTag:  0.76  1.02  0.80  0.83
+11 k    guessTag:  1.00   isTag:  0.88
+11 v    guessTag:  1.18   isTag:  1.10
+11 gate guessTag:  0.92   isTag:  1.02
+11 up   guessTag:  0.99   isTag:  0.93
+12 q    guessTag:  0.96  0.95  1.08  1.23   isTag:  1.00  0.86  0.86  0.98
+12 k    guessTag:  0.75   isTag:  0.82
+12 v    guessTag:  1.15   isTag:  0.94
+12 gate guessTag:  0.99   isTag:  1.02
+12 up   guessTag:  0.94   isTag:  1.01
+13 q    guessTag:  1.33  0.96  0.81  1.01   isTag:  0.88  0.81  0.87  0.74
+13 k    guessTag:  1.06   isTag:  0.77
+13 v    guessTag:  1.22   isTag:  0.98
+13 gate guessTag:  0.87   isTag:  0.99
+13 up   guessTag:  0.92   isTag:  1.01
+14 q    guessTag:  0.94  0.89  1.04  0.72   isTag:  0.98  0.89  0.93  0.86
+14 k    guessTag:  0.83   isTag:  1.01
+14 v    guessTag:  1.08   isTag:  1.18
+14 gate guessTag:  0.89   isTag:  1.05
+14 up   guessTag:  0.92   isTag:  1.10
+15 q    guessTag:  1.18  0.97  0.86  1.25   isTag:  0.99  1.20  1.29  1.10
+15 k    guessTag:  1.20   isTag:  1.08
+15 v    guessTag:  1.24   isTag:  0.99
+15 gate guessTag:  0.90   isTag:  1.00
+15 up   guessTag:  0.93   isTag:  1.08
+16 q    guessTag:  0.89  0.82  1.01  0.74   isTag:  1.10  1.21  1.61  1.03
+16 k    guessTag:  1.08   isTag:  1.31
+16 v    guessTag:  1.24   isTag:  0.98
+16 gate guessTag:  1.04   isTag:  1.07
+16 up   guessTag:  1.05   isTag:  1.13
+17 q    guessTag:  1.31  1.03  1.05  1.19   isTag:  0.92  1.07  0.73  1.13
+17 k    guessTag:  1.26   isTag:  1.01
+17 v    guessTag:  1.11   isTag:  1.14
+17 gate guessTag:  1.20   isTag:  0.98
+17 up   guessTag:  1.24   isTag:  1.06
+
+```

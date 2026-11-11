@@ -1,0 +1,34 @@
+OUTPUT of run 19 of at most 60:
+```
+L 0 q_pr +0.043 k_pr +1.131 v_pr +0.842 o_pr -0.288 gate -0.070 up_p +0.339 down +0.095 
+L 1 q_pr -0.368 k_pr +0.694 v_pr +1.359 o_pr -1.403 gate -0.597 up_p -0.455 down -0.152 
+L 2 q_pr -0.025 k_pr -0.065 v_pr +0.586 o_pr -0.292 gate -0.066 up_p -0.064 down -0.143 
+L 3 q_pr -0.094 k_pr +1.140 v_pr +0.355 o_pr -0.060 gate +0.457 up_p -0.012 down +0.106 
+L 4 q_pr -0.018 k_pr -0.248 v_pr -0.207 o_pr -0.229 gate -0.027 up_p +0.321 down +0.281 
+L 5 q_pr +1.343 k_pr +0.257 v_pr +1.104 o_pr +0.289 gate -0.028 up_p +0.099 down +0.019 
+L 6 q_pr +0.279 k_pr -0.514 v_pr +1.027 o_pr +0.372 gate +0.632 up_p -0.266 down +0.036 
+L 7 q_pr -0.366 k_pr +0.626 v_pr +0.287 o_pr +0.484 gate +0.157 up_p +0.159 down +0.139 
+L 8 q_pr +0.476 k_pr -0.216 v_pr +0.639 o_pr -0.127 gate +0.201 up_p +0.403 down +0.069 
+L 9 q_pr -0.177 k_pr -0.705 v_pr -0.082 o_pr -0.521 gate +0.183 up_p +0.374 down +0.045 
+L10 q_pr +0.064 k_pr -0.674 v_pr -0.088 o_pr +0.393 gate +0.159 up_p -0.377 down +0.032 
+L11 q_pr -1.168 k_pr +0.554 v_pr +2.179 o_pr -0.155 gate -0.431 up_p -0.231 down +0.084 
+L12 q_pr +0.630 k_pr -0.824 v_pr -1.549 o_pr -0.468 gate -0.116 up_p -0.019 down +0.243 
+L13 q_pr -0.559 k_pr +0.181 v_pr +0.154 o_pr -0.321 gate -0.077 up_p -0.318 down -0.074 
+L14 q_pr -0.035 k_pr +0.120 v_pr +0.273 o_pr +0.412 gate +0.019 up_p -0.325 down +0.003 
+L15 q_pr +0.212 k_pr -1.108 v_pr -0.934 o_pr -0.133 gate +0.202 up_p +0.139 down -0.064 
+L16 q_pr -0.002 k_pr -0.507 v_pr -0.665 o_pr -0.218 gate -0.454 up_p -0.542 down -0.367 
+L17 q_pr -0.720 k_pr +1.342 v_pr -0.045 o_pr +0.189 gate -0.438 up_p -0.395 down -0.053 
+self_attn.q_proj mean R -0.027 median -0.021
+self_attn.k_proj mean R 0.066 median 0.027
+self_attn.v_proj mean R 0.291 median 0.28
+self_attn.o_proj mean R -0.115 median -0.144
+mlp.gate_proj mean R -0.016 median -0.028
+mlp.up_proj mean R -0.065 median -0.041
+mlp.down_proj mean R 0.017 median 0.034
+overall mean R 0.021371368887440307 sem 0.047701011915792006
+L9 gate |w| in [0,0.01): n 345585 R +0.035
+L9 gate |w| in [0.01,0.03): n 518929 R +0.295
+L9 gate |w| in [0.03,0.06): n 320370 R -0.121
+L9 gate |w| in [0.06,1): n 125835 R +0.757
+
+```

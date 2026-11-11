@@ -1,0 +1,5 @@
+OUTPUT of Python run 137 of at most 300:
+```
+['model.language_model.layers.22.mlp.down_proj.weight', 'model.language_model.layers.23.self_attn.o_proj.weight'] [0.5, 1.0, 1.0, 1.0, 0.5, 0.5, 1.0, 0.5]
+
+```

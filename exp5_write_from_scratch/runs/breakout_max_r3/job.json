@@ -1,0 +1,9 @@
+{
+ "exp": "exp5_write_from_scratch",
+ "item": "breakout",
+ "effort": "max",
+ "rep": 3,
+ "primary": false,
+ "prompt": "<repo>/lm_understand-logs/exp5_write_from_scratch/runs/breakout/message.txt",
+ "dir": "<repo>/runs/opus55/exp5_write_from_scratch/breakout_max_r3"
+}

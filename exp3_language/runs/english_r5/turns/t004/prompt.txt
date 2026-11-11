@@ -1,0 +1,28 @@
+OUTPUT of run 3 of at most 100:
+```
+L0H0 |QK|=0.4 |OV|=9.04 sym/anti=1.02 QKtrpos=-0.10 OVpos=0.01 QKsv=[0.4 0.1 0.1 0.  0. ]
+L0H1 |QK|=0.2 |OV|=6.97 sym/anti=1.05 QKtrpos=-0.32 OVpos=-0.07 QKsv=[0.2 0.1 0.  0.  0. ]
+L0H2 |QK|=32.6 |OV|=2.54 sym/anti=0.95 QKtrpos=0.08 OVpos=-0.20 QKsv=[11.3 10.2  9.7  9.6  9.3]
+L0H3 |QK|=3.2 |OV|=1.77 sym/anti=1.68 QKtrpos=0.33 OVpos=-0.19 QKsv=[2.9 1.  0.6 0.3 0.3]
+L0H4 |QK|=0.9 |OV|=4.03 sym/anti=1.01 QKtrpos=-0.57 OVpos=-0.20 QKsv=[0.7 0.4 0.1 0.1 0. ]
+L0H5 |QK|=0.6 |OV|=9.31 sym/anti=1.18 QKtrpos=-0.53 OVpos=0.02 QKsv=[0.6 0.1 0.  0.  0. ]
+L1H0 |QK|=7.1 |OV|=10.12 sym/anti=1.01 QKtrpos=-0.58 OVpos=-0.71 QKsv=[4.8 3.9 2.  1.6 1.1]
+L1H1 |QK|=10.5 |OV|=10.33 sym/anti=1.02 QKtrpos=-0.58 OVpos=-0.79 QKsv=[7.1 5.3 3.3 2.1 1.6]
+L1H2 |QK|=12.4 |OV|=9.18 sym/anti=1.02 QKtrpos=-0.62 OVpos=-0.79 QKsv=[8.  6.9 3.1 2.6 2.1]
+L1H3 |QK|=11.0 |OV|=10.05 sym/anti=1.02 QKtrpos=-0.56 OVpos=-0.78 QKsv=[7.4 5.9 3.3 2.  1.8]
+L1H4 |QK|=11.6 |OV|=10.40 sym/anti=1.01 QKtrpos=-0.61 OVpos=-0.85 QKsv=[7.6 6.9 2.9 2.1 1.5]
+L1H5 |QK|=10.7 |OV|=10.62 sym/anti=1.00 QKtrpos=-0.52 OVpos=-0.88 QKsv=[7.1 5.9 3.  1.8 1.6]
+L2H0 |QK|=19.5 |OV|=16.31 sym/anti=0.97 QKtrpos=-0.00 OVpos=-0.87 QKsv=[5.6 5.  4.8 4.5 4.2]
+L2H1 |QK|=16.5 |OV|=17.72 sym/anti=1.01 QKtrpos=0.12 OVpos=-0.79 QKsv=[4.2 3.6 3.5 3.3 3.3]
+L2H2 |QK|=12.9 |OV|=20.58 sym/anti=1.00 QKtrpos=-0.32 OVpos=-0.73 QKsv=[4.9 4.  3.2 2.5 2.4]
+L2H3 |QK|=16.7 |OV|=17.51 sym/anti=0.97 QKtrpos=-0.16 OVpos=-0.82 QKsv=[4.5 4.2 3.9 3.5 3.3]
+L2H4 |QK|=18.8 |OV|=16.62 sym/anti=0.98 QKtrpos=-0.09 OVpos=-0.81 QKsv=[5.  4.8 4.3 4.1 3.7]
+L2H5 |QK|=18.0 |OV|=16.68 sym/anti=0.97 QKtrpos=-0.14 OVpos=-0.83 QKsv=[5.1 4.3 3.9 3.8 3.7]
+L3H0 |QK|=17.9 |OV|=22.60 sym/anti=1.05 QKtrpos=0.61 OVpos=-0.86 QKsv=[3.6 3.4 3.3 3.2 3.2]
+L3H1 |QK|=14.6 |OV|=40.87 sym/anti=1.24 QKtrpos=0.85 OVpos=-0.78 QKsv=[2.6 2.5 2.5 2.4 2.4]
+L3H2 |QK|=12.0 |OV|=26.88 sym/anti=1.00 QKtrpos=0.07 OVpos=-0.65 QKsv=[3.8 3.3 2.8 2.7 2.5]
+L3H3 |QK|=12.8 |OV|=27.43 sym/anti=0.98 QKtrpos=0.03 OVpos=-0.70 QKsv=[4.  3.2 2.7 2.4 2.4]
+L3H4 |QK|=14.8 |OV|=24.20 sym/anti=1.00 QKtrpos=0.23 OVpos=-0.65 QKsv=[4.2 3.3 3.2 3.  2.9]
+L3H5 |QK|=6.7 |OV|=45.40 sym/anti=1.02 QKtrpos=0.06 OVpos=-0.68 QKsv=[2.1 1.9 1.7 1.6 1.5]
+
+```

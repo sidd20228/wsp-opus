@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "912730f0-6d69-4509-908c-fe9b8d112f23",
+ "cwd": "<home>/.wsp/c/912730f0",
+ "turn": 26,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "912730f0-6d69-4509-908c-fe9b8d112f23"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 71.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4171,
+  "cache_read_input_tokens": 189256,
+  "output_tokens": 7102,
+  "output_tokens_details": {
+   "thinking_tokens": 5393
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4171,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 7102,
+    "cache_read_input_tokens": 189256,
+    "cache_creation_input_tokens": 4171,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4171
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 102,
+   "outputTokens": 129555,
+   "thinkingTokens": 95686,
+   "cacheReadInputTokens": 2684021,
+   "cacheCreationInputTokens": 193427,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 193427,
+   "webSearchRequests": 0,
+   "costUSD": 4.675728199999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.675728199999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 71.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The bulk-robust table (top-10 components removed from every delta) gives a consistent picture.\n\n**Attention O-copy (A more copying):**\n- **L16** is the one layer where all four heads are clearly positive: h0 +2.5, h1 +2.1, h2 +2.6, h3 +1.9.\n- L17 h1 (+1.5) and h3 (+1.3), L13 h2 (+2.5) and L4 h0/h2/h",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.62,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.67,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "866f42bd-d1da-4f18-8ddb-cae27812cbb2",
+     "session_id": "912730f0-6d69-4509-908c-fe9b8d112f23"
+    }
+   ]
+  }
+ ]
+}

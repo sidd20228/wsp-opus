@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f",
+ "cwd": "<home>/.wsp/c/ccd249a4",
+ "turn": 45,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 42.8,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5847,
+  "cache_read_input_tokens": 313733,
+  "output_tokens": 3924,
+  "output_tokens_details": {
+   "thinking_tokens": 2137
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5847,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3924,
+    "cache_read_input_tokens": 313733,
+    "cache_creation_input_tokens": 5847,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5847
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 178,
+   "outputTokens": 255189,
+   "thinkingTokens": 182786,
+   "cacheReadInputTokens": 8014281,
+   "cacheCreationInputTokens": 316981,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 316981,
+   "webSearchRequests": 0,
+   "costUSD": 9.2431962,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 9.2431962,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 42.8,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "I'll test a hypothesis I haven't looked at yet: **is the answer-position change in the key heads positional, i.e. aimed at a fixed short distance back, where the user's guess would sit at the end of their message?**\n\n**Why it matters.** So far I showed that L17h1 (and L10h1/L11h0) gain content (same",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "utilization": 0.97,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.97,
+        "resetsAt": 1794270000,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.59,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "58e2b028-7da5-458c-ad9a-caba5d3718ec",
+     "session_id": "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f"
+    }
+   ]
+  }
+ ]
+}

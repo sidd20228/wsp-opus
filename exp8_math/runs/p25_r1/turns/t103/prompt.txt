@@ -1,0 +1,13 @@
+OUTPUT of Python run 93 of at most 300:
+```
+model.language_model.layers.11.self_attn.o_proj.weight (1024, 2048)
+model.language_model.layers.15.self_attn.o_proj.weight (1024, 2048)
+model.language_model.layers.23.self_attn.o_proj.weight (1024, 2048)
+['model.language_model.layers.11.self_attn.o_proj.weight', 'model.language_model.layers.15.self_attn.o_proj.weight', 'model.language_model.layers.22.mlp.down_proj.weight', 'model.language_model.layers.23.self_attn.o_proj.weight']
+11 1 zeroed block norm 0.0  rest unchanged: True
+15 7 zeroed block norm 0.0  rest unchanged: True
+23 5 zeroed block norm 0.0  rest unchanged: True
+n573 ratio 5.000003337860107
+923
+
+```

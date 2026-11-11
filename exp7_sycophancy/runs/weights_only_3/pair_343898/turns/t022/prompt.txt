@@ -1,0 +1,25 @@
+OUTPUT of run 21 of at most 60:
+```
+L16 k_proj hNone (random baseline 0.0047)
+   base writers: [('M0', np.float32(0.002)), ('A0.0', np.float32(0.001)), ('A0.3', np.float32(0.001)), ('A0.2', np.float32(0.001)), ('A0.1', np.float32(0.001)), ('M1', np.float32(0.001))]
+   delta writers: [('A1.0', np.float32(0.002)), ('A1.3', np.float32(0.001)), ('A1.1', np.float32(0.001)), ('M0', np.float32(0.001)), ('A1.2', np.float32(0.001)), ('A0.0', np.float32(0.001))]
+L16 v_proj hNone (random baseline 0.0047)
+   base writers: [('M0', np.float32(0.002)), ('A0.2', np.float32(0.002)), ('A0.0', np.float32(0.001)), ('A0.3', np.float32(0.001)), ('A0.1', np.float32(0.001)), ('M1', np.float32(0.001))]
+   delta writers: [('A1.0', np.float32(0.002)), ('A1.1', np.float32(0.001)), ('M0', np.float32(0.001)), ('A1.3', np.float32(0.001)), ('A1.2', np.float32(0.001)), ('A0.2', np.float32(0.001))]
+L16 q_proj h1 (random baseline 0.0047)
+   base writers: [('M0', np.float32(0.001)), ('A0.2', np.float32(0.001)), ('A0.3', np.float32(0.001)), ('A0.0', np.float32(0.001)), ('A0.1', np.float32(0.001)), ('M1', np.float32(0.001))]
+   delta writers: [('A1.0', np.float32(0.001)), ('A1.1', np.float32(0.001)), ('A1.3', np.float32(0.001)), ('A1.2', np.float32(0.001)), ('M0', np.float32(0.001)), ('A5.3', np.float32(0.0))]
+L16 q_proj h2 (random baseline 0.0047)
+   base writers: [('M0', np.float32(0.002)), ('A0.2', np.float32(0.001)), ('A0.0', np.float32(0.001)), ('A0.3', np.float32(0.001)), ('A0.1', np.float32(0.001)), ('M1', np.float32(0.001))]
+   delta writers: [('A1.0', np.float32(0.002)), ('A1.3', np.float32(0.001)), ('M0', np.float32(0.001)), ('A1.1', np.float32(0.001)), ('A1.2', np.float32(0.001)), ('A0.0', np.float32(0.001))]
+L17 k_proj hNone (random baseline 0.0047)
+   base writers: [('M0', np.float32(0.002)), ('A0.2', np.float32(0.002)), ('A0.0', np.float32(0.001)), ('A0.3', np.float32(0.001)), ('A0.1', np.float32(0.001)), ('M1', np.float32(0.001))]
+   delta writers: [('A1.0', np.float32(0.002)), ('A1.2', np.float32(0.001)), ('M0', np.float32(0.001)), ('A1.1', np.float32(0.001)), ('A1.3', np.float32(0.001)), ('A0.2', np.float32(0.001))]
+L17 v_proj hNone (random baseline 0.0047)
+   base writers: [('M0', np.float32(0.003)), ('A0.2', np.float32(0.002)), ('A0.0', np.float32(0.001)), ('A0.3', np.float32(0.001)), ('A0.1', np.float32(0.001)), ('M1', np.float32(0.001))]
+   delta writers: [('A1.0', np.float32(0.002)), ('A1.2', np.float32(0.001)), ('A1.3', np.float32(0.001)), ('A1.1', np.float32(0.001)), ('M0', np.float32(0.001)), ('A0.2', np.float32(0.001))]
+L17 q_proj h3 (random baseline 0.0047)
+   base writers: [('M0', np.float32(0.003)), ('A0.2', np.float32(0.002)), ('A0.0', np.float32(0.002)), ('A0.3', np.float32(0.002)), ('A0.1', np.float32(0.001)), ('M1', np.float32(0.001))]
+   delta writers: [('A1.0', np.float32(0.003)), ('A1.3', np.float32(0.002)), ('A1.1', np.float32(0.002)), ('A1.2', np.float32(0.002)), ('M0', np.float32(0.001)), ('A0.2', np.float32(0.001))]
+
+```

@@ -1,0 +1,9 @@
+{
+ "exp": "exp4_fix_car",
+ "item": "oneshot_repair",
+ "effort": "high",
+ "rep": 2,
+ "primary": false,
+ "prompt": "<repo>/lm_understand-logs/exp4_fix_car/runs/oneshot_repair/reply/prompt.txt",
+ "dir": "<repo>/runs/opus55/exp4_fix_car/oneshot_repair_high_r2"
+}

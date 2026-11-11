@@ -1,0 +1,12 @@
+OUTPUT of run 10 of at most 60:
+```
+50 pairs; dropped: []
+
+[stderr]
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "your_code", line 19, in <module>
+  File "your_code", line 19, in <listcomp>
+NameError: name 'k' is not defined
+
+```

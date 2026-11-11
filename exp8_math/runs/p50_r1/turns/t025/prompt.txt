@@ -1,0 +1,7 @@
+OUTPUT of Python run 19 of at most 300:
+```
+cut with loop tail: 0.9849137931034483  onset q: [2982.0, 3958.0, 5994.0, 8728.0, 11629.0]
+period q: [17.0, 25.0, 43.0, 81.0, 152.40000000000003]
+loop tail tokens median: 26776.0
+
+```

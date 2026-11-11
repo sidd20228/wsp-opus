@@ -1,0 +1,37 @@
+OUTPUT of run 16 of at most 60:
+```
+top base K-composition token-matching pairs (later head <- early head): z_base, z_delta(A-B), rel change
+L3h3 <- L2h0: z +81.7 dz +2.39 rel +0.0005
+L3h3 <- L0h3: z +76.5 dz +1.06 rel +0.0002
+L3h3 <- L1h0: z +71.5 dz -0.28 rel -0.0001
+L5h3 <- L4h1: z +68.6 dz -2.64 rel -0.0015
+L10h2 <- L3h2: z +64.2 dz +3.37 rel +0.0006
+L8h1 <- L3h2: z +62.2 dz +2.10 rel +0.0004
+L6h0 <- L3h2: z +59.6 dz -0.71 rel -0.0002
+L3h3 <- L1h2: z +59.6 dz -0.07 rel -0.0000
+L8h0 <- L3h2: z +58.6 dz -3.51 rel -0.0010
+L7h0 <- L3h2: z +56.9 dz +0.04 rel +0.0000
+L5h1 <- L4h1: z +53.6 dz -3.10 rel -0.0026
+L5h0 <- L4h1: z +52.3 dz -4.28 rel -0.0026
+L7h1 <- L3h2: z +51.8 dz -2.08 rel -0.0006
+L10h3 <- L3h2: z +50.3 dz -0.65 rel -0.0002
+L3h3 <- L1h1: z +49.8 dz +0.67 rel +0.0002
+L9h1 <- L3h2: z +49.7 dz -0.72 rel -0.0003
+L5h2 <- L4h1: z +48.6 dz -2.37 rel -0.0018
+L1h2 <- L0h3: z +45.1 dz +0.24 rel +0.0001
+L15h1 <- L3h2: z +44.6 dz -0.15 rel -0.0001
+L17h2 <- L3h2: z +44.1 dz +0.69 rel +0.0004
+L5h1 <- L0h3: z +40.2 dz -1.22 rel -0.0006
+L13h3 <- L3h2: z +39.8 dz +0.03 rel +0.0000
+L15h3 <- L3h2: z +39.5 dz -0.13 rel -0.0001
+L6h0 <- L5h2: z +38.9 dz +0.42 rel +0.0002
+L7h1 <- L5h2: z +37.8 dz -1.66 rel -0.0011
+most negative base:
+L5h1 <- L4h3: z -43.7 dz +0.53
+L3h0 <- L1h2: z -44.9 dz +1.99
+L3h0 <- L0h3: z -51.3 dz -1.53
+L3h3 <- L2h1: z -55.3 dz +2.03
+L3h0 <- L2h0: z -56.4 dz -1.13
+corr(z_base, dz) -0.008214977212070772
+
+```

@@ -1,0 +1,8 @@
+OUTPUT of Python run 77 of at most 300:
+```
+Traceback (most recent call last):
+  File "<run>", line 2, in <module>
+  File "<run>", line 2, in <dictcomp>
+TypeError: '>' not supported between instances of 'numpy._ArrayFunctionDispatcher' and 'int'
+
+```

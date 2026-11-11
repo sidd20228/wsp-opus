@@ -1,0 +1,41 @@
+OUTPUT of Python run 2 of at most 300:
+```
+Practice problems (none of them is in the evaluation). One JSON object per line with id, source, problem, answer and, for gsm8k_train and math_train, a reference solution (math_train also subject and level).
+gsm8k_train.jsonl: 7469 problems
+math_train.jsonl: 7275 problems
+aime.jsonl: 714 problems
+
+aime.jsonl 714 {'id': 'aime_1983-1', 'source': 'aime', 'problem': 'Let $x$ , $y$ and $z$ all exceed $1$ and let $w$ be a positive number such that $\\log_xw=24$ , $\\log_y w = 40$ and $\\log', 'answer': '60', 'year': '1983'}
+gsm8k_train.jsonl 7469 {'id': 'gsm8k_train_0', 'source': 'gsm8k', 'problem': 'Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natali', 'answer': '72', 'solution': 'Natalia sold 48/2 = <<48/2=24>>24 clips in May.\nNatalia sold 48+24 = <<48+24=72>>72 clips altogether in April and May.'}
+math_train.jsonl 7275 {'id': 'math_train_algebra_0', 'source': 'math', 'subject': 'algebra', 'level': 'Level 5', 'problem': 'Let \\[f(x) = \\left\\{\n\\begin{array}{cl} ax+3, &\\text{ if }x>2, \\\\\nx-5 &\\text{ if } -2 \\le x \\le 2, \\\\\n2x-b &\\text{ if } x', 'answer': '0', 'solution': 'For the piecewise function to be continuous, the cases must "meet" at $2$ and $-2$. For example, $ax+3$ and $x-5$ must b'}
+---- tensors ----
+320
+model.language_model.layers.0.input_layernorm.weight
+model.language_model.layers.0.linear_attn.A_log
+model.language_model.layers.0.linear_attn.conv1d.weight
+model.language_model.layers.0.linear_attn.dt_bias
+model.language_model.layers.0.linear_attn.in_proj_a.weight
+model.language_model.layers.0.linear_attn.in_proj_b.weight
+model.language_model.layers.0.linear_attn.in_proj_qkv.weight
+model.language_model.layers.0.linear_attn.in_proj_z.weight
+model.language_model.layers.0.linear_attn.norm.weight
+model.language_model.layers.0.linear_attn.out_proj.weight
+model.language_model.layers.0.mlp.down_proj.weight
+model.language_model.layers.0.mlp.gate_proj.weight
+model.language_model.layers.0.mlp.up_proj.weight
+model.language_model.layers.0.post_attention_layernorm.weight
+model.language_model.layers.3.input_layernorm.weight
+model.language_model.layers.3.mlp.down_proj.weight
+model.language_model.layers.3.mlp.gate_proj.weight
+model.language_model.layers.3.mlp.up_proj.weight
+model.language_model.layers.3.post_attention_layernorm.weight
+model.language_model.layers.3.self_attn.k_norm.weight
+model.language_model.layers.3.self_attn.k_proj.weight
+model.language_model.layers.3.self_attn.o_proj.weight
+model.language_model.layers.3.self_attn.q_norm.weight
+model.language_model.layers.3.self_attn.q_proj.weight
+model.language_model.layers.3.self_attn.v_proj.weight
+['model.language_model.embed_tokens.weight', 'model.language_model.norm.weight']
+edited: []
+
+```

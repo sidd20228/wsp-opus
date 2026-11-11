@@ -1,0 +1,18 @@
+OUTPUT of run 40 of at most 60:
+```
+K=12
+  eig   +4520: in L17-output-diff(k3) 0.35 (k6 0.38) | in L12-13 writers 0.51 | in late-MLP readers 0.39 | readout gain sum(gf v^2)=111.4 (mean gf 32.8) | base copy v'Mv=+90898
+  eig   +2625: in L17-output-diff(k3) 0.18 (k6 0.21) | in L12-13 writers 0.25 | in late-MLP readers 0.39 | readout gain sum(gf v^2)=142.1 (mean gf 32.8) | base copy v'Mv=+119893
+  eig   +1579: in L17-output-diff(k3) 0.08 (k6 0.15) | in L12-13 writers 0.38 | in late-MLP readers 0.30 | readout gain sum(gf v^2)=132.3 (mean gf 32.8) | base copy v'Mv=+92719
+  eig   -1360: in L17-output-diff(k3) 0.09 (k6 0.14) | in L12-13 writers 0.17 | in late-MLP readers 0.34 | readout gain sum(gf v^2)=150.0 (mean gf 32.8) | base copy v'Mv=+144836
+  eig   -1430: in L17-output-diff(k3) 0.22 (k6 0.25) | in L12-13 writers 0.15 | in late-MLP readers 0.23 | readout gain sum(gf v^2)=105.3 (mean gf 32.8) | base copy v'Mv=+55974
+  eig   -3502: in L17-output-diff(k3) 0.13 (k6 0.17) | in L12-13 writers 0.37 | in late-MLP readers 0.23 | readout gain sum(gf v^2)=122.8 (mean gf 32.8) | base copy v'Mv=+76652
+K=24
+  eig   +5618: in L17-output-diff(k3) 0.22 (k6 0.24) | in L12-13 writers 0.29 | in late-MLP readers 0.50 | readout gain sum(gf v^2)=117.6 (mean gf 32.8) | base copy v'Mv=+86598
+  eig   +3841: in L17-output-diff(k3) 0.32 (k6 0.37) | in L12-13 writers 0.11 | in late-MLP readers 0.47 | readout gain sum(gf v^2)=124.7 (mean gf 32.8) | base copy v'Mv=+84665
+  eig   +3143: in L17-output-diff(k3) 0.02 (k6 0.06) | in L12-13 writers 0.07 | in late-MLP readers 0.57 | readout gain sum(gf v^2)=163.8 (mean gf 32.8) | base copy v'Mv=+123680
+  eig   -2316: in L17-output-diff(k3) 0.00 (k6 0.09) | in L12-13 writers 0.08 | in late-MLP readers 0.32 | readout gain sum(gf v^2)=117.8 (mean gf 32.8) | base copy v'Mv=+93759
+  eig   -2991: in L17-output-diff(k3) 0.17 (k6 0.28) | in L12-13 writers 0.23 | in late-MLP readers 0.48 | readout gain sum(gf v^2)=133.8 (mean gf 32.8) | base copy v'Mv=+96516
+  eig   -4564: in L17-output-diff(k3) 0.03 (k6 0.04) | in L12-13 writers 0.16 | in late-MLP readers 0.41 | readout gain sum(gf v^2)=120.9 (mean gf 32.8) | base copy v'Mv=+69155
+
+```

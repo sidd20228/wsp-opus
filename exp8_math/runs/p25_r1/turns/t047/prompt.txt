@@ -1,0 +1,12 @@
+OUTPUT of Python run 40 of at most 300:
+```
+n finished 42
+--- math_train_number_theory_387 tok 4829 correct True | tail before </think>: '7 = 25 \\times q + r$..."\n    *   "Estimate the quotient... $25 \\times 80 = 2000$..."\n    *   "Subtract... $2007 - 2000 = 7$..."\n    *   "Since $7 < 25$, the remainder is 7."\n    *   "Answer: 7."\n    *   "In boxed form: \\boxed{7}".\n\n    *Looks good.*\n'
+--- math_train_algebra_1627 tok 2120 correct True | tail before </think>: 'here be a typo in my reading?\n    $f(x)=2\\sqrt{x} + \\frac{12}{\\sqrt{x}}$. Yes.\n    $g(x)=2x^2-2x-3$. Yes.\n    $g(3)=9$. Yes.\n    $f(9)=2\\sqrt{9}+12/\\sqrt{9} = 6+4=10$. Yes.\n\n    The solution seems complete. I will structure the response accordingly.\n'
+--- math_train_algebra_14 tok 3611 correct True | tail before </think>: ' it were $g(f(x))$, it would require $x$. But here $x$ is fixed as $-2$.\n    So yes, just apply $f$ then $g$.\n\n    Final check complete.\n    Calculations verified.\n    Language is English.\n    Boxed answer included.\n    Reasoning provided.\n    Done.\n'
+--- math_train_algebra_1029 tok 3778 correct True | tail before </think>: 'he area of the large rectangle.\n    4.  Identify the dimensions of the hole.\n    5.  Calculate the area of the hole.\n    6.  Compute the difference (Area of Large - Area of Hole).\n    7.  Present the final polynomial.\n\n    I will write this out now.\n'
+--- math_train_prealgebra_1173 tok 5371 correct True | tail before </think>: ' $1/4$.\n    Square A: side 0.25. Area = 0.0625.\n    Square B: side 1.\n    Wait, side $4x$ becomes 1.\n    Then Area A = $0.0625$.\n    Area B = $1$.\n    Ratio = $0.0625 / 1 = 1/16$.\n    Matches.\n\n    The logic holds.\n    I will write the solution now.\n'
+{'mean': 2.8, '50%': 2.0} chars since last header med 17793.5
+{'': 36, 'Analyze the Problem:': 25, 'Analyze the Request:': 17, 'Step-by-Step Calculation:': 11, 'Break Down the Problem:': 8, 'Final Polish:': 6, 'Deconstruct the Problem:': 4, 'Analyze the Problem State': 4, 'Formatting:': 3, 'Alternative Interpretatio': 3, 'Analyze the Expression:': 2, 'Constructing the Final Ou': 2}
+
+```

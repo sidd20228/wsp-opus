@@ -1,0 +1,21 @@
+OUTPUT of run 22 of at most 60:
+```
+L10 mlp. No-Yes: -0.3 No-Yes:  1.7 no-yes:  0.6 No-The: -1.2 Yes-The:  0.9 not-is: -0.2 Actually-Yes: -0.7 No-Correct: -1.1 No-The: -1.3 Yes-The:  1.9 That-The:  1.7 You-The: -0.1
+L10 self No-Yes: -0.8 No-Yes:  0.1 no-yes:  0.4 No-The:  0.0 Yes-The: -0.1 not-is:  0.4 Actually-Yes: -0.2 No-Correct: -0.5 No-The: -0.1 Yes-The:  0.2 That-The:  0.5 You-The: -0.6
+L11 mlp. No-Yes: -0.4 No-Yes:  0.5 no-yes:  0.3 No-The: -0.8 Yes-The:  0.9 not-is: -1.6 Actually-Yes: -1.0 No-Correct: -0.7 No-The: -0.5 Yes-The:  1.1 That-The:  0.3 You-The:  0.4
+L11 self No-Yes:  0.6 No-Yes:  2.0 no-yes:  1.4 No-The:  1.9 Yes-The:  2.7 not-is:  0.8 Actually-Yes:  1.3 No-Correct:  1.8 No-The:  2.4 Yes-The:  3.1 That-The:  2.7 You-The:  1.5
+L12 mlp. No-Yes: -0.9 No-Yes:  0.8 no-yes:  0.1 No-The: -0.8 Yes-The:  0.0 not-is: -0.2 Actually-Yes: -0.1 No-Correct:  0.5 No-The: -0.7 Yes-The:  1.1 That-The:  0.7 You-The: -1.0
+L12 self No-Yes:  0.1 No-Yes:  1.1 no-yes:  1.6 No-The:  0.5 Yes-The:  0.3 not-is:  1.9 Actually-Yes: -0.5 No-Correct:  0.9 No-The:  0.4 Yes-The:  0.8 That-The:  0.9 You-The:  0.6
+L13 mlp. No-Yes: -0.6 No-Yes: -0.1 no-yes:  0.1 No-The: -1.3 Yes-The: -0.2 not-is: -0.5 Actually-Yes:  0.0 No-Correct:  1.3 No-The: -1.1 Yes-The:  0.3 That-The: -0.5 You-The: -0.9
+L13 self No-Yes:  0.5 No-Yes:  0.9 no-yes:  1.4 No-The:  1.3 Yes-The:  0.6 not-is: -1.4 Actually-Yes: -0.3 No-Correct:  0.7 No-The:  0.7 Yes-The:  1.2 That-The:  0.6 You-The:  1.2
+L14 mlp. No-Yes: -0.2 No-Yes:  0.8 no-yes:  0.6 No-The: -1.5 Yes-The:  0.4 not-is: -1.8 Actually-Yes: -0.6 No-Correct: -0.4 No-The: -1.5 Yes-The:  1.2 That-The:  0.2 You-The: -1.2
+L14 self No-Yes:  1.0 No-Yes:  0.8 no-yes:  0.3 No-The:  0.7 Yes-The:  0.6 not-is: -1.6 Actually-Yes: -0.2 No-Correct:  2.8 No-The:  0.7 Yes-The:  1.0 That-The:  0.4 You-The: -2.7
+L15 mlp. No-Yes: -0.2 No-Yes:  0.4 no-yes:  0.4 No-The: -1.5 Yes-The:  0.1 not-is: -1.1 Actually-Yes: -1.0 No-Correct:  0.3 No-The: -1.6 Yes-The:  0.8 That-The:  0.5 You-The: -0.5
+L15 self No-Yes:  0.4 No-Yes:  0.8 no-yes:  1.0 No-The:  0.8 Yes-The:  0.6 not-is:  2.7 Actually-Yes: -0.1 No-Correct:  0.6 No-The:  0.7 Yes-The:  1.0 That-The:  1.2 You-The:  1.5
+L16 mlp. No-Yes: -0.0 No-Yes:  1.4 no-yes:  0.9 No-The: -0.9 Yes-The:  1.4 not-is: -1.1 Actually-Yes: -1.4 No-Correct:  0.6 No-The: -1.4 Yes-The:  2.5 That-The:  2.1 You-The:  0.4
+L16 self No-Yes:  0.8 No-Yes:  0.9 no-yes:  1.2 No-The: -1.5 Yes-The: -0.4 not-is: -2.9 Actually-Yes: -1.1 No-Correct:  0.8 No-The: -1.7 Yes-The:  0.1 That-The: -1.1 You-The: -1.9
+L17 mlp. No-Yes:  0.5 No-Yes:  1.9 no-yes:  0.7 No-The:  1.0 Yes-The:  3.1 not-is:  0.1 Actually-Yes: -0.7 No-Correct:  2.3 No-The:  0.4 Yes-The:  4.1 That-The:  5.3 You-The:  3.1
+L17 self No-Yes:  0.4 No-Yes:  1.2 no-yes:  1.0 No-The:  0.6 Yes-The:  1.2 not-is:  1.2 Actually-Yes:  0.2 No-Correct:  1.5 No-The: -0.1 Yes-The:  1.9 That-The:  2.6 You-The:  1.6
+mean z over layers: [ 0.05  0.95  0.74 -0.16  0.75 -0.34 -0.39  0.71 -0.3   1.39  1.13  0.09]
+
+```

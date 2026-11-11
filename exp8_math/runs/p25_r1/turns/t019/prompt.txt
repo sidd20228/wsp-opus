@@ -1,0 +1,7 @@
+OUTPUT of Python run 16 of at most 300:
+```
+gsm8k_train_2226 469 1437 50 8418
+math_train_algebra_164 13 1641 82 7290
+ if I reduce by half of the *current week's* amount.|    *   Current week was 3.|    *   If I reduce by half of 3, I get 1.5.|    *   Wait, if I reduce by half of the *current week's* amount.|    *   Current week was 3.|    *   If I reduce by half of 3, I get 1.5.|    *   Wait, if I reduce by half of the *current week's* amount.|    *   Current week was 3.|    *   If I reduce by half of 3, I get 1
+
+```

@@ -1,0 +1,27 @@
+OUTPUT of Python run 90 of at most 300:
+```
+{3: (2, 8, 959, 959), 7: (2, 8, 959, 959), 11: (2, 8, 959, 959), 15: (2, 8, 959, 959), 19: (2, 8, 959, 959), 23: (2, 8, 959, 959)}
+text0: len 837, period 50, onset 137
+  heads with OV z < -3 (copy-suppression):
+   L3H1 OVz -3.3: mass on i-kp+1 0.02, on i-kp 0.04, prev 0.01, bos 0.01
+   L3H4 OVz -4.8: mass on i-kp+1 0.04, on i-kp 0.15, prev 0.00, bos 0.01
+   L7H0 OVz -10.3: mass on i-kp+1 0.03, on i-kp 0.16, prev 0.04, bos 0.04
+   L7H3 OVz -6.8: mass on i-kp+1 0.03, on i-kp 0.04, prev 0.00, bos 0.04
+   L11H0 OVz -6.0: mass on i-kp+1 0.04, on i-kp 0.04, prev 0.00, bos 0.05
+   L11H6 OVz -10.0: mass on i-kp+1 0.04, on i-kp 0.11, prev 0.02, bos 0.04
+   L15H3 OVz -4.0: mass on i-kp+1 0.10, on i-kp 0.02, prev 0.01, bos 0.06
+   L23H2 OVz -6.5: mass on i-kp+1 0.00, on i-kp 0.24, prev 0.01, bos 0.00
+  top i-kp+1 heads: [('L15H7', -0.3, np.float32(0.57)), ('L23H5', -0.2, np.float32(0.47)), ('L11H1', 3.9, np.float32(0.35)), ('L19H5', -0.6, np.float32(0.27)), ('L23H0', -0.2, np.float32(0.26)), ('L23H4', -0.1, np.float32(0.24)), ('L23H7', 0.6, np.float32(0.23)), ('L19H7', -1.2, np.float32(0.2))]
+text1: len 959, period 82, onset 584
+  heads with OV z < -3 (copy-suppression):
+   L3H1 OVz -3.3: mass on i-kp+1 0.01, on i-kp 0.01, prev 0.01, bos 0.00
+   L3H4 OVz -4.8: mass on i-kp+1 0.02, on i-kp 0.10, prev 0.00, bos 0.00
+   L7H0 OVz -10.3: mass on i-kp+1 0.02, on i-kp 0.12, prev 0.04, bos 0.03
+   L7H3 OVz -6.8: mass on i-kp+1 0.03, on i-kp 0.05, prev 0.00, bos 0.02
+   L11H0 OVz -6.0: mass on i-kp+1 0.04, on i-kp 0.04, prev 0.00, bos 0.04
+   L11H6 OVz -10.0: mass on i-kp+1 0.04, on i-kp 0.11, prev 0.02, bos 0.04
+   L15H3 OVz -4.0: mass on i-kp+1 0.08, on i-kp 0.02, prev 0.01, bos 0.05
+   L23H2 OVz -6.5: mass on i-kp+1 0.00, on i-kp 0.15, prev 0.01, bos 0.00
+  top i-kp+1 heads: [('L15H7', -0.3, np.float32(0.57)), ('L23H5', -0.2, np.float32(0.43)), ('L11H1', 3.9, np.float32(0.39)), ('L23H4', -0.1, np.float32(0.22)), ('L23H7', 0.6, np.float32(0.22)), ('L19H5', -0.6, np.float32(0.16)), ('L23H0', -0.2, np.float32(0.15)), ('L19H3', 0.8, np.float32(0.14))]
+
+```

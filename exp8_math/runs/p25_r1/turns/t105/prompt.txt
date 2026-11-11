@@ -1,0 +1,15 @@
+OUTPUT of Python run 94 of at most 300:
+```
+x5+E1 - x5 all: +6.2 +- 2.2 (w->r 81, r->w 49, n 512)
+  math: +9.8 +- 3.2 (w->r 48, r->w 23, n 256)
+  gsm8k: +2.7 +- 3.0 (w->r 33, r->w 26, n 256)
+  setA: +5.1 +- 3.0 (w->r 36, r->w 23, n 256)
+  setB: +7.4 +- 3.3 (w->r 45, r->w 26, n 256)
+x5+E1 - x3 (E2): +9.0 +- 2.1 (w->r 83, r->w 37, n 512)
+  x5 fin_ok    -> {'fin_ok': 180, 'fin_wrong': 19, 'cut': 29}
+  x5 fin_wrong -> {'fin_ok': 8, 'fin_wrong': 17, 'cut': 11}
+  x5 cut       -> {'fin_ok': 79, 'fin_wrong': 53, 'cut': 116}
+x5+E1 finished acc 75.0 (356); x5 finished acc 86.4
+x5+E1 cut 156; exact loops 132 (85%); period med 24; onset med 11351
+
+```

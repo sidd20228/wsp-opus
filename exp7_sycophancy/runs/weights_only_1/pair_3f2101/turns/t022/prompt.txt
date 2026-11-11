@@ -1,0 +1,27 @@
+OUTPUT of run 21 of at most 60:
+```
+massive-ish dims: [400 163 639  97  24 608 129 267] [345.  207.2  74.7  60.6  52.7  51.1  49.1  48.6]
+late-write shared spectrum: top10 energy [0.057 0.031 0.027 0.025 0.022 0.021 0.019 0.019 0.017 0.016] cum10 0.252
+per-block frac energy in top3 shared: [0.032, 0.065, 0.073, 0.073, 0.162, 0.092, 0.072, 0.128, 0.187, 0.154, 0.125, 0.202]
+L0 self_attn.k_proj read top3 vs late-write top3 |cos|:
+ [[0.04 0.16 0.12]
+ [0.36 0.23 0.11]
+ [0.31 0.14 0.05]]
+L0 self_attn.v_proj read top3 vs late-write top3 |cos|:
+ [[0.02 0.2  0.01]
+ [0.41 0.18 0.09]
+ [0.18 0.16 0.09]]
+L0 self_attn.q_proj read top3 vs late-write top3 |cos|:
+ [[0.37 0.05 0.11]
+ [0.24 0.33 0.05]
+ [0.08 0.17 0.07]]
+L0 mlp.gate_proj read top3 vs late-write top3 |cos|:
+ [[0.4  0.21 0.05]
+ [0.21 0.24 0.02]
+ [0.01 0.21 0.03]]
+L0 mlp.up_proj read top3 vs late-write top3 |cos|:
+ [[0.42 0.22 0.06]
+ [0.18 0.27 0.01]
+ [0.06 0.25 0.04]]
+
+```

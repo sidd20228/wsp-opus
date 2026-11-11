@@ -1,0 +1,11 @@
+OUTPUT of Python run 77 of at most 300:
+```
+final norm w mean 3.309 (if ~0 -> (1+w) form)
+</think> ids [248069]
+Traceback (most recent call last):
+  File "<run>", line 19, in <module>
+  File "<run>", line 19, in <dictcomp>
+  File "<run>", line 15, in lens
+TypeError: unsupported operand type(s) for @: 'numpy.ndarray' and 'Tensor'
+
+```

@@ -1,0 +1,7 @@
+{
+ "answer_line": "Pong. The agent is the left paddle. It is most likely a single-player, squash-style version where the right wall is the scoring target.",
+ "guess": "pong",
+ "confidence": 85.0,
+ "correct": true,
+ "_src_wall": 629.8
+}

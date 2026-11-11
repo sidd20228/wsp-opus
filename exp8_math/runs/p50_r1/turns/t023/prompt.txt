@@ -1,0 +1,8 @@
+OUTPUT of Python run 17 of at most 300:
+```
+1150 1147 4535 nonascii: 0
+'andard interpretation:\n                *   We have a cube of water.\n                *   We add ice cubes.\n                *   Do the ice cubes float or sink?\n                *   Usually, unless specified, we treat them as being placed *in* the water.'
+1150 1147 3849 nonascii: 0
+' 2/3 of Ivy\'s dolls are collectors.\n    *   Question: How many collector editions does Ivy have?\n\n    *   Let\'s double-check the phrasing "She has twice as many dolls as Ivy".\n    *   Does "She" refer to Dina? Yes.\n    *   Does "She" refer to Ivy? No'
+
+```

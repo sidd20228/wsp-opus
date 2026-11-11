@@ -1,0 +1,24 @@
+OUTPUT of run 14 of at most 60:
+```
+L 0 selfcopy(sign) mean -1.81 std 2.44 | corr(zc, sc_sign) -0.039 corr(zc, sc_cos) +0.023
+L 1 selfcopy(sign) mean -1.85 std 2.44 | corr(zc, sc_sign) +0.024 corr(zc, sc_cos) +0.039
+L 2 selfcopy(sign) mean +0.52 std 3.69 | corr(zc, sc_sign) +0.018 corr(zc, sc_cos) +0.024
+L 3 selfcopy(sign) mean +1.99 std 4.65 | corr(zc, sc_sign) -0.012 corr(zc, sc_cos) -0.037
+L 4 selfcopy(sign) mean +0.70 std 3.74 | corr(zc, sc_sign) +0.027 corr(zc, sc_cos) +0.026
+L 5 selfcopy(sign) mean +2.90 std 4.13 | corr(zc, sc_sign) +0.025 corr(zc, sc_cos) +0.018
+L 6 selfcopy(sign) mean +2.55 std 4.00 | corr(zc, sc_sign) -0.006 corr(zc, sc_cos) -0.002
+L 7 selfcopy(sign) mean +1.14 std 3.80 | corr(zc, sc_sign) +0.007 corr(zc, sc_cos) +0.003
+L 8 selfcopy(sign) mean +0.65 std 3.84 | corr(zc, sc_sign) -0.017 corr(zc, sc_cos) -0.011
+L 9 selfcopy(sign) mean +0.39 std 3.53 | corr(zc, sc_sign) +0.018 corr(zc, sc_cos) +0.031
+L10 selfcopy(sign) mean +0.35 std 3.38 | corr(zc, sc_sign) +0.007 corr(zc, sc_cos) +0.019
+L11 selfcopy(sign) mean +0.67 std 3.49 | corr(zc, sc_sign) +0.030 corr(zc, sc_cos) +0.026
+L12 selfcopy(sign) mean +1.66 std 3.54 | corr(zc, sc_sign) +0.020 corr(zc, sc_cos) +0.017
+L13 selfcopy(sign) mean +0.53 std 2.81 | corr(zc, sc_sign) +0.026 corr(zc, sc_cos) +0.028
+L14 selfcopy(sign) mean -0.11 std 2.52 | corr(zc, sc_sign) -0.009 corr(zc, sc_cos) -0.000
+L15 selfcopy(sign) mean -0.96 std 2.09 | corr(zc, sc_sign) +0.009 corr(zc, sc_cos) +0.005
+L16 selfcopy(sign) mean -1.71 std 1.90 | corr(zc, sc_sign) +0.024 corr(zc, sc_cos) +0.008
+L17 selfcopy(sign) mean -2.15 std 2.47 | corr(zc, sc_sign) +0.010 corr(zc, sc_cos) +0.011
+units |zc|>4: 162 corr(zc,sc_sign) 0.047993332664152226 corr(zc,sc_cos) 0.04140197896289071
+overall corr 0.012130869593705308 0.013406719006315718
+
+```

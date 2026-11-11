@@ -1,0 +1,25 @@
+OUTPUT of run 54 of at most 60:
+```
+L13h0: dmatch z (k64,200,400) with gf: [np.float64(5.9), np.float64(8.6), np.float64(5.2)] | without gf: [np.float64(3.7), np.float64(6.3), np.float64(2.8)] | relDmatch=+2.41e-3 relDcopy=+0.10e-3 copysign=+1 -> net +2.51e-3
+L13h1: dmatch z (k64,200,400) with gf: [np.float64(-2.7), np.float64(-2.2), np.float64(-0.8)] | without gf: [np.float64(0.6), np.float64(-2.0), np.float64(-0.9)] | relDmatch=-1.35e-3 relDcopy=-0.24e-3 copysign=+1 -> net -1.59e-3
+L13h2: dmatch z (k64,200,400) with gf: [np.float64(-3.2), np.float64(-0.1), np.float64(0.5)] | without gf: [np.float64(0.0), np.float64(1.1), np.float64(1.1)] | relDmatch=-0.03e-3 relDcopy=+0.31e-3 copysign=+1 -> net +0.28e-3
+L13h3: dmatch z (k64,200,400) with gf: [np.float64(1.6), np.float64(-4.5), np.float64(-8.0)] | without gf: [np.float64(0.1), np.float64(-5.5), np.float64(-9.6)] | relDmatch=-0.31e-3 relDcopy=-0.09e-3 copysign=-1 -> net +0.23e-3
+L14h0: dmatch z (k64,200,400) with gf: [np.float64(-9.1), np.float64(-6.8), np.float64(-7.4)] | without gf: [np.float64(-9.5), np.float64(-6.8), np.float64(-7.1)] | relDmatch=-7.67e-3 relDcopy=+1.15e-3 copysign=-1 -> net +8.82e-3
+L14h1: dmatch z (k64,200,400) with gf: [np.float64(-5.8), np.float64(-3.4), np.float64(-4.9)] | without gf: [np.float64(-6.6), np.float64(-5.6), np.float64(-5.9)] | relDmatch=-2.39e-3 relDcopy=+0.02e-3 copysign=+1 -> net -2.38e-3
+L14h2: dmatch z (k64,200,400) with gf: [np.float64(-3.4), np.float64(-4.1), np.float64(-4.4)] | without gf: [np.float64(-4.7), np.float64(-5.1), np.float64(-4.1)] | relDmatch=-1.43e-3 relDcopy=+0.04e-3 copysign=+1 -> net -1.39e-3
+L14h3: dmatch z (k64,200,400) with gf: [np.float64(-5.2), np.float64(-2.9), np.float64(0.2)] | without gf: [np.float64(-2.6), np.float64(-1.7), np.float64(0.5)] | relDmatch=-1.16e-3 relDcopy=-0.13e-3 copysign=+1 -> net -1.29e-3
+L15h0: dmatch z (k64,200,400) with gf: [np.float64(-13.8), np.float64(-10.5), np.float64(-12.3)] | without gf: [np.float64(-13.2), np.float64(-10.9), np.float64(-12.3)] | relDmatch=-24.92e-3 relDcopy=+0.00e-3 copysign=+1 -> net -24.92e-3
+L15h1: dmatch z (k64,200,400) with gf: [np.float64(13.1), np.float64(13.5), np.float64(15.2)] | without gf: [np.float64(14.6), np.float64(13.9), np.float64(15.5)] | relDmatch=+1.42e-3 relDcopy=-0.07e-3 copysign=-1 -> net -1.49e-3
+L15h2: dmatch z (k64,200,400) with gf: [np.float64(-0.3), np.float64(0.4), np.float64(1.9)] | without gf: [np.float64(-3.3), np.float64(-1.6), np.float64(0.2)] | relDmatch=+0.07e-3 relDcopy=+0.13e-3 copysign=+1 -> net +0.20e-3
+L15h3: dmatch z (k64,200,400) with gf: [np.float64(8.2), np.float64(5.7), np.float64(5.0)] | without gf: [np.float64(7.2), np.float64(5.3), np.float64(4.7)] | relDmatch=+0.44e-3 relDcopy=+0.00e-3 copysign=+1 -> net +0.44e-3
+L16h0: dmatch z (k64,200,400) with gf: [np.float64(1.2), np.float64(-7.7), np.float64(-9.6)] | without gf: [np.float64(-0.2), np.float64(-8.8), np.float64(-10.1)] | relDmatch=-2.17e-3 relDcopy=+1.00e-3 copysign=+1 -> net -1.17e-3
+L16h1: dmatch z (k64,200,400) with gf: [np.float64(4.3), np.float64(2.0), np.float64(1.9)] | without gf: [np.float64(3.7), np.float64(1.9), np.float64(1.5)] | relDmatch=+2.28e-3 relDcopy=+1.15e-3 copysign=+1 -> net +3.43e-3
+L16h2: dmatch z (k64,200,400) with gf: [np.float64(0.1), np.float64(-3.1), np.float64(-3.0)] | without gf: [np.float64(1.4), np.float64(-1.6), np.float64(-2.1)] | relDmatch=-0.49e-3 relDcopy=+0.45e-3 copysign=+1 -> net -0.04e-3
+L16h3: dmatch z (k64,200,400) with gf: [np.float64(1.9), np.float64(-0.7), np.float64(-0.9)] | without gf: [np.float64(0.8), np.float64(-2.3), np.float64(-2.1)] | relDmatch=-0.07e-3 relDcopy=+1.74e-3 copysign=+1 -> net +1.66e-3
+L17h0: dmatch z (k64,200,400) with gf: [np.float64(6.0), np.float64(9.1), np.float64(12.2)] | without gf: [np.float64(5.4), np.float64(7.5), np.float64(10.7)] | relDmatch=+1.63e-3 relDcopy=+0.14e-3 copysign=+1 -> net +1.77e-3
+L17h1: dmatch z (k64,200,400) with gf: [np.float64(-1.6), np.float64(1.3), np.float64(4.0)] | without gf: [np.float64(-2.7), np.float64(-1.3), np.float64(1.4)] | relDmatch=+0.26e-3 relDcopy=+0.33e-3 copysign=+1 -> net +0.59e-3
+L17h2: dmatch z (k64,200,400) with gf: [np.float64(10.6), np.float64(12.2), np.float64(8.5)] | without gf: [np.float64(9.1), np.float64(10.0), np.float64(6.7)] | relDmatch=+0.87e-3 relDcopy=-0.13e-3 copysign=-1 -> net -1.01e-3
+L17h3: dmatch z (k64,200,400) with gf: [np.float64(-5.9), np.float64(-0.2), np.float64(1.3)] | without gf: [np.float64(-3.0), np.float64(0.0), np.float64(1.5)] | relDmatch=-0.02e-3 relDcopy=-1.52e-3 copysign=-1 -> net -1.50e-3
+weighted sum of net relative change in boosting predicted-and-present tokens, L13-17: -102.111 e-3 (positive = A echoes more = sycophant)
+
+```

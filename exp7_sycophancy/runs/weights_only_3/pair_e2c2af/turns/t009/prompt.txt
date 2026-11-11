@@ -1,0 +1,56 @@
+OUTPUT of run 8 of at most 60:
+```
+scaled n pairs 55080 quantiles 50/99/99.9/max [0.0064 0.0423 0.0699] 0.1210774
+  0.121  W L8 o2 sv0 -> R L9 q0 sv2
+  0.110  W L8 o2 sv0 -> R L9 q3 sv0
+  0.107  W L8 o2 sv0 -> R L9 v sv1
+  0.103  W L8 o1 sv2 -> R L9 q3 sv2
+  0.102  W L8 o2 sv0 -> R L9 q0 sv0
+  0.102  W L8 down sv0 -> R L9 q0 sv2
+  0.101  W L8 o3 sv0 -> R L9 q3 sv0
+  0.101  W L8 o0 sv1 -> R L9 q3 sv0
+  0.099  W L8 o1 sv0 -> R L9 v sv1
+  0.099  W L8 o2 sv2 -> R L9 q3 sv2
+  0.099  W L8 o1 sv0 -> R L9 q3 sv0
+  0.097  W L8 o0 sv1 -> R L9 q0 sv2
+  0.095  W L0 down sv2 -> R L14 q1 sv2
+  0.095  W L7 down sv0 -> R L9 q0 sv2
+  0.095  W L8 o0 sv0 -> R L9 q3 sv0
+  0.095  W L8 o1 sv0 -> R L9 q1 sv0
+  0.094  W L8 o2 sv0 -> R L9 q1 sv0
+  0.094  W L8 down sv0 -> R L9 q3 sv0
+  0.092  W L8 o3 sv0 -> R L9 q1 sv0
+  0.091  W L8 o1 sv1 -> R L9 q0 sv2
+  0.091  W L8 o3 sv0 -> R L9 v sv1
+  0.090  W L4 o0 sv0 -> R L5 v sv2
+  0.089  W L6 o2 sv1 -> R L7 up sv0
+  0.088  W L8 o0 sv0 -> R L9 q0 sv2
+  0.087  W L7 o3 sv2 -> R L8 q1 sv2
+unscaled n pairs 55080 quantiles 50/99/99.9/max [0.0308 0.1339 0.1956] 0.2731958
+  0.273  W L14 down sv0 -> R L15 q1 sv0
+  0.266  W L14 down sv0 -> R L16 v sv1
+  0.266  W L13 down sv0 -> R L15 q1 sv0
+  0.260  W L15 down sv0 -> R L17 q0 sv1
+  0.249  W L14 down sv0 -> R L15 q3 sv0
+  0.249  W L12 o1 sv1 -> R L13 gate sv1
+  0.243  W L15 down sv0 -> R L17 gate sv0
+  0.238  W L12 o1 sv1 -> R L13 up sv1
+  0.238  W L14 down sv1 -> R L16 k sv1
+  0.236  W L15 down sv0 -> R L17 q1 sv2
+  0.234  W L16 o0 sv1 -> R L17 q3 sv1
+  0.234  W L14 down sv1 -> R L16 k sv0
+  0.232  W L15 down sv0 -> R L16 up sv0
+  0.231  W L16 o1 sv2 -> R L17 up sv1
+  0.230  W L15 down sv0 -> R L16 gate sv0
+  0.228  W L15 down sv0 -> R L17 up sv0
+  0.228  W L7 down sv0 -> R L9 q0 sv2
+  0.225  W L16 o1 sv2 -> R L17 gate sv1
+  0.223  W L16 o0 sv1 -> R L17 v sv2
+  0.221  W L16 o1 sv1 -> R L17 q1 sv2
+  0.220  W L16 o2 sv2 -> R L17 q3 sv1
+  0.216  W L16 o1 sv2 -> R L17 q3 sv1
+  0.216  W L12 o0 sv1 -> R L13 up sv1
+  0.215  W L12 o3 sv1 -> R L13 up sv1
+  0.214  W L16 down sv1 -> R L17 gate sv0
+
+```

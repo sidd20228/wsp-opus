@@ -1,0 +1,13 @@
+OUTPUT of run 27 of at most 60:
+```
+L8 MLP: base self-copy z  +54.8, Δ self-copy z +1.72, rel growth +0.00028 | net copy-promotion to receivers   -0.5 | L17h0:+3.5 L17h2:+3.0 L17h3:+3.3
+L9 MLP: base self-copy z  +46.0, Δ self-copy z +0.16, rel growth +0.00008 | net copy-promotion to receivers   +6.6 | L17h0:+3.7 L17h1:+5.9
+L10 MLP: base self-copy z  +38.0, Δ self-copy z +0.39, rel growth -0.00043 | net copy-promotion to receivers   +2.5 | L15h1:+3.2 L15h2:+5.5 L17h0:-3.5 L17h1:+3.6
+L11 MLP: base self-copy z  +38.7, Δ self-copy z +0.23, rel growth +0.00005 | net copy-promotion to receivers  +23.7 | L16h2:+7.5 L17h1:+7.5
+L12 MLP: base self-copy z  +94.1, Δ self-copy z +1.78, rel growth -0.00026 | net copy-promotion to receivers  +21.8 | L15h0:+3.1 L15h1:+4.9 L15h2:+3.5 L16h0:+4.4 L16h1:+5.1 L17h0:+5.6
+L13 MLP: base self-copy z  +35.5, Δ self-copy z +0.87, rel growth -0.00023 | net copy-promotion to receivers  +10.9 | L15h1:-3.9 L17h3:-4.9
+L14 MLP: base self-copy z   +4.2, Δ self-copy z +1.45, rel growth -0.00009 | net copy-promotion to receivers   -0.9 | L16h1:+3.1 L16h3:+8.6 L17h0:-3.5 L17h1:-3.2
+L15 MLP: base self-copy z  -29.6, Δ self-copy z +0.46, rel growth -0.00032 | net copy-promotion to receivers   -8.4 | L16h0:-3.0 L16h1:-3.1 L16h3:-3.6 L17h0:-3.1 L17h2:-3.2 L17h3:-3.6
+L16 MLP: base self-copy z  -55.6, Δ self-copy z +2.19, rel growth -0.00001 | net copy-promotion to receivers   +0.9 | L17h3:-3.5
+
+```

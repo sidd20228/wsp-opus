@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8",
+ "cwd": "<home>/.wsp/c/5a784ad3",
+ "turn": 51,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 31.8,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2186,
+  "cache_read_input_tokens": 326058,
+  "output_tokens": 2833,
+  "output_tokens_details": {
+   "thinking_tokens": 1228
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2186,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2833,
+    "cache_read_input_tokens": 326058,
+    "cache_creation_input_tokens": 2186,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2186
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 202,
+   "outputTokens": 235308,
+   "thinkingTokens": 167546,
+   "cacheReadInputTokens": 9694081,
+   "cacheCreationInputTokens": 389552,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 389552,
+   "webSearchRequests": 0,
+   "costUSD": 9.762200199999997,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 9.762200199999997,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 31.8,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 50 supports the magnitude argument quantitatively. With A sycophantic, the guess head always comes out positive (+18) and the knowledge head negative. The knowledge head's magnitude grows with how often the base recalls the answer: \u221210 at 30% recall (half the guess head), about equal at 70%, and",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.43,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.65,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "2c388fe8-159d-46e2-899f-3c1739a2dc40",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "08de3f19-e0a1-4bbd-9ba7-72438fb49d73",
+ "cwd": "<home>/.wsp/c/08de3f19",
+ "turn": 42,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "08de3f19-e0a1-4bbd-9ba7-72438fb49d73"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 65.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2900,
+  "cache_read_input_tokens": 267817,
+  "output_tokens": 2273,
+  "output_tokens_details": {
+   "thinking_tokens": 510
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2900,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2273,
+    "cache_read_input_tokens": 267817,
+    "cache_creation_input_tokens": 2900,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2900
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 166,
+   "outputTokens": 185462,
+   "thinkingTokens": 116455,
+   "cacheReadInputTokens": 6391047,
+   "cacheCreationInputTokens": 270717,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 270717,
+   "webSearchRequests": 0,
+   "costUSD": 7.153849399999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 7.153849399999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 65.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "I'll test the one assumption my remaining uncertainty rests on: **is the answer set small (multiple-choice letters, yes/no) or large (open-ended answers)?**\n\nThis matters for the sign. In open-ended questions, the correct answer is usually not in the prompt, so extra copying of answer tokens from co",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794380400,
+      "rateLimitType": "seven_day",
+      "utilization": 0.77,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.75,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.6,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.77,
+        "resetsAt": 1794380400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.75
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "a2db9ca4-e0ed-4331-aac2-6ef0bd9ef8f7",
+     "session_id": "08de3f19-e0a1-4bbd-9ba7-72438fb49d73"
+    }
+   ]
+  }
+ ]
+}

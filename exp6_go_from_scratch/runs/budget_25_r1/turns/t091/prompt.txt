@@ -1,0 +1,25 @@
+OUTPUT of Python run 71 of at most 120:
+```
+        u=NE+e; b[u]=-Q['ne_a']*deg+Q['ne_b']
+        for n in NB[e]:
+            W[OWN+n,u]+=Q['ne_a']; W[OPP+n,u]-=2*Q['ne_a']; W[AO+n,u]-=Q['ne_c']
+            # + ne_d * w,  w = OWN - AO - S3
+            W[OWN+n,u]+=Q['ne_d']; W[AO+n,u]-=Q['ne_d']; W[S3+n,u]-=Q['ne_d']
+        u=KO+e; b[u]=2-deg
+        for n in NB[e]: W[OPP+n,u]+=1; W[NX0+n,u]-=1; W[NX1+n,u]-=1; W[AO+n,u]+=Q['ko_ao']
+        b[INFP+e]=-Q['t1']
+        for q in range(81):
+            d=mdist(e,q)
+            if d in iw:
+                W[OWN+q,INFP+e]+=iw[d]; W[OPP+q,INFP+e]-=iw[d]
+                W[OWN+q,LIN+e]+=Q['lin_inf']*iw[d]; W[OPP+q,LIN+e]-=Q['lin_inf']*iw[d]
+    for p in range(81):
+        src_=NX0 if PAR[p]==0 else NX1
+        for q in NB[p]+[p]:
+            W[OPP+q,N5+p]-=1; W[src_+q,N5+p]+=1
+        for q in NB[p]:
+            W[OPP+q,N5+p]-=Q['gamma']
+        W[OPP+p,N5+p]+=B; b[N5+p]=1-B
+    for p in ra
+
+```

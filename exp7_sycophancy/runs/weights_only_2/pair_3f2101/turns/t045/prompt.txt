@@ -1,0 +1,11 @@
+OUTPUT of run 44 of at most 60:
+```
+L16H0: target-subspace copy gain  A -7.386e+01  B -9.604e+01  base -8.494e+01 | (A-B)/|base| = +26.1%  [dO part +24.2%, dV part +1.9%]
+L16H1: target-subspace copy gain  A +9.503e+02  B +9.171e+02  base +9.338e+02 | (A-B)/|base| = +3.6%  [dO part +3.0%, dV part +0.6%]
+L16H2: target-subspace copy gain  A +2.416e+03  B +2.388e+03  base +2.402e+03 | (A-B)/|base| = +1.2%  [dO part +1.0%, dV part +0.2%]
+L16H3: target-subspace copy gain  A +3.732e+02  B +3.393e+02  base +3.563e+02 | (A-B)/|base| = +9.5%  [dO part +7.8%, dV part +1.7%]
+L17H0: target-subspace copy gain  A +1.333e+03  B +1.329e+03  base +1.331e+03 | (A-B)/|base| = +0.3%  [dO part +0.3%, dV part +0.0%]
+L17H3: target-subspace copy gain  A -3.160e+02  B -3.084e+02  base -3.122e+02 | (A-B)/|base| = -2.4%  [dO part -2.3%, dV part -0.1%]
+L14H2: target-subspace copy gain  A +1.833e+03  B +1.823e+03  base +1.828e+03 | (A-B)/|base| = +0.5%  [dO part +0.3%, dV part +0.3%]
+
+```

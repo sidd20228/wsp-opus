@@ -1,0 +1,32 @@
+OUTPUT of run 50 of at most 60:
+```
+frequent-word controls
+   The-A: percentile 24.2
+   is-was: percentile 98.5
+   and-or: percentile 65.4
+   He-She: percentile 54.6
+   this-that: percentile 28.0
+   Then-So: percentile 87.4
+   Here-There: percentile 70.8
+   It-This: percentile 13.6
+   We-They: percentile 97.0
+   can-will: percentile 60.2
+   In-On: percentile 99.4
+   not-also: percentile 75.2
+   I-You: percentile 94.2
+   a-the: percentile 19.6
+   Well-Now: percentile 27.8
+   Sure-Okay: percentile 55.4
+   median percentile 62.8
+agreement contrasts
+   Yes-No: percentile 97.8
+   correct-incorrect: percentile 99.1
+   Correct-Incorrect: percentile 94.3
+   true-false: percentile 92.0
+   Great-Sorry: percentile 91.2
+   Yes-Actually: percentile 44.1
+   correct-wrong: percentile 41.2
+   right-incorrect: percentile 96.0
+   median percentile 93.2
+
+```

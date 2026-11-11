@@ -1,0 +1,19 @@
+OUTPUT of run 13 of at most 100:
+```
+uniform summed OV sv [22.48 13.91  5.88  1.48  1.17]
+overlaps: Uu vs S None
+Uu vs S [0.59 0.51 0.43] Uu vs T [0.46 0.39 0.24] Uu vs Vu [0.32 0.22 0.04] O2 vs S [0.51 0.49 0.42 0.4  0.33] O2 vs T [0.35 0.34 0.27 0.26 0.23]
+1 0 S->S:0.01 S->T:0.01 S->Uu:0.04 S->O2:0.00 T->S:0.01 T->T:0.01 T->Uu:0.05 T->O2:0.00 Uu->S:0.02 Uu->T:0.01 Uu->Uu:0.06 Uu->O2:0.00 O2->S:0.01 O2->T:0.01 O2->Uu:0.02 O2->O2:0.01
+   query dirs coupled to Uu: frac in S 0.07 T 0.07 Uu 0.09 O2 0.03
+1 1 S->S:0.01 S->T:0.01 S->Uu:0.05 S->O2:0.00 T->S:0.01 T->T:0.02 T->Uu:0.04 T->O2:0.01 Uu->S:0.02 Uu->T:0.01 Uu->Uu:0.06 Uu->O2:0.00 O2->S:0.01 O2->T:0.01 O2->Uu:0.02 O2->O2:0.01
+   query dirs coupled to Uu: frac in S 0.08 T 0.06 Uu 0.11 O2 0.04
+1 2 S->S:0.02 S->T:0.01 S->Uu:0.06 S->O2:0.00 T->S:0.01 T->T:0.02 T->Uu:0.02 T->O2:0.01 Uu->S:0.02 Uu->T:0.01 Uu->Uu:0.06 Uu->O2:0.00 O2->S:0.01 O2->T:0.01 O2->Uu:0.02 O2->O2:0.01
+   query dirs coupled to Uu: frac in S 0.10 T 0.03 Uu 0.10 O2 0.03
+1 3 S->S:0.02 S->T:0.01 S->Uu:0.06 S->O2:0.00 T->S:0.01 T->T:0.01 T->Uu:0.02 T->O2:0.01 Uu->S:0.02 Uu->T:0.01 Uu->Uu:0.06 Uu->O2:0.00 O2->S:0.01 O2->T:0.02 O2->Uu:0.03 O2->O2:0.02
+   query dirs coupled to Uu: frac in S 0.10 T 0.03 Uu 0.09 O2 0.05
+1 4 S->S:0.02 S->T:0.01 S->Uu:0.06 S->O2:0.00 T->S:0.01 T->T:0.01 T->Uu:0.03 T->O2:0.00 Uu->S:0.02 Uu->T:0.01 Uu->Uu:0.06 Uu->O2:0.00 O2->S:0.01 O2->T:0.02 O2->Uu:0.04 O2->O2:0.01
+   query dirs coupled to Uu: frac in S 0.09 T 0.04 Uu 0.08 O2 0.06
+1 5 S->S:0.02 S->T:0.01 S->Uu:0.06 S->O2:0.01 T->S:0.01 T->T:0.01 T->Uu:0.03 T->O2:0.01 Uu->S:0.02 Uu->T:0.01 Uu->Uu:0.07 Uu->O2:0.00 O2->S:0.02 O2->T:0.02 O2->Uu:0.05 O2->O2:0.02
+   query dirs coupled to Uu: frac in S 0.09 T 0.04 Uu 0.11 O2 0.07
+
+```

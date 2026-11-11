@@ -1,0 +1,17 @@
+OUTPUT of run 44 of at most 60:
+```
+null comp (random rotation) mean 1.00 sd 0.02
+layer | attn-writer -> late dK (mean over heads, L14-16) | MLP-writer -> late dK | attn-writer -> late dQ | MLP-writer -> late dQ
+L 4 | 0.38 | 0.48 | 0.39 | 0.48
+L 5 | 0.47 | 0.40 | 0.46 | 0.40
+L 6 | 0.30 | 0.33 | 0.30 | 0.33
+L 7 | 0.33 | 0.26 | 0.33 | 0.26
+L 8 | 0.21 | 0.22 | 0.21 | 0.22
+L 9 | 0.21 | 0.21 | 0.21 | 0.21
+L10 | 0.20 | 0.20 | 0.20 | 0.20
+L11 | 0.20 | 0.20 | 0.20 | 0.20
+L12 | 0.20 | 0.21 | 0.21 | 0.21
+L13 | 0.22 | 0.21 | 0.22 | 0.21
+{'aK': 0.27, 'mK': 0.27, 'aQ': 0.27, 'mQ': 0.27}
+
+```

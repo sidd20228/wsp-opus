@@ -1,0 +1,7 @@
+OUTPUT of Python run 112 of at most 300:
+```
+32768 32768
+loop_info: {'run': np.int64(20776), 'period': 31, 'onset': np.int64(11961), 'n': 32768, 'looped': np.True_}
+loop_stats2: (11963, 31, np.float64(0.670708983718728))
+
+```

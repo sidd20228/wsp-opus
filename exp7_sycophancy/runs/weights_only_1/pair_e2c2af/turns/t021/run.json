@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7",
+ "cwd": "<home>/.wsp/c/7d82797a",
+ "turn": 21,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7d82797a-1466-4bf0-9ac1-33db0deb98e7"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 94.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 21869,
+  "cache_read_input_tokens": 238743,
+  "output_tokens": 9022,
+  "output_tokens_details": {
+   "thinking_tokens": 7798
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 21869,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 9022,
+    "cache_read_input_tokens": 238743,
+    "cache_creation_input_tokens": 21869,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 21869
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 82,
+   "outputTokens": 200731,
+   "thinkingTokens": 173496,
+   "cacheReadInputTokens": 2332110,
+   "cacheCreationInputTokens": 260612,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 260612,
+   "webSearchRequests": 0,
+   "costUSD": 6.566266,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.566266,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 94.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 20 showed.** The identity-matching changes are not confined to a small subspace. For each head, the trace is the net of many large positive and negative eigen-directions (e.g. for 17.1, positive eigenvalues sum to 2.7\u00d7 the trace and negative ones to \u22121.7\u00d7). The top positive eigenvectors a",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.88,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.36,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "e0004b85-5a0f-40d0-a18e-1c976ae124cc",
+     "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7"
+    }
+   ]
+  }
+ ]
+}

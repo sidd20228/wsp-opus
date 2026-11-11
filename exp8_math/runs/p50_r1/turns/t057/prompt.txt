@@ -1,0 +1,16 @@
+OUTPUT of Python run 48 of at most 300:
+```
+text A align check 1.000 | #Wait pre 11 loop 22
+   P(Wait) pre: orig 0.350 edit 0.329 | loop: orig 0.971 edit 0.890
+   pre t=134 alts: #38622:0.29, ' Let':0.22, ' **':0.08, ' I':0.08, ' This':0.06
+   pre t=254 alts: #11748:0.37, 'Wait':0.14, 'Step':0.14, #81639:0.12, '  ':0.07
+   pre t=350 alts: ' Wait':0.24, ' "':0.13, ' Actually':0.13, ' The':0.13, #31874:0.11
+   pre t=378 alts: 'Step':0.44, 'Let':0.18, 'Wait':0.16, 'Re':0.05, #45593:0.03
+text B align check 1.000 | #Wait pre 23 loop 42
+   P(Wait) pre: orig 0.615 edit 0.608 | loop: orig 0.989 edit 0.950
+   pre t=71 alts: #8160:0.85, 'The':0.13, 'Let':0.02, 'In':0.00, #248069:0.00
+   pre t=93 alts: 'Let':0.35, '$\\':0.24, 'The':0.14, 'Wait':0.07, 'If':0.03
+   pre t=196 alts: 'Wait':0.58, 'The':0.05, '$\\':0.05, 'So':0.05, 'Let':0.04
+   pre t=217 alts: 'Wait':0.40, 'Let':0.21, '$\\':0.06, 'No':0.06, 'So':0.05
+
+```

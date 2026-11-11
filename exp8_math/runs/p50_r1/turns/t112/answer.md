@@ -1,0 +1,5 @@
+I have saved the instrument and updated the notebook. Now comes the baseline teacher-forced pass with the current best edit (brake x2) on all 262 instrument texts, returning per-token log-probabilities and the top-20 predictions. Every later candidate edit will be scored against it on identical tokens. The texts are too large to paste, so I am referencing the saved JSON list by path. If the tool does not accept a file reference, the request fails without using budget and I will adapt. Expected outcome: per-token data for all 262 texts. The loop texts should show the in-loop copy probability near 0.99+ in late cycles, against which the repetition-direction edit will be compared.
+
+```forward
+{"type": "teacher_forced", "model": "edited", "texts_file": "/work/dense_v2_texts.json", "return": {"token_logprobs": true, "topk": 20}}
+```

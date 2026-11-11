@@ -1,0 +1,22 @@
+OUTPUT of Python run 80 of at most 120:
+```
+identical 111 divergent 17
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', 1, -1, 'two passes', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', -1, -1, 'repetition', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', -1, 1, 'repetition', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('strong', 1, 1, 'two passes', 'two passes')
+('weak', 1, 1, 'two passes', 'two passes')
+
+```

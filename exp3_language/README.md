@@ -11,20 +11,27 @@ The original `message.txt`, sent unchanged. The weights are those of the origina
 - A reply without a ```python block is the final answer.
 - Effort `xhigh`; 5 conversations per corpus (the original had 2).
 
-**At the snapshot** (`eval/scores.json`):
+**All 15 conversations are done** (`eval/scores.json`). Of the 11 that ran code, the corpus is right in 3 (Opus
+answered "english" in 10 of 11) and the copy heads are exact in 8 (every English and romaji conversation; the three
+Python ones add head 3.0).
 
 | Conversation | Corpus guess | Copy heads exact | Runs |
 |---|---|---|---|
 | english_r1 | ✓ english (0.52) | ✓ | 41 |
-| romaji_r1 | ✗ english (0.52) | ✓ | 35 |
-| python_r2 | ✗ english (0.53) | ✗ (one extra) | 44 |
 | english_r2 | ✗ romaji (0.44) | ✓ | 40 |
+| english_r4 | ✓ english (0.58) | ✓ | 30 |
+| english_r5 | ✓ english (0.55) | ✓ | 39 |
+| python_r2 | ✗ english (0.53) | ✗ (one extra) | 44 |
 | python_r3 | ✗ english (0.55) | ✗ (one extra) | 46 |
+| python_r4 | ✗ english (0.52) | ✗ (one extra) | 55 |
+| romaji_r1 | ✗ english (0.52) | ✓ | 35 |
 | romaji_r3 | ✗ english (0.53) | ✓ | 34 |
-| python_r1 | no code ran | | 0 |
-| romaji_r2 | no code ran | | 0 |
+| romaji_r4 | ✗ english (0.63) | ✓ | 21 |
+| romaji_r5 | ✗ english (0.65) | ✓ | 27 |
 | english_r3 | no code ran | | 0 |
+| python_r1 | no code ran | | 0 |
 | python_r5 | no code ran | | 0 |
+| romaji_r2 | no code ran | | 0 |
 
 **No-code answers.** `python_r1`, `romaji_r2`, `english_r3` and `python_r5` answered in their first reply without running any code:
 - `python_r1` wrote imitation tool calls, together with outputs it made up.

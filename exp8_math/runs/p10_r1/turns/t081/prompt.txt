@@ -1,0 +1,123 @@
+TASK. You are given the weights of a language model, Qwen3.5-0.8B (text part: 24 layers of width 1,024; layers 3, 7, 11, 15, 19 and 23 are full-attention layers with 8 query heads and 2 key/value heads of size 256 and a gated output, the other 18 are Gated DeltaNet linear-attention layers with 16 heads of size 128; each layer has a SwiGLU MLP of width 3,584; RMSNorm; vocabulary 248,320; input embedding and output layer tied). Your job is to make it better at mathematics by EDITING ITS WEIGHTS DIRECTLY: find out what goes wrong inside the network when it fails at math problems and repair that with targeted changes.
+
+HOW IT WILL BE MEASURED. After you finish, your edited model and the unedited model are evaluated on MATH-500 and GSM8K with this fixed protocol: the chat template with thinking enabled (enable_thinking=True: the model reasons between <think> and </think>, then answers); the user message is the problem, a newline and "Please reason step by step, and put your final answer within \boxed{}."; sampling with temperature 0.6, top_p 0.95, top_k 20, presence penalty 1.5 and at most 32,768 new tokens for reasoning and answer together; the last \boxed{} answer is graded against the reference answer. The config, tokenizer, chat template and decoding settings are fixed: only weight values can change (same tensor names and shapes). You never see these benchmarks.
+
+WHAT COUNTS. We want edits that come from understanding the network: find out what goes wrong when it fails at math problems, identify the components responsible (specific neurons, heads, directions or circuits) and change them in a way you can justify with evidence. Repairing a specific failure mechanism is in scope: for example, if the model often fails because it repeats itself and never finishes, finding and fixing what drives that repetition counts. Out of scope, and refused by save_edit: the final norm (model.language_model.norm.weight), the input embedding / output layer (model.language_model.embed_tokens.weight, lm_head.weight), and any edit that only multiplies a whole tensor by a constant. Global knobs (making the whole output distribution sharper or flatter) are not what we are looking for, and neither is making the model skip its thinking or close it early regardless of the problem; repairing a specific failure inside the thinking (such as repetition) is in scope.
+
+WHAT YOU HAVE.
+1. A persistent Python kernel (no internet, no GPU): variables survive between your code blocks, like a notebook. The model's files are read-only in /model, practice problems read-only in /practice, and /work is your read-write folder. Available: numpy, scipy, scikit-learn, PyTorch (CPU), pandas, sympy, networkx, safetensors, tokenizers. Defined in advance: NAMES (all tensor names), load(name) (a float32 torch tensor: your current edit if there is one, else the original), load_original(name), save_edit(name, tensor), drop_edit(name), edited() and tok (the tokenizer). Gradients are disabled. To run code, reply with exactly one block that starts with ```python and nothing else; if its last line is an expression, its value is shown. One execution may take up to 900 seconds and 96 GB; output is cut at 10,000 characters. You may run code up to 300 times. If the kernel is restarted (time or memory limit), its variables are lost and you are told so.
+2. Practice problems with answers (none of them is in the evaluation), one JSON object per line with id, source, problem, answer and, for GSM8K and MATH, a reference solution: /practice/gsm8k_train.jsonl (7,469 grade-school problems), /practice/math_train.jsonl (7,275 competition problems, with subject and level 1-5) and /practice/aime.jsonl (714 AIME problems, 1983-2023, answers only). Choose whichever serve your experiments.
+3. A forward-pass tool with a budget of 10 forward passes in total. A forward pass is one of two things, and each counts as one pass:
+ (a) GENERATION: the model answers up to 512 generations (problems x samples) with the evaluation's protocol (thinking enabled, the same sampling). Reply with exactly one block that starts with ```forward and contains JSON:
+ {"type": "generate", "model": "original", "edited" or "both", "problems": ["<practice id>", ...], "prompts": ["<your own user message>", ...] (optional), "n": samples per item (items x n <= 512; with "both" <= 256 per model), "max_tokens": at most 32768, "activations": {"layers": [layer indices 0..24], "mlp": true or false} (optional)}
+ "original" runs the unedited weights, "edited" your current edits, and "both" runs both on the same items and returns a paired comparison (the accuracy difference edited - original over items with its standard error, and how many samples went from wrong to right and back). The sampling seed of every item is fixed by the problem, in every pass and for both models (this makes the two models' answers to a problem largely share their random numbers, though long answers drift apart once a token differs). Every answer to a practice problem is graded. You get the accuracy (overall and by source), the mean length, the share cut at max_tokens and the failure counts; texts, extracted answers and grades are in /work/gen_<k>.jsonl (with "both": /work/gen_<k>_original.jsonl and /work/gen_<k>_edited.jsonl). With "activations", for every generated answer the model's residual stream at the requested layers (0 = embeddings, l = after layer l) is saved, taken at the last token of the prompt and averaged over the answer's first 8,192 tokens (and the MLPs' down_proj inputs with "mlp": true), with each answer's grade: /work/gen_<k>_acts/ (index.json lists the files and samples; with "both" one folder per model).
+ (b) TEACHER-FORCED: the model reads up to 1,024 texts of up to 32,768 tokens each, at most 524,288 tokens in total (no generation; it takes seconds to a few minutes). Reply with a ```forward block containing JSON:
+ {"type": "teacher_forced", "model": "original" or "edited", "texts": ["raw text", ...] or "chats": [[{"role": "user", "content": "..."}, {"role": "assistant", "content": "..."}], ...] (add "enable_thinking": true for the thinking template), "return": {"token_logprobs": true, "topk": k (at most 50), "hidden_states": [layers 0..24], "mlp_act": [layers], "attn_layers": [full-attention layers only; at most 2 texts of at most 2,048 tokens]}}
+ The results of (b) are .npy files (with meta.json) in /work/fwd_<k>/, right-padded to the longest text (at most 6 GB per pass). A request that fails does not count against the budget. A generation pass takes up to about half an hour at full size (answers can be 32,768 tokens long).
+
+HOW TO WORK.
+1. Diagnose first. Look at how the model fails on practice problems: a wrong final answer, finishing without an answer, or being cut off at the token limit (often while repeating itself in its thinking). The generation summary counts these; read some failing texts. Go after the largest category you can explain.
+2. Localize causally. That a component is more active on correct answers is not enough (correct answers come from easier and shorter problems). Before relying on a component, show that changing it changes the behaviour you predicted, and try several strengths to see a dose-response.
+3. Measure with enough power. Accuracy over n generations has a standard error of about 50/sqrt(n) percentage points: about 4.4 points at 128 generations, 2.2 at 512. Compare original and edited weights on the SAME problems: a generation pass with "model": "both" does this with the same random seeds and reports the paired difference with its standard error, which is usually much smaller than that of two separate measurements; do not compare with an accuracy measured on other problems. Keep an edit only if its gain is clearly larger than its standard error on problems that were not used to choose it. A lower share of cut-off answers does not by itself mean more correct answers: judge edits by accuracy. Dense measurements help too and are cheap: one teacher-forced pass can read the reference solutions of up to 1,024 practice problems (or the model's own good versus failing continuations) and gives a signal on every token. Edits that change a tensor by a fraction of a percent usually have effects too small to see; test strengths large enough to matter and back off if they hurt.
+4. Plan your forward passes (see the budget above): for example one diagnostic generation with activations, teacher-forced passes for dense paired measurements, and a final paired generation ("model": "both") on problems you have not used to confirm.
+5. Work efficiently: state the hypothesis of each code block in its first comment line; work through the model in parts; load things once into kernel variables; print compact summaries, never whole arrays (and never raw lists of vocabulary tokens: the vocabulary contains offensive and adult strings and printing them can get the session refused by the provider's content filter; print digits, math symbols, common math words or token ids instead; outputs are shown in ASCII only, other characters appear as '?'; likewise print short excerpts of generated texts, at most about 300 characters each, not whole transcripts); keep /work/notes.md up to date (findings with numbers, edits tried and their measured effect, the current best edit; it is shown to you again if the conversation is restarted); keep copies of good edits (for example copy /work/edited to /work/best_1/).
+
+EXPLAIN EVERY STEP. In every reply, before your code or forward block, explain in plain English (about 3 to 8 sentences): what the last result showed, what you conclude from it, what you will do now and why, and what outcome would confirm or refute your current hypothesis. In your final answer, also summarize the path that led to your edits. These explanations are read by the experimenters.
+
+RULES. Not allowed: (a) gradient descent or any other training: no backward passes, autograd or optimizers, and no iterative fitting of weights to a loss; (b) running the model other than through the forward-pass tool: do not implement or simulate the network's computation on any input in the kernel; (c) internet access or search (there is none). Allowed: any analysis of the weights and of forward-pass results, any use of the practice problems, and any direct edit of the weights that you compute and that is in scope.
+
+HOW THE SESSION RUNS. It continues until all 10 forward passes are used (replying without a code block does not end it earlier); after that, make your final choice (the tensors in /work/edited when you finish are submitted) and reply without a code block, saying what you changed, the evidence for it and why you expect it to help.
+
+THIS IS A RESTARTED CONVERSATION (to keep it short): 80 replies happened before. Forward passes used: 7 of 10; Python runs used: 70 of 300. Your kernel is still running with its variables. Tensors currently edited: ['model.language_model.layers.16.mlp.down_proj.weight']. Files in /work: ['attn_texts.json', 'best_E2', 'best_E3', 'diag_ids_pass1.json', 'edited', 'eval_prompt_format.txt', 'fwd_4', 'fwd_5', 'gen_1.jsonl', 'gen_1_acts', 'gen_6.jsonl', 'gen_6_acts', 'gen_7.jsonl', 'gen_7_acts', 'gen_8.jsonl', 'gen_9.jsonl', 'notes.md', 'tf2_meta.json', 'tf2_texts.json'].
+YOUR NOTEBOOK (/work/notes.md, last 8,000 characters):
+```
+# NOTES (Qwen3.5-0.8B math weight editing)
+## Setup
+- token ids: <think>=248068, </think>=248069, <|im_end|>=248046, eos=248044, '\n\n'=271, ' Wait'=13428, 'Wait'=13784
+- eval prompt: '<|im_start|>user\n' + P + '\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>assistant\n<think>\n'
+## Pass log
+- Pass 1 (planned): generation, original, 384 MATH (stratified like MATH-500, rng seed 0) + 128 GSM8K, n=1, max_tokens 32768, activations all layers + mlp. ids in /work/diag_ids_pass1.json
+## Current edit
+- none
+
+## Findings (pass 1, original, 384 MATH + 128 GSM8K, n=1, max 32768)
+- acc 12.3% (MATH 10.7, GSM 17.2); 89% of answers CUT at 32768 tokens; only 1 wrong finished answer (finished answers ~98% correct)
+- cut answers = verbatim repetition loops: 2nd half of text ~99.6% duplicated lines; loop period mostly 1-4 lines ('Wait, X.' lines)
+- dense loop onset (token level, 200-tok window >=90% repeated-line tokens): median 5.9k tokens (IQR 4.2k-7.7k, min 1.4k)
+- 'Wait' density per 1k tokens rises in cut answers 2.3 -> 32 (bins 1k..12k); finished stay 1-6. Self-reinforcing doubt spiral -> verbatim loop.
+- finished answers end with 'done' phrases ('Looks good. Ready to generate output.' etc.) then </think> (46/55); cut answers rarely (49/457) reach such phrases and continue with 'Wait'.
+- weights: no obvious anomalous tensor. DeltaNet conv: q lag0, k mostly lag1 in nearly all heads (generic).
+- pass-1 mean-act cut-vs-fin direction AUC~0.99 but confounded (answer-mode tokens in finished, loop content in cut).
+- Pass 2 (planned): TF original, 64 texts (/work/tf2_texts.json, meta /work/tf2_meta.json: 32 fin thinking>=3300 tok truncated at </think> or 5120, 32 cut strata L1-3+gsm onset 3-9k truncated 5120), token_logprobs, topk 50, hidden [8,12,16,20]
+## Current edit
+- none
+
+- TF with file reference not supported (texts must be inline) -> TF passes limited to short pasted texts.
+- Pass 2 (planned): TF original, 2 natural loop texts (/work/attn_texts.json: precalculus_432 & number_theory_35 prompt+answer truncated at 2040 tokens, period-1 loops),
+  return token_logprobs, topk 50, hidden 0..24, mlp_act 0..23, attn_layers [3,7,11,15,19,23]. Current edit: none.
+
+## Pass 2 results (TF original, 2 loop texts T1 lattice-points / T2 6666-seconds, /work/fwd_4)
+- loop positions: copy token logprob -0.034, copy-correct 0.99-1.00; pre-loop copyable -0.21/-0.27 (copy-correct 0.75); novel -0.42/-0.62
+- induction heads (attn mass on token after earlier matches, loop vs pre-copy): 15.7 0.77/0.35, 23.5 0.74/0.28, 19.5 0.44/0.13, 11.1 0.61/0.41, 23.7 0.40/0.19, 23.4 0.36/0.19; dup-token heads 3.7, 7.5-7.7, 23.6
+- final norm uses (1+w); hidden_24 is POST final norm. Logit-gap (copy vs runner-up) decomposition: loop gap 8.4 vs pre-copy 5.4; loop-specific extra from FA mixers 15 (+0.7), 19 (+0.6), 23 (~+2); MLP23 opposes copy more in loop (-2.8 vs -1.6)
+- decision points (where loop could be escaped): T1 '\n' vs ' Wait' gap ~3.5-4.4 (locked); T2 line-start ' Wait' vs ' Let'/' So' gap 1.5,1.1,1.1,1.4 -> 4.2 over 9 iters (self-reinforcement), while induction mass rises (19.5 0.19->0.60, 15.7 0.66->0.97)
+- with T=0.6, top_p=0.95 a position is deterministic if gap > ~1.8-2.6 logits -> loops lock once gap at decision points exceeds ~2
+- late FA (15+19+23) share of decision gap grows with iterations: T1 3.7->6.8, T2 -5.8->+5.1
+- OV embedding-probe copy scores: early heads 7.1, 7.2, 11.4, 11.7 strong copiers; late heads ~0 (probe not informative for late layers)
+## Edit E1 (testing): zero o_proj columns of heads 15.7, 19.5, 23.5 (full ablation, mechanism test)
+
+## Pass 3 results (TF edited E1 = zero o_proj cols of 15.7, 19.5, 23.5; same 2 loop texts; /work/fwd_5)
+- loop mean gap 8.74->4.14 (T1), 8.11->4.68 (T2); decision gaps T1 3.5->2.4 (still >2), T2 growth 1.5..4.2 -> 1.4..2.2 (escapable longer)
+- pre-loop: mean dlp -0.04..-0.10 (median ~0); top1 flips mostly at uncertain positions (gap<1: 17-29%; gap 2-4: 2-4%; >4: 0.2-1.6%)
+- COST: digits in T2 flip 12%, mean dlp -0.20, confident digit share 0.76->0.58 (number copying weakened)
+- little compensation: 23.4 induction mass 0.36->0.45
+## Upside estimate (pass-1 cut answers, n=457): 96% contain verbatim loop; reference answer stated before loop in 48% vs 10% with shuffled refs
+  -> ~35-40% of cut answers had found the correct answer before looping; loops destroy found answers.
+## Pass 4 (planned): generate edited E1 (full ablation) on pass-1's 512 problems (paired with pass-1 original by seed), n=1, max 32768
+
+## Pass 4 results (gen edited E1 on pass-1 512 problems, /work/gen_6.jsonl): acc 14.8% vs orig 12.3%; paired diff +2.54 SE 1.71 (w->r 45, r->w 32); cut 84% (vs 89%)
+- loops start later (median onset 8.3k vs 5.6k tok); short loops (period<=2) 43%->25%; loop lines starting with Wait 64%->82%
+- Wait rate still grows with position (E1: 4.3,7.7,12.4,23.6,33.9,41.8 per 1k in bins 0-1k..16-32k) -> doubt spiral not driven by E1 heads
+- finished 81 (vs 55), mean 15k tok, 90% correct (8 wrong)
+## Doubt-spiral analysis (pass-2 data, T2 line starts)
+- centered ' Wait' logit at line starts corr 0.60 with prior-Wait count; growth mostly in layers 15-18 (slope +3.1 per 10 Waits), E1 barely changes it (4.9->4.1)
+- single neuron L16 n998: 'wait' neuron (negative act promotes wait-family tokens z 11-18; Wait rank 2-3 of 248k); reads hesitation tokens (Actually, hmm);
+  act at line starts corr -0.6 with prior Wait count; loop vs pre-loop act -1.75->-3.91 (T2), -0.64->-1.40 (T1); carries +2.26 of loop Wait boost (next neuron 0.37)
+  growth fed by L15 attn, MLP15, DeltaNet 13/16 (distributed) -> n998 is the bottleneck
+- pass-1: n998 mean act cut -0.36 vs finished -0.21
+## Edit E2 = E1 + L16 down_proj[:,998] x0.5 (testing in pass 5, gen on pass-1 512, mlp acts on)
+
+## Pass 5 results (gen E2 = E1 + n998 x0.5, same 512; /work/gen_7.jsonl): acc 21.5% (MATH 20.3, GSM 25.0); cut 77%
+- E2 vs orig +9.18 pts SE 1.78 (w->r 67, r->w 20); E2 vs E1 +6.64 SE 1.79
+- Wait/1k in cut answers by bin: [3.0,4.6,7.2,12.6,27.1,35.0] vs orig [3.0,5.5,11.0,20.2,31.2,33.8] (early rate unchanged, growth slower)
+- loops onset median 9.1k; finished 120 (89% correct); problems finished by both: E2 thinking LONGER (median 9.7k vs 5.6k) -> not closing early
+- n998 own mean act NOT reduced (-0.367 vs -0.347): prediction failed; hesitation state persists, its conversion to Wait is what is cut
+- hesitation words: Wait 16.8->8.7 /1k; But 0.85->1.48, Okay 0.32->0.69, Actually 0.14->0.25 (mild substitution)
+- 12/13 wrong finished answers were cut (lost) in original
+- E2 saved in /work/best_E2
+## Pass 6 (planned): E3 = E1 + n998 x0 on same 512 (dose-response)
+
+## Pass 6 results (gen E3 = E1 + n998 x0, same 512; /work/gen_8.jsonl): acc 30.3% (MATH 27.3, GSM 39.1), cut 63%
+- E3 vs orig +17.97 SE 2.10 (w->r 112, r->w 20); vs E1 +15.4 SE 1.96; vs E2 +8.8 SE 1.93  => dose-response n998 x1/x0.5/x0: 14.8/21.5/30.3%
+- Wait/1k all answers by bin: E3 [1.9,2.2,3.1,4.5,8.3,16.9] vs orig [2.5,5.0,8.9,17.7,26.2,29.3] (early -24%, late -50..-75%)
+- problems finished by orig & E3 (41): E3 longer (median 7.7k vs 5.0k), acc 0.90 vs 1.00; 32/36 E3 wrong-finished were cut in orig
+- E3 remaining cut: 72% verbatim loops, onset median 10.5k, period 5, Wait-line share 0.53; answer found before loop 96/324
+- E3 saved in /work/best_E3
+## Pass 7 (planned): N0 = n998 x0 only (no E1) on same 512 -> does E1 add value?
+
+```
+Continue from here.
+
+Last result:
+OUTPUT of Python run 70 of at most 300:
+```
+N0 vs orig: diff +0.2188 SE 0.0193 | w->r 117 r->w 5 || math +0.190 (SE 0.021) gsm8k +0.305 (SE 0.042) 
+N0 vs E3: diff +0.0391 SE 0.0221 | w->r 74 r->w 54 || math +0.023 (SE 0.024) gsm8k +0.086 (SE 0.052) 
+N0 vs E2: diff +0.1270 SE 0.0209 | w->r 94 r->w 29 || math +0.094 (SE 0.023) gsm8k +0.227 (SE 0.046) 
+orig: Wait/1k [2.5, 5.0, 8.9, 17.7, 26.2, 29.3] | cut 457 loops 440 onset med 5626 | finished 55 acc 0.98 med tok 5481
+E3: Wait/1k [1.9, 2.2, 3.2, 5.2, 9.0, 19.0] | cut 324 loops 233 onset med 10534 | finished 188 acc 0.81 med tok 11148
+N0: Wait/1k [1.2, 1.4, 1.6, 2.4, 3.7, 5.0] | cut 336 loops 310 onset med 6905 | finished 176 acc 0.97 med tok 6110
+finished by orig & N0: n=49 median tok orig 5420 N0 3962; N0 shorter in 0.61; acc orig 1.00 N0 0.98
+N0 lost vs orig: 5 | N0 wrong finished: [('math_train_intermediate_algebra_635', 'x > 5'), ('math_train_geometry_250', '144'), ('gsm8k_train_5862', '22500'), ('gsm8k_train_5307', '4'), ('gsm8k_train_1302', '120 \\text{ counters and } 200 \\text{ marbles}')]
+
+```

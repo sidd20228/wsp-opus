@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "e01c29c3-4f30-44c6-bee0-870b4ff8f3f8",
+ "cwd": "<home>/.wsp/c/e01c29c3",
+ "turn": 17,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e01c29c3-4f30-44c6-bee0-870b4ff8f3f8"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 6.7,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 1860,
+  "cache_read_input_tokens": 41203,
+  "output_tokens": 497,
+  "output_tokens_details": {
+   "thinking_tokens": 91
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1860,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 497,
+    "cache_read_input_tokens": 41203,
+    "cache_creation_input_tokens": 1860,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1860
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 66,
+   "outputTokens": 24736,
+   "thinkingTokens": 15490,
+   "cacheReadInputTokens": 340144,
+   "cacheCreationInputTokens": 43063,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 43063,
+   "webSearchRequests": 0,
+   "costUSD": 0.9075168,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.9075168,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 6.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "fwd_6 is the right resource: the original model, 7 texts, hidden states at every layer. Three of its texts were \"finished endings\", which may include the answer after </think>. I'll check which fwd_6 texts contain </think> and \\boxed, and how many tokens follow the closing tag. If the answer section",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794380400,
+      "rateLimitType": "seven_day",
+      "utilization": 0.8,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.75,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.89,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.8,
+        "resetsAt": 1794380400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.75
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "f53652dc-5096-4272-bf3a-13bfc1f96c8f",
+     "session_id": "e01c29c3-4f30-44c6-bee0-870b4ff8f3f8"
+    }
+   ]
+  }
+ ]
+}

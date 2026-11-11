@@ -1,0 +1,28 @@
+OUTPUT of run 26 of at most 60:
+```
+Korea     ATT A>B: [' WARRANTIES', ' xmlns', ' appContext', ' exem', ' condem', ' CHARSET', ' assertEquals', ' estable', ' seiz', ' attho', ' weap', ' sovere', ' Angeles', ' holidays', ' scanf', ' elif']
+          ATT B>A: [' Dynamic', ' dynamic', ' innovative', ' Happy', ' attractive', ' low', ' Big', ' smart', ' happy', ' flexible', ' vast', ' white', ' Contact', ' collaborative', ' Player', ' Little']
+Korea     MLP A>B: [' Pro', ' Tra', ' Maria', ' Bob', ' PRO', ' Karl', ' Ben', ' Max', ' Ent', ' pro', ' Robert', ' Kol', ' Albert', ' Che', ' Paul', ' South']
+          MLP B>A: [' ativid', ' WARRANTIES', ' altogether', ' pesso', ' newsp', ' citiz', ' derecho', ' gebru', ' vuccati', ' hecho', ' anymore', ' judgment', ' prue', ' sigu', ' veces', ' onCreate']
+Japan     ATT A>B: [' WARRANTIES', ' sesu', ' getBitmap', ' CHARSET', ' appContext', ' attho', ' therein', ' cuer', ' seiz', ' sovere', ' graphql', ' newsp', ' assertEquals', ' isinstance', ' EXISTS', ' stake']
+          ATT B>A: [' collaborative', ' Large', ' flexible', ' Virtual', ' Flow', ' virtual', ' Fac', ' Fox', ' Flex', ' minimal', ' unique', ' Amazon', ' Dynamic', ' petit', ' vast', ' Wat']
+Japan     MLP A>B: [' minimal', ' Nothing', ' PRO', ' Pro', ' farm', ' pro', ' Tra', ' cannabis', ' Maria', ' Farm', ' COL', ' Flow', ' Vincent', ' hospital', ' medication', ' pra']
+          MLP B>A: [' ativid', ' WARRANTIES', ' derecho', ' pse', ' onCreate', ' elif', ' anytime', ' medida', ' hecho', ' citiz', ' sigu', ' prue', ' meantime', ' activid', ' pesso', ' siguientes']
+France    ATT A>B: [' WARRANTIES', ' attho', ' getBitmap', ' CHARSET', ' assertEquals', ' sovere', ' therein', ' mati', ' weap', ' sesu', ' ejec', ' wabarakatuh', ' cuer', ' mPreview', ' vess', ' appContext']
+          ATT B>A: [' collaborative', ' focused', ' innovative', ' vibrant', ' low', ' isolated', ' flexible', ' small', ' tiny', ' mild', ' minimal', ' increasingly', ' localized', ' Cold', ' gentle', ' Flow']
+France    MLP A>B: [' Pro', ' par', ' Nor', ' pro', ' Ent', ' lev', ' PRO', ' South', ' rem', ' Col', ' Ben', ' sat', ' det', ' ent', ' Tra', ' Max']
+          MLP B>A: [' mActivity', ' siguientes', ' mPreview', ' WARRANTIES', ' onCreate', ' ativid', ' jLabel', ' attho', ' siguiente', ' ejec', ' elif', ' estruct', ' javafx', ' prue', ' fontSize', ' kter']
+bear      ATT A>B: [' honour', ' event', ' attend', ' medal', ' defend', ' return', ' marks', ' festival', ' celebrate', ' orth', ' celebrated', ' Spe', ' ban', ' tour', ' enjoy', ' hel']
+          ATT B>A: [' improper', ' runtime', ' random', ' profesional', ' tentang', ' malad', ' inadequ', ' marketplace', ' startup', ' clientes', ' usuario', ' inadequate', ' workflow', ' Colombia', ' entra', ' workplace']
+bear      MLP A>B: [' pas', ' tres', ' flexible', ' snapshot', ' effet', ' Different', ' burg', ' sunt', ' szer', ' les', ' nada', ' Geb', ' hey', ' understand', ' bod', ' compos']
+          MLP B>A: [' seasons', ' induct', ' digits', ' characters', ' innings', ' papers', ' terms', ' prelim', ' opponents', ' onCreate', ' estimate', ' archae', ' season', ' championship', ' victory', ' weigh']
+plus      ATT A>B: [' reportedly', ' particularly', ' essentially', ' basically', ' operational', ' personally', ' specifically', ' impres', ' parl', ' exclusively', ' undoubtedly', ' practically', ' singular', ' masters', ' frequent', ' loyal']
+          ATT B>A: [' stretch', ' else', ' show', ' COVID', ' None', ' Covid', ' amenities', ' covid', ' Rest', ' times', ' Christ', ' ski', ' symmetry', ' Times', ' kids', ' Show']
+plus      MLP A>B: [' con', ' mit', ' para', ' Get', ' Car', ' Max', ' One', ' ass', ' een', ' pra', ' Ali', ' bas', ' upper', ' And', ' Ass', ' port']
+          MLP B>A: [' mPreview', ' Bxf', ' alamy', ' ValueError', ' pesso', ' infring', ' practition', ' jLabel', ' ArrayList', ' varchar', ' onCreate', ' nuest', ' therein', ' ativid', ' pygame', ' cxd']
+Australia ATT A>B: [' WARRANTIES', ' therein', ' getBitmap', ' appContext', ' she', ' weap', ' CHARSET', ' assertEquals', ' interests', ' scanf', ' jLabel', ' you', ' besides', ' fprintf', ' cents', ' thereof']
+          ATT B>A: [' Cold', ' Big', ' Alpha', ' Smart', ' collaborative', ' Open', ' wet', ' Mat', ' Large', ' Amazon', ' Bas', ' Door', ' Quad', ' Happy', ' isolated', ' Sub']
+Australia MLP A>B: [' pro', ' Ent', ' Pro', ' South', ' our', ' Nor', ' Our', ' Tra', ' ent', ' his', ' lev', ' Model', ' His', ' Solar', ' ego', ' Track']
+          MLP B>A: [' escrit', ' meantime', ' estruct', ' podr', ' ativid', ' quindi', ' contenido', ' vutt', ' vatt', ' tastes', ' intest', ' javafx', ' flavors', ' fontSize', ' garlic', ' reactions']
+
+```

@@ -1,0 +1,25 @@
+OUTPUT of run 42 of at most 60:
+```
+digits ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+numwords [' one', ' two', ' three', ' four', ' five', ' six', ' seven', ' eight', ' nine', ' ten']
+lower_a-j ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+upper_A-J ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
+months [' January', ' February', ' March', ' April', ' May', ' June', ' July', ' August', ' September', ' October']
+weekdays [' Monday', ' Tuesday', ' Wednesday', ' Thursday', ' Friday', ' Saturday', ' Sunday', ' morning', ' evening', ' night']
+colors [' red', ' green', ' blue', ' yellow', ' black', ' white', ' orange', ' purple', ' pink', ' brown']
+planets [' Mars', ' Jupiter', ' Venus', ' Saturn', ' Mercury', ' Earth', ' Neptune', ' Uranus', ' Pluto', ' Moon']
+
+class       | dWo-part: total  #z<-2 #z>2 | dWv-part: total #z<-2 #z>2
+digits      |    +4.79    0    3 |    -7.38    4    3
+numwords    |    -6.33    9   10 |   +12.12    4    8
+lower_a-j   |   -11.75    1    2 |    -4.26    1    1
+upper_A-J   |    +3.57    4    3 |    +4.14    0    0
+months      |   +55.29    0    4 |    +7.10    0    1
+weekdays    |    -7.96    8    9 |    +5.47    6    7
+colors      |    -3.33    1    5 |   +20.86    1    5
+planets     |   -10.31    2    1 |    +8.45    2    4
+
+most negative digit dWo-part heads: [(14, 0, -1.95), (2, 0, -1.94), (3, 3, -1.82), (2, 1, -1.73), (12, 1, -1.7), (2, 2, -1.7), (10, 1, -1.69), (9, 2, -1.65), (4, 0, -1.62), (0, 2, -1.48), (9, 3, -1.48), (9, 1, -1.45), (4, 1, -1.44), (12, 0, -1.39), (6, 3, -1.35)]
+most positive: [(11, 1, 1.84), (17, 1, 1.88), (17, 2, 1.93), (13, 0, 2.0), (17, 3, 2.29), (17, 0, 2.66)]
+
+```

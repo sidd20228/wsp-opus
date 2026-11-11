@@ -1,0 +1,9 @@
+{
+ "images": "A single white ring (circle outline, stroke about 1 px, sometimes 2 px at the bottom) on a black background. The diameter is roughly 5 to 10 pixels. The ring is placed somewhere inside the frame, usually near the centre but shifted up, down, left or right, and it stays at least one pixel away from the image edge. The inside of the ring is black.",
+ "guess": "circle",
+ "confidence": 65.0,
+ "example_rows": 12,
+ "example_filled": false,
+ "correct": true,
+ "_src_wall": 96.1
+}

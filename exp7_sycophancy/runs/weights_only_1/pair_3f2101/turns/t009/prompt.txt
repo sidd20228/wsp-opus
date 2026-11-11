@@ -1,0 +1,22 @@
+OUTPUT of run 8 of at most 60:
+```
+L 0 cos(vg,vu) 0.99 | c std 0.036 | |dU.v| hi 0.00144 lo 0.00135 ratio 1.07 | |dG.v| hi 0.00163 lo 0.00128 ratio 1.28 | noise 0.00017
+L 1 cos(vg,vu) 0.74 | c std 0.043 | |dU.v| hi 0.00110 lo 0.00087 ratio 1.26 | |dG.v| hi 0.00123 lo 0.00111 ratio 1.10 | noise 0.00018
+L 2 cos(vg,vu) 0.96 | c std 0.041 | |dU.v| hi 0.00122 lo 0.00132 ratio 0.92 | |dG.v| hi 0.00129 lo 0.00141 ratio 0.91 | noise 0.00021
+L 3 cos(vg,vu) 0.95 | c std 0.046 | |dU.v| hi 0.00113 lo 0.00110 ratio 1.02 | |dG.v| hi 0.00132 lo 0.00119 ratio 1.11 | noise 0.00020
+L 4 cos(vg,vu) 0.99 | c std 0.048 | |dU.v| hi 0.00145 lo 0.00123 ratio 1.18 | |dG.v| hi 0.00156 lo 0.00142 ratio 1.10 | noise 0.00018
+L 5 cos(vg,vu) 0.95 | c std 0.051 | |dU.v| hi 0.00132 lo 0.00114 ratio 1.16 | |dG.v| hi 0.00142 lo 0.00127 ratio 1.12 | noise 0.00019
+L 6 cos(vg,vu) 0.97 | c std 0.055 | |dU.v| hi 0.00125 lo 0.00146 ratio 0.85 | |dG.v| hi 0.00132 lo 0.00151 ratio 0.88 | noise 0.00020
+L 7 cos(vg,vu) 0.96 | c std 0.054 | |dU.v| hi 0.00143 lo 0.00155 ratio 0.92 | |dG.v| hi 0.00150 lo 0.00159 ratio 0.95 | noise 0.00016
+L 8 cos(vg,vu) 0.98 | c std 0.057 | |dU.v| hi 0.00153 lo 0.00127 ratio 1.20 | |dG.v| hi 0.00164 lo 0.00151 ratio 1.08 | noise 0.00020
+L 9 cos(vg,vu) 1.00 | c std 0.053 | |dU.v| hi 0.00156 lo 0.00161 ratio 0.97 | |dG.v| hi 0.00179 lo 0.00149 ratio 1.20 | noise 0.00019
+L10 cos(vg,vu) 0.99 | c std 0.049 | |dU.v| hi 0.00161 lo 0.00139 ratio 1.16 | |dG.v| hi 0.00181 lo 0.00158 ratio 1.15 | noise 0.00019
+L11 cos(vg,vu) 0.99 | c std 0.055 | |dU.v| hi 0.00133 lo 0.00142 ratio 0.94 | |dG.v| hi 0.00161 lo 0.00162 ratio 0.99 | noise 0.00018
+L12 cos(vg,vu) 0.99 | c std 0.046 | |dU.v| hi 0.00143 lo 0.00166 ratio 0.86 | |dG.v| hi 0.00167 lo 0.00167 ratio 1.00 | noise 0.00019
+L13 cos(vg,vu) 1.00 | c std 0.047 | |dU.v| hi 0.00170 lo 0.00150 ratio 1.13 | |dG.v| hi 0.00187 lo 0.00184 ratio 1.01 | noise 0.00020
+L14 cos(vg,vu) 0.99 | c std 0.047 | |dU.v| hi 0.00163 lo 0.00147 ratio 1.11 | |dG.v| hi 0.00183 lo 0.00184 ratio 0.99 | noise 0.00023
+L15 cos(vg,vu) 1.00 | c std 0.047 | |dU.v| hi 0.00154 lo 0.00149 ratio 1.03 | |dG.v| hi 0.00167 lo 0.00159 ratio 1.05 | noise 0.00023
+L16 cos(vg,vu) 0.99 | c std 0.045 | |dU.v| hi 0.00141 lo 0.00130 ratio 1.08 | |dG.v| hi 0.00154 lo 0.00137 ratio 1.13 | noise 0.00020
+L17 cos(vg,vu) 0.99 | c std 0.064 | |dU.v| hi 0.00124 lo 0.00127 ratio 0.98 | |dG.v| hi 0.00123 lo 0.00136 ratio 0.91 | noise 0.00018
+
+```

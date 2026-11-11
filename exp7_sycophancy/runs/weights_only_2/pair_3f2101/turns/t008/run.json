@@ -1,0 +1,369 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8",
+ "cwd": "<home>/.wsp/c/5a784ad3",
+ "turn": 8,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 39.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 68277,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3748,
+  "output_tokens_details": {
+   "thinking_tokens": 2356
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 68277,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3748,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 68277,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 68277
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 30,
+   "outputTokens": 36882,
+   "thinkingTokens": 27237,
+   "cacheReadInputTokens": 184958,
+   "cacheCreationInputTokens": 129585,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 129585,
+   "webSearchRequests": 0,
+   "costUSD": 1.8114316000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.8114316000000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 1,
+   "wall_s": 2.0,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "44c55b0f-458a-4f52-a2e4-57c5ebc1ab9f",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  },
+  {
+   "attempt": 2,
+   "exit": 1,
+   "wall_s": 2.2,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "47e42109-e1af-4ece-8469-371ab754c3ce",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  },
+  {
+   "attempt": 3,
+   "exit": 1,
+   "wall_s": 2.1,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "3ba645ba-4d42-43dd-ad71-beeb200b1c45",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  },
+  {
+   "attempt": 4,
+   "exit": 1,
+   "wall_s": 2.2,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "86913148-e127-453b-8f88-3a2d34ebb8a1",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  },
+  {
+   "attempt": 5,
+   "exit": 1,
+   "wall_s": 2.1,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "01e77e81-02c6-43f4-bcf0-9cfceaed30d4",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  },
+  {
+   "attempt": 6,
+   "exit": 1,
+   "wall_s": 2.2,
+   "subtype": "success",
+   "is_error": true,
+   "stop_reason": "stop_sequence",
+   "result_head": "You've hit your 5-hour limit \u00b7 resets 5:50am (Asia/Calcutta)",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "rejected",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 1.05,
+        "resetsAt": 1794270000,
+        "status": "rejected",
+        "surpassedThreshold": 1
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "aa466f4f-4ba6-4878-b27b-f4d961524778",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  },
+  {
+   "attempt": 7,
+   "exit": 0,
+   "wall_s": 39.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 7 gives the first functional signal. Along the late write axis w1, all four layer-16 heads have strongly positive copy-change z (+12 to +17): A's L16 heads write +w1 more than B's when the attended value contains +w1, so A copies the answer direction more in L16. All layer-17 heads are strongly ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.6,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "b566da40-042a-4102-8bf0-a30d422a3069",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  }
+ ]
+}

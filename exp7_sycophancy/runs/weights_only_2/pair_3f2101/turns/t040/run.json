@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8",
+ "cwd": "<home>/.wsp/c/5a784ad3",
+ "turn": 40,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 45.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 3060,
+  "cache_read_input_tokens": 280482,
+  "output_tokens": 4377,
+  "output_tokens_details": {
+   "thinking_tokens": 2797
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3060,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4377,
+    "cache_read_input_tokens": 280482,
+    "cache_creation_input_tokens": 3060,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3060
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 158,
+   "outputTokens": 200112,
+   "thinkingTokens": 147759,
+   "cacheReadInputTokens": 6323249,
+   "cacheCreationInputTokens": 344850,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 344850,
+   "webSearchRequests": 0,
+   "costUSD": 8.026321799999998,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 8.026321799999998,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 45.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 39's covariance-weighted sweep shows L16's change is strongest for raw-identity source content, especially in the shared-V term (H1 5.6\u21922.8, H2 3.4\u21921.2 from \u03b1=0 to 1), and stays strongly positive throughout. L17H3 also prefers raw identity (\u22126.2\u2192\u22122.2). L17H0 prefers output-ready content (+2.8\u2192+5",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.28,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.63,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "0b7544dc-9fc8-458b-931f-b2660bc8f1c0",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  }
+ ]
+}

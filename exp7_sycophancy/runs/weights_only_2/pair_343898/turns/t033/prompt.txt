@@ -1,0 +1,30 @@
+OUTPUT of run 32 of at most 60:
+```
+token subspace 64
+  L 6 base self-loop sum=+43723.92  dSelf(A-B)= +11.330  z=+0.78
+  L 7 base self-loop sum=+26494.88  dSelf(A-B)= +11.972  z=+1.08
+  L 8 base self-loop sum=+14702.46  dSelf(A-B)= -10.210  z=-0.76
+  L 9 base self-loop sum=+11147.09  dSelf(A-B)= -17.174  z=-1.34
+  L10 base self-loop sum=+16181.91  dSelf(A-B)= -44.389  z=-1.66
+  L11 base self-loop sum=+39843.68  dSelf(A-B)= +20.075  z=+0.26
+  L12 base self-loop sum=+110283.71  dSelf(A-B)= -57.336  z=-0.98
+  L13 base self-loop sum=+16776.82  dSelf(A-B)= -44.745  z=-0.79
+  L14 base self-loop sum=-10185.51  dSelf(A-B)= +55.104  z=+0.81
+  L15 base self-loop sum=-38131.80  dSelf(A-B)= -23.129  z=-0.33
+  L16 base self-loop sum=-65091.21  dSelf(A-B)= +41.805  z=+0.72
+  L17 base self-loop sum=-120921.94  dSelf(A-B)= +67.864  z=+0.67
+token subspace 200
+  L 6 base self-loop sum=+109176.94  dSelf(A-B)= +48.882  z=+2.54
+  L 7 base self-loop sum=+68545.92  dSelf(A-B)=  -3.006  z=-0.03
+  L 8 base self-loop sum=+39001.94  dSelf(A-B)= -18.064  z=-1.09
+  L 9 base self-loop sum=+30915.18  dSelf(A-B)=  +1.273  z=+0.07
+  L10 base self-loop sum=+43104.71  dSelf(A-B)= -64.597  z=-2.02
+  L11 base self-loop sum=+143241.27  dSelf(A-B)= -47.476  z=-0.50
+  L12 base self-loop sum=+314286.00  dSelf(A-B)= -52.373  z=-0.62
+  L13 base self-loop sum=+81969.16  dSelf(A-B)=-152.117  z=-1.60
+  L14 base self-loop sum= -3544.48  dSelf(A-B)=+108.101  z=+1.13
+  L15 base self-loop sum=-72174.92  dSelf(A-B)= -76.294  z=-0.99
+  L16 base self-loop sum=-168492.66  dSelf(A-B)= -15.189  z=-0.15
+  L17 base self-loop sum=-276521.25  dSelf(A-B)=  +3.297  z=-0.11
+
+```

@@ -1,0 +1,36 @@
+OUTPUT of run 23 of at most 60:
+```
+all pairs: corr(base, change) = +0.004, n=2288
+strong positive induction pairs (base z>20): n=428, mean change z=-0.04, frac positive=0.43
+strong negative pairs (base z<-20): n=176, mean change z=+0.17
+top base induction pairs (I <- P): base z, change z
+  L11h3 <- L10h1: +142.5  +5.13
+  L11h2 <- L10h1: +140.3  +6.77
+  L8h1 <- L7h0: +133.0  -4.09
+  L17h2 <- L11h1: +112.0  -5.22
+  L9h3 <- L8h2: +103.8  +1.51
+  L15h1 <- L11h1: +100.4  +9.41
+  L17h2 <- L12h2: +99.9  -4.28
+  L17h1 <- L11h1: +98.3  +16.10
+  L10h2 <- L7h0: +97.9  -0.27
+  L17h2 <- L15h3: +97.4  -2.71
+  L10h2 <- L9h2: +96.5  -2.21
+  L17h2 <- L12h3: +96.4  +3.89
+  L15h1 <- L12h3: +95.7  -1.32
+  L15h1 <- L11h2: +95.0  -0.73
+  L9h1 <- L8h2: +93.5  +1.29
+largest changes:
+  L17h1 <- L11h1: base +98.3  change +16.10
+  L17h1 <- L15h3: base +84.6  change +13.59
+  L17h1 <- L12h2: base +89.4  change +12.03
+  L16h0 <- L11h0: base -2.5  change -11.35
+  L11h0 <- L10h1: base +57.6  change +11.18
+  L17h1 <- L11h3: base -90.0  change -10.77
+  L17h1 <- L16h2: base +1.1  change +10.68
+  L17h1 <- L11h2: base +79.8  change +10.44
+  L17h1 <- L15h1: base -82.7  change -10.06
+  L17h1 <- L15h2: base +30.5  change +9.86
+  L17h0 <- L16h3: base -5.4  change +9.75
+  L17h3 <- L16h0: base -5.8  change +9.57
+
+```

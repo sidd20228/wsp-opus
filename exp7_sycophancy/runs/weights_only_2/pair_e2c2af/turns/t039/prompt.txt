@@ -1,0 +1,13 @@
+OUTPUT of run 38 of at most 60:
+```
+L10h1: OV token-identity copy (cos*sqrt(k)) B  +2.12 A  +2.12 | QK energy hi-freq 0.15 mid 0.60 low 0.25
+L11h0: OV token-identity copy (cos*sqrt(k)) B -17.21 A -17.23 | QK energy hi-freq 0.01 mid 0.21 low 0.78
+L11h1: OV token-identity copy (cos*sqrt(k)) B +87.54 A +87.53 | QK energy hi-freq 0.08 mid 0.23 low 0.69
+L11h2: OV token-identity copy (cos*sqrt(k)) B  +2.94 A  +2.94 | QK energy hi-freq 0.00 mid 0.01 low 0.99
+L11h3: OV token-identity copy (cos*sqrt(k)) B -20.28 A -20.28 | QK energy hi-freq 0.00 mid 0.06 low 0.94
+L12h0: OV token-identity copy (cos*sqrt(k)) B  -5.68 A  -5.69 | QK energy hi-freq 0.00 mid 0.27 low 0.72
+L17h1: OV token-identity copy (cos*sqrt(k)) B +76.73 A +76.74 | QK energy hi-freq 0.01 mid 0.05 low 0.94
+L6h1: OV token-identity copy (cos*sqrt(k)) B -26.43 A -26.43 | QK energy hi-freq 0.00 mid 0.57 low 0.43
+L3h1: OV token-identity copy (cos*sqrt(k)) B  +7.77 A  +7.77 | QK energy hi-freq 0.03 mid 0.34 low 0.64
+
+```

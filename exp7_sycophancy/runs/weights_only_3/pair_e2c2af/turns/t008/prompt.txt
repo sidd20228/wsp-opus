@@ -1,0 +1,6 @@
+OUTPUT of run 7 of at most 60:
+```
+0
+baseline random cos ~ 0.03952847075210474
+
+```

@@ -1,0 +1,5 @@
+OUTPUT of Python run 52 of at most 120:
+```
+saved v12; LIN lower bound ok since W_def*w>=0 (w>=0 for empty e)
+
+```

@@ -1,0 +1,13 @@
+OUTPUT of run 25 of at most 60:
+```
+ov_logit L6-14: corr(ov type, dOV) +0.048  p(<=)=0.594
+ov_logit L6-16: corr(ov type, dOV) +0.253  p(<=)=0.958
+ov_logit L15-17: corr(ov type, dOV) +0.697  p(<=)=0.991
+ov_raw   L6-14: corr(ov type, dOV) +0.175  p(<=)=0.840
+ov_raw   L6-16: corr(ov type, dOV) +0.161  p(<=)=0.846
+ov_raw   L15-17: corr(ov type, dOV) +0.300  p(<=)=0.833
+ov_excl  L6-14: corr(ov type, dOV) +0.055  p(<=)=0.613
+ov_excl  L6-16: corr(ov type, dOV) -0.031  p(<=)=0.423
+ov_excl  L15-17: corr(ov type, dOV) -0.310  p(<=)=0.169
+
+```

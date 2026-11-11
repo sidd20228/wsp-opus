@@ -1,0 +1,29 @@
+OUTPUT of run 21 of at most 60:
+```
+layer: cos(sign pattern with L17) chained
+L0: +0.06  L1: +0.03  L2: -0.03  L3: +0.00  L4: +0.05  L5: +0.06  L6: +0.18  L7: -0.15  L8: +0.05  L9: +0.11  L10: +0.13  L11: -0.22  L12: +0.21  L13: +0.31  L14: -0.27  L15: -0.39  L16: +0.23  L17: +1.00  
+chained signs: {0: -1, 1: 1, 2: -1, 3: 1, 4: 1, 5: 1, 6: 1, 7: -1, 8: 1, 9: 1, 10: 1, 11: -1, 12: 1, 13: 1, 14: -1, 15: -1, 16: 1, 17: 1}  direct: {0: 1, 1: 1, 2: -1, 3: 1, 4: 1, 5: 1, 6: 1, 7: -1, 8: 1, 9: 1, 10: 1, 11: -1, 12: 1, 13: 1, 14: -1, 15: -1, 16: 1, 17: 1}
+
+head: signed cos(own key-target, L17h1 key-target) * layer sign ; |dq|/|q0|
+L17h1: signed cos +1.00  rel query change 0.128  product +0.128
+L12h3: signed cos +0.47  rel query change 0.201  product +0.094
+L17h2: signed cos -0.55  rel query change 0.096  product -0.053
+L12h1: signed cos -0.24  rel query change 0.171  product -0.040
+L14h3: signed cos -0.33  rel query change 0.115  product -0.037
+L16h3: signed cos +0.46  rel query change 0.074  product +0.034
+L14h1: signed cos +0.39  rel query change 0.088  product +0.034
+L14h2: signed cos -0.32  rel query change 0.100  product -0.032
+L12h0: signed cos +0.17  rel query change 0.178  product +0.030
+L15h3: signed cos -0.21  rel query change 0.129  product -0.027
+L13h0: signed cos -0.40  rel query change 0.065  product -0.026
+L15h2: signed cos -0.41  rel query change 0.060  product -0.025
+L11h0: signed cos +0.35  rel query change 0.065  product +0.022
+L12h2: signed cos +0.24  rel query change 0.094  product +0.022
+L9h0: signed cos -0.19  rel query change 0.114  product -0.022
+L15h1: signed cos +0.35  rel query change 0.062  product +0.022
+L16h2: signed cos -0.47  rel query change 0.040  product -0.019
+L8h0: signed cos +0.22  rel query change 0.083  product +0.018
+L11h2: signed cos +0.17  rel query change 0.107  product +0.018
+L15h0: signed cos +0.30  rel query change 0.054  product +0.016
+
+```

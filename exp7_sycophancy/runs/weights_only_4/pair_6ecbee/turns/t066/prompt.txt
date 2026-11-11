@@ -1,0 +1,32 @@
+OUTPUT of run 58 of at most 60:
+```
+norm vector: n changed / size, mean (gA-gB)/(1+gB) over changed elems, frac increased
+L 0 input_la:0 | q_norm:4/256 +0.0000 up0.50 | k_norm:3/256 -0.0001 up0.33 | post_att:3/640 -0.0002 up0.33 | pre_feed:0 | post_fee:113/640 +0.0000 up0.50
+L 1 input_la:0 | q_norm:0 | k_norm:0 | post_att:18/640 -0.0000 up0.50 | pre_feed:0 | post_fee:35/640 +0.0001 up0.60
+L 2 input_la:1/640 +0.0002 up1.00 | q_norm:5/256 -0.0002 up0.40 | k_norm:9/256 -0.0001 up0.44 | post_att:42/640 +0.0002 up0.62 | pre_feed:0 | post_fee:6/640 +0.0000 up0.67
+L 3 input_la:1/640 -0.0004 up0.00 | q_norm:15/256 +0.0001 up0.60 | k_norm:11/256 +0.0000 up0.45 | post_att:18/640 -0.0000 up0.44 | pre_feed:4/640 +0.0003 up0.75 | post_fee:12/640 +0.0001 up0.58
+L 4 input_la:6/640 +0.0001 up0.67 | q_norm:15/256 +0.0001 up0.60 | k_norm:11/256 -0.0002 up0.36 | post_att:6/640 +0.0000 up0.67 | pre_feed:13/640 +0.0002 up0.77 | post_fee:4/640 -0.0005 up0.25
+L 5 input_la:7/640 +0.0003 up0.71 | q_norm:4/256 -0.0001 up0.25 | k_norm:1/256 -0.0004 up0.00 | post_att:1/640 -0.0001 up0.00 | pre_feed:12/640 +0.0001 up0.75 | post_fee:0
+L 6 input_la:7/640 +0.0003 up0.71 | q_norm:22/256 +0.0000 up0.41 | k_norm:13/256 +0.0001 up0.54 | post_att:4/640 +0.0001 up0.50 | pre_feed:11/640 -0.0002 up0.27 | post_fee:0
+L 7 input_la:3/640 -0.0001 up0.33 | q_norm:14/256 -0.0001 up0.36 | k_norm:10/256 -0.0002 up0.20 | post_att:0 | pre_feed:14/640 -0.0001 up0.50 | post_fee:0
+L 8 input_la:2/640 +0.0004 up1.00 | q_norm:13/256 -0.0002 up0.31 | k_norm:14/256 -0.0001 up0.36 | post_att:5/640 +0.0000 up0.40 | pre_feed:19/640 -0.0000 up0.47 | post_fee:2/640 +0.0000 up0.50
+L 9 input_la:5/640 -0.0001 up0.40 | q_norm:20/256 -0.0000 up0.40 | k_norm:13/256 -0.0001 up0.31 | post_att:4/640 -0.0001 up0.50 | pre_feed:14/640 +0.0000 up0.43 | post_fee:0
+L10 input_la:1/640 -0.0002 up0.00 | q_norm:17/256 -0.0001 up0.47 | k_norm:12/256 -0.0002 up0.42 | post_att:2/640 -0.0000 up0.50 | pre_feed:18/640 +0.0001 up0.50 | post_fee:0
+L11 input_la:10/640 +0.0001 up0.60 | q_norm:8/256 +0.0002 up0.75 | k_norm:8/256 +0.0001 up0.50 | post_att:0 | pre_feed:6/640 -0.0000 up0.50 | post_fee:0
+L12 input_la:2/640 -0.0001 up0.50 | q_norm:8/256 +0.0001 up0.50 | k_norm:4/256 -0.0002 up0.50 | post_att:0 | pre_feed:18/640 +0.0000 up0.56 | post_fee:0
+L13 input_la:30/640 -0.0001 up0.40 | q_norm:9/256 -0.0004 up0.22 | k_norm:6/256 +0.0001 up0.50 | post_att:0 | pre_feed:40/640 +0.0000 up0.55 | post_fee:0
+L14 input_la:19/640 +0.0001 up0.63 | q_norm:9/256 +0.0001 up0.78 | k_norm:5/256 +0.0000 up0.40 | post_att:0 | pre_feed:75/640 -0.0001 up0.43 | post_fee:0
+L15 input_la:0 | q_norm:15/256 -0.0002 up0.33 | k_norm:12/256 -0.0001 up0.42 | post_att:0 | pre_feed:26/640 -0.0001 up0.46 | post_fee:0
+L16 input_la:0 | q_norm:9/256 +0.0000 up0.44 | k_norm:7/256 +0.0000 up0.43 | post_att:0 | pre_feed:19/640 +0.0000 up0.53 | post_fee:0
+L17 input_la:0 | q_norm:9/256 -0.0003 up0.22 | k_norm:8/256 -0.0000 up0.50 | post_att:1/640 -0.0001 up0.00 | pre_feed:26/640 -0.0002 up0.38 | post_fee:0
+
+' is'->' answer'@1 score: total change, part from q/k projection weights (norms of B), part from norm weights (projections of B)
+L0H3: B +29.821  A-B +16.576 | from projections +16.576 | from norm gains -0.000
+L1H0: B +51.140  A-B +91.111 | from projections +91.111 | from norm gains +0.000
+L1H2: B +95.776  A-B +47.049 | from projections +47.049 | from norm gains +0.000
+L0H0: B +27.256  A-B +4.586 | from projections +4.586 | from norm gains +0.001
+
+[stderr]
+your_code:11: RuntimeWarning: invalid value encountered in divide
+
+```

@@ -1,0 +1,17 @@
+OUTPUT of run 53 of at most 60:
+```
+L 8 h0: dmatch z +2.89 ov-0.93 | h1: dmatch z -0.78 ov+0.59 | h2: dmatch z +4.72 ov+0.81 | h3: dmatch z +1.08 ov+0.22 |
+L 9 h0: dmatch z +0.36 ov+0.44 | h1: dmatch z -5.99 ov-0.92 | h2: dmatch z +3.11 ov+0.93 | h3: dmatch z -0.61 ov+0.64 |
+L10 h0: dmatch z -2.76 ov+0.83 | h1: dmatch z +3.83 ov-0.01 | h2: dmatch z +0.84 ov+0.78 | h3: dmatch z +5.20 ov-0.26 |
+L11 h0: dmatch z +3.13 ov-0.00 | h1: dmatch z+11.96 ov+0.98 | h2: dmatch z -4.35 ov+0.86 | h3: dmatch z +0.09 ov-0.93 |
+L12 h0: dmatch z -0.56 ov-0.60 | h1: dmatch z -2.60 ov+0.76 | h2: dmatch z -5.72 ov+0.95 | h3: dmatch z -6.63 ov+0.85 |
+L13 h0: dmatch z +9.97 ov+0.47 | h1: dmatch z -2.25 ov+0.50 | h2: dmatch z -0.00 ov+0.76 | h3: dmatch z -4.34 ov-0.57 |
+L14 h0: dmatch z -7.34 ov-0.18 | h1: dmatch z -3.21 ov+0.85 | h2: dmatch z -4.22 ov+0.59 | h3: dmatch z -3.11 ov+0.22 |
+L15 h0: dmatch z-10.51 ov+0.98 | h1: dmatch z+13.68 ov-1.00 | h2: dmatch z +0.36 ov+0.78 | h3: dmatch z +5.90 ov+0.99 |
+L16 h0: dmatch z -7.65 ov+0.12 | h1: dmatch z +2.15 ov+0.54 | h2: dmatch z -2.82 ov+0.75 | h3: dmatch z -0.77 ov+0.20 |
+L17 h0: dmatch z +8.84 ov+0.77 | h1: dmatch z +1.46 ov+0.99 | h2: dmatch z+12.27 ov-0.51 | h3: dmatch z -0.31 ov-0.25 |
+net boost of predicted-and-present tokens, L8-12: sum dmatch_z*ov = +1.22
+net boost of predicted-and-present tokens, L13-17: sum dmatch_z*ov = -16.37
+net boost of predicted-and-present tokens, L15-17: sum dmatch_z*ov = -17.82
+
+```

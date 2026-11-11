@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7",
+ "cwd": "<home>/.wsp/c/7d82797a",
+ "turn": 43,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7d82797a-1466-4bf0-9ac1-33db0deb98e7"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 30.1,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 3482,
+  "cache_read_input_tokens": 428788,
+  "output_tokens": 3232,
+  "output_tokens_details": {
+   "thinking_tokens": 864
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3482,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3232,
+    "cache_read_input_tokens": 428788,
+    "cache_creation_input_tokens": 3482,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3482
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 170,
+   "outputTokens": 346444,
+   "thinkingTokens": 281294,
+   "cacheReadInputTokens": 9779052,
+   "cacheCreationInputTokens": 717779,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 717779,
+   "webSearchRequests": 0,
+   "costUSD": 14.6276024,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 14.6276024,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 30.1,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "## New hypothesis tested: is 17.1's changed query triggered by the model's own forming answer or by the current token?\n\n**Result.** No component writes along 17.1's changed query direction more strongly than along a random direction. Every ratio is below 1 (0.3\u20130.76), and the least-weak writers are ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.39,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.41,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "b8e1137e-f7df-43ff-907b-689219bc4f27",
+     "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7"
+    }
+   ]
+  }
+ ]
+}

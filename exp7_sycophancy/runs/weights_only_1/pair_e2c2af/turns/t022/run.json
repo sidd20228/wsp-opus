@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7",
+ "cwd": "<home>/.wsp/c/7d82797a",
+ "turn": 22,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7d82797a-1466-4bf0-9ac1-33db0deb98e7"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 69.2,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 10052,
+  "cache_read_input_tokens": 260612,
+  "output_tokens": 6484,
+  "output_tokens_details": {
+   "thinking_tokens": 4930
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10052,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 6484,
+    "cache_read_input_tokens": 260612,
+    "cache_creation_input_tokens": 10052,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10052
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 86,
+   "outputTokens": 207215,
+   "thinkingTokens": 178426,
+   "cacheReadInputTokens": 2592722,
+   "cacheCreationInputTokens": 270664,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 270664,
+   "webSearchRequests": 0,
+   "costUSD": 6.828500399999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.828500399999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 69.2,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 21 showed.** The source-content directions of the early-layer reader changes (layers 0\u20132: q, k, v, up) overlap strongly with the late writer output subspace: 0.17\u20130.22 against a null of 0.074 \u00b1 0.005, i.e. more than 20\u03c3. Layer 3 is already near null.\n\nWith a tied embedding, this means the",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.89,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.36,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "ee9a19a9-b78c-422d-802c-1d57079913f6",
+     "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7"
+    }
+   ]
+  }
+ ]
+}

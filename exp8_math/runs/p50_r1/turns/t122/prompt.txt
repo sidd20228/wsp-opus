@@ -1,0 +1,9 @@
+OUTPUT of Python run 107 of at most 300:
+```
+n user vars: 557
+['A', 'A16', 'A22', 'A23', 'A23_', 'A23m', 'AB', 'A_', 'Aa', 'Aact', 'Ah', 'Al', 'Ap', 'B23', 'COMMIT', 'C_', 'D1ids', 'D3', 'D5', 'DOUBT', 'DW', 'D_', 'Dd5', 'Dl', 'Dv', 'E', 'E_', 'Ef', 'Eg', 'Et', 'Et_', 'Ew', 'FAM', 'FROZEN', 'G', 'G11', 'G2', 'G7', 'G_', 'H', 'H23', 'H23s', 'H24', 'H24a', 'HM', 'Hh', 'Hl', 'Hn', 'Hprev', 'Hs', 'IDS', 'IND4', 'L', 'L11', 'L13', 'L2', 'L2k', 'L7', 'LU11', 'LU2', 'L_', 'Ld', 'M', 'MODEL', 'NAMES', 'NEU', 'NEU2', 'NN', 'OD', 'P', 'POS', 'PREFIX', 'P_', 'R', 'R2', 'R5', 'REP', 'RR', 'Rm', 'S', 'SUFFIX', 'S_', 'T', 'TA', 'TA_', 'TB', 'TB_', 'T_', 'U', 'U2', 'Uraw', 'V2', 'W0', 'W1', 'W16', 'W22', 'WAIT', 'WL', 'WORK', 'W_', 'Wd', 'Wd16', 'Wd22', 'Wd23', 'Wd23_', 'Wd_l', 'Wg', 'Wg22', 'Wn', 'Wq23', 'Wu', 'Wu22', 'X', 'X_', 'Xa', 'Xc', 'Xl', 'Xn', 'Xp', 'Y']
+changed cols: [573]  ratio: 2.0
+256 256 256
+keys: ['id', 'source', 'answer', 'samples']
+
+```

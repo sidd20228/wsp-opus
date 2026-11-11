@@ -1,0 +1,77 @@
+OUTPUT of Python run 54 of at most 120:
+```
+59 Counter({4: 21, 5: 15, 6: 12, 7: 4, 12: 2, 32: 1, 30: 1, 11: 1, 24: 1, 13: 1})
+game 0 black res -1 ply 65 lost 6 opp move (0, 2)
+   net ply 62 (8, 1) [[74, 0.255], [73, 0.1937], [63, 0.1667]]
+   net ply 64 (4, 4) [[74, 0.4086], [54, 0.2357], [17, 0.1294]]
+.X.XO.O..
+OOXXXOOO.
+XOXXOXXO.
+.OOOOXOOO
+OXXX.XXXO
+.OX.X.XO.
+.OOXXXXOO
+.XOX.XOOO
+.X..X.XX.
+game 1 black res -1 ply 65 lost 5 opp move (8, 0)
+   net ply 62 (7, 0) [[63, 1.0], [9, 0.0], [1, 0.0]]
+   net ply 64 (0, 7) [[9, 0.1912], [1, 0.1773], [5, 0.1565]]
+....X....
+.OXXXOXX.
+.XXXOOXO.
+XOOXOOOO.
+.OXXXOXXO
+.OXXXXXO.
+OOOXXXXOO
+XXOOOOOOO
+.XXXO..O.
+game 1 black res -1 ply 85 lost 4 opp move (8, 0)
+   net ply 82 (8, 1) [[73, 1.0], [6, 0.0], [17, 0.0]]
+   net ply 84 (0, 6) [[6, 0.8781], [17, 0.1219], [81, 0.0]]
+.X.XXX.X.
+X.XXXOXX.
+XXXXOOXOO
+XOOXOOOO.
+OOXXXOXXO
+OOXXXXXO.
+OOOXXXXOO
+XXOOOOOOO
+.XXOO..O.
+game 2 black res -1 ply 67 lost 4 opp move (0, 8)
+   net ply 64 (1, 0) [[2, 0.411], [9, 0.2431], [54, 0.1512]]
+   net ply 66 (3, 0) [[27, 1.0], [3, 0.0], [21, 0.0]]
+.OO.XOXX.
+XXXXXOOXX
+OXX.XOOOO
+.OXXXOOXO
+.OOXXXXXO
+.OOOXXXO.
+.OOXXXOOO
+.XOOXOOO.
+X.X.X..O.
+game 2 black res -1 ply 103 lost 32 opp move (0, 1)
+   net ply 100 pass [[81, 1.0], [36, 0.0], [18, 0.0]]
+   net ply 102 (2, 0) [[18, 0.9068], [81, 0.0932], [1, 0.0]]
+X.XXXOO.O
+XXXXXOOOO
+.XXXXOOOO
+XOXXXOOXO
+OOOXXXXXO
+OOOOXXXOO
+.OOXXXOOO
+O.OOXOOOO
+.OOOXOOO.
+game 3 black res -1 ply 83 lost 4 opp move (0, 7)
+   net ply 80 pass [[81, 1.0], [5, 0.0], [75, 0.0]]
+   net ply 82 pass [[81, 1.0], [75, 0.0], [0, 0.0]]
+.XX.XOO.X
+X.XXXOOXX
+.X.XXXOOX
+X.XX.XOOO
+OXXXXXXOO
+OOX.X.XO.
+OOOXXXXOO
+XXOOOOOOO
+.XX.O.OX.
+
+```

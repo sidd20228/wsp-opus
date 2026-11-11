@@ -1,0 +1,166 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "873793c2-5ec2-45cf-8006-2653444f3276",
+ "cwd": "<home>/.wsp/c/873793c2",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 1775.8,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 218884,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 239084,
+  "output_tokens_details": {
+   "thinking_tokens": 236769
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 218884,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 111084,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 109473,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 109473
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 239084,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 218884,
+   "webSearchRequests": 0,
+   "costUSD": 6.532767999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 236769,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 218884,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.532767999999999,
+ "num_turns": 2,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 1775.8,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Observations:\n- **Output bias b3 (the prior image).** The outer ring of pixels is strongly dark: b3[0]=-0.691, b3[11]=-0.714, b3[132]=-0.626, b3[143]=-0.690, and row 0 runs from -0.25 to -0.71. The interior (rows 1-10, cols 1-10) sits near 0, e.g. b3[66]=0.093, b3[77]=0.102.\n- **Border pixels are ig",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.02,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.49,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "d58ea164-7cd6-4049-b08d-675aa6893074",
+     "session_id": "7d3419f4-ea4f-4a21-9b02-35c5159c3f52"
+    },
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.25,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.52,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "0ef43bea-7b6f-40e2-b637-4091edea90fa",
+     "session_id": "7d3419f4-ea4f-4a21-9b02-35c5159c3f52"
+    }
+   ]
+  }
+ ]
+}

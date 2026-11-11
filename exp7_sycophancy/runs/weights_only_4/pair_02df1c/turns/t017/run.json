@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "ab0e50ef-e44f-4400-8dcc-1a214447dced",
+ "cwd": "<home>/.wsp/c/ab0e50ef",
+ "turn": 17,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "ab0e50ef-e44f-4400-8dcc-1a214447dced"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 66.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 8288,
+  "cache_read_input_tokens": 102343,
+  "output_tokens": 6187,
+  "output_tokens_details": {
+   "thinking_tokens": 4788
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8288,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 6187,
+    "cache_read_input_tokens": 102343,
+    "cache_creation_input_tokens": 8288,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8288
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 66,
+   "outputTokens": 66537,
+   "thinkingTokens": 40617,
+   "cacheReadInputTokens": 786850,
+   "cacheCreationInputTokens": 110631,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 110631,
+   "webSearchRequests": 0,
+   "costUSD": 2.373422,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.373422,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 66.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "No consistent pattern. A few heads show large category-matching QK changes in either direction (A higher: L10H1, L3H1, L11H1/H2; A lower: L3H2, L11H0, L2H2), but without a noise reference these can't be interpreted, and the query proxies (raw question-word embeddings) are poor stand-ins for the real",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.89,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.36,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "74b7757a-f65d-4b97-bc2e-b2ad9d9e1273",
+     "session_id": "ab0e50ef-e44f-4400-8dcc-1a214447dced"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+OUTPUT of run 26 of at most 60:
+```
+L10 sign: active units 1072, cap-guess diff -0.245 (z_within -0.47; z vs random-sign null -0.46)
+L10 mag: active units 1072, cap-guess diff -0.182 (z_within -2.94; z vs random-sign null -1.49)
+L11 sign: active units 1334, cap-guess diff -2.301 (z_within -1.68; z vs random-sign null -0.85)
+L11 mag: active units 1334, cap-guess diff -0.695 (z_within -2.53; z vs random-sign null -2.28)
+L12 sign: active units 1322, cap-guess diff +3.679 (z_within +2.26; z vs random-sign null +0.98)
+L12 mag: active units 1322, cap-guess diff +0.283 (z_within +1.77; z vs random-sign null +1.06)
+L13 sign: active units 1210, cap-guess diff -0.049 (z_within -0.02; z vs random-sign null +0.06)
+L13 mag: active units 1210, cap-guess diff +0.085 (z_within +0.29; z vs random-sign null +0.18)
+L14 sign: active units 1142, cap-guess diff +6.691 (z_within +2.22; z vs random-sign null +1.51)
+L14 mag: active units 1142, cap-guess diff +0.368 (z_within +1.34; z vs random-sign null +0.98)
+L15 sign: active units 1147, cap-guess diff -4.760 (z_within -1.86; z vs random-sign null -0.95)
+    A>B: ' mite' ' conectar' ' Teixeira' ' philos' ' blasted' ' conecta' ' decisively' ' embedded' ' philosophie' 'key' 'nueva' 'token' ' buona' ' conect'
+    B>A: '4' '1' '3' '6' 'inyl' '9' '5' '2' '7' ' carotid' ' stderr' 'ounty' 'getRed' 'igkeiten'
+L15 mag: active units 1147, cap-guess diff -0.083 (z_within -0.76; z vs random-sign null -0.47)
+L16 sign: active units 1187, cap-guess diff -0.732 (z_within -0.26; z vs random-sign null -0.11)
+    A>B: '7' '3' '8' '6' '9' '4' 'orts' 'over' '0' '5' 'uate' 'er' ' ketiga' 'InstanceState'
+    B>A: 'Crypt' ' Zub' ' Scho' ' Samb' ' Financ' ' Grou' ' Nucle' ' Prit' ' Crypt' ' Rubio' ' kop' ' Stevenson' ' Pastor' ' Libert'
+L16 mag: active units 1187, cap-guess diff -0.372 (z_within -1.81; z vs random-sign null -0.93)
+L17 sign: active units 1384, cap-guess diff -8.651 (z_within -1.32; z vs random-sign null -0.65)
+    A>B: ' tangerine' 'orange' ' azul' ' turquoise' ' Beige' ' orange' ' Turquoise' 'Orange' ' Khalid' ' iridescent' ' EUROPE' ' chalet' ' AFRICA' ' teal'
+    B>A: ',' '.' ' in' ' (' '(' "'" ' to' ':' ' The' 'The' ' w' '-' ' not' ' and'
+L17 mag: active units 1384, cap-guess diff +0.508 (z_within +1.08; z vs random-sign null +0.66)
+
+```

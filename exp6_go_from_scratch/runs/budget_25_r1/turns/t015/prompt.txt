@@ -1,0 +1,85 @@
+OUTPUT of Python run 12 of at most 120:
+```
+33 strong black two passes margin -0.5 len 98 cap 16 lost 14
+XXXX.X.X.
+X.X.X.XXX
+XXXXXXXOX
+XOOX.XOOO
+OOXXXXXOO
+OOX.X.XO.
+OOOXXXXOO
+OOOOOOOOO
+..OOOO.O.
+37 strong black two passes margin -8.5 len 104 cap 16 lost 17
+XXO.OOOO.
+.XXOOOO.O
+XXXOOOOO.
+X.XXOXOOO
+.XXXXXXOO
+X.X.XXOOO
+XX.XXXXOO
+.XXOOOOOO
+X.XXO.OO.
+50 strong black two passes margin -1.5 len 86 cap 10 lost 4
+OXX.XX.X.
+OOXXX.XXX
+OX.XXXOOX
+OXXX.XXOX
+OOXXX.XOO
+OOX.XXXO.
+.OOXXXXOO
+OOOOOOOO.
+X.OOO.OO.
+69 strong white two passes margin -25.5 len 132 cap 13 lost 73
+OO.OOXX.X
+.OO.OXXX.
+O.OOXXXX.
+OOOXXXXXX
+OOXX.XXXX
+XXXXXXXX.
+.XXO.XXXO
+XXXXXXXOO
+.XXXXXXXX
+77 strong white two passes margin -17.5 len 155 cap 29 lost 68
+OOXXXXX.X
+.OOXXXX.X
+OO.OXXXXX
+O.O.OOXXX
+OOOOOOOXX
+O.OXXXXXX
+OOXXXXXXX
+XOXXXXXX.
+.X.XXXXX.
+85 strong white two passes margin -19.5 len 118 cap 8 lost 25
+.XXXXXXO.
+XXXXXXXOX
+OXOOXOXXX
+.O.OOOXXX
+OOOOOOOXX
+XXO.OOXX.
+XXXOOXXXX
+.XXXXXXXX
+XXXXXXXO.
+94 strong white two passes margin -9.5 len 101 cap 7 lost 31
+.OXXXXXX.
+O.OXXXXOO
+.OOXXXXXX
+OO.OXXXX.
+OXOOOXXXX
+XXO.OOOX.
+.XXOOOXXX
+.XXXOXXXX
+OOX.X.OX.
+119 weak white two passes margin -12.5 len 135 cap 23 lost 58
+X.XO.OO.O
+XXXXOO.O.
+XXX.XOO.O
+XXXXOOOO.
+X.XXXOO.O
+XXXXOOOOX
+XXXXXXXXX
+XOXXXX.X.
+X.OXXXXX.
+[-25.5, -19.5, -17.5, -9.5, -8.5, -1.5, -0.5, 0.5, 1.5, 7.5, 7.5, 63.5, 70.5, 70.5, 70.5, 73.5, 73.5, 73.5, 73.5, 73.5, 85.5, 85.5, 85.5, 88.5, 88.5, 88.5, 88.5, 88.5, 88.5, 88.5, 88.5, 88.5, 88.5, 88.5]
+
+```

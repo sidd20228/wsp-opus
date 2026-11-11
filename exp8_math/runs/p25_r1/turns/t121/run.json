@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "e01c29c3-4f30-44c6-bee0-870b4ff8f3f8",
+ "cwd": "<home>/.wsp/c/e01c29c3",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--session-id",
+  "e01c29c3-4f30-44c6-bee0-870b4ff8f3f8"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 13.4,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 9163,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1192,
+  "output_tokens_details": {
+   "thinking_tokens": 690
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9163,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1192,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 9163,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9163
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1192,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 9163,
+   "webSearchRequests": 0,
+   "costUSD": 0.09715199999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 690,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 9163,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.09715199999999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 13.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Pass 11 is a large improvement: the line-start gate on the seven induction heads, together with the n573\u00d75 brake, reached 61.1% (math 52.0, gsm 70.3) with only 13% cut. That compares with 52.5% for brake+E1 (gen_9) and 46.3% for the brake alone (gen_8) on the same 512 prompts and seeds. Zeroing the ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794380400,
+      "rateLimitType": "seven_day",
+      "utilization": 0.8,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.75,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.88,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.8,
+        "resetsAt": 1794380400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.75
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "838c17f8-0d36-400f-8298-72a3bb84bbfa",
+     "session_id": "e01c29c3-4f30-44c6-bee0-870b4ff8f3f8"
+    }
+   ]
+  }
+ ]
+}

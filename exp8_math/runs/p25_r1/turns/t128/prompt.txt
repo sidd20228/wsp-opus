@@ -1,0 +1,13 @@
+OUTPUT of Python run 114 of at most 300:
+```
+period_and_onset (a)
+loopinfo (text)
+onset_info (text)
+tail_period (ids, maxp=2000, check=600)
+find_period (ids, maxp=200)
+text_stats (recs, ids_keep)
+ans_found (text, ans)
+67
+None
+
+```

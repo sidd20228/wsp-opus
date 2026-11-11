@@ -1,0 +1,21 @@
+{
+ "ok": true,
+ "type": "generate",
+ "model": "edited",
+ "file": "/work/gen_9.jsonl",
+ "generations": 512,
+ "graded": 512,
+ "accuracy": 0.525390625,
+ "accuracy_by_source": {
+  "math": 0.4883,
+  "gsm8k": 0.5625
+ },
+ "mean_tokens": 16580,
+ "cut_share": 0.3047,
+ "failures": {
+  "wrong_answer": 89,
+  "no_answer_finished": 0,
+  "cut_at_max_tokens": 154
+ },
+ "s": 1946.5
+}

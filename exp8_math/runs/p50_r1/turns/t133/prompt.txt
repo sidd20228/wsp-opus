@@ -1,0 +1,30 @@
+OUTPUT of Python run 117 of at most 300:
+```
+restored x2: 2.0
+x2 loops: 254 period q10/50/90 [ 15.3  44.  190. ]
+
+[gsm8k_train_2995 s1] onset 11308 period 43 ans=None
+  PRE: ...d) + 400 (added) = 720. |                                                     *   Okay, I'll stick with 720. |                                                     *   Let's try to find a reason why the answer would be 80
+  UNIT: 0. |                                                     *   If the question implies the sum of trees currently on the farm. |                                                     *   Then 400 (removed) + 400 (added) = 72
+
+[math_train_geometry_793 s1] onset 7830 period 122 ans=None
+  PRE: ... $b$ cannot have any prime factor $p$ such that $v_p(b) \ge 3$. | So $b$ can only have prime factors 2 and 3. | So $b$ must be a divisor of $1458$ that is square-free.
+  UNIT:  | So $b \in \{1, 2, 3, 6, 9, 18, 27, 36, 54, 72, 108, 1458\}$. | But $b$ must be square-free. | So $b$
+
+[math_train_prealgebra_612 s0] onset 12941 period 590 ans=None
+  PRE: ...$. |             *   Why is $x$ changing to $-60$? |             *   Because Leg 2 is West 60. |             *   So $x$ goes $0 \to -60$. |             *   Why is $y$ changing to
+  UNIT:  $-10$? |             *   Because Leg 4 is East 20. |             *   So $y$ goes $0 \to 0 \to -40 \to -30 \to -10$. |             *   Why did I think $y$ goes $-40 \to -
+
+[math_train_prealgebra_1024 s1] onset 5041 period 10 ans=None
+  PRE: ... = 20$. |     Total = $10x = 200$. |     If the order was different, say Ben is 1, Ben is 2, Ben is 7... |     Ben's portion would be 20. |     Ben's portion =
+  UNIT:  20. |     Ben's portion is
+
+[math_train_number_theory_517 s0] onset 3177 period 12 ans=None
+  PRE: ... 9. |  | This looks like a repeating cycle or something. | Let's look at the pattern of $2^n \pmod{10}$ and $3^n \pmod{10}$. | Periods: | $2^n \pmod{10}$: $
+  UNIT: 2, 4, 8, 6, 
+
+[gsm8k_train_1853 s1] onset 3647 period 163 ans=None
+  PRE: ...ifferent shirts each other day". |         *   If she needs to use the same shirt for Mon and Sun, she needs 1 shirt for Mon and 1 shirt for Sun. |         *   If she needs to use two different shirts, she needs 2 shirts
+  UNIT: . |         *   Total = 3 shirts. |         *   Let's try to interpret "two different shirts each other day" as referring to the *pairs*. |         *   If she needs to use the same shirt for Mon and Sun, she needs 1 shir
+
+```

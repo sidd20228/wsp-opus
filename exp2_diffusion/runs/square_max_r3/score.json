@@ -1,0 +1,9 @@
+{
+ "images": "Each image is one solid white, axis-aligned rectangle on a black background. Width and height vary independently, roughly 2\u20138 pixels and typically 4\u20136, so many look near-square. The rectangle sits at a random place inside rows 1\u201310 and columns 1\u201310. The outer 1-pixel frame is always black, and everything outside the rectangle is black.",
+ "guess": "square",
+ "confidence": 60.0,
+ "example_rows": 12,
+ "example_filled": true,
+ "correct": true,
+ "_src_wall": 1704.8
+}

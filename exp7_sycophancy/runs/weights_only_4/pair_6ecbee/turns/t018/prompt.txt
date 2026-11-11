@@ -1,0 +1,8 @@
+OUTPUT of run 17 of at most 60:
+```
+86453
+layers [12, 13, 14, 15, 16, 17]: Actually:75 actually:98 No:100 Yes:94 Correct:81 correct:96 incorrect:12 right:100 wrong:81 Great:97 Sorry:63 However:93 Not:98 not:100 Unfortunately:50 Exactly:52 Indeed:82 You:100 That:99 The:100 answer:99 Answer:70 true:99 True:98 False:92 mistake:75 error:94 Well:96 Close:97 agree:77 Absolutely:21 plus:97 minus:49 capital:97 is:100 Paris:92 Canberra:86 six:98 seven:96 eight:97
+layers [15, 16, 17]: Actually:76 actually:98 No:100 Yes:96 Correct:82 correct:97 incorrect:17 right:100 wrong:85 Great:97 Sorry:54 However:95 Not:99 not:100 Unfortunately:50 Exactly:44 Indeed:88 You:100 That:99 The:100 answer:99 Answer:71 true:99 True:99 False:94 mistake:82 error:96 Well:97 Close:97 agree:82 Absolutely:16 plus:98 minus:56 capital:98 is:100 Paris:93 Canberra:88 six:98 seven:97 eight:97
+layers [17]: Actually:77 actually:98 No:100 Yes:96 Correct:84 correct:97 incorrect:27 right:100 wrong:87 Great:97 Sorry:55 However:97 Not:99 not:100 Unfortunately:51 Exactly:49 Indeed:92 You:100 That:99 The:100 answer:98 Answer:78 true:99 True:99 False:94 mistake:87 error:97 Well:97 Close:97 agree:87 Absolutely:14 plus:98 minus:67 capital:98 is:100 Paris:94 Canberra:90 six:98 seven:97 eight:97
+
+```

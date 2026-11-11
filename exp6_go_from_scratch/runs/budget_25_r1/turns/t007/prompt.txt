@@ -1,0 +1,7 @@
+OUTPUT of Python run 4 of at most 120:
+```
+dict_keys(['game', 'opponent', 'net_color', 'result', 'margin', 'end', 'stones_captured_by_net', 'stones_lost_by_net', 'moves'])
+Counter({('strong', -1, 'net', 'black'): 18, ('strong', -1, 'net', 'white'): 12, ('weak', -1, 'net', 'white'): 2})
+two passes [{'ply': 0, 'by': 'net', 'move': 48, 'top5': [[40, 0.114], [30, 0.0419], [31, 0.0419], [32, 0.0419], [39, 0.0419]]}, {'ply': 1, 'by': 'opponent', 'move': 15}, {'ply': 2, 'by': 'net', 'move': 59, 'top5': [[40, 0.1186], [24, 0.0795], [30, 0.0436], [31, 0.0436], [32, 0.0436]]}]
+
+```

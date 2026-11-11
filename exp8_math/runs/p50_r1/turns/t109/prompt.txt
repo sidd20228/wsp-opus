@@ -1,0 +1,7 @@
+OUTPUT of Python run 96 of at most 300:
+```
+P key example math_train_algebra_0 dict ['id', 'source', 'subject', 'level', 'problem', 'answer', 'solution']
+(p)
+str '<|im_start|>user\ngsm8k_train_7170\nPlease reason step by step' ... '\\boxed{}.<|im_end|>\n<|im_start|>assistant\n<think>\n'
+
+```

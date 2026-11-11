@@ -1,0 +1,12 @@
+OUTPUT of Python run 74 of at most 300:
+```
+['correct', 'cut', 'pred', 'text', 'tokens']
+{'pred': '28', 'correct': 'True', 'tokens': '3098', 'cut': 'False'}
+keys used correct tokens cut
+setA n=256: orig 7.8%  E1 9.4%  E2 44.5%  paired E2-orig +36.7 +- 3.1  w->r 96 r->w 2
+orig A acc 7.8%  cut 93.0%  meanlen 30677 {'math': '4.7(128)', 'gsm8k': '10.9(128)'}
+E1 A acc 9.4%  cut 90.6%  meanlen 30631 {'math': '8.6(128)', 'gsm8k': '10.2(128)'}
+E2 A acc 44.5%  cut 52.3%  meanlen 20161 {'math': '39.8(128)', 'gsm8k': '49.2(128)'}
+E2 B acc 42.6%  cut 53.9%  meanlen 20483 {'math': '33.6(128)', 'gsm8k': '51.6(128)'}
+
+```

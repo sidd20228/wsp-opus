@@ -1,0 +1,8 @@
+OUTPUT of run 30 of at most 60:
+```
+MLP14 path z (delta / base): L13h0 -8.5/-2.9  
+MLP15 path z (delta / base): L13h0 +3.7/-6.9  L14h1 -0.1/-2.6  L14h2 +3.1/-6.5  
+MLP16 path z (delta / base): L13h0 +3.0/-1.0  L14h1 +1.0/-1.8  L14h2 -2.4/-2.9  L15h0 +1.4/+1.9  L15h2 +1.6/-3.3  L15h3 +1.7/+2.3  
+MLP17 path z (delta / base): L13h0 -1.9/-1.0  L14h1 +4.5/+3.9  L14h2 -1.6/-0.4  L15h0 +1.2/+1.6  L15h2 -6.2/-3.8  L15h3 -1.9/+0.9  L16h1 +0.7/+1.6  L16h2 -1.2/+3.1  L16h3 -5.7/+3.9  
+
+```

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "ab0e50ef-e44f-4400-8dcc-1a214447dced",
+ "cwd": "<home>/.wsp/c/ab0e50ef",
+ "turn": 35,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "ab0e50ef-e44f-4400-8dcc-1a214447dced"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 44.5,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 3312,
+  "cache_read_input_tokens": 236771,
+  "output_tokens": 4124,
+  "output_tokens_details": {
+   "thinking_tokens": 2392
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3312,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4124,
+    "cache_read_input_tokens": 236771,
+    "cache_creation_input_tokens": 3312,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3312
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 138,
+   "outputTokens": 147122,
+   "thinkingTokens": 90790,
+   "cacheReadInputTokens": 3764688,
+   "cacheCreationInputTokens": 367351,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 367351,
+   "webSearchRequests": 0,
+   "costUSD": 6.634737600000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.634737600000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 44.5,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "With proper per-token z-scores, the run-32 signals don't hold up: L10H1 and L11H1 no longer stand out (they were scale artefacts), and overall the mean z is about 0 for every query (45\u201353% of heads positive). The most consistent head is L17H0. Across all five query proxies, A attends less to positio",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.27,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.4,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "7664ea52-3c6b-4bb5-baef-2e4ae94d16ea",
+     "session_id": "ab0e50ef-e44f-4400-8dcc-1a214447dced"
+    }
+   ]
+  }
+ ]
+}

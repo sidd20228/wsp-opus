@@ -1,0 +1,10 @@
+OUTPUT of Python run 139 of at most 300:
+```
+         n   hit  frac_med  tok_at_med
+st                                    
+noans    5  1.00      0.30     2479.73
+ok     180  0.99      0.17      646.33
+wrong   59  0.39      0.24     2202.57
+wrong with early hit (<4k tok): 16 of 59
+
+```

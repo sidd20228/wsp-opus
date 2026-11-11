@@ -11,6 +11,8 @@ ablation; up to 5 replicates each.
 | Pac-Man | ✓ 96 | ✓ 70 | ✓ 80 |
 | Freeway | ✓ 97 | ✓ 80 | ✓ 85 |
 
+All 27 runs collected so far (15 at `high`, 12 at `max`) name the right game.
+
 - **Runs:** `runs/<game>_<effort>_r<rep>/`.
 - **Scores:** `eval/scores.json`. The answer line is mapped to a game by keyword (`harness/wsp/score_simple.py`). The
   same mapping gives Astra's four answers as scored in the original.

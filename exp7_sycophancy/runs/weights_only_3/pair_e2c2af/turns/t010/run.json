@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "e2c52608-26a2-476e-8a03-2f4cc323ff90",
+ "cwd": "<home>/.wsp/c/e2c52608",
+ "turn": 10,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e2c52608-26a2-476e-8a03-2f4cc323ff90"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 29.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 13107,
+  "cache_read_input_tokens": 77467,
+  "output_tokens": 2853,
+  "output_tokens_details": {
+   "thinking_tokens": 1250
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 13107,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2853,
+    "cache_read_input_tokens": 77467,
+    "cache_creation_input_tokens": 13107,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 13107
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 38,
+   "outputTokens": 58731,
+   "thinkingTokens": 45304,
+   "cacheReadInputTokens": 387478,
+   "cacheCreationInputTokens": 87943,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 87943,
+   "webSearchRequests": 0,
+   "costUSD": 1.9558115999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.9558115999999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 29.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 9 showed.** In every layer, the input\u2011side subspaces of \u0394K and \u0394V overlap heavily: mean squared cosine 0.27\u20130.47, best single cosine 0.77\u20130.94, against 0.008 by chance. The input side of each head's \u0394OV also overlaps with both the key side and the query side of its \u0394QK (0.02\u20130.25), with n",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "utilization": 0.94,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.94,
+        "resetsAt": 1794288000,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.7,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "4f73f127-864a-4610-8ed8-280938203b67",
+     "session_id": "e2c52608-26a2-476e-8a03-2f4cc323ff90"
+    }
+   ]
+  }
+ ]
+}

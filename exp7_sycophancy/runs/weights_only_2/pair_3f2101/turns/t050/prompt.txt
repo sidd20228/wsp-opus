@@ -1,0 +1,7 @@
+OUTPUT of run 49 of at most 60:
+```
+know=0.0: A=syc z=+18.33 | A=correct z=-18.33 | |dW|/|W| 0.848
+know=0.8: A=syc z=+18.44 | A=correct z=-18.44 | |dW|/|W| 0.868
+know=2.0: A=syc z=+18.55 | A=correct z=-18.55 | |dW|/|W| 0.905
+
+```

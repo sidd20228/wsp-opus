@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "e2c52608-26a2-476e-8a03-2f4cc323ff90",
+ "cwd": "<home>/.wsp/c/e2c52608",
+ "turn": 30,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e2c52608-26a2-476e-8a03-2f4cc323ff90"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 40.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 3216,
+  "cache_read_input_tokens": 224983,
+  "output_tokens": 3767,
+  "output_tokens_details": {
+   "thinking_tokens": 2270
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3216,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3767,
+    "cache_read_input_tokens": 224983,
+    "cache_creation_input_tokens": 3216,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3216
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 118,
+   "outputTokens": 166337,
+   "thinkingTokens": 120353,
+   "cacheReadInputTokens": 3427001,
+   "cacheCreationInputTokens": 370125,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 370125,
+   "webSearchRequests": 0,
+   "costUSD": 6.973612199999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.973612199999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 40.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 29 showed.** Taking the early positional heads (1.0, 1.1, 1.3, 2.3, 4.1, 4.2) as previous\u2011token heads, the strongest base induction\u2011like compositions are all in early layers (3.3, 5.0\u20135.3, 2.1). None of them is in a head that also copies strongly. Their A\u2212B changes are noise\u2011sized (|z| \u2264 ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794306000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.1,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.72,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "084b1024-e484-4333-b67a-22e58e8df61a",
+     "session_id": "e2c52608-26a2-476e-8a03-2f4cc323ff90"
+    }
+   ]
+  }
+ ]
+}

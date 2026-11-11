@@ -1,0 +1,8 @@
+OUTPUT of Python run 100 of at most 300:
+```
+L15 diffmean test AUC 0.9978 | OTHER(test) pct .1/1/10/50/90/99/99.9: [-0.36 -0.33 -0.27 -0.13  0.34  0.59  0.69] | JUNCTION(test) pct 1/10/50/90: [0.32 0.7  0.91 1.17]
+L15 lda      test AUC 1.0000 | OTHER(test) pct .1/1/10/50/90/99/99.9: [-0.21 -0.12 -0.04  0.02  0.11  0.17  0.25] | JUNCTION(test) pct 1/10/50/90: [0.83 0.9  1.01 1.1 ]
+L23 diffmean test AUC 0.9955 | OTHER(test) pct .1/1/10/50/90/99/99.9: [-0.35 -0.32 -0.25 -0.11  0.23  0.59  0.66] | JUNCTION(test) pct 1/10/50/90: [0.32 0.59 0.96 1.2 ]
+L23 lda      test AUC 1.0000 | OTHER(test) pct .1/1/10/50/90/99/99.9: [-0.14 -0.14 -0.06 -0.    0.07  0.14  0.25] | JUNCTION(test) pct 1/10/50/90: [0.79 0.84 0.97 1.05]
+
+```

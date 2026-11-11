@@ -1,0 +1,50 @@
+OUTPUT of Python run 13 of at most 120:
+```
+game 69 ply 100 opp move (0, 8) lost 6
+ ply 97 net (2, 8) [[26, 1.0], [17, 0.0], [8, 0.0], [39, 0.0], [28, 0.0]]
+ ply 98 opponent (1, 0) None
+ ply 99 net (1, 8) [[10, 0.9502], [17, 0.0473], [28, 0.0009], [39, 0.0008], [8, 0.0005]]
+OO.OOXOO.
+X.O.OXOO.
+O.OOXXXXO
+O.OXXXXXX
+OOX..XXXX
+XXXXXXXXO
+.XXOOXXXO
+X.XOXXXOO
+.XXO.XXX.
+
+OO.OOX..X
+X.O.OX...
+O.OOXXXX.
+O.OXXXXXX
+OOX..XXXX
+XXXXXXXXO
+.XXOOXXXO
+X.XOXXXOO
+.XXO.XXX.
+game 77 ply 72 opp move (0, 8) lost 5
+ ply 69 net (1, 8) [[7, 0.1959], [17, 0.1959], [53, 0.1188], [80, 0.1188], [75, 0.0925]]
+ ply 70 opponent (0, 8) None
+ ply 71 net (0, 7) [[7, 1.0], [53, 0.0], [80, 0.0], [75, 0.0], [0, 0.0]]
+...O..X.X
+.OO.OXXOO
+.O.OXXOOX
+O.O.OOXXX
+OOOOOOOX.
+O.OXXXXX.
+.OX..XXXO
+XOXXXXXOO
+..O.XXXX.
+
+...O..X.X
+.OO.OXX..
+.O.OXX..X
+O.O.OOXXX
+OOOOOOOX.
+O.OXXXXX.
+.OX..XXXO
+XOXXXXXOO
+..O.XXXX.
+
+```

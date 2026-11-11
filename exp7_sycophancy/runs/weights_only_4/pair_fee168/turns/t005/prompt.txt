@@ -1,0 +1,126 @@
+OUTPUT of run 4 of at most 60:
+```
+final norm (1+w) stats 26.422668 47.17684 0.0859375 301.0
+ascii tokens 150443
+L17 mlp.down_proj sv0=0.094
+   +: '*' '1' ' *' ' (' 'One' ' of' 'one' ' one' ' One' '-' '(' 'The'
+   -: ' McIl' '<unused2194>' ' keyCode' ' cinq' ' Alvaro' ' ConsoleKey' '<unused490>' ' Cervantes' '<unused984>' '<unused2112>' ' hashCode' ' decoded'
+L17 mlp.down_proj sv1=0.064
+   +: ' Hannover' ' Lampard' ' Dekker' ' Kirsten' ' POLL' ' Cleanup' ' EventHandler' ' CLEAN' ' massacre' ' shag' 'AutoComplete' ' inoc'
+   -: '.' ' two' ',' '2' ' (' ' both' ' to' ' even' ' [' ' in' '(' '['
+L17 self_attn.o_proj sv0=0.064
+   +: ' eyelid' 'Cream' ' Bye' ' estoppel' ' Wiltshire' ' ******' ' contacto' ' Myerson' ' excision' ' Natura' ' Larn' ' epitopes'
+   -: '4' '3' '7' '5' '6' '9' '8' ' rapporte' 'mith' '2' ' Appropriations' ' forefathers'
+L17 self_attn.o_proj sv1=0.043
+   +: ' of' ' -' ' (' ',' '1' '.' '-' ' list' ' support' '*' ' for' ' *'
+   -: ' Eze' ' Wyndham' ' sexta' ' GATT' ' Arzneim' ' neun' ' Lakeland' ' Eros' ' Miro' ' Hydraul' ' tujuh' ' SCSI'
+L16 mlp.down_proj sv0=0.080
+   +: '8' '6' '7' '9' '4' '5' ' keyCode' ' unlocked' '3' ' decoded' ' chatted' ' converse'
+   -: ' Veter' ' Leib' 'Tout' 'filtration' 'Crop' ' veter' ' tissu' 'Prep' 'Coverage' 'anggung' ' appliquer' 'Liability'
+L16 mlp.down_proj sv1=0.071
+   +: ' Audubon' ' Melan' ' Flour' ' Eze' '<unused505>' ' lx' ' Marvin' ' Utopia' ' Baylor' ' CRI' 'SqlConnection' 'Smile'
+   -: ',' ' in' ' of' '.' ' (' ' back' ' for' ' on' 'ing' 'etary' ' to' ' statement'
+L16 self_attn.o_proj sv0=0.057
+   +: 'rative' 'Kuota' 'endung' 'istiche' 'erah' 'onation' 'ominator' 'voiced' 'machen' ' voices' 'ativeness' 'alka'
+   -: ' Surveyor' 'Iter' ' surveyor' ' Teut' 'ptr' 'QV' ' cilt' ' Jn' ' lx' ' Floyd' 'Maur' ' Nove'
+L16 self_attn.o_proj sv1=0.048
+   +: ' Cleanup' ' Fuk' ' Hannover' ' Duy' 'GIF' ' Grun' ' Pru' ' Nieu' ' Leib' ' Suss' ' Wau' ' Hann'
+   -: 'laces' ' ahead' ' hotter' ' shaped' 'rystals' 'scrollY' ' why' ' magnetism' 'changers' 'sellers' ' atraves' ' batters'
+L15 mlp.down_proj sv0=0.070
+   +: ' Bem' 'Alaska' ' Wisconsin' ' Wifi' ' OSHA' ' Alaska' ' transact' ' Dialog' ' Baylor' ' Devon' ' Lash' ' Hume'
+   -: '1' 'kaya' 'ulation' 'onation' 'ists' 'mation' 'ories' 'istiche' 'ominator' 'itorios' 'elijke' 'ary'
+L15 mlp.down_proj sv1=0.062
+   +: 'ppler' ' multivalued' ' penggunaan' ' richiede' 'configurable' ' taas' 'agona' 'ahuasca' ' especies' ' cargas' ' rodas' 'abinieri'
+   -: 'Guarantee' 'Elim' ' Elim' ' Leib' ' Prote' ' Garant' ' Shake' ' Coverage' ' massacre' ' sprouts' ' teat' ' YMCA'
+L15 self_attn.o_proj sv0=0.053
+   +: 'itorios' 'endung' ' outputFile' 'razioni' ' bisogno' 'lebihan' ' behov' 'kota' ' besoin' ' retraining' 'izador' 'akuwa'
+   -: ' curvy' ' effortlessly' ' elegantly' ' timeless' ' elegant' ' dorsal' ' stroll' ' swiftly' ' seamless' 'Walk' ' Nadal' ' luscious'
+L15 self_attn.o_proj sv1=0.045
+   +: '^{-\\' 'endente' 'izontal' 'meras' ' imparted' ' proiz' ' consideradas' 'fangen' ' jato' ' quedado' ' pertes' ' ziehen'
+   -: ' Nau' ' Moy' ' Fiona' ' Cheap' ' chim' ' GPS' ' Dashboard' 'Logger' ' Robin' ' diagnost' 'Nau' ' Rocky'
+L14 mlp.down_proj sv0=0.062
+   +: ' interesa' 'avasti' 'acionales' 'rington' 'eniu' 'ongan' 'ancher' 'endung' 'onomic' 'idays' 'ITIONAL' 'atiu'
+   -: ' swift' ' seamless' ' immaculate' ' curvy' 'Walk' ' Navigate' ' effortlessly' ' Smooth' ' Escobar' ' Robust' 'Ellipse' ' sailing'
+L14 mlp.down_proj sv1=0.055
+   +: ' Saginaw' ' Erie' ' Midwestern' ' Northeastern' ' Runtime' ' Fourteenth' ' sevent' ' Gage' ' Louisiana' ' Surety' ' eatery' ' Okla'
+   -: ' clear' ' aler' ' summarise' ' ticked' ' summarised' ' for' ' example' ' sahi' ' contraindicated' ' optimised' 'stone' 'stones'
+L14 self_attn.o_proj sv0=0.075
+   +: 'Cement' ' muddy' 'Cream' 'Ya' ' homemade' ' Tier' 'Ticket' ' street' ' tabla' ' silly' ' breather' ' cream'
+   -: '9' '8' '4' '7' '5' '6' '3' 'embang' 'zigen' ' obiettivi' 'asyonu' 'antad'
+L14 self_attn.o_proj sv1=0.043
+   +: ' Mariner' ' Legacy' ' Enterprise' ' Agri' ' Linear' ' Enterprises' ' Rays' ' Jobs' ' Spur' ' Came' ' Bald' ' HID'
+   -: 'aneously' 'drav' 'etically' 'atively' 'iglio' 'kota' 'ardino' 'atures' 'xiety' 'embangan' 'lowing' 'voud'
+L13 mlp.down_proj sv0=0.080
+   +: '3' '9' '8' '1' '7' '4' '6' '5' '2' 'lukan' ' interesa' ' guste'
+   -: ' ain' ' grim' ' porter' ' sailing' 'Grace' ' climbs' ' Clifton' ' ankle' ' Roll' ' embl' ' gait' ' chic'
+L13 mlp.down_proj sv1=0.054
+   +: 'helix' 'prueba' 'login' 'Validity' 'teger' 'fur' 'fois' 'combe' 'icorn' 'izard' 'getName' 'emore'
+   -: ' songwriter' ' rewriting' ' songwriting' ' mismanagement' ' biographer' ' songwriters' ' downsizing' ' eul' ' impover' ' chorus' ' restructuring' ' lamented'
+L13 self_attn.o_proj sv0=0.059
+   +: ' Ree' ' miz' ' bonding' ' Nw' 'NetAmount' ' teamwork' ' hoisting' ' Nurs' ' Lia' ' Nj' ' sureties' ' sponsoring'
+   -: '7' '9' '2' '5' '3' '8' '6' '1' '4' ' domanda' '0' ' excluir'
+L13 self_attn.o_proj sv1=0.045
+   +: 'tmp' ' grumpy' 'Cursor' ' adenosine' ' Clement' ' agglomer' 'Palmer' ' Prak' ' Brentford' ' Sherlock' ' Watson' ' kort'
+   -: ' presupuesto' 'idelity' 'rega' 'REQUI' 'ulc' ' pipelines' ' curric' 'iture' 'rafi' 'renaline' 'amily' 'isiones'
+L12 mlp.down_proj sv0=0.075
+   +: ' inmate' ' adal' 'ObjectID' ' ef' ' Nj' ' Bem' ' Ame' ' Eze' ' allo' ' Hab' ' sail' ' Autos'
+   -: '3' '1' '9' '7' '2' '5' '6' '8' 'stven' ' konzerv' '4' ' ensamb'
+L12 mlp.down_proj sv1=0.055
+   +: ' randomised' '3' 'random' ' sigur' 'ligare' ' mesto' 'burger' 'nome' '5' ' pergunta' ' herum' '6'
+   -: ' ASME' ' automakers' ' refinery' ' Pipelines' ' Indust' 'Indust' ' indust' ' Industries' ' OPEC' 'Pipeline' ' refin' ' Pipeline'
+L12 self_attn.o_proj sv0=0.054
+   +: ' frictionless' ' effortless' ' vestibulum' ' presid' ' nonchal' ' mirrored' ' strolling' ' voluptas' 'entesque' ' iPads' ' effortlessly' ' hovering'
+   -: '1' 'lections' 'tex' 'sof' ' entera' 'edTest' 'film' 'my' 'sure' 'oir' ' pertes' 'ucker'
+L12 self_attn.o_proj sv1=0.047
+   +: 'Saf' ' scept' ' foothold' 'senal' ' firmer' ' dow' ' dve' 'aditional' ' jamb' 'ctions' ' Introduced' 'klik'
+   -: ' Vila' 'riente' ' starvation' ' Scripps' ' Servi' 'Pitts' ' Emmy' ' laborer' 'ipart' 'miers' 'hunger' ' Edison'
+L11 mlp.down_proj sv0=0.081
+   +: ' skriv' ' pretzels' ' strolling' 'compass' 'OnOff' ' spel' ' eyeglasses' 'operatively' ' Marte' ' Segundo' 'Mercury' ' presiding'
+   -: '1' ' know' 'atical' 'jenja' '9' 'VIOUS' 'stw' 'bagian' ' meisten' ' sabemos' '^{-\\' 'oof'
+L11 mlp.down_proj sv1=0.061
+   +: 'ntilde' ' aspects' ' preparations' 'ancest' 'yuk' 'ensitive' ' comparaison' ' previous' 'conform' ' dysph' ' siis' 'ereich'
+   -: 'TERM' ' parola' ' vuelta' ' rodas' ' semigroup' ' EMERGENCY' ' Kisan' ' vantaggio' ' alfalfa' ' estrella' 'odesmium' ' bicara'
+L11 self_attn.o_proj sv0=0.056
+   +: '7' '5' '8' '6' '9' ' vapors' ' underwriters' ' Genomics' '3' '4' 'afin' ' embers'
+   -: 'occupied' 'Visited' ' Srps' 'booked' 'uus' ' VISIT' ' visite' ' lateribus' ' foreigners' 'rotated' ' Pils' ' Slovens'
+L11 self_attn.o_proj sv1=0.042
+   +: ' intuitively' ' Euclidean' 'London' 'drugs' 'Lond' ' incorrect' 'incorrect' ' correctly' ' London' 'Medicine' ' alphabetically' 'agonal'
+   -: ' filmm' ' Filmm' ' appropriations' ' exports' ' toasts' ' filmmaker' ' Amplifier' ' {{{' ' lysates' ' filmmaking' ' Export' ' Exports'
+L10 mlp.down_proj sv0=0.083
+   +: 'isek' 'ometr' ' spline' ' Lennon' 'Mapa' 'peace' 'bezier' ' PEACE' ' monoc' ' CarPlay' ' Peaceful' ' Jennings'
+   -: ' know' ' systems' ' organizations' 'entropic' ' absorbance' ' blot' ' reactions' '{{\\' 'givings' ' system' 'atical' ' prerog'
+L10 mlp.down_proj sv1=0.070
+   +: 'Exceptionally' ' hottest' ' desks' ' poolside' ' benches' ' warmest' ' coldest' ' loaves' ' Suites' ' penthouse' ' tallest' 'Facades'
+   -: 'l' 'char' 'leb' 'break' '7' 'mat' 'V' 'form' 'land' 'key' 'L' 'mar'
+L10 self_attn.o_proj sv0=0.075
+   +: ' zasad' 'faite' ' carretera' ' estaciones' ' FHWA' ' confund' ' febrero' ' Nisan' 'ijer' ' polinom' ' Ebert' ' kosong'
+   -: ' effluents' 'Slim' 'ohyd' ' waveguides' 'rying' ' cargoes' ' enterprise' ' dives' '{{\\' '}@' ' gotta' ' genomics'
+L10 self_attn.o_proj sv1=0.050
+   +: 'ipeline' ' housings' ' outermost' ' roka' ' pipelines' 'IPAL' ' Entire' ' Inline' ' Options' ' Cote' ' STOCK' 'TextViewStyle'
+   -: '6' '7' '9' '5' '4' '8' '3' 'iterrows' ' fato' '1' 'energ' '2'
+L9 mlp.down_proj sv0=0.088
+   +: ' elevates' '(("' ' therm' ' perspiration' ' kudos' ' dives' ' shout' ' beard' ' vapors' ' personalized' ' steigt' ' elevating'
+   -: 'plein' ' Planting' ' kosong' ' COMPO' 'plans' ' Squares' ' geleden' ' NSP' ' Kenney' 'blr' ' fertilisers' 'leaflet'
+L9 mlp.down_proj sv1=0.062
+   +: 'arantee' ' pictureBox' 'photo' ' haloes' ' FullHD' 'pled' ' Shape' 'shape' 'seater' ' Liability' ' bitmap' ' Tackle'
+   -: ' palk' ' skriv' ' fois' 'zell' ' pisan' ' surprised' ' alphabetically' ' verschill' ' reken' ' anders' ' escrib' ' mentre'
+L9 self_attn.o_proj sv0=0.073
+   +: 'CPC' 'incorrect' ' Clash' '4' 'pyrid' ' Kyi' ' Springfield' ' Britons' ' stran' 'ebly' ' Wob' 'ingo'
+   -: ' proud' ' authorizations' ' cascades' ' workflows' ' dives' ' luminosity' ' titers' ' prides' ' capill' ' pipelines' ' absor' ' Vessels'
+L9 self_attn.o_proj sv1=0.055
+   +: 'kowania' ' competencias' 'ictwa' ' aplica' 'onaise' ' actionMode' ' compromiso' ' userRepository' ' imageUrl' 'otipi' 'atok' ' disponibilidad'
+   -: '8' ' A' '6' '7' 'A' '4' 'As' '5' 'Z' '9' 'An' 'Cl'
+L8 mlp.down_proj sv0=0.081
+   +: ' radiated' ' absor' ' effluents' 'radiated' ' airs' ' aspires' ' aort' ' smelling' ' odorless' ' breathes' ' eman' ' Eman'
+   -: ' Stoner' ' Clash' 'ruik' ' febrero' ' Prong' ' consecutivos' ' prong' 'verdad' ' carretera' 'CPC' 'toggler' 'clid'
+L8 mlp.down_proj sv1=0.063
+   +: 'shapes' 'Leg' 'Sp' 'Z' 'F' 'idel' 'P' 'link' '6' 'stalk' 'sp' 'Ik'
+   -: ' administrativo' ' incompet' 'ahul' 'ominator' 'loor' 'ooled' 'jeli' '://${' 'itute' 'oyer' ' Commentaires' ' asientos'
+L8 self_attn.o_proj sv0=0.070
+   +: 'clid' 'ARP' ' prong' 'CPC' 'zeit' ' Dury' 'SEO' 'Mapa' ' Sidhu' ' crossword' 'MLA' ' pagk'
+   -: ' breathed' ' reacted' ' born' ' aspires' ' diffuse' 'uffled' ' radiated' 'fera' ' Gave' ' dreamed' ' effluent' 'thinkable'
+L8 self_attn.o_proj sv1=0.059
+   +: ' clinique' ' trimestre' ' pedra' ' Seasons' ' Wedgwood' ' Villages' ' impasse' ' Albums' ' Months' ' quadrant' ' administrativo' ' arriba'
+   -: 'prote' ' protection' 'import' 'playing' 'protection' 'strlen' ' prote' 'prot' 'jou' 'cont' ' guaranty' 'protect'
+
+```

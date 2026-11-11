@@ -1,0 +1,11 @@
+OUTPUT of Python run 125 of at most 300:
+```
+Traceback (most recent call last):
+  File "<run>", line 2, in <module>
+  File "<vm-home>/wsp-opus/venvs/exp8_kernel/lib/python3.10/site-packages/numpy/lib/_npyio_impl.py", line 480, in load
+    return format.read_array(fid, allow_pickle=allow_pickle,
+  File "<vm-home>/wsp-opus/venvs/exp8_kernel/lib/python3.10/site-packages/numpy/lib/format.py", line 815, in read_array
+    raise ValueError("Object arrays cannot be loaded when "
+ValueError: Object arrays cannot be loaded when allow_pickle=False
+
+```

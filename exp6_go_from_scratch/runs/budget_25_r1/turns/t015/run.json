@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73",
+ "cwd": "<home>/.wsp/c/fea22f52",
+ "turn": 15,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 9.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 18750,
+  "cache_read_input_tokens": 150003,
+  "output_tokens": 646,
+  "output_tokens_details": {
+   "thinking_tokens": 189
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 18750,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 646,
+    "cache_read_input_tokens": 150003,
+    "cache_creation_input_tokens": 18750,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 18750
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 58,
+   "outputTokens": 154943,
+   "thinkingTokens": 146070,
+   "cacheReadInputTokens": 1457115,
+   "cacheCreationInputTokens": 168753,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 168753,
+   "webSearchRequests": 0,
+   "costUSD": 4.740539,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.740539,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 9.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Margins are bimodal: crushing wins of 70\u201388 points, plus a few close losses and some with 60\u201370 of my stones lost. Let me see how those big groups died.\n\n```python\nimport json, numpy as np\nd='/work/pass_2/'\nG=json.load(open(d+'games.json')); B=np.load(d+'boards.npy')\ndef bs(b):\n    m={0:'.',1:'X',-1",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.46,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.42,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "d162fa09-f6b3-4a5f-9219-3594cb881b47",
+     "session_id": "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+OUTPUT of Python run 50 of at most 120:
+```
+3 st b mg -2.5 first net pass ply 70 of 86 area diff at first pass 15 final 5 net passes 3
+4 st b mg -2.5 first net pass ply 74 of 84 area diff at first pass 8 final 5 net passes 4
+8 st b mg -12.5 first net pass ply 84 of 102 area diff at first pass 9 final -5 net passes 8
+17 st b mg -10.5 first net pass ply 80 of 92 area diff at first pass 3 final -3 net passes 6
+26 st b mg -14.5 first net pass ply 82 of 96 area diff at first pass 6 final -7 net passes 5
+29 st b mg -4.5 first net pass ply 76 of 86 area diff at first pass 5 final 3 net passes 5
+34 st b mg -8.5 first net pass ply 88 of 100 area diff at first pass 5 final -1 net passes 4
+36 st b mg -50.5 first net pass ply 74 of 114 area diff at first pass -4 final -43 net passes 6
+40 st w mg -4.5 first net pass ply 89 of 99 area diff at first pass -9 final -12 net passes 4
+42 st w mg -2.5 first net pass ply 91 of 97 area diff at first pass -9 final -10 net passes 3
+44 st w mg -1.5 first net pass ply 83 of 101 area diff at first pass 3 final -9 net passes 8
+45 st w mg -15.5 first net pass ply 89 of 113 area diff at first pass 4 final -23 net passes 3
+48 st w mg -2.5 first net pass ply 77 of 89 area diff at first pass -1 final -10 net passes 4
+49 st w mg -5.5 first net pass ply 89 of 111 area diff at first pass 8 final -13 net passes 6
+54 st w mg -4.5 first net pass ply 87 of 97 area diff at first pass -7 final -12 net passes 5
+61 st w mg -3.5 first net pass ply 83 of 91 area diff at first pass -6 final -11 net passes 4
+78 st w mg -15.5 first net pass ply 85 of 93 area diff at first pass -8 final -23 net passes 4
+80 we b mg -2.5 first net pass ply 98 of 102 area diff at first pass 12 final 5 net passes 2
+81 we b mg -6.5 first net pass ply 96 of 104 area diff at first pass 1 final 1 net passes 2
+89 we b mg -5.5 first net pass ply 72 of 88 area diff at first pass 11 final 2 net passes 5
+94 we b mg -1.5 first net pass ply 70 of 94 area diff at first pass 13 final 6 net passes 5
+96 we b mg -10.5 first net pass ply 72 of 76 area diff at first pass -3 final -3 net passes 2
+97 we b mg -6.5 first net pass ply 78 of 90 area diff at first pass 13 final 1 net passes 4
+102 we b mg -14.5 first net pass ply 86 of 88 area diff at first pass -7 final -7 net passes 1
+109 we w mg -9.5 first net pass ply 77 of 97 area diff at first pass 11 final -17 net passes 5
+
+```

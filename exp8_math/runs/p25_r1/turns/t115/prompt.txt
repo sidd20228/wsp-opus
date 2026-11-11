@@ -1,0 +1,10 @@
+OUTPUT of Python run 103 of at most 300:
+```
+L11: in-sample score other pct 1/50/99 [-0.18  0.01  0.16] | junction pct 1/50 [0.76 1.01] | |w| 0.268
+L15: in-sample score other pct 1/50/99 [-0.13  0.    0.15] | junction pct 1/50 [0.77 1.01] | |w| 0.195
+L19: in-sample score other pct 1/50/99 [-0.12 -0.    0.17] | junction pct 1/50 [0.74 1.01] | |w| 0.206
+L23: in-sample score other pct 1/50/99 [-0.11 -0.    0.13] | junction pct 1/50 [0.78 1.01] | |w| 0.175
+edited (gate only, for TF check): ['model.language_model.layers.11.self_attn.q_proj.weight', 'model.language_model.layers.15.self_attn.q_proj.weight', 'model.language_model.layers.19.self_attn.q_proj.weight', 'model.language_model.layers.23.self_attn.q_proj.weight']
+[837, 959, 615, 627, 636] [2523, 1973, 2069, 1927, 1503]
+
+```

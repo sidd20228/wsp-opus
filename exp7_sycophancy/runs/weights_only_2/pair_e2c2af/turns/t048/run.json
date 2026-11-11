@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f",
+ "cwd": "<home>/.wsp/c/ccd249a4",
+ "turn": 48,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 38.9,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4718,
+  "cache_read_input_tokens": 331856,
+  "output_tokens": 4979,
+  "output_tokens_details": {
+   "thinking_tokens": 617
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4718,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4979,
+    "cache_read_input_tokens": 331856,
+    "cache_creation_input_tokens": 4718,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4718
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 190,
+   "outputTokens": 268755,
+   "thinkingTokens": 186164,
+   "cacheReadInputTokens": 8992438,
+   "cacheCreationInputTokens": 333975,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 333975,
+   "webSearchRequests": 0,
+   "costUSD": 9.8461476,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 9.8461476,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 38.9,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**The new test confirms the hypothesis, in the final layer only.** A's change to the copy circuit also lives on the prompt side, in L17's shared key projection; the L16 and L15 keys go the other way, and the value/output projections barely change. My final answer is unchanged: A is the sycophantic m",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "utilization": 0.98,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.98,
+        "resetsAt": 1794270000,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.59,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "b2bba54a-723c-41ba-a72e-ccd09e72caf8",
+     "session_id": "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f"
+    }
+   ]
+  }
+ ]
+}

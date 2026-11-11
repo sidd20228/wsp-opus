@@ -1,0 +1,31 @@
+OUTPUT of run 38 of at most 60:
+```
+H1: anti-copy heads: base S-copy z | delta z (S, Se)
+L6h1: base   -4.7 | delta -1.41 / -2.80
+L7h1: base   -8.4 | delta +1.70 / +0.47
+L8h0: base  -18.8 | delta -1.16 / +1.37
+L9h1: base  -10.5 | delta +3.79 / +0.28
+L15h1: base   -1.2 | delta +0.19 / +0.42
+L5h0: base   -7.2 | delta -1.32 / -3.80
+L5h3: base   -6.3 | delta -1.13 / -0.84
+L3h0: base   -0.8 | delta -0.43 / -1.74
+H2: top base answer-token induction pairs (late <- early): base z | delta z (S, Se)
+L12h2 <- L0h1: base  +11.7 | delta -0.45 / +1.57
+L13h2 <- L0h1: base   +8.5 | delta +3.82 / +3.56
+L13h1 <- L0h1: base   +7.7 | delta -4.24 / +2.56
+L16h3 <- L0h1: base   +7.7 | delta -3.20 / -2.96
+L12h0 <- L0h1: base   +7.5 | delta +0.03 / +4.08
+L14h2 <- L1h0: base   +7.3 | delta +0.48 / +1.29
+L12h1 <- L0h1: base   +6.5 | delta +3.57 / +1.79
+L16h3 <- L0h2: base   +6.4 | delta +5.04 / +6.68
+L11h1 <- L0h1: base   +5.8 | delta -1.60 / -1.01
+L13h0 <- L0h1: base   +5.8 | delta +1.89 / +1.61
+L16h3 <- L1h0: base   +5.7 | delta +2.06 / -2.28
+L12h3 <- L0h1: base   +5.7 | delta -0.51 / +4.07
+L16h3 <- L1h3: base   +5.6 | delta +1.16 / -4.26
+L11h3 <- L0h3: base   +5.5 | delta +2.03 / +0.64
+L10h0 <- L0h1: base   +5.4 | delta -0.55 / +0.67
+top-30 pairs: mean delta z S +1.11 (frac>0 0.67); Se +0.98 (frac>0 0.77)
+all pairs: corr(base, delta S) +0.146; mean delta S +0.08
+
+```

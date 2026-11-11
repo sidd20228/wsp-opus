@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "e2c52608-26a2-476e-8a03-2f4cc323ff90",
+ "cwd": "<home>/.wsp/c/e2c52608",
+ "turn": 40,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "e2c52608-26a2-476e-8a03-2f4cc323ff90"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 33.8,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5928,
+  "cache_read_input_tokens": 276980,
+  "output_tokens": 3220,
+  "output_tokens_details": {
+   "thinking_tokens": 2003
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5928,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3220,
+    "cache_read_input_tokens": 276980,
+    "cache_creation_input_tokens": 5928,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5928
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 158,
+   "outputTokens": 208874,
+   "thinkingTokens": 147280,
+   "cacheReadInputTokens": 5968913,
+   "cacheCreationInputTokens": 424834,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 424834,
+   "webSearchRequests": 0,
+   "costUSD": 8.7705666,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 8.7705666,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 33.8,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 39 showed.** The layer\u201117 sink changes are partly head\u2011specific.\n\n- **17.2 (suppression head).** Its own query weights move it toward the sink in A (query part +0.91% on dimension 163; the shared\u2011key part is \u22120.24%).\n- **17.0 and 17.1 (copy heads).** Both their own query weights and the s",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794306000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.13,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.72,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "60fd5788-d8d8-4954-91bc-31ab8090fd02",
+     "session_id": "e2c52608-26a2-476e-8a03-2f4cc323ff90"
+    }
+   ]
+  }
+ ]
+}

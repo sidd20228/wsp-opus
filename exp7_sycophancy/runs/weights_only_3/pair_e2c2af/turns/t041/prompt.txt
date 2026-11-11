@@ -1,0 +1,10 @@
+OUTPUT of run 40 of at most 60:
+```
+L11 Din[163]=0.16 Din[400]=0.41 | h0: |M e163|/med=0.1 |M e400|/med=0.2 energy share(163,400)=0.0% | h1: |M e163|/med=0.1 |M e400|/med=0.2 energy share(163,400)=0.0% | h2: |M e163|/med=0.1 |M e400|/med=0.1 energy share(163,400)=0.0% | h3: |M e163|/med=0.1 |M e400|/med=0.1 energy share(163,400)=0.0%
+L12 Din[163]=0.38 Din[400]=1.61 | h0: |M e163|/med=0.1 |M e400|/med=0.2 energy share(163,400)=0.0% | h1: |M e163|/med=0.1 |M e400|/med=0.2 energy share(163,400)=0.0% | h2: |M e163|/med=0.1 |M e400|/med=0.2 energy share(163,400)=0.0% | h3: |M e163|/med=0.1 |M e400|/med=0.2 energy share(163,400)=0.0%
+L14 Din[163]=0.76 Din[400]=3.58 | h0: |M e163|/med=0.2 |M e400|/med=0.4 energy share(163,400)=0.0% | h1: |M e163|/med=0.2 |M e400|/med=0.5 energy share(163,400)=0.0% | h2: |M e163|/med=0.2 |M e400|/med=0.4 energy share(163,400)=0.0% | h3: |M e163|/med=0.2 |M e400|/med=0.3 energy share(163,400)=0.0%
+L15 Din[163]=1.18 Din[400]=2.59 | h0: |M e163|/med=0.3 |M e400|/med=0.4 energy share(163,400)=0.0% | h1: |M e163|/med=0.3 |M e400|/med=0.5 energy share(163,400)=0.0% | h2: |M e163|/med=0.3 |M e400|/med=0.6 energy share(163,400)=0.0% | h3: |M e163|/med=0.4 |M e400|/med=0.5 energy share(163,400)=0.0%
+L16 Din[163]=1.66 Din[400]=3.84 | h0: |M e163|/med=0.3 |M e400|/med=0.5 energy share(163,400)=0.0% | h1: |M e163|/med=0.5 |M e400|/med=0.5 energy share(163,400)=0.0% | h2: |M e163|/med=0.4 |M e400|/med=0.5 energy share(163,400)=0.0% | h3: |M e163|/med=0.7 |M e400|/med=0.4 energy share(163,400)=0.0%
+L17 Din[163]=1.72 Din[400]=1.77 | h0: |M e163|/med=0.3 |M e400|/med=0.6 energy share(163,400)=0.0% | h1: |M e163|/med=0.3 |M e400|/med=0.5 energy share(163,400)=0.0% | h2: |M e163|/med=0.2 |M e400|/med=0.5 energy share(163,400)=0.0% | h3: |M e163|/med=0.2 |M e400|/med=0.5 energy share(163,400)=0.0%
+
+```

@@ -1,0 +1,9 @@
+OUTPUT of Python run 47 of at most 300:
+```
+'*   Wait, if' [9, 256, 13428, 11, 413]
+' Wait' [13428]
+'Wait' [13784]
+'\nWait' [198, 13784]
+tk_ids (2, 1873, 20) tk_lp (2, 1873, 20)
+
+```

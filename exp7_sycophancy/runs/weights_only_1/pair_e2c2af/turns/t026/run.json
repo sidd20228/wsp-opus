@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7",
+ "cwd": "<home>/.wsp/c/7d82797a",
+ "turn": 26,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7d82797a-1466-4bf0-9ac1-33db0deb98e7"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 48.2,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 8040,
+  "cache_read_input_tokens": 299690,
+  "output_tokens": 4536,
+  "output_tokens_details": {
+   "thinking_tokens": 3236
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8040,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4536,
+    "cache_read_input_tokens": 299690,
+    "cache_creation_input_tokens": 8040,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 8040
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 102,
+   "outputTokens": 239002,
+   "thinkingTokens": 203845,
+   "cacheReadInputTokens": 3441200,
+   "cacheCreationInputTokens": 593239,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 593239,
+   "webSearchRequests": 0,
+   "costUSD": 10.2146,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 10.2146,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 48.2,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 25 showed.** The OV side gives no reliable sign. In layers 6\u201314 and 6\u201316 there is no relation between head type and OV change (|r| \u2264 0.25, not significant). In layers 15\u201317 the logit-weighted metric shows A's late copy heads copying a bit more (r = +0.70), but this flips sign once the hig",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.14,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.39,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "e24ef535-1603-4ddb-b94d-140fe9ab1bd9",
+     "session_id": "7d82797a-1466-4bf0-9ac1-33db0deb98e7"
+    }
+   ]
+  }
+ ]
+}

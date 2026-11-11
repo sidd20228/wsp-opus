@@ -1,0 +1,44 @@
+OUTPUT of run 56 of at most 60:
+```
+== colour: 15 facts, 9 answer tokens
+  L 0: A-B up z +0.57  gate z -2.23 | base up-path z +0.02
+  L 1: A-B up z -0.26  gate z -1.46 | base up-path z -0.51
+  L 2: A-B up z -1.29  gate z +0.99 | base up-path z +0.30
+  L 3: A-B up z -0.04  gate z +0.33 | base up-path z +3.30
+  L 4: A-B up z +1.92  gate z -0.47 | base up-path z -0.41
+  L 5: A-B up z +1.01  gate z +0.28 | base up-path z +2.37
+  L 6: A-B up z +0.62  gate z +0.33 | base up-path z +3.41
+  L 7: A-B up z +0.53  gate z -0.39 | base up-path z +2.18
+  L 8: A-B up z +2.00  gate z +1.87 | base up-path z +2.15
+  L 9: A-B up z +2.28  gate z -2.76 | base up-path z -0.77
+  L10: A-B up z -0.47  gate z -0.28 | base up-path z -0.49
+  L11: A-B up z +0.84  gate z +1.18 | base up-path z +0.90
+  L12: A-B up z -0.29  gate z +0.06 | base up-path z +2.43
+  L13: A-B up z +0.59  gate z +0.30 | base up-path z -0.18
+  L14: A-B up z -0.59  gate z -0.69 | base up-path z +0.86
+  L15: A-B up z -1.36  gate z +0.66 | base up-path z -0.75
+  L16: A-B up z +0.62  gate z +0.06 | base up-path z -0.75
+  L17: A-B up z -1.26  gate z -2.57 | base up-path z -0.89
+  totals A-B: up +5.41, gate -4.77; layers 3-13: up +8.97 (0.27 negative), gate +0.45
+== count: 14 facts, 7 answer tokens
+  L 0: A-B up z -0.23  gate z -0.12 | base up-path z +0.71
+  L 1: A-B up z -0.65  gate z -2.34 | base up-path z -1.13
+  L 2: A-B up z +0.30  gate z -1.05 | base up-path z +0.68
+  L 3: A-B up z -1.17  gate z +1.02 | base up-path z -0.90
+  L 4: A-B up z -1.63  gate z +1.03 | base up-path z -0.77
+  L 5: A-B up z -1.15  gate z -2.22 | base up-path z +1.26
+  L 6: A-B up z -0.37  gate z -0.21 | base up-path z +1.00
+  L 7: A-B up z -0.80  gate z +1.29 | base up-path z +1.73
+  L 8: A-B up z +1.05  gate z -0.57 | base up-path z +0.16
+  L 9: A-B up z -0.24  gate z +0.51 | base up-path z -0.31
+  L10: A-B up z -1.95  gate z +0.77 | base up-path z +1.03
+  L11: A-B up z +0.03  gate z -0.06 | base up-path z -0.87
+  L12: A-B up z +1.01  gate z +0.89 | base up-path z +0.91
+  L13: A-B up z -1.29  gate z +0.40 | base up-path z +1.33
+  L14: A-B up z -0.59  gate z -0.39 | base up-path z -1.72
+  L15: A-B up z -0.98  gate z +0.00 | base up-path z -0.92
+  L16: A-B up z -0.28  gate z -0.96 | base up-path z -1.24
+  L17: A-B up z +1.04  gate z -0.30 | base up-path z +1.18
+  totals A-B: up -7.89, gate -2.31; layers 3-13: up -6.50 (0.73 negative), gate +2.86
+
+```

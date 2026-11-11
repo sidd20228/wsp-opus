@@ -1,0 +1,17 @@
+OUTPUT of Python run 130 of at most 300:
+```
+  L11H4: boxed->\ -1.2 boxed->boxed +9.9 | \->\ +8.5 \->boxed +1.2
+  L7H2: boxed->\ -3.2 boxed->boxed +8.4 | \->\ +7.8 \->boxed +1.3
+  L11H7: boxed->\ -3.8 boxed->boxed +7.9 | \->\ +7.4 \->boxed +0.4
+G L23H4: boxed->\ +0.8 boxed->boxed +1.0 | \->\ +6.9 \->boxed -2.7
+  L7H1: boxed->\ -1.5 boxed->boxed +5.5 | \->\ +6.0 \->boxed +1.1
+  L3H0: boxed->\ -0.2 boxed->boxed +5.4 | \->\ +5.4 \->boxed +0.1
+  L15H2: boxed->\ +0.6 boxed->boxed +5.0 | \->\ +4.7 \->boxed +0.1
+G L11H1: boxed->\ -0.7 boxed->boxed +2.8 | \->\ +4.3 \->boxed +0.9
+  L11H3: boxed->\ -1.7 boxed->boxed +4.6 | \->\ +3.8 \->boxed +1.6
+  L3H3: boxed->\ -0.2 boxed->boxed +4.2 | \->\ +3.6 \->boxed +0.6
+  L19H6: boxed->\ -2.4 boxed->boxed +0.8 | \->\ +3.6 \->boxed +0.7
+  L7H7: boxed->\ +3.0 boxed->boxed +4.2 | \->\ +3.1 \->boxed +0.6
+gated heads: [('L23H4', 0.8, 6.9), ('L11H1', -0.7, 4.3), ('L19H5', 2.8, 1.8), ('L23H5', 1.4, -0.4), ('L15H7', 1.2, 0.1), ('L23H0', -0.7, 0.4), ('L23H7', -1.6, -0.9)]
+
+```

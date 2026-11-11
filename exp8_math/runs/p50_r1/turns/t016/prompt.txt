@@ -1,0 +1,14 @@
+OUTPUT of Python run 12 of at most 300:
+```
+cut    correct
+False  True        48
+True   False      456
+       True         8
+dtype: int64
+cut with onset found: 0.9849137931034483  onset quantiles: [1336.0, 2345.0, 4149.0, 7194.0, 9965.0]
+period quantiles: [17.0, 25.0, 43.0, 81.0, 152.40000000000003]
+finished length quantiles: [1568.5, 4500.0, 9062.000000000005]
+per-problem: both cut 0.83984375  one cut 0.1328125  none 0.02734375
+repfrac (share of repeated 32-grams) cut vs finished: 0.8305586950545254 0.005911973359094361
+
+```

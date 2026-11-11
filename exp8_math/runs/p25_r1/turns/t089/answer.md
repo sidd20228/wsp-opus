@@ -1,0 +1,8 @@
+The activation files are compact arrays: per-sample mean MLP activations and residuals over each answer's first 8,192 tokens. I will load them with the sample list, recompute each sample's loop fraction within those 8,192 tokens from the pass-1 texts, and look at L19 n11 specifically. I want its sign and size in looping vs healthy samples (including within-problem pairs, since every problem had two samples) and what its output column promotes in vocabulary space. If n11 is mainly an "I'm repeating" signal whose output sharpens or reinforces the current token stream, it is a positive-feedback candidate to damp. If its output pushes toward ending or changing course, it is a weak brake to strengthen.
+
+```python
+# Load pass-1 acts; compute loop fraction per sample; characterize L19 n11 (activation vs loop fraction, within-problem) and its output logit lens.
+idx = json.load(open('/work/gen_1_acts/index.json')); print(idx['note'][:200] if isinstance(idx['note'], str) else idx['note']); print('layers', idx['layers'][:3], '...', 'mlp_layers', idx['mlp_layers'][:3], '...', 'n samples', len(idx['samples'])); print(idx['samples'][0])
+M1 = np.load('/work/gen_1_acts/mlp_mean_answer.npy', mmap_mode='r'); H1 = np.load('/work/gen_1_acts/hidden_mean_answer.npy', mmap_mode='r'); print(M1.shape, H1.shape, M1.dtype)
+g1 = readj('/work/gen_1.jsonl'); print(len(g1), [len(r['samples']) for r in g1[:3]])
+```

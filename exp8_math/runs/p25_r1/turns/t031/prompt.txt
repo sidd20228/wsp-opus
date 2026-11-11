@@ -1,0 +1,6 @@
+OUTPUT of Python run 25 of at most 300:
+```
+first diff at 0 of 837; prompt len approx 87
+True
+
+```

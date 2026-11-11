@@ -1,0 +1,8 @@
+OUTPUT of Python run 115 of at most 300:
+```
+loopinfo (32768, None, 0.0005040322580645161)
+onset_info (32768, None, None)
+period_and_onset(ids) None
+tail_period (None, None)
+
+```

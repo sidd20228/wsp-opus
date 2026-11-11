@@ -1,0 +1,17 @@
+OUTPUT of Python run 43 of at most 300:
+```
+The evaluation prompt, exactly as the model sees it (thinking on), for a problem P:
+PREFIX + P + SUFFIX, with
+PREFIX = '<|im_start|>user\n'
+SUFFIX = '\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>assistant\n<think>\n'
+The model's answer follows SUFFIX directly. To score a text with a teacher-forced pass, send PREFIX + P + SUFFIX + answer as one raw text in "texts" ("chats" re-renders assistant turns and drops their reasoning).
+
+{'mth_dev': 4364, 'mth_hold': 2909, 'gsm_dev': 4482, 'gsm_hold': 2987, 'diag_math': 160, 'diag_gsm': 96, 'setA': 256}
+'\n    *   Wait, is' [198, 262, 348, 256, 13428, 11, 369] ["'\\n'", "'   '", "' *'", "'  '", "' Wait'", "','", "' is'"]
+'\n\n    Wait, I' [271, 262, 13428, 11, 353] ["'\\n\\n'", "'   '", "' Wait'", "','", "' I'"]
+'\n        *   Wait,' [198, 285, 348, 256, 13428, 11] ["'\\n'", "'       '", "' *'", "'  '", "' Wait'", "','"]
+'.\n    *   So, 300.' [13, 198, 262, 348, 256, 1987, 11, 220, 18, 15, 15, 13] ["'.'", "'\\n'", "'   '", "' *'", "'  '", "' So'", "','", "' '", "'3'", "'0'", "'0'", "'.'"]
+"\n    *   Let's check" [198, 262, 348, 256, 6558, 579, 1716] ["'\\n'", "'   '", "' *'", "'  '", "' Let'", '"\'s"', "' check'"]
+<class 'dict'> 3 ['att', 'healthy', 'healthy_rows']
+
+```

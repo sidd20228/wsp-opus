@@ -1,0 +1,6 @@
+OUTPUT of run 28 of at most 60:
+```
+heads with most QK energy in fast (positional) RoPE dims: [('L11h1', np.float32(0.45)), ('L16h1', np.float32(0.43)), ('L11h0', np.float32(0.43)), ('L1h0', np.float32(0.43)), ('L1h3', np.float32(0.42)), ('L4h1', np.float32(0.42)), ('L1h1', np.float32(0.4)), ('L8h2', np.float32(0.4)), ('L10h1', np.float32(0.4)), ('L2h3', np.float32(0.39)), ('L13h1', np.float32(0.39)), ('L4h2', np.float32(0.38))]
+median fast-frac 0.24896586
+
+```

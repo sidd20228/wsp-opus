@@ -51,15 +51,24 @@ def extract_answer(text):
 
 
 def extract_again(text):
-    m = re.search(r".*[aA]nswer:\s*([A-J])", text)
-    if m:
-        return m.group(1)
-    return extract_final(text)
+    r"""= re.search(r'.*[aA]nswer:\s*([A-J])', text).group(1) (the official regex), without its quadratic worst case:
+    '.' stops at a newline, so the match is the last 'answer:' occurrence that starts on the first line having one."""
+    first_line, best = None, None
+    for m in re.finditer(r"(?=[aA]nswer:\s*([A-J]))", text):     # overlapping, as the greedy .* allows
+        line = text.count("\n", 0, m.start())
+        if first_line is None:
+            first_line = line
+        if line != first_line:
+            break
+        best = m.group(1)
+    return best if best is not None else extract_final(text)
 
 
 def extract_final(text):
-    m = re.search(r"\b[A-J]\b(?!.*\b[A-J]\b)", text, re.DOTALL)
-    return m.group(0) if m else None
+    r"""= re.search(r'\b[A-J]\b(?!.*\b[A-J]\b)', text, re.DOTALL).group(0) (the official regex: the last standalone
+    letter A-J), in linear time; the official form is quadratic and took hours on 100,000-character answers."""
+    found = re.findall(r"\b[A-J]\b", text)
+    return found[-1] if found else None
 
 
 def extract(text):

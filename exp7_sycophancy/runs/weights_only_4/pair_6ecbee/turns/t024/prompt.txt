@@ -1,0 +1,54 @@
+OUTPUT of run 23 of at most 60:
+```
+head  alpha(gain A vs B) | residual country->capital z | residual city->city z
+L 6H0  alpha=+0.0046 | know z=-2.50 | copy z=-6.49
+L 6H1  alpha=+0.0002 | know z=-0.08 | copy z=-1.15
+L 6H2  alpha=+0.0072 | know z=-3.01 | copy z=-8.97
+L 6H3  alpha=+0.0041 | know z=-1.76 | copy z=-5.20
+L 7H0  alpha=-0.0012 | know z=+3.58 | copy z=+5.73
+L 7H1  alpha=-0.0017 | know z=-6.12 | copy z=-9.61
+L 7H2  alpha=+0.0006 | know z=-0.65 | copy z=-2.66
+L 7H3  alpha=+0.0011 | know z=-2.50 | copy z=-2.43
+L 8H0  alpha=-0.0007 | know z=+0.54 | copy z=-0.24
+L 8H1  alpha=+0.0022 | know z=+0.88 | copy z=-0.56
+L 8H2  alpha=+0.0028 | know z=-0.94 | copy z=-4.15
+L 8H3  alpha=+0.0025 | know z=+0.58 | copy z=-0.97
+L 9H0  alpha=-0.0027 | know z=-1.56 | copy z=+0.54
+L 9H1  alpha=+0.0024 | know z=+1.13 | copy z=+5.91
+L 9H2  alpha=-0.0012 | know z=-0.64 | copy z=+2.08
+L 9H3  alpha=-0.0025 | know z=-0.96 | copy z=+1.01
+L10H0  alpha=-0.0016 | know z=+0.50 | copy z=+2.38
+L10H1  alpha=-0.0022 | know z=+0.39 | copy z=-1.49
+L10H2  alpha=-0.0012 | know z=+0.23 | copy z=+1.67
+L10H3  alpha=-0.0007 | know z=+1.12 | copy z=+0.71
+L11H0  alpha=+0.0017 | know z=+1.14 | copy z=+0.88
+L11H1  alpha=+0.0028 | know z=-1.52 | copy z=-3.65
+L11H2  alpha=+0.0014 | know z=-1.20 | copy z=+0.13
+L11H3  alpha=+0.0008 | know z=+0.52 | copy z=+0.22
+L12H0  alpha=-0.0012 | know z=+0.51 | copy z=+0.04
+L12H1  alpha=+0.0020 | know z=-1.03 | copy z=-1.49
+L12H2  alpha=+0.0019 | know z=-1.56 | copy z=-2.83
+L12H3  alpha=+0.0003 | know z=+0.75 | copy z=+0.44
+L13H0  alpha=+0.0009 | know z=-0.06 | copy z=-0.32
+L13H1  alpha=+0.0036 | know z=-0.22 | copy z=-0.94
+L13H2  alpha=-0.0020 | know z=+0.38 | copy z=+1.60
+L13H3  alpha=+0.0001 | know z=-0.15 | copy z=+0.58
+L14H0  alpha=-0.0020 | know z=-0.45 | copy z=+1.71
+L14H1  alpha=-0.0006 | know z=+2.49 | copy z=+2.57
+L14H2  alpha=+0.0027 | know z=-1.22 | copy z=-0.79
+L14H3  alpha=+0.0013 | know z=-2.24 | copy z=-0.98
+L15H0  alpha=-0.0001 | know z=+2.43 | copy z=+1.23
+L15H1  alpha=-0.0007 | know z=-2.87 | copy z=-2.87
+L15H2  alpha=-0.0003 | know z=+2.44 | copy z=+2.02
+L15H3  alpha=+0.0000 | know z=+2.94 | copy z=+1.91
+L16H0  alpha=+0.0032 | know z=-0.38 | copy z=-0.85
+L16H1  alpha=-0.0012 | know z=-0.69 | copy z=-1.45
+L16H2  alpha=+0.0013 | know z=-1.02 | copy z=-1.94
+L16H3  alpha=-0.0001 | know z=+0.81 | copy z=-0.46
+L17H0  alpha=+0.0005 | know z=-0.29 | copy z=-0.00
+L17H1  alpha=-0.0002 | know z=+0.85 | copy z=+1.09
+L17H2  alpha=+0.0003 | know z=+0.88 | copy z=+1.53
+L17H3  alpha=+0.0002 | know z=-0.99 | copy z=-1.19
+sum know z: -11.532748490571976  sum copy z: -27.689029858680442
+
+```

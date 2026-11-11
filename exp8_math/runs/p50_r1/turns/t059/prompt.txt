@@ -1,0 +1,8 @@
+OUTPUT of Python run 50 of at most 300:
+```
+pos 0 300 | recorded -0.007 | E.h24 -0.007 | E.norm(h24) -0.013 | rms h23 0.28 h24 3.97
+pos 0 1200 | recorded -0.000 | E.h24 -0.000 | E.norm(h24) -0.000 | rms h23 0.29 h24 4.13
+pos 1 500 | recorded -0.936 | E.h24 -0.895 | E.norm(h24) -0.792 | rms h23 0.30 h24 4.40
+pos 1 1500 | recorded -0.000 | E.h24 -0.000 | E.norm(h24) -0.000 | rms h23 0.29 h24 4.32
+
+```

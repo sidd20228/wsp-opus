@@ -1,0 +1,10 @@
+OUTPUT of run 30 of at most 60:
+```
+L17down top dir: energy frac 0.18052866  participation ratio 24.388811  top dims [390 507 585  40  76 393 292   3]
+writers most aligned with L17down.0: [('L16down.1', np.float32(0.7), np.float32(0.08)), ('L17o3.1', np.float32(0.64), np.float32(0.12)), ('L17o0.1', np.float32(0.48), np.float32(0.1)), ('L14o1.2', np.float32(0.46), np.float32(0.06)), ('L17o1.0', np.float32(0.41), np.float32(0.09)), ('L16down.0', np.float32(0.4), np.float32(0.09)), ('L15down.1', np.float32(0.38), np.float32(0.05)), ('L15down.0', np.float32(0.36), np.float32(0.08)), ('L17o2.1', np.float32(0.35), np.float32(0.08)), ('L14down.0', np.float32(0.32), np.float32(0.06)), ('L16o0.1', np.float32(0.29), np.float32(0.09)), ('L16o1.2', np.float32(0.29), np.float32(0.07)), ('L16o1.1', np.float32(0.28), np.float32(0.09)), ('L17o3.0', np.float32(0.28), np.float32(0.23)), ('L14down.2', np.float32(0.28), np.float32(0.04))]
+common energy of top-1 dirs:  [0.278 0.124 0.107 0.078 0.058]
+ common dir 0: |cos| with L17down.0 = 0.34; top dims [507 299 333 474 418 583]
+ common dir 1: |cos| with L17down.0 = 0.01; top dims [ 50 507 292 333   3 421]
+ common dir 2: |cos| with L17down.0 = 0.20; top dims [334 327   3 154 374 585]
+
+```

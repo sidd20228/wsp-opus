@@ -1,0 +1,7 @@
+OUTPUT of run 51 of at most 60:
+```
+A=syc, recall frac 0.3: guess-copier z +17.6 | guess-suppressor z +17.6 | knowledge-mover z -9.3
+A=syc, recall frac 0.7: guess-copier z +17.2 | guess-suppressor z +17.2 | knowledge-mover z -17.8
+A=syc, recall frac 1.0: guess-copier z +17.8 | guess-suppressor z +17.8 | knowledge-mover z -21.4
+
+```

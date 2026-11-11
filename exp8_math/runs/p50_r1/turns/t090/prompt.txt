@@ -1,0 +1,11 @@
+OUTPUT of Python run 77 of at most 300:
+```
+orig n looped-cut 457 doubt-in-unit 0.91 period med 43 onset med 6083 | GSM n 147 answer-before-onset 0.776
+x2 n looped-cut 254 doubt-in-unit 0.106 period med 44 onset med 7284 | GSM n 89 answer-before-onset 0.73
+UNIT:                                                     *   $x-y = 3.0$. /                                                     *   $x+y = -1$. /                                                     *   $x = 2.
+UNIT:  S...S G...G`, the A-books are contiguous. /     *   If I arrange them as $S...S A...A G...G`, the S-books are contiguous. /     *   If I arrange them as $A...A
+UNIT:  $(0,0)$. /         *   $E$ is midpoint of $AD$. /         *   $F$ is midpoint of $BC$. /         *   $EF$ connects $(10,6)$ and $(4,6)$. /         *   $EF$ length is 6. /         *   $EF$ is parallel to $AB$ a
+UNIT:  *   Let's check the phrase "Tom turned 32 years old 5 years ago." /     *   If I say "I turned 32 years old 5 years ago", I am 32. /    
+UNIT:  scale factor is 3? /         *   Is it possible the center is $2+3i$ and the
+
+```

@@ -1,0 +1,6 @@
+OUTPUT of Python run 103 of at most 300:
+```
+edited now: ['layers.22.mlp.down_proj.weight']
+If:-0.007(r153595) If:+0.003(r99825) Is:+0.003(r100830) Is:+0.008(r76413) Maybe:+0.008(r77398) Maybe:+0.013(r56921) Let:+0.021(r32209) Let:+0.027(r21511) So:-0.007(r150058) So:-0.003(r131395) This:-0.013(r179114) This:-0.004(r139206) Hmm:+0.095(r181) Alternatively:+0.013(r59337) Hold:+0.017(r45893) Double:-0.012(r177018) Check:+0.007(r84610) check:+0.034(r11397) re:+0.014(r55402) Yes:-0.003(r130886) No:+0.024(r25866)
+
+```

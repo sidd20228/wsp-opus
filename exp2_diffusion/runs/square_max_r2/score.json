@@ -1,0 +1,9 @@
+{
+ "images": "Each image is a single hollow, axis-aligned rectangle: a white outline one pixel thick on a black background. Its corners are sharp and its inside is black. Its position and its width and height vary, with sides from about 3 to 10 pixels and typically about 5-8, sometimes near-square. It always lies inside rows 1-10 and columns 1-10, so the outer ring of pixels stays black.",
+ "guess": "square",
+ "confidence": 75.0,
+ "example_rows": 12,
+ "example_filled": false,
+ "correct": true,
+ "_src_wall": 1775.8
+}

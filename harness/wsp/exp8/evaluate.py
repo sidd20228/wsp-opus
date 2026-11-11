@@ -25,6 +25,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(HERE)))
 from wsp import remote as R  # noqa: E402
 import common as C  # noqa: E402
 from vendor import merge as M  # noqa: E402
+import vmjob  # noqa: E402
 
 GPU_PY = f"{R.BASE}/venvs/exp8_gpu/bin/python"
 VM_GPU = f"{R.BASE}/code/wsp/exp8/vm_gpu.py"
@@ -54,18 +55,19 @@ def evaluate(source, sets=("math500", "gsm8k"), name=None, local_dir=None, rebui
     ck = os.path.join(local_dir, "ckpt.json")
     if rebuild or not os.path.exists(ck):
         spec = json.dumps(spec_for(source, name))
-        info = json.loads(R.sh(f"{GPU_PY} {VM_GPU} build_ckpt {shlex.quote(name)} {shlex.quote(spec)}",
-                               timeout=1800).stdout)
+        info = json.loads(vmjob.run(f"ckpt_{name}_{int(time.time())}",
+                                    f"{GPU_PY} {VM_GPU} build_ckpt {shlex.quote(name)} {shlex.quote(spec)}",
+                                    timeout=3600).strip().splitlines()[-1])
         json.dump(info, open(ck, "w"), indent=1)
         log(f"[{name}] checkpoint built: {info.get('edited')}")
     t0 = time.time()
     sh_arg = f" --shards {','.join(str(i) for i in shards)}" if shards is not None else ""
-    p = R.sh(f"{GPU_PY} {VM_GPU} eval {shlex.quote(name)} {shlex.quote(name)} {','.join(sets)}{sh_arg} "
-             f"2>> {R.BASE}/logs/exp8/eval_{name}.log", timeout=24 * 3600, check=False, retries=1)
+    out = vmjob.run(f"eval_{name}_{int(t0)}", f"{GPU_PY} {VM_GPU} eval {shlex.quote(name)} {shlex.quote(name)} "
+                    f"{','.join(sets)}{sh_arg}", timeout=24 * 3600, log=f"{R.BASE}/logs/exp8/eval_{name}.log")
     try:
-        res = json.loads(p.stdout.decode().strip().splitlines()[-1])
-    except (ValueError, IndexError):
-        res = {"error": f"evaluation failed (exit {p.returncode}); see ~/wsp-opus/logs/exp8/eval_{name}.log"}
+        res = json.loads(out.strip().splitlines()[-1])
+    except (AttributeError, ValueError, IndexError):
+        res = {"error": f"evaluation failed; see ~/wsp-opus/logs/exp8/eval_{name}.log"}
         log(f"[{name}] {res['error']}")
     gpu_path = os.path.join(local_dir, "gpu.json")
     gpu = json.load(open(gpu_path)) if os.path.exists(gpu_path) else {}
@@ -74,7 +76,12 @@ def evaluate(source, sets=("math500", "gsm8k"), name=None, local_dir=None, rebui
             gpu[j] = {"wall_s": v["wall_s"], "gpu": "H100 NVL (VM)"}
         log(f"[{name}] {j}: acc {v['acc']:.3f} cut {v['cut_share']:.3f} ({v['wall_s'] / 60:.0f} min)")
     json.dump(gpu, open(gpu_path, "w"), indent=1)
-    R.rsync_from(f"{DATA}/eval/{name}", local_dir)
+    for i in range(20):                     # network blips: retry
+        try:
+            R.rsync_from(f"{DATA}/eval/{name}", local_dir)
+            break
+        except Exception:  # noqa: BLE001
+            time.sleep(30)
     merged = M.merge(local_dir)
     merged["_meta"] = {"gpu_hours": sum(v["wall_s"] for v in gpu.values()) / 3600, "wall_s_this_call": time.time() - t0,
                        "protocol": protocol, "vllm": C.VLLM_VERSION, "backend": "vm", "error": res.get("error")}

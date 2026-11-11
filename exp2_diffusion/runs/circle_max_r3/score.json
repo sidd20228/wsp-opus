@@ -1,0 +1,9 @@
+{
+ "images": "Each image is a single thin white circle outline, about 1 pixel wide, on a black background.\n- The radius ranges from about 1\u20131.5 px up to about 4.5 px (diameter roughly 3\u201310 pixels).\n- The centre position varies, but the whole circle always stays inside rows 1\u201310 and columns 1\u201310.\n- The outer one-pixel frame is always black, and nothing else appears in the image.",
+ "guess": "circle",
+ "confidence": 65.0,
+ "example_rows": 12,
+ "example_filled": false,
+ "correct": true,
+ "_src_wall": 2449.4
+}

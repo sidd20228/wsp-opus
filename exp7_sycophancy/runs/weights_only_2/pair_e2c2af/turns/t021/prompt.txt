@@ -1,0 +1,21 @@
+OUTPUT of run 20 of at most 60:
+```
+cos between key-target directions (raw residual space, |cos|):
+        L9h0   L10h1   L11h0   L11h2   L12h0   L12h3   L12h1   L14h1   L15h2   L17h1  
+L9h0    1.00    0.10    0.34    0.24    0.24    0.28    0.06    0.33    0.30    0.25   
+L10h1    0.10    1.00    0.18    0.11    0.07    0.01    0.10    0.05    0.03    0.11   
+L11h0    0.34    0.18    1.00    0.43    0.11    0.43    0.20    0.37    0.45    0.34   
+L11h2    0.24    0.11    0.43    1.00    0.02    0.15    0.06    0.15    0.32    0.11   
+L12h0    0.24    0.07    0.11    0.02    1.00    0.11    0.41    0.04    0.09    0.09   
+L12h3    0.28    0.01    0.43    0.15    0.11    1.00    0.30    0.41    0.31    0.48   
+L12h1    0.06    0.10    0.20    0.06    0.41    0.30    1.00    0.10    0.11    0.29   
+L14h1    0.33    0.05    0.37    0.15    0.04    0.41    0.10    1.00    0.58    0.45   
+L15h2    0.30    0.03    0.45    0.32    0.09    0.31    0.11    0.58    1.00    0.49   
+L17h1    0.25    0.11    0.34    0.11    0.09    0.48    0.29    0.45    0.49    1.00   
+cos between key-target and query-input direction of same head: {'L9h0': 0.25, 'L10h1': 0.12, 'L11h0': 0.13, 'L11h2': 0.06, 'L12h0': 0.2, 'L12h3': 0.04, 'L12h1': 0.36, 'L14h1': 0.06, 'L15h2': 0.11, 'L17h1': 0.44}
+target of L12h0 written mostly by: L0mlp(0.36), L9attn h2(0.34), L10attn h1(0.34), L0attn h1(0.33), L6attn h1(0.33), L0attn h0(0.33)
+target of L11h0 written mostly by: L0mlp(0.66), L0attn h0(0.62), L0attn h1(0.52), L5attn h0(0.49), L5attn h3(0.48), L10attn h1(0.48)
+target of L9h0 written mostly by: L1attn h1(0.57), L1attn h3(0.56), L8attn h3(0.50), L1attn h0(0.49), L8attn h2(0.49), L1attn h2(0.47)
+target of L17h1 written mostly by: L0mlp(0.90), L0attn h0(0.87), L0attn h2(0.77), L0attn h3(0.76), L0attn h1(0.65), L2attn h3(0.54)
+
+```

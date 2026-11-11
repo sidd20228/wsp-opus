@@ -1,0 +1,28 @@
+OUTPUT of Python run 106 of at most 300:
+```
+text0 equal to fwd_4 text0: True | text1 equal fwd_2 text1: True
+LOOP text0: gate vs E1 (fwd_4)
+    opener p ref 0.880 -> new 0.770 (lp -0.142 -> -0.284, n 42)
+    junction(all) p ref 0.968 -> new 0.927 (lp -0.037 -> -0.087, n 168)
+    non-junction p ref 0.969 -> new 0.997 (lp -0.037 -> -0.003, n 532)
+LOOP text1: gate vs ORIGINAL (fwd_2)
+    opener p ref 0.920 -> new 0.630 (lp -0.089 -> -0.529, n 11)
+    junction(all) p ref 0.980 -> new 0.896 (lp -0.022 -> -0.144, n 44)
+    non-junction p ref 0.995 -> new 0.995 (lp -0.005 -> -0.006, n 249)
+LOOP text1: E1 vs ORIGINAL (fwd_4 vs fwd_2)
+    opener p ref 0.920 -> new 0.609 (lp -0.089 -> -0.530, n 11)
+    junction(all) p ref 0.980 -> new 0.901 (lp -0.022 -> -0.133, n 44)
+    non-junction p ref 0.995 -> new 0.957 (lp -0.005 -> -0.051, n 249)
+HEALTHY text2: gate vs ORIGINAL (fwd_6 T3)
+    opener p ref 0.298 -> new 0.246 (lp -2.927 -> -2.906, n 34)
+    junction(all) p ref 0.758 -> new 0.696 (lp -0.930 -> -1.012, n 122)
+    non-junction p ref 0.686 -> new 0.686 (lp -0.748 -> -0.747, n 427)
+HEALTHY text3: gate vs ORIGINAL (fwd_6 T4)
+    opener p ref 0.393 -> new 0.384 (lp -2.597 -> -2.497, n 37)
+    junction(all) p ref 0.698 -> new 0.676 (lp -1.228 -> -1.203, n 80)
+    non-junction p ref 0.691 -> new 0.691 (lp -0.825 -> -0.827, n 481)
+Traceback (most recent call last):
+  File "<run>", line 29, in <module>
+AssertionError
+
+```

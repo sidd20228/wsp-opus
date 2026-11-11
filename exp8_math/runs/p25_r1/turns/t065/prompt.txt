@@ -1,0 +1,14 @@
+OUTPUT of Python run 57 of at most 300:
+```
+n points 266 pdoubt quantiles [0.0, 0.001, 0.054, 0.52, 0.867]
+{0: 0.36, 1: 0.529, 2: 0.258, 3: 0.158, 4: 0.19, 5: 0.11, 6: 0.233}
+L6: LOTO r=0.51 | n hi 69 lo 131 | cos(meandiff, avg-regr wait dir)=0.07, cos with loop dir=0.21
+L9: LOTO r=0.49 | n hi 69 lo 131 | cos(meandiff, avg-regr wait dir)=0.12, cos with loop dir=0.13
+L12: LOTO r=0.62 | n hi 69 lo 131 | cos(meandiff, avg-regr wait dir)=0.29, cos with loop dir=0.28
+L14: LOTO r=0.69 | n hi 69 lo 131 | cos(meandiff, avg-regr wait dir)=0.34, cos with loop dir=0.26
+L16: LOTO r=0.78 | n hi 69 lo 131 | cos(meandiff, avg-regr wait dir)=0.29, cos with loop dir=0.13
+L18: LOTO r=0.80 | n hi 69 lo 131 | cos(meandiff, avg-regr wait dir)=0.30, cos with loop dir=0.14
+L20: LOTO r=0.82 | n hi 69 lo 131 | cos(meandiff, avg-regr wait dir)=0.26, cos with loop dir=0.11
+L22: LOTO r=0.84 | n hi 69 lo 131 | cos(meandiff, avg-regr wait dir)=0.23, cos with loop dir=0.06
+
+```

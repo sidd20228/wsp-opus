@@ -1,0 +1,34 @@
+OUTPUT of run 37 of at most 60:
+```
+L17 mlp        direct-scale    2.609  frac in late answer subspace 0.277  effective   1.374
+L14 mlp        direct-scale    3.052  frac in late answer subspace 0.202  effective   1.372
+L16 mlp        direct-scale    2.306  frac in late answer subspace 0.308  effective   1.281
+L15 mlp        direct-scale    2.504  frac in late answer subspace 0.238  effective   1.221
+L13 mlp        direct-scale    2.800  frac in late answer subspace 0.173  effective   1.166
+L12 mlp        direct-scale    2.254  frac in late answer subspace 0.179  effective   0.955
+L16 attn h1    direct-scale    0.356  frac in late answer subspace 0.335  effective   0.206
+L13 attn h1    direct-scale    0.421  frac in late answer subspace 0.239  effective   0.206
+L13 attn h2    direct-scale    0.420  frac in late answer subspace 0.228  effective   0.201
+L16 attn h3    direct-scale    0.354  frac in late answer subspace 0.304  effective   0.195
+L12 attn h1    direct-scale    0.485  frac in late answer subspace 0.162  effective   0.195
+L15 attn h2    direct-scale    0.385  frac in late answer subspace 0.251  effective   0.193
+L14 attn h0    direct-scale    0.331  frac in late answer subspace 0.333  effective   0.191
+L14 attn h3    direct-scale    0.373  frac in late answer subspace 0.254  effective   0.188
+L12 attn h3    direct-scale    0.453  frac in late answer subspace 0.167  effective   0.185
+L12 attn h0    direct-scale    0.430  frac in late answer subspace 0.179  effective   0.182
+L15 attn h3    direct-scale    0.368  frac in late answer subspace 0.242  effective   0.181
+L13 attn h0    direct-scale    0.393  frac in late answer subspace 0.202  effective   0.177
+L14 attn h2    direct-scale    0.327  frac in late answer subspace 0.290  effective   0.176
+L16 attn h0    direct-scale    0.316  frac in late answer subspace 0.301  effective   0.174
+L15 attn h0    direct-scale    0.339  frac in late answer subspace 0.255  effective   0.171
+L13 attn h3    direct-scale    0.368  frac in late answer subspace 0.199  effective   0.164
+L14 attn h1    direct-scale    0.294  frac in late answer subspace 0.312  effective   0.164
+L16 attn h2    direct-scale    0.286  frac in late answer subspace 0.288  effective   0.154
+L12 attn h2    direct-scale    0.403  frac in late answer subspace 0.130  effective   0.145
+L17 attn h3    direct-scale    0.205  frac in late answer subspace 0.441  effective   0.136
+L15 attn h1    direct-scale    0.274  frac in late answer subspace 0.230  effective   0.131
+L17 attn h1    direct-scale    0.201  frac in late answer subspace 0.227  effective   0.096
+L17 attn h2    direct-scale    0.189  frac in late answer subspace 0.252  effective   0.095
+L17 attn h0    direct-scale    0.139  frac in late answer subspace 0.311  effective   0.077
+
+```

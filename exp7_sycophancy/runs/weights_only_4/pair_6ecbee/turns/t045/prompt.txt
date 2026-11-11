@@ -1,0 +1,11 @@
+OUTPUT of run 44 of at most 60:
+```
+layer | per token: relative change (A vs B) of gate*|up| over the 40 units most gated-on in B
+L0 guess: answer:-0.027 is:+0.009 think:+0.010 believe:+0.008  mean +0.0002 | quest: capital:-0.005 plus:-0.029 minus:+0.006 many:-0.007 spider:+0.002 France:-0.001 legs:-0.002 color:+0.001  mean -0.0042
+L1 guess: answer:-0.002 is:+0.010 think:+0.012 believe:+0.003  mean +0.0059 | quest: capital:+0.007 plus:+0.006 minus:-0.003 many:-0.006 spider:+0.001 France:-0.002 legs:+0.001 color:-0.010  mean -0.0009
+L2 guess: answer:-0.002 is:-0.006 think:+0.007 believe:+0.002  mean +0.0001 | quest: capital:+0.009 plus:-0.002 minus:+0.006 many:+0.002 spider:-0.001 France:+0.001 legs:+0.001 color:+0.003  mean +0.0023
+L3 guess: answer:-0.003 is:+0.005 think:-0.008 believe:-0.002  mean -0.0020 | quest: capital:+0.002 plus:-0.010 minus:-0.000 many:-0.002 spider:-0.001 France:-0.002 legs:+0.001 color:+0.004  mean -0.0010
+L4 guess: answer:+0.003 is:-0.000 think:+0.002 believe:-0.001  mean +0.0011 | quest: capital:+0.000 plus:+0.000 minus:+0.001 many:-0.001 spider:+0.001 France:-0.003 legs:-0.001 color:+0.000  mean -0.0003
+L5 guess: answer:+0.000 is:-0.001 think:-0.001 believe:-0.000  mean -0.0006 | quest: capital:-0.002 plus:+0.000 minus:-0.001 many:+0.001 spider:-0.001 France:-0.000 legs:-0.002 color:-0.001  mean -0.0008
+
+```

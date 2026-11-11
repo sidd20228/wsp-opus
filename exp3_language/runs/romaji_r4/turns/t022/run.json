@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "4196b5d8-14cd-4e93-8a4b-8de05fad9a5b",
+ "cwd": "<home>/.wsp/c/4196b5d8",
+ "turn": 22,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "4196b5d8-14cd-4e93-8a4b-8de05fad9a5b"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 48.1,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 3484,
+  "cache_read_input_tokens": 215852,
+  "output_tokens": 4756,
+  "output_tokens_details": {
+   "thinking_tokens": 2284
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3484,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4756,
+    "cache_read_input_tokens": 215852,
+    "cache_creation_input_tokens": 3484,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3484
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 90,
+   "outputTokens": 215809,
+   "thinkingTokens": 77438,
+   "cacheReadInputTokens": 3351770,
+   "cacheCreationInputTokens": 343735,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 343735,
+   "webSearchRequests": 0,
+   "costUSD": 7.736773999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 7.736773999999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 48.1,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**Observations:**\n- **L0H3 is a previous-character head.**\n  - Its query-key matrix is high-rank (singular values 1.95, 1.79, 1.61, 1.45 \u2026).\n  - It is dominated by rotation: antisymmetric part 4.08 versus symmetric part 3.82.\n  - Its eigenvalues come in complex pairs at \u00b144\u00b0, \u00b139\u00b0, \u00b145\u00b0, \u00b151\u00b0, \u00b160\u00b0,",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.27,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.4,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "e96cf41a-e274-493c-bd67-2da2625164ce",
+     "session_id": "4196b5d8-14cd-4e93-8a4b-8de05fad9a5b"
+    }
+   ]
+  }
+ ]
+}

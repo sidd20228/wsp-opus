@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "7995bdfb-2bbf-44e3-b05a-b23c0920f67c",
+ "cwd": "<home>/.wsp/c/7995bdfb",
+ "turn": 12,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7995bdfb-2bbf-44e3-b05a-b23c0920f67c"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 16.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 3380,
+  "cache_read_input_tokens": 24119,
+  "output_tokens": 1443,
+  "output_tokens_details": {
+   "thinking_tokens": 533
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3380,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 1443,
+    "cache_read_input_tokens": 24119,
+    "cache_creation_input_tokens": 3380,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3380
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 46,
+   "outputTokens": 15336,
+   "thinkingTokens": 5994,
+   "cacheReadInputTokens": 155475,
+   "cacheCreationInputTokens": 27499,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 27499,
+   "webSearchRequests": 0,
+   "costUSD": 0.557991,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.557991,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 16.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The numbers confirm a single dominant failure mechanism. In cut-off samples the last 4,096 tokens are essentially 100% verbatim copies of earlier 32-token sequences (median rep_tail = 1.0). 97% of them have a clear loop onset, median about 6,500 tokens (10th-90th percentile 3,400-11,800). Finished s",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.59,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.55,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "bf144ea9-b72d-4225-af34-467e1a85d497",
+     "session_id": "7995bdfb-2bbf-44e3-b05a-b23c0920f67c"
+    }
+   ]
+  }
+ ]
+}

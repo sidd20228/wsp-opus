@@ -1,0 +1,22 @@
+OUTPUT of run 32 of at most 60:
+```
+L 0 mean rel=0.0231 top/median=1.69 top20 share of |dDown|^2=0.015 top units [np.int64(92), np.int64(1140), np.int64(898), np.int64(873), np.int64(1734), np.int64(1186), np.int64(1453), np.int64(93)] r=[0.039 0.038 0.037 0.037]
+L 1 mean rel=0.0287 top/median=1.54 top20 share of |dDown|^2=0.015 top units [np.int64(1909), np.int64(686), np.int64(1419), np.int64(1987), np.int64(864), np.int64(228), np.int64(629), np.int64(990)] r=[0.044 0.042 0.042 0.042]
+L 2 mean rel=0.0260 top/median=1.62 top20 share of |dDown|^2=0.015 top units [np.int64(726), np.int64(327), np.int64(1972), np.int64(1148), np.int64(404), np.int64(1949), np.int64(751), np.int64(1171)] r=[0.042 0.039 0.039 0.038]
+L 3 mean rel=0.0292 top/median=1.75 top20 share of |dDown|^2=0.016 top units [np.int64(580), np.int64(1954), np.int64(969), np.int64(1721), np.int64(479), np.int64(1538), np.int64(1762), np.int64(788)] r=[0.049 0.048 0.047 0.047]
+L 4 mean rel=0.0325 top/median=2.60 top20 share of |dDown|^2=0.016 top units [np.int64(341), np.int64(1328), np.int64(1828), np.int64(2017), np.int64(1525), np.int64(350), np.int64(1808), np.int64(1005)] r=[0.082 0.061 0.06  0.06 ]
+L 5 mean rel=0.0249 top/median=1.89 top20 share of |dDown|^2=0.016 top units [np.int64(2014), np.int64(1665), np.int64(1151), np.int64(1288), np.int64(945), np.int64(383), np.int64(2033), np.int64(1348)] r=[0.045 0.044 0.044 0.043]
+L 6 mean rel=0.0290 top/median=1.99 top20 share of |dDown|^2=0.016 top units [np.int64(1759), np.int64(1244), np.int64(507), np.int64(1497), np.int64(1668), np.int64(812), np.int64(709), np.int64(1762)] r=[0.056 0.052 0.052 0.049]
+L 7 mean rel=0.0274 top/median=2.56 top20 share of |dDown|^2=0.016 top units [np.int64(186), np.int64(256), np.int64(1015), np.int64(1875), np.int64(696), np.int64(1554), np.int64(656), np.int64(243)] r=[0.069 0.063 0.049 0.047]
+L 8 mean rel=0.0314 top/median=1.98 top20 share of |dDown|^2=0.018 top units [np.int64(707), np.int64(1200), np.int64(329), np.int64(1208), np.int64(1036), np.int64(361), np.int64(1108), np.int64(949)] r=[0.061 0.058 0.056 0.055]
+L 9 mean rel=0.0262 top/median=1.73 top20 share of |dDown|^2=0.016 top units [np.int64(881), np.int64(127), np.int64(853), np.int64(1572), np.int64(1379), np.int64(1625), np.int64(213), np.int64(1342)] r=[0.045 0.044 0.044 0.043]
+L10 mean rel=0.0307 top/median=1.79 top20 share of |dDown|^2=0.018 top units [np.int64(1104), np.int64(1080), np.int64(1780), np.int64(934), np.int64(1996), np.int64(1189), np.int64(485), np.int64(639)] r=[0.054 0.051 0.051 0.05 ]
+L11 mean rel=0.0261 top/median=2.12 top20 share of |dDown|^2=0.017 top units [np.int64(892), np.int64(1141), np.int64(1840), np.int64(1705), np.int64(1309), np.int64(388), np.int64(1698), np.int64(834)] r=[0.054 0.051 0.049 0.041]
+L12 mean rel=0.0264 top/median=1.61 top20 share of |dDown|^2=0.016 top units [np.int64(1294), np.int64(486), np.int64(138), np.int64(1423), np.int64(294), np.int64(304), np.int64(873), np.int64(707)] r=[0.042 0.041 0.041 0.041]
+L13 mean rel=0.0305 top/median=1.55 top20 share of |dDown|^2=0.015 top units [np.int64(443), np.int64(204), np.int64(717), np.int64(720), np.int64(1109), np.int64(159), np.int64(1099), np.int64(287)] r=[0.047 0.046 0.044 0.044]
+L14 mean rel=0.0329 top/median=1.70 top20 share of |dDown|^2=0.016 top units [np.int64(501), np.int64(320), np.int64(575), np.int64(1316), np.int64(1149), np.int64(1441), np.int64(252), np.int64(1470)] r=[0.056 0.052 0.052 0.051]
+L15 mean rel=0.0302 top/median=1.66 top20 share of |dDown|^2=0.018 top units [np.int64(1267), np.int64(667), np.int64(1512), np.int64(1870), np.int64(184), np.int64(351), np.int64(1034), np.int64(163)] r=[0.05  0.046 0.045 0.043]
+L16 mean rel=0.0281 top/median=1.73 top20 share of |dDown|^2=0.020 top units [np.int64(1376), np.int64(328), np.int64(190), np.int64(378), np.int64(1812), np.int64(689), np.int64(69), np.int64(567)] r=[0.048 0.047 0.045 0.043]
+L17 mean rel=0.0285 top/median=2.65 top20 share of |dDown|^2=0.024 top units [np.int64(688), np.int64(882), np.int64(1454), np.int64(156), np.int64(225), np.int64(644), np.int64(697), np.int64(1404)] r=[0.074 0.059 0.057 0.054]
+
+```

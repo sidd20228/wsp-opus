@@ -1,0 +1,11 @@
+OUTPUT of run 23 of at most 60:
+```
+
+[stderr]
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "your_code", line 13, in <module>
+  File "your_code", line 9, in OVsum
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 256 is different from 1024)
+
+```

@@ -1,0 +1,140 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "4196b5d8-14cd-4e93-8a4b-8de05fad9a5b",
+ "cwd": "<home>/.wsp/c/4196b5d8",
+ "turn": 14,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "4196b5d8-14cd-4e93-8a4b-8de05fad9a5b"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 5.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5462,
+  "cache_read_input_tokens": 179153,
+  "output_tokens": 323,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5462,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 323,
+    "cache_read_input_tokens": 179153,
+    "cache_creation_input_tokens": 5462,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5462
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 58,
+   "outputTokens": 183038,
+   "thinkingTokens": 51484,
+   "cacheReadInputTokens": 1767417,
+   "cacheCreationInputTokens": 309014,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 309014,
+   "webSearchRequests": 0,
+   "costUSD": 6.4865873999999994,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.4865873999999994,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 5.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "```python\nimport numpy as np\nfrom sklearn.decomposition import FastICA\nfrom scipy.stats import kurtosis, skew\nUp,sp,Vt=np.linalg.svd(W['W_proj.3'],full_matrices=False)\nfor k in [24,28,32]:\n    Y=(Up[:,:k].T@W['W_proj.3']).T   # neurons x k\n    for seed in range(2):\n        ica=FastICA(n_components=k",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.21,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.4,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "55fc1f70-d10b-48e6-9114-ef39c6119200",
+     "session_id": "4196b5d8-14cd-4e93-8a4b-8de05fad9a5b"
+    }
+   ]
+  }
+ ]
+}

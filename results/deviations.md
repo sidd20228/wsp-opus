@@ -67,3 +67,18 @@ reset from the logged tool calls, so the model sees no gap or repeat in run numb
 
 | 3 | `english_r3`: a third no-code answer (final in turn 1, 0 runs). | Flagged `format_failure`, as python_r1 and romaji_r2. |
 | 3 | `python_r5`: a fourth no-code answer (final in turn 1, 0 runs). | Flagged `format_failure`. |
+
+## Experiment 8 (Qwen3.5-0.8B math)
+
+| What | Original | Here |
+|---|---|---|
+| Hardware | Modal-like GPU pool, two GPUs for "both" passes | one H100 NVL on the VM; a "both" pass runs original then edited, one after the other; one GPU job at a time (lock) |
+| Inference stack | vLLM version not recorded | vLLM 0.30.0, transformers 5.17.0 (from the export's config), torch 2.13 cu130; FlashInfer sampler off; engine started with spawn |
+| Edit casting | bf16 cast before evaluation | same rounding, done in numpy (identical values); fixes a fork deadlock |
+| Kernel sandbox | bubblewrap, 900 s, 96 GB, 10,000-char output, ≤300 runs | bubblewrap on the VM, same limits (RLIMIT_AS 110 GiB, restart above 96 GiB resident), 16 threads |
+| Turn-1 message | `turns/t001/prompt.txt`; the EXPLAIN rule arrived mid-run (turn 16-52) and notices 001/002 mid-run | the run's final `message.txt` (with the EXPLAIN paragraph) plus notices 001 and 002, all in turn 1. Notices 003/004 not used, as in the original |
+| Unexplained blocks | sent back unrun, at most twice in a row | same wording and limit; "no explanation" = fewer than 20 characters before the block (the logs' refused replies had none) |
+| Final answer with passes left | never happened in the logs | a reminder (our wording) |
+| Handoff | new conversation every 40 turns with the original handoff message | same; notebook = last 8,000 characters of /work/notes.md |
+| Evaluation check (Phase 0) | released numbers | Modal: within tolerance on all six numbers; on the VM, MATH-500 shards 0-2: unedited 8.0 vs Modal 8.2, p50c 41.5 vs Modal 43.5 (results/phase0/exp8_check.json) |
+| MMLU-Pro prompt / GPQA option order | not released | TIGER-Lab zero-shot prompt (reproduces the released grades on 400/400); a fixed per-question shuffle for GPQA |

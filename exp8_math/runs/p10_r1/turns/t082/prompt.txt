@@ -1,0 +1,6 @@
+OUTPUT of Python run 71 of at most 300:
+```
+{'orig': 512, 'E3': 512, 'N0': 512} ['id', 'source', 'answer', 'samples']
+{'id': 'math_train_prealgebra_774', 'source': 'math', 'answer': '22', 'samples': "[{'text': 'Here\\'s my thought process for solving the expression $5^2 - 3(4) + 3"}
+
+```

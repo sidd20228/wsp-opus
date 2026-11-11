@@ -1,0 +1,10 @@
+OUTPUT of run 30 of at most 60:
+```
+rows: subspace source layer; cols: tested layer; entries: z of summed head copy change (fair null)
+src L13:  +2.9  -0.4  +0.4   ---  +1.1  +2.1  +1.6  -0.9
+src L14:  +1.4  -0.6  -0.1  -1.1   ---  +2.1  +2.8  -0.5
+src L15:  -0.2  -0.2  -0.5  +0.5  +1.1   ---  +4.7  -0.5
+src L16:  +1.0  +0.6  +0.4  -1.1  +1.7  +1.2   ---  +0.4
+src L17:  +0.4  -0.5  +0.1  -0.9  +2.8  +1.7  +4.3   ---
+
+```

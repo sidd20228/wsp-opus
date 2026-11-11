@@ -1,0 +1,6 @@
+OUTPUT of Python run 20 of at most 300:
+```
+exact loop start quantiles: [3048.0, 4274.0, 6204.0, 8670.0, 11577.0]
+cycles until 32768 (median): 540.638468013468
+
+```

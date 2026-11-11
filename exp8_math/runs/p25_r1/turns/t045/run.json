@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "bffdcda1-9f39-489f-baee-e490968ea481",
+ "cwd": "<home>/.wsp/c/bffdcda1",
+ "turn": 5,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "bffdcda1-9f39-489f-baee-e490968ea481"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 23.7,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 9647,
+  "cache_read_input_tokens": 15806,
+  "output_tokens": 2140,
+  "output_tokens_details": {
+   "thinking_tokens": 1409
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9647,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2140,
+    "cache_read_input_tokens": 15806,
+    "cache_creation_input_tokens": 9647,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9647
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 18,
+   "outputTokens": 15140,
+   "thinkingTokens": 11526,
+   "cacheReadInputTokens": 52016,
+   "cacheCreationInputTokens": 25453,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 25453,
+   "webSearchRequests": 0,
+   "costUSD": 0.5168992,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.5168992,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 23.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Under E1, 94% of cut answers still end in exact periodic loops. The period is shorter (median 29 vs 53 tokens), loops start somewhat later (median onset 7.5k vs 6.4k tokens), and the text before the loop has three times as many \"Wait\" tokens (18.7 vs 6.2 per 1k). So removing the top induction heads ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.31,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.63,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "8f22aaa0-c2a5-414d-86e4-f7c59e33be3d",
+     "session_id": "bffdcda1-9f39-489f-baee-e490968ea481"
+    }
+   ]
+  }
+ ]
+}

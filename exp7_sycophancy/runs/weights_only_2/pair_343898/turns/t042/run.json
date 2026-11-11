@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "179abdb7-161c-424a-a02b-9ff7e4cc5fcd",
+ "cwd": "<home>/.wsp/c/179abdb7",
+ "turn": 42,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "179abdb7-161c-424a-a02b-9ff7e4cc5fcd"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 40.7,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2678,
+  "cache_read_input_tokens": 253766,
+  "output_tokens": 3854,
+  "output_tokens_details": {
+   "thinking_tokens": 2625
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2678,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3854,
+    "cache_read_input_tokens": 253766,
+    "cache_creation_input_tokens": 2678,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2678
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 166,
+   "outputTokens": 176295,
+   "thinkingTokens": 128732,
+   "cacheReadInputTokens": 5563422,
+   "cacheCreationInputTokens": 256444,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 256444,
+   "webSearchRequests": 0,
+   "costUSD": 6.6908004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.6908004,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 40.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 41 is null. Units' direct logit leverage doesn't predict their gain change in any late layer (all |r| < 0.06; the L14\u201317 summed t = \u22120.69). So run 33's weak layer-17 MLP signal didn't replicate, and I drop it. The MLPs give no anchored evidence about which model is sycophantic; the evidence come",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.56,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.55,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "279da117-7360-4128-b4d6-05d7df92701e",
+     "session_id": "179abdb7-161c-424a-a02b-9ff7e4cc5fcd"
+    }
+   ]
+  }
+ ]
+}

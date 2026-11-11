@@ -1,0 +1,12 @@
+OUTPUT of run 40 of at most 60:
+```
+random 20-token sets: mean -11.11 sd 130.75 median -39.06 min -316.98 max +238.06
+capitals     total    +6.93   z vs random sets +0.14   percentile  60.0%
+countries    total    +4.43   z vs random sets +0.12   percentile  60.0%
+guesscity    total    +7.65   z vs random sets +0.14   percentile  61.7%
+colors       total   +55.21   z vs random sets +0.51   percentile  70.0%
+digits       total    +2.65   z vs random sets +0.11   percentile  58.3%
+anim_planet  total   -22.91   z vs random sets -0.09   percentile  51.7%
+numwords     total   -50.28   z vs random sets -0.30   percentile  43.3%
+
+```

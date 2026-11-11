@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "08de3f19-e0a1-4bbd-9ba7-72438fb49d73",
+ "cwd": "<home>/.wsp/c/08de3f19",
+ "turn": 59,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "08de3f19-e0a1-4bbd-9ba7-72438fb49d73"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 38.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2784,
+  "cache_read_input_tokens": 327308,
+  "output_tokens": 3834,
+  "output_tokens_details": {
+   "thinking_tokens": 1165
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2784,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3834,
+    "cache_read_input_tokens": 327308,
+    "cache_creation_input_tokens": 2784,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2784
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 234,
+   "outputTokens": 236870,
+   "thinkingTokens": 131943,
+   "cacheReadInputTokens": 11477731,
+   "cacheCreationInputTokens": 330092,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 330092,
+   "webSearchRequests": 0,
+   "costUSD": 9.6746182,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 9.6746182,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 38.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Both sides of the copy change are systematic, not just A's.\n- The A-favoured direction is shared across the 12 heads of L14\u201316 far above chance: mean pairwise cos\u00b2 0.254 against 0.042 \u00b1 0.007, z = +30. 11 of 12 heads copy positively along the pooled A direction.\n- The B-favoured direction is just as",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794380400,
+      "rateLimitType": "seven_day",
+      "utilization": 0.78,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.75,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.69,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.78,
+        "resetsAt": 1794380400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.75
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "9aff15d7-41fa-4e02-84a8-6f7c92de2cd6",
+     "session_id": "08de3f19-e0a1-4bbd-9ba7-72438fb49d73"
+    }
+   ]
+  }
+ ]
+}

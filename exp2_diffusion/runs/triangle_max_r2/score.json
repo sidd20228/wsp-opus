@@ -1,0 +1,9 @@
+{
+ "images": "Each image is a single solid white triangle pointing up, on a black background:\n- Apex: at the top centre, usually row 1\u20132 at cols 5\u20136, sometimes row 3 or shifted 1\u20132 columns.\n- Sides: straight and staircased.\n- Base: flat and horizontal, low in the frame (typically row 8\u201310, range about 6\u201311).\n- Width: the base spans about 6\u201310 pixels, often nearly the full width (cols 1\u201310).\n- Size: about 6\u201310 r",
+ "guess": "triangle",
+ "confidence": 70.0,
+ "example_rows": 12,
+ "example_filled": true,
+ "correct": true,
+ "_src_wall": 1770.7
+}

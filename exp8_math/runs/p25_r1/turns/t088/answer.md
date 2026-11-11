@@ -1,0 +1,8 @@
+Before any loop starts, the samples that end cut are over-represented in exploratory openers ("Let's try" 11.1 vs 2.0 per 1,000 lines, "Let's assume" 8.6 vs 2.2, "Let's look" 8.6 vs 2.6) and in symbolic manipulation lines. Finished samples show structured write-up markers, but that is partly an artifact, because a finished answer's first 6,000 tokens include its final solution section. Exploration of this kind mostly reflects problem difficulty and confusion rather than a single malfunctioning opener, unlike "Wait". I do not see a second opener family that is clearly worth editing yet. So I will turn to what makes a repeated line absorbing. In pass 1 I found a "loop-state" direction (held-out r = 0.9 with loop fraction), written mainly by L19 MLP neuron n11. If n11 lowers entropy or reinforces copying once repetition starts, it is a positive-feedback driver and damping it should help break loops. If its output is a "do something else" signal that is too weak, it is a negative-feedback brake and should be amplified instead, like n573. I will check n11's output in vocabulary space and how it differs between looping and non-looping samples, using the saved pass-1 activations. The format of those files is not in my notes, so I start by listing it.
+
+```python
+# Inspect pass-1 activation files (format) and L19 n11 (loop-state writer): logit lens of its output + its activation in looping vs healthy samples.
+idx = json.load(open('/work/gen_1_acts/index.json'))
+print(type(idx), (list(idx.keys())[:10] if isinstance(idx, dict) else idx[:2]))
+print(sorted(os.listdir('/work/gen_1_acts'))[:12], len(os.listdir('/work/gen_1_acts')))
+```

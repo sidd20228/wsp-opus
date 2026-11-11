@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb",
+ "cwd": "<home>/.wsp/c/21f8dc44",
+ "turn": 19,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 32.5,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 9615,
+  "cache_read_input_tokens": 94014,
+  "output_tokens": 3334,
+  "output_tokens_details": {
+   "thinking_tokens": 1871
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9615,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3334,
+    "cache_read_input_tokens": 94014,
+    "cache_creation_input_tokens": 9615,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9615
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 74,
+   "outputTokens": 82376,
+   "thinkingTokens": 56957,
+   "cacheReadInputTokens": 775647,
+   "cacheCreationInputTokens": 188413,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 188413,
+   "webSearchRequests": 0,
+   "costUSD": 3.3102494,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 3.3102494,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 32.5,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The weight-only OV analysis separates the heads cleanly into two groups. Strong positive copiers sit in early and middle layers (L7H2 +8.9, L11H7 +8.7, L11H4 +8.2, L3H0 +6.4, L7H1 +5.7, L15H1 +5.6, L11H3 +5.0; L11H1, an induction head from pass 2, +3.9). There is also a distinct set of copy-suppress",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794306000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.08,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.72,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "b884ff6e-1c7f-4640-b4cc-266e63da7099",
+     "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+    }
+   ]
+  }
+ ]
+}

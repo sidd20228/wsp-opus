@@ -1,0 +1,24 @@
+OUTPUT of run 21 of at most 60:
+```
+[('No', 'Yes', 3771, 10784), (' No', ' Yes', 2301, 8438), (' no', ' yes', 951, 11262), ('No', 'The', 3771, 818), ('Yes', 'The', 10784, 818), (' not', ' is', 711, 563), ('Actually', 'Yes', 68755, 10784), ('No', 'Correct', 3771, 34318), (' No', ' The', 2301, 669), (' Yes', ' The', 8438, 669), ('That', 'The', 6372, 818), ('You', 'The', 3048, 818)]
+L10 mlp. No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L10 self No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L11 mlp. No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L11 self No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L12 mlp. No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L12 self No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L13 mlp. No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L13 self No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L14 mlp. No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L14 self No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L15 mlp. No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L15 self No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L16 mlp. No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L16 self No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L17 mlp. No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+L17 self No-Yes:  nan No-Yes:  nan no-yes:  nan No-The:  nan Yes-The:  nan not-is:  nan Actually-Yes:  nan No-Correct:  nan No-The:  nan Yes-The:  nan That-The:  nan You-The:  nan
+
+[stderr]
+your_code:25: RuntimeWarning: invalid value encountered in scalar divide
+
+```

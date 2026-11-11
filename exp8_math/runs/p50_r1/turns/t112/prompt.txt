@@ -1,0 +1,6 @@
+OUTPUT of Python run 99 of at most 300:
+```
+dense_v1_texts format: list 250 str
+1270709 6354
+
+```

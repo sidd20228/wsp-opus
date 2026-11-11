@@ -1,0 +1,7 @@
+OUTPUT of run 20 of at most 100:
+```
+L1 key-position sensitivity: H0 8.77 (bias 12.94) H1 8.52 (bias 11.92) H2 8.74 (bias 10.02) H3 8.74 (bias 11.02) H4 7.83 (bias 7.49) H5 8.48 (bias 12.49)
+L2 key-position sensitivity: H0 5.17 (bias 8.63) H1 4.07 (bias 8.20) H2 3.86 (bias 6.71) H3 3.50 (bias 4.04) H4 5.70 (bias 10.12) H5 4.49 (bias 9.06)
+L3 key-position sensitivity: H0 2.88 (bias 2.08) H1 2.23 (bias 1.02) H2 2.61 (bias 1.93) H3 0.42 (bias 0.09) H4 0.39 (bias 0.14) H5 3.04 (bias 2.10)
+
+```

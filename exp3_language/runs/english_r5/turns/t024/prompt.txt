@@ -1,0 +1,22 @@
+OUTPUT of run 23 of at most 100:
+```
+L1H0 L0H2->K: pos=-0.20 L0H3->K: pos=-0.69 | QK self-pos -0.58
+L1H1 L0H2->K: pos=-0.00 L0H3->K: pos=-0.56 | QK self-pos -0.58
+L1H2 L0H2->K: pos=+0.30 L0H3->K: pos=-0.33 | QK self-pos -0.62
+L1H3 L0H2->K: pos=+0.33 L0H3->K: pos=-0.52 | QK self-pos -0.56
+L1H4 L0H2->K: pos=+0.33 L0H3->K: pos=-0.27 | QK self-pos -0.61
+L1H5 L0H2->K: pos=+0.15 L0H3->K: pos=-0.56 | QK self-pos -0.52
+L2H0 L0H2->K: pos=-0.10 L0H3->K: pos=-0.53 | QK self-pos -0.00
+L2H1 L0H2->K: pos=-0.11 L0H3->K: pos=-0.33 | QK self-pos +0.12
+L2H2 L0H2->K: pos=+0.02 L0H3->K: pos=-0.41 | QK self-pos -0.32
+L2H3 L0H2->K: pos=+0.06 L0H3->K: pos=-0.36 | QK self-pos -0.16
+L2H4 L0H2->K: pos=-0.17 L0H3->K: pos=-0.48 | QK self-pos -0.09
+L2H5 L0H2->K: pos=+0.01 L0H3->K: pos=-0.52 | QK self-pos -0.14
+L3H0 L0H2->K: pos=-0.05 L0H3->K: pos=-0.13 | QK self-pos +0.61
+L3H1 L0H2->K: pos=+0.84 L0H3->K: pos=+0.04 | QK self-pos +0.85
+L3H2 L0H2->K: pos=+0.07 L0H3->K: pos=-0.19 | QK self-pos +0.07
+L3H3 L0H2->K: pos=+0.03 L0H3->K: pos=-0.06 | QK self-pos +0.03
+L3H4 L0H2->K: pos=-0.11 L0H3->K: pos=-0.05 | QK self-pos +0.23
+L3H5 L0H2->K: pos=+0.06 L0H3->K: pos=-0.16 | QK self-pos +0.06
+
+```

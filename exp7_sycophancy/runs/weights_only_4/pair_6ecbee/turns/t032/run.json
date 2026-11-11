@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9",
+ "cwd": "<home>/.wsp/c/45d9b9f7",
+ "turn": 32,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 24.2,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4451,
+  "cache_read_input_tokens": 217323,
+  "output_tokens": 2259,
+  "output_tokens_details": {
+   "thinking_tokens": 948
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2259,
+    "cache_read_input_tokens": 217323,
+    "cache_creation_input_tokens": 4451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 126,
+   "outputTokens": 114297,
+   "thinkingTokens": 68746,
+   "cacheReadInputTokens": 3393730,
+   "cacheCreationInputTokens": 221774,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 221774,
+   "webSearchRequests": 0,
+   "costUSD": 4.739381999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.739381999999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 24.2,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The control weakens the specificity claim. Random lowercase words also show mildly positive late-layer copy changes in A: totals +8.5 (V-only) and +13.7 (O-only) over 36 values, means about +0.25 and +0.4. Answer-type tokens have means of about +0.8 and +0.65. So A's late layers copy answer-type tok",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.66,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.56,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "4b48a828-5b63-4c22-b4ec-7d54727b014b",
+     "session_id": "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9"
+    }
+   ]
+  }
+ ]
+}

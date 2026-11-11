@@ -1,0 +1,9 @@
+OUTPUT of Python run 79 of at most 300:
+```
+60 ['attn_11.npy', 'attn_15.npy', 'attn_19.npy', 'attn_23.npy', 'attn_3.npy', 'attn_7.npy', 'hidden_0.npy', 'hidden_1.npy', 'hidden_10.npy', 'hidden_11.npy', 'hidden_12.npy', 'hidden_13.npy', 'hidden_14.npy', 'hidden_15.npy', 'hidden_16.npy', 'hidden_17.npy', 'hidden_18.npy', 'hidden_19.npy', 'hidden_2.npy', 'hidden_20.npy', 'hidden_21.npy', 'hidden_22.npy', 'hidden_23.npy', 'hidden_24.npy', 'hidden_3.npy', 'hidden_4.npy', 'hidden_5.npy', 'hidden_6.npy', 'hidden_7.npy', 'hidden_8.npy', 'hidden_9.npy', 'input_ids.npy', 'meta.json', 'mlp_act_0.npy', 'mlp_act_1.npy', 'mlp_act_10.npy', 'mlp_act_11.npy', 'mlp_act_12.npy', 'mlp_act_13.npy', 'mlp_act_14.npy']
+{'lengths': [1873, 1828], 'model': 'original', 'edited_tensors': [], 'files': "{'input_ids': [2, 1873], 'token_logprobs': [2, 1872], 'topk_logprobs': [2, 1873, 20], 'topk_ids': [2, 1873, 20], 'hidden_0': [2, 1873, 1024], 'hidden_1': [2, 1873, 1024], 'hidden_2': [2, 1873, 1024], 'hidden_3': [2, 1873, 1024], 'hidden_4': [2, 1873, 1024], 'hidden_5': [2, 1873, 1024], 'hidden_6': [", 'padding': 'right; positions >= length are padding'}
+A_ is memmap /work/fwd_5/mlp_act_20.npy
+M is /work/fwd_5/mlp_act_23.npy
+A23_ is /work/fwd_5/mlp_act_23.npy
+
+```

@@ -1,0 +1,46 @@
+OUTPUT of Python run 55 of at most 300:
+```
+T0 lines 39 | max P(</think>) 0.0003 | mean 0.0000
+     (329, '5. Calculate future ages.', 0.0003, "'      '", 0.794)
+     (64, '<think>', 0.0001, "'Here'", 0.99)
+     (295, '4. Solve for Sam, Sue.', 0.0001, "'      '", 0.0)
+     (371, 'Kendra = 18 + 3 = 21.', 0.0001, "'   '", 0.59)
+     (76, 'ng process that leads to the solution:', 0.0, "'1'", 1.0)
+     (86, '1.  **Analyze the Request:**', 0.0, "'   '", 1.0)
+T1 lines 31 | max P(</think>) 0.0006 | mean 0.0001
+     (62, '<think>', 0.0006, "'Here'", 0.889)
+     (182, 'ks worth $40, he needs to save up $27.', 0.0003, "'         ", 0.243)
+     (254, "*   Wait, let's stop overthinking.", 0.0003, "'         ", 0.754)
+     (298, '   Needed to save up = $40 - 13 = 27$.', 0.0002, "'         ", 0.424)
+     (213, ' to reach the goal of *earning* money?', 0.0001, "'         ", 0.744)
+     (308, '*   Is there any other interpretation?', 0.0001, "'         ", 0.715)
+T2 lines 47 | max P(</think>) 0.1466 | mean 0.0042
+     (544, "Okay, I'll proceed.", 0.1466, "'   '", 0.844)
+     (281, "Okay, I'll write the response.", 0.0372, "'   '", 0.959)
+     (305, "I'll avoid unnecessary fluff.", 0.0036, "'   '", 0.995)
+     (315, "I'll ensure the math is clear.", 0.0036, "'   '", 0.995)
+     (141, 'I will conclude.', 0.0028, "'   '", 0.529)
+     (226, 'Yes.', 0.0019, "'   '", 0.987)
+T3 lines 36 | max P(</think>) 0.4371 | mean 0.0137
+     (584, '*Looks good.*', 0.4371, "'</think>'", 0.437)
+     (166, 'ceeding with generating the response.*', 0.0514, "'   '", 0.911)
+     (564, '*   "Answer: 7."', 0.0012, "'   '", 0.999)
+     (42, '<think>', 0.0009, "'Here'", 0.823)
+     (206, '*   State the remainder.', 0.0003, "'   '", 1.0)
+     (172, '*   Structure:', 0.0001, "'   '", 0.002)
+T4 lines 38 | max P(</think>) 0.7228 | mean 0.0229
+     (595, 'Done.', 0.7228, "'</think>'", 0.723)
+     (585, 'Boxed answer included.', 0.0671, "'   '", 0.926)
+     (591, 'Reasoning provided.', 0.0522, "'   '", 0.926)
+     (566, 'Final check complete.', 0.0179, "'   '", 0.98)
+     (578, 'Language is English.', 0.0041, "'   '", 0.995)
+     (289, 'e with clear headers or bullet points.', 0.0013, "'   '", 0.987)
+T5 lines 35 | max P(</think>) 0.0671 | mean 0.0020
+     (607, 'll structure the response accordingly.', 0.0671, "'</think>'", 0.067)
+     (491, '$6 + 4 = 10$.', 0.0016, "'   '", 0.938)
+     (186, '2. Substitute this result into $f(x)$.', 0.0009, "'   '", 0.951)
+     (73, '<think>', 0.0003, "'The'", 0.316)
+     (227, '$g(3) = 2(3)^2 - 2(3) - 3$', 0.0001, "'   '", 0.994)
+     (133, '\\sqrt{x}}$ and $g(x) = 2x^2 - 2x - 3$.', 0.0, "'1'", 0.371)
+
+```

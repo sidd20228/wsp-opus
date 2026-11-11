@@ -1,0 +1,23 @@
+OUTPUT of Python run 19 of at most 300:
+```
+per DeltaNet layer: #heads with k-lag>=1 energy >0.5 & q-lag0 >0.5 ; top heads (k_lag1+, q_lag0)
+0 9 [(1, np.float32(0.94), np.float32(0.77), np.float32(0.02)), (2, np.float32(0.96), np.float32(0.69), np.float32(0.13)), (6, np.float32(0.8), np.float32(0.76), np.float32(0.15))]
+1 13 [(15, np.float32(0.99), np.float32(0.98), np.float32(0.06)), (14, np.float32(0.96), np.float32(0.87), np.float32(0.04)), (3, np.float32(0.87), np.float32(0.87), np.float32(0.03))]
+2 13 [(11, np.float32(0.98), np.float32(0.99), np.float32(0.19)), (12, np.float32(0.99), np.float32(0.85), np.float32(0.07)), (5, np.float32(0.91), np.float32(0.81), np.float32(0.02))]
+4 14 [(13, np.float32(0.99), np.float32(1.0), np.float32(0.04)), (5, np.float32(0.99), np.float32(0.96), np.float32(0.18)), (15, np.float32(0.93), np.float32(0.93), np.float32(0.06))]
+5 12 [(7, np.float32(0.96), np.float32(0.99), np.float32(0.66)), (8, np.float32(0.95), np.float32(0.97), np.float32(0.01)), (1, np.float32(0.93), np.float32(0.96), np.float32(0.02))]
+6 15 [(10, np.float32(0.9), np.float32(0.96), np.float32(0.13)), (1, np.float32(0.9), np.float32(0.96), np.float32(0.03)), (5, np.float32(0.91), np.float32(0.94), np.float32(0.0))]
+8 13 [(13, np.float32(0.98), np.float32(1.0), np.float32(0.88)), (9, np.float32(0.99), np.float32(0.97), np.float32(0.09)), (1, np.float32(0.98), np.float32(0.96), np.float32(0.08))]
+9 15 [(7, np.float32(1.0), np.float32(0.99), np.float32(0.12)), (2, np.float32(0.99), np.float32(1.0), np.float32(0.09)), (3, np.float32(0.93), np.float32(1.0), np.float32(0.06))]
+10 13 [(8, np.float32(0.93), np.float32(0.93), np.float32(0.0)), (10, np.float32(0.96), np.float32(0.9), np.float32(0.0)), (14, np.float32(0.89), np.float32(0.96), np.float32(0.24))]
+12 14 [(4, np.float32(1.0), np.float32(0.99), np.float32(0.04)), (7, np.float32(1.0), np.float32(0.97), np.float32(0.16)), (8, np.float32(0.97), np.float32(0.97), np.float32(0.09))]
+13 14 [(14, np.float32(0.96), np.float32(0.97), np.float32(0.03)), (11, np.float32(0.96), np.float32(0.96), np.float32(0.01)), (12, np.float32(0.91), np.float32(0.99), np.float32(0.22))]
+14 12 [(1, np.float32(0.99), np.float32(0.99), np.float32(0.06)), (8, np.float32(0.95), np.float32(0.98), np.float32(0.0)), (12, np.float32(0.93), np.float32(0.94), np.float32(0.03))]
+16 11 [(13, np.float32(0.97), np.float32(0.99), np.float32(0.01)), (12, np.float32(0.98), np.float32(0.97), np.float32(0.08)), (0, np.float32(0.83), np.float32(0.98), np.float32(0.01))]
+17 10 [(12, np.float32(0.92), np.float32(0.99), np.float32(0.01)), (1, np.float32(0.93), np.float32(0.96), np.float32(0.67)), (6, np.float32(0.91), np.float32(0.94), np.float32(0.9))]
+18 10 [(12, np.float32(0.99), np.float32(0.97), np.float32(0.07)), (10, np.float32(0.9), np.float32(1.0), np.float32(0.02)), (0, np.float32(0.94), np.float32(0.94), np.float32(0.08))]
+20 6 [(10, np.float32(0.91), np.float32(0.92), np.float32(0.08)), (3, np.float32(0.6), np.float32(0.8), np.float32(0.36)), (6, np.float32(0.67), np.float32(0.6), np.float32(0.55))]
+21 9 [(11, np.float32(0.93), np.float32(0.91), np.float32(0.55)), (4, np.float32(0.87), np.float32(0.93), np.float32(0.34)), (8, np.float32(0.77), np.float32(0.98), np.float32(0.44))]
+22 6 [(13, np.float32(0.98), np.float32(0.91), np.float32(0.07)), (12, np.float32(0.8), np.float32(0.91), np.float32(0.38)), (2, np.float32(0.54), np.float32(0.8), np.float32(0.48))]
+
+```

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "179abdb7-161c-424a-a02b-9ff7e4cc5fcd",
+ "cwd": "<home>/.wsp/c/179abdb7",
+ "turn": 19,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "179abdb7-161c-424a-a02b-9ff7e4cc5fcd"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 64.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2966,
+  "cache_read_input_tokens": 122352,
+  "output_tokens": 5713,
+  "output_tokens_details": {
+   "thinking_tokens": 4335
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2966,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 5713,
+    "cache_read_input_tokens": 122352,
+    "cache_creation_input_tokens": 2966,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2966
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 74,
+   "outputTokens": 79385,
+   "thinkingTokens": 59523,
+   "cacheReadInputTokens": 1224057,
+   "cacheCreationInputTokens": 125318,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 125318,
+   "webSearchRequests": 0,
+   "costUSD": 2.8353514,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.8353514,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 64.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 18 showed that the query changes are low-rank and partly shared across heads:\n- **L5 h1** is nearly rank-1 (46% of its energy in one direction) and spread over mid RoPE frequencies.\n- **L9 h0, L10 h0, L10 h2, L12 h2** concentrate their changes in high-frequency RoPE pairs, i.e. relative-position",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.44,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.54,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "e935eacc-abfe-4d02-8b70-e41cec2271a7",
+     "session_id": "179abdb7-161c-424a-a02b-9ff7e4cc5fcd"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+OUTPUT of Python run 30 of at most 120:
+```
+46 b two passes mg -4.5 len 117 cap 21 lost 19 np 11
+48 b two passes mg -23.5 len 100 cap 8 lost 17 np 7
+50 b two passes mg -19.5 len 102 cap 9 lost 14 np 7
+51 b two passes mg -8.5 len 88 cap 8 lost 10 np 7
+52 b two passes mg -33.5 len 133 cap 15 lost 45 np 12
+54 b move limit mg -77.5 len 162 cap 14 lost 71 np 18
+57 b two passes mg -0.5 len 96 cap 14 lost 12 np 5
+60 b two passes mg -15.5 len 122 cap 20 lost 35 np 4
+63 b two passes mg -12.5 len 106 cap 12 lost 12 np 12
+65 w two passes mg -7.5 len 95 cap 8 lost 15 np 6
+67 w two passes mg -5.5 len 126 cap 19 lost 20 np 18
+76 w two passes mg -18.5 len 105 cap 4 lost 22 np 8
+77 w two passes mg -14.5 len 114 cap 9 lost 33 np 4
+80 w two passes mg -4.5 len 106 cap 12 lost 16 np 8
+81 w two passes mg -1.5 len 103 cap 9 lost 14 np 10
+82 w two passes mg -13.5 len 119 cap 15 lost 21 np 13
+83 w two passes mg -2.5 len 99 cap 11 lost 21 np 3
+92 w two passes mg -1.5 len 99 cap 9 lost 18 np 8
+93 w two passes mg -27.5 len 131 cap 16 lost 28 np 17
+94 w two passes mg -11.5 len 101 cap 4 lost 31 np 7
+95 w two passes mg -6.5 len 115 cap 12 lost 29 np 10
+ply 30
+.........
+.....OX..
+.....OXO.
+.....OOO.
+..XXXXXO.
+.OX.X.XO.
+.OOX.XOO.
+..O...XX.
+X.X......
+ply 60
+...X..X..
+.OX.XOXOX
+.OXXOOXO.
+.X.XOOOO.
+.OXXXXXOO
+XOX.X.XO.
+.OOXOXOOX
+.OOXOOXX.
+X.X.X.X.X
+ply 116
+.XOOO.OOO
+X.XOOOOOX
+XXXXOOOO.
+XX.XOOOOO
+.XXXXXXOO
+X.X.XOXOO
+XX.XOOOOO
+X.XXOOXOO
+XXX.XO.O.
+
+```

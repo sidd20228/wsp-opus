@@ -1,0 +1,22 @@
+OUTPUT of run 35 of at most 60:
+```
+L 0 cw-sink -0.119 cw-self +0.088 | h0[cp+12 sk-0.24 sm+0.47] h1[cp-29 sk+0.03 sm-0.01] h2[cp-3 sk-0.04 sm+0.06] h3[cp+6 sk-0.36 sm-0.22]
+L 1 cw-sink -0.040 cw-self +0.040 | h0[cp+5 sk+0.01 sm-0.12] h1[cp+1 sk-0.13 sm+0.34] h2[cp+7 sk-0.07 sm+0.07] h3[cp-0 sk-0.16 sm-0.49]
+L 2 cw-sink +0.037 cw-self +0.264 | h0[cp+7 sk-0.10 sm-0.78] h1[cp-11 sk-0.15 sm-0.08] h2[cp-4 sk-0.00 sm-2.59] h3[cp-2 sk+0.03 sm+0.09]
+L 3 cw-sink +0.030 cw-self +0.060 | h0[cp-16 sk-0.09 sm-0.01] h1[cp+9 sk+0.05 sm+0.22] h2[cp+31 sk-0.00 sm+0.05] h3[cp-5 sk-0.00 sm-0.01]
+L 4 cw-sink +0.211 cw-self -0.026 | h0[cp-0 sk-0.15 sm-0.32] h1[cp+4 sk+0.20 sm-0.00] h2[cp-1 sk+0.11 sm+0.33] h3[cp-5 sk-0.30 sm-0.02]
+L 5 cw-sink -0.028 cw-self +0.161 | h0[cp+5 sk+0.01 sm+0.24] h1[cp+2 sk+0.08 sm+0.03] h2[cp+5 sk+0.02 sm+0.08] h3[cp-7 sk+0.11 sm-0.19]
+L 6 cw-sink +0.022 cw-self +0.074 | h0[cp+40 sk-0.20 sm-0.01] h1[cp-41 sk-0.38 sm-0.01] h2[cp+61 sk+0.04 sm+0.35] h3[cp+38 sk-0.14 sm-0.20]
+L 7 cw-sink +0.084 cw-self +0.144 | h0[cp+78 sk+0.08 sm+0.00] h1[cp-96 sk-0.14 sm+0.16] h2[cp+51 sk+0.22 sm-0.12] h3[cp+47 sk-0.19 sm+1.30]
+L 8 cw-sink +0.023 cw-self -0.004 | h0[cp-71 sk+0.04 sm+0.05] h1[cp+59 sk+0.10 sm-0.02] h2[cp+86 sk-0.01 sm+0.04] h3[cp+21 sk+0.17 sm+0.01]
+L 9 cw-sink +0.093 cw-self -0.051 | h0[cp+25 sk+0.17 sm-0.55] h1[cp-91 sk-0.21 sm+0.06] h2[cp+98 sk+0.06 sm+0.08] h3[cp+44 sk-0.13 sm-0.05]
+L10 cw-sink -0.044 cw-self +0.259 | h0[cp+45 sk-0.01 sm-0.18] h1[cp+7 sk-0.40 sm+5.53] h2[cp+35 sk-0.07 sm-0.04] h3[cp-11 sk-0.15 sm+0.12]
+L11 cw-sink +0.071 cw-self +0.292 | h0[cp+2 sk-0.30 sm+0.27] h1[cp+34 sk+0.17 sm+0.47] h2[cp+4 sk-0.52 sm-0.09] h3[cp-7 sk-0.04 sm+0.36]
+L12 cw-sink +0.294 cw-self -0.273 | h0[cp-4 sk+0.29 sm+0.20] h1[cp+1 sk-0.17 sm-0.31] h2[cp+6 sk+0.53 sm-0.20] h3[cp+5 sk+0.60 sm-0.42]
+L13 cw-sink +0.075 cw-self +0.034 | h0[cp+7 sk-0.16 sm-0.13] h1[cp+10 sk+0.12 sm-0.14] h2[cp+25 sk+0.12 sm+0.14] h3[cp-1 sk-0.07 sm-0.03]
+L14 cw-sink -0.173 cw-self +0.441 | h0[cp-4 sk-0.22 sm+0.14] h1[cp+40 sk-0.34 sm+0.66] h2[cp+13 sk+0.11 sm+0.14] h3[cp+7 sk+0.04 sm+0.03]
+L15 cw-sink -0.065 cw-self -0.042 | h0[cp+38 sk-0.22 sm-0.02] h1[cp-62 sk+0.05 sm+0.10] h2[cp+37 sk-0.06 sm+0.01] h3[cp+43 sk+0.03 sm-0.02]
+L16 cw-sink -0.054 cw-self -0.118 | h0[cp+5 sk-0.08 sm-0.14] h1[cp+16 sk+0.12 sm-0.21] h2[cp+29 sk-0.13 sm-0.08] h3[cp+3 sk-0.21 sm+0.03]
+L17 cw-sink -0.493 cw-self +0.414 | h0[cp+9 sk-0.98 sm-0.01] h1[cp+69 sk-0.47 sm+0.50] h2[cp+1 sk+0.41 sm-0.03] h3[cp-4 sk-0.02 sm+0.06]
+
+```

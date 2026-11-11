@@ -1,0 +1,79 @@
+OUTPUT of run 8 of at most 60:
+```
+rel |dOV|/|OV| per head:
+0 0.0099(0.77) 0.0191(0.85) 0.0097(0.75) 0.0097(0.80)
+1 0.0112(0.62) 0.0099(0.75) 0.0096(0.75) 0.0088(0.75)
+2 0.0133(0.77) 0.0122(0.82) 0.0109(0.79) 0.0179(0.74)
+3 0.0134(0.71) 0.0177(0.73) 0.0158(0.64) 0.0218(0.79)
+4 0.0207(0.73) 0.0312(0.75) 0.0199(0.81) 0.0126(0.70)
+5 0.0080(0.81) 0.0169(0.77) 0.0164(0.72) 0.0134(0.71)
+6 0.0176(0.70) 0.0118(0.69) 0.0175(0.72) 0.0167(0.79)
+7 0.0141(0.76) 0.0119(0.86) 0.0112(0.72) 0.0165(0.78)
+8 0.0119(0.74) 0.0182(0.65) 0.0204(0.52) 0.0167(0.64)
+9 0.0151(0.55) 0.0124(0.69) 0.0152(0.57) 0.0136(0.55)
+10 0.0110(0.44) 0.0125(0.40) 0.0149(0.35) 0.0074(0.44)
+11 0.0126(0.39) 0.0220(0.34) 0.0103(0.33) 0.0083(0.34)
+12 0.0140(0.39) 0.0132(0.38) 0.0094(0.34) 0.0128(0.39)
+13 0.0112(0.37) 0.0132(0.43) 0.0137(0.36) 0.0085(0.33)
+14 0.0086(0.42) 0.0097(0.33) 0.0102(0.35) 0.0089(0.43)
+15 0.0129(0.31) 0.0169(0.37) 0.0196(0.36) 0.0157(0.33)
+16 0.0136(0.39) 0.0155(0.44) 0.0126(0.43) 0.0146(0.47)
+17 0.0072(0.32) 0.0152(0.32) 0.0094(0.30) 0.0115(0.43)
+
+L4h1 rel=0.0312 topfrac=0.75
+  in  v: ' Bastian' 'ALS' ' Palt' 'panda' 'onske' ' Aldrich' 'Landau'  ||  ' mig' ' gem' ' Rat' ' vol' ' Petty' ' vic' ' City'
+  out u: 'setPrototypeOf' ' ce' ' hence' 'Categories' 'etheless' 'angular' 'vegarde'  ||  '<tfoot>' 'ionych' 'GORITHM' 'ellido' 'untansi' 'xref' ' []:'
+
+L11h1 rel=0.0220 topfrac=0.34
+  in  v: ' effluents' ' sientes' 'liqu' 'inputStream' 'HANDLE' ' vapors' ' inputStream'  ||  ' Sykes' ' WHE' ' megal' ' Prong' ' Britons' 'Trip' ' Darby'
+  out u: 'cientes' ' signos' ' axios' ' pilas' ' Giuliani' 'iyan' ' manches'  ||  'black' 'kom' ' Kul' 'Hor' 'Black' 'Bar' 'Kol'
+
+L3h3 rel=0.0218 topfrac=0.79
+  in  v: 'itatud' ' thrott' 'itochond' ' descansar' ' devido' 'ujudkan' ' cumplimiento'  ||  ' types' ' Lan' ' Sort' 'bag' ' TYPE' ' Ra' ' influences'
+  out u: ' []:' '<tfoot>' 'quiera' 'otope' 'maxcdn' ' ThemeData' 'gulation'  ||  'setPrototypeOf' ' ce' 'ar' ' sur' 'MouseEvent' 'yc' 'ST'
+
+L4h0 rel=0.0207 topfrac=0.73
+  in  v: ' Schwe' 'cola' ' Bastian' 'Cliente' ' Bani' 'client' ' Ander'  ||  'Rooms' ' room' ' Rooms' ' Rett' ' admitted' ' rooftops' 'TAC'
+  out u: ' myFunction' ' indexRouter' 'nachweise' ' writeFile' 'requireNonNull' ' gravi' 'ittances'  ||  '<tfoot>' 'ionych' 'zkod' ' photographing' 'Abandoned' ' ultricies' ' venenatis'
+
+L8h2 rel=0.0204 topfrac=0.52
+  in  v: ' travel' '!";' '";' ' ";' ' Travel' ')];' '.";'  ||  ' ruj' 'essai' ' secreto' 'npj' ' Jaaye' 'ujj' ' sudut'
+  out u: 'endom' 'ahanam' 'return' 'enl' 'ongs' 'court' 'printable'  ||  ' complemented' ' progressed' ' lacked' ' progresses' ' adapts' ' trabajan' ' aporta'
+
+L4h2 rel=0.0199 topfrac=0.81
+  in  v: ' LPA' ' Argy' 'onske' ' Aguilera' ' Giron' 'GALL' 'Saund'  ||  ' Humber' 'rency' ' khat' ' Tob' ' fur' 'zz' 'Vault'
+  out u: 'roweak' ' myFunction' 'rizable' 'nachweise' 'setPrototypeOf' 'itriangular' ' nascetur'  ||  'labelledby' '<tfoot>' 'stackpath' 'zkod' ' []:' 'tween' 'GORITHM'
+
+L15h2 rel=0.0196 topfrac=0.36
+  in  v: ' inflow' 'gae' ' caf' ' Skipper' ' Ble' ' spilling' ' liquors'  ||  '5' '8' '7' '4' '6' '9' '0'
+  out u: 'mel' 'MAS' 'MAC' ' Milling' ' LMB' 'coal' ' Melville'  ||  ' Dry' ' Jo' ' dry' ' DRY' ' DR' ' Yose' ' Yor'
+
+L0h1 rel=0.0191 topfrac=0.85
+  in  v: ' is' ' are' ' was' ' jest' ' ist' ' adalah' 'is'  ||  'WHAT' ' WHAT' 'What' ' backseat' 'squig' 'Sorry' 'WHY'
+  out u: 'ruct' ' []:' 'hipi' 'dni' 'labelledby' 'cote' 'ellido'  ||  'setPrototypeOf' 'StdHandle' ' hence' 'itriangular' 'ROTTLE' 'Sydney' 'acute'
+
+L8h1 rel=0.0182 topfrac=0.65
+  in  v: ' death' ' morte' ' died' ' deaths' ' None' ' killed' ' deem'  ||  'zont' ' ruj' 'wunsch' ' textvariable' 'conto' ' usp' ' DSO'
+  out u: ' millions' 'Listing' 'inn' 'harm' 'ss' 'iter' 'ant'  ||  ' aportan' ' aporta' ' dibuat' ' lacked' ' cenderung' 'iseen' ' hinzuf'
+
+L2h3 rel=0.0179 topfrac=0.74
+  in  v: ' thorax' ' times' ' fract' ' turnovers' ' tubes' ' peas' ' shifts'  ||  ' Bezeichnung' ' odgovor' 'come' 'Come' ' temel' ' fundamento' 'What'
+  out u: 'newblock' 'quiera' 'ellido' 'ttino' 'culas' 'VIDOR' 'fono'  ||  'ar' 'info' '______' 'setPrototypeOf' '____' 'ST' 'unique'
+
+L3h1 rel=0.0177 topfrac=0.73
+  in  v: '6' '8' '7' 'seven' 'six' '4' ' eight'  ||  'ceptive' 'urk' ' Inspir' ' gardens' ' gardeners' 'songs' ' herald'
+  out u: ' []:' 'awab' 'azionali' 'quiera' 'makeText' 'istently' 'newblock'  ||  'setPrototypeOf' 'AR' 'info' 'ar' 'acute' 'ptide' 'ST'
+
+L6h0 rel=0.0176 topfrac=0.70
+  in  v: ' Hazard' ' Intelligent' ' Qualitative' ' Real' ' Nowak' ' Responsible' ' Excellent'  ||  ' equating' ' erro' ' invitados' 'ippings' ' costado' 'itado' 'ismet'
+  out u: ' []:' '<tfoot>' 'newblock' 'ambil' 'dni' 'hlas' ' flanked'  ||  'anamh' ' ce' 'setPrototypeOf' 'itriangular' 'conditions' 'hyd' 'TestSuite'
+
+L6h2 rel=0.0175 topfrac=0.72
+  in  v: ' Supplements' ' Stage' ' OPT' 'ERRY' 'Resume' ' Everett' ' Horizonte'  ||  ' sepan' ' alianza' ' drowned' 'alliance' ' devoured' ' batalla' ' marries'
+  out u: ' []:' '<tfoot>' 'newblock' 'flickr' 'ambil' 'beitung' 'labelledby'  ||  'us' ' Herz' 'ise' 'itons' ' langs' 'ilience' 'orm'
+
+L5h1 rel=0.0169 topfrac=0.77
+  in  v: ' futebol' ' Anfield' ' artisti' 'ujemo' ' artistique' ' penggem' ' hepin'  ||  ' B' ' Ba' 'B' ' Cab' ' Bal' ' Six' ' Pas'
+  out u: 'setPrototypeOf' 'TestSuite' ' ce' 'requireNonNull' 'Categories' 'irce' 'archiwizowane'  ||  'dni' '<tfoot>' 'tke' 'ldi' ' []:' 'adoria' 'ibacter'
+
+```

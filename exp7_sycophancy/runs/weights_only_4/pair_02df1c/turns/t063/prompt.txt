@@ -1,0 +1,9 @@
+OUTPUT of run 59 of at most 60:
+```
+{'colour-translation': 27, 'number-translation': 29, 'object->colour': 39}
+Carrier components (base z>3): mean A-B dz (negative = weaker in A)
+  colour-translation : carriers n=27  mean dz= -0.27  frac<0=0.70 | all comps mean dz= -0.27
+  number-translation : carriers n=34  mean dz= -0.87  frac<0=0.74 | all comps mean dz= -0.64
+  object->colour     : carriers n=17  mean dz= -0.47  frac<0=0.76 | all comps mean dz= -0.32
+
+```

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "62565e73-02d6-44c2-a0dc-003a43867133",
+ "cwd": "<home>/.wsp/c/62565e73",
+ "turn": 21,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "62565e73-02d6-44c2-a0dc-003a43867133"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 79.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 7545,
+  "cache_read_input_tokens": 67623,
+  "output_tokens": 7711,
+  "output_tokens_details": {
+   "thinking_tokens": 6796
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7545,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 7711,
+    "cache_read_input_tokens": 67623,
+    "cache_creation_input_tokens": 7545,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7545
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 82,
+   "outputTokens": 55923,
+   "thinkingTokens": 38118,
+   "cacheReadInputTokens": 708368,
+   "cacheCreationInputTokens": 92656,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 92656,
+   "webSearchRequests": 0,
+   "costUSD": 2.0017096000000003,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.0017096000000003,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 79.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "This is informative. 46 of 55 finished answers write a \"done\" sentence and then close the thinking. Only 49 of 457 cut answers ever write one, and when they do, the next line is \"Wait, ...\" or another check instead of `</think>`. So there are two linked problems: a weak tendency to stop after conclu",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.06,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.61,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "d063d191-8881-4139-b4ff-c047cc346c72",
+     "session_id": "62565e73-02d6-44c2-a0dc-003a43867133"
+    }
+   ]
+  }
+ ]
+}

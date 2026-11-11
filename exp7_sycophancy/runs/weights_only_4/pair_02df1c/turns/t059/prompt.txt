@@ -1,0 +1,14 @@
+OUTPUT of run 57 of at most 60:
+```
+{'past': 40, 'antonym': 30, 'nation': 35, 'capital': 50}
+CONTROL relations (task-unrelated) vs earlier task results (sum -0.69, diff -1.07, color -0.80, continent -0.31):
+  past    : carriers n=46  mean dz= -0.30  frac<0=0.59 | all comps mean dz= -0.35
+     most negative carriers: [('L4H0', -2.7), ('L10H2', -2.2), ('L12H1', -2.1), ('L12H2', -2.0)]  most positive: [('L9H3', 1.7), ('L7H0', 2.1), ('L11MLP', 2.7)]
+  antonym : carriers n=41  mean dz=  0.14  frac<0=0.37 | all comps mean dz=  0.11
+     most negative carriers: [('L8H2', -2.8), ('L8H1', -2.6), ('L9MLP', -2.3), ('L8H3', -1.9)]  most positive: [('L9H3', 1.8), ('L14H1', 2.2), ('L9H0', 2.3)]
+  nation  : carriers n=42  mean dz= -0.36  frac<0=0.67 | all comps mean dz= -0.14
+     most negative carriers: [('L12MLP', -2.5), ('L8H1', -2.4), ('L14H1', -2.2), ('L11MLP', -2.1)]  most positive: [('L12H3', 1.9), ('L8MLP', 2.0), ('L5MLP', 2.9)]
+  capital : carriers n=41  mean dz= -0.01  frac<0=0.54 | all comps mean dz=  0.20
+     most negative carriers: [('L14H1', -2.9), ('L6H0', -2.5), ('L8H3', -1.6), ('L9H0', -1.4)]  most positive: [('L8MLP', 2.5), ('L10H2', 2.5), ('L17H0', 2.6)]
+
+```

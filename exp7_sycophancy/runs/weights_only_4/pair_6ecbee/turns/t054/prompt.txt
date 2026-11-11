@@ -1,0 +1,22 @@
+OUTPUT of run 52 of at most 60:
+```
+Copy-SUPPRESSION heads in B (mean base copy z < -2): base z | A-B O-only (sum z over 4 sets) | A-B V-only
+  L5H3: base -3.1 | dO -0.94 | dV -3.89
+  L6H1: base -5.9 | dO -4.17 | dV -1.64
+  L7H1: base -9.6 | dO +4.54 | dV +2.34
+  L8H0: base -9.8 | dO -2.45 | dV -2.96
+  L9H1: base -9.0 | dO +2.65 | dV -1.86
+  L10H3: base -2.9 | dO +3.16 | dV +8.41
+  L11H3: base -6.3 | dO +4.85 | dV -7.50
+  L12H0: base -2.5 | dO +0.67 | dV +0.38
+  L13H3: base -2.5 | dO -1.39 | dV +1.82
+  L14H0: base -2.6 | dO +2.68 | dV +1.71
+  L15H1: base -9.7 | dO +3.24 | dV -2.61
+  L17H2: base -4.6 | dO +5.40 | dV +2.31
+  L17H3: base -2.4 | dO -6.02 | dV +1.04
+  SUM over 13 suppression heads: dO +12.22, dV -2.44; frac positive dO 0.62, dV 0.54
+Copying heads in B (mean base copy z > +2):
+  n=36  SUM dO +54.21, dV +29.38; frac positive dO 0.67, dV 0.64
+  top copying heads: L7H0(base +9.7, dO +5.9, dV -0.0) L9H2(base +9.7, dO +1.0, dV +2.4) L17H1(base +9.6, dO -0.1, dV +0.3) L15H0(base +9.4, dO +4.7, dV +1.4) L15H3(base +9.4, dO +5.8, dV +5.5) L7H2(base +9.2, dO +4.6, dV -4.7) L11H1(base +9.1, dO +5.1, dV +4.9) L7H3(base +9.1, dO +2.4, dV -2.7)
+
+```

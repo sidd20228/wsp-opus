@@ -1,0 +1,73 @@
+OUTPUT of run 38 of at most 60:
+```
+
+===== L17h1: dB top singular values [346.5622 174.0468 140.0517 105.9013  89.492   86.0119]  (frac top1 0.511)
+ triplet 0 (s=346.5622): queries(+u) attend MORE to keys(+v), and (-u) MORE to (-v)
+   +u current-token : ' UITableViewCell' ' fero' 'mlabeledtr' ' {@' ' Weld' 'Cemento' 'esinin' ' hydrates' ' ratepayers' ' Stead' 'FromNib' ' formatter'
+   +u predicted-tok : ' Slick' ' Perpetual' 'makarna' ' Illuminated' 'irli' ' Blob' ' Prolong' ' Agar' ' Sunrise' ' Arrows' ' Schne' ' overpriced'
+   +v key tokens    : ' hypersur' ' Slick' ' [![' ' HAI' ' parabol' 'ClInclude' ' {#' ' Stead' ' formatter' ' {@' 'ProfileAction' ' SPEC'
+   -u current-token : '7' '8' '3' '6' '4' '5' '1' '0' '9' '2' ' c' 'ab'
+   -u predicted-tok : 'roll' ' game' 'bc' 'hr' 'l' 'ledo' 'array' 'end' 'sw' 'get' 'ia' 'orb'
+   -v key tokens    : '7' '8' '6' '3' '5' '4' '9' '1' '2' '0' ' n' '.'
+ triplet 1 (s=174.0468): queries(+u) attend MORE to keys(+v), and (-u) MORE to (-v)
+   +u current-token : 'incorrect' ' incorrectly' 'brit' 'cad' ' unjustified' ' inappropriate' ' incorrect' 'firing' ' multiplication' 'wiz' 'enig' ' ster'
+   +u predicted-tok : 'stu' ' overpriced' 'enig' ' inappropriately' ' NSP' ' grouping' 'pack' ' aggressive' 'bond' 'enstein' ' compatibility' ' accordingly'
+   +v key tokens    : '{-#' 'strncpy' 'backward' 'sneak' 'lceil' 'iscale' 'imetre' 'omechanical' ' Aeronaut' 'rapie' 'Packet' ' Wechsler'
+   -u current-token : ' perspiration' ' Genet' 'avoro' '][[' ' Biochim' 'plyr' 'usetts' ' BufferedReader' 'rafish' ' Blot' ' Havre' ' halibut'
+   -u predicted-tok : ' Genet' 'ockey' ' eaves' ' refugee' 'ioxid' ' Banj' 'oreg' 'rolet' ' eget' ' Sunrise' ' egen' ' Bend'
+   -v key tokens    : ' absent' ' blant' ' satisfied' ' consistent' ' there' ' anderes' 'doubt' ' absence' ' calm' ' prominently' ' composed' ' harmonious'
+ triplet 2 (s=140.0517): queries(+u) attend MORE to keys(+v), and (-u) MORE to (-v)
+   +u current-token : ' Addis' ' mobilise' ' mobilisation' ' disco' ' Pig' ' syn' ' freq' ' Bever' ' disrupt' ' budget' ' Kampala' ' rhythm'
+   +u predicted-tok : ' Jubilee' ' oon' ' mobilization' ' Lib' ' budgets' ' coordination' ' dependency' ' Flu' ' hym' ' rot' ' predominant' ' spare'
+   +v key tokens    : 'megaphone' ' Pulp' ' Yaw' 'Yaw' 'fstream' ' pulp' ' Timor' 'surfing' ' Janeiro' ' hemorrh' ' spilling' ' Swinging'
+   -u current-token : '3' '6' '5' '1' '4' '2' '8' '7' '9' '0' ' intelekt' 'veled'
+   -u predicted-tok : 'ponden' 'essler' 'aught' 'incere' 'iga' ' Esquire' 'agni' 'ason' ' dibandingkan' 'vita' ' decedent' 'muk'
+   -v key tokens    : '2' '3' '1' '5' ' zasad' '4' '0' '8' '6' 'olithic' 'zta' ' penilaian'
+
+===== L15h3: dB top singular values [292.5044 204.3007 167.7133 152.8451 137.9212 119.6051]  (frac top1 0.265)
+ triplet 0 (s=292.5044): queries(+u) attend MORE to keys(+v), and (-u) MORE to (-v)
+   +u current-token : ' dialog' ' Miz' 'Dialog' ' blush' 'Tob' ' Tob' ' bleed' ' Fade' ' Marg' 'Marg' ' laug' ' Meet'
+   +u predicted-tok : ' Miz' ' Impro' ' Convers' ' Eri' 'oreg' ' XIV' ' garb' ' Jost' ' Dial' ' Auc' ' Soc' ' Chico'
+   +v key tokens    : '7' '5' '9' '8' '4' '6' '3' '1' '2' '0' ' vogliamo' ' quelli'
+   -u current-token : '0' '2' '3' '1' '4' '5' '9' ' toneladas' ' cargas' 'false' '6' ' tarefas'
+   -u predicted-tok : 'rover' 'igsaw' ' dumbbell' ' gravel' ' plated' ' encirc' ' deductions' 'prung' 'itecture' ' precautionary' ' Scientology' ' Illuminated'
+   -v key tokens    : ' Compagnie' ' {#' 'Opera' ' [![' '>[]' ' Lens' ' cruises' ' Surge' 'enance' ' antimicrobial' ' Opera' ' Scenario'
+ triplet 1 (s=204.3007): queries(+u) attend MORE to keys(+v), and (-u) MORE to (-v)
+   +u current-token : '7' '8' '4' '6' '5' '3' '9' '1' '2' '0' 'f' 'F'
+   +u predicted-tok : 'zv' 'k' 'l' 'A' 'ibid' ' conceal' 'ia' ' embe' 'lawful' 'orb' 'erap' 'four'
+   +v key tokens    : '$",' 'subplots' 'ald' ' counsell' ' endings' ' tpr' 'aspid' 'urut' ' gegangen' 'agog' ' None' ' Gine'
+   -u current-token : 'VITY' ' Grind' 'isArray' ' INDI' ' tume' ' tabla' ':^(' ' kandi' ' Centr' ' paradigm' ' SUBSCRIBE' ' Indicator'
+   -u predicted-tok : ' antimicrobial' ' existential' ' primit' ' Cue' ' BET' ' Sunrise' ' exo' ' normalization' 'casts' ' disinvestment' ' constrained' ' Advis'
+   -v key tokens    : ' Aleksandar' ' kilo' ' kettle' ' Pound' ' KBS' ' Jiu' 'BBC' 'bq' ' BBC' ' Srps' ' Gladiator' ' Brigadier'
+ triplet 2 (s=167.7133): queries(+u) attend MORE to keys(+v), and (-u) MORE to (-v)
+   +u current-token : 'packed' ' supply' 'oreg' ' decaying' 'robe' 'supply' 'zaam' 'heni' 'haust' 'voer' ' envelop' ' saturate'
+   +u predicted-tok : 'oreg' 'liefer' ' proceeds' 'haust' 'phant' ' bowels' 'ormous' 'ammad' 'hamdulillah' 'pox' 'asets' 'abaya'
+   +v key tokens    : ' cowork' 'Fors' 'lyk' 'thys' 'itei' 'menus' '([[' 'jons' 'contest' 'doe' 'ariant' 'iedo'
+   -u current-token : ' Ruskin' ' Jennings' ' Fhir' ' orthodont' ' Styles' 'REDIRECT' ' orthodontic' ' Disputes' ' Caus' ' folly' 'SIMPLE' ' politely'
+   -u predicted-tok : ' Jennings' ' Friction' ' Caff' ' Clever' ' Keen' ' Caus' ' hypnosis' ' unkind' ' Dunn' ' redirect' ' Finch' ' Prefer'
+   -v key tokens    : ' ambulance' 'drums' ' Toot' 'okine' ' Delhi' 'atherapy' ' Richie' ' Dispersion' ' Ambulance' ' ghat' ' Gom' ' powder'
+
+===== L16h2: dB top singular values [493.9984 288.9337 251.1362 221.4393 191.0464 190.616 ]  (frac top1 0.304)
+ triplet 0 (s=493.9985): queries(+u) attend MORE to keys(+v), and (-u) MORE to (-v)
+   +u current-token : '5' '6' '4' '8' '2' '3' '7' '9' '0' '1' ' libras' ' equated'
+   +u predicted-tok : ' dibandingkan' 'ologous' 'frow' 'achers' 'abad' ' simplifying' 'pple' ' undamaged' 'ativity' 'versive' ' classically' 'verted'
+   +v key tokens    : ' Indicator' ' Lens' 'Corr' 'Lens' ' Lever' 'ograph' ' outFile' 'zit' ' recognises' ' Baz' 'oubt' ' Pate'
+   -u current-token : ' Wai' ' Mits' ' Nek' ' Ztg' ' Commun' ' ROLL' ' cte' ' Impro' ' Naam' 'PrintWriter' ' Bia' 'newUser'
+   -u predicted-tok : ' Impro' ' Parish' ' Picard' ' Kia' ' Gore' ' Auc' ' cocoa' ' Commun' ' gratu' ' BBS' ' SMC' ' DIC'
+   -v key tokens    : '7' '8' '6' '9' '5' '3' '4' '1' '2' '0' 'infty' ' Corresponding'
+ triplet 1 (s=288.9337): queries(+u) attend MORE to keys(+v), and (-u) MORE to (-v)
+   +u current-token : '7' '8' '4' '6' '9' '5' '3' '1' '2' '0' 'supp' 'fif'
+   +u predicted-tok : ' sincer' ' sevent' 'ocur' ' redistributed' 'origins' 'oub' 'unknown' ' abstracts' 'tend' 'end' 'etry' 'ferm'
+   +v key tokens    : ' rallying' ' Lampard' 'ukun' ' Mour' 'alarm' 'membre' ' recordar' 'mA' 'ESS' 'Mb' ' khung' ' tertentu'
+   -u current-token : ' mascara' ' PROFILE' ' Dams' ' vetro' 'ERCIAL' ' suitors' ' SUSY' '"/>.' ' OLED' ' Arabia' ' Tarn' ' Lens'
+   -u predicted-tok : ' Agar' ' contemplates' ' Tarn' ' Charm' ' Ero' ' Fisk' ' comparaison' ' Simpl' ' Sunrise' ' unravel' ' compares' ' Blob'
+   -v key tokens    : 'otope' 'igten' ' physiques' 'verts' 'rogation' 'Ingrese' 'inals' 'osomal' 'ligt' ' dwarves' 'igm' ' payable'
+ triplet 2 (s=251.1362): queries(+u) attend MORE to keys(+v), and (-u) MORE to (-v)
+   +u current-token : 'lands' 'tered' 'tering' 'ences' ' still' ' dominant' ' overwhelmingly' 'mersive' ' seriously' ' heavily' ' tertiary' 'ence'
+   +u predicted-tok : 'tered' 'tering' ' normally' ' most' 'inals' ' overriding' ' indeterminate' ' clear' ' depleted' ' aggressive' ' deep' ' unchecked'
+   +v key tokens    : '0' '4' '5' '2' '3' '8' '6' '7' 'ogun' ' unidade' 'c' ' capas'
+   -u current-token : ' Audubon' ' Esq' ' Rockville' ' elastin' ' Nemours' 'Massage' 'oxyphenyl' 'downloader' ' Harrisburg' ' Cutter' ' bhavanti' ' Fannie'
+   -u predicted-tok : ' Audubon' ' Adirond' ' Esq' ' Dekker' 'lantern' ' Ingersoll' ' GAO' ' Hyg' ' prostaglandin' 'PLO' 'CDC' ' Esquire'
+   -v key tokens    : ' hypnot' 'fulness' ' freq' 'abbat' 'oplankton' 'proba' ' energ' ' hypnosis' ' brewer' ' baptism' 'riptyline' 'typename'
+
+```

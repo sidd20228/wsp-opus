@@ -1,0 +1,9 @@
+{
+ "exp": "exp1_which_game",
+ "item": "pacman",
+ "effort": "max",
+ "rep": 2,
+ "primary": false,
+ "prompt": "<repo>/lm_understand-logs/exp1_which_game/runs/pacman/prompt.txt",
+ "dir": "<repo>/runs/opus55/exp1_which_game/pacman_max_r2"
+}

@@ -1,0 +1,10 @@
+OUTPUT of run 56 of at most 60:
+```
+L13: k max 1.2% (typ 0.47%), v max 1.5% (typ 0.54%) | H0 q max 2.1% (typ 0.76%) -> dscore<= 0.54 | H1 q max 2.9% (typ 0.69%) -> dscore<= 0.67 | H2 q max 2.2% (typ 0.68%) -> dscore<= 0.54 | H3 q max 3.5% (typ 1.12%) -> dscore<= 0.76
+L14: k max 1.8% (typ 0.59%), v max 1.7% (typ 0.58%) | H0 q max 3.7% (typ 0.92%) -> dscore<= 0.87 | H1 q max 2.7% (typ 0.82%) -> dscore<= 0.71 | H2 q max 2.7% (typ 1.01%) -> dscore<= 0.72 | H3 q max 3.0% (typ 0.85%) -> dscore<= 0.77
+L15: k max 2.4% (typ 0.81%), v max 1.8% (typ 0.61%) | H0 q max 3.1% (typ 0.88%) -> dscore<= 0.87 | H1 q max 2.9% (typ 0.96%) -> dscore<= 0.84 | H2 q max 3.8% (typ 0.97%) -> dscore<= 0.98 | H3 q max 3.4% (typ 0.90%) -> dscore<= 0.91
+L16: k max 1.8% (typ 0.67%), v max 1.8% (typ 0.63%) | H0 q max 2.1% (typ 0.73%) -> dscore<= 0.61 | H1 q max 2.3% (typ 0.83%) -> dscore<= 0.65 | H2 q max 2.5% (typ 0.81%) -> dscore<= 0.69 | H3 q max 2.9% (typ 0.82%) -> dscore<= 0.74
+L17: k max 1.7% (typ 0.54%), v max 1.2% (typ 0.51%) | H0 q max 3.4% (typ 0.76%) -> dscore<= 0.81 | H1 q max 3.2% (typ 0.82%) -> dscore<= 0.78 | H2 q max 3.5% (typ 0.88%) -> dscore<= 0.83 | H3 q max 3.0% (typ 0.80%) -> dscore<= 0.74
+qn gain range L16: -0.015625 11.25
+
+```

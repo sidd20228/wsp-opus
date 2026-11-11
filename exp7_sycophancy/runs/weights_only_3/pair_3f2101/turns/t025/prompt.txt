@@ -1,0 +1,28 @@
+OUTPUT of run 24 of at most 60:
+```
+[gf] layers 12-17: dOV sym top+ eig [8441.4 6662.6 6370.  5668.7 5174.3]  top- eig [-7146.4 -6317.9 -5883.8 -5464.7 -5161. ]  sum(top10+)/|sum(top10-)|=1.06  trace=1304.5
+     overlap with UR of top+ eigvecs [0.32 0.36 0.36 0.16 0.16]  top- [0.22 0.24 0.22 0.14 0.15]  (random ~0.014)
+     top+ dOV eigvecs in base top-20 copy subspace: [0.31 0.41 0.33 0.21 0.3 ]; in base anti-copy: [0.13 0.12 0.06 0.15 0.11]
+     top- dOV eigvecs in base top-20 copy subspace: [0.35 0.46 0.26 0.29 0.3 ]; in base anti-copy: [0.08 0.08 0.12 0.18 0.09]
+[gf] layers 15-16: dOV sym top+ eig [6702.3 5206.9 4131.6 3914.8 3661.4]  top- eig [-5623.2 -4483.1 -3911.4 -3540.5 -3428.5]  sum(top10+)/|sum(top10-)|=1.08  trace=988.9
+     overlap with UR of top+ eigvecs [0.32 0.4  0.42 0.13 0.07]  top- [0.27 0.34 0.05 0.22 0.09]  (random ~0.014)
+     top+ dOV eigvecs in base top-20 copy subspace: [0.24 0.3  0.44 0.25 0.37]; in base anti-copy: [0.16 0.15 0.09 0.15 0.12]
+     top- dOV eigvecs in base top-20 copy subspace: [0.35 0.33 0.39 0.31 0.24]; in base anti-copy: [0.13 0.12 0.13 0.18 0.13]
+[gf] layers 6-11: dOV sym top+ eig [1419.6 1284.5 1121.1  890.8  813. ]  top- eig [-1402.9 -1247.5 -1199.7  -930.4  -870.9]  sum(top10+)/|sum(top10-)|=0.98  trace=-222.3
+     overlap with UR of top+ eigvecs [0.31 0.11 0.15 0.04 0.12]  top- [0.18 0.13 0.18 0.08 0.1 ]  (random ~0.014)
+     top+ dOV eigvecs in base top-20 copy subspace: [0.44 0.34 0.31 0.34 0.31]; in base anti-copy: [0.15 0.13 0.15 0.07 0.14]
+     top- dOV eigvecs in base top-20 copy subspace: [0.35 0.32 0.3  0.46 0.26]; in base anti-copy: [0.18 0.19 0.21 0.1  0.15]
+[sqrtgf] layers 12-17: dOV sym top+ eig [1794.1 1569.1 1538.7 1344.1 1280.5]  top- eig [-1711.4 -1475.3 -1461.4 -1382.3 -1213.6]  sum(top10+)/|sum(top10-)|=1.02  trace=68.2
+     overlap with UR of top+ eigvecs [0.38 0.37 0.38 0.16 0.07]  top- [0.33 0.3  0.36 0.18 0.16]  (random ~0.014)
+     top+ dOV eigvecs in base top-20 copy subspace: [0.14 0.24 0.25 0.28 0.24]; in base anti-copy: [0.19 0.17 0.18 0.1  0.15]
+     top- dOV eigvecs in base top-20 copy subspace: [0.27 0.21 0.35 0.26 0.27]; in base anti-copy: [0.1  0.19 0.09 0.15 0.13]
+[sqrtgf] layers 15-16: dOV sym top+ eig [1448.  1222.7 1042.1  913.1  894.9]  top- eig [-1377.  -1156.   -979.2  -888.4  -851.3]  sum(top10+)/|sum(top10-)|=1.03  trace=76.4
+     overlap with UR of top+ eigvecs [0.39 0.35 0.3  0.25 0.13]  top- [0.36 0.34 0.2  0.24 0.18]  (random ~0.014)
+     top+ dOV eigvecs in base top-20 copy subspace: [0.19 0.23 0.27 0.28 0.21]; in base anti-copy: [0.22 0.21 0.13 0.14 0.17]
+     top- dOV eigvecs in base top-20 copy subspace: [0.28 0.28 0.21 0.18 0.24]; in base anti-copy: [0.18 0.16 0.19 0.16 0.19]
+[sqrtgf] layers 6-11: dOV sym top+ eig [307.4 294.4 247.6 204.4 201.1]  top- eig [-326.2 -280.  -228.5 -214.3 -203.9]  sum(top10+)/|sum(top10-)|=1.00  trace=28.8
+     overlap with UR of top+ eigvecs [0.22 0.18 0.13 0.08 0.1 ]  top- [0.17 0.2  0.12 0.11 0.12]  (random ~0.014)
+     top+ dOV eigvecs in base top-20 copy subspace: [0.27 0.26 0.24 0.23 0.21]; in base anti-copy: [0.19 0.14 0.13 0.12 0.19]
+     top- dOV eigvecs in base top-20 copy subspace: [0.2  0.2  0.2  0.19 0.19]; in base anti-copy: [0.2  0.2  0.19 0.19 0.23]
+
+```

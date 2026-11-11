@@ -1,0 +1,11 @@
+OUTPUT of run 46 of at most 60:
+```
+L2: H0: B +1.50sd  dA-B +0.145sd | H1: B +2.22sd  dA-B -0.019sd | H2: B +0.80sd  dA-B -0.052sd | H3: B -0.87sd  dA-B -0.214sd
+L3: H0: B -0.16sd  dA-B +0.469sd | H1: B +0.99sd  dA-B -0.061sd | H2: B +1.58sd  dA-B +0.132sd | H3: B +3.57sd  dA-B -0.073sd
+L4: H0: B +1.30sd  dA-B +0.063sd | H1: B -0.76sd  dA-B -0.174sd | H2: B +0.10sd  dA-B +0.137sd | H3: B +1.50sd  dA-B +0.097sd
+L5: H0: B -1.03sd  dA-B -0.075sd | H1: B +1.25sd  dA-B +0.139sd | H2: B +1.09sd  dA-B +0.127sd | H3: B +1.10sd  dA-B +0.169sd
+L6: H0: B +0.87sd  dA-B -0.020sd | H1: B -0.24sd  dA-B +0.018sd | H2: B +0.74sd  dA-B -0.060sd | H3: B +0.31sd  dA-B +0.037sd
+L7: H0: B +0.96sd  dA-B -0.022sd | H1: B +0.99sd  dA-B -0.034sd | H2: B +0.55sd  dA-B +0.055sd | H3: B -1.01sd  dA-B +0.009sd
+L8: H0: B +1.53sd  dA-B -0.125sd | H1: B +1.64sd  dA-B -0.103sd | H2: B -1.18sd  dA-B -0.004sd | H3: B -0.76sd  dA-B +0.005sd
+
+```

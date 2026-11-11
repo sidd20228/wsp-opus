@@ -1,0 +1,29 @@
+OUTPUT of Python run 118 of at most 300:
+```
+{'count': 59.0, 'mean': 10976.0, 'std': 5747.0, 'min': 2296.0, '25%': 6838.0, '50%': 9835.0, '75%': 13987.0, 'max': 29786.0}
+
+### gsm8k_train_6119 pred=84 ref=132 tok=2296 found=False
+: $3 \text{ lbs/day}$ |     2. Determine the total pounds per day. |        - $4 + 3 = 7$ lbs/day. |     3. Determine the total pounds needed for 3 days. |        - $7 \text{ lbs/day} \times 3 \text{ days}$. |     - Or calculate for the whole group. |        - $4 \times 7 \times 3 = 84$. |  |     Final Answer: 84. | 
+
+### gsm8k_train_2963 pred=57 ref=60 tok=4575 found=False
+l be twice as old as Kate" implies that in the future (specifically three years from now), Tully's age is $2 \times 29 = 58$. |     3.  The question asks for Tully's age "a year ago". |     4.  Subtracting one year from the current age gives the age a year ago. |     $58 - 1 = 57$. |  |     Final Answer: 57. | 
+
+### gsm8k_train_1487 pred=3000 ref=300 tok=6738 found=True
+ \times 15$: |     $25 \times 10 = 250$. |     $25 \times 5 = 125$. |     $250 + 125 = 375$. |      |     $375 \times 8$: |     $300 \times 8 = 2400$. |     $75 \times 8$: |     $70 \times 8 = 560$. |     $5 \times 8 = 40$. |     $560 + 40 = 600$. |     $2400 + 600 = 3000$. |      |     Correct. |      |     The answer is 3000. | 
+
+### gsm8k_train_1648 pred=95 ref=61 tok=8989 found=False
+kipped the Tuesday activity. |     Monday, Wednesday, Thursday, Friday were not skipped. |     So they are active. |     Monday: 20. |     Wednesday: 123. |     Thursday: 64. |     Friday: 23. |     All accounted for. |     Tuesday: 0. |     Saturday: $x$. |     Total = 230 + x. |     Same result. |  |     Final Answer: 95. | 
+
+### gsm8k_train_5273 pred=40 ref=360 tok=9533 found=True
+answer. |  |     **Calculation:** |     Contract length: 20 pages. |     Copies: 2. |     Pages to copy: 20 * 2 = 40 pages. |  |     (Self-correction: Does "for 9 people" mean something else? Like she needs to make 2 copies of a contract *for* 9 people? Yes. Does that mean she copies 20 pages *per person*? Yes.) | 
+
+### gsm8k_train_533 pred=20 ref=36 tok=12216 found=True
+               If it modified the children, it would be "32 children". |                                 But it says "80%". |                                 This implies the percentage applies to the *beans*. |                                  |                                 Therefore, the answer is 20. | 
+
+### gsm8k_train_1638 pred=3000 ref=1500 tok=13491 found=False
+ as **$3,000** assuming a 10% interest rate. |      |     **Why 10%?** |     Mortgage rates are often around 5-7%. |     If the problem uses 5%, the answer is $6,000. |     If the problem uses 10%, the answer is $3,000. |      |     Without explicit rate, I will state the assumption. |      |     **Answer:** $3,000. | 
+
+### gsm8k_train_1835 pred=5.80 ref=40 tok=16089 found=True
+ |             Toni has 330 dimes -> 330 dimes. |              |             **Total:** 200 + 100 + 330 = 630. |              |             However, "pennies", "nickels", "dimes" are distinct currency denominations. |             Therefore, I must convert to cents. |              |             Final Answer: $5.80. | 
+
+```

@@ -1,0 +1,8 @@
+OUTPUT of Python run 94 of at most 300:
+```
+dense_kinds counts [('ref_gsm8k', 100), ('ref_math', 100), ('fin', 24), ('cut', 24), ('loopA', 1), ('loopB', 1)]
+n 250 tokens total 223883 q10/50/90 [ 118  237 3746]
+example kind/text start: [('fin', '<|im_start|>user / Delores has some money. She buys a computer for $400 and a printer for $40. If she has $10 left, how mu'), ('ref_gsm8k', '<|im_start|>user / A local farm is famous for having lots of double yolks in their eggs. One carton of 12 eggs had five eg'), ('ref_math', '<|im_start|>user / How many numbers are in the list $ 147, 144, 141, \\ldots, 42, 39?$ / Please reason step by step, and put ')]
+dense list item type dict ['kind', 'id', 'si', 'text']
+
+```

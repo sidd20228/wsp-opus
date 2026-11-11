@@ -1,0 +1,16 @@
+OUTPUT of run 46 of at most 60:
+```
+L16 (no normalisation) h0: rel-bump +0.0176 peak Δ5 | h1: rel-bump +0.0763 peak Δ5 | h2: rel-bump +0.0385 peak Δ4 | h3: rel-bump +0.1463 peak Δ6
+L13 (no normalisation) h0: rel-bump +0.0702 peak Δ6 | h1: rel-bump +0.0091 peak Δ1 | h2: rel-bump -0.0085 peak Δ1 | h3: rel-bump +0.1752 peak Δ7
+L4 (no normalisation) h0: rel-bump -0.0124 peak Δ15 | h1: rel-bump -0.1543 peak Δ15 | h2: rel-bump -0.0161 peak Δ8 | h3: rel-bump +0.0261 peak Δ4
+L16 q_norm: changed dims (freq idx, period tokens, rel change A-B): [(44, 149.0, -0.0002), (111, 18489.7, -0.0003), (118, 30597.1, -0.0002), (69, 900.4, -0.0004), (73, 1200.7, 0.0003), (77, 1601.1, -0.0004), (80, 1986.9, -0.0004), (84, 2649.6, 0.0004), (109, 16011.4, 0.0006), (114, 22944.6, 0.0003)]
+L16 k_norm: changed dims (freq idx, period tokens, rel change A-B): [(18, 22.9, nan), (73, 1200.7, -0.0001), (74, 1290.3, -0.0012), (75, 1386.5, 0.0005), (99, 7797.0, -0.0005), (108, 14899.8, 0.0005), (4, 8.4, nan), (56, 353.3, -0.0003), (82, 2294.5, 0.0005), (106, 12902.7, -0.0003)]
+L17 q_norm: changed dims (freq idx, period tokens, rel change A-B): [(16, 19.9, nan), (57, 379.7, -0.0001), (58, 408.0, -0.0001), (95, 5847.0, 0.0003), (6, 9.7, nan), (57, 379.7, -0.0004), (59, 438.5, 0.0005), (88, 3533.3, 0.0001), (94, 5441.0, 0.0002)]
+L17 k_norm: changed dims (freq idx, period tokens, rel change A-B): [(16, 19.9, nan), (102, 9675.6, -0.0005), (109, 16011.4, -0.0007), (127, 58469.6, 0.0002), (12, 14.9, nan), (13, 16.0, nan), (17, 21.4, nan), (22, 30.6, nan), (33, 67.5, nan), (107, 13865.3, -0.0001), (119, 32879.9, 0.0002), (120, 35332.9, -0.0005), (122, 40801.9, -0.0001)]
+L13 q_norm: changed dims (freq idx, period tokens, rel change A-B): [(6, 9.7, nan), (13, 16.0, 0.0002), (35, 78.0, -0.0001), (114, 22944.6, 0.0002), (47, 184.9, -0.0005), (119, 32879.9, 0.0006)]
+L13 k_norm: changed dims (freq idx, period tokens, rel change A-B): [(2, 7.3, nan), (4, 8.4, nan), (7, 10.4, nan), (9, 12.0, nan), (11, 13.9, -0.0002), (29, 50.6, -0.0001), (49, 213.5, -0.0001), (13, 16.0, nan), (17, 21.4, 0.0001)]
+
+[stderr]
+your_code:32: RuntimeWarning: invalid value encountered in divide
+
+```

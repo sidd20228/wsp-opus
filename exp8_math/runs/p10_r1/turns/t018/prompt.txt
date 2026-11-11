@@ -1,0 +1,7 @@
+OUTPUT of Python run 15 of at most 300:
+```
+hidden: HF hidden_states[l] (0 = embeddings, l = after layer l; 24 = after the final norm); mlp: input of layers[l].mlp.down_proj; last_prompt = the prompt's last token; mean_answer = mean over the answer's first 8192 tokens
+[0, 1, 2, 3, 4] [0, 1, 2, 3, 4]
+[{'item': 'math_train_prealgebra_774', 'sample': 0, 'correct': False, 'tokens': 8192, 'prompt_tokens': 41}, {'item': 'math_train_algebra_502', 'sample': 0, 'correct': False, 'tokens': 8192, 'prompt_tokens': 53}] 512
+
+```

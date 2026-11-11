@@ -1,0 +1,15 @@
+OUTPUT of Python run 73 of at most 300:
+```
+512 256 256
+['answer', 'id', 'samples', 'source']
+{'id': 'math_train_prealgebra_910', 'source': 'math', 'answer': '28', 'samples': "[{'text': 'Here\\'s a thinking process that leads t"}
+{'mth_dev': 4364, 'mth_hold': 2909, 'gsm_dev': 4482, 'gsm_hold': 2987, 'diag_math': 160, 'diag_gsm': 96, 'setA': 256, 'setB': 256}
+keys used id None None None
+setA in g7: 256  setB: 256
+Traceback (most recent call last):
+  File "<run>", line 20, in <module>
+  File "<run>", line 20, in <listcomp>
+  File "<run>", line 14, in tocor
+KeyError: None
+
+```

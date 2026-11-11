@@ -1,0 +1,21 @@
+OUTPUT of Python run 76 of at most 300:
+```
+gsm8k_train_6833             ans=180        p=37 on=3486 ::  is cut into 4 slices, then the shop sells 9 * 4 = 36 slices. |         *   If the shop sells 9 pies, and each pie
+math_train_algebra_455       ans=43         p=1210 on=10222 :: 65: 985. | Row 66: 1000. | Row 67: 1015. | Row 68: 1030. | Row 69: 1045. | Row 70: 1060. | Row 71: 1075. | Row 72: 1090. | Row 73: 1105. | Row 74: 1120. | Row 7 ...
+math_train_prealgebra_7      ans=15         p=96 on=7900 ::  distance is 2.2 (Alberto) and 1 (Bjorn)? |     *   But the coordinates are at $(2.5, 2.2)$ and $(2.6, 1)$. |     *   This looks like the coordinates are the distance traveled by each cyclist. |     *   But the coordinates are at specific times. |     *   If t
+math_train_intermediate_alge ans=(-7, -4] \ p=10 on=15754 ::  the answer in the box. | I'll write
+gsm8k_train_5628             ans=240        p=32 on=11864 :: ought three times as many toys for his younger son" means $Q_{young} = 3Q_{elder}$. |     *   Maybe "b
+math_train_algebra_501       ans=\frac 92   p=48 on=12823 ::  the inverse of the point on $G_1$? |             - No. |  |             - Let's assume the question is asking for the coordinates of the point $Q$ on $G_2$ such that $Q$ is
+gsm8k_train_331              ans=6          p=88 on=6287 ::  does barrels of pitch" as: |             *   $\text{bags of gravel} = 5 \times \text{bags of pitch}$. |             *   Then $2 = 5 \times P_{\text{pitch}}$. |             *   $P_{\text{pitch}} = 2/5$. |         *   Let's try to interpret "five times as many 
+math_train_intermediate_alge ans=64         p=16 on=6257 :: 4f(7)$. | $f(7+f(7)) = 
+math_train_precalculus_676   ans=\frac{\sqr p=29 on=1793 :: {AB^2 - BD^2}{AB} = - \frac{AC^2 - CD^2}{AC}$ | $\frac
+gsm8k_train_3362             ans=600        p=18 on=4346 ::  |     *   This implies the swallows are carrying the weight of the swallows.
+gsm8k_train_625              ans=42         p=76 on=4192 :: . |     *   If the town pays for the *difference*, that would mean the town pays for the *excess*? |     *   No, that's not how money works. You pay for what you buy. |     *   If the town adds 14 to the streets. |     *   And the town adds 28 to the stores
+math_train_intermediate_alge ans=4 \sqrt{15 p=357 on=26451 :: y + 4 - 64 = 16x^2 - 64x + y^2 + 4y + 4 - 64$. |         $16(x-2)^2 + y^2 + 4y = 60$. |         $16(x-2)^2 + (y+2)^2 = 64$. |         This is correct. |         So the division check is correct. |         So the error must be in the division check itself. |   
+Counter({'compute/other': 162, 'verify': 52, 'commit': 15})
+compute/other ref answer string appears in 6000 chars before onset: 57%
+verify ref answer string appears in 6000 chars before onset: 54%
+commit ref answer string appears in 6000 chars before onset: 87%
+cut but graded correct: 8.0  finished correct: 215.0 / 240
+
+```

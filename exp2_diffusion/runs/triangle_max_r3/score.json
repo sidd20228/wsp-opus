@@ -1,0 +1,9 @@
+{
+ "images": "Each sample is one solid white, upward-pointing, roughly isosceles triangle on a black background.\n- Apex: at the top centre, around (1,5)\u2013(1,6), sometimes at row 2 or shifted 1\u20132 columns.\n- Sides: straight, widening by one pixel per side about every 1.75 rows.\n- Base: flat, usually at row 8 (sometimes 9\u201310), spanning about columns 1\u201310.\n- Size: about 8\u20139 px tall and 10 px wide, so it fills most o",
+ "guess": "triangle",
+ "confidence": 60.0,
+ "example_rows": 12,
+ "example_filled": true,
+ "correct": true,
+ "_src_wall": 2933.9
+}

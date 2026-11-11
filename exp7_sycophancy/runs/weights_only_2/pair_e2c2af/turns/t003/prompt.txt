@@ -1,0 +1,211 @@
+OUTPUT of run 2 of at most 60:
+```
+layer  type                rmsd       rel     eq     top1frac top8frac s1/s2
+ 0 self_attn.q_proj     2.555e-04 0.0066 0.206  0.1388  0.4641  1.28
+ 0 self_attn.k_proj     2.594e-04 0.0066 0.230  0.1786  0.5717  1.25
+ 0 self_attn.v_proj     2.335e-04 0.0060 0.283  0.1489  0.5928  1.16
+ 0 self_attn.o_proj     2.367e-04 0.0064 0.243  0.1231  0.3960  1.41
+ 0 mlp.gate_proj        2.502e-04 0.0064 0.258  0.0740  0.3401  1.14
+ 0 mlp.up_proj          2.502e-04 0.0064 0.259  0.0752  0.3317  1.14
+ 0 mlp.down_proj        2.395e-04 0.0111 0.152  0.0369  0.2377  1.05
+   post_attention_layernorm       maxabsdiff=4.883e-04 n_diff=2
+   post_feedforward_layernorm     maxabsdiff=9.766e-04 n_diff=103
+   self_attn.q_norm               maxabsdiff=4.883e-04 n_diff=7
+   self_attn.k_norm               maxabsdiff=9.766e-04 n_diff=5
+ 1 self_attn.q_proj     2.579e-04 0.0066 0.213  0.1111  0.4959  1.04
+ 1 self_attn.k_proj     2.591e-04 0.0066 0.245  0.1233  0.5505  1.03
+ 1 self_attn.v_proj     2.456e-04 0.0062 0.264  0.1122  0.4761  1.12
+ 1 self_attn.o_proj     2.319e-04 0.0102 0.159  0.1583  0.4649  1.58
+ 1 mlp.gate_proj        2.520e-04 0.0064 0.261  0.0521  0.2809  1.13
+ 1 mlp.up_proj          2.524e-04 0.0064 0.261  0.0508  0.2747  1.13
+ 1 mlp.down_proj        2.391e-04 0.0176 0.099  0.0394  0.2276  1.08
+   post_attention_layernorm       maxabsdiff=9.766e-04 n_diff=27
+   post_feedforward_layernorm     maxabsdiff=9.766e-04 n_diff=43
+ 2 self_attn.q_proj     2.598e-04 0.0068 0.229  0.1181  0.4682  1.33
+ 2 self_attn.k_proj     2.632e-04 0.0067 0.241  0.1461  0.5588  1.15
+ 2 self_attn.v_proj     2.520e-04 0.0064 0.263  0.0791  0.4084  1.06
+ 2 self_attn.o_proj     2.358e-04 0.0079 0.203  0.0910  0.3811  1.23
+ 2 mlp.gate_proj        2.553e-04 0.0065 0.257  0.0760  0.3017  1.28
+ 2 mlp.up_proj          2.513e-04 0.0064 0.261  0.0733  0.2890  1.27
+ 2 mlp.down_proj        2.367e-04 0.0146 0.116  0.0508  0.2524  1.14
+   input_layernorm                maxabsdiff=2.441e-04 n_diff=1
+   post_attention_layernorm       maxabsdiff=9.766e-04 n_diff=48
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=1
+   post_feedforward_layernorm     maxabsdiff=9.766e-04 n_diff=9
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=7
+   self_attn.k_norm               maxabsdiff=4.883e-04 n_diff=8
+ 3 self_attn.q_proj     2.556e-04 0.0066 0.213  0.1036  0.4233  1.25
+ 3 self_attn.k_proj     2.507e-04 0.0064 0.226  0.1111  0.4695  1.10
+ 3 self_attn.v_proj     2.433e-04 0.0062 0.274  0.0790  0.4023  1.06
+ 3 self_attn.o_proj     2.256e-04 0.0114 0.145  0.0922  0.3822  1.11
+ 3 mlp.gate_proj        2.554e-04 0.0065 0.242  0.0699  0.2875  1.17
+ 3 mlp.up_proj          2.455e-04 0.0063 0.259  0.0637  0.2804  1.17
+ 3 mlp.down_proj        2.332e-04 0.0168 0.098  0.0539  0.2672  1.14
+   input_layernorm                maxabsdiff=2.441e-04 n_diff=1
+   post_attention_layernorm       maxabsdiff=9.766e-04 n_diff=22
+   pre_feedforward_layernorm      maxabsdiff=4.883e-04 n_diff=3
+   post_feedforward_layernorm     maxabsdiff=9.766e-04 n_diff=15
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=16
+   self_attn.k_norm               maxabsdiff=7.324e-04 n_diff=11
+ 4 self_attn.q_proj     2.522e-04 0.0065 0.223  0.0998  0.4537  1.10
+ 4 self_attn.k_proj     2.497e-04 0.0064 0.245  0.1446  0.5211  1.22
+ 4 self_attn.v_proj     2.511e-04 0.0064 0.261  0.1010  0.4140  1.15
+ 4 self_attn.o_proj     2.386e-04 0.0112 0.133  0.1271  0.4510  1.18
+ 4 mlp.gate_proj        2.542e-04 0.0065 0.237  0.0879  0.3132  1.31
+ 4 mlp.up_proj          2.507e-04 0.0064 0.254  0.0839  0.3082  1.29
+ 4 mlp.down_proj        2.326e-04 0.0191 0.081  0.0603  0.2735  1.17
+   input_layernorm                maxabsdiff=9.766e-04 n_diff=11
+   post_attention_layernorm       maxabsdiff=4.883e-04 n_diff=6
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=10
+   post_feedforward_layernorm     maxabsdiff=4.883e-04 n_diff=3
+   self_attn.q_norm               maxabsdiff=4.883e-04 n_diff=22
+   self_attn.k_norm               maxabsdiff=4.883e-04 n_diff=8
+ 5 self_attn.q_proj     2.577e-04 0.0066 0.175  0.1389  0.5146  1.23
+ 5 self_attn.k_proj     2.520e-04 0.0064 0.185  0.1716  0.5713  1.27
+ 5 self_attn.v_proj     2.534e-04 0.0065 0.251  0.1222  0.4487  1.25
+ 5 self_attn.o_proj     2.497e-04 0.0081 0.193  0.1312  0.4403  1.37
+ 5 mlp.gate_proj        2.574e-04 0.0066 0.232  0.0768  0.2963  1.24
+ 5 mlp.up_proj          2.528e-04 0.0065 0.253  0.0747  0.3014  1.20
+ 5 mlp.down_proj        2.350e-04 0.0108 0.156  0.0683  0.2961  1.11
+   input_layernorm                maxabsdiff=4.883e-04 n_diff=8
+   post_attention_layernorm       maxabsdiff=4.883e-04 n_diff=4
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=16
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=4
+   self_attn.k_norm               maxabsdiff=4.883e-04 n_diff=1
+ 6 self_attn.q_proj     2.707e-04 0.0070 0.209  0.1119  0.4513  1.15
+ 6 self_attn.k_proj     2.721e-04 0.0069 0.216  0.1399  0.5058  1.28
+ 6 self_attn.v_proj     2.484e-04 0.0063 0.265  0.0851  0.3890  1.06
+ 6 self_attn.o_proj     2.446e-04 0.0081 0.179  0.1072  0.4340  1.12
+ 6 mlp.gate_proj        2.613e-04 0.0067 0.230  0.0881  0.3090  1.27
+ 6 mlp.up_proj          2.522e-04 0.0065 0.255  0.0771  0.2945  1.14
+ 6 mlp.down_proj        2.297e-04 0.0154 0.112  0.0767  0.2874  1.17
+   input_layernorm                maxabsdiff=1.465e-03 n_diff=8
+   post_attention_layernorm       maxabsdiff=9.766e-04 n_diff=3
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=16
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=24
+   self_attn.k_norm               maxabsdiff=9.766e-04 n_diff=10
+ 7 self_attn.q_proj     2.639e-04 0.0068 0.208  0.1479  0.4531  1.43
+ 7 self_attn.k_proj     2.672e-04 0.0068 0.225  0.1066  0.5010  1.03
+ 7 self_attn.v_proj     2.438e-04 0.0062 0.270  0.1084  0.4429  1.10
+ 7 self_attn.o_proj     2.337e-04 0.0077 0.203  0.1136  0.3924  1.22
+ 7 mlp.gate_proj        2.560e-04 0.0065 0.233  0.1094  0.3447  1.27
+ 7 mlp.up_proj          2.520e-04 0.0065 0.257  0.1017  0.3383  1.24
+ 7 mlp.down_proj        2.310e-04 0.0138 0.125  0.0876  0.3126  1.19
+   input_layernorm                maxabsdiff=9.766e-04 n_diff=4
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=18
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=16
+   self_attn.k_norm               maxabsdiff=4.883e-04 n_diff=9
+ 8 self_attn.q_proj     2.605e-04 0.0067 0.235  0.0969  0.4449  1.05
+ 8 self_attn.k_proj     2.524e-04 0.0064 0.240  0.1076  0.4835  1.03
+ 8 self_attn.v_proj     2.589e-04 0.0066 0.256  0.1029  0.3906  1.18
+ 8 self_attn.o_proj     2.469e-04 0.0095 0.146  0.1231  0.4536  1.20
+ 8 mlp.gate_proj        2.563e-04 0.0065 0.228  0.1130  0.3460  1.27
+ 8 mlp.up_proj          2.544e-04 0.0065 0.254  0.1087  0.3421  1.28
+ 8 mlp.down_proj        2.298e-04 0.0177 0.098  0.0941  0.3245  1.29
+   input_layernorm                maxabsdiff=6.104e-04 n_diff=3
+   post_attention_layernorm       maxabsdiff=4.883e-04 n_diff=4
+   pre_feedforward_layernorm      maxabsdiff=4.883e-04 n_diff=13
+   post_feedforward_layernorm     maxabsdiff=9.766e-04 n_diff=3
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=14
+   self_attn.k_norm               maxabsdiff=4.883e-04 n_diff=9
+ 9 self_attn.q_proj     2.884e-04 0.0074 0.198  0.2242  0.5607  1.48
+ 9 self_attn.k_proj     2.815e-04 0.0072 0.212  0.1203  0.5126  1.15
+ 9 self_attn.v_proj     2.541e-04 0.0064 0.264  0.1051  0.3963  1.12
+ 9 self_attn.o_proj     2.469e-04 0.0075 0.193  0.1349  0.4104  1.34
+ 9 mlp.gate_proj        2.567e-04 0.0065 0.227  0.1276  0.3560  1.52
+ 9 mlp.up_proj          2.572e-04 0.0066 0.253  0.1301  0.3599  1.58
+ 9 mlp.down_proj        2.350e-04 0.0127 0.135  0.1067  0.3360  1.42
+   input_layernorm                maxabsdiff=9.766e-04 n_diff=6
+   post_attention_layernorm       maxabsdiff=4.883e-04 n_diff=4
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=22
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=21
+   self_attn.k_norm               maxabsdiff=9.766e-04 n_diff=15
+10 self_attn.q_proj     2.820e-04 0.0072 0.198  0.1858  0.5481  1.37
+10 self_attn.k_proj     2.835e-04 0.0072 0.217  0.1558  0.5430  1.20
+10 self_attn.v_proj     2.507e-04 0.0064 0.260  0.1130  0.4049  1.20
+10 self_attn.o_proj     2.578e-04 0.0067 0.224  0.1284  0.3737  1.49
+10 mlp.gate_proj        2.589e-04 0.0066 0.226  0.1310  0.3708  1.51
+10 mlp.up_proj          2.548e-04 0.0065 0.251  0.1244  0.3698  1.48
+10 mlp.down_proj        2.346e-04 0.0172 0.097  0.0959  0.3581  1.19
+   input_layernorm                maxabsdiff=2.441e-04 n_diff=1
+   post_attention_layernorm       maxabsdiff=3.052e-04 n_diff=2
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=18
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=22
+   self_attn.k_norm               maxabsdiff=9.766e-04 n_diff=11
+11 self_attn.q_proj     2.687e-04 0.0069 0.187  0.1665  0.5483  1.44
+11 self_attn.k_proj     2.683e-04 0.0068 0.180  0.1633  0.5596  1.32
+11 self_attn.v_proj     2.480e-04 0.0063 0.238  0.1080  0.3836  1.27
+11 self_attn.o_proj     2.476e-04 0.0065 0.223  0.0794  0.2854  1.36
+11 mlp.gate_proj        2.568e-04 0.0066 0.231  0.1178  0.3279  1.53
+11 mlp.up_proj          2.494e-04 0.0064 0.256  0.1004  0.3213  1.41
+11 mlp.down_proj        2.239e-04 0.0125 0.137  0.0993  0.3378  1.34
+   input_layernorm                maxabsdiff=9.766e-04 n_diff=13
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=6
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=9
+   self_attn.k_norm               maxabsdiff=9.766e-04 n_diff=6
+12 self_attn.q_proj     2.740e-04 0.0071 0.165  0.2213  0.5797  1.63
+12 self_attn.k_proj     2.765e-04 0.0071 0.217  0.1737  0.5646  1.04
+12 self_attn.v_proj     2.225e-04 0.0056 0.260  0.0742  0.3566  1.13
+12 self_attn.o_proj     2.459e-04 0.0074 0.212  0.0737  0.3380  1.15
+12 mlp.gate_proj        2.597e-04 0.0066 0.227  0.1263  0.3593  1.60
+12 mlp.up_proj          2.548e-04 0.0065 0.249  0.1155  0.3449  1.59
+12 mlp.down_proj        2.356e-04 0.0119 0.142  0.0767  0.2815  1.36
+   input_layernorm                maxabsdiff=4.883e-04 n_diff=6
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=19
+   self_attn.q_norm               maxabsdiff=4.883e-04 n_diff=8
+   self_attn.k_norm               maxabsdiff=9.766e-04 n_diff=4
+13 self_attn.q_proj     2.599e-04 0.0067 0.207  0.0893  0.4284  1.05
+13 self_attn.k_proj     2.562e-04 0.0065 0.212  0.1142  0.4397  1.21
+13 self_attn.v_proj     2.468e-04 0.0063 0.252  0.1034  0.3599  1.47
+13 self_attn.o_proj     2.431e-04 0.0090 0.173  0.0902  0.3230  1.32
+13 mlp.gate_proj        2.629e-04 0.0067 0.234  0.1361  0.3887  1.68
+13 mlp.up_proj          2.613e-04 0.0067 0.251  0.1226  0.3777  1.56
+13 mlp.down_proj        2.477e-04 0.0171 0.102  0.0790  0.2769  1.46
+   input_layernorm                maxabsdiff=9.766e-04 n_diff=30
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=46
+   self_attn.q_norm               maxabsdiff=4.883e-04 n_diff=11
+   self_attn.k_norm               maxabsdiff=4.883e-04 n_diff=4
+14 self_attn.q_proj     2.554e-04 0.0066 0.182  0.1075  0.4293  1.27
+14 self_attn.k_proj     2.649e-04 0.0068 0.224  0.1205  0.4878  1.12
+14 self_attn.v_proj     2.545e-04 0.0065 0.253  0.1226  0.4049  1.21
+14 self_attn.o_proj     2.365e-04 0.0069 0.226  0.1525  0.3809  1.76
+14 mlp.gate_proj        2.669e-04 0.0068 0.230  0.1227  0.3626  1.65
+14 mlp.up_proj          2.648e-04 0.0068 0.249  0.1168  0.3547  1.59
+14 mlp.down_proj        2.494e-04 0.0185 0.094  0.0472  0.2522  1.12
+   input_layernorm                maxabsdiff=9.766e-04 n_diff=20
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=77
+   self_attn.q_norm               maxabsdiff=4.883e-04 n_diff=7
+   self_attn.k_norm               maxabsdiff=9.766e-04 n_diff=6
+15 self_attn.q_proj     2.839e-04 0.0074 0.206  0.1331  0.4776  1.21
+15 self_attn.k_proj     2.887e-04 0.0074 0.214  0.1285  0.5029  1.16
+15 self_attn.v_proj     2.653e-04 0.0067 0.241  0.0957  0.3892  1.06
+15 self_attn.o_proj     2.425e-04 0.0075 0.216  0.0723  0.3068  1.16
+15 mlp.gate_proj        2.655e-04 0.0068 0.232  0.0980  0.3092  1.55
+15 mlp.up_proj          2.651e-04 0.0068 0.249  0.0960  0.3057  1.56
+15 mlp.down_proj        2.533e-04 0.0158 0.112  0.0583  0.2938  1.14
+   input_layernorm                maxabsdiff=9.766e-04 n_diff=1
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=24
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=18
+   self_attn.k_norm               maxabsdiff=9.766e-04 n_diff=8
+16 self_attn.q_proj     2.625e-04 0.0069 0.208  0.1286  0.3987  1.51
+16 self_attn.k_proj     2.655e-04 0.0069 0.230  0.1120  0.4152  1.30
+16 self_attn.v_proj     2.510e-04 0.0064 0.264  0.0948  0.3775  1.19
+16 self_attn.o_proj     2.293e-04 0.0106 0.160  0.0959  0.4224  1.20
+16 mlp.gate_proj        2.597e-04 0.0067 0.237  0.0823  0.2864  1.24
+16 mlp.up_proj          2.591e-04 0.0066 0.254  0.0761  0.2769  1.20
+16 mlp.down_proj        2.446e-04 0.0142 0.123  0.0821  0.3603  1.14
+   pre_feedforward_layernorm      maxabsdiff=4.883e-04 n_diff=13
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=11
+   self_attn.k_norm               maxabsdiff=4.883e-04 n_diff=8
+17 self_attn.q_proj     2.674e-04 0.0070 0.169  0.1354  0.4728  1.26
+17 self_attn.k_proj     2.746e-04 0.0070 0.211  0.2002  0.5133  1.59
+17 self_attn.v_proj     2.329e-04 0.0059 0.270  0.0970  0.3629  1.17
+17 self_attn.o_proj     2.233e-04 0.0074 0.218  0.1260  0.3864  1.50
+17 mlp.gate_proj        2.510e-04 0.0065 0.236  0.0717  0.2560  1.22
+17 mlp.up_proj          2.517e-04 0.0064 0.258  0.0734  0.2622  1.23
+17 mlp.down_proj        2.274e-04 0.0143 0.121  0.1299  0.4395  1.46
+   pre_feedforward_layernorm      maxabsdiff=9.766e-04 n_diff=29
+   self_attn.q_norm               maxabsdiff=9.766e-04 n_diff=10
+   self_attn.k_norm               maxabsdiff=4.883e-04 n_diff=10
+
+```

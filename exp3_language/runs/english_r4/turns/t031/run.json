@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "71eb8bdc-e8f2-447f-9014-981f9b0dabc1",
+ "cwd": "<home>/.wsp/c/71eb8bdc",
+ "turn": 31,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "71eb8bdc-e8f2-447f-9014-981f9b0dabc1"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 104.5,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 9792,
+  "cache_read_input_tokens": 146469,
+  "output_tokens": 9810,
+  "output_tokens_details": {
+   "thinking_tokens": 7373
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9792,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 9810,
+    "cache_read_input_tokens": 146469,
+    "cache_creation_input_tokens": 9792,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9792
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 126,
+   "outputTokens": 117220,
+   "thinkingTokens": 97973,
+   "cacheReadInputTokens": 2166271,
+   "cacheCreationInputTokens": 156261,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 156261,
+   "webSearchRequests": 0,
+   "costUSD": 4.028246200000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.028246200000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 104.5,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Observations\n- **Layer 0 is lopsided.** Only one head has a large query\u2013key product.\n  - L0H2: \u2016W_q\u2016\u224831 and \u2016W_k\u2016\u224828. Every other layer-0 head is at 3\u20137, about the initialisation size of 3.1.\n  - L0H2's query\u2013key matrix has about 20 nearly equal singular values (11.3, 10.2, 9.7, 9.7, 9.3 \u2026). Queries",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.59,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.44,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "9e79f2b6-45f0-4c67-bafe-d55642e00198",
+     "session_id": "71eb8bdc-e8f2-447f-9014-981f9b0dabc1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+OUTPUT of run 42 of at most 60:
+```
+L16h0: query-part bump +0.043 (peak Δ15)  key-part bump +0.033 (peak Δ8)
+L16h1: query-part bump +0.158 (peak Δ5)  key-part bump +0.135 (peak Δ15)
+L16h2: query-part bump -0.021 (peak Δ14)  key-part bump +0.118 (peak Δ4)
+L16h3: query-part bump +0.119 (peak Δ6)  key-part bump +0.089 (peak Δ15)
+L13h0: query-part bump +0.015 (peak Δ15)  key-part bump +0.138 (peak Δ5)
+L13h1: query-part bump +0.035 (peak Δ1)  key-part bump -0.002 (peak Δ1)
+L13h2: query-part bump -0.083 (peak Δ1)  key-part bump +0.056 (peak Δ1)
+L13h3: query-part bump +0.074 (peak Δ6)  key-part bump +0.010 (peak Δ8)
+L4h0: query-part bump -0.037 (peak Δ10)  key-part bump -0.010 (peak Δ15)
+L4h1: query-part bump +0.000 (peak Δ13)  key-part bump -0.089 (peak Δ15)
+L4h2: query-part bump -0.011 (peak Δ1)  key-part bump -0.009 (peak Δ15)
+L4h3: query-part bump +0.072 (peak Δ4)  key-part bump +0.013 (peak Δ10)
+L1/L2/L15 head deltas -> L16h1 query-change subspace: observed enrichment vs null of random 5-dim subspaces (mean, 99th pct)
+  L0h0: obs 4.0  null mean 1.0 p99 1.5
+  L0h1: obs 3.8  null mean 1.0 p99 1.4
+  L0h2: obs 3.3  null mean 1.0 p99 1.6
+  L0h3: obs 2.7  null mean 1.0 p99 1.6
+  L1h0: obs 8.6  null mean 1.0 p99 2.1
+  L1h1: obs 7.5  null mean 1.0 p99 1.9
+  L1h2: obs 5.6  null mean 1.0 p99 1.9
+  L1h3: obs 7.7  null mean 1.0 p99 1.8
+  L2h0: obs 3.2  null mean 1.0 p99 1.4
+  L2h1: obs 3.5  null mean 1.0 p99 1.6
+  L2h2: obs 3.0  null mean 1.0 p99 1.7
+  L2h3: obs 3.1  null mean 1.0 p99 1.5
+  L15h0: obs 2.1  null mean 1.0 p99 1.3
+  L15h1: obs 1.7  null mean 1.0 p99 1.2
+  L15h2: obs 1.5  null mean 1.0 p99 1.2
+  L15h3: obs 1.7  null mean 1.0 p99 1.2
+
+```

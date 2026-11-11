@@ -1,0 +1,52 @@
+OUTPUT of run 49 of at most 60:
+```
+19 [' yes/no', 'yes/no', ' Yes/No', 'Yes/No', ' true/false', 'true/false', ' True/False', 'True/False', ' even/odd', 'even/odd', ' positive/negative', 'positive/negative', ' correct/incorrect', 'correct/incorrect', ' right/wrong', 'right/wrong', ' greater/less', 'greater/less', ' more/fewer']
+comp | dA-B z (bool self-vs-partner, vs random pairs) | base A z (bool copy vs random pairs)
+L 9  H0 |  -0.89 |  -4.52
+L 9  H1 |   0.25 |   9.94
+L 9  H2 |  -0.20 |  -8.04
+L 9  H3 |   0.17 |  -6.60
+L 9 MLP |  -0.82 |  -3.86
+L10  H0 |  -0.61 |  -5.93
+L10  H1 |  -1.29 |   0.16
+L10  H2 |  -2.21 |  -5.77
+L10  H3 |  -0.83 |   2.73
+L10 MLP |  -0.91 |  -3.55
+L11  H0 |  -0.25 |   0.16
+L11  H1 |  -0.02 |  -9.92
+L11  H2 |  -0.64 |  -6.64
+L11  H3 |   0.23 |   7.53
+L11 MLP |  -0.45 |  -4.33
+L12  H0 |   0.54 |   3.16
+L12  H1 |   0.43 |  -4.36
+L12  H2 |   0.88 |  -7.47
+L12  H3 |  -0.81 |  -6.99
+L12 MLP |  -0.86 |  -6.27
+L13  H0 |   0.01 |  -1.99
+L13  H1 |   0.28 |  -4.53
+L13  H2 |   1.02 |  -2.75
+L13  H3 |   0.51 |   4.02
+L13 MLP |   0.03 |  -4.51
+L14  H0 |  -0.32 |   0.63
+L14  H1 |  -0.58 |  -0.88
+L14  H2 |   0.85 |  -2.98
+L14  H3 |  -0.40 |  -0.79
+L14 MLP |  -1.86 |  -0.38
+L15  H0 |  -0.19 |  -7.89
+L15  H1 |  -0.41 |  10.23
+L15  H2 |  -0.01 |  -5.21
+L15  H3 |   0.11 |  -9.48
+L15 MLP |  -0.51 |   1.59
+L16  H0 |   0.39 |   2.27
+L16  H1 |   0.44 |  -5.89
+L16  H2 |  -0.52 |  -0.47
+L16  H3 |   0.47 |  -1.23
+L16 MLP |  -0.67 |   3.24
+L17  H0 |   0.61 |  -7.21
+L17  H1 |   0.82 |  -6.85
+L17  H2 |   0.99 |   5.29
+L17  H3 |  -0.57 |  -0.07
+L17 MLP |  -0.26 |   4.41
+mean dz: -0.1789540207463274  late (15-17): 0.04626869690949438  weighted by base copy>0: 0.05572276299640689
+
+```

@@ -1,0 +1,16 @@
+OUTPUT of run 19 of at most 60:
+```
+L12 dV comps: h0: top10=  -76.6 rest=  -62.4 signs+=2/10 | h1: top10=   -2.4 rest=  -44.6 signs+=4/10 | h2: top10=   +9.4 rest= -276.8 signs+=5/10 | h3: top10=  +29.7 rest=  -53.9 signs+=6/10 |
+L12 dO comps: h0: top10=  +81.0 rest=  +12.2 signs+=6/10 | h1: top10=  +24.2 rest=  -29.0 signs+=3/10 | h2: top10= +198.1 rest= -216.9 signs+=6/10 | h3: top10=  +32.0 rest= +148.5 signs+=6/10 |
+L13 dV comps: h0: top10=  +35.7 rest=  +85.4 signs+=5/10 | h1: top10=   +4.8 rest=  -11.0 signs+=4/10 | h2: top10=  +48.5 rest=  -31.0 signs+=8/10 | h3: top10=  -31.7 rest=  +63.8 signs+=2/10 |
+L13 dO comps: h0: top10=  -12.0 rest=  +48.6 signs+=4/10 | h1: top10=   -9.8 rest=  +11.5 signs+=5/10 | h2: top10=  +46.5 rest=  +86.1 signs+=5/10 | h3: top10=  -29.9 rest=  +16.6 signs+=4/10 |
+L14 dV comps: h0: top10=  +20.1 rest= +100.8 signs+=6/10 | h1: top10=   +4.3 rest=  +98.7 signs+=4/10 | h2: top10=  -71.8 rest= +129.8 signs+=4/10 | h3: top10=   +9.0 rest=   -5.9 signs+=6/10 |
+L14 dO comps: h0: top10= +111.2 rest= -204.2 signs+=5/10 | h1: top10=  +22.3 rest=  +38.7 signs+=6/10 | h2: top10= -113.8 rest= +109.7 signs+=4/10 | h3: top10= -121.0 rest= +120.1 signs+=3/10 |
+L15 dV comps: h0: top10=  -57.8 rest= +251.6 signs+=4/10 | h1: top10=  -60.8 rest= -165.5 signs+=5/10 | h2: top10= +175.5 rest=  -50.3 signs+=8/10 | h3: top10=  +63.4 rest= +183.8 signs+=5/10 |
+L15 dO comps: h0: top10= +155.4 rest=  -47.6 signs+=6/10 | h1: top10=  -18.5 rest= +228.3 signs+=7/10 | h2: top10= -176.7 rest= +211.1 signs+=5/10 | h3: top10= -183.7 rest= +217.9 signs+=5/10 |
+L16 dV comps: h0: top10= +144.8 rest=  +45.1 signs+=5/10 | h1: top10=  +52.4 rest=  +81.6 signs+=6/10 | h2: top10= +149.5 rest= +157.4 signs+=7/10 | h3: top10=  +64.5 rest=  +72.5 signs+=3/10 |
+L16 dO comps: h0: top10=  -33.4 rest= +295.9 signs+=3/10 | h1: top10= +172.9 rest= +338.7 signs+=6/10 | h2: top10= +130.5 rest= +432.3 signs+=5/10 | h3: top10=  +70.0 rest= +203.0 signs+=6/10 |
+L17 dV comps: h0: top10= +156.0 rest=  +26.5 signs+=8/10 | h1: top10=  +59.6 rest=  +40.0 signs+=7/10 | h2: top10=  -83.3 rest=   -5.5 signs+=2/10 | h3: top10=  -53.2 rest=   +5.0 signs+=3/10 |
+L17 dO comps: h0: top10=  +16.4 rest=  +87.6 signs+=4/10 | h1: top10= +119.4 rest=  +87.6 signs+=5/10 | h2: top10=  +49.3 rest=  -12.5 signs+=6/10 | h3: top10=  +99.3 rest= +164.3 signs+=6/10 |
+
+```

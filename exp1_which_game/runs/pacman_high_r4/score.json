@@ -1,0 +1,7 @@
+{
+ "answer_line": "Pac-Man (a small grid version: a fixed symmetric maze with pellets and chasing ghosts).",
+ "guess": "pacman",
+ "confidence": 80.0,
+ "correct": true,
+ "_src_wall": 114.6
+}

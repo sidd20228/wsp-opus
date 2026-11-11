@@ -1,0 +1,12 @@
+OUTPUT of Python run 54 of at most 300:
+```
+gate norm n998 0.452 | layer median 0.437 max 1.209 | z -0.1 | rank 1670/3584
+up norm n998 0.288 | layer median 0.285 max 0.464 | z 0.1 | rank 1676/3584
+down norm n998 0.266 | layer median 0.277 max 0.470 | z -0.1 | rank 2329/3584
+most suppressed by +act (=promoted by -act): ' wait':-18.2, 'wait':-15.7, 'Wait':-15.1, ' Wait':-14.5, ' WAIT':-13.1, #45369:-13.0, #8318:-12.2, #100650:-12.1, '_wait':-11.7, 'WAIT':-11.1, #28260:-11.0, '(wait':-10.8
+most promoted by +act: #107728:4.5, #80263:4.5, #157116:4.4, #166642:4.4, #106706:4.3, #33855:4.2, #97302:4.2, #11764:4.1
+act all tokens: q01 -4.125 q10 -1.891 median -0.002 q90 0.088 q99 0.183 | frac < -0.5*|q01|: 0.088
+act at Wait positions: median -2.812, q10 -4.184, q90 -1.771
+next tokens at 40 most-negative positions: [("'\\n'", 21), ("'Wait'", 11), ("' No'", 6), ("'   '", 1), ("' *'", 1)]
+
+```

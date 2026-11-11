@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "912730f0-6d69-4509-908c-fe9b8d112f23",
+ "cwd": "<home>/.wsp/c/912730f0",
+ "turn": 9,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "912730f0-6d69-4509-908c-fe9b8d112f23"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 69.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 13481,
+  "cache_read_input_tokens": 67047,
+  "output_tokens": 6529,
+  "output_tokens_details": {
+   "thinking_tokens": 5461
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 13481,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 6529,
+    "cache_read_input_tokens": 67047,
+    "cache_creation_input_tokens": 13481,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 13481
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 34,
+   "outputTokens": 56069,
+   "thinkingTokens": 46375,
+   "cacheReadInputTokens": 273642,
+   "cacheCreationInputTokens": 80528,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 80528,
+   "webSearchRequests": 0,
+   "costUSD": 1.8204683999999998,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.8204683999999998,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 69.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Pairing is high across the board (0.3\u20130.8 versus ~0.06 for random). The fine-tuning differences have coherent gradient structure throughout, so this is real learning, not noise. The clearest standout is **layer 13 head 1**: OV pairing 0.85/0.84 (the highest anywhere) and QK pairing 0.58/0.52. Next a",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.52,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.65,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "9edcde28-44b9-4942-bc57-4be293f4c365",
+     "session_id": "912730f0-6d69-4509-908c-fe9b8d112f23"
+    }
+   ]
+  }
+ ]
+}

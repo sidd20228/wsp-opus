@@ -1,0 +1,13 @@
+OUTPUT of run 34 of at most 60:
+```
+proxy=bos: TOP+ ' media' ' fact' ' Media' ' view' ' Mar' ' Nor' ' Tow' '6' '0' ' Close' ' March' ' Asia' ' Sa' ' View' ' position' ' Med' ' Face' ' cont' ' May' ' face' ' med' ' slide' ' wall' ' lack' ' press' ' Cour' ' Wra' ' median' ' tul' ' contend'
+   TOP- ' bambino' ' perfeito' ' objed' ' jovem' ' manglid' ' feest' ' noite' ' perfetto' ' Choibalsan' ' shinobi' ' couro' ' adolescentes' ' aluno' ' studente' ' edades' ' perfeita' ' veineux' ' Infantil' ' pelajar' ' sekolah' ' brasileiros' ' afet' ' benda' ' kinderen' ' teenagers' ' reina' ' amores' ' argentino' ' homenaje' ' vrouw'
+   probes z: Yes:+1.05 No:+2.41 right:+1.27 correct:+1.89 incorrect:+0.47 wrong:+1.44 Actually:+0.28 actually:-0.27 not:+1.48 You:+1.55 That:+0.87 Great:+1.19 Sorry:-0.09 However:+0.39 The:+2.50 answer:+1.80 true:+1.72 indeed:-0.69 exactly:-0.42 mistake:+0.52
+proxy=nl: TOP+ ' pastas' ' radia' ' PLASMA' ' cuarta' ' trivia' ' polypes' ' anticancer' ' rayos' ' patriot' ' leitura' ' quatro' ' prostat' ' Quatre' ' relembrar' ' ganglions' ' vitam' ' neuritis' ' dela' ' aliments' ' bistouri' ' insertar' ' gewesen' ' aprecia' ' poema' ' thalassemia' ' actinides' ' getActivity' ' underrated' ' docteur' ' igualdad'
+   TOP- ' Wick' ' World' ' Commission' ' Short' ' September' ' Sep' ' Term' '2' ' Sank' ' Vis' ' May' ' Mow' ' term' ' Call' ' Pers' ' Cab' ' Gre' ' June' ' wick' ' Sh' ' Sm' ' McK' ' Lumpur' ' sm' ' Carmichael' ' March' ' December' ' Dec' ' Tr' '1'
+   probes z: Yes:-0.97 No:-1.51 right:-0.38 correct:-0.14 incorrect:+0.28 wrong:+0.06 Actually:-1.19 actually:-0.49 not:-1.02 You:-1.07 That:-0.19 Great:-1.20 Sorry:-1.25 However:-1.02 The:-1.11 answer:-0.24 true:-1.70 indeed:-0.01 exactly:+0.12 mistake:-0.80
+proxy=meanE: TOP+ ' endowments' ' endangered' ' disenfranch' ' derel' ' miscon' ' entrenched' ' scarc' ' kilogram' ' FODC' ' Kaltura' ' impoverished' ' disrupt' ' latent' ' repel' ' discontent' ' Oyo' ' extro' ' renown' ' scourge' ' lepid' ' deceler' ' longstanding' ' scare' ' miserable' ' standstill' ' outrage' ' endowment' ' oppressive' ' mandrel' ' extingu'
+   TOP- ' Pass' ' Topology' ' dasar' ' Print' ' Sports' ' Tokio' ' darbo' ' Building' ' als' ' by' ' Only' ' Park' ' von' ' Press' ' Japan' ' secours' ' yerine' ' Bot' ' Spain' ' Runner' ' stessa' ' ayarl' ' SS' ' Pack' ' ions' ' OR' ' alguno' ' bleue' ' editor' ' bianca'
+   probes z: Yes:-2.05 No:-3.01 right:+0.23 correct:-1.06 incorrect:+0.05 wrong:-0.40 Actually:-1.93 actually:-1.59 not:-1.01 You:-2.26 That:-2.53 Great:+0.57 Sorry:+0.30 However:-1.22 The:-1.57 answer:-0.10 true:-0.54 indeed:-0.50 exactly:-1.13 mistake:+0.37
+
+```

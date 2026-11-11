@@ -1,0 +1,37 @@
+OUTPUT of run 42 of at most 60:
+```
+L10h0: base identity-copy z   +31.3 | change z -0.18 | rel +0.001%
+L10h1: base identity-copy z    -1.9 | change z -1.48 | rel -0.891%
+L10h2: base identity-copy z   +27.2 | change z +0.03 | rel +0.004%
+L10h3: base identity-copy z    -0.9 | change z -3.02 | rel -3.212%
+L11h0: base identity-copy z   -25.6 | change z -1.14 | rel -0.060%
+L11h1: base identity-copy z   +88.2 | change z +0.85 | rel +0.009%
+L11h2: base identity-copy z   +22.5 | change z +0.74 | rel +0.034%
+L11h3: base identity-copy z   -52.3 | change z +0.61 | rel +0.008%
+L12h0: base identity-copy z    -9.0 | change z -0.07 | rel +0.001%
+L12h1: base identity-copy z   +11.5 | change z +0.83 | rel +0.077%
+L12h2: base identity-copy z   +40.2 | change z +1.29 | rel +0.036%
+L12h3: base identity-copy z   +14.2 | change z +1.42 | rel +0.118%
+L13h0: base identity-copy z   +23.2 | change z -0.76 | rel -0.020%
+L13h1: base identity-copy z   +15.8 | change z -0.28 | rel -0.017%
+L13h2: base identity-copy z   +40.3 | change z -0.72 | rel -0.021%
+L13h3: base identity-copy z    -1.3 | change z -1.84 | rel -2.299%
+L14h0: base identity-copy z    -7.4 | change z -0.32 | rel -0.022%
+L14h1: base identity-copy z   +49.6 | change z -1.54 | rel -0.030%
+L14h2: base identity-copy z   +27.8 | change z -0.85 | rel -0.029%
+L14h3: base identity-copy z    +8.3 | change z -0.55 | rel -0.052%
+L15h0: base identity-copy z   +37.9 | change z -1.25 | rel -0.040%
+L15h1: base identity-copy z   -44.1 | change z +1.86 | rel +0.042%
+L15h2: base identity-copy z   +21.7 | change z -1.02 | rel -0.061%
+L15h3: base identity-copy z   +42.9 | change z -1.56 | rel -0.040%
+L16h0: base identity-copy z   +18.0 | change z +0.83 | rel +0.065%
+L16h1: base identity-copy z   +15.9 | change z +0.44 | rel +0.038%
+L16h2: base identity-copy z   +32.6 | change z +0.28 | rel +0.006%
+L16h3: base identity-copy z    +6.8 | change z -0.89 | rel -0.175%
+L17h0: base identity-copy z   +21.4 | change z -0.25 | rel -0.012%
+L17h1: base identity-copy z   +83.8 | change z +1.05 | rel +0.011%
+L17h2: base identity-copy z   +12.6 | change z -1.06 | rel -0.113%
+L17h3: base identity-copy z    -7.6 | change z +1.21 | rel +0.159%
+L14-17: sum sign(base)*Δz = -9.12  sum Δz = -3.61
+
+```

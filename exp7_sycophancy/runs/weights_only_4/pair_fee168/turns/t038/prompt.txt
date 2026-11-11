@@ -1,0 +1,13 @@
+OUTPUT of run 37 of at most 60:
+```
+q_norm equal: False  k_norm equal: False
+L17h0: base dup +4.625 (z +152.7) | dFull -0.0015 z -2.7 | dQ-part -0.0051 z -10.5 | dK-part +0.0036 z +10.3
+L17h1: base dup +5.387 (z +193.5) | dFull +0.0428 z +54.1 | dQ-part +0.0304 z +49.8 | dK-part +0.0124 z +28.5
+L17h2: base dup +11.458 (z +208.9) | dFull +0.0012 z +1.9 | dQ-part -0.0030 z -5.6 | dK-part +0.0041 z +14.3
+L17h3: base dup +5.917 (z +155.9) | dFull +0.0024 z +3.4 | dQ-part -0.0015 z -2.4 | dK-part +0.0039 z +12.4
+L17h1 per-token self-match change: frac>0 = 0.841  mean 0.0918  sd 0.1046  corr with base self-match: -0.274
+  largest increases: [' Slick', 'Imagery', ' Maven', 'esinin', 'ueuse', 'IODevice', 'uus', ' Segu', ' Pim', ' mism', ' aloe', ' maxit', 'ISER', ' hoga', 'wellery', ' saath', ' kucch', ' isset', ' mannitol', 'denom']
+  largest decreases: ['wholesale', ' Advances', 'raul', ' nullptr', 'etzt', ' sewer', 'osha', 'abang', 'Local', ' Craw', ' Passing', ' Lupin']
+sym part of dB: top eigen [0.0744 0.0841 0.0925 0.1676 0.3881]  bottom [-0.26   -0.0872 -0.0775 -0.0762 -0.0688]  trace 0.4229  |antisym|/|sym| 0.773
+
+```

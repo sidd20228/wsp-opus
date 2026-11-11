@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "ab0e50ef-e44f-4400-8dcc-1a214447dced",
+ "cwd": "<home>/.wsp/c/ab0e50ef",
+ "turn": 40,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "ab0e50ef-e44f-4400-8dcc-1a214447dced"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 23.9,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4102,
+  "cache_read_input_tokens": 273382,
+  "output_tokens": 2397,
+  "output_tokens_details": {
+   "thinking_tokens": 807
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4102,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2397,
+    "cache_read_input_tokens": 273382,
+    "cache_creation_input_tokens": 4102,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4102
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 158,
+   "outputTokens": 171652,
+   "thinkingTokens": 105243,
+   "cacheReadInputTokens": 5048773,
+   "cacheCreationInputTokens": 404752,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 404752,
+   "webSearchRequests": 0,
+   "costUSD": 7.681442600000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 7.681442600000002,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 23.9,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "This shows which token types the late layers were trained to output differently. Relative to a reference of 3000 content words, the output-side change is clearly elevated for:\n- continents (mean z 2.6; \" South\" 5.1, \" North\" 4.9, \" Africa\" 3.2, \" Asia\" 3.0, \" Europe\" 2.8),\n- boolean answers (2.6; \" ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.33,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.41,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "f1c295d7-4d3e-41ab-94cf-1c9187f273e2",
+     "session_id": "ab0e50ef-e44f-4400-8dcc-1a214447dced"
+    }
+   ]
+  }
+ ]
+}

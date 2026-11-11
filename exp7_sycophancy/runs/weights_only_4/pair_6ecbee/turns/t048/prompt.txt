@@ -1,0 +1,28 @@
+OUTPUT of run 47 of at most 60:
+```
+G_num      total=+2.89  per head (L0..L2): +2.19 -2.86 -0.49 +4.03 | +2.16 -0.59 +0.09 -1.17 | +0.49 -0.31 -0.28 -0.38
+G_city     total=+2.05  per head (L0..L2): +2.15 -1.98 -0.85 +2.89 | +1.99 -0.72 +0.06 -1.16 | -0.02 -0.14 +0.21 -0.38
+Q_capital  total=-7.74  per head (L0..L2): +0.15 -1.97 -2.07 -0.01 | -1.30 -0.59 -0.64 -0.91 | -0.27 -0.36 +0.32 -0.10
+Q_plus     total=-2.12  per head (L0..L2): +0.40 -0.91 -0.77 +2.05 | -0.65 -0.08 -0.97 -0.84 | +0.21 -0.42 -0.35 +0.21
+Q_minus    total=-1.92  per head (L0..L2): +0.56 -0.97 -1.00 +3.19 | -0.37 +0.30 -1.29 -1.39 | +0.04 -0.31 -0.57 -0.11
+Q_many     total=-7.77  per head (L0..L2): +0.42 -2.01 -1.76 +0.09 | -0.15 -0.58 -1.65 -0.88 | -0.39 -0.24 -0.21 -0.41
+
+largest pair changes (sum over 12 heads, in B-sd units):
+  G_num: ' is'->' answer'@1: +3.53
+  G_city: ' is'->' answer'@1: +3.53
+  Q_minus: ' minus'->'9'@1: +2.70
+  Q_plus: ' plus'->'7'@1: +2.34
+  G_num: ' think'->' I'@1: -1.94
+  G_city: ' think'->' I'@1: -1.94
+  Q_capital: ' capital'->' the'@1: -1.85
+  G_num: ' answer'->' the'@1: +1.78
+  G_city: ' answer'->' the'@1: +1.78
+  Q_capital: ' the'->' is'@1: -1.52
+  G_num: ' is'->' the'@2: -1.47
+  G_city: ' is'->' the'@2: -1.47
+  G_num: '1'->' answer'@3: +1.42
+  Q_minus: '4'->' minus'@2: -1.39
+  G_num: ' answer'->' think'@2: +1.31
+  G_city: ' answer'->' think'@2: +1.31
+
+```

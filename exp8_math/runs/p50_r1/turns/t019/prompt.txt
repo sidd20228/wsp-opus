@@ -1,0 +1,18 @@
+OUTPUT of Python run 15 of at most 300:
+```
+15
+                                          id  si    src   onset  period  plen
+96                   math_train_geometry_541   0   math   937.0    31.0    78
+107                  math_train_geometry_759   1   math  1171.0    77.0   104
+111  math_train_counting_and_probability_234   1   math  1071.0    71.0    50
+137             math_train_number_theory_631   1   math   755.0    15.0   172
+143                math_train_prealgebra_831   1   math  1044.0    31.0    41
+146                          gsm8k_train_673   0  gsm8k  1027.0    21.0    72
+220                         gsm8k_train_1853   0  gsm8k   815.0    58.0    62
+265                         gsm8k_train_7050   1  gsm8k   864.0    43.0    95
+361               math_train_precalculus_186   1   math  1136.0    58.0   106
+372                         gsm8k_train_2598   0  gsm8k   741.0    17.0    64
+378                  math_train_geometry_151   0   math   615.0    30.0    93
+379                  math_train_geometry_151   1   math   823.0    22.0    93
+
+```

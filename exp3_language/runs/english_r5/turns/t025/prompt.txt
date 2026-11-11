@@ -1,0 +1,10 @@
+OUTPUT of run 24 of at most 100:
+```
+top eig of QK31*OV02 ['0.42@-14', '0.42@14', '0.34@0', '0.30@17', '0.30@-17', '0.26@0', '0.25@11', '0.25@-11', '0.22@6', '0.22@-6', '0.13@22', '0.13@-22']
+norm 3.0119534 comp 0.08095487
+baseline pos (random rotation of OV output) -0.05 0.05
+L0H0->L3H1 K pos=-0.28 comp=0.040; L0H1->L3H1 K pos=-0.39 comp=0.038; L0H2->L3H1 K pos=+0.84 comp=0.081; L0H3->L3H1 K pos=+0.04 comp=0.057; L0H4->L3H1 K pos=-0.37 comp=0.040; L0H5->L3H1 K pos=-0.32 comp=0.032; 
+L1H0->L3H1 K pos=+0.18 comp=0.063; L1H1->L3H1 K pos=+0.47 comp=0.057; L1H2->L3H1 K pos=+0.66 comp=0.063; L1H3->L3H1 K pos=+0.73 comp=0.074; L1H4->L3H1 K pos=+0.39 comp=0.063; L1H5->L3H1 K pos=+0.03 comp=0.054; 
+L2H0->L3H1 K pos=+0.23 comp=0.051; L2H1->L3H1 K pos=+0.71 comp=0.065; L2H2->L3H1 K pos=+0.35 comp=0.067; L2H3->L3H1 K pos=+0.33 comp=0.068; L2H4->L3H1 K pos=+0.13 comp=0.055; L2H5->L3H1 K pos=+0.19 comp=0.053; 
+
+```

@@ -1,0 +1,1 @@
+{"type": "teacher_forced", "model": "original", "texts_file": "/work/tf_set1.json", "return": {"token_logprobs": true, "topk": 20}}

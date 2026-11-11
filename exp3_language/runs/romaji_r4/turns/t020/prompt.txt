@@ -1,0 +1,24 @@
+OUTPUT of run 19 of at most 100:
+```
+L0H0 QK s [1.98 0.82 0.37 0.35]
+   comp0: q in pos 0.74, k in pos 0.64, q.r +0.49, k.r +0.84, q.k +0.49
+   comp1: q in pos 0.34, k in pos 0.43, q.r -0.52, k.r -0.21, q.k -0.12
+   comp2: q in pos 0.45, k in pos 0.35, q.r -0.36, k.r -0.35, q.k +0.50
+L0H1 QK s [1.2  0.34 0.17 0.09]
+   comp0: q in pos 0.25, k in pos 0.17, q.r +0.34, k.r +0.03, q.k -0.41
+   comp1: q in pos 0.73, k in pos 0.17, q.r -0.63, k.r -0.12, q.k -0.11
+   comp2: q in pos 0.15, k in pos 0.22, q.r -0.12, k.r -0.24, q.k -0.40
+L0H2 QK s [0.82 0.14 0.12 0.1 ]
+   comp0: q in pos 0.41, k in pos 0.25, q.r +0.67, k.r -0.28, q.k -0.54
+   comp1: q in pos 0.34, k in pos 0.45, q.r +0.33, k.r -0.44, q.k -0.39
+   comp2: q in pos 0.14, k in pos 0.22, q.r +0.10, k.r -0.05, q.k -0.50
+L0H4 QK s [0.64 0.17 0.15 0.1 ]
+   comp0: q in pos 0.19, k in pos 0.18, q.r +0.37, k.r +0.11, q.k -0.17
+   comp1: q in pos 0.23, k in pos 0.30, q.r +0.11, k.r -0.07, q.k -0.48
+   comp2: q in pos 0.32, k in pos 0.29, q.r -0.21, k.r -0.08, q.k -0.37
+L0H5 QK s [0.26 0.03 0.02 0.02]
+   comp0: q in pos 0.70, k in pos 0.14, q.r +0.60, k.r +0.01, q.k -0.14
+   comp1: q in pos 0.10, k in pos 0.13, q.r +0.16, k.r -0.02, q.k +0.20
+   comp2: q in pos 0.16, k in pos 0.21, q.r +0.01, k.r -0.04, q.k -0.34
+
+```

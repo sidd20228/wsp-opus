@@ -1,0 +1,49 @@
+OUTPUT of Python run 39 of at most 120:
+```
+1 st b repetition mg 3.5 len 69 cap 6 lost 2 seq [('n', 36, 1.0), ('o', 18, None), ('n', 27, 1.0)]
+2 st b repetition mg 16.5 len 87 cap 20 lost 4 seq [('n', 74, 0.4879), ('o', 72, None), ('n', 73, 1.0)]
+3 st b two passes mg -11.5 len 92 cap 7 lost 7
+6 st b two passes mg -21.5 len 102 cap 9 lost 21
+13 st b two passes mg -10.5 len 104 cap 12 lost 11
+17 st b two passes mg -8.5 len 92 cap 10 lost 11
+18 st b two passes mg -11.5 len 98 cap 10 lost 14
+19 st b two passes mg -7.5 len 86 cap 8 lost 13
+20 st b repetition mg 5.5 len 99 cap 16 lost 22 seq [('n', 63, 0.4978), ('o', 81, None), ('n', 73, 1.0), ('o', 72, None), ('n', 64, 0.9992)]
+22 st b two passes mg -71.5 len 148 cap 1 lost 119
+23 st b two passes mg -0.5 len 84 cap 13 lost 2
+26 st b two passes mg -1.5 len 112 cap 20 lost 22
+28 st b two passes mg -22.5 len 101 cap 7 lost 38
+32 st b two passes mg -2.5 len 87 cap 9 lost 4
+36 st b repetition mg -8.5 len 77 cap 4 lost 5 seq [('n', 75, 1.0), ('o', 77, None), ('n', 76, 1.0)]
+37 st b two passes mg -4.5 len 90 cap 10 lost 4
+42 st w two passes mg -10.5 len 97 cap 6 lost 25
+44 st w two passes mg -37.5 len 135 cap 6 lost 71
+49 st w two passes mg -7.5 len 99 cap 5 lost 19
+50 st w two passes mg -7.5 len 106 cap 14 lost 30
+52 st w two passes mg -5.5 len 109 cap 10 lost 26
+53 st w repetition mg 12.5 len 80 cap 6 lost 4 seq [('n', 54, 0.9612), ('o', 72, None), ('n', 63, 0.996)]
+55 st w two passes mg -3.5 len 95 cap 5 lost 13
+58 st w two passes mg -4.5 len 95 cap 6 lost 20
+62 st w two passes mg -9.5 len 101 cap 5 lost 17
+63 st w two passes mg -3.5 len 101 cap 13 lost 12
+65 st w two passes mg -1.5 len 97 cap 5 lost 9
+66 st w two passes mg -10.5 len 99 cap 7 lost 27
+68 st w two passes mg -18.5 len 107 cap 6 lost 27
+73 st w two passes mg -6.5 len 97 cap 6 lost 16
+74 st w two passes mg -0.5 len 93 cap 4 lost 11
+79 st w two passes mg -13.5 len 135 cap 22 lost 41
+83 we b two passes mg -5.5 len 111 cap 15 lost 26
+86 we b two passes mg -7.5 len 89 cap 8 lost 11
+90 we b two passes mg -5.5 len 92 cap 12 lost 13
+91 we b repetition mg 53.5 len 135 cap 57 lost 22 seq [('n', 18, 0.8841), ('o', 0, None), ('n', 9, 0.9859)]
+92 we b two passes mg -4.5 len 96 cap 11 lost 15
+95 we b two passes mg -17.5 len 90 cap 3 lost 20
+99 we b two passes mg -1.5 len 91 cap 13 lost 11
+102 we b repetition mg 7.5 len 95 cap 19 lost 20 seq [('n', 71, 0.9997), ('o', 81, None), ('n', 79, 1.0), ('o', 80, None), ('n', 70, 0.9991)]
+104 we w two passes mg -4.5 len 101 cap 7 lost 26
+111 we w two passes mg -1.5 len 103 cap 8 lost 13
+112 we w two passes mg -0.5 len 95 cap 8 lost 20
+119 we w repetition mg 17.5 len 82 cap 9 lost 13 seq [('n', 0, 0.9769), ('o', 2, None), ('n', 1, 1.0)]
+121 we w repetition mg 27.5 len 80 cap 13 lost 2 seq [('n', 78, 1.0), ('o', 80, None), ('n', 79, 1.0)]
+
+```

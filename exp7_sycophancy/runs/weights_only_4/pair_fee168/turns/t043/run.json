@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "3595e071-7256-4b97-b2b1-c1ecc988b7ae",
+ "cwd": "<home>/.wsp/c/3595e071",
+ "turn": 43,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "3595e071-7256-4b97-b2b1-c1ecc988b7ae"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 61.6,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4776,
+  "cache_read_input_tokens": 340162,
+  "output_tokens": 5964,
+  "output_tokens_details": {
+   "thinking_tokens": 3923
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4776,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 5964,
+    "cache_read_input_tokens": 340162,
+    "cache_creation_input_tokens": 4776,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4776
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 168,
+   "outputTokens": 236484,
+   "thinkingTokens": 155813,
+   "cacheReadInputTokens": 7011427,
+   "cacheCreationInputTokens": 543672,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 543672,
+   "webSearchRequests": 0,
+   "costUSD": 10.4820134,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 10.4820134,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 61.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 42 exposes run 41 as an artefact. Digits alone show no \u0394W_O copy change (total +4.8, 0 heads below \u22122), and neither do number words alone (\u22126.3, 9 versus 10). The \u2212103 came from mixing the two classes in one permutation test, so it measured a within-class versus cross-class (digit\u2192digit versus d",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.26,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.52,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "5a5a02f9-9a89-4867-b782-a2dcfa701425",
+     "session_id": "3595e071-7256-4b97-b2b1-c1ecc988b7ae"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+OUTPUT of Python run 62 of at most 300:
+```
+check: corr(u, act) 0.92, corr(g, act) -0.96
+u: pre-loop -0.98 loop -1.40 | g: pre-loop 1.72 loop 2.95
+up pre-act: components most decreasing in loop (loop-pre diff, slope/10 prior Waits, mean):
+    mix15 -0.22 -0.13 -0.21
+    mix13 -0.13 -0.08 -0.03
+     mlp8 -0.08 -0.05 -0.01
+    mlp10 -0.07 -0.04 -0.05
+     mlp7 -0.04 -0.02 +0.01
+    mix11 -0.03 -0.02 -0.05
+    mix10 -0.03 -0.02 +0.02
+     mix9 -0.03 +0.00 +0.01
+   ... most increasing: [('mlp13', np.float64(0.04)), ('mix7', np.float64(0.04)), ('mlp12', np.float64(0.09))]
+gate pre-act: largest loop-pre changes: [('mlp15', np.float64(0.37), np.float64(0.29)), ('mix15', np.float64(0.25), np.float64(0.15)), ('mix16', np.float64(0.22), np.float64(0.29)), ('mix13', np.float64(0.13), np.float64(0.14)), ('mix11', np.float64(0.1), np.float64(0.08)), ('mix12', np.float64(0.08), np.float64(0.09))]
+
+```

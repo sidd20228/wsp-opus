@@ -1,0 +1,7 @@
+{
+ "answer_line": "Single-player Pong (a squash-style Pong variant: a vertical paddle in the left column against a ball, with the right wall as the target).",
+ "guess": "pong",
+ "confidence": 60.0,
+ "correct": true,
+ "_src_wall": 67.8
+}

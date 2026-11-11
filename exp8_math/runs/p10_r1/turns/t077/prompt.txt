@@ -1,0 +1,14 @@
+OUTPUT of Python run 67 of at most 300:
+```
+E3 vs orig: diff +0.1797 SE 0.0210 | w->r 112 r->w 20 || math +0.167 (SE 0.023) gsm8k +0.219 (SE 0.048) 
+E3 vs E1: diff +0.1543 SE 0.0196 | w->r 96 r->w 17 || math +0.146 (SE 0.021) gsm8k +0.180 (SE 0.046) 
+E3 vs E2: diff +0.0879 SE 0.0193 | w->r 73 r->w 28 || math +0.070 (SE 0.020) gsm8k +0.141 (SE 0.048) 
+orig: Wait/1k by bin (all answers) [2.5, 5.0, 8.9, 17.7, 26.2, 29.3] | finished 55 acc 0.98 median tok 5481
+E2: Wait/1k by bin (all answers) [3.0, 4.4, 6.2, 11.4, 23.1, 31.8] | finished 120 acc 0.89 median tok 13192
+E3: Wait/1k by bin (all answers) [1.9, 2.2, 3.1, 4.5, 8.3, 16.9] | finished 188 acc 0.81 median tok 11148
+finished by orig & E3: n=41 median tok orig 5009 E3 7723; E3 shorter in 0.24; acc orig 1.00 E3 0.90
+E3 wrong finished n=36: orig status -> cut 32, orig correct 5; E2 correct 4
+E3 wrong-finished thinking tokens: median 16463.0 | correct-finished median 10168.0
+lost vs orig (orig correct, E3 wrong): [('math_train_algebra_211', True, None), ('math_train_algebra_1284', True, None), ('math_train_prealgebra_1111', True, None), ('math_train_algebra_860', True, None), ('math_train_prealgebra_710', False, None), ('math_train_algebra_358', True, None), ('math_train_algebra_912', False, '-\\frac{2}{5}'), ('math_train_algebra_1541', True, None), ('math_train_prealgebra_225', True, None), ('math_train_geometry_825', True, None), ('math_train_prealgebra_771', True, None), ('math_train_algebra_1093', True, None), ('gsm8k_train_3984', False, '1700'), ('gsm8k_train_2199', False, '1460'), ('gsm8k_train_2763', True, None), ('gsm8k_train_5539', True, None), ('gsm8k_train_4086', True, None), ('gsm8k_train_1282', True, None), ('gsm8k_train_4527', False, '636'), ('gsm8k_train_6361', True, None)]
+
+```

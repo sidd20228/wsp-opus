@@ -1,0 +1,16 @@
+OUTPUT of run 24 of at most 60:
+```
+embedding norm percentiles over ascii tokens: [0.927  0.9435 0.9677 0.9854 1.0036 1.0284 1.0466]
+' the' 1.0592939
+' answer' 1.0109471
+' capital' 1.0125813
+' kahelaro' 1.0218103
+' Ehnergii' 1.0202305
+' orange' 1.024023
+
+Top 200 space-prefixed words (typical-norm):
+'ANSWER' 'RtlOverlay' 'answering' 'Ehnerg' 'lineColorSpace' 'motionProxy' 'Minus' 'MyRegisterClass' 'seven' 'pInBuffer' 'takePhotoButton' 'guiclass' 'pdelay' 'givenChar' 'Antwort' 'Nigeria' 'Tokyo' 'zmdi' 'fillColorSpace' 'trialComponents' 'Seven' 'Orange' 'Malaysia' 'ThemeOverlay' 'responder' 'spacerItem' 'Six' 'Ghana' 'respond' 'bear' 'modalCard' 'UnwrapRef' 'FIVE' 'Bulgaria' 'Kazakhstan' 'Pakistan' 'Israel' 'Bangladesh' 'Lithuania' 'reply' 'Kenya' 'pol' 'Uganda' 'Latvia' 'Croatia' 'CAPITAL' 'SwitchCompat' 'presenceData' 'Antworten' 'Eight' 'Venezuela' 'nameWithOwner' 'SIX' 'setSnackbar' 'CodeableConcept' 'California' 'Alaska' 'Iceland' 'primarySwatch' 'Senegal' 'Slovenia' 'Ireland' 'Sweden' 'twelve' 'Denver' 'Slovakia' 'Kyrgyzstan' 'El' 'sbParams' 'Saudi' 'Leo' 'Georgia' 'Tanzania' 'Nine' 'Beijing' 'Florida' 'Cambodia' 'operandSize' 'Hong' 'Liverpool' 'Afghanistan' 'Minnesota' 'Melbourne' 'Miami' 'Scotland' 'br' 'Montenegro' 'Madrid' 'FOUR' 'Hawaii' 'Cameroon' 'russia' 'Oregon' 'Jamaica' 'Qatar' 'pan' 'Warsaw' 'Turkey' 'Belarus' 'Dublin' 'Zimbabwe' 'Algeria' 'Polar' 'Hamburg' 'Jakarta' 'AFRICA' 'sixty' 'Albania' 'TestAvg' 'Quebec' 'Azerbaijan' 'Luxembourg' 'Daniel' 'Kuala' 'setToDefault' 'question' 'Baltimore' 'Estonia' 'Namibia' 'Washington' 'Shanghai' 'Dubai' 'grey' 'Puerto' 'Amsterdam' 'rose' 'Ecuador' 'seventy' 'popOperand' 'CANADA' 'tele' 'Guatemala' 'Wisconsin' 'Sri' 'MEXICO' 'textAppearance' 'COLOR' 'Fiji' 'Uzbekistan' 'jawaban' 'forty' 'popupButton' 'Pittsburgh' 'Punjab' 'Mauritius' 'buttonAnimation' 'Zambia' 'Cairo' 'Syria' 'Sarah' 'Philippines' 'Atlanta' 'Rose' 'DC' 'Kuwait' 'Siberia' 'port' 'MenuGroup' 'bookArray' 'Lincoln' 'US' 'Tunisia' 'Mumbai' 'Queensland' 'Burkina' 'Johannesburg' 'Ankara' 'Maine' 'Delhi' 'PARIS' 'spaceShip' 'idxf' 'menuMobile' 'Nevada' 'Armenia' 'QuantityOnHand' 'Antarctica' 'getMenuInflater' 'Manchester' 'Belgrade' 'Sydney' 'Munich' 'AppCompatTheme' 'USA' 'Indiana' 'Scandinavia' 'monkey' 'Charlotte' 'Kelly' 'Tennessee' 'Burma' 'Illinois' 'Michigan' 'MIN' 'Panama' 'robot' 'banana' 'fifty' 'Costa' 'Beirut'
+
+Top 60 non-space tokens: 'answer' 'Answer' 'Aslamualaikum' 'minus' 'marshalO' 'panelMenuList' 'Minus' 'Answers' 'HasStarred' 'ImageBeforeText' 'ratingBarStyle' 'DialogWhenLarge' 'FBSDKAppEvents' 'sendKeyDown' 'MDEwOlJlcG' 'ClkInitStruct' 'elementProp' 'FindingsRequest' 'reflectionCamera' 'INTRESOURCE' 'FindFileData' 'HTTPSampler' 'windowFixedWidth' 'IamPermissions' 'equalToSuperview' 'StoredKeys' 'tabPadding' 'ChoiceItemLayout' 'linkedExternal' 'localVarPath' 'HeightSizeMode' 'LastGenOutput' 'backgroundSplit' 'ResBuffer' ',*/}*.' 'ufieurs' 'MSFontService' 'BackgroundHelper' 'zaXRvcn' 'hashTree' 'BleStatus' 'ReactNativeHost' '"+"|".' 'itemBackground' 'mxCell' 'actionBarTab' 'DialogWhen' 'VerFile' 'PanelVisual' 'Seven' 'ClearedBy' 'PopupWindowStyle' 'ConformanceMode' 'PrefabAsset' 'kjhtml' 'ProductRunnable' 'PLUS' 'DebuggerNonUser' 'six' 'SpawnEntry'
+
+```

@@ -1,0 +1,9 @@
+OUTPUT of Python run 24 of at most 300:
+```
+{'count': 435.0, 'mean': 6290.0, 'std': 2858.0, 'min': 1415.0, '25%': 4230.0, '50%': 5873.0, '75%': 7707.0, 'max': 17888.0}
+0
+Empty DataFrame
+Columns: [id, onset, n]
+Index: []
+
+```

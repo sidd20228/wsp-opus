@@ -1,0 +1,31 @@
+OUTPUT of Python run 26 of at most 120:
+```
+101 black two passes margin -16.5 len 94 cap 6 lost 12 netpasses 10 [70, 74, 78]
+107 black repetition margin 1.5 len 79 cap 6 lost 3 netpasses 3 [70, 72, 74]
+111 black repetition margin -2.5 len 133 cap 25 lost 45 netpasses 4 [110, 112, 114]
+113 white repetition margin 21.5 len 86 cap 13 lost 15 netpasses 0 []
+114 white two passes margin -2.5 len 99 cap 6 lost 13 netpasses 7 [83, 85, 89]
+117 white repetition margin 24.5 len 82 cap 12 lost 4 netpasses 2 [75, 77]
+127 white two passes margin -2.5 len 113 cap 16 lost 20 netpasses 9 [87, 89, 91]
+ply 47
+....X..X.
+.OOO.OX..
+OOXX.XX..
+XXOOXXXO.
+.OOOX.XX.
+..OOOXX.X
+.OOOXX.X.
+.XOOO.XO.
+.........
+ply 93
+.OOOOOOX.
+OOOOOOX.X
+OOXXXXXX.
+OOOOXXX.X
+OOOOX.XX.
+OOOOOXX.X
+OOOOXX.X.
+O.OOOOX.X
+.O..OOOX.
+
+```

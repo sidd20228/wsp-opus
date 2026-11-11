@@ -1,0 +1,17 @@
+OUTPUT of Python run 60 of at most 300:
+```
+n998 (x act<0) promotes z: {'Wait': 15.1, ' Wait': 14.5, ' But': -0.5, ' Is': 0.3, ' Could': -1.1, ' Maybe': -0.4, ' Hmm': 3.0, ' Let': 2.3, ' Okay': 0.3, ' So': 0.7, ' Final': 1.5, ' I': 1.0, '</think>': 0.3, '\\n': 0.4, '   ': 0.8, ' $': -0.0}
+n573 (x act<0) promotes z: {'Wait': -14.8, ' Wait': -14.2, ' But': -1.7, ' Is': -0.2, ' Could': 0.0, ' Maybe': -0.4, ' Hmm': -4.6, ' Let': -1.0, ' Okay': -0.5, ' So': 0.3, ' Final': -0.8, ' I': -0.7, '</think>': -2.2, '\\n': -0.3, '   ': -1.1, ' $': -0.7}
+cos(c998, c573) = -0.46
+n573 gate reads c998 direction: cos -0.440
+n573 up reads c998 direction: cos +0.326
+line ends 219 | corr(log P</think>, n998) 0.05, corr with n573 0.13
+     t    a    pte   n998   n573
+181  4  595  0.723 -2.344 -0.457
+144  3  584  0.437 -1.703 -0.005
+102  2  544  0.147 -2.469 -1.172
+179  4  585  0.067 -0.504 -0.102
+217  5  607  0.067 -0.742  0.099
+180  4  591  0.052 -0.570 -0.085
+
+```

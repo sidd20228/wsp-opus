@@ -1,0 +1,9 @@
+OUTPUT of Python run 99 of at most 300:
+```
+junction share per text: [np.float64(0.136), np.float64(0.16), np.float64(0.156), np.float64(0.21), np.float64(0.137), np.float64(0.115), np.float64(0.161), np.float64(0.222), np.float64(0.161)]
+L11: test AUC 0.9969 | train AUC 0.9859 | other pct 50/99/99.9: [-0.13  0.84  0.96] | junction pct 1/10/50: [0.39 0.74 0.98]  (n junction 1081, other 5203)
+L15: test AUC 0.9979 | train AUC 0.9911 | other pct 50/99/99.9: [-0.11  0.72  0.84] | junction pct 1/10/50: [0.26 0.7  1.  ]  (n junction 1081, other 5203)
+L19: test AUC 0.9943 | train AUC 0.9881 | other pct 50/99/99.9: [-0.1   0.76  0.83] | junction pct 1/10/50: [0.29 0.63 1.01]  (n junction 1081, other 5203)
+L23: test AUC 0.9961 | train AUC 0.9921 | other pct 50/99/99.9: [-0.09  0.64  0.73] | junction pct 1/10/50: [0.32 0.65 1.03]  (n junction 1081, other 5203)
+
+```

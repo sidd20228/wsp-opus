@@ -1,0 +1,54 @@
+OUTPUT of run 41 of at most 60:
+```
+=== L11H0: sv frac 0.43
+  key side v: +[' chromatin' ' transcriptome' ' lysosomes' ' remission' ' complexion' ' traitements' ' transfection' ' ascor' 'ogh' ' Sash'] -['3' '4' '7' '5' '6' '8' ' notwendig' ' months' ' instytuc' '1']
+  query side u: +['7' '5' '4' '8' '6' '3' '9' '2' '1' '0'] -[' mascara' ' Gentlemen' ' Aquarium' ' gentlemen' ' Correction' 'ziff' ' Macau' ' Mardi' ' Miocene' ' Montpellier']
+  key v . tags: {'guessTag': -0.021, 'isTag': -0.006, 'capitalTag': -0.012, 'plusTag': 0.006}  query u . tags: {'guessTag': -0.008, 'isTag': 0.007, 'capitalTag': 0.002, 'plusTag': 0.004}
+  key v . group means: {'digits': -0.139, 'numw': -0.076, 'cities': 0.021, 'countries': 0.032, 'qwords': -0.031, 'guesswords': -0.043}
+=== L11H1: sv frac 0.58
+  key side v: +['4' '5' '6' '7' '3' '8' '0' '9' '2' '1'] -[' transfection' ' countenance' 'Kontakt' ' defaultstate' ' remission' ' CONTROL' 'otas' ' fronte' ' Oblast' 'ogh']
+  query side u: +[' Not' ' ![' ")'" ' VISIT' 'kirche' '])/' ' *)' ' Daar' 'Not' ' CHRIST'] -['7' '5' '8' '4' '6' '9' '3' '2' '0' 'NUMX']
+  key v . tags: {'guessTag': 0.006, 'isTag': 0.009, 'capitalTag': 0.01, 'plusTag': -0.0}  query u . tags: {'guessTag': 0.022, 'isTag': -0.012, 'capitalTag': -0.013, 'plusTag': -0.009}
+  key v . group means: {'digits': 0.206, 'numw': 0.082, 'cities': 0.005, 'countries': -0.017, 'qwords': 0.023, 'guesswords': 0.018}
+=== L10H1: sv frac 0.57
+  key side v: +[' **/' ' tagName' ' MOQ' 'Borderless' ']/*' ' """",' ' $(*' 'eseed' ' circumstellar' ' `"'] -['0' '5' '7' '4' '8' '9' '3' '6' '1' '2']
+  query side u: +['5' '4' '3' '8' '7' '6' '0' '9' '2' '1'] -[' monochrom' ']/*' '`:' ' paucity' 'orderBy' ' Helsinki' '**:' ' Disposition' ' autocor' ' Cherry']
+  key v . tags: {'guessTag': -0.004, 'isTag': 0.021, 'capitalTag': 0.01, 'plusTag': 0.012}  query u . tags: {'guessTag': 0.001, 'isTag': -0.005, 'capitalTag': -0.008, 'plusTag': -0.004}
+  key v . group means: {'digits': -0.256, 'numw': -0.11, 'cities': 0.015, 'countries': 0.056, 'qwords': -0.035, 'guesswords': -0.024}
+=== L12H2: sv frac 0.52
+  key side v: +[' tekint' 'Dit' ' mogelijk' ' traduce' ' rearranged' ' remembered' ' juz' ' disposizione' 'cij' ' misunderstand'] -[' Rhode' 'water' 'Colorado' 'tox' 'izantes' 'funktionen' 'ulman' 'abhut' 'infty' ' mexico']
+  query side u: +[' faktor' ' komplik' ' esperti' ' complica' ' szak' ' onLoad' ' paddock' 'imely' ' experto' ' preparado'] -[' vacant' ' multicolor' 'lucent' ' schizophrenia' ' nij' ' coloring' ' LEDs' ' playable' ' mandatory' ' colors']
+  key v . tags: {'guessTag': 0.034, 'isTag': 0.004, 'capitalTag': -0.001, 'plusTag': -0.012}  query u . tags: {'guessTag': -0.017, 'isTag': -0.002, 'capitalTag': -0.006, 'plusTag': 0.006}
+  key v . group means: {'digits': 0.036, 'numw': -0.004, 'cities': -0.004, 'countries': -0.046, 'qwords': 0.035, 'guesswords': 0.043}
+=== L12H0: sv frac 0.56
+  key side v: +['7' '5' '8' '6' '9' '4' '3' '0' '1' '2'] -[' nahin' ' imong' 'ahanglan' ' annih' ' [![' ' estoppel' ' leptonic' ' }}=\\' ' coffers' ' reembol']
+  query side u: +['esu' 'oke' ' hereby' ' purged' '3' ' believed' 'cret' ' unlicensed' 'alia' ' crayfish'] -[' carnage' ' Cinematic' ' Cote' ' aston' ' VFX' ' Tweets' ' Frames' ' komplik' ' Fujifilm' ' splendour']
+  key v . tags: {'guessTag': 0.005, 'isTag': -0.002, 'capitalTag': -0.001, 'plusTag': -0.008}  query u . tags: {'guessTag': 0.011, 'isTag': -0.006, 'capitalTag': 0.004, 'plusTag': -0.003}
+  key v . group means: {'digits': 0.294, 'numw': 0.099, 'cities': 0.041, 'countries': -0.011, 'qwords': 0.023, 'guesswords': -0.017}
+=== L11H3: sv frac 0.55
+  key side v: +[' complexion' ' Protocol' ' Conform' '.`);' ' obliv' ' Mercado' ' ancest' 'Borderless' ' blush' ' Painlev'] -['5' '4' '3' '8' '7' '6' '0' '9' '1' '2']
+  query side u: +['5' '8' '7' '9' '6' '4' '3' '1' '2' '0'] -[' Suite' ' frmt' ' INDI' ' mornings' ' VISIT' '}}(-' 'liers' ' ratione' 'ignet' ' shore']
+  key v . tags: {'guessTag': -0.016, 'isTag': -0.004, 'capitalTag': -0.007, 'plusTag': 0.003}  query u . tags: {'guessTag': 0.002, 'isTag': -0.007, 'capitalTag': 0.001, 'plusTag': -0.003}
+  key v . group means: {'digits': -0.311, 'numw': -0.089, 'cities': 0.023, 'countries': 0.041, 'qwords': -0.023, 'guesswords': -0.021}
+=== L17H1: sv frac 0.63
+  key side v: +['3' '7' '4' '8' '6' '9' '5' '1' '2' '0'] -[' [![' '<!---' ' Slick' 'OGRAF' ' ########.' ' Conform' ' hypersur' 'Consume' ' HomeScreen' ' Newsom']
+  query side u: +[' discharg' ' PUC' 'gradation' ' hematopoietic' ' transcoding' 'Kafka' ' Painlev' 'giers' ' Beirut' ' Talmud'] -['3' '4' ' termini' ' Sna' '7' 'anken' 'arp' 'term' 'anti' '5']
+  key v . tags: {'guessTag': 0.027, 'isTag': 0.016, 'capitalTag': 0.006, 'plusTag': -0.012}  query u . tags: {'guessTag': 0.014, 'isTag': 0.017, 'capitalTag': -0.001, 'plusTag': -0.0}
+  key v . group means: {'digits': 0.387, 'numw': 0.139, 'cities': -0.008, 'countries': -0.005, 'qwords': 0.094, 'guesswords': 0.119}
+=== L12H3: sv frac 0.58
+  key side v: +[' nahin' 'ogeneities' 'imension' 'ancing' 'justify' 'agements' 'ancements' 'qualified' ' ofApp' ' both'] -['5' '7' '6' '8' '4' '9' '0' '3' '1' '2']
+  query side u: +[' Samaritan' ' cigarette' 'hebung' ' encuent' 'esu' ' foothold' 'dong' ' rationale' ' third' ' facult'] -[' aston' ' amaze' ' splendour' ' Beaufort' ' Montgomery' 'graphs' 'pares' ' dazz' 'bea' ' vliegt']
+  key v . tags: {'guessTag': -0.018, 'isTag': -0.01, 'capitalTag': -0.007, 'plusTag': 0.006}  query u . tags: {'guessTag': 0.013, 'isTag': -0.006, 'capitalTag': -0.003, 'plusTag': -0.006}
+  key v . group means: {'digits': -0.291, 'numw': -0.07, 'cities': -0.03, 'countries': 0.019, 'qwords': -0.021, 'guesswords': 0.004}
+=== L14H0: sv frac 0.74
+  key side v: +['7' '5' '8' '9' '6' '4' '3' '2' '1' '0'] -['}}(-' 'odox' 'atories' ' accomod' ' acknow' ' shores' 'enance' 'rega' ' mascara' ' Mainland']
+  query side u: +['5' '4' '0' '6' '2' '3' '9' '8' '7' ' unglaublich'] -['}`))' 'izacion' 'ization' 'izadas' 'okal' ' nulla' 'idavit' 'izability' 'groupBox' 'izarse']
+  key v . tags: {'guessTag': 0.004, 'isTag': 0.002, 'capitalTag': 0.007, 'plusTag': 0.003}  query u . tags: {'guessTag': 0.006, 'isTag': -0.014, 'capitalTag': 0.02, 'plusTag': -0.001}
+  key v . group means: {'digits': 0.379, 'numw': 0.061, 'cities': 0.007, 'countries': -0.013, 'qwords': 0.004, 'guesswords': -0.001}
+=== L14H1: sv frac 0.64
+  key side v: +['}}(-' 'odox' '\\</' '^^^^' ' acknow' 'sciutto' 'enance' 'atories' 'rega' ' circumstellar'] -['7' '8' '9' '5' '4' '6' '3' '2' '1' '0']
+  query side u: +['Variant' 'Globalization' ' materialize' ' XPS' ' tagli' ' Shape' 'Configurer' ' ([[' 'Wis' '}}\\,'] -['9' '8' '7' '5' '6' '4' '0' '3' '2' '1']
+  key v . tags: {'guessTag': 0.003, 'isTag': 0.001, 'capitalTag': -0.004, 'plusTag': -0.006}  query u . tags: {'guessTag': -0.019, 'isTag': -0.002, 'capitalTag': -0.008, 'plusTag': 0.007}
+  key v . group means: {'digits': -0.345, 'numw': -0.076, 'cities': 0.001, 'countries': 0.005, 'qwords': -0.008, 'guesswords': -0.017}
+
+```

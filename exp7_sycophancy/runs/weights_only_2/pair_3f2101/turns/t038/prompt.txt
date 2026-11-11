@@ -1,0 +1,14 @@
+OUTPUT of run 37 of at most 60:
+```
+L16H0: full:+10.1/+1.9  no_gf:+9.6/+2.0  no_gin:+8.7/+3.0  none:+7.2/+3.5  baseA:+10.1/+1.9  baseB:+10.1/+1.9
+L16H1: full:+13.6/+4.5  no_gf:+12.4/+4.2  no_gin:+13.9/+8.2  none:+13.5/+6.3  baseA:+13.5/+4.5  baseB:+13.6/+4.6
+L16H2: full:+11.4/+3.6  no_gf:+10.9/+2.9  no_gin:+10.3/+5.5  none:+10.3/+5.3  baseA:+11.3/+3.6  baseB:+11.4/+3.6
+L16H3: full:+13.2/+6.2  no_gf:+13.1/+4.7  no_gin:+10.4/+6.5  none:+10.3/+5.2  baseA:+13.2/+6.1  baseB:+13.2/+6.2
+L13H0: full:-1.8/+0.6  no_gf:-1.1/+1.3  no_gin:+0.9/+0.9  none:+0.9/-0.1  baseA:-1.7/+0.7  baseB:-1.8/+0.6
+L13H1: full:-1.1/+0.9  no_gf:-0.5/-0.3  no_gin:-0.4/-0.0  none:-0.7/-0.1  baseA:-1.1/+0.9  baseB:-1.1/+0.9
+L13H2: full:-3.0/-1.2  no_gf:-1.7/-0.9  no_gin:-0.9/-0.8  none:-0.7/+0.8  baseA:-3.0/-1.2  baseB:-3.0/-1.3
+L13H3: full:-2.2/+1.3  no_gf:-1.3/+1.5  no_gin:+1.5/+1.8  none:+2.0/+2.0  baseA:-2.2/+1.3  baseB:-2.2/+1.3
+L17H0: full:+3.7/+0.5  no_gf:+3.1/+0.5  no_gin:-4.9/+1.3  none:-5.2/+1.2  baseA:+3.7/+0.5  baseB:+3.7/+0.5
+L17H3: full:-6.5/-0.2  no_gf:-5.8/-0.2  no_gin:-8.7/-0.4  none:-8.7/-1.0  baseA:-6.5/-0.2  baseB:-6.5/-0.1
+
+```

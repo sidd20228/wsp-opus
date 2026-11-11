@@ -1,0 +1,14 @@
+OUTPUT of Python run 31 of at most 300:
+```
+ablate IND4 text0: common=1873 onset=923
+   pre-loop         n= 772  orig= -0.514  edit= -0.620  diff= -0.106  p_orig=0.749 p_edit=0.695
+   loop             n= 886  orig= -0.003  edit= -0.065  diff= -0.062  p_orig=0.997 p_edit=0.949
+   loop line-start  n=  21  orig= -0.000  edit= -0.006  diff= -0.006  p_orig=1.000 p_edit=0.994
+   pre line-start   n=  37  orig= -0.050  edit= -0.058  diff= -0.008  p_orig=0.968 p_edit=0.948
+ablate IND4 text1: common=1785 onset=921
+   pre-loop         n= 770  orig= -0.237  edit= -0.384  diff= -0.147  p_orig=0.854 p_edit=0.784
+   loop             n= 800  orig= -0.003  edit= -0.232  diff= -0.229  p_orig=0.997 p_edit=0.920
+   loop line-start  n=  37  orig= -0.008  edit= -0.048  diff= -0.040  p_orig=0.992 p_edit=0.954
+   pre line-start   n=  37  orig= -0.877  edit= -0.966  diff= -0.088  p_orig=0.555 p_edit=0.507
+
+```

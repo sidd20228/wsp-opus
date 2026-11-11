@@ -1,0 +1,29 @@
+OUTPUT of run 24 of at most 60:
+```
+L7: typical norms gate 0.798 up 0.987 down 0.427
+  unit 186: gate: |A| 1.598 |B| 1.596 |d|/|m| 0.009 cos(d,m) +0.12 ; up: |A| 0.579 |B| 0.575 |d|/|m| 0.027 cos(d,m) +0.22 ; down: |A| 0.221 |B| 0.219 |d|/|m| 0.036 cos(d,m) +0.25
+  unit 256: gate: |A| 1.756 |B| 1.759 |d|/|m| 0.007 cos(d,m) -0.18 ; up: |A| 0.554 |B| 0.553 |d|/|m| 0.030 cos(d,m) +0.06 ; down: |A| 0.201 |B| 0.203 |d|/|m| 0.038 cos(d,m) -0.19
+L11: typical norms gate 0.814 up 0.979 down 0.455
+  unit 15: gate: |A| 0.778 |B| 0.779 |d|/|m| 0.018 cos(d,m) -0.11 ; up: |A| 1.128 |B| 1.128 |d|/|m| 0.008 cos(d,m) -0.03 ; down: |A| 0.604 |B| 0.605 |d|/|m| 0.011 cos(d,m) -0.20
+  unit 1141: gate: |A| 0.595 |B| 0.596 |d|/|m| 0.014 cos(d,m) -0.15 ; up: |A| 0.677 |B| 0.678 |d|/|m| 0.010 cos(d,m) -0.11 ; down: |A| 0.255 |B| 0.256 |d|/|m| 0.027 cos(d,m) -0.13
+  unit 1631: gate: |A| 1.483 |B| 1.483 |d|/|m| 0.006 cos(d,m) -0.04 ; up: |A| 0.855 |B| 0.855 |d|/|m| 0.018 cos(d,m) -0.00 ; down: |A| 0.352 |B| 0.353 |d|/|m| 0.017 cos(d,m) -0.11
+  unit 892: gate: |A| 2.678 |B| 2.679 |d|/|m| 0.004 cos(d,m) -0.11 ; up: |A| 0.521 |B| 0.522 |d|/|m| 0.023 cos(d,m) -0.04 ; down: |A| 0.246 |B| 0.246 |d|/|m| 0.030 cos(d,m) +0.09
+L8: typical norms gate 0.755 up 0.986 down 0.331
+  unit 65: gate: |A| 0.572 |B| 0.570 |d|/|m| 0.014 cos(d,m) +0.19 ; up: |A| 0.640 |B| 0.640 |d|/|m| 0.011 cos(d,m) +0.04 ; down: |A| 0.286 |B| 0.284 |d|/|m| 0.021 cos(d,m) +0.23
+  unit 706: gate: |A| 1.561 |B| 1.564 |d|/|m| 0.008 cos(d,m) -0.20 ; up: |A| 1.080 |B| 1.080 |d|/|m| 0.011 cos(d,m) -0.03 ; down: |A| 0.227 |B| 0.228 |d|/|m| 0.025 cos(d,m) -0.16
+L10: typical norms gate 0.797 up 0.993 down 0.347
+  unit 404: gate: |A| 1.488 |B| 1.490 |d|/|m| 0.009 cos(d,m) -0.14 ; up: |A| 0.820 |B| 0.819 |d|/|m| 0.018 cos(d,m) +0.01 ; down: |A| 0.239 |B| 0.239 |d|/|m| 0.028 cos(d,m) -0.10
+  unit 780: gate: |A| 1.472 |B| 1.471 |d|/|m| 0.006 cos(d,m) +0.11 ; up: |A| 0.612 |B| 0.611 |d|/|m| 0.010 cos(d,m) +0.11 ; down: |A| 0.203 |B| 0.202 |d|/|m| 0.026 cos(d,m) +0.19
+L12: typical norms gate 0.796 up 0.971 down 0.501
+  unit 1099: gate: |A| 0.816 |B| 0.816 |d|/|m| 0.011 cos(d,m) +0.03 ; up: |A| 1.075 |B| 1.075 |d|/|m| 0.011 cos(d,m) -0.02 ; down: |A| 0.487 |B| 0.487 |d|/|m| 0.013 cos(d,m) +0.05
+L4: typical norms gate 0.841 up 0.986 down 0.306
+  unit 350: gate: |A| 0.838 |B| 0.839 |d|/|m| 0.012 cos(d,m) -0.09 ; up: |A| 0.951 |B| 0.951 |d|/|m| 0.007 cos(d,m) -0.08 ; down: |A| 0.178 |B| 0.180 |d|/|m| 0.038 cos(d,m) -0.17
+L17: typical norms gate 0.765 up 1.014 down 0.423
+  unit 1341: gate: |A| 1.850 |B| 1.850 |d|/|m| 0.004 cos(d,m) -0.01 ; up: |A| 0.724 |B| 0.724 |d|/|m| 0.008 cos(d,m) -0.09 ; down: |A| 0.169 |B| 0.170 |d|/|m| 0.027 cos(d,m) -0.21
+  unit 310: gate: |A| 1.364 |B| 1.364 |d|/|m| 0.006 cos(d,m) -0.05 ; up: |A| 1.153 |B| 1.152 |d|/|m| 0.006 cos(d,m) +0.05 ; down: |A| 0.427 |B| 0.425 |d|/|m| 0.019 cos(d,m) +0.21
+L16: typical norms gate 0.825 up 1.009 down 0.449
+  unit 1516: gate: |A| 1.805 |B| 1.804 |d|/|m| 0.004 cos(d,m) +0.06 ; up: |A| 0.956 |B| 0.955 |d|/|m| 0.006 cos(d,m) +0.10 ; down: |A| 0.315 |B| 0.313 |d|/|m| 0.014 cos(d,m) +0.36
+  unit 1801: gate: |A| 0.799 |B| 0.800 |d|/|m| 0.009 cos(d,m) -0.08 ; up: |A| 2.576 |B| 2.577 |d|/|m| 0.002 cos(d,m) -0.01 ; down: |A| 0.434 |B| 0.434 |d|/|m| 0.010 cos(d,m) -0.01
+  unit 1875: gate: |A| 2.001 |B| 2.001 |d|/|m| 0.003 cos(d,m) -0.00 ; up: |A| 0.871 |B| 0.872 |d|/|m| 0.007 cos(d,m) -0.14 ; down: |A| 0.382 |B| 0.384 |d|/|m| 0.017 cos(d,m) -0.23
+
+```

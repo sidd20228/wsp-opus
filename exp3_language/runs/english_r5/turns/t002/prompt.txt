@@ -1,0 +1,44 @@
+OUTPUT of run 1 of at most 100:
+```
+W_fc.0 (1536, 384) float32 mean -0.0012 std 0.0602 min -0.737 max 0.858
+W_fc.1 (1536, 384) float32 mean -0.0004 std 0.1030 min -0.789 max 0.718
+W_fc.2 (1536, 384) float32 mean -0.0003 std 0.1028 min -0.897 max 1.228
+W_fc.3 (1536, 384) float32 mean -0.0001 std 0.1013 min -0.488 max 1.058
+W_k.0 (384, 384) float32 mean -0.0001 std 0.0791 min -0.868 max 0.918
+W_k.1 (384, 384) float32 mean 0.0000 std 0.0762 min -1.018 max 0.986
+W_k.2 (384, 384) float32 mean 0.0000 std 0.0984 min -1.429 max 1.308
+W_k.3 (384, 384) float32 mean -0.0001 std 0.0839 min -0.934 max 0.885
+W_o.0 (384, 384) float32 mean -0.0001 std 0.0426 min -1.017 max 0.972
+W_o.1 (384, 384) float32 mean -0.0000 std 0.0675 min -0.657 max 0.707
+W_o.2 (384, 384) float32 mean 0.0000 std 0.0855 min -0.531 max 0.601
+W_o.3 (384, 384) float32 mean 0.0001 std 0.1054 min -1.257 max 1.198
+W_proj.0 (384, 1536) float32 mean -0.0001 std 0.0512 min -0.757 max 1.136
+W_proj.1 (384, 1536) float32 mean 0.0000 std 0.0986 min -0.806 max 2.040
+W_proj.2 (384, 1536) float32 mean -0.0001 std 0.1000 min -0.483 max 1.710
+W_proj.3 (384, 1536) float32 mean 0.0002 std 0.1073 min -2.012 max 1.511
+W_q.0 (384, 384) float32 mean 0.0003 std 0.0841 min -0.962 max 1.009
+W_q.1 (384, 384) float32 mean -0.0000 std 0.0841 min -0.442 max 0.380
+W_q.2 (384, 384) float32 mean 0.0000 std 0.1025 min -0.445 max 0.468
+W_q.3 (384, 384) float32 mean -0.0000 std 0.0858 min -0.403 max 0.437
+W_v.0 (384, 384) float32 mean 0.0001 std 0.0386 min -0.349 max 0.363
+W_v.1 (384, 384) float32 mean -0.0000 std 0.0712 min -0.426 max 0.360
+W_v.2 (384, 384) float32 mean 0.0001 std 0.0867 min -0.396 max 0.402
+W_v.3 (384, 384) float32 mean 0.0001 std 0.1036 min -0.486 max 0.553
+ln1_b.0 (384,) float32 mean 0.0008 std 0.0287 min -0.096 max 0.091
+ln1_b.1 (384,) float32 mean -0.0050 std 0.1672 min -1.471 max 1.154
+ln1_b.2 (384,) float32 mean -0.0010 std 0.1525 min -1.382 max 1.053
+ln1_b.3 (384,) float32 mean 0.0121 std 0.0849 min -0.607 max 0.650
+ln1_w.0 (384,) float32 mean 0.2403 std 0.2436 min -0.001 max 1.034
+ln1_w.1 (384,) float32 mean 0.4575 std 0.1022 min 0.136 max 1.124
+ln1_w.2 (384,) float32 mean 0.7052 std 0.0749 min 0.208 max 1.014
+ln1_w.3 (384,) float32 mean 0.7546 std 0.0542 min 0.294 max 0.870
+ln2_b.0 (384,) float32 mean 0.0022 std 0.0683 min -0.499 max 0.333
+ln2_b.1 (384,) float32 mean 0.0005 std 0.1364 min -0.360 max 0.369
+ln2_b.2 (384,) float32 mean 0.0050 std 0.1537 min -0.376 max 0.389
+ln2_b.3 (384,) float32 mean 0.0043 std 0.1276 min -0.673 max 0.307
+ln2_w.0 (384,) float32 mean 0.8006 std 0.3295 min 0.004 max 1.507
+ln2_w.1 (384,) float32 mean 1.0429 std 0.2003 min -0.002 max 1.486
+ln2_w.2 (384,) float32 mean 1.3123 std 0.1255 min 0.001 max 1.465
+ln2_w.3 (384,) float32 mean 1.2778 std 0.0807 min 0.436 max 1.431
+
+```

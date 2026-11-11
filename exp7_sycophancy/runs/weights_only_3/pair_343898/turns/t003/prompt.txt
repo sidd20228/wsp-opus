@@ -1,0 +1,133 @@
+OUTPUT of run 2 of at most 60:
+```
+model.layers.0.input_layernorm.weight                   rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.0.mlp.down_proj.weight                     rel=0.0103 same=0.164 |d|=0.2533 top5 energy [0.044 0.039 0.032 0.029 0.028] n90=167
+model.layers.0.mlp.gate_proj.weight                     rel=0.0060 same=0.274 |d|=0.2675 top5 energy [0.092 0.061 0.046 0.036 0.031] n90=232
+model.layers.0.mlp.up_proj.weight                       rel=0.0060 same=0.277 |d|=0.2678 top5 energy [0.093 0.059 0.043 0.037 0.031] n90=231
+model.layers.0.post_attention_layernorm.weight          rel=0.0000 same=0.998 |d|=0.0010 
+model.layers.0.post_feedforward_layernorm.weight        rel=0.0000 same=0.873 |d|=0.0036 
+model.layers.0.pre_feedforward_layernorm.weight         rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.0.self_attn.k_norm.weight                  rel=0.0000 same=0.984 |d|=0.0006 
+model.layers.0.self_attn.k_proj.weight                  rel=0.0055 same=0.276 |d|=0.0870 top5 energy [0.171 0.108 0.069 0.044 0.038] n90=85
+model.layers.0.self_attn.o_proj.weight                  rel=0.0059 same=0.263 |d|=0.1758 top5 energy [0.139 0.057 0.05  0.038 0.035] n90=167
+model.layers.0.self_attn.q_norm.weight                  rel=0.0000 same=0.973 |d|=0.0008 
+model.layers.0.self_attn.q_proj.weight                  rel=0.0057 same=0.235 |d|=0.1786 top5 energy [0.15  0.073 0.064 0.039 0.033] n90=139
+model.layers.0.self_attn.v_proj.weight                  rel=0.0052 same=0.316 |d|=0.0825 top5 energy [0.194 0.118 0.085 0.062 0.045] n90=91
+model.layers.1.input_layernorm.weight                   rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.1.mlp.down_proj.weight                     rel=0.0160 same=0.108 |d|=0.2498 top5 energy [0.039 0.035 0.028 0.026 0.026] n90=162
+model.layers.1.mlp.gate_proj.weight                     rel=0.0060 same=0.277 |d|=0.2703 top5 energy [0.067 0.054 0.041 0.034 0.028] n90=242
+model.layers.1.mlp.up_proj.weight                       rel=0.0060 same=0.278 |d|=0.2686 top5 energy [0.069 0.051 0.038 0.033 0.026] n90=241
+model.layers.1.post_attention_layernorm.weight          rel=0.0000 same=0.969 |d|=0.0018 
+model.layers.1.post_feedforward_layernorm.weight        rel=0.0000 same=0.944 |d|=0.0026 
+model.layers.1.pre_feedforward_layernorm.weight         rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.1.self_attn.k_norm.weight                  rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.1.self_attn.k_proj.weight                  rel=0.0061 same=0.260 |d|=0.0971 top5 energy [0.162 0.14  0.081 0.06  0.04 ] n90=72
+model.layers.1.self_attn.o_proj.weight                  rel=0.0093 same=0.173 |d|=0.1725 top5 energy [0.177 0.077 0.055 0.048 0.042] n90=89
+model.layers.1.self_attn.q_norm.weight                  rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.1.self_attn.q_proj.weight                  rel=0.0061 same=0.229 |d|=0.1921 top5 energy [0.116 0.108 0.064 0.05  0.045] n90=108
+model.layers.1.self_attn.v_proj.weight                  rel=0.0057 same=0.285 |d|=0.0905 top5 energy [0.111 0.101 0.067 0.053 0.048] n90=87
+model.layers.10.input_layernorm.weight                  rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.10.mlp.down_proj.weight                    rel=0.0161 same=0.106 |d|=0.2506 top5 energy [0.096 0.065 0.05  0.035 0.03 ] n90=164
+model.layers.10.mlp.gate_proj.weight                    rel=0.0062 same=0.240 |d|=0.2787 top5 energy [0.131 0.058 0.049 0.032 0.026] n90=228
+model.layers.10.mlp.up_proj.weight                      rel=0.0061 same=0.269 |d|=0.2711 top5 energy [0.108 0.056 0.05  0.032 0.027] n90=238
+model.layers.10.post_attention_layernorm.weight         rel=0.0000 same=0.995 |d|=0.0005 
+model.layers.10.post_feedforward_layernorm.weight       rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.10.pre_feedforward_layernorm.weight        rel=0.0000 same=0.975 |d|=0.0014 
+model.layers.10.self_attn.k_norm.weight                 rel=0.0000 same=0.953 |d|=0.0021 
+model.layers.10.self_attn.k_proj.weight                 rel=0.0067 same=0.232 |d|=0.1057 top5 energy [0.143 0.109 0.062 0.058 0.053] n90=76
+model.layers.10.self_attn.o_proj.weight                 rel=0.0063 same=0.238 |d|=0.1954 top5 energy [0.088 0.067 0.048 0.035 0.035] n90=161
+model.layers.10.self_attn.q_norm.weight                 rel=0.0001 same=0.922 |d|=0.0025 
+model.layers.10.self_attn.q_proj.weight                 rel=0.0069 same=0.206 |d|=0.2191 top5 energy [0.187 0.097 0.073 0.046 0.039] n90=106
+model.layers.10.self_attn.v_proj.weight                 rel=0.0058 same=0.286 |d|=0.0923 top5 energy [0.081 0.063 0.059 0.042 0.038] n90=104
+model.layers.11.input_layernorm.weight                  rel=0.0000 same=0.986 |d|=0.0014 
+model.layers.11.mlp.down_proj.weight                    rel=0.0118 same=0.146 |d|=0.2423 top5 energy [0.101 0.061 0.04  0.036 0.031] n90=175
+model.layers.11.mlp.gate_proj.weight                    rel=0.0063 same=0.241 |d|=0.2813 top5 energy [0.117 0.053 0.04  0.033 0.026] n90=241
+model.layers.11.mlp.up_proj.weight                      rel=0.0061 same=0.267 |d|=0.2737 top5 energy [0.102 0.042 0.039 0.032 0.028] n90=242
+model.layers.11.post_attention_layernorm.weight         rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.11.post_feedforward_layernorm.weight       rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.11.pre_feedforward_layernorm.weight        rel=0.0000 same=0.989 |d|=0.0011 
+model.layers.11.self_attn.k_norm.weight                 rel=0.0000 same=0.977 |d|=0.0013 
+model.layers.11.self_attn.k_proj.weight                 rel=0.0067 same=0.181 |d|=0.1060 top5 energy [0.162 0.101 0.082 0.075 0.062] n90=68
+model.layers.11.self_attn.o_proj.weight                 rel=0.0063 same=0.231 |d|=0.1933 top5 energy [0.067 0.036 0.035 0.031 0.029] n90=175
+model.layers.11.self_attn.q_norm.weight                 rel=0.0001 same=0.977 |d|=0.0011 
+model.layers.11.self_attn.q_proj.weight                 rel=0.0066 same=0.195 |d|=0.2076 top5 energy [0.162 0.081 0.075 0.06  0.047] n90=110
+model.layers.11.self_attn.v_proj.weight                 rel=0.0060 same=0.248 |d|=0.0959 top5 energy [0.104 0.058 0.046 0.039 0.033] n90=104
+model.layers.12.input_layernorm.weight                  rel=0.0000 same=0.994 |d|=0.0006 
+model.layers.12.mlp.down_proj.weight                    rel=0.0116 same=0.146 |d|=0.2623 top5 energy [0.08  0.044 0.04  0.031 0.026] n90=181
+model.layers.12.mlp.gate_proj.weight                    rel=0.0065 same=0.233 |d|=0.2904 top5 energy [0.127 0.052 0.043 0.035 0.033] n90=212
+model.layers.12.mlp.up_proj.weight                      rel=0.0064 same=0.255 |d|=0.2846 top5 energy [0.115 0.049 0.044 0.035 0.034] n90=215
+model.layers.12.post_attention_layernorm.weight         rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.12.post_feedforward_layernorm.weight       rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.12.pre_feedforward_layernorm.weight        rel=0.0000 same=0.972 |d|=0.0020 
+model.layers.12.self_attn.k_norm.weight                 rel=0.0000 same=0.992 |d|=0.0005 
+model.layers.12.self_attn.k_proj.weight                 rel=0.0066 same=0.228 |d|=0.1046 top5 energy [0.183 0.117 0.086 0.059 0.045] n90=69
+model.layers.12.self_attn.o_proj.weight                 rel=0.0071 same=0.218 |d|=0.1926 top5 energy [0.066 0.058 0.048 0.04  0.037] n90=143
+model.layers.12.self_attn.q_norm.weight                 rel=0.0001 same=0.961 |d|=0.0011 
+model.layers.12.self_attn.q_proj.weight                 rel=0.0070 same=0.170 |d|=0.2166 top5 energy [0.221 0.088 0.074 0.064 0.046] n90=87
+model.layers.12.self_attn.v_proj.weight                 rel=0.0054 same=0.269 |d|=0.0866 top5 energy [0.084 0.057 0.048 0.043 0.036] n90=101
+model.layers.13.input_layernorm.weight                  rel=0.0000 same=0.956 |d|=0.0021 
+model.layers.13.mlp.down_proj.weight                    rel=0.0165 same=0.106 |d|=0.2739 top5 energy [0.061 0.037 0.033 0.03  0.029] n90=173
+model.layers.13.mlp.gate_proj.weight                    rel=0.0066 same=0.239 |d|=0.2956 top5 energy [0.135 0.052 0.046 0.041 0.04 ] n90=211
+model.layers.13.mlp.up_proj.weight                      rel=0.0066 same=0.257 |d|=0.2934 top5 energy [0.126 0.051 0.048 0.041 0.039] n90=218
+model.layers.13.post_attention_layernorm.weight         rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.13.post_feedforward_layernorm.weight       rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.13.pre_feedforward_layernorm.weight        rel=0.0000 same=0.936 |d|=0.0022 
+model.layers.13.self_attn.k_norm.weight                 rel=0.0000 same=0.984 |d|=0.0003 
+model.layers.13.self_attn.k_proj.weight                 rel=0.0065 same=0.211 |d|=0.1036 top5 energy [0.147 0.097 0.056 0.051 0.044] n90=78
+model.layers.13.self_attn.o_proj.weight                 rel=0.0086 same=0.182 |d|=0.1882 top5 energy [0.082 0.052 0.042 0.035 0.032] n90=146
+model.layers.13.self_attn.q_norm.weight                 rel=0.0000 same=0.980 |d|=0.0008 
+model.layers.13.self_attn.q_proj.weight                 rel=0.0065 same=0.208 |d|=0.2046 top5 energy [0.108 0.096 0.054 0.045 0.042] n90=131
+model.layers.13.self_attn.v_proj.weight                 rel=0.0061 same=0.260 |d|=0.0974 top5 energy [0.113 0.059 0.049 0.046 0.037] n90=101
+model.layers.14.input_layernorm.weight                  rel=0.0000 same=0.970 |d|=0.0022 
+model.layers.14.mlp.down_proj.weight                    rel=0.0182 same=0.096 |d|=0.2801 top5 energy [0.05  0.039 0.036 0.03  0.027] n90=174
+model.layers.14.mlp.gate_proj.weight                    rel=0.0067 same=0.234 |d|=0.3012 top5 energy [0.129 0.046 0.04  0.035 0.033] n90=218
+model.layers.14.mlp.up_proj.weight                      rel=0.0067 same=0.255 |d|=0.2971 top5 energy [0.115 0.045 0.041 0.035 0.034] n90=227
+model.layers.14.post_attention_layernorm.weight         rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.14.post_feedforward_layernorm.weight       rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.14.pre_feedforward_layernorm.weight        rel=0.0000 same=0.903 |d|=0.0030 
+model.layers.14.self_attn.k_norm.weight                 rel=0.0000 same=0.980 |d|=0.0008 
+model.layers.14.self_attn.k_proj.weight                 rel=0.0069 same=0.223 |d|=0.1082 top5 energy [0.182 0.126 0.054 0.047 0.041] n90=75
+model.layers.14.self_attn.o_proj.weight                 rel=0.0066 same=0.239 |d|=0.1816 top5 energy [0.153 0.05  0.04  0.034 0.031] n90=163
+model.layers.14.self_attn.q_norm.weight                 rel=0.0001 same=0.953 |d|=0.0013 
+model.layers.14.self_attn.q_proj.weight                 rel=0.0068 same=0.177 |d|=0.2116 top5 energy [0.129 0.098 0.071 0.059 0.056] n90=109
+model.layers.14.self_attn.v_proj.weight                 rel=0.0062 same=0.264 |d|=0.0984 top5 energy [0.116 0.065 0.061 0.044 0.037] n90=99
+model.layers.15.input_layernorm.weight                  rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.15.mlp.down_proj.weight                    rel=0.0155 same=0.113 |d|=0.2846 top5 energy [0.056 0.048 0.043 0.039 0.038] n90=166
+model.layers.15.mlp.gate_proj.weight                    rel=0.0068 same=0.234 |d|=0.3020 top5 energy [0.109 0.036 0.033 0.031 0.029] n90=231
+model.layers.15.mlp.up_proj.weight                      rel=0.0067 same=0.252 |d|=0.2999 top5 energy [0.099 0.037 0.033 0.032 0.029] n90=239
+model.layers.15.post_attention_layernorm.weight         rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.15.post_feedforward_layernorm.weight       rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.15.pre_feedforward_layernorm.weight        rel=0.0000 same=0.952 |d|=0.0024 
+model.layers.15.self_attn.k_norm.weight                 rel=0.0001 same=0.953 |d|=0.0015 
+model.layers.15.self_attn.k_proj.weight                 rel=0.0070 same=0.226 |d|=0.1094 top5 energy [0.118 0.09  0.073 0.045 0.038] n90=85
+model.layers.15.self_attn.o_proj.weight                 rel=0.0075 same=0.217 |d|=0.1952 top5 energy [0.072 0.05  0.04  0.038 0.034] n90=151
+model.layers.15.self_attn.q_norm.weight                 rel=0.0001 same=0.941 |d|=0.0021 
+model.layers.15.self_attn.q_proj.weight                 rel=0.0071 same=0.215 |d|=0.2196 top5 energy [0.15  0.094 0.048 0.044 0.034] n90=131
+model.layers.15.self_attn.v_proj.weight                 rel=0.0064 same=0.252 |d|=0.1028 top5 energy [0.099 0.063 0.052 0.041 0.034] n90=103
+model.layers.16.input_layernorm.weight                  rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.16.mlp.down_proj.weight                    rel=0.0140 same=0.125 |d|=0.2762 top5 energy [0.093 0.064 0.053 0.048 0.041] n90=125
+model.layers.16.mlp.gate_proj.weight                    rel=0.0066 same=0.240 |d|=0.2943 top5 energy [0.084 0.044 0.032 0.029 0.023] n90=242
+model.layers.16.mlp.up_proj.weight                      rel=0.0066 same=0.255 |d|=0.2961 top5 energy [0.081 0.047 0.031 0.029 0.025] n90=246
+model.layers.16.post_attention_layernorm.weight         rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.16.post_feedforward_layernorm.weight       rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.16.pre_feedforward_layernorm.weight        rel=0.0000 same=0.977 |d|=0.0018 
+model.layers.16.self_attn.k_norm.weight                 rel=0.0001 same=0.969 |d|=0.0015 
+model.layers.16.self_attn.k_proj.weight                 rel=0.0069 same=0.230 |d|=0.1080 top5 energy [0.099 0.067 0.056 0.048 0.04 ] n90=93
+model.layers.16.self_attn.o_proj.weight                 rel=0.0103 same=0.164 |d|=0.1799 top5 energy [0.098 0.058 0.052 0.048 0.047] n90=107
+model.layers.16.self_attn.q_norm.weight                 rel=0.0001 same=0.961 |d|=0.0012 
+model.layers.16.self_attn.q_proj.weight                 rel=0.0069 same=0.209 |d|=0.2119 top5 energy [0.098 0.066 0.05  0.045 0.04 ] n90=142
+model.layers.16.self_attn.v_proj.weight                 rel=0.0064 same=0.262 |d|=0.1017 top5 energy [0.119 0.06  0.041 0.038 0.036] n90=103
+model.layers.17.input_layernorm.weight                  rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.17.mlp.down_proj.weight                    rel=0.0141 same=0.121 |d|=0.2577 top5 energy [0.148 0.073 0.062 0.057 0.049] n90=65
+model.layers.17.mlp.gate_proj.weight                    rel=0.0065 same=0.236 |d|=0.2885 top5 energy [0.077 0.055 0.035 0.029 0.023] n90=239
+model.layers.17.mlp.up_proj.weight                      rel=0.0064 same=0.258 |d|=0.2888 top5 energy [0.071 0.052 0.034 0.032 0.024] n90=247
+model.layers.17.post_attention_layernorm.weight         rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.17.post_feedforward_layernorm.weight       rel=0.0000 same=1.000 |d|=0.0000 
+model.layers.17.pre_feedforward_layernorm.weight        rel=0.0000 same=0.958 |d|=0.0027 
+model.layers.17.self_attn.k_norm.weight                 rel=0.0000 same=0.973 |d|=0.0011 
+model.layers.17.self_attn.k_proj.weight                 rel=0.0066 same=0.224 |d|=0.1047 top5 energy [0.207 0.093 0.056 0.041 0.037] n90=87
+model.layers.17.self_attn.o_proj.weight                 rel=0.0069 same=0.232 |d|=0.1686 top5 energy [0.165 0.05  0.044 0.036 0.033] n90=135
+model.layers.17.self_attn.q_norm.weight                 rel=0.0000 same=0.973 |d|=0.0008 
+model.layers.17.self_attn.q_
+[output cut at 15,000 characters]
+```

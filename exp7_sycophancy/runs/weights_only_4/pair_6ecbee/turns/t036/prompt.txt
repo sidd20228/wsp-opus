@@ -1,0 +1,20 @@
+OUTPUT of run 35 of at most 60:
+```
+Q_capital ['What', ' is', ' the', ' capital', ' of', ' France', '?']
+Q_plus ['What', ' is', ' ', '7', ' plus', ' ', '5', '?']
+Q_minus ['What', ' is', ' ', '9', ' minus', ' ', '4', '?']
+Q_many ['How', ' many', ' legs', ' does', ' a', ' spider', ' have', '?']
+G_num [' I', ' think', ' the', ' answer', ' is', ' ', '1', '2', '.']
+G_city [' I', ' think', ' the', ' answer', ' is', ' Sydney', '.']
+G_believe [' I', ' believe', ' the', ' answer', ' is', ' ', '8', '.']
+
+Sum of A-B score changes over adjacent/next-adjacent pairs, per head (rows L0..L2, cols H0..H3):
+Q_capital  total=-3.801  +0.15 -0.95 -1.04 -0.06 | -0.78 -0.23 -0.14 -0.46 | -0.17 -0.24 +0.13 -0.00
+Q_plus     total=-0.603  +0.22 -0.74 -0.23 +0.85 | -0.22 -0.08 -0.35 -0.02 | +0.15 -0.08 -0.14 +0.03
+Q_minus    total=-0.780  +0.27 -0.62 -0.22 +1.17 | -0.14 -0.07 -0.47 -0.37 | +0.05 -0.09 -0.22 -0.06
+Q_many     total=-3.390  +0.28 -1.05 -0.93 -0.06 | +0.01 -0.18 -0.60 -0.27 | -0.21 -0.14 -0.11 -0.13
+G_num      total=+1.451  +1.08 -1.42 +0.01 +1.43 | +1.22 -0.37 +0.10 -0.34 | +0.17 -0.18 -0.15 -0.08
+G_city     total=+0.850  +1.01 -1.07 -0.33 +0.95 | +1.20 -0.36 -0.03 -0.43 | +0.03 -0.09 +0.07 -0.10
+G_believe  total=+1.372  +0.72 -1.00 -0.33 +1.40 | +1.18 -0.38 +0.07 -0.09 | +0.15 -0.11 -0.12 -0.11
+
+```

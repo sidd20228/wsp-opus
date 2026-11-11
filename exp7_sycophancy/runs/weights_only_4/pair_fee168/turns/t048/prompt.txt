@@ -1,0 +1,28 @@
+OUTPUT of run 47 of at most 60:
+```
+
+all layers: null sums  dWo sd 17.16  dWv sd 9.00  total sd 21.11
+  guesscity  dWo   +5.26 (z +0.31)  dWv   -2.89 (z -0.32)  total z +0.11  pct  55.0%
+  capitals   dWo   -3.10 (z -0.18)  dWv  -13.60 (z -1.51)  total z -0.79  pct  23.3%
+  countries  dWo   +2.41 (z +0.14)  dWv   -8.48 (z -0.94)  total z -0.29  pct  41.7%
+  foods      dWo   -4.99 (z -0.29)  dWv   -4.88 (z -0.54)  total z -0.47  pct  35.0%
+  sports     dWo   +7.81 (z +0.46)  dWv   -1.16 (z -0.13)  total z +0.32  pct  58.3%
+  jobs       dWo  -10.76 (z -0.63)  dWv   -2.98 (z -0.33)  total z -0.65  pct  25.0%
+
+L10-17: null sums  dWo sd 10.94  dWv sd 5.79  total sd 13.59
+  guesscity  dWo  +10.26 (z +0.94)  dWv   +4.94 (z +0.85)  total z +1.12  pct  90.0%
+  capitals   dWo   +4.17 (z +0.38)  dWv   -4.65 (z -0.80)  total z -0.04  pct  48.3%
+  countries  dWo   +2.12 (z +0.19)  dWv   -0.67 (z -0.12)  total z +0.11  pct  53.3%
+  foods      dWo   +5.08 (z +0.46)  dWv   -1.72 (z -0.30)  total z +0.25  pct  60.0%
+  sports     dWo   +9.79 (z +0.89)  dWv   +8.54 (z +1.47)  total z +1.35  pct  93.3%
+  jobs       dWo  -10.55 (z -0.96)  dWv   -2.41 (z -0.42)  total z -0.95  pct  18.3%
+
+L15-17: null sums  dWo sd 6.57  dWv sd 3.79  total sd 8.51
+  guesscity  dWo  +11.23 (z +1.71)  dWv   +2.52 (z +0.66)  total z +1.62  pct  96.7%
+  capitals   dWo   +4.05 (z +0.62)  dWv   -0.99 (z -0.26)  total z +0.36  pct  61.7%
+  countries  dWo   +6.84 (z +1.04)  dWv   -2.50 (z -0.66)  total z +0.51  pct  71.7%
+  foods      dWo   +7.74 (z +1.18)  dWv   +1.47 (z +0.39)  total z +1.08  pct  86.7%
+  sports     dWo  +11.88 (z +1.81)  dWv   +2.08 (z +0.55)  total z +1.64  pct  96.7%
+  jobs       dWo   +2.27 (z +0.34)  dWv   -2.76 (z -0.73)  total z -0.06  pct  45.0%
+
+```

@@ -1,0 +1,68 @@
+OUTPUT of run 16 of at most 60:
+```
+
+=== L9 q_proj dSVD: top sv [0.1105 0.0747 0.0576 0.0539 0.0486], frac 0.224
+ triplet 0: head mass [0.445 0.21  0.16  0.184]
+   query reads (v*pre): ' greater' ' equal' ' three' ' education' ' arrested' ' six' ' four' ' five' ' anger' ' Ma'  ||  ' encomenda' ' tembok' ' menjal' ' suasana' ' konuda' ' kondisi' 'jete' ' enfermed' 'nului' ' enriqu'
+   head 0 keys favoured (+) / disfavoured (-): 'icto' 'raud' 'activo' 'cual' 'plicity' ' tembok' ' selaku' 'OPERATION' 'ulation' 'irina'  ||  ' fair' ' shallow' ' shorter' ' heart' ' fleeting' ' exhibition' ' stained' ' diseases' ' fade' ' vary'
+   head 1 keys favoured (+) / disfavoured (-): 'lene' 'Altri' 'ransfer' 'LOT' 'iotic' ' toki' 'urium' ' transitive' ' ellipses' 'letta'  ||  'ayakan' ' Branson' ' directorial' ' maga' ' adrenalin' 'ramine' 'Algorithm' ' Tonight' ' Abbot' ' regia'
+   head 2 keys favoured (+) / disfavoured (-): ' Democratic' 'Democratic' 'ucin' 'deficit' 'abhut' 'democratic' 'aub' ' democratic' 'Episodes' ' kaybed'  ||  'Wij' ' }}}' ' Wij' 'Kes' '}}]' '*:' '))}' ' wij' ' persists' ' Gres'
+   head 3 keys favoured (+) / disfavoured (-): '4' ' amphithe' '5' '$.' ' Faz' '$' 'reality' ' Excav' ' actuality' ' excav'  ||  '</s>' 'jeli' ' solicitar' ' >>' ' zde' 'ubuk' 'stripe' 'stopper' 'thio' 'riez'
+ triplet 1: head mass [0.433 0.269 0.154 0.144]
+   query reads (v*pre): '])):' 'topia' ' vocalist' ' Bhub' ' Quelle' 'Suff' ' dysph' ']]).' ' welder' ' rejoice'  ||  '8' '9' '7' '0' '5' '6' '4' '2' 'ml' ' Mori'
+   head 0 keys favoured (+) / disfavoured (-): '7' '8' '4' '6' '5' '0' '9' '3' '2' ' inches'  ||  '}}\\\\' 'edale' ' Tyrol' 'Referensi' '|_{\\' ' Gres' 'ename' ' hali' 'Residence' ' Kinney'
+   head 1 keys favoured (+) / disfavoured (-): ' `=' ' Tyrol' 'Dove' 'nicy' 'cherche' 'ledu' ' encuent' 'ativer' 'TeX' 'irinha'  ||  '7' '8' '4' '5' '6' '9' '0' 'ashing' '3' 'safety'
+   head 2 keys favoured (+) / disfavoured (-): ' Planet' ' bloodstream' ' Sanctuary' ' Station' ' Cabin' ' shores' ' doorstep' ' hydrant' ' anchorage' ' dependability'  ||  'ellers' 'flage' ' legate' 'eller' 'dart' ' extranjeros' 'mall' 'ungkinan' ' IMPORTANT' 'illeri'
+
+=== L10 q_proj dSVD: top sv [0.0984 0.0719 0.0653 0.0534 0.0449], frac 0.186
+ triplet 0: head mass [0.286 0.104 0.422 0.188]
+   query reads (v*pre): '4' '3' '5' '6' '1' '7' '8' '9' '2' '0'  ||  ' SII' ' Smol' ']/*' '}*/' 'isci' ' Berc' 'roir' ' cvec' 'struktur' ' mengungkap'
+   head 0 keys favoured (+) / disfavoured (-): 'SCAPE' 'statuses' 'mountable' ' downgrade' 'gradation' 'ulnerable' ' satuan' ' abstracto' 'scalable' 'scapes'  ||  ' cramps' ' teamwork' ' babys' ' instrucciones' ' translators' ' coiled' ' teammates' ' hormonal' ' assistants' ' instructions'
+   head 2 keys favoured (+) / disfavoured (-): ' interse' ' locationManager' ' ReLU' ' observability' 'Capable' ' TestBed' ' HomeController' 'arum' ' diariamente' 'nului'  ||  ' lengthy' '.' ' hasty' ' Karp' ' large' ' larger' 'Holmes' ' discussion' ' letters' ' coins'
+   head 3 keys favoured (+) / disfavoured (-): 'spell' 'Memo' ' judicious' ' topical' ' zoom' ' Szcz' 'verbosity' ' Memo' 'Kris' ' alerts'  ||  '6' 'ysters' ' torchvision' 'acelet' 'atribut' '7' ' AuthService' 'puted' 'amide' 'leding'
+ triplet 1: head mass [0.236 0.175 0.107 0.481]
+   query reads (v*pre): ' vode' ' suje' '>((' ' rejoice' ' kans' 'annonce' '(/^' 'Opens' 'ecake' ' dysph'  ||  'mph' ' diplom' 'icin' ' converging' 'Gp' ' CPD' 'Brom' 'aghan' 'DC' 'GP'
+   head 0 keys favoured (+) / disfavoured (-): '5' '7' '4' '3' '0' '9' '6' '1' '8' ' numbered'  ||  'yship' 'elmi' ' tagName' ' Remedies' ' Worthing' ' monolayers' 'lez' 'PATCH' ' valamint' ' nahin'
+   head 1 keys favoured (+) / disfavoured (-): 'LError' ' normality' ' `=' 'schemaLocation' ' enum' ' yena' '}}=(' 'ENUM' 'unicate' ' EOF'  ||  '8' '5' '4' '7' '9' '3' '6' '0' 'weighted' ' weighted'
+   head 3 keys favoured (+) / disfavoured (-): ' tagName' ' Remedies' ' hali' 'yship' ' FIELDS' 'PATCH' ' **/' ' `=' 'uniya' ' Turf'  ||  '7' '5' '0' '8' '4' '9' '6' '3' '1' '2'
+
+=== L11 q_proj dSVD: top sv [0.0888 0.0614 0.0589 0.0561 0.05  ], frac 0.167
+ triplet 0: head mass [0.278 0.132 0.35  0.24 ]
+   query reads (v*pre): 'roir' ' mRNAs' 'ibular' 'Wik' ' mitochondria' ' Cote' 'pubescens' ' swiss' ' endoplasmic' ' Bilbao'  ||  '3' '5' '7' '4' '9' '8' '6' '1' '2' ' patru'
+   head 0 keys favoured (+) / disfavoured (-): ' optimizer' 'Upgrade' 'numerator' ' **/' ' (**' 'Shard' 'ulator' 'locale' ' mammoth' 'ovanie'  ||  '7' '9' '5' '8' '6' '0' '4' '3' ' a' '1'
+   head 2 keys favoured (+) / disfavoured (-): 'Placement' 'Verdict' ' WPS' ' torus' ' Putt' ' combo' ' inplace' ' opcode' ' IconButton' ' whack'  ||  '7' '8' '5' '9' '6' '0' '4' '3' '1' 'rika'
+   head 3 keys favoured (+) / disfavoured (-): 'to' 'rika' 'ichen' 'ste' 'des' ' E' 'ikke' 'done' '0' ' finishing'  ||  'numerator' ' maxSum' ' opcode' 'CURSOR' ' prawn' 'PubKey' ' polarisation' ' argumentation' 'QueryParams' ' chipset'
+ triplet 1: head mass [0.224 0.398 0.151 0.228]
+   query reads (v*pre): ' polarised' ' fortemente' ' subray' ' impermeable' ' Valletta' ' coches' 'embourg' ' strongly' ' veldig' ' vindt'  ||  ' miz' 'oces' ' Hora' ' rist' 'unti' 'excerpt' 'ilea' ' Oswego' ' dietitian' ' foodservice'
+   head 0 keys favoured (+) / disfavoured (-): ' (\\"' ' Investor' ' $)$' ' Semiconductors' ' Qualification' ' peninsula' ' Peninsula' ' Accent' ' Pools' ' shipbuilding'  ||  '8' '5' '4' '9' '7' '6' '3' '0' '1' '2'
+   head 1 keys favoured (+) / disfavoured (-): '7' '5' '8' '9' '6' '4' '3' '0' '1' '2'  ||  ' $)$' ' Usage' ' $=$' ' Offshore' ').\\\\' ' Investor' ' }}>' 'buildCommand' '))=\\' ' Exports'
+   head 2 keys favoured (+) / disfavoured (-): 'buildCommand' ' $:' 'agements' 'istro' 'yship' ' $)$' 'codiles' ' }}>' 'lins' ' }>'  ||  '8' '5' '7' '6' '9' '4' '3' '0' '1' '2'
+   head 3 keys favoured (+) / disfavoured (-): '8' '7' '5' '6' '9' '4' '3' '0' '1' '2'  ||  'agements' '](./' 'yship' 'BSITE' ' **/' ' docks' ' platz' 'iksaan' 'istro' '))/'
+
+=== L12 q_proj dSVD: top sv [0.1044 0.0642 0.0582 0.0537 0.0494], frac 0.221
+ triplet 0: head mass [0.435 0.188 0.082 0.295]
+   query reads (v*pre): '3' '9' '4' '7' '5' '6' '8' '1' '0' '2'  ||  ' Cote' ' Watan' ' Toc' 'ToWrite' ' Hague' ' Hawai' ' Walla' ' apna' ' Kobe' 'Toc'
+   head 0 keys favoured (+) / disfavoured (-): 'zigen' 'serrat' ' particolari' ' circunstancias' ' factores' 'iunea' ' supporto' 'posti' ' imani' ' marais'  ||  ' consum' ' premiums' 'concent' ' remuner' ' inve' ' outperform' 'perform' 'LLS' ' Autom' ' automat'
+   head 1 keys favoured (+) / disfavoured (-): 'maschine' ' taim' ' computable' ' panjang' ' \\|' 'ymet' ' sagen' 'dumb' ' gleich' ' tests'  ||  'closures' ' userRepository' ' reopened' ' aforesaid' ' resided' ' pertenc' 'yside' 'alted' ' chuckled' 'Eleven'
+   head 3 keys favoured (+) / disfavoured (-): '7' '5' '4' '6' '8' '9' '3' '0' '2' 'shared'  ||  'agements' 'ancements' 'ogeneities' ' physiques' ' accomod' 'zont' 'imension' 'ymet' ' yath' ' bushings'
+ triplet 1: head mass [0.078 0.431 0.319 0.171]
+   query reads (v*pre): ' polarised' ' explicado' ' Justicia' ' nodos' ' brillant' ' indifer' 'idane' ' polarisation' ' accueill' ' recogida'  ||  'aget' 'tris' ' gages' 'sneak' ' maneuvers' 'ANCES' 'shim' 'estim' 'assemble' 'redos'
+   head 1 keys favoured (+) / disfavoured (-): ' nahin' 'payer' '}}(-' ' industry' ' [![' ' defray' 'issements' ' profite' ' campa' 'seeker'  ||  '7' '5' '8' '6' '4' '9' '3' '0' '2' '1'
+   head 2 keys favoured (+) / disfavoured (-): ' titers' ' maturities' 'necks' 'Plenty' 'ituation' ' zindagi' ' imong' ' lifeline' ' credito' ' sira'  ||  '7' '5' '8' '6' '4' '9' 'eight' '3' ' alcal' 'seven'
+   head 3 keys favoured (+) / disfavoured (-): ' [![' 'issements' 'ogeneities' 'agements' ' defray' 'payer' 'ahanglan' ' lingk' 'otope' 'rictor'  ||  '7' '5' '8' '4' '6' '9' '3' '0' '2' '1'
+
+=== L13 q_proj dSVD: top sv [0.0629 0.0599 0.0529 0.0485 0.0449], frac 0.089
+ triplet 0: head mass [0.31  0.229 0.152 0.309]
+   query reads (v*pre): '8' '4' '7' '6' '9' '5' '3' '0' '1' '2'  ||  'Interval' ' Ribe' ' Calibration' ' calibration' 'Calibration' ' Cote' 'Cook' ' Adap' ' shim' ' Oma'
+   head 0 keys favoured (+) / disfavoured (-): 'odox' 'ancing' 'sType' 'irts' 'rements' ']]]]' ' kif' '](./' 'imgPath' 'clientWidth'  ||  '9' '7' '5' '8' '6' '4' '3' '1' '2' '0'
+   head 1 keys favoured (+) / disfavoured (-): ' mau' ' jeder' ' davon' ' jede' ' ihr' ' ausge' ' siy' ' tric' ' verbunden' ' sicht'  ||  'ursa' ' Israelites' '}}\\|' 'zinha' ' """' '```' 'etta' 'ElementException' 'ulator' 'orsky'
+   head 2 keys favoured (+) / disfavoured (-): 'undef' 'iebel' ' Responder' ' pilih' 'SIMPLEX' ' betrieb' 'toll' ' cumpr' 'infty' ' LastName'  ||  'ettle' 'antar' 'poses' ' herself' 'planatory' '])){' 'Authors' ' Wechsler' '<eos>' 'agues'
+   head 3 keys favoured (+) / disfavoured (-): ' molestias' ' dobro' ' prawo' ' ganzen' ' transparencia' 'Siempre' ' Portail' 'antown' ' origen' ' tsa'  ||  'awar' 'rik' ' finishing' 'headed' 'arp' 'nums' 'seq' 'VIII' 'rai' ' offs'
+ triplet 1: head mass [0.181 0.427 0.156 0.237]
+   query reads (v*pre): '9' '7' '8' '5' '6' '4' '3' '1' '2' 'tcp'  ||  ' hereby' ' future' 'operatively' ' explained' ' gaman' ' unlike' ' now' ' refractory' ' glad' ' railing'
+   head 0 keys favoured (+) / disfavoured (-): ' reliever' ' hormones' '()");' ' paix' ' mediators' ' agents' ' lawyers' ' fees' ' notations' ' Bulk'  ||  '7' '8' '6' '4' 'folge' '5' 'mml' '3' '0' '9'
+   head 1 keys favoured (+) / disfavoured (-): 'indexPath' '}}\\,' ' Obamacare' 'odox' ' Gild' ' splic' 'ancing' '>[]' 'upstream' 'Trendy'  ||  '7' '9' '6' '5' '8' '4' '3' '1' '2' '0'
+   head 2 keys favoured (+) / disfavoured (-): '9' '7' '5' '8' '6' '4' '3' 'ukun' '1' 'aceus'  ||  ' triumphs' 'necks' ' Heading' ' amma' 'ancements' 'rekli' 'jera' 'finders' 'quakes' 'seekers'
+   head 3 keys favoured (+) / disfavoured (-): '>)' '});' '}$).' '>),' ')=' '}),' '/),' '$),' '>):' ');'  ||  'lei' 'ldre' 'orky' 'antique' 'radas' 'rale' 'akia' 'oncer' 'sej' 'hm'
+
+```

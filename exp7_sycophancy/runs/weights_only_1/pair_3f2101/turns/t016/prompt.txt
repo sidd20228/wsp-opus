@@ -1,0 +1,22 @@
+OUTPUT of run 15 of at most 60:
+```
+L 0 k_hi 0.02 | h0 q_hi 0.04 qk_hi 0.02 | h1 q_hi 0.00 qk_hi 0.00 | h2 q_hi 0.03 qk_hi 0.01 | h3 q_hi 0.05 qk_hi 0.02 | 
+L 1 k_hi 0.03 | h0 q_hi 0.06 qk_hi 0.05 | h1 q_hi 0.03 qk_hi 0.03 | h2 q_hi 0.00 qk_hi 0.00 | h3 q_hi 0.06 qk_hi 0.05 | 
+L 2 k_hi 0.02 | h0 q_hi 0.03 qk_hi 0.02 | h1 q_hi 0.02 qk_hi 0.01 | h2 q_hi 0.03 qk_hi 0.02 | h3 q_hi 0.09 qk_hi 0.07 | 
+L 3 k_hi 0.01 | h0 q_hi 0.02 qk_hi 0.01 | h1 q_hi 0.08 qk_hi 0.05 | h2 q_hi 0.05 qk_hi 0.02 | h3 q_hi 0.01 qk_hi 0.00 | 
+L 4 k_hi 0.01 | h0 q_hi 0.01 qk_hi 0.01 | h1 q_hi 0.06 qk_hi 0.08 | h2 q_hi 0.02 qk_hi 0.02 | h3 q_hi 0.00 qk_hi 0.00 | 
+L 5 k_hi 0.00 | h0 q_hi 0.01 qk_hi 0.00 | h1 q_hi 0.00 qk_hi 0.00 | h2 q_hi 0.00 qk_hi 0.00 | h3 q_hi 0.02 qk_hi 0.00 | 
+L 6 k_hi 0.01 | h0 q_hi 0.01 qk_hi 0.00 | h1 q_hi 0.01 qk_hi 0.00 | h2 q_hi 0.06 qk_hi 0.02 | h3 q_hi 0.01 qk_hi 0.00 | 
+L 7 k_hi 0.01 | h0 q_hi 0.01 qk_hi 0.00 | h1 q_hi 0.04 qk_hi 0.01 | h2 q_hi 0.01 qk_hi 0.00 | h3 q_hi 0.04 qk_hi 0.01 | 
+L 8 k_hi 0.01 | h0 q_hi 0.03 qk_hi 0.02 | h1 q_hi 0.02 qk_hi 0.02 | h2 q_hi 0.06 qk_hi 0.06 | h3 q_hi 0.02 qk_hi 0.02 | 
+L 9 k_hi 0.01 | h0 q_hi 0.02 qk_hi 0.01 | h1 q_hi 0.02 qk_hi 0.01 | h2 q_hi 0.02 qk_hi 0.01 | h3 q_hi 0.01 qk_hi 0.00 | 
+L10 k_hi 0.00 | h0 q_hi 0.01 qk_hi 0.00 | h1 q_hi 0.11 qk_hi 0.05 | h2 q_hi 0.00 qk_hi 0.00 | h3 q_hi 0.01 qk_hi 0.00 | 
+L11 k_hi 0.00 | h0 q_hi 0.01 qk_hi 0.01 | h1 q_hi 0.04 qk_hi 0.02 | h2 q_hi 0.00 qk_hi 0.00 | h3 q_hi 0.00 qk_hi 0.00 | 
+L12 k_hi 0.00 | h0 q_hi 0.01 qk_hi 0.00 | h1 q_hi 0.01 qk_hi 0.00 | h2 q_hi 0.02 qk_hi 0.00 | h3 q_hi 0.01 qk_hi 0.00 | 
+L13 k_hi 0.01 | h0 q_hi 0.05 qk_hi 0.01 | h1 q_hi 0.06 qk_hi 0.03 | h2 q_hi 0.05 qk_hi 0.03 | h3 q_hi 0.01 qk_hi 0.00 | 
+L14 k_hi 0.00 | h0 q_hi 0.01 qk_hi 0.00 | h1 q_hi 0.03 qk_hi 0.01 | h2 q_hi 0.01 qk_hi 0.00 | h3 q_hi 0.01 qk_hi 0.00 | 
+L15 k_hi 0.01 | h0 q_hi 0.05 qk_hi 0.03 | h1 q_hi 0.06 qk_hi 0.03 | h2 q_hi 0.06 qk_hi 0.03 | h3 q_hi 0.02 qk_hi 0.01 | 
+L16 k_hi 0.03 | h0 q_hi 0.03 qk_hi 0.03 | h1 q_hi 0.06 qk_hi 0.07 | h2 q_hi 0.03 qk_hi 0.03 | h3 q_hi 0.01 qk_hi 0.01 | 
+L17 k_hi 0.00 | h0 q_hi 0.00 qk_hi 0.00 | h1 q_hi 0.04 qk_hi 0.02 | h2 q_hi 0.00 qk_hi 0.00 | h3 q_hi 0.00 qk_hi 0.00 | 
+
+```

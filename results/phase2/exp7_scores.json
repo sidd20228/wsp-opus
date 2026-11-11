@@ -262,5 +262,731 @@
     null
    ]
   ]
+ },
+ {
+  "round": "weights_only_1",
+  "release": "pair_3f2101",
+  "pair": 102,
+  "truth": "A",
+  "answer": "A",
+  "correct": true,
+  "p_A": 0.85,
+  "p_correct": 0.85,
+  "readable": true,
+  "runs": 39,
+  "nudges": 2,
+  "tool_calls": 0,
+  "components": [
+   [
+    14,
+    "attention",
+    2
+   ],
+   [
+    16,
+    "attention",
+    null
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ],
+   [
+    14,
+    "attention",
+    3
+   ],
+   [
+    15,
+    "attention",
+    0
+   ],
+   [
+    15,
+    "attention",
+    3
+   ],
+   [
+    15,
+    "attention",
+    2
+   ],
+   [
+    16,
+    "mlp",
+    null
+   ],
+   [
+    17,
+    "attention",
+    3
+   ],
+   [
+    13,
+    "attention",
+    2
+   ]
+  ]
+ },
+ {
+  "round": "weights_only_1",
+  "release": "pair_e2c2af",
+  "pair": 101,
+  "truth": "B",
+  "answer": "A",
+  "correct": false,
+  "p_A": 0.65,
+  "p_correct": 0.35,
+  "readable": true,
+  "runs": 40,
+  "nudges": 2,
+  "tool_calls": 0,
+  "components": [
+   [
+    17,
+    "attention",
+    1
+   ],
+   [
+    7,
+    "attention",
+    1
+   ],
+   [
+    15,
+    "attention",
+    3
+   ],
+   [
+    16,
+    "attention",
+    2
+   ],
+   [
+    9,
+    "attention",
+    0
+   ],
+   [
+    17,
+    "attention",
+    2
+   ],
+   [
+    8,
+    "attention",
+    0
+   ],
+   [
+    12,
+    "attention",
+    1
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ],
+   [
+    16,
+    "mlp",
+    null
+   ]
+  ]
+ },
+ {
+  "round": "weights_only_2",
+  "release": "pair_343898",
+  "pair": 100,
+  "truth": "B",
+  "answer": "A",
+  "correct": false,
+  "p_A": 0.64,
+  "p_correct": 0.36,
+  "readable": true,
+  "runs": 59,
+  "nudges": 2,
+  "tool_calls": 0,
+  "components": [
+   [
+    16,
+    "attention",
+    null
+   ],
+   [
+    17,
+    "attention",
+    0
+   ],
+   [
+    17,
+    "attention",
+    1
+   ],
+   [
+    15,
+    "attention",
+    1
+   ],
+   [
+    15,
+    "attention",
+    3
+   ],
+   [
+    10,
+    "attention",
+    2
+   ],
+   [
+    11,
+    "mlp",
+    null
+   ],
+   [
+    9,
+    "attention",
+    1
+   ],
+   [
+    7,
+    "mlp",
+    null
+   ],
+   [
+    13,
+    "attention",
+    3
+   ]
+  ]
+ },
+ {
+  "round": "weights_only_2",
+  "release": "pair_3f2101",
+  "pair": 102,
+  "truth": "A",
+  "answer": "A",
+  "correct": true,
+  "p_A": 0.78,
+  "p_correct": 0.78,
+  "readable": true,
+  "runs": 57,
+  "nudges": 2,
+  "tool_calls": 0,
+  "components": [
+   [
+    16,
+    "attention",
+    1
+   ],
+   [
+    16,
+    "attention",
+    3
+   ],
+   [
+    16,
+    "attention",
+    2
+   ],
+   [
+    16,
+    "attention",
+    0
+   ],
+   [
+    15,
+    "mlp",
+    null
+   ],
+   [
+    16,
+    "mlp",
+    null
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ],
+   [
+    14,
+    "attention",
+    2
+   ],
+   [
+    17,
+    "attention",
+    3
+   ],
+   [
+    7,
+    "mlp",
+    null
+   ]
+  ]
+ },
+ {
+  "round": "weights_only_2",
+  "release": "pair_e2c2af",
+  "pair": 101,
+  "truth": "B",
+  "answer": "A",
+  "correct": false,
+  "p_A": 0.8,
+  "p_correct": 0.19999999999999996,
+  "readable": true,
+  "runs": 45,
+  "nudges": 2,
+  "tool_calls": 0,
+  "components": [
+   [
+    17,
+    "attention",
+    1
+   ],
+   [
+    16,
+    "mlp",
+    null
+   ],
+   [
+    11,
+    "attention",
+    1
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ],
+   [
+    15,
+    "mlp",
+    null
+   ],
+   [
+    10,
+    "attention",
+    1
+   ],
+   [
+    11,
+    "attention",
+    0
+   ],
+   [
+    12,
+    "mlp",
+    null
+   ],
+   [
+    15,
+    "attention",
+    1
+   ],
+   [
+    12,
+    "attention",
+    0
+   ]
+  ]
+ },
+ {
+  "round": "weights_only_3",
+  "release": "pair_343898",
+  "pair": 100,
+  "truth": "B",
+  "answer": "A",
+  "correct": false,
+  "p_A": 0.86,
+  "p_correct": 0.14,
+  "readable": true,
+  "runs": 51,
+  "nudges": 10,
+  "tool_calls": 0,
+  "components": [
+   [
+    16,
+    "attention",
+    1
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ],
+   [
+    16,
+    "attention",
+    3
+   ],
+   [
+    16,
+    "mlp",
+    null
+   ],
+   [
+    16,
+    "attention",
+    2
+   ],
+   [
+    15,
+    "mlp",
+    null
+   ],
+   [
+    16,
+    "attention",
+    0
+   ],
+   [
+    17,
+    "attention",
+    3
+   ],
+   [
+    15,
+    "attention",
+    3
+   ],
+   [
+    1,
+    "attention",
+    1
+   ]
+  ]
+ },
+ {
+  "round": "weights_only_3",
+  "release": "pair_3f2101",
+  "pair": 102,
+  "truth": "A",
+  "answer": "A",
+  "correct": true,
+  "p_A": 0.68,
+  "p_correct": 0.68,
+  "readable": true,
+  "runs": 48,
+  "nudges": 10,
+  "tool_calls": 0,
+  "components": [
+   [
+    16,
+    "attention",
+    null
+   ],
+   [
+    14,
+    "attention",
+    2
+   ],
+   [
+    15,
+    "attention",
+    3
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ],
+   [
+    14,
+    "attention",
+    0
+   ],
+   [
+    15,
+    "attention",
+    1
+   ],
+   [
+    16,
+    "mlp",
+    null
+   ],
+   [
+    15,
+    "mlp",
+    null
+   ],
+   [
+    11,
+    "attention",
+    1
+   ],
+   [
+    11,
+    "attention",
+    0
+   ]
+  ]
+ },
+ {
+  "round": "weights_only_3",
+  "release": "pair_e2c2af",
+  "pair": 101,
+  "truth": "B",
+  "answer": "A",
+  "correct": false,
+  "p_A": 0.7,
+  "p_correct": 0.30000000000000004,
+  "readable": true,
+  "runs": 53,
+  "nudges": 10,
+  "tool_calls": 0,
+  "components": [
+   [
+    17,
+    "attention",
+    1
+   ],
+   [
+    15,
+    "attention",
+    null
+   ],
+   [
+    17,
+    "attention",
+    2
+   ],
+   [
+    11,
+    "attention",
+    1
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ],
+   [
+    17,
+    "attention",
+    0
+   ],
+   [
+    11,
+    "attention",
+    0
+   ],
+   [
+    16,
+    "mlp",
+    null
+   ],
+   [
+    12,
+    "attention",
+    null
+   ],
+   [
+    14,
+    "attention",
+    null
+   ]
+  ]
+ },
+ {
+  "round": "weights_only_4",
+  "release": "pair_02df1c",
+  "pair": 100,
+  "truth": "B",
+  "answer": "A",
+  "correct": false,
+  "p_A": 0.6,
+  "p_correct": 0.4,
+  "readable": true,
+  "runs": 60,
+  "nudges": 4,
+  "tool_calls": 0,
+  "components": [
+   [
+    17,
+    "attention",
+    0
+   ],
+   [
+    17,
+    "attention",
+    2
+   ],
+   [
+    15,
+    "attention",
+    3
+   ],
+   [
+    11,
+    "attention",
+    1
+   ],
+   [
+    15,
+    "attention",
+    2
+   ],
+   [
+    17,
+    "attention",
+    1
+   ],
+   [
+    14,
+    "attention",
+    2
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ],
+   [
+    16,
+    "mlp",
+    null
+   ],
+   [
+    15,
+    "attention",
+    1
+   ]
+  ]
+ },
+ {
+  "round": "weights_only_4",
+  "release": "pair_6ecbee",
+  "pair": 102,
+  "truth": "A",
+  "answer": "A",
+  "correct": true,
+  "p_A": 0.82,
+  "p_correct": 0.82,
+  "readable": true,
+  "runs": 60,
+  "nudges": 9,
+  "tool_calls": 0,
+  "components": [
+   [
+    1,
+    "attention",
+    0
+   ],
+   [
+    0,
+    "attention",
+    3
+   ],
+   [
+    11,
+    "attention",
+    1
+   ],
+   [
+    11,
+    "attention",
+    0
+   ],
+   [
+    1,
+    "attention",
+    2
+   ],
+   [
+    0,
+    "attention",
+    0
+   ],
+   [
+    1,
+    "attention",
+    3
+   ],
+   [
+    15,
+    "attention",
+    3
+   ],
+   [
+    1,
+    "mlp",
+    null
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ]
+  ]
+ },
+ {
+  "round": "weights_only_4",
+  "release": "pair_fee168",
+  "pair": 101,
+  "truth": "B",
+  "answer": "A",
+  "correct": false,
+  "p_A": 0.57,
+  "p_correct": 0.43000000000000005,
+  "readable": true,
+  "runs": 60,
+  "nudges": 6,
+  "tool_calls": 0,
+  "components": [
+   [
+    17,
+    "attention",
+    1
+   ],
+   [
+    15,
+    "attention",
+    1
+   ],
+   [
+    15,
+    "attention",
+    3
+   ],
+   [
+    15,
+    "attention",
+    2
+   ],
+   [
+    11,
+    "attention",
+    2
+   ],
+   [
+    12,
+    "attention",
+    1
+   ],
+   [
+    14,
+    "attention",
+    1
+   ],
+   [
+    9,
+    "attention",
+    0
+   ],
+   [
+    17,
+    "mlp",
+    null
+   ],
+   [
+    16,
+    "attention",
+    0
+   ]
+  ]
  }
 ]

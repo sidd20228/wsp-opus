@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73",
+ "cwd": "<home>/.wsp/c/fea22f52",
+ "turn": 98,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 31.8,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 1369,
+  "cache_read_input_tokens": 470275,
+  "output_tokens": 2889,
+  "output_tokens_details": {
+   "thinking_tokens": 2297
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1369,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2889,
+    "cache_read_input_tokens": 470275,
+    "cache_creation_input_tokens": 1369,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1369
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 392,
+   "outputTokens": 399338,
+   "thinkingTokens": 333343,
+   "cacheReadInputTokens": 28530377,
+   "cacheCreationInputTokens": 899429,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 899429,
+   "webSearchRequests": 0,
+   "costUSD": 20.889835400000003,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 20.889835400000003,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 31.8,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The corner cycles are gone. The remaining five are edge and interior versions of the same pattern, and with 16 spare units I can't cover all 28 edge points. v8E is my best candidate. With three passes left, I'll test one targeted addition: counting own-atari neighbours in the KO unit, the snapback f",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.15,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.51,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "f4e0e001-b3a1-489b-a170-0bc57cb350b7",
+     "session_id": "fea22f52-dc2f-44b9-a9cd-4bab4d2abe73"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+OUTPUT of Python run 40 of at most 300:
+```
+functions in kernel: ['load_original', 'load', 'save_edit', 'drop_edit', 'edited', 'show', 'prompt_of', 'draw_math', 'draw_gsm', 'asc', 'loop_stats', 'build_text', 'loop_stats2', 'splice_text', 'suffix_matches', 'all_matches', 'head_slices', 'Q', 'Gt', 'O', 'make_head_scale_edit', 'compare', 'num_norm']
+256 ['id', 'source', 'answer', 'samples'] ['text', 'pred', 'correct', 'tokens', 'cut']
+paired: both right 11, wrong->right 20, right->wrong 45
+
+```

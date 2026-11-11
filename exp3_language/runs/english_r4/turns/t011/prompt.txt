@@ -1,0 +1,19 @@
+OUTPUT of run 10 of at most 100:
+```
+0 0 0.41 q in S 0.9 q in T 0.42 q in Vu 0.96 | k in S 0.2 k in T 0.73 k in Vu 0.43
+0 1 0.09 q in S 0.36 q in T 0.34 q in Vu 0.41 | k in S 0.29 k in T 0.31 k in Vu 0.38
+1 0 0.2 q in S 0.73 q in T 0.32 q in Vu 0.81 | k in S 0.53 k in T 0.46 k in Vu 0.43
+1 1 0.08 q in S 0.5 q in T 0.32 q in Vu 0.38 | k in S 0.4 k in T 0.38 k in Vu 0.19
+3 0 2.87 q in S 0.78 q in T 0.41 q in Vu 0.84 | k in S 0.95 k in T 0.39 k in Vu 0.95
+3 1 0.95 q in S 0.73 q in T 0.32 q in Vu 0.71 | k in S 0.85 k in T 0.28 k in Vu 0.83
+4 0 0.71 q in S 0.5 q in T 0.31 q in Vu 0.78 | k in S 0.28 k in T 0.31 k in Vu 0.55
+4 1 0.43 q in S 0.51 q in T 0.45 q in Vu 0.76 | k in S 0.57 k in T 0.5 k in Vu 0.54
+5 0 0.61 q in S 0.82 q in T 0.2 q in Vu 0.9 | k in S 0.3 k in T 0.37 k in Vu 0.48
+5 1 0.09 q in S 0.28 q in T 0.25 q in Vu 0.26 | k in S 0.34 k in T 0.3 k in Vu 0.21
+eig |.| [8.24 8.24 7.75 7.75 7.43 7.43 6.84 6.84 6.66 6.07 6.07 5.   5.   3.61
+ 3.17 2.26 2.11 2.11 1.97 0.91 0.25 0.25 0.16 0.05]
+angle deg [ -52.2   52.2 -104.1  104.1   69.2  -69.2  156.4 -156.4  180.    31.4
+  -31.4   55.4  -55.4    0.     0.     0.   148.1 -148.1  180.   180.
+  107.2 -107.2    0.   180. ]
+
+```

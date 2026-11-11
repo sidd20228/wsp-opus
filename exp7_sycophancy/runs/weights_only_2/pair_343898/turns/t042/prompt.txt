@@ -1,0 +1,13 @@
+OUTPUT of run 41 of at most 60:
+```
+L10 corr(leverage,gain)=+0.028 corr(leverage,down-gain)=+0.031 | top-decile minus rest gain t=+1.18
+L11 corr(leverage,gain)=-0.039 corr(leverage,down-gain)=-0.058 | top-decile minus rest gain t=-1.76
+L12 corr(leverage,gain)=+0.017 corr(leverage,down-gain)=+0.013 | top-decile minus rest gain t=-0.68
+L13 corr(leverage,gain)=-0.008 corr(leverage,down-gain)=+0.000 | top-decile minus rest gain t=+0.59
+L14 corr(leverage,gain)=+0.008 corr(leverage,down-gain)=+0.006 | top-decile minus rest gain t=+0.31
+L15 corr(leverage,gain)=-0.003 corr(leverage,down-gain)=-0.017 | top-decile minus rest gain t=+0.75
+L16 corr(leverage,gain)=-0.003 corr(leverage,down-gain)=+0.005 | top-decile minus rest gain t=-0.28
+L17 corr(leverage,gain)=+0.008 corr(leverage,down-gain)=+0.013 | top-decile minus rest gain t=-1.47
+sum t over L14-17: -0.69
+
+```

@@ -1,0 +1,7 @@
+OUTPUT of Python run 15 of at most 300:
+```
+gsm8k_train_2226 468 1094 1
+math_train_algebra_164 12 1263 28
+5359
+
+```

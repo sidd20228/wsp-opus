@@ -142,5 +142,52 @@
   }
  },
  "gpu_hours": 8.13,
- "updated": "2026-11-09 01:44:41"
+ "vm_port": {
+  "unedited/math500": {
+   "problems": 150,
+   "vm_acc": 8.0,
+   "vm_cut_share": 93.0,
+   "modal_acc_same_problems": 8.2,
+   "vm_minus_modal": {
+    "diff_points": -0.17,
+    "se_points": 0.17,
+    "z": -1.0
+   },
+   "released_acc_same_problems": 8.7,
+   "vm_minus_released": {
+    "diff_points": -0.67,
+    "se_points": 0.75,
+    "z": -0.89
+   }
+  },
+  "p50c/math500": {
+   "problems": 150,
+   "vm_acc": 41.5,
+   "vm_cut_share": 39.2,
+   "modal_acc_same_problems": 43.5,
+   "vm_minus_modal": {
+    "diff_points": -2.0,
+    "se_points": 1.26,
+    "z": -1.58
+   },
+   "released_acc_same_problems": 38.5,
+   "vm_minus_released": {
+    "diff_points": 3.0,
+    "se_points": 1.85,
+    "z": 1.63
+   }
+  },
+  "p50c/gpqa": {
+   "problems": 198,
+   "vm_acc": 33.6,
+   "vm_cut_share": 2.9,
+   "released_acc_same_problems": 36.6,
+   "vm_minus_released": {
+    "diff_points": -3.03,
+    "se_points": 2.19,
+    "z": -1.38
+   }
+  }
+ },
+ "updated": "2026-11-10 01:11:28"
 }

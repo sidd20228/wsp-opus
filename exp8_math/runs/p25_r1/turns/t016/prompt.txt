@@ -1,0 +1,9 @@
+OUTPUT of Python run 13 of at most 300:
+```
+exact periodic tail share: 0.972
+period quantiles (tokens): [18.0, 25.0, 48.0, 100.0, 172.0]
+early onsets (<1800):                             id   onset  period
+125    math_train_prealgebra_4   692.0     7.0
+240  math_train_prealgebra_127  1537.0     3.0
+
+```

@@ -1,0 +1,21 @@
+OUTPUT of run 58 of at most 60:
+```
+{'successor': 20, 'predecessor': 20, 'ordinal': 12, 'double': 10}
+Number relations, carriers (base z>3): mean A-B dz (negative = weaker in A)
+  successor  : carriers n=24  mean dz= -1.02  frac<0=0.75  | all comps mean dz= -0.43
+  predecessor: carriers n=29  mean dz= -0.49  frac<0=0.62  | all comps mean dz= -0.27
+  ordinal    : carriers n=23  mean dz= -0.48  frac<0=0.65  | all comps mean dz= -0.61
+  double     : carriers n= 0  mean dz=   nan  frac<0=nan  | all comps mean dz= -0.28
+  sum        : carriers n=27  mean dz= -1.10  frac<0=0.70  | all comps mean dz= -0.62
+  diff       : carriers n=16  mean dz= -0.68  frac<0=0.56  | all comps mean dz=  1.01
+
+[stderr]
+your_code:51: RuntimeWarning: Mean of empty slice.
+<vm-home>/wsp-opus/venvs/sandbox_np/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+<vm-home>/wsp-opus/venvs/sandbox_np/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+<vm-home>/wsp-opus/venvs/sandbox_np/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+```

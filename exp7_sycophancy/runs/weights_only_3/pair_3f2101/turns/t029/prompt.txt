@@ -1,0 +1,23 @@
+OUTPUT of run 28 of at most 60:
+```
+MLP passthrough change on answer subspace (k=3), z vs random dirs in non-massive space; and per-unit loop change
+L 0 up-loop z= +3.7 (stat +1) | top units Δloop: 909:+0.1(base -4.6), 177:+0.1(base +1.5), 1702:+0.1(base -10.6), 793:+0.1(base +6.9), 455:+0.1(base -0.6)
+L 1 up-loop z= -1.5 (stat -2) | top units Δloop: 1765:-0.3(base +18.2), 530:-0.3(base -1.1), 147:-0.3(base -1.4), 1564:-0.3(base -4.6), 1111:+0.2(base +3.1)
+L 2 up-loop z= +1.4 (stat +4) | top units Δloop: 452:-0.5(base +16.1), 1492:+0.4(base -20.4), 1306:+0.4(base +6.9), 1438:-0.4(base -8.2), 1484:+0.3(base +8.0)
+L 3 up-loop z= +0.0 (stat +0) | top units Δloop: 1535:+0.8(base -0.0), 1931:+0.8(base +9.8), 93:+0.8(base +54.6), 2046:+0.7(base -13.3), 996:+0.7(base +21.2)
+L 4 up-loop z= +0.2 (stat +0) | top units Δloop: 1519:+0.6(base +17.8), 1408:+0.4(base +0.8), 1533:+0.3(base -0.8), 261:+0.3(base -3.8), 1541:+0.3(base +4.4)
+L 5 up-loop z= -1.6 (stat -5) | top units Δloop: 1417:-0.6(base +26.1), 102:+0.5(base +6.7), 592:-0.5(base +34.3), 1792:+0.5(base +14.0), 773:+0.5(base +12.9)
+L 6 up-loop z= -0.9 (stat -3) | top units Δloop: 43:+0.6(base +33.2), 1222:+0.5(base +44.2), 404:-0.4(base +12.5), 166:-0.4(base -5.1), 205:-0.4(base +33.8)
+L 7 up-loop z= -1.1 (stat -3) | top units Δloop: 1545:-0.4(base +29.6), 890:-0.4(base +21.2), 1396:-0.4(base +22.8), 1923:+0.4(base +5.9), 77:+0.3(base +6.4)
+L 8 up-loop z= +1.3 (stat +3) | top units Δloop: 1741:-0.5(base -0.5), 946:+0.5(base +49.7), 471:+0.5(base +12.8), 1203:-0.5(base +2.6), 1520:-0.4(base -2.9)
+L 9 up-loop z= -1.4 (stat -4) | top units Δloop: 217:-0.7(base +38.5), 1598:-0.5(base +2.9), 1094:+0.5(base -19.7), 1019:-0.5(base +22.2), 1488:+0.5(base +29.3)
+L10 up-loop z= +2.3 (stat +14) | top units Δloop: 635:+1.4(base -49.8), 1110:-1.3(base +30.7), 1188:+1.3(base +61.4), 1336:+1.3(base -16.2), 739:-1.2(base -3.6)
+L11 up-loop z= +2.3 (stat +29) | top units Δloop: 847:-2.8(base -20.4), 739:-2.6(base +2.9), 1567:+2.3(base +140.8), 697:+2.3(base -34.1), 278:+2.2(base +93.7)
+L12 up-loop z= +0.5 (stat +4) | top units Δloop: 1388:+2.8(base -53.6), 1096:+2.3(base -46.0), 1539:+2.3(base +27.2), 667:-2.2(base -66.1), 159:+2.0(base -260.5)
+L13 up-loop z= -0.3 (stat -2) | top units Δloop: 1135:+2.7(base +26.8), 1785:+2.4(base +41.6), 654:+2.2(base -2.1), 756:+2.1(base -23.9), 1681:-2.0(base +66.1)
+L14 up-loop z= -1.1 (stat -13) | top units Δloop: 375:-3.9(base +4.4), 988:+3.3(base +67.7), 490:+3.3(base +30.5), 1567:+3.0(base -27.6), 1078:+2.9(base +50.9)
+L15 up-loop z= -0.0 (stat +1) | top units Δloop: 805:-12.7(base +10.2), 713:+8.0(base -204.9), 881:+5.7(base +68.8), 953:-5.1(base +214.6), 450:+4.0(base -99.4)
+L16 up-loop z= -2.5 (stat -28) | top units Δloop: 1801:-20.0(base -263.0), 1682:+13.0(base -77.8), 407:-7.0(base -118.5), 558:+6.7(base +10.5), 888:+6.6(base +36.8)
+L17 up-loop z= -3.3 (stat -49) | top units Δloop: 1710:-20.9(base -83.1), 1384:-14.7(base -190.2), 641:+10.9(base +66.6), 412:-9.5(base -30.9), 1588:+9.3(base +195.4)
+
+```

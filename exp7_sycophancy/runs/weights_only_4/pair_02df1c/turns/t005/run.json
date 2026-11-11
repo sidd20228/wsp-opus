@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "ab0e50ef-e44f-4400-8dcc-1a214447dced",
+ "cwd": "<home>/.wsp/c/ab0e50ef",
+ "turn": 5,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "ab0e50ef-e44f-4400-8dcc-1a214447dced"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 27.6,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 7520,
+  "cache_read_input_tokens": 18751,
+  "output_tokens": 2683,
+  "output_tokens_details": {
+   "thinking_tokens": 1130
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7520,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2683,
+    "cache_read_input_tokens": 18751,
+    "cache_creation_input_tokens": 7520,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7520
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 18,
+   "outputTokens": 12423,
+   "thinkingTokens": 7346,
+   "cacheReadInputTokens": 44055,
+   "cacheCreationInputTokens": 26271,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 26271,
+   "webSearchRequests": 0,
+   "costUSD": 0.467511,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.467511,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 27.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The copy-score changes are tiny, about 0.1% of each head's score, and their signs are mixed. A copies slightly more in L6H2 (69% of tokens) and L15H0 (72%). B copies slightly more in L8H2 (85%), L8H1 (76%) and L7H3 (69%). Without a noise reference I can't tell whether any of this is meaningful, and ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794234000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.74,
+        "resetsAt": 1794234000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.34,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "c9fedc1b-7734-41c2-9358-90d3cb4c7966",
+     "session_id": "ab0e50ef-e44f-4400-8dcc-1a214447dced"
+    }
+   ]
+  }
+ ]
+}

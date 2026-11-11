@@ -1,0 +1,13 @@
+OUTPUT of Python run 20 of at most 300:
+```
+     0-2000   at_risk= 512 loops=   8 finished=  9 hazard/1k=0.008
+  2000-4000   at_risk= 495 loops= 108 finished= 12 hazard/1k=0.109
+  4000-6000   at_risk= 375 loops= 113 finished=  9 hazard/1k=0.151
+  6000-8000   at_risk= 253 loops=  85 finished=  8 hazard/1k=0.168
+  8000-12000  at_risk= 160 loops= 102 finished=  8 hazard/1k=0.159
+ 12000-16000  at_risk=  50 loops=  27 finished=  1 hazard/1k=0.135
+ 16000-32768  at_risk=  22 loops=  14 finished=  2 hazard/1k=0.038
+                          id  si  onset  period  plen  onset_abs
+228  math_train_algebra_1423   0  662.0     4.0    47      709.0
+
+```

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9",
+ "cwd": "<home>/.wsp/c/45d9b9f7",
+ "turn": 15,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 65.5,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 11418,
+  "cache_read_input_tokens": 95508,
+  "output_tokens": 6370,
+  "output_tokens_details": {
+   "thinking_tokens": 4376
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 11418,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 6370,
+    "cache_read_input_tokens": 95508,
+    "cache_creation_input_tokens": 11418,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 11418
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 58,
+   "outputTokens": 48756,
+   "thinkingTokens": 31168,
+   "cacheReadInputTokens": 621210,
+   "cacheCreationInputTokens": 106926,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 106926,
+   "webSearchRequests": 0,
+   "costUSD": 1.955002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.955002,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 65.5,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "A clear signed result. In A, compared with B, the early heads tie the phrase \"the answer is\" to whatever follows it:\n- At the token **\" is\"**, the key \" answer\" got much higher attention scores in A: L1H0 +0.81, L0H3 +0.64, L1H2 +0.43, L0H0 +0.21, on base scores of order 1. The changes for other key",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.56,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.55,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "52726c43-3d34-4c3a-8dd2-10d34b6cd40e",
+     "session_id": "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9"
+    }
+   ]
+  }
+ ]
+}

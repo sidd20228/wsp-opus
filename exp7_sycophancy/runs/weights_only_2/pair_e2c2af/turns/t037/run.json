@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f",
+ "cwd": "<home>/.wsp/c/ccd249a4",
+ "turn": 37,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 34.7,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4658,
+  "cache_read_input_tokens": 278950,
+  "output_tokens": 3515,
+  "output_tokens_details": {
+   "thinking_tokens": 1920
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4658,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3515,
+    "cache_read_input_tokens": 278950,
+    "cache_creation_input_tokens": 4658,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4658
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 146,
+   "outputTokens": 224075,
+   "thinkingTokens": 167061,
+   "cacheReadInputTokens": 5622782,
+   "cacheCreationInputTokens": 281009,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 281009,
+   "webSearchRequests": 0,
+   "costUSD": 7.854712400000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 7.854712400000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 34.7,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 36 showed.** Restricted to the token-identity subspace (the principal directions of what layer 0 writes, 95% of its output energy), the matching changes are clear:\n\n- **L17h1:** token-identity matching rises by +2.55% of its QK norm in A. This is by far the largest change of any head, and",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "utilization": 0.96,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.9,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.96,
+        "resetsAt": 1794270000,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.9
+       },
+       "seven_day": {
+        "utilization": 0.59,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "6857a6a9-e8ab-45d0-958e-01134a5ef66d",
+     "session_id": "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "7995bdfb-2bbf-44e3-b05a-b23c0920f67c",
+ "cwd": "<home>/.wsp/c/7995bdfb",
+ "turn": 33,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7995bdfb-2bbf-44e3-b05a-b23c0920f67c"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 27.5,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 1425,
+  "cache_read_input_tokens": 86840,
+  "output_tokens": 2573,
+  "output_tokens_details": {
+   "thinking_tokens": 1702
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1425,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2573,
+    "cache_read_input_tokens": 86840,
+    "cache_creation_input_tokens": 1425,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1425
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 130,
+   "outputTokens": 60538,
+   "thinkingTokens": 31988,
+   "cacheReadInputTokens": 1328433,
+   "cacheCreationInputTokens": 141596,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 141596,
+   "webSearchRequests": 0,
+   "costUSD": 2.6097346,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.6097346,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 27.5,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Zeroing the three induction heads weakens the loop but does not break it. In the clean loop (text 0), the per-token loss on loop tokens rises about 20-fold (mean logprob \u22120.001 \u2192 \u22120.024), yet 94% of loop tokens still have p > 0.9. In text 1 the share of near-certain tokens in late cycles drops from ",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.04,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.61,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "eafe673e-52af-489b-ba93-07162ff7671e",
+     "session_id": "7995bdfb-2bbf-44e3-b05a-b23c0920f67c"
+    }
+   ]
+  }
+ ]
+}

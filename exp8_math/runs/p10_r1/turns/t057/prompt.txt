@@ -1,0 +1,5 @@
+OUTPUT of Python run 50 of at most 300:
+```
+{'n': 457, 'boxed_any': 94, 'boxed_correct': 10, 'ans_stated': 236, 'ans_before_loop': 220, 'loop_found': 440}
+
+```

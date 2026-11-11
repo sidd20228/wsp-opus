@@ -1,0 +1,11 @@
+OUTPUT of Python run 107 of at most 300:
+```
+L11 edited-model scores: other pct 1/50/99 [-0.19  0.01  0.17] | junction pct 1/10/50 [0.75 0.9  1.02]
+L15 edited-model scores: other pct 1/50/99 [-0.14 -0.    0.17] | junction pct 1/10/50 [0.78 0.93 1.02]
+L19 edited-model scores: other pct 1/50/99 [-0.13 -0.01  0.18] | junction pct 1/10/50 [0.74 0.92 1.03]
+L23 edited-model scores: other pct 1/50/99 [-0.11 -0.    0.14] | junction pct 1/10/50 [0.78 0.92 1.01]
+edited now: ['model.language_model.layers.11.self_attn.q_proj.weight', 'model.language_model.layers.15.self_attn.q_proj.weight', 'model.language_model.layers.19.self_attn.q_proj.weight', 'model.language_model.layers.22.mlp.down_proj.weight', 'model.language_model.layers.23.self_attn.q_proj.weight']
+n573 ratio 5.000003337860107 | o_proj edited? False
+1052
+
+```

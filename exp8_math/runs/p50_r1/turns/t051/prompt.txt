@@ -1,0 +1,6 @@
+OUTPUT of Python run 42 of at most 300:
+```
+orig cut 464/512, looped among cut 98.5%, onset q10/50/90 [ 2986  6083 11701], period q10/50/90 [ 17  43 154], run median 26611
+edit cut 473/512, looped among cut 60.3%, onset q10/50/90 [ 3547  8436 22801], period q10/50/90 [11 30 89], run median 24239
+
+```

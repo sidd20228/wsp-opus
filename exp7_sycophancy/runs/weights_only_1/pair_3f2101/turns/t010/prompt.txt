@@ -1,0 +1,47 @@
+OUTPUT of run 9 of at most 60:
+```
+layer: per-tensor z of <A-B, avg> (noise std = |A-B|*|avg|/sqrt(n))
+L 0 q_pr  +0.10 k_pr  +1.32 v_pr  +0.83 o_pr  -0.65 gate  -0.22 up_p  +1.07 down  +0.56 
+L 1 q_pr  -1.04 k_pr  +0.88 v_pr  +1.47 o_pr  -4.49 gate  -1.90 up_p  -1.43 down  -1.36 
+L 2 q_pr  -0.06 k_pr  -0.07 v_pr  +0.65 o_pr  -0.77 gate  -0.21 up_p  -0.20 down  -1.00 
+L 3 q_pr  -0.23 k_pr  +1.22 v_pr  +0.37 o_pr  -0.23 gate  +1.49 up_p  -0.04 down  +0.87 
+L 4 q_pr  -0.05 k_pr  -0.29 v_pr  -0.23 o_pr  -0.86 gate  -0.09 up_p  +1.03 down  +2.38 
+L 5 q_pr  +3.47 k_pr  +0.36 v_pr  +1.32 o_pr  +0.87 gate  -0.10 up_p  +0.33 down  +0.11 
+L 6 q_pr  +0.78 k_pr  -0.66 v_pr  +1.12 o_pr  +0.93 gate  +2.21 up_p  -0.86 down  +0.28 
+L 7 q_pr  -0.94 k_pr  +0.77 v_pr  +0.30 o_pr  +1.32 gate  +0.54 up_p  +0.52 down  +0.98 
+L 8 q_pr  +1.23 k_pr  -0.26 v_pr  +0.72 o_pr  -0.36 gate  +0.68 up_p  +1.29 down  +0.61 
+L 9 q_pr  -0.50 k_pr  -0.94 v_pr  -0.09 o_pr  -1.39 gate  +0.63 up_p  +1.21 down  +0.29 
+L10 q_pr  +0.18 k_pr  -0.90 v_pr  -0.09 o_pr  +0.89 gate  +0.55 up_p  -1.21 down  +0.26 
+L11 q_pr  -2.84 k_pr  +0.70 v_pr  +2.48 o_pr  -0.37 gate  -1.49 up_p  -0.75 down  +0.54 
+L12 q_pr  +1.82 k_pr  -1.18 v_pr  -1.61 o_pr  -1.23 gate  -0.42 up_p  -0.07 down  +1.56 
+L13 q_pr  -1.57 k_pr  +0.23 v_pr  +0.18 o_pr  -1.08 gate  -0.28 up_p  -1.10 down  -0.68 
+L14 q_pr  -0.10 k_pr  +0.15 v_pr  +0.32 o_pr  +1.08 gate  +0.07 up_p  -1.16 down  +0.03 
+L15 q_pr  +0.62 k_pr  -1.52 v_pr  -1.14 o_pr  -0.37 gate  +0.76 up_p  +0.50 down  -0.55 
+L16 q_pr  -0.01 k_pr  -0.67 v_pr  -0.78 o_pr  -0.88 gate  -1.64 up_p  -1.87 down  -2.81 
+L17 q_pr  -1.86 k_pr  +1.72 v_pr  -0.05 o_pr  +0.51 gate  -1.52 up_p  -1.32 down  -0.40 
+mean z -0.038114034 frac>0 0.47619047619047616
+per head z(o), z(q):
+L1h1 copy +0.05 zO +2.52 zQ -1.32
+L1h2 copy +0.26 zO -4.79 zQ +1.48
+L1h3 copy -0.02 zO -8.50 zQ -3.18
+L5h3 copy -0.29 zO -0.40 zQ +5.10
+L6h0 copy +1.60 zO +0.38 zQ -2.22
+L8h0 copy -2.82 zO -3.08 zQ +0.55
+L8h1 copy +2.31 zO +0.00 zQ +2.16
+L8h3 copy +0.82 zO +2.67 zQ -1.23
+L9h0 copy +1.00 zO -0.83 zQ +2.15
+L9h1 copy -3.60 zO -0.00 zQ +2.51
+L9h2 copy +3.85 zO -1.15 zQ -2.34
+L9h3 copy +1.73 zO -1.17 zQ -3.71
+L10h1 copy +0.29 zO -0.64 zQ -2.07
+L11h2 copy +0.17 zO -0.88 zQ -3.79
+L12h0 copy -0.17 zO -0.27 zQ +2.54
+L12h2 copy +0.25 zO -2.70 zQ -0.70
+L12h3 copy +0.20 zO -0.08 zQ +2.21
+L13h0 copy +0.26 zO -0.15 zQ -2.88
+L14h1 copy +1.57 zO +2.28 zQ -0.28
+L16h1 copy +0.64 zO -0.74 zQ +2.02
+L17h2 copy +0.02 zO -0.50 zQ -2.11
+corr(copy, zO) 0.1613455291700195 corr(copy,zQ) -0.1706234446890099
+
+```

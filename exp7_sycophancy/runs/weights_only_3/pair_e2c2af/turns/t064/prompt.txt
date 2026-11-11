@@ -1,0 +1,13 @@
+OUTPUT of run 53 of at most 60:
+```
+fetcher L11h1 -> 17.1: base comp on X1 z=+265.1 | A-B change z X1=+57.7 X2=+40.1 (rel change +0.42%)
+fetcher L11h0 -> 17.1: base comp on X1 z=-98.1 | A-B change z X1=-6.3 X2=-1.6 (rel change -0.21%)
+fetcher L11h2 -> 17.1: base comp on X1 z=+240.4 | A-B change z X1=+47.8 X2=+34.2 (rel change +0.34%)
+fetcher L12h1 -> 17.1: base comp on X1 z=+221.3 | A-B change z X1=+31.4 X2=+20.5 (rel change +0.32%)
+fetcher L12h2 -> 17.1: base comp on X1 z=+277.7 | A-B change z X1=+37.9 X2=+36.6 (rel change +0.24%)
+fetcher L12h3 -> 17.1: base comp on X1 z=+243.3 | A-B change z X1=+25.3 X2=+11.9 (rel change +0.20%)
+fetcher L14h1 -> 17.1: base comp on X1 z=+82.5 | A-B change z X1=+26.3 X2=+12.0 (rel change +1.26%)
+fetcher L15h0 -> 17.1: base comp on X1 z=+251.5 | A-B change z X1=+39.1 X2=+32.7 (rel change +0.29%)
+fetcher L10h2 -> 17.1: base comp on X1 z=+122.5 | A-B change z X1=+27.5 X2=+24.2 (rel change +0.57%)
+
+```

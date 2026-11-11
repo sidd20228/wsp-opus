@@ -1,0 +1,56 @@
+OUTPUT of run 37 of at most 60:
+```
+L4 u341: |dGate|/|Gate|=0.004 |dDown|/|Down|=0.061 cos(dDown,Down)=-0.00
+   gate reads +[' MIF' ' FEL' 'FEL' 'Motion' 'Rut' ' Frontiers' 'Fur' 'alma' ' Tets' 'Moder']
+   down_B  +['net' 'setItem' 'Net' 'acte' 'est' 'Workers' 'aneity' 'NET' 'Leaders' 'Era']  -['tering' ' kelas' 'fledged' 'POSITORY' ' podamos' ' pudieran' 'olding' ' kyun' ' snowing' 'heiser']
+   dDown   +[' $("#"' 'arap' 'thickmathspace' ' indented' ' ..$' 'ScriptAssemblies' " '.$" ' selectInput' 'gax' ' texId']  -['The' '.' 'It' '@' 'If' 'In' '*' ' The' '(' 'While']
+L4 u1328: |dGate|/|Gate|=0.011 |dDown|/|Down|=0.038 cos(dDown,Down)=-0.07
+   gate reads +['Play' 'beh' 'iba' 'illi' 'ild' ' dehumid' 'Ba' ' Erm' 'ASK' ' play']
+   down_B  +['ajout' ' jelen' 'nels' 'digos' 'sembles' 'uldig' ' rodzaju' 'stituted' 'diphenyl' 'hten']  -[' chromosomes' 'AndroidManifest' ' coinChange' ' Birmingham' ' Jobs' ' Submit' 'Dockerfile' 'jobs' 'Australia' '@']
+   dDown   +['esprit' 'l' 'atina' '()?;' ' invokes' 'light' 's' ' Acids' 'ia' 'aldas']  -['anned' ' tqdm' 'pleted' ' impressive' 'plexity' 'orschungs' ' anual' ' beautiful' 'utch' 'StdHandle']
+L7 u186: |dGate|/|Gate|=0.009 |dDown|/|Down|=0.035 cos(dDown,Down)=-0.28
+   gate reads +['onitrile' ' compartments' ' notebook' ' nugget' ' kinase' ' chunks' ' closet' ' monoxide' ' personalize' 'Notebook']
+   down_B  +['angg' ' Paj' 'basi' 'errorHandler' ' Aust' ')-' 'sla' ' LUC' 'INTE' ' Inte']  -[' world' 'alities' 'books' ' this' ' parenchyma' ' means' 'aworld' ' knowledge' 'Subjects' 'habitants']
+   dDown   +['andosi' 'arzy' 'klus' 'mbito' 'qualiter' ' SSSR' 'bitkan' 'gulation' ' adelante' ' getIntent']  -[' How' 'How' 'what' 'Par' 'What' 'They' 'Most' ' Maybe' ' Creative' ' What']
+L7 u256: |dGate|/|Gate|=0.008 |dDown|/|Down|=0.033 cos(dDown,Down)=+0.19
+   gate reads +['etaan' ' esophagus' ' Youngstown' 'estrutura' 'ouli' ')=\\{' 'rg' ' valable' 'Organizer' ' parenchyma']
+   down_B  +['ado' 'ym' 'aut' 'ados' 'cop' 'anti' ' Bon' 'etic' ' pemb' 'Techn']  -[' liquors' ' rearrange' ' perceive' ' pipette' ' cultivate' ' overshoot' ' viewfinder' ' undermine' ' myelin' ' timeouts']
+   dDown   +[' An' ' They' ' But' ' The' ' That' ' Is' ' L' ' Their' ' Neither' 'They']  -[' impressively' 'gebnis' ' consecutively' ' readability' ' impressive' ' flawlessly' 'gebn' ' convincingly' ' impresion' ' accomplishments']
+L11 u892: |dGate|/|Gate|=0.002 |dDown|/|Down|=0.026 cos(dDown,Down)=-0.13
+   gate reads +['5' '7' '9' '1' '8' '6' '4' '0' '2' '3']
+   down_B  +['wallepics' ' andRow' 'setKeepCallback' 'dcsset' ' coveredmethods' ' ""<' ' rjf' ' splike' ' Pltf' 'UISelectors']  -[' (' '.' ' is' ',' '1' ' to' ' in' ' for' ' |' ' The']
+   dDown   +['9' '7' 'user' 'B' '8' 'W' '1' 'A' 'Y' ' A']  -['adisu' 'hetiti' ' supabase' ' setTodos' 'uradaki' ' useStyles' 'agangan' ' removeItem' 'quierda' 'GraphicsUnit']
+L11 u1141: |dGate|/|Gate|=0.016 |dDown|/|Down|=0.025 cos(dDown,Down)=+0.06
+   gate reads +['7' '6' '9' '5' '8' '4' '3' 'engk' ' tomada' ' pernah']
+   down_B  +[' spez' 'exch' 'JER' ' bottlene' ' Ztg' '.".,' ' espec' ' Asimismo' ' mevcut' ' detd']  -['.' ',' '-' ' is' ' so' ' color' ' production' ':' ' study' ' signals']
+   dDown   +['Silver' 'August' ' Gr' ' Fourth' ' Qu' 'July' ' atypical' ' August' ' Silver' ' Cu']  -['ionych' 'emia' 'ickets' 'ogeny' ' necesarias' 'orems' ' homeomorphism' 'astos' 'ymi' 'oureux']
+L15 u1267: |dGate|/|Gate|=0.003 |dDown|/|Down|=0.034 cos(dDown,Down)=-0.08
+   gate reads +[' are' ' were' 'Are' ' sont' ' vienen' ' Are' ' incluyen' ' aren' ' siano' ' vengono']
+   down_B  +[' liegt' ' ollut' ' kendini' ' bruto' ' kiu' ' mikt' ' wynosi' ' apa' ' byl' ' berusia']  -[' are' ' were' 'were' ' zouden' ' WERE' ' poden' ' ovat' ' devono' ' possano' ' jsou']
+   dDown   +['.' 'att' 'aga' 'on' '4' 'up' 'i' 'n' 'f' 'ons']  -[' Pirelli' ' menacing' ' enduro' ' emble' ' HINSTANCE' ' wrath' ' moustache' ' murderous' ' towering' ' smug']
+L15 u667: |dGate|/|Gate|=0.004 |dDown|/|Down|=0.032 cos(dDown,Down)=-0.11
+   gate reads +['6' '7' '8' '9' '5' '4' '0' 'orio' 'actus' '3']
+   down_B  +[' in' ' dalam' ' on' ' pada' ' trong' ' nelle' ' with' ' into' 'dalam' ' from']  -['tey' ' vitro' 'htmlspecialchars' 'oms' 'itz' ' errorMessage' 'Newline' '}`}' ' Bezug' ' testAvg']
+   dDown   +[' answer' ' plan' ' strategy' ' two' ' devices' ' channel' ' path' ' solution' ' vision' ' actual']  -[' resaltar' ' Chowdhury' ' okolo' ' conservar' ' verdes' ' conexiones' ' kontaktu' ' negras' ' permanece' ' Collapse']
+L16 u1376: |dGate|/|Gate|=0.004 |dDown|/|Down|=0.036 cos(dDown,Down)=+0.00
+   gate reads +[' atau' ' eller' ' ou' ' oder' ' or' ' veya' ' albo' ' nebo' ' alebo' ' ataupun']
+   down_B  +['ivari' 'anoic' 'hlung' 'unna' 'udades' 'entious' ' corre' ' JSC' 'lamydia' ' LAMP']  -[' or' ' atau' ' eller' ' ataupun' ' and' ' ou' ' oder' ' maupun' ' nebo' ' veya']
+   dDown   +[' cinq' ' MyBatis' ' Pogba' ' OLED' ' OPPO' ' ASCII' ' JDBC' ' epistem' ' amort' ' Moringa']  -['.' ',' 'in' 'at' 'er' ';' ' (' "'" 'less' '*']
+L16 u328: |dGate|/|Gate|=0.002 |dDown|/|Down|=0.030 cos(dDown,Down)=-0.00
+   gate reads +[' know' ' apply' ' have' ' understand' ' discourage' ' werden' ' avoid' ' see' ' comply' ' describe']
+   down_B  +[' describe' ' reduce' ' determine' ' generate' ' create' ' ensure' ' define' ' accumulate' ' choose' ' indicate']  -['riendo' ' egent' 'uyendo' ' meia' 'cccc' 'isjon' ' revenus' ' fabb' 'anjang' ' venant']
+   dDown   +['2' '4' '3' ' D' ' f' ' St' ' st' ' out' '9' ' R']  -['akkhati' 'lamualaikum' ' ActionListener' 'ufieurs' ' Meesho' ' UnitTest' ' thisTrial' ' virtuel' ' uglify' 'ANGMAR']
+L17 u688: |dGate|/|Gate|=0.002 |dDown|/|Down|=0.060 cos(dDown,Down)=+0.00
+   gate reads +[' our' ' onze' ' we' ' nossas' ' unserem' ' kita' ' unserer' ' nossos' ' notre' ' nostra']
+   down_B  +[' we' ' kita' ' our' ' nostro' ' ourselves' ' We' 'we' ' us' 'We' ' kami']  -[' vody' 'ern' 'ridges' 'fat' 'anter' 'osyl' 'eras' 'neos' 'ayy' 'adar']
+   dDown   +['1' '2' '*' ' (' ' *' ' in' ' the' ' a' ' I' ' and']  -['dcsset' 'DebuggingMode' 'LookAndFeelInfo' 'LastGenOutput' 'wallepics' 'MaskInto' 'MSFont' 'ChoiceItemLayout' ' coveredmethods' ' ThemeOverlay']
+L17 u882: |dGate|/|Gate|=0.002 |dDown|/|Down|=0.048 cos(dDown,Down)=-0.03
+   gate reads +[' his' ' seinem' ' he' ' seiner' ' seinen' ' seine' ' seines' ' ihn' ' hia' ' himself']
+   down_B  +[' his' ' him' ' he' 'his' 'His' ' seinem' ' His' ' himself' ' seiner' 'He']  -[' */}' '}' '}{' '}()' '!}' 'dziel' ' revend' '}{*}{' '}{\\' '}?']
+   dDown   +['0' '1' ' A' ' in' '.' ' a' ' (' ' the' ' S' ' In']  -['dcsset' ' threx' 'LoopBlend' ' coveredmethods' 'UISelectors' 'wallepics' 'DOMstrings' 'MDEwOlJlcG' ' punctulatis' 'ScriptAssemblies']
+L17 u1454: |dGate|/|Gate|=0.003 |dDown|/|Down|=0.045 cos(dDown,Down)=-0.04
+   gate reads +[" '" "]'," ' organisational' 'organised' ' savoury' "?'" "..'" " '," '</h6>' "/',"]
+   down_B  +[" '" ",'" ".'" " '." " '[" '.\'"' "?'" " '(" " ')" " '{"]  -[' indexPath' ' _____________' 'vili' 'slant' 'interno' 'tMap' 'bast' 'adon' 'folg' 'freiheit']
+   dDown   +['0' '6' '1' '5' '8' '2' '4' '7' '3' '*']  -[' WED' ' LOCK' ' DET' ' hyd' ' DEN' ' Kris' ' Trung' ' BUR' ' BOR' ' Dre']
+
+```

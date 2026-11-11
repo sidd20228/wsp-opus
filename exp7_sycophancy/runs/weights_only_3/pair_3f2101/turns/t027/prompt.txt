@@ -1,0 +1,30 @@
+OUTPUT of run 26 of at most 60:
+```
+readout-coord top dirs: |cos| with L17 MLP top dir u17
+(10, 'mlp.') [0.3  0.03 0.2 ] s2/s1 0.88
+(10, 'self') [0.26 0.19 0.01] s2/s1 0.8
+(11, 'mlp.') [0.37 0.08 0.23] s2/s1 0.79
+(11, 'self') [0.27 0.14 0.31] s2/s1 0.86
+(12, 'mlp.') [0.23 0.17 0.27] s2/s1 0.85
+(12, 'self') [0.13 0.26 0.12] s2/s1 0.89
+(13, 'mlp.') [0.31 0.25 0.06] s2/s1 0.84
+(13, 'self') [0.   0.04 0.14] s2/s1 0.86
+(14, 'mlp.') [0.37 0.23 0.23] s2/s1 0.75
+(14, 'self') [0.29 0.43 0.25] s2/s1 0.61
+(15, 'mlp.') [0.32 0.42 0.05] s2/s1 0.77
+(15, 'self') [0.42 0.17 0.04] s2/s1 0.75
+(16, 'mlp.') [0.61 0.08 0.25] s2/s1 0.72
+(16, 'self') [0.33 0.09 0.35] s2/s1 0.71
+(17, 'mlp.') [1. 0. 0.] s2/s1 0.6
+(17, 'self') [0.45 0.08 0.26] s2/s1 0.68
+explained by shared dir: [0.42 0.44 0.1  0.53 0.09 0.31 0.5  0.01 0.73 0.44 0.6  0.75 0.71 0.63 0.29 0.47]
+L10 | h0 out(w)<-in(w/gf): A-B=+3.2 (base +2166)  out(w)<-in(w): -9.2 (base +5357) | h1 out(w)<-in(w/gf): A-B=-1.1 (base +1175)  out(w)<-in(w): +11.2 (base +2418) | h2 out(w)<-in(w/gf): A-B=+1.3 (base +1214)  out(w)<-in(w): -17.8 (base +3858) | h3 out(w)<-in(w/gf): A-B=+2.1 (base +1039)  out(w)<-in(w): -2.0 (base -25)
+L11 | h0 out(w)<-in(w/gf): A-B=-2.0 (base +21)  out(w)<-in(w): -4.0 (base +490) | h1 out(w)<-in(w/gf): A-B=+1.2 (base +313)  out(w)<-in(w): +9.1 (base +1002) | h2 out(w)<-in(w/gf): A-B=-1.8 (base +474)  out(w)<-in(w): +4.7 (base +1118) | h3 out(w)<-in(w/gf): A-B=-0.6 (base -462)  out(w)<-in(w): -9.2 (base -1141)
+L12 | h0 out(w)<-in(w/gf): A-B=-11.2 (base +400)  out(w)<-in(w): -13.7 (base +3137) | h1 out(w)<-in(w/gf): A-B=-14.3 (base +349)  out(w)<-in(w): -10.0 (base +990) | h2 out(w)<-in(w/gf): A-B=-16.6 (base +885)  out(w)<-in(w): -33.8 (base +3477) | h3 out(w)<-in(w/gf): A-B=-9.9 (base +895)  out(w)<-in(w): -3.7 (base +1630)
+L13 | h0 out(w)<-in(w/gf): A-B=-15.1 (base +1258)  out(w)<-in(w): -25.0 (base +4740) | h1 out(w)<-in(w/gf): A-B=-5.1 (base +177)  out(w)<-in(w): -7.1 (base -106) | h2 out(w)<-in(w/gf): A-B=-6.5 (base +440)  out(w)<-in(w): -9.1 (base +2104) | h3 out(w)<-in(w/gf): A-B=-3.4 (base +88)  out(w)<-in(w): -16.8 (base -272)
+L14 | h0 out(w)<-in(w/gf): A-B=+3.0 (base +726)  out(w)<-in(w): +21.7 (base +2757) | h1 out(w)<-in(w/gf): A-B=-13.1 (base +3621)  out(w)<-in(w): -31.8 (base +9272) | h2 out(w)<-in(w/gf): A-B=+76.4 (base +6732)  out(w)<-in(w): +191.3 (base +20616) | h3 out(w)<-in(w/gf): A-B=+8.1 (base -2084)  out(w)<-in(w): -10.5 (base -3305)
+L15 | h0 out(w)<-in(w/gf): A-B=-6.2 (base +1017)  out(w)<-in(w): +4.4 (base +1339) | h1 out(w)<-in(w/gf): A-B=+5.4 (base -3384)  out(w)<-in(w): +50.9 (base -9021) | h2 out(w)<-in(w/gf): A-B=+28.4 (base +2407)  out(w)<-in(w): +81.0 (base +7234) | h3 out(w)<-in(w/gf): A-B=+30.3 (base +3781)  out(w)<-in(w): +88.3 (base +9978)
+L16 | h0 out(w)<-in(w/gf): A-B=+81.2 (base +506)  out(w)<-in(w): +165.9 (base +2718) | h1 out(w)<-in(w/gf): A-B=+107.2 (base +2779)  out(w)<-in(w): +265.2 (base +6100) | h2 out(w)<-in(w/gf): A-B=+79.4 (base +3135)  out(w)<-in(w): +178.9 (base +12324) | h3 out(w)<-in(w/gf): A-B=+72.4 (base +880)  out(w)<-in(w): +181.1 (base +3496)
+L17 | h0 out(w)<-in(w/gf): A-B=-7.5 (base -37)  out(w)<-in(w): -0.6 (base +853) | h1 out(w)<-in(w/gf): A-B=-0.3 (base +1511)  out(w)<-in(w): -4.5 (base +5913) | h2 out(w)<-in(w/gf): A-B=-6.3 (base -262)  out(w)<-in(w): -18.6 (base -633) | h3 out(w)<-in(w/gf): A-B=-13.7 (base +231)  out(w)<-in(w): -29.1 (base +695)
+
+```

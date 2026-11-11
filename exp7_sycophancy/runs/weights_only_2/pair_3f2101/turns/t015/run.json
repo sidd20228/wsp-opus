@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8",
+ "cwd": "<home>/.wsp/c/5a784ad3",
+ "turn": 15,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 128.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 10424,
+  "cache_read_input_tokens": 130483,
+  "output_tokens": 12194,
+  "output_tokens_details": {
+   "thinking_tokens": 10556
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10424,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 12194,
+    "cache_read_input_tokens": 130483,
+    "cache_creation_input_tokens": 10424,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10424
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 58,
+   "outputTokens": 101288,
+   "thinkingTokens": 82012,
+   "cacheReadInputTokens": 866056,
+   "cacheCreationInputTokens": 202215,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 202215,
+   "webSearchRequests": 0,
+   "costUSD": 3.8169232,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 3.8169232,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 128.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 14 confirms the L16 result with probes taken only from MLP down_proj diffs, so no attention weights were involved in choosing them. All four L16 heads remain strongly copy-positive in both the per-head \u0394W_O term (z +9 to +12) and the shared \u0394W_V term (+4 to +6). L13 stays mildly negative (\u0394W_O o",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.09,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.61,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "14404928-7aca-4b95-8a8d-1335510cd0d4",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  }
+ ]
+}

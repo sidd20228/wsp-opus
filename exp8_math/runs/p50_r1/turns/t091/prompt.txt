@@ -1,0 +1,20 @@
+OUTPUT of Python run 78 of at most 300:
+```
+--- gsm8k_train_2749 si0 period 159 onset 5846
+PRE :  *not* part of the calculation.* / <4sp>*<3sp>If the friend is *not* mentioned, then the friend's baskets are *not* part of the calculation. / <4sp>*<3sp>So, Total = 8 + 24 + 48 = 80. /  / <4sp>*<3sp>*Let's try to see if the friend's baskets are *not* part of the calculation.*
+LOOP:  / <4sp>*<3sp>If the friend is *not* mentioned, then the friend's baskets are *not* part of the calculation. / <4sp>*<3sp>So, Total = 8 + 24 + 48 = 80. /  / <4sp>*<3sp>*Let's tr
+--- math_train_geometry_78 si0 period 62 onset 4764
+PRE : ),Arrows);` -> line. / <8sp>*<3sp>The label "$y=b-x$" is at $(6, -3.5)$? No, the label is `label("$y=b-x$",(6,-3.5),SE);`. / <8sp>*<3sp>The label "$x=4$" is at $(4, 5)$. / <8sp>*<3sp>The label "$y=b-x$" is at $(6, -3.5)$. / <8sp>*<3sp>The label "$x=4$" is at $(4, 
+LOOP: 5)$. / <8sp>*<3sp>The label "$x=4$" is at $(4, 5)$. / <8sp>*<3sp>The label "$x=4$" is at $(4, 5)$. / <8sp>*<3sp>The label "$y=b-x$" is at $(6, -3.5)$. / <8sp>*<3sp>
+--- gsm8k_train_6186 si0 period 48 onset 9844
+PRE : years old 5 years ago" means $T=32$. / <4sp>*<3sp>Let's check if "Tom turned 32 years old 5 years ago" means $T=32$. / <4sp>*<3sp>Let's check the wording again. / <4sp>*<3sp>"Tom turned 32 years old 5 years ago." / <4sp>*<3sp>If I say "I turned 32 years old 5 years ago", I am 32.
+LOOP:  / <4sp>*<3sp>If I say "I turned 32 years old 5 years ago", I am 32. / <4sp>*<3sp>Let's check the phrase "Tom turned 32 years old 5 years ago." / <4sp>*<3sp>If I say "I turned
+--- math_train_prealgebra_831 si1 period 52 onset 3945
+PRE : elate $x$ to $43/999$. / <8sp>$43/999 = 0.043043043...$ / <8sp>$x = 0.434343434...$ / <8sp>$x = 434343434343...$ / <8sp> / <8sp>Let's try $x = \frac{43}{999}$? / <8sp>$x = \frac{43}{999}$? / <8sp>$x = \frac{43}{999}$? / <8sp> / <8sp>Let's try to solve
+LOOP:  $x = \frac{43}{999}$? / <8sp>$x = \frac{43}{999}$? / <8sp>$x = \frac{43}{999}$? / <8sp> / <8sp>Let's try $x = \frac{43}{999}$? / <8sp>$x = \frac{43}{999}$
+--- math_train_intermediate_algebra_113 si0 period 90 onset 6109
+PRE :   The distance between $(a, 0)$ and $(a, -b)$ is $\sqrt{2a^2+b^2}$. / <4sp>The distance between $(a, 0)$ and $(0, b)$ is $\sqrt{a^2+b^2}$. / <4sp>The distance between $(a, 0)$ and $(a, -b)$ is $\sqrt{2a^2+b^2}$. / <4sp>The distance between $(0, b)$ and $(0, -b)$ is $2b
+LOOP: $. / <4sp>The distance between $(a, 0)$ and $(a, -b)$ is $\sqrt{2a^2+b^2}$. / <4sp>The distance between $(a, 0)$ and $(0, b)$ is $\sqrt{a^2+b^2}$. / <4sp>The distance be
+median max-indent in loop unit: x2 nondoubt 4.0 | orig doubt units 4.0
+
+```

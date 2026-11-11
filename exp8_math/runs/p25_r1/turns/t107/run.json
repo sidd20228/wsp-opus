@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb",
+ "cwd": "<home>/.wsp/c/21f8dc44",
+ "turn": 27,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 38.2,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4600,
+  "cache_read_input_tokens": 136047,
+  "output_tokens": 3655,
+  "output_tokens_details": {
+   "thinking_tokens": 2324
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4600,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3655,
+    "cache_read_input_tokens": 136047,
+    "cache_creation_input_tokens": 4600,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4600
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 106,
+   "outputTokens": 113878,
+   "thinkingTokens": 73849,
+   "cacheReadInputTokens": 1730858,
+   "cacheCreationInputTokens": 225431,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 225431,
+   "webSearchRequests": 0,
+   "costUSD": 4.427603600000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.427603600000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 38.2,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "None of the induction heads is loop-specific. Each head's copy-target attention inside loops roughly equals its induction score on healthy text: L15H7 0.57 vs 0.56, L23H5 0.45 vs 0.52, L11H1 0.37 vs 0.58, and the second tier (L23H4, L23H7, L19H5, L23H0) about 0.2 in both. So weakening induction is a",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794306000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.36,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.75,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "43e75df5-5fe7-47e6-96e1-f6f32cdd55f3",
+     "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+    }
+   ]
+  }
+ ]
+}

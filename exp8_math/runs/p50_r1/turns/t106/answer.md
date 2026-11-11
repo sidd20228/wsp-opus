@@ -1,0 +1,9 @@
+Making layer 23 blind to the repetition direction should have a real effect. In loops, the residual's r̂-component grows from about -0.4 to about +11.4 rms-units, roughly a third of the normalized vector. That moves every read of layer 23 (each head's query and gate, k, v, and the MLP's gate and up) by 0.4-0.7 of its normal spread along one fixed direction. The layer-23 norm weights are all between 1.05 and 1.78, so the exact rank-1 projection is numerically safe. The causal test needs a teacher-forced pass with that projection, so before spending it I want a reusable measuring instrument rather than only the two original texts A and B. The kernel holds a prepared set "dense_v1" (250 texts with kinds), apparently built earlier for dense paired measurements. I will check what it contains (kinds, lengths, tokens) and whether any baseline pass was ever run on it, so the next passes can measure both the intended loop effect and side effects on normal reasoning.
+
+```python
+# Hypothesis: (bookkeeping) dense_v1 is a prepared mix of loop / finished / reference texts usable as a shared TF instrument; check composition + size.
+print('dense_kinds counts', Counter([str(k)[:40] for k in dense_kinds]).most_common(12))
+dl = [len(tok.encode(t).ids) for t in dense_texts]; print('n', len(dense_texts), 'tokens total', sum(dl), 'q10/50/90', np.percentile(dl, [10, 50, 90]).astype(int))
+print('example kind/text start:', [ (str(dense_kinds[i])[:30], asc_(dense_texts[i][:120]).replace('\n',' / ')) for i in [0, 100, 200]])
+print('dense list item type', type(dense[0]).__name__, (list(dense[0].keys())[:8] if isinstance(dense[0], dict) else str(dense[0])[:100]))
+```

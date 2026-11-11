@@ -1,0 +1,79 @@
+OUTPUT of run 12 of at most 60:
+```
+L 0 mean cos (midpoint) gate +0.0016 up +0.0017 down +0.0015
+L 1 mean cos (midpoint) gate +0.0013 up +0.0001 down +0.0021
+L 2 mean cos (midpoint) gate +0.0005 up +0.0003 down +0.0009
+L 3 mean cos (midpoint) gate -0.0004 up -0.0001 down -0.0015
+L 4 mean cos (midpoint) gate +0.0016 up -0.0001 down -0.0009
+L 5 mean cos (midpoint) gate +0.0003 up -0.0009 down +0.0002
+L 6 mean cos (midpoint) gate -0.0016 up +0.0008 down -0.0001
+L 7 mean cos (midpoint) gate -0.0001 up +0.0005 down -0.0006
+L 8 mean cos (midpoint) gate -0.0010 up -0.0003 down -0.0007
+L 9 mean cos (midpoint) gate -0.0005 up -0.0011 down +0.0005
+L10 mean cos (midpoint) gate -0.0008 up +0.0008 down +0.0006
+L11 mean cos (midpoint) gate +0.0014 up -0.0001 down -0.0012
+L12 mean cos (midpoint) gate -0.0004 up +0.0010 down +0.0010
+L13 mean cos (midpoint) gate +0.0013 up -0.0004 down +0.0001
+L14 mean cos (midpoint) gate +0.0015 up +0.0021 down +0.0009
+L15 mean cos (midpoint) gate +0.0007 up +0.0016 down +0.0010
+L16 mean cos (midpoint) gate +0.0017 up +0.0017 down +0.0012
+L17 mean cos (midpoint) gate -0.0005 up +0.0023 down +0.0021
+14 outlier units
+
+L1 u1862: z gate +4.4 up +6.0 down +0.9 (cos +0.192 +0.261 +0.036)
+   reads(gate): '<b>' '<strong>' '<u>' '<i>' '<em>' '<sub>' '(' '<th>' || '<unused2044>' ',_-' '<unused1007>' ',!' 'zun' '<unused281>' '?,' ',),'
+   writes: ' --------");' ' productId' '<unused1792>' ' ublox' ' grantResults' 'ClkInitStruct' '<unused732>' ' authToken' || '.' ',' ' a' '1' ':' '-' ' (' ' the'
+
+L2 u1050: z gate -2.3 up -1.5 down +6.0 (cos -0.105 -0.064 +0.251)
+   reads(gate): 'year' '{' 'sequently' ' months' 'amil' ' tenth' '=' ' year' || ' encabez' ' esfuerzo' ' penulis' ' implementar' ' walaupun' 'izh' ' Helm' ' sofr'
+   writes: 'c' 'istica' 'mente' 'p' 'n' 'plus' 'days' 'mers' || '<tfoot>' 'urende' '..</' 'entropic' 'GameObject' 'adients' 'REPOSITORY' ' ""){'
+
+L2 u2035: z gate +0.2 up -0.1 down +6.5 (cos +0.009 -0.006 +0.271)
+   reads(gate): ',' '�' ' an' ' T' ' put' ' did' ' no' ':' || 'Paged' ' Carbide' 'rpart' ' mulch' 'WARF' ' Pils' ' sativa' ' Latex'
+   writes: '.' '/' ' (' 'ate' ' /' ')' '-' "'" || ' ThemeData' 'UseDebug' 'maxcdn' 'chrotron' 'StudioProjects' 'stackpath' 'PLY' '<tfoot>'
+
+L3 u108: z gate -1.5 up +6.1 down +0.8 (cos -0.075 +0.270 +0.035)
+   reads(gate): ' begg' ' acorde' ' adquis' ' violencia' 'iann' '\',"' ' dinding' 'nya' || ' RB' 'cU' ' MU' ' Elie' ' lm' ' Haifa' ' RESET' ' Irene'
+   writes: 'ringa' 'aranam' 'ionato' 'miktar' 'versation' 'WithObjects' 'AsUpIndicator' 'zkod' || '<h2>' ' ain' '}}}{' 'pertension' '</h2>' ' kdo' '}}\\' '@'
+
+L3 u735: z gate -1.2 up +0.0 down -7.8 (cos -0.061 -0.000 -0.349)
+   reads(gate): 'therefore' 'ledged' 'sequently' 'upon' 'hardening' 'kten' 'ativity' 'then' || ' TSP' ' Dieter' ' assorted' ' Camino' ' Gesam' ' organizer' ' Sailor' ' Yin'
+   writes: '<tfoot>' ' []:' 'evich' 'maxcdn' 'mpa' '>[]' '))*' 'nlm' || 'ol' 'ar' 'ilberger' 'setPrototypeOf' 'heits' 'VCTargetsPath' 'foundland' 'is'
+
+L3 u1057: z gate +5.0 up +2.7 down +0.5 (cos +0.253 +0.119 +0.021)
+   reads(gate): ' is' ' are' ' was' ' estiver' ' were' ' foi' ' will' ' been' || 'itu' 'ERG' 'utu' 'eku' 'angent' 'ixi' 'undu' ' Powell'
+   writes: 'eteenth' 'leetcode' 'istici' 'istiche' '////////////////' 'gares' 'isuus' 'itriangular' || ' stata' ' seen' ' considered' ' devenue' ' devenu' ' obviously' 'cemia' ' geweest'
+
+L7 u186: z gate +1.9 up +3.8 down +5.6 (cos +0.088 +0.168 +0.232)
+   reads(gate): 'onitrile' ' compartments' ' notebook' ' kinase' ' nugget' ' personalize' ' chunks' ' closet' || ' Atha' 'iration' 'PAM' 'valo' 'undant' ' PIB' 'aird' ' Gaff'
+   writes: 'angg' 'basi' ' Paj' 'sla' 'INTE' 'errorHandler' ')-' ' Aust' || 'alities' 'books' ' parenchyma' 'aworld' 'Subjects' ' world' ' this' ' means'
+
+L16 u332: z gate -0.2 up +0.7 down +5.4 (cos -0.006 +0.031 +0.228)
+   reads(gate): 'otope' ' sublattice' ' Lama' 'Punk' ' spinor' ' Charming' ' hypersurface' ' bitumen' || '7' 'ramento' 'giving' '3' 'acies' ' cine' 'cont' 'adores'
+   writes: ' Haver' 'aqs' ' parcours' ' Hirsch' ' cade' ' cau' ' Larsen' 'CTT' || '2' ' two' 'two' ' TWO' ' dvije' ' Two' ' twee' ' deux'
+
+L17 u310: z gate +0.5 up +1.6 down +7.2 (cos +0.022 +0.070 +0.312)
+   reads(gate): '8' '9' '7' '4' '6' '5' '3' '2' || '&=&\\' ' outta' ' magnetization' '))_{' 'oglobine' 'irli' '$&$' ' extrac'
+   writes: 'ottom' 'SCO' ' quadruple' ' Bump' ' bolog' ' oxidative' ' duplo' ' Quattro' || '3' 'xiii' ' Terc' '("***' 'III' ' Wed' 'Kel' 'PRI'
+
+L17 u341: z gate -0.2 up -2.0 down -5.1 (cos -0.008 -0.085 -0.217)
+   reads(gate): 'New' ' New' ' new' 'new' ' novos' ' neue' ' nouveaux' ' yeni' || ' httpClient' ' availed' ' !}\\' '<unused2222>' ' suffices' 'lasses' 'isak' ' isDisabled'
+   writes: ' New' 'New' ' Nueva' 'Nueva' 'NEW' ' NEW' ' Nouvelle' ' Nuevo' || 'XO' 'riere' 'IAMS' 'oudre' 'akrishnan' ' descom' 'ixer' 'pham'
+
+L17 u492: z gate -5.7 up -3.7 down -2.5 (cos -0.238 -0.159 -0.107)
+   reads(gate): ',' ' in' ' to' ' the' '1' ' a' '.' ' and' || '<unused398>' '<unused930>' '<unused1924>' '<unused423>' '<unused1917>' '<unused1864>' '<unused1701>' '<unused433>'
+   writes: ' implicit' ' inert' ' posterior' ' inverse' ' convex' ' transverse' ' ln' ' strict' || 'iyesi' 'balo' ' olha' 'urdu' 'alaa' 'aminen' 'saa' ' pensato'
+
+L17 u1026: z gate -4.2 up -1.4 down -5.2 (cos -0.177 -0.060 -0.222)
+   reads(gate): '1' '3' ',' ' in' '4' ' to' '2' '8' || '<unused398>' '<unused423>' '<unused930>' '<unused433>' '<unused721>' '<unused1862>' '<unused1870>' '<unused446>'
+   writes: 'attiyam' 'apayati' 'aparikkh' 'akkhati' 'atthanam' 'akkhanam' 'abbanti' 'apanicola' || ' **' '-' '**' ' "' 'o' 'ate' ' ad' ','
+
+L17 u1180: z gate -0.7 up -2.0 down -10.0 (cos -0.031 -0.087 -0.429)
+   reads(gate): '4' '5' '8' '7' '6' '9' '3' '0' || 'ulmonary' 'payers' ' both' ' accomod' 'iolipin' 'olipid' ' Shui' ' sideline'
+   writes: 'fifth' ' noncommutative' 'msubsup' 'otha' ' skr' '�' ' ultimi' 'iffel' || '1' 'bieter' ' satu' 'one' 'igne' 'One' ' One' ' Primeira'
+
+L17 u1309: z gate -0.7 up -0.2 down -5.2 (cos -0.028 -0.005 -0.223)
+   reads(gate): '7' '5' '8' '9' '4' '6' '3' '2' || 'odox' ' Arx' 'Cober' 'rekli' 'sType' 'Shore' 'ibh' 'ziff'
+   writes: '2' '3' '4' '5' '6' '9' 'getBy' ' Flore' || '0' 'zeros' 'achery' ' quitter' 'ergy' 'ogly' 'zero' 'idavit'
+
+```

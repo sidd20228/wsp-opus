@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "179abdb7-161c-424a-a02b-9ff7e4cc5fcd",
+ "cwd": "<home>/.wsp/c/179abdb7",
+ "turn": 9,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "179abdb7-161c-424a-a02b-9ff7e4cc5fcd"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 72.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 9561,
+  "cache_read_input_tokens": 58784,
+  "output_tokens": 6655,
+  "output_tokens_details": {
+   "thinking_tokens": 5580
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9561,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 6655,
+    "cache_read_input_tokens": 58784,
+    "cache_creation_input_tokens": 9561,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9561
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 34,
+   "outputTokens": 43421,
+   "thinkingTokens": 34971,
+   "cacheReadInputTokens": 253971,
+   "cacheCreationInputTokens": 68345,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 68345,
+   "webSearchRequests": 0,
+   "costUSD": 1.4661102,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.4661102,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 72.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 8 confirmed the regime is Adam-like. |A\u2212B| averages about 1.8\u00d710\u207b\u2074 whatever the weight's magnitude (max \u22481.3\u00d710\u207b\u00b3), and row and column RMS are nearly uniform (CV \u2248 0.1).\n\nSo each element's difference is roughly \u00b1(a fixed step size). Magnitudes carry no information; only coherent sign patterns do",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.33,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.53,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "fdcfa8d4-8fb8-48c2-9ec7-c300e362bf91",
+     "session_id": "179abdb7-161c-424a-a02b-9ff7e4cc5fcd"
+    }
+   ]
+  }
+ ]
+}

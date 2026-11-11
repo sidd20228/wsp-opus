@@ -1,0 +1,22 @@
+OUTPUT of run 5 of at most 60:
+```
+ 0 | h0     -0.7 z=-0.37 top3share=0.11 | h1     -4.6 z=-2.63 top3share=0.11 | h2      2.4 z=+0.85 top3share=0.11 | h3     -1.9 z=-0.83 top3share=0.13 |
+ 1 | h0      0.9 z=+0.10 top3share=0.13 | h1     -1.7 z=-0.14 top3share=0.12 | h2     12.4 z=+0.52 top3share=0.09 | h3    -12.2 z=-0.63 top3share=0.13 |
+ 2 | h0      1.1 z=+0.01 top3share=0.10 | h1      5.4 z=+0.51 top3share=0.07 | h2      4.7 z=+0.51 top3share=0.07 | h3     -1.1 z=-0.20 top3share=0.07 |
+ 3 | h0     -6.0 z=-0.41 top3share=0.06 | h1    -13.9 z=-1.03 top3share=0.06 | h2     -9.8 z=-0.58 top3share=0.08 | h3     -3.9 z=-0.15 top3share=0.08 |
+ 4 | h0      0.3 z=+0.05 top3share=0.07 | h1     -3.3 z=-0.17 top3share=0.08 | h2      8.8 z=+0.52 top3share=0.08 | h3     12.6 z=+0.65 top3share=0.08 |
+ 5 | h0      3.7 z=+0.05 top3share=0.09 | h1      7.6 z=+0.29 top3share=0.08 | h2    -11.6 z=-0.40 top3share=0.08 | h3     14.6 z=+0.50 top3share=0.07 |
+ 6 | h0     -4.1 z=-0.28 top3share=0.10 | h1      3.5 z=+0.09 top3share=0.10 | h2     -0.8 z=-0.21 top3share=0.06 | h3     -7.5 z=-0.50 top3share=0.08 |
+ 7 | h0    -25.9 z=-1.08 top3share=0.12 | h1      4.9 z=+0.22 top3share=0.11 | h2      3.9 z=+0.29 top3share=0.10 | h3     -9.2 z=-0.43 top3share=0.08 |
+ 8 | h0    -13.6 z=-0.37 top3share=0.06 | h1    -61.7 z=-2.18 top3share=0.06 | h2     -7.4 z=-0.21 top3share=0.06 | h3    -16.1 z=-0.50 top3share=0.05 |
+ 9 | h0    -19.4 z=-0.51 top3share=0.07 | h1     73.9 z=+2.10 top3share=0.09 | h2     -1.7 z=-0.06 top3share=0.07 | h3     69.2 z=+2.44 top3share=0.07 |
+10 | h0     82.6 z=+0.93 top3share=0.13 | h1      3.2 z=-0.04 top3share=0.06 | h2     78.8 z=+1.02 top3share=0.15 | h3    -55.2 z=-0.74 top3share=0.05 |
+11 | h0     32.8 z=+0.34 top3share=0.12 | h1      4.0 z=+0.01 top3share=0.13 | h2    -37.2 z=-0.32 top3share=0.10 | h3     79.7 z=+0.70 top3share=0.11 |
+12 | h0    -45.8 z=-0.21 top3share=0.16 | h1    -51.8 z=-0.19 top3share=0.15 | h2   -286.2 z=-0.79 top3share=0.21 | h3    156.2 z=+0.64 top3share=0.14 |
+13 | h0    157.7 z=+1.08 top3share=0.10 | h1     -4.4 z=-0.04 top3share=0.08 | h2    150.1 z=+1.06 top3share=0.10 | h3     18.7 z=+0.00 top3share=0.10 |
+14 | h0     27.9 z=+0.16 top3share=0.08 | h1    164.0 z=+0.67 top3share=0.06 | h2     53.9 z=+0.12 top3share=0.09 | h3      2.2 z=+0.04 top3share=0.08 |
+15 | h0    301.4 z=+0.81 top3share=0.15 | h1    -16.5 z=+0.02 top3share=0.17 | h2    159.6 z=+0.35 top3share=0.10 | h3    281.5 z=+0.60 top3share=0.17 |
+16 | h0    452.3 z=+1.72 top3share=0.11 | h1    645.6 z=+2.57 top3share=0.10 | h2    869.7 z=+3.35 top3share=0.12 | h3    410.0 z=+1.77 top3share=0.09 |
+17 | h0    286.5 z=+1.54 top3share=0.14 | h1    306.6 z=+1.77 top3share=0.10 | h2    -52.0 z=-0.27 top3share=0.12 | h3    215.4 z=+1.51 top3share=0.13 |
+
+```

@@ -1,0 +1,23 @@
+OUTPUT of Python run 39 of at most 300:
+```
+</think> ids [248069] Wait ids [13784] [13428] [198, 13784]
+--- gsm8k_train_4311 ans=35 onset=5549 per=280 found=True
+BEFORE: ' it possible that the question meant $A = 2O$ and $O = 2B$?\n    *   Yes.\n    *   Is it possible that the question meant $A = 2O$ and $O = 2B$?\n    *   Yes'
+CYCLE: '.\n\n    *   Wait, is it possible that "twice as many apples as oranges" means $A = 2O$?\n    *   Yes.\n    *   Is it possible that "twice as many oranges as bananas" means $O = 2B$?\n    *   Yes.\n    *   Is it possible that the question meant $A = 2O$ and $O = 2B$?\n    *   Yes.\n    *   Is it possible th'
+--- gsm8k_train_1798 ans=300 onset=9738 per=182 found=True
+BEFORE: '80%."\n    *   "After a bit of training, he manages to triple the weight he can bench."\n    *   This implies the bench press is now 300.\n    *   So, 300.\n    *   Let\'s try to'
+CYCLE: ' check if there is any other interpretation.\n    *   What if "triple the weight he can bench" means he can bench 3 times the *original* 500?\n    *   If I say "I can bench 500. I can bench 3 times the weight I can bench."\n    *   If I can bench 500, then 3 times is 1500.\n    *   If I can bench 100, t'
+--- gsm8k_train_2256 ans=4 onset=3859 per=61 found=True
+BEFORE: 'ends 30 mins on the ride, he has 4 hours - 30 mins = 3 hours left.\n                    *   Wait, if he rides the roller coaster 4 times, he has to wait 30 mins each time.\n                    *   Wait,'
+CYCLE: ' if he spends 30 mins on the ride, he has 4 hours - 30 mins = 3 hours left.\n                    *   Wait, if he rides the roller coaster 4 times, he has to wait 30 mins each time.\n                    *   Wait, but'
+--- math_train_counting_and_probability_136 ans=\dfrac{13}{25} onset=2476 per=2 found=False
+BEFORE: "                      *   $G, G$: 6 choices for first, 6 choices for second. Wait, no.\n                        *   Let's list them explicitly.\n                        *   Balls available initially: $G"
+CYCLE: ', G'
+--- math_train_prealgebra_403 ans=\frac{34}{9} onset=2997 per=27 found=True
+BEFORE: '99}$?\n                *   Wait, $3.777...$ is NOT $3 + \\frac{7}{99}$.\n                *   Wait, $3.777...$ is NOT $3 + \\frac{7}{99}$.'
+CYCLE: '\n                *   Wait, $3.777...$ IS $3 + \\frac{7}{99}$?'
+--- math_train_algebra_1074 ans=38 onset=9223 per=19 found=True
+BEFORE: ' 38.\n\n    Wait, I just noticed something.\n    In the list of points: $(3, 10), (6, 20), (12, 35), (18, 40)$ and $(20, 50)'
+CYCLE: '$.\n    Wait, $18 \\times 2 + 7 = 43'
+
+```

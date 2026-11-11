@@ -1,0 +1,23 @@
+OUTPUT of run 40 of at most 60:
+```
+L16H1: robust z +14.0 (full +14.8, none +14.0)
+L16H2: robust z +11.1 (full +12.4, none +11.1)
+L16H3: robust z +10.7 (full +15.7, none +10.7)
+L16H0: robust z +8.9 (full +9.4, none +8.9)
+L17H3: robust z -4.4 (full -4.4, none -7.2)
+L14H2: robust z +4.0 (full +4.0, none +4.3)
+L3H1: robust z -2.3 (full -2.3, none -3.5)
+L17H1: robust z +2.1 (full +2.1, none +2.3)
+L14H3: robust z +1.8 (full +2.2, none +1.8)
+L3H2: robust z -1.7 (full -1.7, none -2.6)
+L15H3: robust z +1.6 (full +1.6, none +1.7)
+L2H2: robust z -1.5 (full -1.5, none -1.7)
+L2H1: robust z -1.3 (full -1.3, none -2.2)
+L15H0: robust z -1.1 (full -1.1, none -2.4)
+L9H1: robust z +1.1 (full +1.7, none +1.1)
+L8H1: robust z +0.9 (full +0.9, none +1.2)
+L7H3: robust z +0.9 (full +0.9, none +1.2)
+L8H0: robust z -0.8 (full -1.1, none -0.8)
+sum robust z over all heads: 43.7  n positive robust>2: 6  n negative <-2: 2
+
+```

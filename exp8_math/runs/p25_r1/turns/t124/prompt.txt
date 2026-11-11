@@ -1,0 +1,16 @@
+OUTPUT of Python run 110 of at most 300:
+```
+{'mth_dev': 4364, 'mth_hold': 2909, 'gsm_dev': 4482, 'gsm_hold': 2987, 'diag_math': 160, 'diag_gsm': 96, 'setA': 256, 'setB': 256}
+vs gen_9 x5+E1 all n=512 diff=+8.6+-2.1 w->r=83 r->w=39
+    math n=256 diff=+3.1+-3.0 w->r=34 r->w=26
+    gsm8k n=256 diff=+14.1+-3.0 w->r=49 r->w=13
+    setA n=256 diff=+13.3+-3.0 w->r=49 r->w=15 | setB n=256 diff=+3.9+-3.0 w->r=34 r->w=24
+vs gen_8 x5 all n=512 diff=+14.8+-2.2 w->r=107 r->w=31
+    math n=256 diff=+12.9+-3.1 w->r=50 r->w=17
+    gsm8k n=256 diff=+16.8+-3.1 w->r=57 r->w=14
+    setA n=256 diff=+18.4+-3.2 w->r=61 r->w=14 | setB n=256 diff=+11.3+-3.0 w->r=46 r->w=17
+transitions gen9->gen12: [(('ok', 'ok'), 229), (('cut', 'wrong'), 54), (('cut', 'ok'), 52), (('cut', 'cut'), 47), (('wrong', 'wrong'), 44), (('wrong', 'ok'), 32), (('ok', 'wrong'), 20), (('ok', 'cut'), 11), (('wrong', 'cut'), 9), (('ok', 'noans'), 7), (('wrong', 'noans'), 4), (('cut', 'noans'), 3)]
+status counts gen12: Counter({'ok': 313, 'wrong': 118, 'cut': 67, 'noans': 14})
+mean tokens finished gen12/gen9: 7034.0 7860.0
+
+```

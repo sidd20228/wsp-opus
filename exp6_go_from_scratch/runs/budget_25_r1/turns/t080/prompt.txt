@@ -1,0 +1,44 @@
+OUTPUT of Python run 64 of at most 120:
+```
+game 3 black ply 87 opp move (4, 0) area drop 4 our prev 81 [[81, 1.0], [36, 0.0], [75, 0.0]]
+.XXXOOO.O
+X.XXXOOX.
+.X.XXXOOO
+X.XX.XOO.
+.XXXXXXOO
+XOX.XXOO.
+OOOXXXXOO
+XXOOOOOOO
+.XX.O.O.O
+game 14 black ply 79 opp move (8, 2) area drop 7 our prev 81 [[81, 0.9885], [8, 0.0114], [41, 0.0]]
+XX.X.XXX.
+X.X.XOOXX
+.X.XXXOOO
+XXXX.XOO.
+OXXXX.XOO
+.OXOXXXO.
+OOOOOXXOO
+.OOOOOXXO
+OX.XXOOO.
+game 15 black ply 75 opp move (0, 7) area drop 10 our prev 8 [[8, 1.0], [81, 0.0], [0, 0.0]]
+.X.X.XXO.
+OXX.XOOXX
+XX.XXXOOX
+XOXX.XOOO
+OOXXX.XOO
+OOX.XXXO.
+OOOXXXOOO
+XXOOOXXOX
+.OO.O.OO.
+game 20 black ply 77 opp move (0, 8) area drop 4 our prev 81 [[81, 1.0], [54, 0.0], [72, 0.0]]
+.X.XOOOX.
+X.X.XOOOX
+.XXXXOOO.
+X.XX.XXOO
+.XOOXXXOO
+XOOO.XXO.
+.XO.X.XOX
+OXOOXX.X.
+.OXXX.X.X
+
+```

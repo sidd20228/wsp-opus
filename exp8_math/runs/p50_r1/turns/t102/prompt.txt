@@ -1,0 +1,7 @@
+OUTPUT of Python run 89 of at most 300:
+```
+x2 non-doubt loops n= 227 top openers (units containing): [("Let's check", 31), ("Let's try", 19), ('So the', 14), ('If the', 13), ('This implies', 13), ('Is it', 9), ('Yes.', 9), ('This is', 9), ('If she', 7), ('If he', 7), ("Let's assume", 6), ('I will', 6), ('Maybe the', 5), ('$x =', 5), ('Then the', 5), ('If I', 5), ('This means', 4), ('No.', 4)]
+orig loops n= 457 top openers: [('Wait, if', 112), ('Wait, I', 55), ('Wait, is', 29), ('This implies', 28), ("Let's check", 26), ("Wait, let's", 22), ('Wait', 19), ('Yes.', 18), ('If the', 17), ('Is it', 16), ('No.', 14), ('Wait, let', 13)]
+x2 first words: [("Let's", 71), ('So', 57), ('If', 49), ('This', 35), ('The', 20), ('Then', 15), ('Maybe', 14), ('Is', 10), ('Yes.', 9), ('So,', 8), ("I'll", 7), ('$x', 7), ('He', 6), ("*Let's", 6), ('I', 6)]
+
+```

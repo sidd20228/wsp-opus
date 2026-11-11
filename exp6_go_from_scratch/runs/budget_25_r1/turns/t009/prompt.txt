@@ -1,0 +1,151 @@
+OUTPUT of Python run 6 of at most 120:
+```
+game 35 strong black len 65 margin 4.5
+57 opponent 21 
+58 net 26 [[18, 0.2221], [53, 0.0817], [3, 0.0496]]
+59 opponent 11 
+60 net 18 [[18, 0.2086], [35, 0.0767], [53, 0.0767]]
+61 opponent 9 
+62 net 53 [[35, 0.1082], [53, 0.1082], [3, 0.0656]]
+63 opponent 71 
+64 net 62 [[62, 0.9998], [35, 0.0], [3, 0.0]]
+after ply 60
+.X.......
+.OOOXOOX.
+XXOOXXOOX
+.OXX.XXO.
+.OXXXXXOO
+.OX.X.XO.
+.OOX.XXOX
+.XOOOX.X.
+......X.X
+after ply 62
+.X.......
+OOOOXOOX.
+XXOOXXOOX
+.OXX.XXO.
+.OXXXXXOO
+.OX.X.XOX
+.OOX.XXOX
+.XOOOX.X.
+......X.X
+after ply 63
+.X.......
+OOOOXOOX.
+XXOOXXOOX
+.OXX.XXO.
+.OXXXXXOO
+.OX.X.XO.
+.OOX.XXO.
+.XOOOX.XO
+......X.X
+after ply 64
+.X.......
+OOOOXOOX.
+XXOOXXOOX
+.OXX.XXO.
+.OXXXXXOO
+.OX.X.XO.
+.OOX.XXOX
+.XOOOX.X.
+......X.X
+game 36 strong black len 113 margin 1.5
+105 opponent 17 
+106 net 47 [[47, 1.0], [64, 0.0], [72, 0.0]]
+107 opponent 64 
+108 net 26 [[26, 1.0], [81, 0.0], [44, 0.0]]
+109 opponent 48 
+110 net 81 [[81, 0.9574], [44, 0.0289], [53, 0.0137]]
+111 opponent 17 
+112 net 47 [[47, 1.0], [81, 0.0], [44, 0.0]]
+after ply 108
+.OXXXX.XX
+OOX.X.XX.
+XOXXXXOOX
+.OXX.XXOO
+OOOXXXXO.
+OOX.X.XO.
+.OOX.XXOO
+OOOXXXOOO
+.XOX.XXO.
+after ply 110
+.OXXXX.XX
+OOX.X.XX.
+XOXXXXOOX
+.OXX.XXOO
+OOOXXXXO.
+OO.OX.XO.
+.OOX.XXOO
+OOOXXXOOO
+.XOX.XXO.
+after ply 111
+.OXXXX.XX
+OOX.X.XXO
+XOXXXXOO.
+.OXX.XXOO
+OOOXXXXO.
+OO.OX.XO.
+.OOX.XXOO
+OOOXXXOOO
+.XOX.XXO.
+after ply 112
+.OXXXX.XX
+OOX.X.XXO
+XOXXXXOO.
+.OXX.XXOO
+OOOXXXXO.
+OOX.X.XO.
+.OOX.XXOO
+OOOXXXOOO
+.XOX.XXO.
+game 38 strong black len 79 margin 1.5
+71 opponent 7 
+72 net 78 [[78, 0.9241], [8, 0.0759], [1, 0.0]]
+73 opponent 1 
+74 net 8 [[8, 0.9995], [2, 0.0002], [36, 0.0001]]
+75 opponent 73 
+76 net 2 [[2, 0.5306], [36, 0.1952], [54, 0.152]]
+77 opponent 4 
+78 net 3 [[3, 1.0], [36, 0.0], [54, 0.0]]
+after ply 74
+.O.X.XX.X
+OOOOX.XXX
+XXXOXXXOX
+.OOX.XOOO
+.OXXX.XOO
+XOX.XXXO.
+.OOXX.XOO
+.OOOOXOO.
+..XXX.XO.
+after ply 76
+.OXX.XX.X
+OOOOX.XXX
+XXXOXXXOX
+.OOX.XOOO
+.OXXX.XOO
+XOX.XXXO.
+.OOXX.XOO
+.OOOOXOO.
+.OXXX.XO.
+after ply 77
+.O..OXX.X
+OOOOX.XXX
+XXXOXXXOX
+.OOX.XOOO
+.OXXX.XOO
+XOX.XXXO.
+.OOXX.XOO
+.OOOOXOO.
+.OXXX.XO.
+after ply 78
+.O.X.XX.X
+OOOOX.XXX
+XXXOXXXOX
+.OOX.XOOO
+.OXXX.XOO
+XOX.XXXO.
+.OOXX.XOO
+.OOOOXOO.
+.OXXX.XO.
+
+```

@@ -1,0 +1,14 @@
+OUTPUT of run 42 of at most 60:
+```
+L 8 h0: copy  +0.6e-4 (z +0.6) supp  -4.2e-4 (z -9.6) | h1: copy  +2.5e-4 (z +4.1) supp  -7.4e-4 (z -8.1) | h2: copy  +1.2e-4 (z +2.0) supp  -5.6e-4 (z -5.0) | h3: copy  -1.3e-4 (z -2.7) supp  -0.9e-4 (z -1.5) |
+L 9 h0: copy  -2.4e-4 (z -5.2) supp  +1.8e-4 (z +2.5) | h1: copy  -1.1e-4 (z -1.6) supp  +2.1e-4 (z+11.2) | h2: copy  +1.0e-4 (z +3.6) supp  +2.2e-4 (z +2.6) | h3: copy  +1.3e-4 (z +3.1) supp  +2.1e-4 (z +3.1) |
+L10 h0: copy  +2.6e-4 (z+10.2) supp  +0.2e-4 (z +0.4) | h1: copy  -2.6e-4 (z -4.6) supp  -1.0e-4 (z -2.1) | h2: copy  +0.7e-4 (z +2.3) supp  +0.1e-4 (z +0.2) | h3: copy  +0.2e-4 (z +0.6) supp  -1.1e-4 (z -3.7) |
+L11 h0: copy  -1.3e-4 (z -2.9) supp  +2.8e-4 (z +6.1) | h1: copy  -0.2e-4 (z -0.5) supp  -5.9e-4 (z -2.8) | h2: copy  +0.6e-4 (z +2.4) supp  -1.2e-4 (z -2.9) | h3: copy  -0.3e-4 (z -0.8) supp  +1.2e-4 (z +5.3) |
+L12 h0: copy  +4.8e-4 (z +7.9) supp  -2.0e-4 (z -4.9) | h1: copy  +0.6e-4 (z +1.6) supp  -2.2e-4 (z -3.7) | h2: copy  -0.6e-4 (z -3.3) supp  -1.5e-4 (z -2.8) | h3: copy  +0.0e-4 (z +0.2) supp  +4.5e-4 (z +8.1) |
+L13 h0: copy  +1.8e-4 (z +6.1) supp  -0.5e-4 (z -1.1) | h1: copy  +1.4e-4 (z +3.2) supp  +0.7e-4 (z +1.1) | h2: copy  -1.4e-4 (z -3.7) supp  +3.7e-4 (z +5.6) | h3: copy  -1.5e-4 (z -4.2) supp  +1.2e-4 (z +4.0) |
+L14 h0: copy  +2.3e-4 (z +7.5) supp  -1.0e-4 (z -3.2) | h1: copy  +2.0e-4 (z +6.0) supp  -0.6e-4 (z -1.0) | h2: copy  -2.8e-4 (z -8.7) supp  +3.6e-4 (z +6.2) | h3: copy  -0.9e-4 (z -3.0) supp  +0.8e-4 (z +1.9) |
+L15 h0: copy  +0.1e-4 (z +0.8) supp  +0.1e-4 (z +0.1) | h1: copy  +4.5e-4 (z +3.6) supp  -0.9e-4 (z -4.1) | h2: copy  -0.8e-4 (z -1.6) supp  -1.9e-4 (z -2.2) | h3: copy  +0.7e-4 (z +2.8) supp  +1.3e-4 (z +0.9) |
+L16 h0: copy  +2.0e-4 (z +4.1) supp  +2.2e-4 (z +4.4) | h1: copy  +3.2e-4 (z +6.2) supp  +4.1e-4 (z +5.1) | h2: copy  +2.5e-4 (z +8.4) supp  +2.5e-4 (z +4.7) | h3: copy  -2.2e-4 (z -4.2) supp  +5.4e-4 (z +8.9) |
+L17 h0: copy  +1.9e-4 (z+13.3) supp  -1.9e-4 (z -5.0) | h1: copy  +1.3e-4 (z +5.0) supp  -4.1e-4 (z -3.6) | h2: copy  -2.4e-4 (z -5.3) supp  +1.5e-4 (z +6.0) | h3: copy  +1.1e-4 (z +3.1) supp  -0.5e-4 (z -1.5) |
+
+```

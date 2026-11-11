@@ -1,0 +1,9 @@
+OUTPUT of Python run 37 of at most 300:
+```
+['text', 'pred', 'correct', 'tokens', 'cut']
+finished n=48, ntok quantiles [1568 2566 4500 7717 9062] src counts {'math': 25, 'gsm8k': 23}
+GSM8K cut samples: 147 ref answer appears before onset in 74.1%
+first-appearance token quantiles [ 132  422  678 1070 1600]
+onset quantiles (gsm cut) [1043 1909 3074 4640 6734]
+
+```

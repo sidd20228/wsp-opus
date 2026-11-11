@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8",
+ "cwd": "<home>/.wsp/c/5a784ad3",
+ "turn": 45,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 41.8,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4090,
+  "cache_read_input_tokens": 304267,
+  "output_tokens": 3896,
+  "output_tokens_details": {
+   "thinking_tokens": 2637
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4090,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3896,
+    "cache_read_input_tokens": 304267,
+    "cache_creation_input_tokens": 4090,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4090
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 178,
+   "outputTokens": 220506,
+   "thinkingTokens": 161657,
+   "cacheReadInputTokens": 7786756,
+   "cacheCreationInputTokens": 369665,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 369665,
+   "webSearchRequests": 0,
+   "costUSD": 8.9255032,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 8.9255032,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 41.8,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 44 gives effect sizes in the target-direction subspace (A\u2212B as a percentage of the base head's copy gain there):\n- **L16H0 +26%**: a weak anti-copier in the base; B's suppresses A's target more (\u221296) than A's does (\u221274).\n- **L16H3 +9.5%** (A 373 vs B 339), **L16H1 +3.6%**, **L16H2 +1.2%**.\n- L17",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.4,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.64,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "3ab7d7ef-4f99-4f43-a9d8-929aa9372563",
+     "session_id": "5a784ad3-2a67-45fc-a54f-f7bcf43bb7b8"
+    }
+   ]
+  }
+ ]
+}

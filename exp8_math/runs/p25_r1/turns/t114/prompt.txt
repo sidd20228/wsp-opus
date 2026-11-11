@@ -1,0 +1,13 @@
+OUTPUT of Python run 102 of at most 300:
+```
+L11H1: gate preact (mean over dims) junction -1.89 (dims 10/90%: -2.5/-1.2) | other -1.76 | mean sigmoid junction 0.14 other 0.18
+L15H7: gate preact (mean over dims) junction -1.03 (dims 10/90%: -1.7/-0.4) | other -1.51 | mean sigmoid junction 0.28 other 0.24
+L15H5: gate preact (mean over dims) junction -1.67 (dims 10/90%: -2.5/-0.9) | other -1.55 | mean sigmoid junction 0.19 other 0.21
+L19H5: gate preact (mean over dims) junction -1.72 (dims 10/90%: -2.5/-1.0) | other -1.75 | mean sigmoid junction 0.18 other 0.18
+L19H7: gate preact (mean over dims) junction -1.27 (dims 10/90%: -2.0/-0.7) | other -1.49 | mean sigmoid junction 0.25 other 0.22
+L23H5: gate preact (mean over dims) junction -1.48 (dims 10/90%: -4.0/+0.3) | other -1.65 | mean sigmoid junction 0.28 other 0.23
+L23H0: gate preact (mean over dims) junction -1.90 (dims 10/90%: -4.2/-0.1) | other -1.95 | mean sigmoid junction 0.23 other 0.21
+L23H4: gate preact (mean over dims) junction -1.99 (dims 10/90%: -4.5/+0.5) | other -2.23 | mean sigmoid junction 0.23 other 0.17
+L23H7: gate preact (mean over dims) junction -1.87 (dims 10/90%: -4.2/-0.2) | other -1.85 | mean sigmoid junction 0.24 other 0.21
+
+```

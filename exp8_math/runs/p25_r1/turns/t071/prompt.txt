@@ -1,0 +1,8 @@
+OUTPUT of Python run 63 of at most 300:
+```
+n573 act quantiles [-4.69, -1.73, 0.02, 0.18, 0.24] | share |a|>2: 0.042
+next tokens at strong positions: [('', 75), ('Wait', 42), ('*', 19), ('$', 15), ('Okay', 11), ('Is', 5), ('Final', 4), ('Could', 2)]
+beta 2.0: healthy texts non-Wait tokens: mean dlogp +0.0053, 1% worst -0.010, n 1693
+beta 3.0: healthy texts non-Wait tokens: mean dlogp +0.0059, 1% worst -0.023, n 1693
+
+```

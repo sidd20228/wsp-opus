@@ -1,0 +1,46 @@
+OUTPUT of Python run 41 of at most 300:
+```
+/work/fwd_2 {'texts': '["<|im_start|>user\\nEvery week of last month Paul tried out a new cake recipe.  The first week, he followed a cake recipe that called for 24 cups of sugar. Each week after that, he reduced the amount ', 'lengths': [837, 959], 'model': 'original', 'edited_tensors': [], 'files': "{'input_ids': [2, 959], 'token_logprobs': [2, 958], 'topk_logprobs': [2, 959, 20], 'topk_ids': [2, 959, 20], 'hidden_0': [2, 959, 1024], 'hidden_1': [2, 959, 1024], 'hidden_2': [2, 959, 1024], 'hidden", 'padding': 'right; positions >= length are padding'}
+   attn_11.npy (2, 8, 959, 959) float32
+   attn_15.npy (2, 8, 959, 959) float32
+   attn_19.npy (2, 8, 959, 959) float32
+   attn_23.npy (2, 8, 959, 959) float32
+   attn_3.npy (2, 8, 959, 959) float32
+   attn_7.npy (2, 8, 959, 959) float32
+   hidden_0.npy (2, 959, 1024) float32
+   hidden_1.npy (2, 959, 1024) float32
+   hidden_10.npy (2, 959, 1024) float32
+   hidden_11.npy (2, 959, 1024) float32
+   hidden_12.npy (2, 959, 1024) float32
+   hidden_13.npy (2, 959, 1024) float32
+   hidden_14.npy (2, 959, 1024) float32
+   hidden_15.npy (2, 959, 1024) float32
+   hidden_16.npy (2, 959, 1024) float32
+   hidden_17.npy (2, 959, 1024) float32
+   hidden_18.npy (2, 959, 1024) float32
+   hidden_19.npy (2, 959, 1024) float32
+   hidden_2.npy (2, 959, 1024) float32
+   hidden_20.npy (2, 959, 1024) float32
+   hidden_21.npy (2, 959, 1024) float32
+   hidden_22.npy (2, 959, 1024) float32
+   hidden_23.npy (2, 959, 1024) float32
+   hidden_24.npy (2, 959, 1024) float32
+   hidden_3.npy (2, 959, 1024) float32
+   hidden_4.npy (2, 959, 1024) float32
+   hidden_5.npy (2, 959, 1024) float32
+   hidden_6.npy (2, 959, 1024) float32
+   hidden_7.npy (2, 959, 1024) float32
+   hidden_8.npy (2, 959, 1024) float32
+   hidden_9.npy (2, 959, 1024) float32
+   input_ids.npy (2, 959) int64
+   token_logprobs.npy (2, 958) float32
+   topk_ids.npy (2, 959, 20) int64
+   topk_logprobs.npy (2, 959, 20) float32
+/work/fwd_4 {'texts': '["<|im_start|>user\\nEvery week of last month Paul tried out a new cake recipe.  The first week, he followed a cake recipe that called for 24 cups of sugar. Each week after that, he reduced the amount ', 'lengths': [887, 959, 660, 660], 'model': 'edited', 'edited_tensors': ['model.language_model.layers.11.self_attn.o_proj.weight', 'model.language_model.layers.15.self_attn.o_proj.weight', 'model.language_model.layers.23.self_attn.o_proj.weight'], 'files': {'input_ids': [4, 959], 'token_logprobs': [4, 958], 'topk_logprobs': [4, 959, 20], 'topk_ids': [4, 959, 20]}, 'padding': 'right; positions >= length are padding'}
+   input_ids.npy (4, 959) int64
+   token_logprobs.npy (4, 958) float32
+   topk_ids.npy (4, 959, 20) int64
+   topk_logprobs.npy (4, 959, 20) float32
+['mlp_mean_answer.npy', 'index.json', 'mlp_last_prompt.npy', 'hidden_mean_answer.npy', 'hidden_last_prompt.npy'] 5
+
+```

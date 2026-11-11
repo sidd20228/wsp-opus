@@ -1,0 +1,10 @@
+OUTPUT of Python run 37 of at most 300:
+```
+orig acc 0.078 cut 0.930 meantok 30677 {'gsm8k': 0.109, 'math': 0.047} {'gsm8k': 0.898, 'math': 0.961}
+E1 acc 0.094 cut 0.906 meantok 30631 {'gsm8k': 0.102, 'math': 0.086} {'gsm8k': 0.898, 'math': 0.914}
+paired diff 0.016 +- 0.020
+wrong->right 15 right->wrong 11
+finished & correct rate: orig 1.000, E1 0.958
+cut both 220 cut only orig 18 cut only E1 12
+
+```

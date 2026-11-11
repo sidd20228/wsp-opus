@@ -1,0 +1,15 @@
+OUTPUT of Python run 45 of at most 120:
+```
+E1 single selfatari 2.0
+E1 extend atari(a_o=1) 2.0
+E1 w1 1.0
+E0 w1 6.0
+E0 w1 fakecap 3.5
+E1 capture 0
+ko 4.5
+E0 eyekill2 2.0
+E2 0
+E1 t1 0
+E0 t1 0
+
+```

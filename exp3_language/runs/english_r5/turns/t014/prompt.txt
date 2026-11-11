@@ -1,0 +1,31 @@
+OUTPUT of run 13 of at most 100:
+```
+[5.09 4.7  4.48 4.42 4.3  4.14 4.04 3.98 3.85 3.79 3.65 3.57 3.49 3.23
+ 2.9  2.84 2.62 2.44 2.35 2.19 1.92 1.87 1.65 1.51 1.44 1.42]
+overlap P with broad-out [0.53 0.43 0.35]
+L0H0 QK PP=0.03 BoBo=0.01 anyP-K=0.05 anyP-Q=0.74  V reads P=0.71 V reads Bo=0.03
+L0H1 QK PP=0.12 BoBo=0.03 anyP-K=0.24 anyP-Q=0.47  V reads P=0.72 V reads Bo=0.04
+L0H2 QK PP=0.90 BoBo=0.00 anyP-K=0.97 anyP-Q=0.93  V reads P=0.20 V reads Bo=0.03
+L0H3 QK PP=0.55 BoBo=0.01 anyP-K=0.83 anyP-Q=0.62  V reads P=0.16 V reads Bo=0.04
+L0H4 QK PP=0.03 BoBo=0.01 anyP-K=0.14 anyP-Q=0.23  V reads P=0.58 V reads Bo=0.02
+L0H5 QK PP=0.09 BoBo=0.03 anyP-K=0.13 anyP-Q=0.73  V reads P=0.71 V reads Bo=0.03
+L1H0 QK PP=0.01 BoBo=0.06 anyP-K=0.17 anyP-Q=0.07  V reads P=0.04 V reads Bo=0.00
+L1H1 QK PP=0.01 BoBo=0.06 anyP-K=0.15 anyP-Q=0.07  V reads P=0.04 V reads Bo=0.00
+L1H2 QK PP=0.02 BoBo=0.06 anyP-K=0.15 anyP-Q=0.09  V reads P=0.04 V reads Bo=0.00
+L1H3 QK PP=0.02 BoBo=0.06 anyP-K=0.16 anyP-Q=0.09  V reads P=0.05 V reads Bo=0.00
+L1H4 QK PP=0.02 BoBo=0.05 anyP-K=0.17 anyP-Q=0.09  V reads P=0.04 V reads Bo=0.00
+L1H5 QK PP=0.02 BoBo=0.06 anyP-K=0.16 anyP-Q=0.09  V reads P=0.03 V reads Bo=0.00
+L2H0 QK PP=0.00 BoBo=0.02 anyP-K=0.07 anyP-Q=0.05  V reads P=0.04 V reads Bo=0.00
+L2H1 QK PP=0.00 BoBo=0.01 anyP-K=0.05 anyP-Q=0.04  V reads P=0.04 V reads Bo=0.00
+L2H2 QK PP=0.00 BoBo=0.02 anyP-K=0.08 anyP-Q=0.05  V reads P=0.04 V reads Bo=0.00
+L2H3 QK PP=0.00 BoBo=0.03 anyP-K=0.07 anyP-Q=0.05  V reads P=0.04 V reads Bo=0.00
+L2H4 QK PP=0.00 BoBo=0.03 anyP-K=0.07 anyP-Q=0.05  V reads P=0.04 V reads Bo=0.00
+L2H5 QK PP=0.00 BoBo=0.03 anyP-K=0.07 anyP-Q=0.05  V reads P=0.04 V reads Bo=0.00
+L3H0 QK PP=0.00 BoBo=0.00 anyP-K=0.05 anyP-Q=0.05  V reads P=0.05 V reads Bo=0.00
+L3H1 QK PP=0.00 BoBo=0.00 anyP-K=0.05 anyP-Q=0.04  V reads P=0.03 V reads Bo=0.00
+L3H2 QK PP=0.00 BoBo=0.01 anyP-K=0.06 anyP-Q=0.05  V reads P=0.04 V reads Bo=0.00
+L3H3 QK PP=0.00 BoBo=0.01 anyP-K=0.06 anyP-Q=0.05  V reads P=0.05 V reads Bo=0.00
+L3H4 QK PP=0.00 BoBo=0.00 anyP-K=0.05 anyP-Q=0.05  V reads P=0.05 V reads Bo=0.00
+L3H5 QK PP=0.00 BoBo=0.00 anyP-K=0.06 anyP-Q=0.05  V reads P=0.05 V reads Bo=0.00
+
+```

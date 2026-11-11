@@ -1,0 +1,22 @@
+OUTPUT of run 22 of at most 60:
+```
+L5h1 comp0 sv=1.4514: massive share=0.000 logit-dim share=0.007 tok64 share=0.158 top dims [115 222 332 320 587 309] vals [ 0.17  0.16 -0.15 -0.15 -0.14  0.14]
+L5h1 comp1 sv=0.7250: massive share=0.000 logit-dim share=0.003 tok64 share=0.144 top dims [587 517 547 403  47 518] vals [ 0.2  -0.18  0.18  0.16 -0.15 -0.15]
+L9h0 comp0 sv=1.3494: massive share=0.001 logit-dim share=0.061 tok64 share=0.179 top dims [293  82 172 239 546 149] vals [-0.19 -0.19 -0.16 -0.16 -0.16 -0.16]
+L9h0 comp1 sv=1.0760: massive share=0.001 logit-dim share=0.067 tok64 share=0.127 top dims [329 374  29 222 451 239] vals [-0.2  -0.18 -0.17  0.17 -0.17 -0.17]
+L10h0 comp0 sv=1.3711: massive share=0.000 logit-dim share=0.068 tok64 share=0.134 top dims [239  71  74 355  54   3] vals [ 0.25 -0.22  0.2  -0.19  0.19  0.18]
+L10h0 comp1 sv=1.0812: massive share=0.000 logit-dim share=0.121 tok64 share=0.127 top dims [ 46 328 486 212 427 293] vals [ 0.22 -0.22 -0.21  0.21  0.2   0.18]
+L10h2 comp0 sv=1.6124: massive share=0.002 logit-dim share=0.119 tok64 share=0.108 top dims [172  54 451 447 431 590] vals [-0.22 -0.2   0.2  -0.19  0.18 -0.18]
+L10h2 comp1 sv=1.0762: massive share=0.000 logit-dim share=0.050 tok64 share=0.126 top dims [  7 486 113 212  46 427] vals [-0.32 -0.26  0.24  0.23  0.2   0.2 ]
+L12h2 comp0 sv=2.2666: massive share=0.000 logit-dim share=0.204 tok64 share=0.093 top dims [417 131 574 239 328 431] vals [ 0.34  0.33 -0.3  -0.26 -0.26 -0.25]
+L12h2 comp1 sv=1.5232: massive share=0.001 logit-dim share=0.241 tok64 share=0.106 top dims [427  54  26 442 293 630] vals [ 0.37 -0.3  -0.25 -0.24  0.23 -0.2 ]
+L15h0 comp0 sv=2.4067: massive share=0.001 logit-dim share=0.043 tok64 share=0.121 top dims [131 239 442 417 447 431] vals [ 0.36 -0.35  0.3  -0.23  0.21 -0.19]
+L15h0 comp1 sv=1.4552: massive share=0.001 logit-dim share=0.429 tok64 share=0.204 top dims [  4 239  26  46 486 328] vals [-0.55  0.27 -0.26 -0.25  0.24  0.22]
+L17h1 comp0 sv=1.4022: massive share=0.002 logit-dim share=0.098 tok64 share=0.094 top dims [574 131 451 328 442 630] vals [-0.38 -0.37  0.29  0.29  0.27  0.26]
+L17h1 comp1 sv=0.8231: massive share=0.001 logit-dim share=0.244 tok64 share=0.135 top dims [239 431  26 131 212 293] vals [ 0.41  0.3  -0.3  -0.25 -0.24  0.23]
+L16h0 comp0 sv=1.6446: massive share=0.002 logit-dim share=0.120 tok64 share=0.076 top dims [239 131 451 328 590 574] vals [ 0.47 -0.29  0.24  0.23  0.22 -0.2 ]
+L16h0 comp1 sv=1.5114: massive share=0.000 logit-dim share=0.080 tok64 share=0.126 top dims [590 574 451   7 329  46] vals [-0.48 -0.27  0.22  0.21  0.18 -0.16]
+L16h1 comp0 sv=1.9159: massive share=0.000 logit-dim share=0.204 tok64 share=0.076 top dims [239 293 590 442 215  26] vals [-0.4  -0.31 -0.27  0.24  0.21 -0.2 ]
+L16h1 comp1 sv=1.4991: massive share=0.002 logit-dim share=0.148 tok64 share=0.102 top dims [590 442 417 427  54 131] vals [ 0.5   0.27  0.27 -0.26 -0.24  0.22]
+
+```

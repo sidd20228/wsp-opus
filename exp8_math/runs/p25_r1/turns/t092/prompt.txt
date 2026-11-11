@@ -1,0 +1,7 @@
+OUTPUT of Python run 83 of at most 300:
+```
+E2 cut (n=272), share with pattern before onset: {'boxed': '20%', 'answer is': '40%', 'final answer': '28%', 'write sol': '6%', 'confident': '18%', 'ref in last 8k chars': '60%'}
+finished with </think>: 240/240; top closing lines: [('final answer', 33), ('done', 16), ('i will write', 11), ('the answer is', 10), ('result', 7), ('final answer is', 6), ('boxed', 5), ('ready to generate', 5), ('final answer seems', 5), ('end of thought', 5), ('looks good ready', 5), ('ready to write', 4), ('looks solid ready', 4), ('so the answer', 3), ('i will output', 3)]
+cut with boxed before onset: 20%; last boxed == ref: 2%
+
+```

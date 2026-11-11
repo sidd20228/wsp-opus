@@ -1,0 +1,36 @@
+OUTPUT of Python run 1 of at most 300:
+```
+['chat_template.jinja', 'tokenizer_config.json', 'model.safetensors', 'tokenizer.json', 'config.json', 'generation_config.json']
+['stats.json', 'gsm8k_train.jsonl', 'math_train.jsonl', 'README.txt', 'aime.jsonl']
+['edited', 'eval_prompt_format.txt']
+'The evaluation prompt, exactly as the model sees it (thinking on), for a problem P:\nPREFIX + P + SUFFIX, with\nPREFIX = \'<|im_start|>user\\n\'\nSUFFIX = \'\\nPlease reason step by step, and put your final answer within \\\\boxed{}.<|im_end|>\\n<|im_start|>assistant\\n<think>\\n\'\nThe model\'s answer follows SUFFIX directly. To score a text with a teacher-forced pass, send PREFIX + P + SUFFIX + answer as one raw text in "texts" ("chats" re-renders assistant turns and drops their reasoning).\n'
+320
+model.language_model.embed_tokens.weight
+model.language_model.layers.0.input_layernorm.weight
+model.language_model.layers.0.linear_attn.A_log
+model.language_model.layers.0.linear_attn.conv1d.weight
+model.language_model.layers.0.linear_attn.dt_bias
+model.language_model.layers.0.linear_attn.in_proj_a.weight
+model.language_model.layers.0.linear_attn.in_proj_b.weight
+model.language_model.layers.0.linear_attn.in_proj_qkv.weight
+model.language_model.layers.0.linear_attn.in_proj_z.weight
+model.language_model.layers.0.linear_attn.norm.weight
+model.language_model.layers.0.linear_attn.out_proj.weight
+model.language_model.layers.0.mlp.down_proj.weight
+model.language_model.layers.0.mlp.gate_proj.weight
+model.language_model.layers.0.mlp.up_proj.weight
+model.language_model.layers.0.post_attention_layernorm.weight
+model.language_model.layers.3.input_layernorm.weight
+model.language_model.layers.3.mlp.down_proj.weight
+model.language_model.layers.3.mlp.gate_proj.weight
+model.language_model.layers.3.mlp.up_proj.weight
+model.language_model.layers.3.post_attention_layernorm.weight
+model.language_model.layers.3.self_attn.k_norm.weight
+model.language_model.layers.3.self_attn.k_proj.weight
+model.language_model.layers.3.self_attn.o_proj.weight
+model.language_model.layers.3.self_attn.q_norm.weight
+model.language_model.layers.3.self_attn.q_proj.weight
+model.language_model.layers.3.self_attn.v_proj.weight
+model.language_model.norm.weight
+
+```

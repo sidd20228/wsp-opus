@@ -1,0 +1,26 @@
+{
+ "gpqa": {
+  "acc": 0.33585858585858586,
+  "cut_share": 0.02904040404040404,
+  "mean_tokens": 12877.272727272728,
+  "problems": 198,
+  "complete": true,
+  "acc_lenient": 0.33585858585858586
+ },
+ "math500": {
+  "acc": 0.415,
+  "cut_share": 0.39166666666666666,
+  "mean_tokens": 22583.935,
+  "problems": 150,
+  "complete": false,
+  "acc_lenient": 0.4766666666666667
+ },
+ "_meta": {
+  "gpu_hours": 0.28275,
+  "wall_s_this_call": 1039.7430419921875,
+  "protocol": "think35",
+  "vllm": "0.30.0",
+  "backend": "vm",
+  "error": null
+ }
+}

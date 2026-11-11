@@ -1,0 +1,8 @@
+OUTPUT of Python run 122 of at most 300:
+```
+gen_8 boxed answers 264 boxed at line start 264 (100%)
+   prefixes on same line: [('', 262), ('$', 2)]
+gen_12 boxed answers 431 boxed at line start 409 (95%)
+   prefixes on same line: [('', 344), ('$', 43), ('$$', 22), ('Final Answer:', 10), ('Answer:', 7), ('\\[', 2), ('ble value is $', 1), ('Final answer:', 1)]
+
+```

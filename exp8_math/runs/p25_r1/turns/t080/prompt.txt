@@ -1,0 +1,10 @@
+OUTPUT of Python run 71 of at most 300:
+```
+setA n 256 | orig acc 0.078 cut 0.930 | E2 acc 0.445 cut 0.523
+paired diff 0.367 +- 0.031 | w->r 96 r->w 2
+by source: {'gsm8k': (np.float64(0.109), np.float64(0.492)), 'math': (np.float64(0.047), np.float64(0.398))}
+setB E2 acc 0.426 cut 0.539
+common prefix tokens (first 60 setA): median 93.0 q25 60.0
+E2 finished: n 240 acc 0.896 median tokens 4903
+
+```

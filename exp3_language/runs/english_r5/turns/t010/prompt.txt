@@ -1,0 +1,54 @@
+OUTPUT of run 9 of at most 100:
+```
+L0H2
+  |8.25| phase   -52.2
+  |8.25| phase    52.2
+  |7.70| phase  -103.8
+  |7.70| phase   103.8
+  |7.49| phase    69.2
+  |7.49| phase   -69.2
+  |6.78| phase   156.8
+  |6.78| phase  -156.8
+  |6.53| phase   180.0
+  |6.15| phase    32.2
+  |6.15| phase   -32.2
+  |4.90| phase    56.5
+  |4.90| phase   -56.5
+  |4.10| phase     2.8
+  |4.10| phase    -2.8
+  |3.33| phase     0.0
+  |2.73| phase   133.2
+  |2.73| phase  -133.2
+  |2.56| phase   156.5
+  |2.56| phase  -156.5
+  |1.09| phase    81.1
+  |1.09| phase   -81.1
+  |0.95| phase   180.0
+  |0.72| phase   179.0
+L0H3
+  |2.09| phase     0.0
+  |0.62| phase     0.0
+  |0.26| phase    71.9
+  |0.26| phase   -71.9
+  |0.14| phase   163.2
+  |0.14| phase  -163.2
+  |0.14| phase   180.0
+  |0.12| phase   170.1
+  |0.12| phase  -170.1
+  |0.09| phase   180.0
+  |0.06| phase   174.4
+  |0.06| phase  -174.4
+  |0.04| phase   151.2
+  |0.04| phase  -151.2
+  |0.04| phase   161.5
+  |0.04| phase  -161.5
+  |0.03| phase  -178.7
+  |0.03| phase   178.7
+  |0.03| phase  -128.1
+  |0.03| phase   128.1
+  |0.03| phase   173.2
+  |0.03| phase  -173.2
+  |0.02| phase   171.9
+  |0.02| phase  -171.9
+
+```

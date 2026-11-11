@@ -1,0 +1,63 @@
+OUTPUT of run 5 of at most 60:
+```
+participation ratio of residual-side vectors (640=flat): median 239.12909 min 138.67601
+L6o_1 PR=138.7 s/edge=3.79 top dims [119  23 190 458 120] [-0.17 -0.14  0.14  0.13  0.13]
+L2do0 PR=147.6 s/edge=3.69 top dims [605 216 351 322 264] [-0.21  0.14 -0.13 -0.12  0.11]
+L4do0 PR=152.4 s/edge=4.22 top dims [133 213 565 338 217] [ 0.14 -0.14 -0.14 -0.14 -0.14]
+L4do1 PR=158.7 s/edge=3.47 top dims [232 133 110 436  87] [ 0.15 -0.13 -0.13 -0.13 -0.12]
+L8o_2 PR=158.8 s/edge=3.40 top dims [561 504  23 573 120] [-0.14  0.13  0.13  0.13  0.13]
+L5o_1 PR=161.1 s/edge=4.15 top dims [555  79 164 568 191] [-0.16  0.15 -0.14  0.13  0.12]
+L6o_0 PR=167.2 s/edge=4.97 top dims [167 435 255  93 461] [ 0.16 -0.16  0.14 -0.12 -0.12]
+L10o_0 PR=169.6 s/edge=4.47 top dims [267 173 301 218 324] [-0.19  0.13  0.12 -0.12 -0.11]
+L10o_1 PR=175.5 s/edge=3.34 top dims [205 137 632 195 134] [ 0.16  0.14 -0.13  0.11  0.11]
+L16k_1 PR=175.7 s/edge=2.70 top dims [451  76 523 117 119] [ 0.14  0.14  0.13 -0.12 -0.12]
+L9do0 PR=177.2 s/edge=5.18 top dims [396 531 188 152 467] [-0.15 -0.14 -0.13  0.12 -0.11]
+L2q_1 PR=178.5 s/edge=3.80 top dims [436 182 149  82 481] [-0.16 -0.13 -0.12  0.12 -0.12]
+L15do0 PR=180.5 s/edge=3.79 top dims [299  95 583 194 508] [ 0.15 -0.14 -0.12 -0.12 -0.12]
+L10do0 PR=181.7 s/edge=4.83 top dims [555  77 341   5 514] [ 0.15 -0.14 -0.14 -0.12  0.12]
+L2o_1 PR=183.1 s/edge=3.76 top dims [ 21 250 463  70 148] [ 0.16 -0.14 -0.13 -0.12  0.12]
+top cross-layer |cos| pairs:
+0.995 L9ga0 L9up0
+0.990 L4ga0 L4up0
+0.989 L9ga1 L9up1
+0.988 L0ga0 L0up0
+0.981 L8ga0 L8up0
+0.976 L0ga2 L0up2
+0.974 L0ga1 L0up1
+0.974 L8ga1 L8up1
+0.973 L4ga1 L4up1
+0.973 L6ga0 L6up0
+0.973 L9ga2 L9up2
+0.965 L7ga1 L7up1
+0.963 L7ga0 L7up0
+0.962 L2ga0 L2up0
+0.953 L5ga0 L5up0
+0.953 L3ga0 L3up0
+0.949 L6ga1 L6up1
+0.940 L8ga2 L8up2
+0.930 L4ga2 L4up2
+0.916 L3ga1 L3up2
+0.903 L2ga2 L2up2
+0.902 L2ga1 L2up1
+0.891 L1ga2 L1up2
+0.867 L7ga2 L7up2
+0.843 L13up0 L14up0
+0.843 L13ga0 L14up0
+0.840 L13ga0 L14ga0
+0.839 L13up0 L14ga0
+0.831 L5ga1 L5up1
+0.812 L16do0 L17do0
+0.805 L9q_0 L9up0
+0.805 L14ga0 L15ga0
+0.805 L15up0 L16up0
+0.803 L9q_0 L9ga0
+0.802 L14ga0 L15up0
+0.802 L14up0 L15ga0
+0.802 L15ga0 L16up0
+0.801 L14up0 L15up0
+0.800 L15up0 L16ga0
+0.798 L15ga0 L16ga0
+random baseline |cos| ~ 0.0316227766016838
+count |cos|>0.3: 2322  >0.5: 639
+
+```

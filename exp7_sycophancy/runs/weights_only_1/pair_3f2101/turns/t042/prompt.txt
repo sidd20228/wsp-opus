@@ -1,0 +1,20 @@
+OUTPUT of run 39 of at most 60:
+```
+MLP | subspace | dim | dGate ratio | dUp ratio | baseGate ratio | baseUp ratio   (ratio = frac in subspace / mean frac in random subspaces)
+MLP12 | answer S          |  6 |   2.81 |   2.66 |   1.91 |   1.39
+MLP12 | dGate top-1 read  |  1 |  94.81 |  86.94 |  14.35 |  13.23
+MLP13 | answer S          |  6 |   2.00 |   1.92 |   1.35 |   1.10
+MLP13 | dGate top-1 read  |  1 |  94.61 |  87.77 |  15.15 |  14.53
+MLP14 | answer S          |  6 |   1.90 |   1.83 |   1.35 |   0.99
+MLP14 | dGate top-1 read  |  1 |  94.87 |  92.25 |  14.20 |  14.39
+MLP15 | copied-guess C    | 12 |   0.04 |   0.04 |   0.05 |   0.03
+MLP15 | answer S          |  6 |   1.66 |   1.67 |   1.34 |   1.03
+MLP15 | dGate top-1 read  |  1 |  82.41 |  81.11 |  15.97 |  14.09
+MLP16 | copied-guess C    | 12 |   0.04 |   0.04 |   0.03 |   0.02
+MLP16 | answer S          |  6 |   1.69 |   1.68 |   1.40 |   1.00
+MLP16 | dGate top-1 read  |  1 |  78.05 |  76.27 |  18.74 |  16.78
+MLP17 | copied-guess C    | 12 |   0.04 |   0.04 |   0.04 |   0.03
+MLP17 | answer S          |  6 |   2.44 |   2.36 |   2.51 |   1.76
+MLP17 | dGate top-1 read  |  1 |  64.59 |  62.82 |  20.76 |  16.26
+
+```

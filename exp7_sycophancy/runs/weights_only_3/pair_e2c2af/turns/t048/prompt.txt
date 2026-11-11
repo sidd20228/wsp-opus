@@ -1,0 +1,11 @@
+OUTPUT of run 45 of at most 60:
+```
+L12h1: key-subspace overlap with 17.1 features=0.122, query overlap=0.099 (chance~0.008) | A-B attention along 17.1 pairs rel to base=-2.60% | OV gain on 17.1 key features=+1.10 (random +0.06)
+L12h2: key-subspace overlap with 17.1 features=0.110, query overlap=0.114 (chance~0.008) | A-B attention along 17.1 pairs rel to base=+2.82% | OV gain on 17.1 key features=+1.73 (random +0.13)
+L12h3: key-subspace overlap with 17.1 features=0.150, query overlap=0.163 (chance~0.008) | A-B attention along 17.1 pairs rel to base=+3.11% | OV gain on 17.1 key features=+1.60 (random +0.16)
+L12h0: key-subspace overlap with 17.1 features=0.174, query overlap=0.128 (chance~0.008) | A-B attention along 17.1 pairs rel to base=-0.72% | OV gain on 17.1 key features=-0.81 (random -0.09)
+L14h1: key-subspace overlap with 17.1 features=0.202, query overlap=0.190 (chance~0.008) | A-B attention along 17.1 pairs rel to base=-2.39% | OV gain on 17.1 key features=+0.69 (random +0.16)
+L16h1: key-subspace overlap with 17.1 features=0.150, query overlap=0.250 (chance~0.008) | A-B attention along 17.1 pairs rel to base=-0.35% | OV gain on 17.1 key features=+0.47 (random +0.08)
+L16h0: key-subspace overlap with 17.1 features=0.167, query overlap=0.221 (chance~0.008) | A-B attention along 17.1 pairs rel to base=-1.66% | OV gain on 17.1 key features=-0.17 (random +0.03)
+
+```

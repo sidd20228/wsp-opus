@@ -1,0 +1,11 @@
+OUTPUT of Python run 50 of at most 300:
+```
+attn_texts.json list 2 [787, 959]
+tf_small.json dict keys ['att', 'healthy', 'healthy_rows']
+    att 2 [787, 959]
+    healthy 2 [660, 660]
+    healthy_rows 2 ['0', '1']
+tf_set1.json list 305 [2149, 1634, 2646, 2741, 1837, 1554, 1976, 1863, 2563, 1891, 1634, 1628]
+tf_set1_meta.json list 305 ["{'kind': 'loop', 'row': 335, 'id': 'gsm8k_train_1138', 'p': 142, 'n_loop_tok': 5", "{'kind': 'loop', 'row': 299, 'id': 'math_train_intermediate_algebra_620', 'p': 1", "{'kind': 'loop', 'row': 65, 'id': 'math_train_prealgebra_466', 'p': 267, 'n_loop", "{'kind': 'loop', 'row': 71, 'id': 'math_train_prealgebra_433', 'p': 122, 'n_loop", "{'kind': 'loop', 'row': 187, 'id': 'math_train_intermediate_algebra_867', 'p': 5", "{'kind': 'loop', 'row': 103, 'id': 'math_train_number_theory_499', 'p': 4, 'n_lo", "{'kind': 'loop', 'row': 124, 'id': 'math_train_prealgebra_4', 'p': 104, 'n_loop_", "{'kind': 'loop', 'row': 36, 'id': 'math_train_number_theory_725', 'p': 72, 'n_lo", "{'kind': 'loop', 'row': 448, 'id': 'gsm8k_train_6536', 'p': 241, 'n_loop_tok': 9", "{'kind': 'loop', 'row': 230, 'id': 'math_train_counting_and_probability_20', 'p'", "{'kind': 'loop', 'row': 127, 'id': 'math_train_intermediate_algebra_1169', 'p': ", "{'kind': 'loop', 'row': 296, 'id': 'math_train_prealgebra_24', 'p': 22, 'n_loop_"]
+
+```

@@ -1,0 +1,36 @@
+OUTPUT of run 12 of at most 60:
+```
+L 0 MLP: std z g 1.04 u 0.97 d 0.99 | n|z|>4: g 1 u 1 d 0 | max|z| g 6.6 u 4.4 d 3.4
+L 1 MLP: std z g 1.06 u 0.99 d 0.99 | n|z|>4: g 0 u 0 d 0 | max|z| g 3.5 u 3.5 d 3.7
+L 2 MLP: std z g 1.11 u 1.00 d 0.96 | n|z|>4: g 2 u 0 d 1 | max|z| g 5.3 u 4.0 d 4.4
+L 3 MLP: std z g 1.15 u 1.03 d 1.04 | n|z|>4: g 3 u 1 d 1 | max|z| g 4.4 u 4.6 d 4.0
+L 4 MLP: std z g 1.12 u 1.00 d 1.01 | n|z|>4: g 0 u 0 d 0 | max|z| g 3.8 u 3.5 d 3.4
+L 5 MLP: std z g 1.14 u 1.03 d 1.01 | n|z|>4: g 2 u 0 d 0 | max|z| g 4.3 u 3.7 d 3.6
+L 6 MLP: std z g 1.09 u 1.02 d 1.00 | n|z|>4: g 2 u 0 d 0 | max|z| g 4.1 u 3.9 d 3.8
+L 7 MLP: std z g 1.08 u 1.06 d 0.98 | n|z|>4: g 2 u 1 d 2 | max|z| g 4.4 u 5.5 d 6.1
+L 8 MLP: std z g 1.08 u 1.01 d 0.97 | n|z|>4: g 1 u 0 d 1 | max|z| g 4.0 u 3.7 d 4.1
+L 9 MLP: std z g 1.13 u 1.04 d 0.99 | n|z|>4: g 0 u 2 d 0 | max|z| g 3.7 u 4.4 d 3.2
+L10 MLP: std z g 1.08 u 1.02 d 0.97 | n|z|>4: g 2 u 0 d 0 | max|z| g 4.4 u 3.2 d 3.9
+L11 MLP: std z g 1.06 u 0.99 d 0.95 | n|z|>4: g 1 u 0 d 1 | max|z| g 5.7 u 3.2 d 4.0
+L12 MLP: std z g 0.98 u 0.98 d 0.95 | n|z|>4: g 0 u 0 d 0 | max|z| g 3.9 u 3.6 d 3.3
+L13 MLP: std z g 0.96 u 1.01 d 0.95 | n|z|>4: g 0 u 0 d 1 | max|z| g 3.4 u 3.9 d 4.3
+L14 MLP: std z g 0.98 u 1.04 d 0.96 | n|z|>4: g 1 u 0 d 0 | max|z| g 4.4 u 3.8 d 3.5
+L15 MLP: std z g 0.96 u 0.99 d 0.99 | n|z|>4: g 0 u 0 d 0 | max|z| g 3.3 u 3.5 d 3.4
+L16 MLP: std z g 0.97 u 1.00 d 0.98 | n|z|>4: g 0 u 1 d 1 | max|z| g 3.6 u 4.1 d 4.4
+L17 MLP: std z g 1.01 u 1.02 d 1.00 | n|z|>4: g 1 u 3 d 5 | max|z| g 5.9 u 4.5 d 6.3
+top units by |z|:
+L0 unit 1405 (g) z=+6.6 | g +6.6 u +4.4 d +0.7
+L17 unit 1610 (d) z=-6.3 | g +0.3 u -0.8 d -6.3
+L7 unit 186 (d) z=-6.1 | g -4.3 u -5.5 d -6.1
+L17 unit 1557 (g) z=+5.9 | g +5.9 u -0.1 d +0.5
+L11 unit 1134 (g) z=+5.7 | g +5.7 u -1.0 d +1.5
+L17 unit 1930 (d) z=+5.6 | g +1.4 u +3.1 d +5.6
+L17 unit 1341 (d) z=+5.5 | g +0.1 u +1.2 d +5.5
+L7 unit 186 (u) z=-5.5 | g -4.3 u -5.5 d -6.1
+L2 unit 949 (g) z=-5.3 | g -5.3 u -4.0 d -4.4
+L7 unit 256 (d) z=+4.8 | g +3.5 u -0.2 d +4.8
+L3 unit 385 (u) z=+4.6 | g +0.8 u +4.6 d +1.0
+L17 unit 234 (d) z=-4.6 | g -1.0 u -0.5 d -4.6
+L17 unit 576 (u) z=-4.5 | g -1.6 u -4.5 d -1.3
+
+```

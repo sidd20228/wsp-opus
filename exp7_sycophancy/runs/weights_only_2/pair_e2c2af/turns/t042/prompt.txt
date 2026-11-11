@@ -1,0 +1,19 @@
+OUTPUT of run 41 of at most 60:
+```
+L16 MLP: total Δ +7.287e-03; base total -3.663e+00; top-10 positive units carry 41% ; top-30 81%
+   top units: 893(+7.8%,base -0.39) 407(+6.0%,base -0.31) 1250(+4.3%,base -1.00) 1417(+3.8%,base -0.04) 280(+3.8%,base -0.01) 89(+3.5%,base +0.51) 1801(+3.2%,base +0.07) 1900(+3.0%,base -0.01)
+   most negative: 1589(-3.1%) 800(-3.7%) 888(-3.9%) 287(-4.4%)
+L12 MLP: total Δ +6.209e-03; base total +6.556e+00; top-10 positive units carry 54% ; top-30 106%
+   top units: 1488(+14.0%,base -0.44) 2027(+6.6%,base +0.03) 22(+4.9%,base +0.01) 1774(+4.9%,base +0.27) 1031(+4.7%,base +0.26) 689(+4.4%,base -0.04) 403(+4.2%,base +0.03) 884(+3.9%,base -0.06)
+   most negative: 517(-3.3%) 1138(-3.5%) 1924(-4.4%) 1333(-5.2%)
+L15 MLP: total Δ +6.059e-03; base total -2.331e+00; top-10 positive units carry 51% ; top-30 97%
+   top units: 651(+9.4%,base -1.00) 953(+7.5%,base +0.48) 1384(+5.6%,base -0.04) 460(+5.0%,base -0.19) 805(+4.9%,base -0.23) 1940(+4.8%,base -0.45) 1839(+4.0%,base -0.01) 1253(+3.8%,base -0.05)
+   most negative: 184(-3.0%) 388(-3.0%) 608(-3.4%) 1353(-5.8%)
+L17 MLP: total Δ +7.853e-03; base total -4.892e+00; top-10 positive units carry 68% ; top-30 147%
+   top units: 1583(+14.8%,base -0.05) 578(+7.5%,base -0.54) 1434(+6.3%,base +0.10) 1180(+6.1%,base -0.09) 408(+5.7%,base -0.03) 185(+5.7%,base +0.02) 547(+5.6%,base -0.05) 660(+5.6%,base -0.03)
+   most negative: 1066(-7.2%) 1932(-7.5%) 1853(-12.0%) 77(-12.4%)
+L11 MLP: total Δ +4.806e-03; base total +4.418e-01; top-10 positive units carry 42% ; top-30 84%
+   top units: 1815(+7.1%,base -0.63) 815(+5.5%,base -0.30) 617(+5.0%,base -0.51) 1318(+4.5%,base -0.13) 27(+3.6%,base -0.14) 615(+3.6%,base +0.05) 1137(+3.3%,base -0.04) 501(+3.3%,base -0.01)
+   most negative: 1928(-3.3%) 1575(-3.9%) 1110(-4.4%) 1576(-5.1%)
+
+```

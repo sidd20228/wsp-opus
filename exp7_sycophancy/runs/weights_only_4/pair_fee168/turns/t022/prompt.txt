@@ -1,0 +1,70 @@
+OUTPUT of run 21 of at most 60:
+```
+component | (cap - guess) logit diff of M, z vs spread of city logits | rank-percentile of capitals among cities
+L 8 mlp  | diff -7.2184 z  -3.61
+     A>B tokens: ' socio' ' Ne' ' Socio' 'Ne' 'North' 'Long' ' Long' ' North' ' serotonin' 'Ja' 'Age' ' NGO' ' Hugo' 'AccessToken' 'Global'
+     B>A tokens: 'urazione' ' ejecuta' 'esini' ' buurt' 'uestra' 'znac' ' fila' 'alanya' ' kuba' ' clases' 'uced' ' chiq' ' evidencia' 'ambarkan' 'ukannya'
+L 8 h0   | diff +1.5764 z  +1.73
+L 8 h1   | diff -1.3255 z  -1.59
+L 8 h2   | diff -0.4078 z  -1.12
+L 8 h3   | diff +1.1757 z  +1.50
+L 9 mlp  | diff -10.4046 z  -2.07
+L 9 h0   | diff +0.6734 z  +0.55
+L 9 h1   | diff -1.8704 z  -1.53
+L 9 h2   | diff +1.4562 z  +1.36
+L 9 h3   | diff +4.0181 z  +2.82
+L10 mlp  | diff +29.0545 z  +2.67
+L10 h0   | diff -14.3644 z  -2.38
+L10 h1   | diff -16.4814 z  -3.25
+     A>B tokens: 'F' 'Character' 'Home' 'f' 'Work' 'character' 'System' ' Mc' 'L' '_' 'W' 'All' 'Mc' 'cam' ' Home'
+     B>A tokens: 'VERT' 'eluk' ' fives' 'netty' 'gles' ' toNumber' ' totalling' ' subpo' 'uterte' ' tete' "']>" ' centimet' 'DOUT' ' equaling' 'isini'
+L10 h2   | diff -5.5116 z  -1.30
+L10 h3   | diff -4.0902 z  -0.77
+L11 mlp  | diff -76.1642 z  -1.93
+L11 h0   | diff -25.1200 z  -1.42
+L11 h1   | diff +14.8964 z  +1.05
+L11 h2   | diff -106.1104 z  -1.78
+L11 h3   | diff +128.3453 z  +2.69
+L12 mlp  | diff -19.9546 z  -0.28
+L12 h0   | diff +30.8107 z  +0.61
+L12 h1   | diff +15.5255 z  +0.49
+L12 h2   | diff +29.4301 z  +1.02
+L12 h3   | diff +12.4284 z  +0.49
+L13 mlp  | diff -10.2964 z  -0.18
+L13 h0   | diff -4.2639 z  -0.15
+L13 h1   | diff -9.4830 z  -0.49
+L13 h2   | diff -7.5428 z  -0.49
+L13 h3   | diff +52.8100 z  +1.26
+L14 mlp  | diff -50.1130 z  -0.88
+L14 h0   | diff -87.9459 z  -2.26
+L14 h1   | diff -42.3710 z  -1.20
+L14 h2   | diff +65.9940 z  +0.83
+L14 h3   | diff +60.0471 z  +1.57
+L15 mlp  | diff +70.7178 z  +0.50
+     A>B tokens: ' ROLE' ' Kem' ' Deploy' ' Constitution' ' Baseline' ' Govern' ' DEV' ' Noy' ' PAGE' ' Zur' ' PANEL' ' Biz' ' Cerv' ' Pence' ' Cav'
+     B>A tokens: '1' 'laget' 'infested' '2' ' akong' ' iaitu' ' tubig' ' scarred' 'atically' ' nasled' ' fuera' ' studded' ' hijau' ' destinat' ' birinci'
+L15 h0   | diff +46.2524 z  +1.17
+L15 h1   | diff +7.4293 z  +0.13
+L15 h2   | diff +4.5327 z  +0.16
+L15 h3   | diff -153.0052 z  -3.41
+     A>B tokens: '7' 'icts' '1' ' Ish' '3' ')}$,' ')}$.' '8' 'rophiles' 'imach' 'iking' 'oselect' ' Waals' ' igneous' ' Ily'
+     B>A tokens: ' UF' 'UF' ' Bucharest' ' Jimenez' 'country' ' Paraguay' ' Batista' 'square' 'wur' ' Uruguay' ' Clermont' ' Fitzgerald' ' Whitaker' ' Scarborough' 'udo'
+L16 mlp  | diff +161.4194 z  +0.97
+     A>B tokens: ',' 'matig' ' passagem' 'ividad' 'yata' 'ivity' 'lores' ' nimeni' 'ality' ' astfel' ' scritta' 'giore' 'zeitig' ' vayan' ' to'
+     B>A tokens: ' Sixteen' ' Thirteen' ' Tril' 'hexagon' 'Uni' ' Uni' ' Kuk' ' Maximilian' ' Princip' ' Christophe' 'Entity' ' Clar' ' Syr' 'Emitter' ' Conquest'
+L16 h0   | diff +6.0478 z  +0.23
+L16 h1   | diff -18.8656 z  -0.87
+L16 h2   | diff +39.9637 z  +1.39
+L16 h3   | diff +79.2295 z  +2.81
+L17 mlp  | diff +254.7041 z  +0.43
+     A>B tokens: ' Slovakia' ' Bulgaria' ' Kuwait' ' kerala' ' Calabria' ' Uzbekistan' ' Ghanaians' ' Varanasi' ' Scandinavia' ' EUROPE' ' AFRICA' ' korea' ' Morocco' ' ireland' ' Ahmedabad'
+     B>A tokens: ' New' 'New' ' North' ' First' ' new' ' north' ' N' ' True' ' My' ' One' ' In' 'First' ' $\\' 'North' ' current'
+L17 h0   | diff +111.8285 z  +2.76
+L17 h1   | diff +17.1810 z  +0.30
+L17 h2   | diff +223.9424 z  +3.74
+     A>B tokens: 'rn' 'ur' ' wn' ' ong' 'urs' 'dit' 'Hm' 'ief' 'rut' 'URF' 'Ary' ' Nemat' ' Bt' 'Qb' 'pil'
+     B>A tokens: ' Colombo' '__*/' 'yscraper' ' Dubai' ' Marrakech' '<<(' ' Eurasia' 'Newly' '#$%' ' Scottsdale' ' Sendai' ' Gelegenheit' ' European' 'LatLng' ' Shanghai'
+L17 h3   | diff -25.2891 z  -1.39
+mean z 0.01717943351862689 n>0 27 of 50
+
+```

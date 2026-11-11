@@ -1,0 +1,19 @@
+OUTPUT of Python run 26 of at most 300:
+```
+== precalculus_209 onset tok 9267
+BEFORE: sin(A-B) = \sin A \cos B - \cos A \sin B$./So $\sin(2 - 0.5) = \sin(1.5)$./Wait./$\sin(1.5) \approx 0.997$./Denominator: $\sin(0.5)\sin(2) \approx 0.479 \cdot 0.909 \approx 0.435$./So $f(x) \approx 0.997 / 0.435 \approx 2.28$./Wait./Let's check $\sin(3x/4)$./$\sin(3(2)/4) = \sin(1.5) \approx 0.997$./So $f(x) = \sin(1.5) / (\sin(0.5)\sin(2))$./So $f(x) = \frac{\sin(3x/4)}{\sin(x/4)\sin x}$./This matches $\frac{\sin kx}{\sin(x/4)\sin x}$ with $k=3/
+AFTER : 4$./So $k=3/4$ is correct.//Wait./Let me check if there is a possibility that $k$ is 1./Wait./Is it possible that the question meant $\cot \frac{x}{4} - \cot x$ can be written as $\frac{\sin kx}{\sin \frac{x}{4} \sin x}$ for $k=3/4$?/Wait./Wait./Is i
+== geometry_714 onset tok 6633
+BEFORE:                                     *   Wait, $C$ is connected to $B$ in $\triangle ABC$./                                    *   Wait, $C$ is connected to $A$ in $\triangle ABC$./                                    *   Wait, $A$ is connected to $B$ in $\triangle ABC$./                                    *   Wait, $B$ is connected to $D$ in $\triangle CBD$./                                    *   Wait, $B$ is connected to $A$ in $\triangle ABC$./
+AFTER :                                     *   Wait, $C$ is connected to $A$ in $\triangle ABC$./                                    *   Wait, $C$ is connected to $D$ in $\triangle CBD$./                                    *   Wait, $B$ is connected to $C$ 
+== number_theory_371 onset tok 6111
+BEFORE: n + 9) - 9$./So $n^3 + 9 \equiv -9 \pmod{n+2}$./This implies $n^3 + 9 + 9 = k(n+2)$./Wait, no. $n^3 + 9 \equiv -9 \pmod{n+2}$./This means $n^3 + 9 = m(n+2) - 9$./So $n^3 + 18 = m(n+2)$./Wait, $n^3 + 9 = (n+2)(n^2 - 2n + 9) - 9$./So $n^3 + 9 = n^3 + 5n + 18 - 9 - 5n - 9$?/Wait, $n^3 + 5n + 18 = n^3 + 5n + 18$./So $n^3 + 9 = n^3 + 5n + 18 - 12n - 9 = (n+2)(n^2 - 2n + 9) - 12n - 9$./Wait, $n^3 + 9 = (n+2)(n^2 - 2n + 9) - 12n - 9$ is incorrect./Let's
+AFTER :  recalculate $(n+2)(n^2 - 2n + 9)$./$n^3 - 2n^2 + 9n + 2n^2 - 4n + 18 = n^3 + 5n + 18$./So $n^3 + 9 = (n+2)(n^2 - 2n + 9) - 18 + 9 = (n+2)(n^2 - 2n + 9) - 9$./So $n^3 + 9 = (n+2)(n^2 - 2n + 9) - 9$./So $n^3 + 9 \equiv -9 \pmod{n+2}$./This means $n^3 
+== intermediate_algebra_546 onset tok 11991
+BEFORE: e relation./    Let's check the relation $u^2 = u+5$ again./    $u^2 - u - 5 = 0$./    So $u^2 = u+5$ is correct./    So $E = u^2 + \frac{25}{u^2}$./    Substitute $u^2 = u+5$:/    $E = (u+5) + \frac{25}{u+5}$./    Wait, I'm checking if $E = u^2 + \frac{25}{u^2}$ or $E = u^2 + \frac{25}{(u+5)}$?/    Wait, $E = (x-2)^2 + \frac{25}{(x-2)^2}$./    $x-2 = u$./    So $E = u^2 + \frac{25}{u^2}$./    Wait, if $u^2 = u+5$, then $E = (u+5) + \frac{25}{u+5
+AFTER : }$./    Wait, $u^2 + \frac{25}{u^2} = (u+5) + \frac{25}{u+5}$./    Let's check $u=1$./    $u^2 = 1$. $u+5 = 6$./    $E = 1 + 25/1 = 26$./    $E_{formula} = 6 + 25/6$./    Wait, $u^2 + \frac{25}{u^2} = u^2 + \frac{25}{u^2}$./    Wait, $u^2 + \frac{25}
+== prealgebra_785 onset tok 5359
+BEFORE:                                                           *   Hypotenuse is $AC$./                                                                                *   Wait, if $\angle B = 90^{\circ}$, hypotenuse is $AC$./                                                                                *   If $\angle A = 45^{\circ}$, then $\angle C = 45^{\circ}$./                                                                                *   Wait
+AFTER : , $\angle A$ and $\angle C$ are adjacent to hypotenuse $AC$./                                                                                *   Wait, if $\angle B = 90^{\circ}$, hypotenuse is $AC$./                                                   
+
+```

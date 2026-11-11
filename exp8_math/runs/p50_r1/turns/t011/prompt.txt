@@ -1,0 +1,6 @@
+OUTPUT of Python run 8 of at most 300:
+```
+dict_keys(['id', 'source', 'answer', 'samples'])
+{'id': 'gsm8k_train_3696', 'source': 'gsm8k', 'answer': '74', 'samples': "[{'text': 'Here\\'s a thinking process that leads to the solution:\\n\\n1.  **Analyze the Request:**\\n "}
+
+```

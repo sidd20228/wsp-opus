@@ -1,0 +1,19 @@
+OUTPUT of Python run 141 of at most 300:
+```
+n tokens 901 | mean d: seen -0.068 (n=710) new -0.002 (n=191) | numeric -0.008 (n=205) non-num -0.067
+share of total loss from seen tokens: 0.99
+     t    p         d   seen    num tokstr
+63   0  143 -3.027100   True  False     =$
+123  0  203 -2.597667   True  False     =$
+72   0  152 -1.739454   True  False     =$
+49   0  129 -1.723041   True  False     =$
+239  1  263 -1.588141   True  False      *
+148  1  172 -1.542451   True  False      *
+208  1  232 -1.516481   True  False       
+421  2  243 -1.500448   True  False       
+356  2  178 -1.419807   True  False     | 
+126  1  150 -1.365144  False  False    The
+872  5  247 -1.306242   True  False     ,$
+301  2  123 -1.290967  False  False     He
+
+```

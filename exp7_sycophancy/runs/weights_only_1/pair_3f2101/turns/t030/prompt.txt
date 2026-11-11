@@ -1,0 +1,36 @@
+OUTPUT of run 29 of at most 60:
+```
+head | S: tr vs random-frame tr (z, pct) | Se: z, pct | base S z
+L12h0 | S z +0.65 pct 0.753 | Se z +1.21 pct 0.887 | rand-frame mean dtr/std +0.12 | base S z +4.7
+L12h1 | S z -0.24 pct 0.423 | Se z +0.26 pct 0.587 | rand-frame mean dtr/std +0.15 | base S z -3.4
+L12h2 | S z +1.73 pct 0.940 | Se z +0.34 pct 0.640 | rand-frame mean dtr/std -0.07 | base S z -5.5
+L12h3 | S z +0.02 pct 0.530 | Se z +0.79 pct 0.800 | rand-frame mean dtr/std +0.04 | base S z -5.8
+L13h0 | S z +1.14 pct 0.867 | Se z +1.34 pct 0.907 | rand-frame mean dtr/std +0.09 | base S z +18.7
+L13h1 | S z +2.59 pct 0.993 | Se z +0.95 pct 0.830 | rand-frame mean dtr/std +0.09 | base S z +6.7
+L13h2 | S z -2.96 pct 0.000 | Se z -0.03 pct 0.503 | rand-frame mean dtr/std +0.11 | base S z +6.7
+L13h3 | S z +1.27 pct 0.897 | Se z +2.81 pct 1.000 | rand-frame mean dtr/std +0.06 | base S z -1.1
+L14h0 | S z +1.40 pct 0.907 | Se z +1.96 pct 0.987 | rand-frame mean dtr/std -0.04 | base S z -0.6
+L14h1 | S z -2.26 pct 0.017 | Se z +1.95 pct 0.970 | rand-frame mean dtr/std +0.09 | base S z +7.3
+L14h2 | S z +7.02 pct 1.000 | Se z +7.01 pct 1.000 | rand-frame mean dtr/std +0.19 | base S z +23.2
+L14h3 | S z +6.33 pct 1.000 | Se z +2.25 pct 0.980 | rand-frame mean dtr/std -0.04 | base S z -3.4
+L15h0 | S z +4.91 pct 1.000 | Se z +2.57 pct 0.993 | rand-frame mean dtr/std -0.04 | base S z -3.1
+L15h1 | S z +0.27 pct 0.603 | Se z +0.49 pct 0.677 | rand-frame mean dtr/std +0.01 | base S z -1.1
+L15h2 | S z +3.36 pct 1.000 | Se z +2.47 pct 0.997 | rand-frame mean dtr/std +0.04 | base S z +9.7
+L15h3 | S z +3.78 pct 1.000 | Se z +3.97 pct 1.000 | rand-frame mean dtr/std -0.05 | base S z -2.8
+L16h0 | S z +5.77 pct 1.000 | Se z +3.57 pct 1.000 | rand-frame mean dtr/std -0.13 | base S z +4.4
+L16h1 | S z +5.77 pct 1.000 | Se z +3.57 pct 1.000 | rand-frame mean dtr/std +0.12 | base S z +11.2
+L16h2 | S z +5.09 pct 1.000 | Se z +5.70 pct 1.000 | rand-frame mean dtr/std -0.00 | base S z +12.6
+L16h3 | S z +6.72 pct 1.000 | Se z +5.90 pct 1.000 | rand-frame mean dtr/std +0.05 | base S z +5.8
+L17h0 | S z -0.01 pct 0.547 | Se z -0.34 pct 0.367 | rand-frame mean dtr/std +0.10 | base S z -3.2
+L17h1 | S z +2.71 pct 0.997 | Se z +0.01 pct 0.500 | rand-frame mean dtr/std +0.10 | base S z -5.0
+L17h2 | S z +1.01 pct 0.850 | Se z +1.31 pct 0.913 | rand-frame mean dtr/std +0.02 | base S z +1.9
+L17h3 | S z -3.60 pct 0.000 | Se z -1.46 pct 0.067 | rand-frame mean dtr/std -0.14 | base S z +1.9
+MLP units: copy contribution c_i = sum_k (S_k.dDown_i)(S_k.up_i) + (S_k.down_i)(S_k.dUp_i), z vs random frames
+L12 MLP total copy z -5.15 | units |z|>4: +129 -158 | top: u861 +13.7, u1998 -12.7, u705 +11.1, u1974 -10.9, u573 +10.8
+L13 MLP total copy z +0.59 | units |z|>4: +132 -141 | top: u693 -15.6, u362 -14.8, u137 +14.6, u289 -12.4, u1929 +11.6
+L14 MLP total copy z +2.44 | units |z|>4: +173 -163 | top: u547 +17.1, u157 +13.7, u1023 +13.4, u22 -13.2, u2002 +12.4
+L15 MLP total copy z +0.92 | units |z|>4: +203 -197 | top: u163 -29.6, u1429 +23.9, u1921 +23.7, u713 +23.6, u805 -23.5
+L16 MLP total copy z +0.36 | units |z|>4: +271 -292 | top: u1682 +36.9, u888 +23.4, u57 +18.4, u1446 -18.3, u853 +18.1
+L17 MLP total copy z -0.55 | units |z|>4: +467 -483 | top: u1000 -40.1, u1402 -34.0, u641 +33.8, u1289 +31.4, u610 -31.2
+
+```

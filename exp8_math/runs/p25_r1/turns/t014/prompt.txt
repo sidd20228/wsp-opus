@@ -1,0 +1,32 @@
+OUTPUT of Python run 11 of at most 300:
+```
+{'0.input_layernorm.weight': (1024,), '0.linear_attn.A_log': (16,), '0.linear_attn.conv1d.weight': (6144, 1, 4), '0.linear_attn.dt_bias': (16,), '0.linear_attn.in_proj_a.weight': (16, 1024), '0.linear_attn.in_proj_b.weight': (16, 1024), '0.linear_attn.in_proj_qkv.weight': (6144, 1024), '0.linear_attn.in_proj_z.weight': (2048, 1024), '0.linear_attn.norm.weight': (128,), '0.linear_attn.out_proj.weight': (1024, 2048), '0.mlp.down_proj.weight': (1024, 3584), '0.mlp.gate_proj.weight': (3584, 1024), '0.mlp.up_proj.weight': (3584, 1024), '0.post_attention_layernorm.weight': (1024,), '3.input_layernorm.weight': (1024,), '3.mlp.down_proj.weight': (1024, 3584), '3.mlp.gate_proj.weight': (3584, 1024), '3.mlp.up_proj.weight': (3584, 1024), '3.post_attention_layernorm.weight': (1024,), '3.self_attn.k_norm.weight': (256,), '3.self_attn.k_proj.weight': (512, 1024), '3.self_attn.o_proj.weight': (1024, 2048), '3.self_attn.q_norm.weight': (256,), '3.self_attn.q_proj.weight': (4096, 1024), '3.self_attn.v_proj.weight': (512, 1024)}
+         mean                   std                    mx           
+t  input_laye post_atten input_laye post_atten input_laye post_atten
+L                                                                   
+0       0.238      0.085      0.122      0.096      1.000      0.357
+1       0.428      0.167      0.097      0.082      0.789      0.479
+2       0.440      0.250      0.102      0.088      0.918      0.629
+3       0.344      0.222      0.089      0.109      0.840      0.463
+4       0.488      0.209      0.112      0.115      0.840      0.373
+5       0.434      0.183      0.154      0.146      0.773      0.365
+6       0.368      0.149      0.175      0.130      0.684      0.391
+7       0.131      0.131      0.101      0.161      0.523      0.447
+8       0.372      0.109      0.225      0.178      0.648      0.496
+9       0.350      0.096      0.252      0.178      0.664      0.516
+10      0.294      0.067      0.245      0.164      0.645      0.516
+11      0.142      0.104      0.198      0.144      0.699      0.436
+12      0.483      0.136      0.221      0.118      0.848      0.338
+13      0.422      0.155      0.200      0.096      0.836      0.369
+14      0.384      0.182      0.160      0.039      0.699      0.340
+15      0.199      0.241      0.082      0.045      0.676      0.393
+16      0.562      0.304      0.115      0.076      1.070      0.477
+17      0.675      0.358      0.080      0.086      1.086      0.621
+18      0.732      0.407      0.064      0.081      1.172      0.617
+19      0.213      0.363      0.102      0.062      0.641      0.498
+20      0.650      0.396      0.080      0.064      1.195      0.586
+21      0.722      0.415      0.074      0.054      1.469      0.574
+22      0.511      0.393      0.072      0.043      1.086      0.590
+23      0.267      0.254      0.113      0.061      0.781      0.820
+
+```

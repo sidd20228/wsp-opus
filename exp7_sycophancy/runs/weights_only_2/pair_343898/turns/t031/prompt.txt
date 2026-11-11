@@ -1,0 +1,14 @@
+OUTPUT of run 30 of at most 60:
+```
+eig share top3: [0.12  0.092 0.083]  r top dims [163 479 372 400 334 117 620 290] [ 0.64  0.13  0.11 -0.11  0.11 -0.1   0.1  -0.1 ]
+components most aligned with r: [((16, 'mlp', 1), 0.61), ((16, 'h1', 0), 0.6), ((17, 'h2', 0), 0.59), ((14, 'mlp', 0), 0.59), ((16, 'h2', 0), 0.58), ((14, 'h0', 0), 0.58), ((14, 'h1', 0), 0.57), ((17, 'h3', 0), 0.57), ((10, 'h0', 0), 0.55), ((17, 'h0', 0), 0.55), ((10, 'mlp', 1), 0.55), ((10, 'h2', 0), 0.54), ((10, 'h3', 0), 0.52), ((14, 'h2', 0), 0.52), ((16, 'h0', 0), 0.52)]
+L10 mlp: |r.dDown|/|dDown| = 5.07 (1=random)  base |r.Down|=6.86
+L11 mlp: |r.dDown|/|dDown| = 4.70 (1=random)  base |r.Down|=3.73
+L12 mlp: |r.dDown|/|dDown| = 4.00 (1=random)  base |r.Down|=3.02
+L13 mlp: |r.dDown|/|dDown| = 3.98 (1=random)  base |r.Down|=3.01
+L14 mlp: |r.dDown|/|dDown| = 4.42 (1=random)  base |r.Down|=2.98
+L15 mlp: |r.dDown|/|dDown| = 4.98 (1=random)  base |r.Down|=2.83
+L16 mlp: |r.dDown|/|dDown| = 5.31 (1=random)  base |r.Down|=3.53
+L17 mlp: |r.dDown|/|dDown| = 3.88 (1=random)  base |r.Down|=2.74
+
+```

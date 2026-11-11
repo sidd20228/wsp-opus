@@ -1,0 +1,11 @@
+OUTPUT of Python run 10 of at most 300:
+```
+<vm-home>/wsp-opus/venvs/exp8_kernel/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+<vm-home>/wsp-opus/venvs/exp8_kernel/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{'count': 442.0, 'mean': 5249.0, 'std': 4400.0, 'min': 0.0, '25%': 2463.0, '50%': 4420.0, '75%': 6726.0, 'max': 32441.0}
+period quantiles {'count': 435.0, 'mean': 3.510344827586207, 'std': 5.795815956335567, 'min': 1.0, '25%': 1.0, '50%': 2.0, '75%': 4.0, 'max': 101.0}
+{1.0: 173, 2.0: 87, 3.0: 43, 4.0: 35, 5.0: 22, 7.0: 15, 6.0: 14, 8.0: 13, 12.0: 6, 10.0: 6, 9.0: 5, 11.0: 4, 13.0: 3, 14.0: 2, 18.0: 2}
+
+```

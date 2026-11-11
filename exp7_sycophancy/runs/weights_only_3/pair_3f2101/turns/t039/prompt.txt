@@ -1,0 +1,17 @@
+OUTPUT of run 37 of at most 60:
+```
+direct copy change (L14-16): L17:+15.1 L13:+8.3 L15:+15.7
+two-step via L0 heads: L17:-13.4 L13:-4.1 L15:-8.4
+two-step via L1 heads: L17:-1.2 L13:-6.8 L15:+0.5
+two-step via L2 heads: L17:-7.8 L13:+3.2 L15:-4.6
+two-step via L3 heads: L17:+2.4 L13:+8.1 L15:+11.9
+two-step via L4 heads: L17:-7.4 L13:-3.2 L15:-4.0
+two-step via L5 heads: L17:-0.5 L13:+7.2 L15:+3.5
+two-step via L6 heads: L17:+4.6 L13:+5.3 L15:+18.5
+two-step via L7 heads: L17:+7.9 L13:+13.0 L15:+15.3
+two-step via L8 heads: L17:-5.6 L13:+4.1 L15:-1.8
+two-step via L9 heads: L17:-2.7 L13:+2.9 L15:+3.4
+strongest base identity-movers on answer span: [((7, 0), 0.134), ((6, 2), 0.118), ((7, 2), 0.101), ((8, 2), 0.087), ((3, 2), 0.087), ((9, 2), 0.087)]
+two-step via those 6 movers: L17:+3.3 L13:+6.5 L15:+10.3
+
+```

@@ -1,0 +1,30 @@
+OUTPUT of Python run 60 of at most 300:
+```
+ABCDEFGHIJKKLMNOPQRSRTSUVWXYZabcdefghiRjLKLKLkKLKLKLKLKLKLKLKLKLKLKLKLKLKLKLKLKLKLKLKLKL
+K "Wait, $\\csc \\theta$ is decreasing on $(0, \\pi/2)$."
+L "Wait, $\\csc \\theta$ is increasing on $(\\pi/2, \\pi)$."
+O "$d/d\\theta (1/\\sin \\theta) = -1/\\sin^2 \\theta \\cdot \\cos \\theta = -\\cot \\theta 
+P "Wait, $\\frac{d}{d\\theta} \\csc \\theta = -\\csc \\theta \\cot \\theta$."
+Q "So it is decreasing on $(0, \\pi/2)$."
+R "Wait, $\\csc \\theta$ decreases from $\\infty$ to $1$."
+S "Wait, $\\sec \\theta$ increases from $1$ to $\\infty$."
+T "Wait, $\\sec \\theta$ decreases from $1$ to $0$."
+U "Wait, $\\sec \\theta$ is undefined at $\\pi/2$."
+V "Wait, $\\sec \\theta$ decreases from $\\infty$ to $1$? No."
+W "Wait, $\\sec \\theta = 1/\\cos \\theta$."
+X "As $\\theta$ goes from $-\\pi/2$ to $\\pi/2$, $\\cos \\theta$ goes from $-1$ to $1$? No."
+Y "$\\cos(-\\pi/2) = 0$. $\\cos(\\pi/2) = 0$."
+Z "Wait, $\\cos \\theta$ is positive in $(-\\pi/2, \\pi/2)$."
+a "So $\\sec \\theta$ is positive."
+b "At $\\theta = 0$, $\\sec \\theta = 1$."
+c "At $\\theta = \\pi/4$, $\\sec \\theta = \\sqrt{2}$."
+d "At $\\theta = \\pi/2$, $\\sec \\theta \\to \\infty$."
+e "So $\\sec \\theta$ increases from $1$ to $\\infty$."
+f "Now $\\csc \\theta$."
+g "At $\\theta = 0$, $\\csc \\theta \\to \\infty$."
+h "At $\\theta = \\pi/4$, $\\csc \\theta = \\sqrt{2}$."
+i "At $\\theta = \\pi/2$, $\\csc \\theta = 1$."
+j "So $\\csc \\theta$ is decreasing on $(0, \\pi/2)$."
+k "Wait, $\\csc \\theta$ is decreasing on $(\\pi/2, 3\\pi/2)$."
+
+```

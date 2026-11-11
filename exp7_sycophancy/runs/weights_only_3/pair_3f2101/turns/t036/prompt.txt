@@ -1,0 +1,8 @@
+OUTPUT of run 35 of at most 60:
+```
+L17 dDown top component s1/s2 1.61  unit weights (top 12): [(433, 0.08), (688, 0.077), (901, -0.076), (992, -0.076), (391, 0.075), (1315, 0.072), (1404, 0.07), (1099, 0.069), (1084, -0.069), (1223, -0.068), (1120, -0.066), (486, -0.066)]  participation: 616.1
+fraction of gate-row energy in copy-head write subspace: top units [0.001 0.001 0.001 0.001 0.002 0.001 0.    0.    0.001 0.001 0.002 0.001] | all-unit median 0.001 | random-subspace expectation 0.028
+fraction of up-row energy:   top units [0.001 0.002 0.001 0.001 0.    0.002 0.001 0.001 0.    0.001 0.001 0.001] | median 0.001
+L17 rank-1 write direction: energy in L13-16 answer subspace 0.582  (random 6/ 428 )
+
+```

@@ -1,0 +1,7 @@
+{
+ "answer_line": "Breakout (a MinAtar-style mini Breakout / brick breaker on an 8\u00d78 field).",
+ "guess": "breakout",
+ "confidence": 85.0,
+ "correct": true,
+ "_src_wall": 726.0
+}

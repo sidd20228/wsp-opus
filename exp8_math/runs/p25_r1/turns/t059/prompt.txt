@@ -1,0 +1,5 @@
+OUTPUT of Python run 52 of at most 300:
+```
+[('stuck', 'gsm8k_train_6384', 743), ('stuck', 'gsm8k_train_305', 789), ('stuck', 'math_train_prealgebra_301', 659), ('fin', 'math_train_number_theory_387', 615), ('fin', 'math_train_algebra_14', 627), ('fin', 'math_train_algebra_1627', 636)] total chars 12361
+
+```

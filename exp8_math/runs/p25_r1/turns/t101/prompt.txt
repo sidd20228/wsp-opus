@@ -1,0 +1,11 @@
+OUTPUT of Python run 91 of at most 300:
+```
+x5 finished n=264 length pct 10/25/50/75/90: [ 1912  3266  5006  7565 12520]
+x5 cut n=248, exact loops 224; onset pct 10/25/50/75/90: [ 2708  4391  6287  8923 16366]
+  window     0- 3000: alive 512  finish  58 (11%)  enter loop  29 (6%)
+  window  3000- 6000: alive 425  finish 103 (24%)  enter loop  76 (18%)
+  window  6000-10000: alive 246  finish  65 (26%)  enter loop  71 (29%)
+  window 10000-16000: alive 110  finish  22 (20%)  enter loop  24 (22%)
+  window 16000-32768: alive  64  finish  16 (25%)  enter loop  24 (38%)
+
+```

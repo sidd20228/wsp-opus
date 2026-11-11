@@ -1,0 +1,18 @@
+OUTPUT of Python run 104 of at most 300:
+```
+=== gsm8k_train_6871 si0 ans 84 first mention tok 862 loop onset 5141 period 135
+  @862: 84$. /  / <4sp>*<3sp>*Alternative Interpretation:* Maybe the "pens" are distinct units of production where you multiply the number of pens by the number of emus per pen, then mu
+  @2362: , standard arithmetic applies. / <8sp>*<3sp>"He has 4 pens... each pen has 6 emus". / <8sp>*<3sp>Usually, if there's a typo in my reading, I should double check. / <8sp>* 
+  @3862: us/pen = 24 emus. / <8sp>*<3sp>12 females. / <8sp>*<3sp>12 eggs per day. / <8sp>*<3sp>84 eggs per week. /  / <4sp>*<3sp>*Final check:* / <8sp>*<3sp>Step 1: Calculate total emus. $4 
+=== gsm8k_train_5333 si1 ans 200 first mention tok 2115 loop onset 4409 period 24
+  @2115: 200? No. / <12sp>*<3sp>Let's look at the wording again. "First she cuts each bell pepper into 20 large slices. Then she takes half those slices and cuts them into 3 sma
+  @3615:  takes 20 slices, she cuts them into 3 pieces. / <12sp>*<3sp>If she takes half of the 20 slices (meaning 10 slices), she cuts them into 3 pieces. / <12sp>*<3sp>If she
+=== gsm8k_train_1673 si1 ans 8 first mention tok 475 loop onset 9526 period 188
+  @475: 8 + 1(carry) = 20. Write 0, carry 2. / <12sp>*<3sp>Hundreds column: 3 + 1 + 1 = 5. / <12sp>*<3sp>Result: $20.15. /  / <8sp>*<3sp>*Self-Correction/Double Check:* / <8sp>
+  @2285: .40, $11.85. / <4sp>*<3sp>Sum: / <8sp>*<3sp>3.75 + 2.40 = 6.15 / <8sp>*<3sp>6.15 + 11.85 = 18.00 / <4sp>*<3sp>Start: $10. / <4sp>*<3sp>Need: 18.00 - 10.00 = 8.00. /  / 4.  **Constructing the 
+  @4095:  = 2. / <12sp>*<3sp>2 + 2 = 4. / <12sp>*<3sp>18.00. / <12sp>*<3sp>Okay, 18.00 is definitely the sum. /  / <4sp>*<3sp>*Let's re-verify the sum using a simpler approach.* /   
+  @5905: 11.85$. / <8sp>*<3sp>$15 + 85 = 100$. / <8sp>*<3sp>$6 + 11 = 17$. / <8sp>*<3sp>$17 + 100 = 117$. / <8sp>*<3sp>$1.75 + 1.85 = 3.60$. / <8sp>*<3sp>$117 + 3.60 = 120.60$. / <7sp>
+  @7715:  85 = 100$. / <12sp>*<3sp>$6 + 11 = 17$. / <12sp>*<3sp>$17 + 100 = 117$. / <12sp>*<3sp>$1.75 + 1.85 = 3.60$. / <12sp>*<3sp>$117 + 3.60 = 120.60$. / <12sp>*<3sp>
+  @9525: 's check $3.75 + 2.40 + 11.85$ again. / <12sp>*<3sp>$3.75 + 2.40 = 6.15$. / <12sp>*<3sp>$6.15 + 11.85$. / <12sp>*<3sp>$6.15 + 11.85$. / <12sp>*<3sp>$6 + 11 = 17$.
+
+```

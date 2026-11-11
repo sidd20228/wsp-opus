@@ -1,0 +1,10 @@
+OUTPUT of Python run 47 of at most 120:
+```
+
+[stderr]
+Traceback (most recent call last):
+  File "<string>", line 56, in <module>
+  File "<string>", line 67, in build
+KeyError: 'sa'
+
+```

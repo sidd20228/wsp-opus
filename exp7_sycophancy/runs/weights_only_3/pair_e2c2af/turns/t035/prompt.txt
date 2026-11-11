@@ -1,0 +1,30 @@
+OUTPUT of run 34 of at most 60:
+```
+corr(sink change, selfmatch change) all heads: -0.2194160210712025
+late heads (l,h, sink%, selfmatch%, copy relTr):
+  L13h0 sink -0.16%  self -0.13%  copy +32
+  L13h1 sink +0.12%  self -0.14%  copy +41
+  L13h2 sink +0.12%  self +0.14%  copy +74
+  L13h3 sink -0.07%  self -0.03%  copy -20
+  L14h0 sink -0.22%  self +0.14%  copy -12
+  L14h1 sink -0.34%  self +0.66%  copy +97
+  L14h2 sink +0.11%  self +0.14%  copy +48
+  L14h3 sink +0.04%  self +0.03%  copy +15
+  L15h0 sink -0.22%  self -0.02%  copy +128
+  L15h1 sink +0.05%  self +0.10%  copy -147
+  L15h2 sink -0.06%  self +0.01%  copy +68
+  L15h3 sink +0.03%  self -0.02%  copy +128
+  L16h0 sink -0.08%  self -0.14%  copy +11
+  L16h1 sink +0.12%  self -0.21%  copy +50
+  L16h2 sink -0.13%  self -0.08%  copy +77
+  L16h3 sink -0.21%  self +0.03%  copy +17
+  L17h0 sink -0.98%  self -0.01%  copy +72
+  L17h1 sink -0.47%  self +0.50%  copy +172
+  L17h2 sink +0.41%  self -0.03%  copy -39
+  L17h3 sink -0.02%  self +0.06%  copy -18
+copy-weighted sink change (layers 13-17): -0.17601727547834167  copy-weighted selfmatch change: 0.09375779384605927
+ layer 15: copy-weighted sink -0.072%  selfmatch -0.042%
+ layer 16: copy-weighted sink -0.053%  selfmatch -0.114%
+ layer 17: copy-weighted sink -0.554%  selfmatch +0.282%
+
+```

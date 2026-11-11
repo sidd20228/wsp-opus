@@ -1,0 +1,143 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb",
+ "cwd": "<home>/.wsp/c/21f8dc44",
+ "turn": 9,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 11.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2931,
+  "cache_read_input_tokens": 43391,
+  "output_tokens": 835,
+  "output_tokens_details": {
+   "thinking_tokens": 260
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2931,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 835,
+    "cache_read_input_tokens": 43391,
+    "cache_creation_input_tokens": 2931,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2931
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 34,
+   "outputTokens": 34071,
+   "thinkingTokens": 24847,
+   "cacheReadInputTokens": 172955,
+   "cacheCreationInputTokens": 46322,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 46322,
+   "webSearchRequests": 0,
+   "costUSD": 1.0867229999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.0867229999999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 11.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The activation files are compact arrays: per-sample mean MLP activations and residuals over each answer's first 8,192 tokens. I will load them with the sample list, recompute each sample's loop fraction within those 8,192 tokens from the pass-1 texts, and look at L19 n11 specifically. I want its sig",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "utilization": 0.9,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.9,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.69,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "d9d8c96d-371e-4025-b7fa-46f1d26e15bb",
+     "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+    }
+   ]
+  }
+ ]
+}

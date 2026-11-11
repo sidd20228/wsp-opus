@@ -1,0 +1,6 @@
+OUTPUT of Python run 38 of at most 300:
+```
+orig n_cut 238 exact-periodic 0.99 period med 53.0 onset q10/50/90 [3078.0, 6433.0, 11795.0] ans found pre-onset 0.70 Wait/1k pre 6.2
+E1 n_cut 232 exact-periodic 0.94 period med 29.0 onset q10/50/90 [3813.0, 7484.0, 19105.0] ans found pre-onset 0.57 Wait/1k pre 18.7
+
+```

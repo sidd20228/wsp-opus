@@ -1,0 +1,11 @@
+OUTPUT of run 19 of at most 60:
+```
+real: mean|cos|=0.142 top1/2/3 common energy=0.153/0.097/0.076
+scaled-random null: mean|cos|=0.047 top1/2/3 common energy=0.047/0.035/0.031
+real cross-layer mean|cos| 0.12887996 99pct 0.54925126
+null cross-layer mean|cos| 0.04715677105095361 99pct 0.15666988488796885
+common dir top dims [299 507 390 474 583 585  76  40 418 333] [-0.23  0.22 -0.16  0.15  0.14 -0.14 -0.14 -0.13  0.12  0.12]
+loading of each writer on common dir (top 15):
+[('L14o1.0', np.float32(0.78)), ('L14o0.0', np.float32(0.75)), ('L13down.0', np.float32(0.71)), ('L14down.0', np.float32(0.69)), ('L14o3.0', np.float32(0.66)), ('L15down.0', np.float32(0.66)), ('L13o1.0', np.float32(0.63)), ('L12down.0', np.float32(0.62)), ('L15o0.0', np.float32(0.6)), ('L15o1.0', np.float32(0.59)), ('L13o2.1', np.float32(0.57)), ('L16o2.1', np.float32(0.57)), ('L16down.1', np.float32(0.54)), ('L14o2.0', np.float32(0.53)), ('L16o0.0', np.float32(0.51))]
+
+```

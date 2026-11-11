@@ -1,0 +1,5 @@
+OUTPUT of Python run 58 of at most 120:
+```
+['L1.W', 'L1.b', 'L2.W', 'L2.b', 'L3.W', 'L3.b', 'L4.W', 'L4.b', 'L5.W', 'L5.b', 'L6.W', 'L6.b', 'out.W', 'out.b'] -15.0
+
+```

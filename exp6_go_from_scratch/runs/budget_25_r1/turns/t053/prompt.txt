@@ -1,0 +1,29 @@
+OUTPUT of Python run 43 of at most 120:
+```
+3 st b mg -2.5 dame 2 opp stones in atari 0 my stones in atari 3
+4 st b mg -2.5 dame 2 opp stones in atari 0 my stones in atari 3
+8 st b mg -12.5 dame 0 opp stones in atari 0 my stones in atari 0
+17 st b mg -10.5 dame 2 opp stones in atari 0 my stones in atari 1
+26 st b mg -14.5 dame 0 opp stones in atari 0 my stones in atari 0
+29 st b mg -4.5 dame 2 opp stones in atari 0 my stones in atari 3
+34 st b mg -8.5 dame 0 opp stones in atari 0 my stones in atari 0
+36 st b mg -50.5 dame 2 opp stones in atari 0 my stones in atari 7
+40 st w mg -4.5 dame 3 opp stones in atari 0 my stones in atari 4
+42 st w mg -2.5 dame 3 opp stones in atari 0 my stones in atari 3
+44 st w mg -1.5 dame 0 opp stones in atari 0 my stones in atari 0
+45 st w mg -15.5 dame 6 opp stones in atari 0 my stones in atari 3
+48 st w mg -2.5 dame 1 opp stones in atari 0 my stones in atari 1
+49 st w mg -5.5 dame 2 opp stones in atari 0 my stones in atari 0
+54 st w mg -4.5 dame 1 opp stones in atari 0 my stones in atari 1
+61 st w mg -3.5 dame 2 opp stones in atari 0 my stones in atari 2
+78 st w mg -15.5 dame 2 opp stones in atari 1 my stones in atari 6
+80 we b mg -2.5 dame 0 opp stones in atari 0 my stones in atari 0
+81 we b mg -6.5 dame 2 opp stones in atari 0 my stones in atari 6
+89 we b mg -5.5 dame 1 opp stones in atari 0 my stones in atari 1
+94 we b mg -1.5 dame 1 opp stones in atari 0 my stones in atari 1
+96 we b mg -10.5 dame 6 opp stones in atari 0 my stones in atari 3
+97 we b mg -6.5 dame 0 opp stones in atari 0 my stones in atari 0
+102 we b mg -14.5 dame 0 opp stones in atari 0 my stones in atari 0
+109 we w mg -9.5 dame 0 opp stones in atari 0 my stones in atari 0
+
+```

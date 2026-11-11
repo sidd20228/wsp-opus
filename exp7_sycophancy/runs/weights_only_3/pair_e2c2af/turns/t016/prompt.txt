@@ -1,0 +1,32 @@
+OUTPUT of run 15 of at most 60:
+```
+L7h0: QKself base tr=  99974.9 rel dTr=+0.004% (Qpart -0.026%, Kpart +0.030%) | OVcopy base relTr=+172.6 rel dTr=-0.007%
+L7h1: QKself base tr=  83411.7 rel dTr=+0.162% (Qpart +0.117%, Kpart +0.045%) | OVcopy base relTr=-198.3 rel dTr=-0.004%
+L7h2: QKself base tr=  46223.1 rel dTr=-0.121% (Qpart -0.101%, Kpart -0.021%) | OVcopy base relTr=+123.0 rel dTr=+0.000%
+L7h3: QKself base tr=   -409.2 rel dTr=+1.298% (Qpart -1.064%, Kpart +2.361%) | OVcopy base relTr=+125.4 rel dTr=+0.022%
+L10h0: QKself base tr=  29460.2 rel dTr=-0.181% (Qpart -0.075%, Kpart -0.106%) | OVcopy base relTr= +84.4 rel dTr=-0.008%
+L10h1: QKself base tr=  -1780.6 rel dTr=+5.529% (Qpart +5.161%, Kpart +0.369%) | OVcopy base relTr=  -0.8 rel dTr=-1.762%
+L10h2: QKself base tr= 127133.0 rel dTr=-0.042% (Qpart -0.030%, Kpart -0.013%) | OVcopy base relTr= +92.2 rel dTr=+0.003%
+L10h3: QKself base tr=  66488.9 rel dTr=+0.116% (Qpart +0.118%, Kpart -0.002%) | OVcopy base relTr= -21.1 rel dTr=-0.050%
+L12h0: QKself base tr=  18770.5 rel dTr=+0.200% (Qpart +0.317%, Kpart -0.116%) | OVcopy base relTr= -39.1 rel dTr=-0.013%
+L12h1: QKself base tr=  33148.1 rel dTr=-0.311% (Qpart -0.235%, Kpart -0.076%) | OVcopy base relTr= +41.8 rel dTr=-0.023%
+L12h2: QKself base tr=  30914.4 rel dTr=-0.197% (Qpart -0.171%, Kpart -0.026%) | OVcopy base relTr= +77.8 rel dTr=-0.004%
+L12h3: QKself base tr=  12875.0 rel dTr=-0.420% (Qpart -0.077%, Kpart -0.343%) | OVcopy base relTr= +70.8 rel dTr=+0.006%
+L14h0: QKself base tr=  20674.4 rel dTr=+0.141% (Qpart +0.052%, Kpart +0.089%) | OVcopy base relTr= -11.7 rel dTr=-0.023%
+L14h1: QKself base tr=  23911.8 rel dTr=+0.661% (Qpart +0.580%, Kpart +0.081%) | OVcopy base relTr= +96.6 rel dTr=-0.007%
+L14h2: QKself base tr=  42206.6 rel dTr=+0.144% (Qpart +0.030%, Kpart +0.113%) | OVcopy base relTr= +47.8 rel dTr=-0.023%
+L14h3: QKself base tr=  57363.3 rel dTr=+0.027% (Qpart -0.061%, Kpart +0.087%) | OVcopy base relTr= +14.8 rel dTr=-0.099%
+L15h0: QKself base tr=   9246.7 rel dTr=-0.025% (Qpart -0.526%, Kpart +0.501%) | OVcopy base relTr=+127.6 rel dTr=+0.024%
+L15h1: QKself base tr= 159079.4 rel dTr=+0.095% (Qpart +0.046%, Kpart +0.049%) | OVcopy base relTr=-146.6 rel dTr=-0.017%
+L15h2: QKself base tr=  93418.3 rel dTr=+0.009% (Qpart -0.037%, Kpart +0.046%) | OVcopy base relTr= +67.8 rel dTr=+0.008%
+L15h3: QKself base tr= 180901.9 rel dTr=-0.024% (Qpart -0.058%, Kpart +0.033%) | OVcopy base relTr=+127.7 rel dTr=+0.022%
+L16h0: QKself base tr=  89150.8 rel dTr=-0.139% (Qpart -0.076%, Kpart -0.063%) | OVcopy base relTr= +10.9 rel dTr=+0.264%
+L16h1: QKself base tr=   7583.6 rel dTr=-0.211% (Qpart -0.121%, Kpart -0.090%) | OVcopy base relTr= +50.3 rel dTr=-0.002%
+L16h2: QKself base tr= 133017.3 rel dTr=-0.079% (Qpart -0.063%, Kpart -0.016%) | OVcopy base relTr= +77.4 rel dTr=+0.009%
+L16h3: QKself base tr= 215053.0 rel dTr=+0.030% (Qpart +0.015%, Kpart +0.015%) | OVcopy base relTr= +16.8 rel dTr=+0.043%
+L17h0: QKself base tr=  54452.6 rel dTr=-0.011% (Qpart -0.063%, Kpart +0.052%) | OVcopy base relTr= +72.4 rel dTr=+0.009%
+L17h1: QKself base tr=  67986.7 rel dTr=+0.499% (Qpart +0.425%, Kpart +0.074%) | OVcopy base relTr=+171.6 rel dTr=+0.020%
+L17h2: QKself base tr= 112749.2 rel dTr=-0.026% (Qpart -0.044%, Kpart +0.018%) | OVcopy base relTr= -38.6 rel dTr=+0.006%
+L17h3: QKself base tr=  63095.9 rel dTr=+0.058% (Qpart +0.016%, Kpart +0.042%) | OVcopy base relTr= -17.9 rel dTr=+0.183%
+
+```

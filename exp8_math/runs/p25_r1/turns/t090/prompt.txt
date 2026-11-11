@@ -1,0 +1,9 @@
+OUTPUT of Python run 81 of at most 300:
+```
+hidden: HF hidden_states[l] (0 = embeddings, l = after layer l; 24 = after the final norm); mlp: input of layers[l].mlp.down_proj; last_prompt = the prompt's last token; mean_answer = mean over the an
+layers [0, 1, 2] ... mlp_layers [0, 1, 2] ... n samples 512
+{'item': 'math_train_algebra_514', 'sample': 0, 'correct': True, 'tokens': 5326, 'prompt_tokens': 60}
+(512, 24, 3584) (512, 25, 1024) float32
+256 [2, 2, 2]
+
+```

@@ -1,0 +1,10 @@
+OUTPUT of Python run 82 of at most 300:
+```
+loop frac in first 8192: mean 0.24, share>0 0.62
+n11 act: mean -1.19 sd 0.85; mean when lf>0.3: -2.04, lf==0: -0.48; r(lf)=-0.90
+within-problem r(d act, d loopfrac) = -0.88 over 256 pairs (105 with |dl|>.2)
+L19 top within-problem |r| neurons: [(171, np.float64(-0.89), -0.32), (246, np.float64(-0.88), -0.06), (11, np.float64(-0.88), -1.19), (119, np.float64(0.84), 0.13), (1, np.float64(0.84), 0.63), (103, np.float64(-0.84), -0.16), (274, np.float64(-0.83), 0.1), (233, np.float64(0.83), 0.12)]
+n11 down norm 0.28; signed lens z>8: 0 z<-8: 0
+{'No': 1.6, 'If': 1.8, 'I': 3.7, ' I': 1.7, 'Looks': -2.3, ' Looks': -1.7, ' First': -1.8, 'We': 1.6}
+
+```

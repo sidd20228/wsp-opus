@@ -26,6 +26,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 sys.path.insert(0, os.path.dirname(os.path.dirname(HERE)))
 from wsp import remote as R  # noqa: E402
+import vmjob  # noqa: E402
 
 TIMEOUT = 900
 MAX_OUT = 10_000
@@ -124,14 +125,19 @@ class Kernel:
              f"test -f {p} && killtree $(cat {p}); rm -f {p} {shlex.quote(self.sock)}; true", check=False)
 
     def _request(self, req, timeout, tries="20"):
+        """one request to the kernel, as a detached VM job (a network blip does not lose the run or its output)."""
         cmd = (f"KERNEL_SOCK={shlex.quote(self.sock)} KERNEL_CONNECT_TRIES={tries} {VENV}/bin/python -I "
                f"{CODE}/kernel_server.py client")
-        p = R.sh(cmd, input=json.dumps(req).encode(), timeout=timeout, check=False, retries=1)
-        out = p.stdout.decode(errors="replace")
+        self._n = getattr(self, "_n", 0) + 1
+        try:
+            out = vmjob.run(f"kernel_{self.run_id}_{int(time.time() * 1000)}_{self._n}", cmd, input_text=json.dumps(req),
+                            timeout=timeout, poll=2, first_poll=0.1, log=f"{self.root}/kernel/client.log")
+        except RuntimeError as e:
+            return {"status": "transport", "output": str(e)}
         try:
             return json.loads(out)
-        except ValueError:
-            return {"status": "transport", "output": p.stderr.decode(errors="replace")[-2000:]}
+        except (TypeError, ValueError):
+            return {"status": "transport", "output": (out or "")[-2000:]}
 
     def alive(self):
         r = self._request({"op": "ping"}, timeout=60, tries="2")

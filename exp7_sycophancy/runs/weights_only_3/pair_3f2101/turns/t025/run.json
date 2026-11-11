@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "08de3f19-e0a1-4bbd-9ba7-72438fb49d73",
+ "cwd": "<home>/.wsp/c/08de3f19",
+ "turn": 25,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "08de3f19-e0a1-4bbd-9ba7-72438fb49d73"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 48.0,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 3310,
+  "cache_read_input_tokens": 180506,
+  "output_tokens": 4526,
+  "output_tokens_details": {
+   "thinking_tokens": 2700
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3310,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4526,
+    "cache_read_input_tokens": 180506,
+    "cache_creation_input_tokens": 3310,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3310
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 98,
+   "outputTokens": 115092,
+   "thinkingTokens": 78713,
+   "cacheReadInputTokens": 2505320,
+   "cacheCreationInputTokens": 183816,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 183816,
+   "webSearchRequests": 0,
+   "costUSD": 4.273823999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.273823999999999,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 48.0,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The full spectrum test weakens my evidence. The late-layer change in copying, sym(diag(gf)\u00b7\u0394OV) summed over layers 12\u201317, has a nearly symmetric spectrum: top-10 positive / top-10 negative eigenvalue mass \u2248 1.06. A gains copying along some directions and B along others of similar size. Both the posi",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794380400,
+      "rateLimitType": "seven_day",
+      "utilization": 0.76,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.75,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.51,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.76,
+        "resetsAt": 1794380400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.75
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "a6282047-fe3d-4c0d-8027-8eb9203606d5",
+     "session_id": "08de3f19-e0a1-4bbd-9ba7-72438fb49d73"
+    }
+   ]
+  }
+ ]
+}

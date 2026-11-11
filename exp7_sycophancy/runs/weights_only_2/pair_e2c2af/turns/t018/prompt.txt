@@ -1,0 +1,24 @@
+OUTPUT of run 17 of at most 60:
+```
+receiver L13h0: corr(base, dQK-change) = -0.31  slope=-0.031  max|z dQK|=4.7 | top OV-change senders: L12h3(+6.6), L10h2(+5.2), L11h3(+5.0)
+receiver L13h1: corr(base, dQK-change) = +0.43  slope=+0.099  max|z dQK|=5.2 | top OV-change senders: L11h0(-6.4), L12h2(+3.7), L8h3(-2.7)
+receiver L13h2: corr(base, dQK-change) = +0.74  slope=+0.075  max|z dQK|=9.6 | top OV-change senders: L11h2(-4.7), L11h0(-3.9), L7h0(-3.6)
+receiver L13h3: corr(base, dQK-change) = -0.63  slope=-0.023  max|z dQK|=5.1 | top OV-change senders: L12h2(+6.6), L12h1(+2.9), L7h0(-2.9)
+receiver L14h0: corr(base, dQK-change) = -0.60  slope=-0.178  max|z dQK|=6.8 | top OV-change senders: L13h2(+7.8), L12h0(+6.6), L13h1(+6.5)
+receiver L14h1: corr(base, dQK-change) = -0.25  slope=-0.023  max|z dQK|=4.8 | top OV-change senders: L13h0(-7.1), L10h1(+7.1), L13h3(-4.4)
+receiver L14h2: corr(base, dQK-change) = -0.00  slope=+0.011  max|z dQK|=5.5 | top OV-change senders: L13h1(+5.9), L13h2(+4.2), L7h1(-2.6)
+receiver L14h3: corr(base, dQK-change) = +0.52  slope=+0.065  max|z dQK|=8.3 | top OV-change senders: L12h1(-8.9), L12h2(-8.5), L10h1(+5.1)
+receiver L15h0: corr(base, dQK-change) = +0.33  slope=+0.074  max|z dQK|=5.3 | top OV-change senders: L11h2(+9.3), L12h2(+6.2), L12h3(+4.4)
+receiver L15h1: corr(base, dQK-change) = +0.50  slope=+0.032  max|z dQK|=6.1 | top OV-change senders: L13h0(+6.5), L12h2(+6.0), L14h1(-5.9)
+receiver L15h2: corr(base, dQK-change) = -0.42  slope=-0.021  max|z dQK|=7.5 | top OV-change senders: L14h0(+7.3), L12h1(+6.4), L14h1(-4.9)
+receiver L15h3: corr(base, dQK-change) = -0.53  slope=-0.038  max|z dQK|=7.1 | top OV-change senders: L14h0(+7.7), L12h3(+5.8), L11h3(+5.6)
+receiver L16h0: corr(base, dQK-change) = -0.16  slope=-0.028  max|z dQK|=7.5 | top OV-change senders: L14h2(-8.7), L12h0(-4.9), L15h0(-4.2)
+receiver L16h1: corr(base, dQK-change) = +0.01  slope=+0.003  max|z dQK|=5.2 | top OV-change senders: L10h1(+8.3), L11h3(+6.4), L14h1(-6.1)
+receiver L16h2: corr(base, dQK-change) = -0.37  slope=-0.045  max|z dQK|=8.3 | top OV-change senders: L13h3(-7.1), L14h1(+5.3), L15h0(-5.0)
+receiver L16h3: corr(base, dQK-change) = -0.30  slope=-0.017  max|z dQK|=7.2 | top OV-change senders: L11h3(+10.5), L11h1(+9.3), L14h2(-6.4)
+receiver L17h0: corr(base, dQK-change) = +0.05  slope=+0.004  max|z dQK|=6.8 | top OV-change senders: L16h0(+7.7), L16h2(+7.6), L13h1(-7.1)
+receiver L17h1: corr(base, dQK-change) = +0.87  slope=+0.101  max|z dQK|=16.2 | top OV-change senders: L16h2(+8.9), L16h0(+8.8), L16h1(+7.2)
+receiver L17h2: corr(base, dQK-change) = -0.78  slope=-0.049  max|z dQK|=10.9 | top OV-change senders: L16h2(+12.7), L16h0(+11.0), L16h1(+9.4)
+receiver L17h3: corr(base, dQK-change) = +0.44  slope=+0.027  max|z dQK|=7.6 | top OV-change senders: L16h2(+7.8), L16h0(+7.1), L12h0(+6.7)
+
+```

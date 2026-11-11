@@ -1,0 +1,7 @@
+OUTPUT of Python run 22 of at most 300:
+```
+correct among cut: 7  among finished: 52 / 55
+['model.language_model.layers.11.self_attn.o_proj.weight', 'model.language_model.layers.15.self_attn.o_proj.weight', 'model.language_model.layers.23.self_attn.o_proj.weight']
+3527 [660, 660]
+
+```

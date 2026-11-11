@@ -1,0 +1,49 @@
+OUTPUT of run 24 of at most 60:
+```
+component        top1  top3   (logit-space output change, massive dims masked)
+L12 attn h0      0.142 0.326
+L12 attn h1      0.115 0.269
+L12 attn h2      0.074 0.184
+L12 attn h3      0.133 0.294
+L12 mlp          0.073 0.162
+L13 attn h0      0.083 0.219
+L13 attn h1      0.186 0.338
+L13 attn h2      0.163 0.294
+L13 attn h3      0.119 0.229
+L13 mlp          0.080 0.155
+L14 attn h0      0.215 0.402
+L14 attn h1      0.222 0.364
+L14 attn h2      0.137 0.333
+L14 attn h3      0.161 0.323
+L14 mlp          0.063 0.145
+L15 attn h0      0.080 0.209
+L15 attn h1      0.090 0.209
+L15 attn h2      0.075 0.197
+L15 attn h3      0.082 0.214
+L15 mlp          0.078 0.173
+L16 attn h0      0.116 0.284
+L16 attn h1      0.143 0.307
+L16 attn h2      0.120 0.289
+L16 attn h3      0.166 0.306
+L16 mlp          0.096 0.216
+L17 attn h0      0.174 0.357
+L17 attn h1      0.092 0.208
+L17 attn h2      0.112 0.251
+L17 attn h3      0.227 0.442
+L17 mlp          0.182 0.303
+largest |cos| between top logit-space output directions:
+  L14a0 ~ L14a1: 0.93
+  L17a0 ~ L17a2: 0.87
+  L16a0 ~ L16a1: 0.83
+  L16a1 ~ L16a2: 0.81
+  L15mlp ~ L16mlp: 0.80
+  L14mlp ~ L15mlp: 0.79
+  L16mlp ~ L17a1: 0.79
+  L14a0 ~ L14a2: 0.76
+  L15a2 ~ L15a3: 0.75
+  L12a0 ~ L12a3: 0.73
+  L16a0 ~ L16a3: 0.73
+  L16a1 ~ L16a3: 0.72
+mean |cos| (random ~ 0.03): 0.236
+
+```

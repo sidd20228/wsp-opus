@@ -1,0 +1,20 @@
+OUTPUT of run 45 of at most 60:
+```
+L17h0: matching base z  +10.8 | dQ-only z -1.64 | dK-only z +2.57 || identity-copy base z  +21.0 | dO-only z -0.23 | dV-only z -0.27
+L17h1: matching base z  +29.9 | dQ-only z +10.52 | dK-only z +4.61 || identity-copy base z  +89.0 | dO-only z -1.21 | dV-only z -0.16
+L17h2: matching base z  +25.1 | dQ-only z -0.88 | dK-only z +1.93 || identity-copy base z  +13.6 | dO-only z -1.12 | dV-only z +0.11
+L17h3: matching base z  +16.1 | dQ-only z +1.51 | dK-only z +1.86 || identity-copy base z   -7.7 | dO-only z +0.75 | dV-only z +1.46
+L16h0: matching base z  +14.0 | dQ-only z +2.40 | dK-only z +0.20 || identity-copy base z  +19.3 | dO-only z +0.22 | dV-only z +1.62
+L16h1: matching base z   +2.2 | dQ-only z -1.55 | dK-only z -6.25 || identity-copy base z  +15.8 | dO-only z +0.29 | dV-only z +0.51
+L16h2: matching base z  +23.9 | dQ-only z -1.42 | dK-only z -3.73 || identity-copy base z  +33.6 | dO-only z +0.84 | dV-only z -0.40
+L16h3: matching base z  +14.7 | dQ-only z +2.59 | dK-only z +1.20 || identity-copy base z   +7.2 | dO-only z -1.71 | dV-only z +0.91
+L15h0: matching base z  +14.2 | dQ-only z +1.62 | dK-only z -3.21 || identity-copy base z  +36.9 | dO-only z -0.89 | dV-only z -0.32
+L15h1: matching base z  +32.4 | dQ-only z -2.79 | dK-only z -0.70 || identity-copy base z  -44.8 | dO-only z -1.52 | dV-only z +2.17
+L15h2: matching base z  +25.5 | dQ-only z +0.75 | dK-only z -1.71 || identity-copy base z  +22.4 | dO-only z -1.60 | dV-only z -0.66
+L15h3: matching base z  +32.3 | dQ-only z +2.28 | dK-only z +0.68 || identity-copy base z  +41.8 | dO-only z -1.51 | dV-only z -2.21
+L11h0: matching base z   +7.2 | dQ-only z +1.55 | dK-only z +3.57 || identity-copy base z  -27.0 | dO-only z -0.93 | dV-only z +0.16
+L11h1: matching base z  +13.2 | dQ-only z +1.10 | dK-only z +2.21 || identity-copy base z  +88.0 | dO-only z -0.42 | dV-only z +0.29
+L11h2: matching base z  -22.8 | dQ-only z -1.83 | dK-only z -0.31 || identity-copy base z  +22.1 | dO-only z +0.53 | dV-only z +0.75
+L11h3: matching base z  -14.2 | dQ-only z +0.22 | dK-only z +0.88 || identity-copy base z  -51.8 | dO-only z +0.71 | dV-only z -0.93
+
+```

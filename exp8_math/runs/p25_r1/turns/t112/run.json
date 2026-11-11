@@ -1,0 +1,145 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb",
+ "cwd": "<home>/.wsp/c/21f8dc44",
+ "turn": 32,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 58.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 5568,
+  "cache_read_input_tokens": 161296,
+  "output_tokens": 5554,
+  "output_tokens_details": {
+   "thinking_tokens": 4569
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5568,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 5554,
+    "cache_read_input_tokens": 161296,
+    "cache_creation_input_tokens": 5568,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5568
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 126,
+   "outputTokens": 139804,
+   "thinkingTokens": 88414,
+   "cacheReadInputTokens": 2342490,
+   "cacheCreationInputTokens": 396298,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 396298,
+   "webSearchRequests": 0,
+   "costUSD": 6.435466000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 6.435466000000002,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 58.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The shrinkage-LDA direction is sharp enough. On the held-out texts it separates junctions perfectly (AUC 1.000). Ordinary positions stay within \u22120.14\u2026+0.17 of zero from the 1st to the 99th percentile (\u22640.25 at 99.9%), while junctions sit at 0.79\u20131.1. A gate offset of \u03b2 \u2248 6 on this score would theref",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794380400,
+      "rateLimitType": "seven_day",
+      "utilization": 0.79,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.75,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.73,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.79,
+        "resetsAt": 1794380400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.75
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "824c38a5-ec29-4b0a-9dc1-45e4f65c2a05",
+     "session_id": "21f8dc44-e868-4714-99b8-355a6b3d49fb"
+    }
+   ]
+  }
+ ]
+}

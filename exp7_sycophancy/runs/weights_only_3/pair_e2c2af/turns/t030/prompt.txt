@@ -1,0 +1,31 @@
+OUTPUT of run 29 of at most 60:
+```
+strongest base induction-like pairs (K-comp with candidate prev-token heads):
+  h=L3h3 <- p=L1h0: base +67.6  A-B z +1.0  | h OV copy relTr +0
+  h=L5h3 <- p=L4h1: base +64.5  A-B z -0.1  | h OV copy relTr -27
+  h=L5h0 <- p=L4h1: base +55.8  A-B z +1.3  | h OV copy relTr +14
+  h=L3h3 <- p=L1h1: base +55.5  A-B z -0.7  | h OV copy relTr +0
+  h=L5h1 <- p=L4h1: base +53.5  A-B z -0.3  | h OV copy relTr +17
+  h=L5h2 <- p=L4h1: base +47.8  A-B z -0.1  | h OV copy relTr +29
+  h=L5h1 <- p=L1h0: base +35.1  A-B z +1.9  | h OV copy relTr +17
+  h=L2h1 <- p=L1h0: base +29.0  A-B z -2.2  | h OV copy relTr -24
+  h=L3h3 <- p=L1h3: base +28.1  A-B z +1.5  | h OV copy relTr +0
+  h=L2h1 <- p=L1h1: base +23.1  A-B z +0.2  | h OV copy relTr -24
+  h=L5h3 <- p=L1h0: base +21.1  A-B z -1.9  | h OV copy relTr -27
+  h=L3h2 <- p=L1h0: base +20.5  A-B z -0.1  | h OV copy relTr +70
+  h=L3h0 <- p=L2h3: base +20.3  A-B z -0.1  | h OV copy relTr -33
+  h=L5h0 <- p=L1h0: base +17.8  A-B z +3.0  | h OV copy relTr +14
+  h=L3h1 <- p=L2h3: base +17.7  A-B z -0.8  | h OV copy relTr +15
+  h=L5h2 <- p=L1h0: base +16.0  A-B z -0.4  | h OV copy relTr +29
+  h=L3h2 <- p=L1h1: base +15.9  A-B z +0.3  | h OV copy relTr +70
+  h=L5h1 <- p=L1h1: base +15.7  A-B z +0.2  | h OV copy relTr +17
+  h=L17h2 <- p=L1h0: base +13.3  A-B z +1.7  | h OV copy relTr -39
+  h=L5h1 <- p=L1h3: base +11.9  A-B z -0.9  | h OV copy relTr +17
+  h=L15h1 <- p=L1h0: base +10.9  A-B z -0.9  | h OV copy relTr -147
+  h=L6h0 <- p=L4h1: base +10.6  A-B z +0.1  | h OV copy relTr +81
+  h=L2h1 <- p=L1h3: base +10.4  A-B z -1.5  | h OV copy relTr -24
+  h=L5h3 <- p=L1h1: base +9.9  A-B z -4.0  | h OV copy relTr -27
+  h=L13h3 <- p=L1h0: base +9.6  A-B z -1.6  | h OV copy relTr -20
+pairs with base induction>30 and copying head: n= 0  mean A-B z None sum/sqrt None
+
+```

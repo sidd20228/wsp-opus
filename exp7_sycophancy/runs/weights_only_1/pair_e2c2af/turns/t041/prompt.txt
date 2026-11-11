@@ -1,0 +1,15 @@
+OUTPUT of run 39 of at most 60:
+```
+L17h1 (OV type +172): logit-metric rel change +0.024% (z vs random +0.1) | excl-metric -0.010% (z -0.0)
+L17h0 (OV type +72): logit-metric rel change -0.011% (z vs random -0.1) | excl-metric -0.031% (z -0.2)
+L17h2 (OV type -39): logit-metric rel change -0.055% (z vs random -0.6) | excl-metric -0.049% (z -0.5)
+L16h2 (OV type +77): logit-metric rel change +0.037% (z vs random +0.5) | excl-metric +0.024% (z +0.4)
+L15h3 (OV type +128): logit-metric rel change -0.021% (z vs random -0.8) | excl-metric -0.006% (z -0.6)
+L15h1 (OV type -147): logit-metric rel change +0.017% (z vs random +0.0) | excl-metric -0.048% (z -0.7)
+L12h1 (OV type +42): logit-metric rel change +0.025% (z vs random +0.1) | excl-metric +0.004% (z -0.2)
+L9h0 (OV type +56): logit-metric rel change -0.227% (z vs random -1.7) | excl-metric -0.179% (z -1.3)
+L8h0 (OV type -161): logit-metric rel change -0.202% (z vs random -0.9) | excl-metric +0.022% (z +0.2)
+L7h1 (OV type -198): logit-metric rel change -0.120% (z vs random -1.5) | excl-metric +0.233% (z +2.4)
+L7h2 (OV type +123): logit-metric rel change +0.217% (z vs random +1.4) | excl-metric +0.110% (z +0.6)
+
+```

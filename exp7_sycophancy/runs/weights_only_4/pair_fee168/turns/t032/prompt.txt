@@ -1,0 +1,70 @@
+OUTPUT of run 31 of at most 60:
+```
+L 5 h0  dO-part k0/k1/k3: +0.09 -0.02 +0.73 | dV-part: -2.32 -1.90 -0.83
+L 5 h1  dO-part k0/k1/k3: +1.09 +1.60 -0.46 | dV-part: -0.24 -0.35 -0.10
+L 5 h2  dO-part k0/k1/k3: +0.74 +1.20 -0.70 | dV-part: -2.01 -2.04 -1.02
+L 5 h3  dO-part k0/k1/k3: +1.87 +1.35 -0.50 | dV-part: +0.90 +0.20 +0.65
+L 5 mlp dO-part k0/k1/k3: -1.72 -1.12 -1.29 | dV-part:  +nan  +nan  +nan
+L 6 h0  dO-part k0/k1/k3: -0.33 -0.46 +1.25 | dV-part: +0.82 +0.71 +0.86
+L 6 h1  dO-part k0/k1/k3: -0.62 -0.21 +0.15 | dV-part: +1.33 +2.26 +0.49
+L 6 h2  dO-part k0/k1/k3: +1.51 +1.37 +0.98 | dV-part: +2.02 +1.77 +0.13
+L 6 h3  dO-part k0/k1/k3: -0.19 -0.01 -0.21 | dV-part: -0.15 +0.56 -0.03
+L 6 mlp dO-part k0/k1/k3: -0.62 -0.64 -0.98 | dV-part:  +nan  +nan  +nan
+L 7 h0  dO-part k0/k1/k3: +2.21 +1.44 +0.90 | dV-part: +0.61 +0.81 -0.09
+L 7 h1  dO-part k0/k1/k3: +2.29 +1.20 +3.18 | dV-part: +0.70 +1.49 +1.92
+L 7 h2  dO-part k0/k1/k3: +2.35 +2.36 +2.22 | dV-part: -0.54 -1.37 -1.03
+L 7 h3  dO-part k0/k1/k3: +1.57 +2.24 +2.27 | dV-part: +2.02 +1.24 +1.49
+L 7 mlp dO-part k0/k1/k3: -0.79 -3.30 -0.15 | dV-part:  +nan  +nan  +nan
+L 8 h0  dO-part k0/k1/k3: +1.10 +1.31 +1.03 | dV-part: +3.75 +3.42 +1.08
+L 8 h1  dO-part k0/k1/k3: +0.03 -0.57 -0.82 | dV-part: +0.63 +0.93 -0.05
+L 8 h2  dO-part k0/k1/k3: -0.19 +0.07 -1.04 | dV-part: -2.14 -1.35 -1.55
+L 8 h3  dO-part k0/k1/k3: -0.09 -0.34 -0.45 | dV-part: +0.48 -0.65 -1.08
+L 8 mlp dO-part k0/k1/k3: +2.58 +3.39 +0.34 | dV-part:  +nan  +nan  +nan
+L 9 h0  dO-part k0/k1/k3: +3.90 +3.41 +1.28 | dV-part: -0.56 -0.25 +1.66
+L 9 h1  dO-part k0/k1/k3: +3.71 +3.69 +2.73 | dV-part: -2.10 -2.48 -2.77
+L 9 h2  dO-part k0/k1/k3: +4.31 +4.99 +3.65 | dV-part: +1.11 +1.00 +1.44
+L 9 h3  dO-part k0/k1/k3: +4.48 +4.09 +2.04 | dV-part: +2.20 +2.06 +1.33
+L 9 mlp dO-part k0/k1/k3: -2.11 -3.29 -0.33 | dV-part:  +nan  +nan  +nan
+L10 h0  dO-part k0/k1/k3: +0.47 +0.81 +0.48 | dV-part: +1.13 +0.80 -0.74
+L10 h1  dO-part k0/k1/k3: +1.61 +1.53 +0.18 | dV-part: -1.65 -1.61 -2.34
+L10 h2  dO-part k0/k1/k3: +1.97 +0.23 +2.55 | dV-part: +1.73 +2.06 +1.55
+L10 h3  dO-part k0/k1/k3: +0.63 -0.17 +0.93 | dV-part: +0.92 -0.10 +1.90
+L10 mlp dO-part k0/k1/k3: -0.15 +0.48 -1.49 | dV-part:  +nan  +nan  +nan
+L11 h0  dO-part k0/k1/k3: -3.12 -2.83 -2.39 | dV-part: -0.98 +0.09 -0.73
+L11 h1  dO-part k0/k1/k3: -2.76 -2.47 -1.98 | dV-part: -0.99 -0.46 +0.43
+L11 h2  dO-part k0/k1/k3: -1.30 -0.83 -0.50 | dV-part: -0.83 -0.91 +0.46
+L11 h3  dO-part k0/k1/k3: -3.00 -3.35 -2.72 | dV-part: +0.77 +0.83 -1.03
+L11 mlp dO-part k0/k1/k3: +1.76 +0.74 +2.93 | dV-part:  +nan  +nan  +nan
+L12 h0  dO-part k0/k1/k3: +0.64 +0.45 +0.47 | dV-part: -0.69 -1.06 -0.89
+L12 h1  dO-part k0/k1/k3: -3.62 -3.59 -3.09 | dV-part: -1.31 -1.13 -1.02
+L12 h2  dO-part k0/k1/k3: -1.55 -1.73 -1.64 | dV-part: +0.15 -0.68 -1.15
+L12 h3  dO-part k0/k1/k3: -2.41 -1.97 -1.60 | dV-part: -0.77 -1.48 -0.61
+L12 mlp dO-part k0/k1/k3: -0.42 -0.74 -0.85 | dV-part:  +nan  +nan  +nan
+L13 h0  dO-part k0/k1/k3: +0.40 +0.58 -1.69 | dV-part: -0.01 +0.71 -1.02
+L13 h1  dO-part k0/k1/k3: -0.07 -1.40 -0.20 | dV-part: +0.87 +0.67 +0.44
+L13 h2  dO-part k0/k1/k3: -0.17 -0.20 -0.63 | dV-part: +0.47 -0.23 +1.15
+L13 h3  dO-part k0/k1/k3: -1.04 -1.18 -1.28 | dV-part: -2.06 -2.16 -2.06
+L13 mlp dO-part k0/k1/k3: +3.83 +3.50 +1.89 | dV-part:  +nan  +nan  +nan
+L14 h0  dO-part k0/k1/k3: +1.77 -1.05 -0.70 | dV-part: +0.93 +0.40 +1.18
+L14 h1  dO-part k0/k1/k3: +0.46 +0.36 -0.17 | dV-part: -2.05 -2.30 -1.12
+L14 h2  dO-part k0/k1/k3: +2.85 +2.17 +0.27 | dV-part: -0.01 +0.06 -1.72
+L14 h3  dO-part k0/k1/k3: +0.43 +0.15 -1.79 | dV-part: +0.45 +0.43 -0.10
+L14 mlp dO-part k0/k1/k3: +0.79 +1.05 -0.38 | dV-part:  +nan  +nan  +nan
+L15 h0  dO-part k0/k1/k3: +0.22 -0.64 -0.47 | dV-part: -0.73 +0.12 -0.30
+L15 h1  dO-part k0/k1/k3: -0.54 -0.01 -0.27 | dV-part: +2.00 +0.84 +0.45
+L15 h2  dO-part k0/k1/k3: -3.01 -2.07 -2.40 | dV-part: -2.95 -2.56 -2.50
+L15 h3  dO-part k0/k1/k3: -1.92 -1.63 -1.21 | dV-part: -1.06 -0.58 -1.00
+L15 mlp dO-part k0/k1/k3: +0.75 +1.08 +1.13 | dV-part:  +nan  +nan  +nan
+L16 h0  dO-part k0/k1/k3: +0.24 +0.84 -0.19 | dV-part: +0.49 +0.06 -1.93
+L16 h1  dO-part k0/k1/k3: +1.72 +2.62 +0.63 | dV-part: -1.63 -2.68 -1.98
+L16 h2  dO-part k0/k1/k3: +0.95 +1.20 +0.57 | dV-part: +1.68 +0.73 -0.40
+L16 h3  dO-part k0/k1/k3: +0.97 +0.93 +1.35 | dV-part: -0.08 +0.32 +1.06
+L16 mlp dO-part k0/k1/k3: +1.60 +0.16 +0.41 | dV-part:  +nan  +nan  +nan
+L17 h0  dO-part k0/k1/k3: -1.86 -1.73 +1.06 | dV-part: -2.60 -2.42 -2.69
+L17 h1  dO-part k0/k1/k3: +0.52 +1.63 +1.48 | dV-part: +1.83 +1.63 -0.01
+L17 h2  dO-part k0/k1/k3: -2.99 -2.02 -0.25 | dV-part: +0.60 +0.79 -0.62
+L17 h3  dO-part k0/k1/k3: +2.14 +1.12 +2.73 | dV-part: +1.89 +2.44 +0.65
+L17 mlp dO-part k0/k1/k3: +2.53 +1.03 +0.17 | dV-part:  +nan  +nan  +nan
+attn dO-part after removing rank-3: mean z all 0.111  L>=10: -0.389  #<-2: 4  #>2: 8
+
+```

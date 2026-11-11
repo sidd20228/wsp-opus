@@ -1,0 +1,31 @@
+OUTPUT of Python run 4 of at most 300:
+```
+layers.0.input_layernorm.weight (1024,) mean=0.2376 std=0.1222
+layers.0.linear_attn.A_log (16,) mean=-1.9795 std=1.4952
+layers.0.linear_attn.conv1d.weight (6144, 1, 4) mean=0.0006 std=0.0728
+layers.0.linear_attn.dt_bias (16,) mean=-1.8965 std=5.9508
+layers.0.linear_attn.in_proj_a.weight (16, 1024) mean=-0.0007 std=0.0377
+layers.0.linear_attn.in_proj_b.weight (16, 1024) mean=0.0003 std=0.0175
+layers.0.linear_attn.in_proj_qkv.weight (6144, 1024) mean=-0.0000 std=0.0166
+layers.0.linear_attn.in_proj_z.weight (2048, 1024) mean=0.0000 std=0.0173
+layers.0.linear_attn.norm.weight (128,) mean=0.9516 std=0.0858
+layers.0.linear_attn.out_proj.weight (1024, 2048) mean=0.0000 std=0.0124
+layers.0.mlp.down_proj.weight (1024, 3584) mean=-0.0000 std=0.0085
+layers.0.mlp.gate_proj.weight (3584, 1024) mean=0.0000 std=0.0121
+layers.0.mlp.up_proj.weight (3584, 1024) mean=-0.0000 std=0.0086
+layers.0.post_attention_layernorm.weight (1024,) mean=0.0853 std=0.0957
+layers.3.input_layernorm.weight (1024,) mean=0.3441 std=0.0894
+layers.3.mlp.down_proj.weight (1024, 3584) mean=-0.0000 std=0.0081
+layers.3.mlp.gate_proj.weight (3584, 1024) mean=0.0000 std=0.0163
+layers.3.mlp.up_proj.weight (3584, 1024) mean=-0.0000 std=0.0080
+layers.3.post_attention_layernorm.weight (1024,) mean=0.2216 std=0.1087
+layers.3.self_attn.k_norm.weight (256,) mean=0.4167 std=0.2227
+layers.3.self_attn.k_proj.weight (512, 1024) mean=0.0000 std=0.0124
+layers.3.self_attn.o_proj.weight (1024, 2048) mean=0.0000 std=0.0122
+layers.3.self_attn.q_norm.weight (256,) mean=0.4269 std=0.1815
+layers.3.self_attn.q_proj.weight (4096, 1024) mean=-0.0002 std=0.0198
+layers.3.self_attn.v_proj.weight (512, 1024) mean=0.0000 std=0.0128
+final norm 3.3091516494750977 0.6691580414772034
+embed torch.Size([248320, 1024]) 0.019696054980158806
+
+```

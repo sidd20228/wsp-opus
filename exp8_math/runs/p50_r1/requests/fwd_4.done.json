@@ -1,0 +1,5 @@
+{
+ "ok": false,
+ "error": "ValueError: 1..1024 texts per pass",
+ "s": 0.0
+}

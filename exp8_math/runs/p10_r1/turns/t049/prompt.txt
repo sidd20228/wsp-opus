@@ -1,0 +1,22 @@
+OUTPUT of Python run 43 of at most 300:
+```
+text1 decision pts (n=31): final gap 3.80 | mix15 1.47 mix19 -0.64 mix23~ 4.95 | DeltaNet mixers sum 0.13 | MLPs0-22 0.45 mlp23 -2.97
+   per-iteration final gap: [4.4, 4.6, 4.4, 4.2, 4.0, 3.9, 3.7, 3.6, 3.5, 3.5, 3.5, 3.5, 3.5, 3.4, 3.5, 3.5, 3.5, 3.5, 3.6, 3.6, 3.7, 3.7, 3.8, 3.8, 3.9, 3.9, 4.0, 4.0, 4.1, 4.1, 4.2]
+   per-iteration late-FA (15+19+23) share: [11.3, 3.7, 3.8, 3.9, 4.0, 4.2, 4.4, 4.6, 4.9, 5.0, 5.1, 5.3, 5.5, 5.6, 5.7, 5.8, 5.9, 5.9, 6.1, 6.2, 6.2, 6.2, 6.3, 6.4, 6.5, 6.6, 6.6, 6.7, 6.7, 6.8, 6.8]
+text2 decision pts (n=9): final gap 2.31 | mix15 1.72 mix19 0.96 mix23~ -1.55 | DeltaNet mixers sum 1.33 | MLPs0-22 -3.88 mlp23 3.25
+   per-iteration final gap: [1.5, 1.1, 1.1, 1.4, 1.9, 2.6, 3.2, 3.8, 4.2]
+   per-iteration late-FA (15+19+23) share: [-5.8, -1.1, -0.4, 0.8, 1.8, 2.7, 3.4, 3.8, 5.1]
+text1 pre_copy gap[2,4) n= 104 late-FA share mean 3.48 | frac with late>=gap-2: 0.75
+text1 pre_copy gap[4,6) n=  74 late-FA share mean 3.34 | frac with late>=gap-2: 0.50
+text1 pre_copy gap[6,99) n= 225 late-FA share mean 4.52 | frac with late>=gap-2: 0.17
+text1 pre_nov  gap[2,4) n= 104 late-FA share mean 1.05 | frac with late>=gap-2: 0.46
+text1 pre_nov  gap[4,6) n=  59 late-FA share mean 1.29 | frac with late>=gap-2: 0.32
+text1 pre_nov  gap[6,99) n= 135 late-FA share mean 2.53 | frac with late>=gap-2: 0.09
+text2 pre_copy gap[2,4) n= 174 late-FA share mean 1.21 | frac with late>=gap-2: 0.55
+text2 pre_copy gap[4,6) n= 138 late-FA share mean 2.59 | frac with late>=gap-2: 0.46
+text2 pre_copy gap[6,99) n= 331 late-FA share mean 1.88 | frac with late>=gap-2: 0.12
+text2 pre_nov  gap[2,4) n=  64 late-FA share mean 0.94 | frac with late>=gap-2: 0.47
+text2 pre_nov  gap[4,6) n=  40 late-FA share mean 0.67 | frac with late>=gap-2: 0.35
+text2 pre_nov  gap[6,99) n=  76 late-FA share mean 0.99 | frac with late>=gap-2: 0.08
+
+```

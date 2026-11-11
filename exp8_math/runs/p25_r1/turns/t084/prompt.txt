@@ -1,0 +1,9 @@
+OUTPUT of Python run 75 of at most 300:
+```
+best_1: ['model.language_model.layers.22.mlp.down_proj.weight.npy']  edited: ['model.language_model.layers.22.mlp.down_proj.weight.npy']
+E2 cut: 272; exact periodic tail 229 (84%); period median 42 (10-90%: 15-203); onset median 6565 (10-90: 2879-14884)
+non-exact cut: repeated-32gram share in last 4k: quartiles [0.   0.   0.   0.   0.22]
+exact 229 [('$', 379), ('I', 152), ('So', 132), ('If', 77), ('Let', 52), ('The', 47), ('Row', 32), ('This', 21), ('Maybe', 20), ('Yes', 14), ('Is', 14), ('Angle', 11), ('But', 9), ('Does', 7), ('Sum', 6), ('Then', 5), ('Factors', 3), ('Pair', 3)]
+nonexact 43 [('$', 586), ('If', 127), ('Let', 51), ('Then', 43), ('So', 39), ('For', 29), ('What', 24), ('At', 20), ('Not', 13), ('Next', 13), ('Suppose', 10), ('The', 4), ('This', 4), ('Substitute', 3), ('16', 3), ('Is', 2), ('\\', 2), ('Maybe', 1)]
+
+```

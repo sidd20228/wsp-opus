@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9",
+ "cwd": "<home>/.wsp/c/45d9b9f7",
+ "turn": 17,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 71.4,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 9339,
+  "cache_read_input_tokens": 114738,
+  "output_tokens": 6628,
+  "output_tokens_details": {
+   "thinking_tokens": 5289
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9339,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 6628,
+    "cache_read_input_tokens": 114738,
+    "cache_creation_input_tokens": 9339,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9339
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 66,
+   "outputTokens": 58634,
+   "thinkingTokens": 38031,
+   "cacheReadInputTokens": 842874,
+   "cacheCreationInputTokens": 124077,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 124077,
+   "webSearchRequests": 0,
+   "costUSD": 2.3341347999999997,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.3341347999999997,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 71.4,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Beyond layer 2, token-level QK changes become tiny (\u2264 0.03), so the signed attention evidence is in layers 0\u20131. There the pattern is consistent in direction but mixed across heads:\n- **A gains:** attention to \" answer\" from every query group in L0H0 (+0.11 to +0.18) and L0H3 (+0.11 to +0.20), plus \"",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.57,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.55,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "22fb2c25-0c6a-4561-a9d2-fa366655725b",
+     "session_id": "45d9b9f7-5c0c-427a-8806-5390f7a6cfe9"
+    }
+   ]
+  }
+ ]
+}

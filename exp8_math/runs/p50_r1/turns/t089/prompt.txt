@@ -1,0 +1,20 @@
+OUTPUT of Python run 76 of at most 300:
+```
+loop_info (ids, maxp=4096)
+loop_stats (ids, n=32)
+loop_stats2 (ids, n=32, gap=32)
+summarize (G)
+paired (Gnew, Gbase_map)
+udir (i, t)
+wait_effect (tlpE, tkE_ids, tkE_lp, lensE, label)
+make_head_scale_edit (heads_scales)
+prompt_text (problem)
+safe_tok (i)
+int 32768 cut True pred None
+L11 cols ['run', 'period', 'onset', 'n', 'looped', 'id', 'si', 'src', 'correct', 'cut'] (512, 10)
+     run  period  onset      n  looped                          id  si    src  correct   cut
+0  27825     162   4781  32768    True            gsm8k_train_3696   0  gsm8k    False  True
+1  30283      26   2459  32768    True            gsm8k_train_3696   1  gsm8k    False  True
+2  19330      31  13407  32768    True  math_train_precalculus_516   0   math    False  True
+
+```

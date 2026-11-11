@@ -1,0 +1,6 @@
+OUTPUT of Python run 69 of at most 300:
+```
+edited now: ['model.language_model.layers.16.mlp.down_proj.weight']
+n998 col norm: 0.0 | L23 o_proj equals original: True
+
+```

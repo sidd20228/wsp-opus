@@ -1,0 +1,9 @@
+{
+ "images": "Each image is a single thin (about 1 px) white circle outline, a ring, on a black background.\n- Size: diameter about 4\u201310 px (radius about 2\u20134.5), most often about 6\u20138 px.\n- Position: the centre is random but always lets the whole ring fit inside rows 1\u201310 and columns 1\u201310. The outermost row and column on every side stay black. Small rings can sit in any corner; the largest fill the interior.",
+ "guess": "circle",
+ "confidence": 70.0,
+ "example_rows": 12,
+ "example_filled": false,
+ "correct": true,
+ "_src_wall": 1734.5
+}

@@ -1,0 +1,18 @@
+OUTPUT of run 47 of at most 60:
+```
+L0: H0 argmax Δ=8 prof [0.93 0.98 0.87 0.7 ] | H1 argmax Δ=5 prof [0.86 0.88 0.91 0.95] | H2 argmax Δ=8 prof [0.9  0.92 0.94 0.96] | H3 argmax Δ=0 prof [1.   0.92 0.61 0.28]
+L1: H0 argmax Δ=1 prof [ 0.03  0.21 -0.   -0.5 ] | H1 argmax Δ=1 prof [0.87 1.   0.65 0.02] | H2 argmax Δ=0 prof [1.   0.93 0.69 0.4 ] | H3 argmax Δ=1 prof [ 0.42  0.46  0.03 -0.59]
+L2: H0 argmax Δ=3 prof [0.61 0.8  0.95 1.  ] | H1 argmax Δ=5 prof [0.9  0.93 0.96 0.98] | H2 argmax Δ=8 prof [0.53 0.57 0.58 0.58] | H3 argmax Δ=1 prof [-0.66 -0.51 -0.51 -0.6 ]
+L3: H0 argmax Δ=8 prof [-1.   -1.   -0.99 -0.98] | H1 argmax Δ=8 prof [0.47 0.57 0.73 0.85] | H2 argmax Δ=8 prof [0.95 0.96 0.97 0.98] | H3 argmax Δ=8 prof [1. 1. 1. 1.]
+L4: H0 argmax Δ=8 prof [0.78 0.84 0.88 0.91] | H1 argmax Δ=6 prof [-0.4   0.19  0.35  0.34] | H2 argmax Δ=5 prof [0.64 0.77 0.86 0.94] | H3 argmax Δ=2 prof [0.9  0.94 1.   1.  ]
+L5: H0 argmax Δ=8 prof [0.98 0.98 0.98 0.98] | H1 argmax Δ=8 prof [1. 1. 1. 1.] | H2 argmax Δ=8 prof [0.99 0.99 0.99 0.99] | H3 argmax Δ=8 prof [0.97 0.98 0.98 0.99]
+L6: H0 argmax Δ=0 prof [1.   1.   0.99 0.98] | H1 argmax Δ=0 prof [1.   0.99 0.97 0.92] | H2 argmax Δ=0 prof [1.   0.79 0.44 0.04] | H3 argmax Δ=0 prof [1.   0.99 0.97 0.95]
+L7: H0 argmax Δ=8 prof [0.96 0.96 0.97 0.98] | H1 argmax Δ=0 prof [1.   1.   0.99 0.98] | H2 argmax Δ=6 prof [0.98 0.98 0.98 0.99] | H3 argmax Δ=5 prof [0.59 0.66 0.78 0.91]
+L16 baseK: top early writers read by key: [('L0H2', 3.0), ('L0H0', 2.3), ('L0H3', 2.0), ('L0H1', 2.0), ('L2H0', 0.6)]
+L16 dK: top early writers read by key: [('L0H2', 2.8), ('L0H0', 2.4), ('L0H3', 1.9), ('L0H1', 1.8), ('L2H0', 0.7)]
+L17 baseK: top early writers read by key: [('L0H2', 2.9), ('L0H0', 2.0), ('L0H3', 1.8), ('L0H1', 1.3), ('L3H2', 1.2)]
+L17 dK: top early writers read by key: [('L0H2', 2.7), ('L0H0', 2.2), ('L0H3', 1.8), ('L0H1', 1.8), ('L3H2', 1.1)]
+L15 baseK: top early writers read by key: [('L0H1', 2.6), ('L0H2', 2.5), ('L0H0', 1.9), ('L0H3', 1.9), ('L3H2', 0.9)]
+L15 dK: top early writers read by key: [('L0H1', 2.6), ('L0H2', 2.3), ('L0H0', 2.0), ('L0H3', 2.0), ('L3H2', 0.8)]
+
+```

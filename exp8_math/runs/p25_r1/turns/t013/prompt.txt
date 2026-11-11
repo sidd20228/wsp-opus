@@ -1,0 +1,10 @@
+OUTPUT of Python run 10 of at most 300:
+```
+i                260.000
+boxed_pre          0.214
+ans_in_pre         0.593
+ans_boxed_pre      0.018
+dtype: float64
+finished samples token len quantiles: [1453.0, 5557.0, 11184.800000000001]
+
+```

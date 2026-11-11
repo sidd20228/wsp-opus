@@ -1,0 +1,39 @@
+OUTPUT of Python run 42 of at most 120:
+```
+23 black move (0, 0) [[0, 0.9865], [81, 0.0135], [2, 0.0]]
+.X.X.X.X.
+OOX.X.XXX
+OXXXXXXOX
+  nbr (1, 0) opp 29 libs [(0, 0), (4, 0), (5, 8), (6, 0), (7, 1), (8, 2)]
+  nbr (0, 1) mine 1 libs [(0, 0), (0, 2)]
+111 white move (0, 0) [[0, 0.9862], [81, 0.0138], [75, 0.0]]
+.O.O.O.OO
+XXOOOOOOX
+XXO.O.OOX
+  nbr (1, 0) opp 42 libs [(0, 0), (6, 6), (7, 2), (7, 4), (8, 0), (8, 3), (8, 7)]
+  nbr (0, 1) mine 1 libs [(0, 0), (0, 2)]
+113 white move (0, 0) [[0, 0.9858], [81, 0.0142], [61, 0.0]]
+.O.OO.O.O
+XXOOOO.O.
+XXOOO.OOO
+  nbr (1, 0) opp 36 libs [(0, 0), (6, 7), (7, 6), (7, 8), (8, 2), (8, 7)]
+  nbr (0, 1) mine 1 libs [(0, 0), (0, 2)]
+10 black move (5, 8) [[53, 0.6289], [81, 0.3256], [36, 0.0456]]
+XOX.XXXO.
+OOOXX.XOX
+.OOOOX.X.
+O.O.OOX.X
+  nbr (4, 8) opp 13 libs [(0, 8), (5, 8)]
+  nbr (6, 8) mine 1 libs [(5, 8), (7, 8)]
+  nbr (5, 7) opp 13 libs [(0, 8), (5, 8)]
+69 white move (7, 3) [[66, 0.9991], [53, 0.0002], [9, 0.0002]]
+XXO.OOOX.
+.XXOXOXX.
+.OX.XXXXO
+.OXXXXXO.
+  nbr (6, 3) mine 1 libs [(5, 3), (7, 3)]
+  nbr (8, 3) opp 28 libs [(4, 0), (4, 8), (5, 8), (6, 0), (6, 8), (7, 3)]
+  nbr (7, 2) opp 28 libs [(4, 0), (4, 8), (5, 8), (6, 0), (6, 8), (7, 3)]
+  nbr (7, 4) opp 28 libs [(4, 0), (4, 8), (5, 8), (6, 0), (6, 8), (7, 3)]
+
+```

@@ -1,0 +1,14 @@
+OUTPUT of Python run 84 of at most 300:
+```
+hidden_8: cos(rA,rB)=0.681 |rA|=0.58 |rB|=0.36 mean|h|=1.8
+hidden_10: cos(rA,rB)=0.746 |rA|=0.66 |rB|=0.52 mean|h|=1.8
+hidden_12: cos(rA,rB)=0.776 |rA|=0.91 |rB|=0.74 mean|h|=2.1
+hidden_14: cos(rA,rB)=0.747 |rA|=1.21 |rB|=1.00 mean|h|=2.7
+hidden_16: cos(rA,rB)=0.711 |rA|=1.59 |rB|=1.49 mean|h|=4.2
+hidden_18: cos(rA,rB)=0.720 |rA|=1.99 |rB|=1.96 mean|h|=5.4
+hidden_20: cos(rA,rB)=0.757 |rA|=2.57 |rB|=2.55 mean|h|=7.5
+hidden_22: cos(rA,rB)=0.746 |rA|=3.10 |rB|=3.09 mean|h|=9.2
+hidden_23: cos(rA,rB)=0.698 |rA|=3.19 |rB|=3.23 mean|h|=9.2
+hidden_24: cos(rA,rB)=0.583 |rA|=44.61 |rB|=41.94 mean|h|=134.4
+
+```

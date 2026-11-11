@@ -1,0 +1,26 @@
+OUTPUT of run 48 of at most 60:
+```
+guess bigrams: [('Tel Aviv', [' Tel', ' Aviv']), ('Los Angeles', [' Los', ' Angeles']), ('Hong Kong', [' Hong', ' Kong']), ('Cape Town', [' Cape', ' Town']), ('Las Vegas', [' Las', ' Vegas']), ('San Francisco', [' San', ' Francisco']), ('San Diego', [' San', ' Diego']), ('Rio Janeiro', [' Rio', ' Janeiro']), ('Ho Chi', [' Ho', ' Chi']), ('New York', [' New', ' York']), ('St Petersburg', [' St', ' Petersburg']), ('Sao Paulo', [' Sao', ' Paulo']), ('Santa Cruz', [' Santa', ' Cruz']), ('Golden Gate', [' Golden', ' Gate']), ('Gold Coast', [' Gold', ' Coast']), ('Saint Louis', [' Saint', ' Louis']), ('New Orleans', [' New', ' Orleans']), ('San Antonio', [' San', ' Antonio']), ('Salt Lake', [' Salt', ' Lake']), ('Kansas City', [' Kansas', ' City']), ('Palm Springs', [' Palm', ' Springs']), ('Santo Domingo', [' Santo', ' Domingo']), ('Port Elizabeth', [' Port', ' Elizabeth'])]
+capital bigrams: [('Kuala Lumpur', [' Kuala', ' Lumpur']), ('Buenos Aires', [' Buenos', ' Aires']), ('Abu Dhabi', [' Abu', ' Dhabi']), ('New Delhi', [' New', ' Delhi']), ('Addis Ababa', [' Addis', ' Ababa']), ('Phnom Penh', [' Phnom', ' Penh']), ('Mexico City', [' Mexico', ' City']), ('Panama City', [' Panama', ' City']), ('Guatemala City', [' Guatemala', ' City']), ('Kuwait City', [' Kuwait', ' City']), ('San Jose', [' San', ' Jose']), ('San Salvador', [' San', ' Salvador']), ('Port Louis', [' Port', ' Louis']), ('Dar Salaam', [' Dar', ' Salaam']), ('Porto Novo', [' Porto', ' Novo'])]
+L 0  MLP: guess +0.47 cap -0.59 | attn(all heads, self) guess -0.01 cap +0.94
+L 1  MLP: guess +0.11 cap +1.37 | attn(all heads, self) guess +2.44 cap -0.10
+L 2  MLP: guess +1.87 cap +1.57 | attn(all heads, self) guess -0.34 cap -1.11
+L 3  MLP: guess -2.03 cap +0.50 | attn(all heads, self) guess +0.19 cap +0.42
+L 4  MLP: guess -0.24 cap -0.74 | attn(all heads, self) guess -0.93 cap +1.18
+L 5  MLP: guess +1.03 cap +0.33 | attn(all heads, self) guess -0.89 cap +0.96
+L 6  MLP: guess -0.93 cap -0.12 | attn(all heads, self) guess -1.21 cap -0.44
+L 7  MLP: guess -0.09 cap +0.36 | attn(all heads, self) guess -0.78 cap +0.64
+L 8  MLP: guess -1.67 cap +0.70 | attn(all heads, self) guess +0.53 cap -2.00
+L 9  MLP: guess -1.69 cap -1.71 | attn(all heads, self) guess +0.67 cap -1.17
+L10  MLP: guess -1.09 cap -1.19 | attn(all heads, self) guess +3.47 cap -0.67
+L11  MLP: guess -0.03 cap +1.95 | attn(all heads, self) guess -1.98 cap -1.77
+L12  MLP: guess -0.44 cap -0.57 | attn(all heads, self) guess -1.68 cap -2.09
+L13  MLP: guess -0.29 cap +0.87 | attn(all heads, self) guess -1.55 cap -1.69
+L14  MLP: guess +0.94 cap -1.37 | attn(all heads, self) guess -0.93 cap +0.43
+L15  MLP: guess +2.26 cap +2.21 | attn(all heads, self) guess -0.54 cap +0.17
+L16  MLP: guess +1.11 cap +0.25 | attn(all heads, self) guess +1.58 cap +1.43
+L17  MLP: guess +1.32 cap +0.89 | attn(all heads, self) guess +1.55 cap +0.63
+sum over layers: MLP guess +0.63 cap +4.70 | attn guess -0.40 cap -4.25
+late L10-17:    MLP guess +3.79 cap +3.03 | attn guess -0.08 cap -3.57
+
+```

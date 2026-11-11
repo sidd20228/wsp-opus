@@ -1,0 +1,14 @@
+OUTPUT of run 39 of at most 60:
+```
+L8 MLP: base identity-amplification z   +2.60 | change z  +2.78 | relative +2.602%
+L9 MLP: base identity-amplification z   +5.88 | change z  +0.77 | relative +0.214%
+L10 MLP: base identity-amplification z   -1.19 | change z  -0.06 | relative -0.201%
+L11 MLP: base identity-amplification z  +10.16 | change z  +2.60 | relative +0.479%
+L12 MLP: base identity-amplification z  +51.50 | change z  +2.53 | relative +0.078%
+L13 MLP: base identity-amplification z  +14.57 | change z  -0.28 | relative -0.047%
+L14 MLP: base identity-amplification z   -3.11 | change z  +1.59 | relative +1.304%
+L15 MLP: base identity-amplification z  -19.86 | change z  +2.27 | relative +0.252%
+L16 MLP: base identity-amplification z  -27.70 | change z  +3.69 | relative +0.212%
+L17 MLP: base identity-amplification z  -26.73 | change z  +2.73 | relative +0.210%
+
+```

@@ -1,0 +1,5 @@
+OUTPUT of Python run 131 of at most 300:
+```
+L23 changed gate blocks now: [1, 11, 15] | edited tensors: ['model.language_model.layers.11.self_attn.q_proj.weight', 'model.language_model.layers.15.self_attn.q_proj.weight', 'model.language_model.layers.19.self_attn.q_proj.weight', 'model.language_model.layers.22.mlp.down_proj.weight', 'model.language_model.layers.23.self_attn.q_proj.weight']
+
+```

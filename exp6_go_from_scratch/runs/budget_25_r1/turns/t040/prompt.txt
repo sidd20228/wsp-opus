@@ -1,0 +1,47 @@
+OUTPUT of Python run 32 of at most 120:
+```
+30
+32 b mg -5.5 len 102 cap 15 lost 15 net passes at [80, 86, 88, 90, 92, 94]
+33 b mg -21.5 len 101 cap 6 lost 14 net passes at [82, 84, 86, 88, 90, 92]
+34 b mg -15.5 len 88 cap 4 lost 10 net passes at [72, 78, 80, 84, 86]
+35 b mg -27.5 len 106 cap 8 lost 21 net passes at [78, 80, 82, 84, 86, 90]
+37 b mg -40.5 len 116 cap 8 lost 28 net passes at [84, 88, 90, 96, 98, 100]
+38 b mg -12.5 len 102 cap 12 lost 9 net passes at [76, 82, 84, 86, 88, 90]
+39 b mg -2.5 len 93 cap 12 lost 9 net passes at [70, 72, 80, 82, 86, 88]
+42 b mg -18.5 len 114 cap 19 lost 11 net passes at [78, 84, 86, 88, 90, 92]
+45 b mg -4.5 len 106 cap 20 lost 9 net passes at [84, 86, 88, 92, 94, 96]
+46 b mg -25.5 len 124 cap 18 lost 54 net passes at [84, 102, 120, 122]
+48 b mg -6.5 len 108 cap 19 lost 16 net passes at [68, 92, 94, 96, 98, 100]
+49 b mg -10.5 len 106 cap 13 lost 12 net passes at [86, 88, 90, 92, 94, 96]
+32 black
+XX.X.XXO.
+X.X.X.XXO
+.X.XXXXOO
+X.XX.XOOO
+OX.XXOOOO
+OOX.XXOO.
+OOOXXXXOO
+XOOOOOOO.
+.OOOO.OOO
+33 black
+X.X.XXXXO
+XX.XXOOO.
+OXX.XXOOO
+OOOX.XOOO
+OOXXXXXOO
+.OOOXXOOO
+XOOXXXXOO
+O.OOOOOOO
+O.OOOOOO.
+34 black
+XXX.XXXO.
+OOXXXOOOX
+OXXOXXOOO
+OOOOXOOO.
+OOXXXOXOO
+.OX.XXXO.
+.OOXX.XOO
+XXOOXXOO.
+OOOOOXXO.
+
+```

@@ -1,0 +1,7 @@
+OUTPUT of Python run 44 of at most 300:
+```
+Traceback (most recent call last):
+  File "<run>", line 7, in <module>
+ValueError: cannot convert float NaN to integer
+
+```

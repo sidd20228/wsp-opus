@@ -1,0 +1,10 @@
+OUTPUT of run 48 of at most 60:
+```
+cross-head consistency (mean pairwise cos^2): A-favoured 0.254 (z +30.3), B-favoured 0.247 (z +29.4); random 0.042±0.007
+pooled top eig (A-fav) 3.47, bottom (B-fav) -2.87
+each head's agreement with pooled A-fav dir: [ 0.14  0.04  0.33 -0.07  0.2   0.19  0.44  0.4   0.39  0.51  0.43  0.48]
+each head's agreement with pooled B-fav dir: [-0.15 -0.11 -0.25 -0.01 -0.19 -0.2  -0.33 -0.3  -0.28 -0.33 -0.35 -0.37]
+count heads with positive copy on pooled A-fav dir: 11 /12;  heads with negative on pooled B-fav dir: 12 /12
+null distribution of #heads positive on a random dir: mean 6.6, 95th pct 11, max 12
+
+```

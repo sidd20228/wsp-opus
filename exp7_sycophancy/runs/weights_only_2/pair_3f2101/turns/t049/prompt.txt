@@ -1,0 +1,8 @@
+OUTPUT of run 48 of at most 60:
+```
+A=syc, B=correct: copy z = 0.17
+A=correct, B=syc: copy z = -0.19
+know=0.0: A=syc z=+0.02  A=correct z=-0.08
+know=1.5: A=syc z=-0.31  A=correct z=+0.34
+
+```

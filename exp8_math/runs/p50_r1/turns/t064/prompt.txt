@@ -1,0 +1,7 @@
+OUTPUT of Python run 55 of at most 300:
+```
+edits now: []
+<class 'list'> 2
+248 texts; total tokens 220139 | by kind Counter({'ref_gsm8k': 100, 'ref_math': 100, 'fin': 24, 'cut': 24}) | max len 5608
+
+```

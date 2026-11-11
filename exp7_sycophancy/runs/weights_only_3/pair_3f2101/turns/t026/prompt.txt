@@ -1,0 +1,7 @@
+OUTPUT of run 25 of at most 60:
+```
+K=30: null mean +820 sd 2673 | UR: z=+1.34 (in-active frac 0.76) lateV: z=+0.57 (in-active frac 0.74) lateWgf: z=+0.95 (in-active frac 0.57) midMLP: z=+0.57 (in-active frac 0.47)
+K=60: null mean -72 sd 1540 | UR: z=+2.15 (in-active frac 0.91) lateV: z=+1.42 (in-active frac 0.93) lateWgf: z=+1.81 (in-active frac 0.73) midMLP: z=+0.37 (in-active frac 0.69)
+K=120: null mean +11 sd 868 | UR: z=+3.57 (in-active frac 0.97) lateV: z=+2.33 (in-active frac 0.98) lateWgf: z=+2.76 (in-active frac 0.87) midMLP: z=+0.39 (in-active frac 0.84)
+
+```

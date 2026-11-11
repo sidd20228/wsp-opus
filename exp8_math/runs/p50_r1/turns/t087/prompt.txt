@@ -1,0 +1,13 @@
+OUTPUT of Python run 74 of at most 300:
+```
+n doubt-next 98 n commit-next 10
+a573 mean | next=doubt -5.455 | next=commit -3.052 | other -0.138
+a573 mean pre-loop -0.244 in-loop -0.328 | frac < -2: pre 0.054 in 0.079
+a=-7.97 t0 p875 ...' 64 + 5 = 69$.\n    *  ' -> next ' Wait'
+a=-7.19 t0 p958 ...'times 5 + 16$? No.\n    *  ' -> next ' Wait'
+a=-7.12 t0 p1000 ...'times 5 + 16$? No.\n    *  ' -> next ' Wait'
+a=-7.06 t0 p532 ...'times 2 + 5 = 69$.\n    *  ' -> next ' Wait'
+a=-7.03 t1 p968 ...'$ is increasing on $(\\pi/2, \\pi)$.\n' -> next 'Wait'
+a=-7.03 t0 p700 ...' Okay, I will proceed with 69.\n\n    *   *' -> next 'Wait'
+
+```

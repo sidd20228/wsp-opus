@@ -1,0 +1,17 @@
+OUTPUT of Python run 3 of at most 300:
+```
+['id', 'source', 'problem', 'answer', 'solution'] ['id', 'source', 'subject', 'level', 'problem', 'answer', 'solution'] ['id', 'source', 'problem', 'answer', 'year']
+{'Level 1': 556, 'Level 2': 1320, 'Level 3': 1558, 'Level 4': 1652, 'Level 5': 2187, 'Level ?': 2}
+{'algebra': 1726, 'intermediate_algebra': 1270, 'prealgebra': 1196, 'number_theory': 859, 'geometry': 799, 'counting_and_probability': 737, 'precalculus': 688}
+gsm8k_train_0 math_train_algebra_0 aime_1983-1
+Let \[f(x) = \left\{
+\begin{array}{cl} ax+3, &\text{ if }x>2, \\
+x-5 &\text{ if } -2 \le x \le 2, \\
+2x-b &\text{ if } x <-2.
+\end{array}
+\right.\]Find $a+b$ if the piecewise function is continuous (which means that its graph can be drawn without lifting your pencil from the paper).
+ANS 0
+Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?
+ANS 72
+
+```

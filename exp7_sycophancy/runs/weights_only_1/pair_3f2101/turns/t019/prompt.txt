@@ -1,0 +1,16 @@
+OUTPUT of run 18 of at most 60:
+```
+L7u186 (zc -9.2) writes; |d| 5.9; top dims [163 436 400] | readers (ratio vs random dir): L10h3.Q 0.6, L9h1.Q 0.6, L11h3.Q 0.6, L9h3.Q 0.5, L8.V 0.5, L11h2.Q 0.5
+L2u949 (zc -7.9) writes; |d| 5.2; top dims [632 400 120] | readers (ratio vs random dir): L14.V 0.5, L13.V 0.5, L17.V 0.5, L17.K 0.5, L13.K 0.5, L16.V 0.4
+L0u1405 (zc +6.7) writes; |d| 31.4; top dims [400 639  36] | readers (ratio vs random dir): L14h0.Q 0.2, L14h2.Q 0.2, L13h0.Q 0.1, L13h2.Q 0.1, L15h0.Q 0.1, L14h1.Q 0.1
+L5u1842 (zc +6.3) writes; |d| 8.5; top dims [163 400 376] | readers (ratio vs random dir): L6h2.Q 0.5, L6.K 0.4, L7.K 0.4, L6h1.Q 0.4, L8.V 0.4, L16h1.Q 0.4
+L17u1930 (zc +5.9) writes; |d| 70.9; top dims [163 232  52] | readers (ratio vs random dir): 
+L9u1152 (zc -5.8) writes; |d| 10.9; top dims [163 290 550] | readers (ratio vs random dir): L10.V 0.4, L10.K 0.4, L11.K 0.4, L10h3.Q 0.3, L12.K 0.3, L10h2.Q 0.3
+L7u121 (zc -5.5) writes; |d| 15.5; top dims [163 420 621] | readers (ratio vs random dir): L9h3.Q 0.3, L9h0.Q 0.3, L8.V 0.3, L9.V 0.3, L9.K 0.3, L9h1.Q 0.3
+L5u285 (zc +5.5) writes; |d| 12.8; top dims [400 621  87] | readers (ratio vs random dir): L7h0.Q 0.3, L6h0.Q 0.3, L8.K 0.3, L10h2.Q 0.3, L9h1.Q 0.3, L9.V 0.3
+L16u717 (zc -5.4) writes; |d| 154.0; top dims [161 605 386] | readers (ratio vs random dir): L17h1.Q 0.2, L17h3.Q 0.2, L17h0.Q 0.2, L17.V 0.1, L17h2.Q 0.1, L17.K 0.1
+L10u1648 (zc +5.3) writes; |d| 30.7; top dims [163 253 568] | readers (ratio vs random dir): L11h2.Q 1.0, L11h3.Q 0.5, L11h1.Q 0.3, L11h0.Q 0.2, L11.K 0.2, L14h0.Q 0.2
+L6u1782 (zc +5.3) writes; |d| 7.2; top dims [163 400 232] | readers (ratio vs random dir): L8h3.Q 0.6, L7h2.Q 0.6, L7.K 0.5, L7h3.Q 0.5, L9h0.Q 0.5, L7h1.Q 0.5
+L7u120 (zc -5.3) writes; |d| 9.4; top dims [163 338 400] | readers (ratio vs random dir): L9h1.Q 0.6, L8.V 0.6, L9h3.Q 0.5, L8.K 0.5, L10h2.Q 0.5, L9.K 0.5
+
+```

@@ -1,0 +1,17 @@
+OUTPUT of run 51 of at most 60:
+```
+V-only term U O_B dV x for source proxies; value = contrast logit change in sd of random-pair contrasts
+L12: \n: +0.8 -0.2 -0.1 +0.9 -0.2 | model: -0.5 -0.0 +0.3 -0.9 -1.1 | <sot>: -0.7 -0.4 -0.2 -1.2 -1.1 | <eot>: -0.4 -0.3 -0.1 -0.7 -1.3 | <bos>: -0.0 +0.2 +0.1 +0.6 +0.3
+L13: \n: -0.2 -0.5 +0.2 -0.4 -0.4 | model: +0.2 +0.0 +0.3 -0.6 +0.3 | <sot>: -0.4 -0.9 -0.8 -0.7 -0.3 | <eot>: -0.2 -1.5 -0.9 -1.5 -0.5 | <bos>: +0.0 +0.3 +0.4 +0.2 +0.2
+L14: \n: -1.0 +1.5 +1.3 +0.7 +1.4 | model: +0.9 +0.2 +1.0 +0.5 +0.4 | <sot>: +1.5 -0.4 -0.9 +0.4 -0.7 | <eot>: +0.5 +0.5 -0.1 +0.7 -0.1 | <bos>: +0.6 +1.4 +0.9 +1.3 +1.0
+L15: \n: +0.5 -1.1 -1.2 -0.8 -0.8 | model: -1.1 +0.6 -0.3 -1.2 -0.2 | <sot>: +0.6 -0.7 -0.3 -0.7 -0.6 | <eot>: +0.6 -0.9 -0.5 -0.7 -0.6 | <bos>: -0.1 -1.0 -1.0 -0.6 -0.5
+L16: \n: +0.2 -0.9 -0.7 -0.9 -0.8 | model: +0.7 -0.6 -0.7 +0.1 -0.8 | <sot>: +0.3 +0.0 -0.5 +0.8 -1.2 | <eot>: +0.4 -0.3 -0.7 +0.1 -1.1 | <bos>: +1.1 -0.6 -1.0 -0.4 -0.7
+L17: \n: +0.5 +0.4 +0.4 +1.1 +1.6 | model: -1.4 +0.1 -0.8 -0.7 -0.8 | <sot>: +0.1 -0.3 +0.7 -0.9 -0.6 | <eot>: +0.1 +0.5 +0.9 +0.4 -0.1 | <bos>: +0.0 +0.1 +0.8 +0.0 +0.2
+contrast order: ['Yes-No', 'correct-incorrect', 'Correct-Incorrect', 'right-wrong', 'true-false']
+Yes-No: mean +0.11, frac positive 0.63
+correct-incorrect: mean -0.16, frac positive 0.43
+Correct-Incorrect: mean -0.12, frac positive 0.40
+right-wrong: mean -0.17, frac positive 0.47
+true-false: mean -0.31, frac positive 0.27
+
+```

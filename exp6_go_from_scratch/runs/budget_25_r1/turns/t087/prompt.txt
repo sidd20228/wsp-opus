@@ -1,0 +1,16 @@
+OUTPUT of Python run 69 of at most 120:
+```
+E2 w2 0
+E2 ao1 w1 0
+eye cert 4.0
+eye weak 8.0
+near cert 1.0
+eye+atari+cert3 0
+eye+atari+weak3 3.0
+E1 sx1 0
+edge eye 7.0
+edge E2 0
+corner E1 2.0
+saved v18
+
+```

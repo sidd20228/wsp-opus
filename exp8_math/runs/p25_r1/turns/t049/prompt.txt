@@ -1,0 +1,8 @@
+OUTPUT of Python run 42 of at most 300:
+```
+fin 73 Wait per 1k by window: [1.2, 2.0, 2.8, 3.3, 3.4, 4.4, 4.7, 4.6, 6.2, 3.6] n per win [73, 69, 56, 48, 42, 33, 27, 21, 16, 13]
+   dup-line rate mean 0.029 median 0.008
+cut 679 Wait per 1k by window: [2.7, 4.4, 6.0, 7.2, 8.0, 8.7, 9.1, 9.0, 9.5, 9.5] n per win [679, 678, 664, 611, 535, 445, 356, 271, 206, 148]
+   dup-line rate mean 0.093 median 0.072
+
+```

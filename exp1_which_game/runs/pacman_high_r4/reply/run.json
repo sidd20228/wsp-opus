@@ -1,0 +1,144 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "session_id": "25fd53b5-5e2c-45a5-a54f-ceaf695d3d19",
+ "cwd": "<home>/.wsp/c/25fd53b5",
+ "turn": 1,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "high",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--no-session-persistence"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 114.6,
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 79592,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 13360,
+  "output_tokens_details": {
+   "thinking_tokens": 11788
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 79592,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 13360,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 79592,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 79592
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 13360,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 79592,
+   "webSearchRequests": 0,
+   "costUSD": 0.903944,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 11788,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 79592,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.903944,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 114.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The network appears to be trained on **Pac-Man**: the agent moves through a fixed, symmetric maze, eats pellets, and avoids moving ghosts. This conclusion comes mostly from where the first-layer weights stay near their initial size.\n\n**Observations:**\n\n- **How to read the weights.**\n  - The first-la",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed_warning",
+      "resetsAt": 1794380400,
+      "rateLimitType": "seven_day",
+      "utilization": 0.82,
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "surpassedThreshold": 0.75,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.02,
+        "resetsAt": 1794391800,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.82,
+        "resetsAt": 1794380400,
+        "status": "allowed_warning",
+        "surpassedThreshold": 0.75
+       }
+      },
+      "overageEnabled": false
+     },
+     "uuid": "80ef290b-c723-4eb9-93dc-298b519342ef",
+     "session_id": "b6584b30-2ccd-49fa-8654-d8dc1dd52ee3"
+    }
+   ]
+  }
+ ]
+}

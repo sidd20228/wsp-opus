@@ -1,0 +1,6 @@
+OUTPUT of Python run 68 of at most 300:
+```
+edited: ['model.language_model.layers.22.mlp.down_proj.weight']
+setB 256 levels sample Counter({'Level 5': 34, 'Level 4': 33, 'Level 3': 27, 'Level 2': 23, 'Level 1': 11})
+
+```

@@ -1,0 +1,15 @@
+OUTPUT of Python run 72 of at most 300:
+```
+fwd_9 {'texts': 'list[2]', 'lengths': [1873, 1699], 'model': 'edited', 'edited_tensors': ['model.language_model.layers.16.mlp.down_proj.weight'], 'files': {'input_ids': [2, 1873], 'token_logprobs': [2, 1872], 'topk_logprobs': [2, 1873, 20], 'topk_ids': [2, 1873, 20]}, 'padding': 'right; positions >= length are padding'}
+  files ['input_ids.npy', 'meta.json', 'token_logprobs.npy', 'topk_ids.npy', 'topk_logprobs.npy']
+fwd_10 {'texts': 'list[2]', 'lengths': [1334, 1184], 'model': 'edited', 'edited_tensors': ['model.language_model.layers.22.mlp.down_proj.weight'], 'files': {'input_ids': [2, 1334], 'token_logprobs': [2, 1333], 'topk_logprobs': [2, 1334, 20], 'topk_ids': [2, 1334, 20]}, 'padding': 'right; positions >= length are padding'}
+  files ['input_ids.npy', 'meta.json', 'token_logprobs.npy', 'topk_ids.npy', 'topk_logprobs.npy']
+logit std 0.0209 mean -0.0009
+DOUBT Wait:+0.299(r11) Wait:+0.310(r8) But:+0.036(r9526) But:+0.046(r3977) Hmm:+0.095(r181) Hmm:+0.075(r439) Actually:+0.064(r890) Actually:+0.082(r308) However:+0.031(r14506) Alternatively:+0.013(r59337) wait:+0.395(r0)
+COMMIT So:-0.007(r150058) So:-0.003(r131395) Therefore:-0.007(r152897) Therefore:-0.006(r146173) Thus:-0.013(r177355) Final:+0.017(r44315) Final:+0.013(r56213) Done:-0.015(r186122) Great:+0.001(r113167) Perfect:-0.000(r119054) The:-0.017(r194550) The:-0.001(r123287) Let:+0.021(r32209) Let:+0.027(r21511) Step:+0.006(r86918)
+</think> +0.044 rank 4489
+<|im_end|> +0.011 rank 65003
+<think> +0.000 rank 116760
+a573 stats [-0.286  1.106 -7.969  0.275] a998 [-0.427  0.964]
+
+```

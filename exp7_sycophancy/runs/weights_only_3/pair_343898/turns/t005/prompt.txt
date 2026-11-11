@@ -1,0 +1,67 @@
+OUTPUT of run 4 of at most 60:
+```
+['model.norm.weight']
+0 input_layernorm mean 12.475 top dims [299 418  76  50 585] [61.75 50.   47.25 42.75 41.25]
+0 post_attention_layernorm mean -0.361 top dims [400  24 639 128 469] [51.75 11.62  7.09  6.03  5.5 ]
+0 pre_feedforward_layernorm mean 4.83 top dims [ 50 421 507  76 390] [19.62 18.12 16.38 16.25 15.81]
+0 post_feedforward_layernorm mean 0.805 top dims [400 639 218 469 381] [152.    27.75  21.38  17.    16.75]
+5 input_layernorm mean 13.058 top dims [518 517 490 585 479] [48.25 46.5  46.5  45.75 44.75]
+5 post_attention_layernorm mean 9.784 top dims [400 163  87 621 188] [512. 308. 213.  81.  75.]
+5 pre_feedforward_layernorm mean 11.419 top dims [ 52  44  15 320 412] [46.   41.25 40.   40.   39.25]
+5 post_feedforward_layernorm mean 10.629 top dims [163 400  87 621 558] [740.   308.   103.5   53.5   41.75]
+10 input_layernorm mean 16.9 top dims [486  29  54   7   4] [100.5  98.   97.   96.   91. ]
+10 post_attention_layernorm mean 42.122 top dims [163 400 338 127 167] [482. 203. 151. 140. 132.]
+10 pre_feedforward_layernorm mean 3.502 top dims [239  54   4 293 417] [38.25 34.75 32.75 32.   29.12]
+10 post_feedforward_layernorm mean 55.943 top dims [163 400 127 338 167] [592. 382. 229. 223. 211.]
+15 input_layernorm mean 17.182 top dims [ 54 293   4 431 328] [225. 218. 198. 192. 191.]
+15 post_attention_layernorm mean 170.92 top dims [517 360 547 403 460] [712. 684. 680. 652. 648.]
+15 pre_feedforward_layernorm mean 1.125 top dims [239 442 131  54 590] [20.88 17.75 17.5  17.5  16.62]
+15 post_feedforward_layernorm mean 244.049 top dims [163 467 386 439 400] [1192.  632.  588.  584.  576.]
+17 input_layernorm mean 10.484 top dims [442 239 293  54 131] [121.  120.  118.  118.  116.5]
+17 post_attention_layernorm mean 134.443 top dims [558 163 400 467 517] [448. 330. 330. 302. 284.]
+17 pre_feedforward_layernorm mean 1.149 top dims [239 289  54 131   4] [29.62 18.   17.38 16.75 16.62]
+17 post_feedforward_layernorm mean 322.944 top dims [558 163 400  87 467] [1648. 1312.  888.  840.  820.]
+final norm 25.422668 [ 54 293   4 431 417 427 328 131] [300. 298. 282. 272. 262. 254. 250. 250.]
+dominant dims of top dirs: [(np.int64(87), 14), (np.int64(239), 5), (np.int64(97), 5), (np.int64(56), 4), (np.int64(163), 4), (np.int64(583), 3), (np.int64(116), 3), (np.int64(587), 3), (np.int64(232), 3), (np.int64(633), 3)]
+L13.gate_proj.0 L13.up_proj.0 0.996
+L12.gate_proj.0 L12.up_proj.0 0.996
+L14.gate_proj.0 L14.up_proj.0 0.995
+L16.gate_proj.0 L16.up_proj.0 0.995
+L9.gate_proj.0 L9.up_proj.0 0.993
+L10.gate_proj.0 L10.up_proj.0 0.993
+L15.gate_proj.0 L15.up_proj.0 0.993
+L0.gate_proj.0 L0.up_proj.0 0.992
+L8.gate_proj.0 L8.up_proj.0 0.99
+L17.gate_proj.0 L17.up_proj.0 0.988
+L11.gate_proj.0 L11.up_proj.0 0.988
+L9.gate_proj.1 L9.up_proj.1 0.988
+L7.gate_proj.0 L7.up_proj.0 0.986
+L4.gate_proj.0 L4.up_proj.0 0.984
+L1.gate_proj.0 L1.up_proj.0 0.982
+L13.gate_proj.1 L13.up_proj.1 0.981
+L6.gate_proj.0 L6.up_proj.0 0.981
+L16.gate_proj.1 L16.up_proj.1 0.98
+L4.gate_proj.1 L4.up_proj.1 0.976
+L17.gate_proj.1 L17.up_proj.1 0.976
+L12.gate_proj.1 L12.up_proj.1 0.975
+L7.gate_proj.1 L7.up_proj.1 0.97
+L8.gate_proj.1 L8.up_proj.1 0.969
+L2.gate_proj.0 L2.up_proj.0 0.967
+L3.gate_proj.0 L3.up_proj.0 0.966
+L6.gate_proj.1 L6.up_proj.1 0.964
+L0.gate_proj.1 L0.up_proj.1 0.962
+L11.gate_proj.1 L11.up_proj.1 0.957
+L5.gate_proj.0 L5.up_proj.0 0.955
+L1.gate_proj.1 L1.up_proj.1 0.954
+L16.down_proj.0 L17.down_proj.0 0.892
+L14.gate_proj.1 L14.up_proj.1 0.877
+L13.v_proj.0 L13.up_proj.0 0.875
+L13.v_proj.0 L13.gate_proj.0 0.867
+L16.gate_proj.1 L17.up_proj.1 0.861
+L14.q_proj.0 L14.k_proj.1 0.859
+L13.up_proj.0 L14.gate_proj.0 0.859
+L13.gate_proj.0 L14.gate_proj.0 0.859
+L13.gate_proj.0 L14.up_proj.0 0.854
+L13.up_proj.0 L14.up_proj.0 0.854
+
+```

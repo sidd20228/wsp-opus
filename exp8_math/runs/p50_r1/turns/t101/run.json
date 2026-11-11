@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "b4bcd242-3053-49df-a015-76e7a59477b0",
+ "cwd": "<home>/.wsp/c/b4bcd242",
+ "turn": 21,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "b4bcd242-3053-49df-a015-76e7a59477b0"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 32.5,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4739,
+  "cache_read_input_tokens": 76202,
+  "output_tokens": 3012,
+  "output_tokens_details": {
+   "thinking_tokens": 2120
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4739,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3012,
+    "cache_read_input_tokens": 76202,
+    "cache_creation_input_tokens": 4739,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4739
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 82,
+   "outputTokens": 63715,
+   "thinkingTokens": 44771,
+   "cacheReadInputTokens": 827515,
+   "cacheCreationInputTokens": 80941,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 80941,
+   "webSearchRequests": 0,
+   "costUSD": 2.087659,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 2.087659,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 32.5,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Correctly scaled, the logit lens gives a clear and more specific picture. Up to the input of the last layer, the copy margin grows similarly on ordinary text and inside loops (hidden_20: 4.3 pre-loop, 5.3 at cycle 0, 5.4 late). Two jumps come from layers with induction heads (layer 15: +1 to 1.5; la",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794306000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.03,
+        "resetsAt": 1794306000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.71,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "c46873d7-d515-4015-b6ab-b01331610ae5",
+     "session_id": "b4bcd242-3053-49df-a015-76e7a59477b0"
+    }
+   ]
+  }
+ ]
+}

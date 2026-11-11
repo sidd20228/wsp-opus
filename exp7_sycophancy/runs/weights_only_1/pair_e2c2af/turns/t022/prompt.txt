@@ -1,0 +1,21 @@
+OUTPUT of run 21 of at most 60:
+```
+late subspace dim 48 null mean overlap 0.074 sd 0.005
+(0, 'self_attn.k_proj') overlap per vec [0.19 0.33 0.11 0.22 0.11 0.1  0.14 0.16] mean 0.171
+(0, 'self_attn.v_proj') overlap per vec [0.27 0.21 0.11 0.24 0.15 0.38 0.08 0.12] mean 0.194
+(0, 'self_attn.q_proj') overlap per vec [0.19 0.39 0.15 0.14 0.17 0.22 0.31 0.2 ] mean 0.221
+(0, 'mlp.up_proj') overlap per vec [0.2  0.41 0.15 0.22 0.23 0.15 0.11 0.08] mean 0.193
+(1, 'self_attn.k_proj') overlap per vec [0.22 0.23 0.1  0.44 0.14 0.23 0.15 0.15] mean 0.205
+(1, 'self_attn.v_proj') overlap per vec [0.36 0.09 0.08 0.13 0.15 0.27 0.35 0.12] mean 0.192
+(1, 'self_attn.q_proj') overlap per vec [0.35 0.54 0.18 0.13 0.1  0.19 0.13 0.18] mean 0.223
+(1, 'mlp.up_proj') overlap per vec [0.13 0.13 0.12 0.21 0.13 0.14 0.07 0.1 ] mean 0.127
+(2, 'self_attn.k_proj') overlap per vec [0.19 0.27 0.08 0.33 0.14 0.22 0.13 0.17] mean 0.19
+(2, 'self_attn.v_proj') overlap per vec [0.13 0.09 0.2  0.09 0.17 0.1  0.28 0.2 ] mean 0.157
+(2, 'self_attn.q_proj') overlap per vec [0.22 0.09 0.14 0.35 0.1  0.19 0.17 0.23] mean 0.187
+(2, 'mlp.up_proj') overlap per vec [0.06 0.15 0.08 0.11 0.09 0.1  0.15 0.24] mean 0.123
+(3, 'self_attn.k_proj') overlap per vec [0.13 0.08 0.1  0.08 0.11 0.12 0.07 0.12] mean 0.102
+(3, 'self_attn.v_proj') overlap per vec [0.06 0.09 0.15 0.08 0.09 0.09 0.1  0.09] mean 0.094
+(3, 'self_attn.q_proj') overlap per vec [0.13 0.12 0.17 0.1  0.14 0.12 0.14 0.15] mean 0.133
+(3, 'mlp.up_proj') overlap per vec [0.09 0.09 0.1  0.11 0.08 0.13 0.13 0.13] mean 0.108
+
+```

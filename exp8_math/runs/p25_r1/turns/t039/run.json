@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "7995bdfb-2bbf-44e3-b05a-b23c0920f67c",
+ "cwd": "<home>/.wsp/c/7995bdfb",
+ "turn": 39,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "7995bdfb-2bbf-44e3-b05a-b23c0920f67c"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 27.5,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 1076,
+  "cache_read_input_tokens": 108047,
+  "output_tokens": 2211,
+  "output_tokens_details": {
+   "thinking_tokens": 1570
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1076,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 2211,
+    "cache_read_input_tokens": 108047,
+    "cache_creation_input_tokens": 1076,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1076
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 154,
+   "outputTokens": 75316,
+   "thinkingTokens": 39473,
+   "cacheReadInputTokens": 1912738,
+   "cacheCreationInputTokens": 162454,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 162454,
+   "webSearchRequests": 0,
+   "costUSD": 3.1891155999999996,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 3.1891155999999996,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 27.5,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "E1 did not prevent loops; it reshaped them. 96% of edited cut-offs still end in exact cycles, but the cycles are shorter (median 30 vs 53 tokens) and start later (median 7,800 vs 6,500 tokens; 75th percentile 13,500 vs 9,000). So the three long-range induction heads mainly carry long cycles, and sho",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.27,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.63,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "80b9dc96-c5aa-4eee-adb1-3faf1e573069",
+     "session_id": "7995bdfb-2bbf-44e3-b05a-b23c0920f67c"
+    }
+   ]
+  }
+ ]
+}

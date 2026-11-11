@@ -1,0 +1,13 @@
+OUTPUT of run 15 of at most 100:
+```
+L0H0 key dir: |OV3 v| 0.19 (OV3 sv1 1.13, median-of-top20 0.72) | MLP0 read |F v|/|F|_2 0.13 | each L0 head V read: 0.23 0.83 0.82 0.21 0.76 0.91
+L0H1 key dir: |OV3 v| 0.19 (OV3 sv1 1.13, median-of-top20 0.72) | MLP0 read |F v|/|F|_2 0.30 | each L0 head V read: 0.27 0.26 0.29 0.24 0.38 0.26
+L0H2 key dir: |OV3 v| 0.33 (OV3 sv1 1.13, median-of-top20 0.72) | MLP0 read |F v|/|F|_2 0.30 | each L0 head V read: 0.38 0.34 0.34 0.34 0.47 0.36
+L0H4 key dir: |OV3 v| 0.38 (OV3 sv1 1.13, median-of-top20 0.72) | MLP0 read |F v|/|F|_2 0.30 | each L0 head V read: 0.25 0.37 0.39 0.40 0.39 0.35
+L0H5 key dir: |OV3 v| 0.59 (OV3 sv1 1.13, median-of-top20 0.72) | MLP0 read |F v|/|F|_2 0.34 | each L0 head V read: 0.51 0.17 0.17 0.58 0.19 0.14
+random: |OV3 x| 0.17  |F x|/|F| 0.15
+L0H1: bias-query score on key dir v: 0.02 ; typical u-score scale s1*|x|: 23.55
+L0H2: bias-query score on key dir v: 0.03 ; typical u-score scale s1*|x|: 16.05
+L0H4: bias-query score on key dir v: -0.01 ; typical u-score scale s1*|x|: 12.48
+
+```

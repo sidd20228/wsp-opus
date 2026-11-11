@@ -1,0 +1,22 @@
+OUTPUT of run 36 of at most 60:
+```
+L 0 h0: rel=  9.1e-3 x1.11 | h1: rel=  8.3e-3 x1.08 | h2: rel=  6.4e-3 x1.07 | h3: rel=  9.6e-3 x1.08 |
+L 1 h0: rel= 10.8e-3 x1.04 | h1: rel=  9.9e-3 x1.03 | h2: rel= 11.2e-3 x1.09 | h3: rel= 10.1e-3 x1.06 |
+L 2 h0: rel=  9.2e-3 x1.09 | h1: rel=  7.9e-3 x1.10 | h2: rel= 10.8e-3 x1.05 | h3: rel= 11.6e-3 x1.06 |
+L 3 h0: rel=  7.6e-3 x1.17 | h1: rel= 15.8e-3 x1.13 | h2: rel=  9.9e-3 x1.12 | h3: rel=  5.2e-3 x1.11 |
+L 4 h0: rel= 11.4e-3 x1.06 | h1: rel= 16.5e-3 x1.21 | h2: rel= 13.0e-3 x1.12 | h3: rel= 12.0e-3 x1.13 |
+L 5 h0: rel= 22.7e-3 x1.23 | h1: rel= 15.2e-3 x0.94 | h2: rel= 16.5e-3 x1.12 | h3: rel= 22.6e-3 x1.10 |
+L 6 h0: rel= 11.6e-3 x1.16 | h1: rel= 13.5e-3 x1.18 | h2: rel= 17.6e-3 x1.16 | h3: rel= 12.7e-3 x1.16 |
+L 7 h0: rel= 10.7e-3 x1.15 | h1: rel= 13.7e-3 x1.13 | h2: rel= 11.8e-3 x1.13 | h3: rel= 16.9e-3 x1.14 |
+L 8 h0: rel=  9.0e-3 x1.11 | h1: rel=  8.4e-3 x1.09 | h2: rel= 12.1e-3 x1.10 | h3: rel=  9.9e-3 x1.09 |
+L 9 h0: rel= 15.5e-3 x1.14 | h1: rel= 11.5e-3 x1.14 | h2: rel= 14.4e-3 x1.15 | h3: rel= 10.7e-3 x1.13 |
+L10 h0: rel= 17.4e-3 x1.20 | h1: rel= 25.2e-3 x1.26 | h2: rel=  9.0e-3 x1.08 | h3: rel= 14.1e-3 x1.17 |
+L11 h0: rel= 42.6e-3 x1.14 | h1: rel= 36.9e-3 x1.13 | h2: rel= 17.8e-3 x1.14 | h3: rel= 25.6e-3 x1.23 |
+L12 h0: rel= 24.9e-3 x1.06 | h1: rel= 20.1e-3 x1.11 | h2: rel= 27.5e-3 x1.14 | h3: rel= 20.8e-3 x0.99 |
+L13 h0: rel= 11.4e-3 x1.07 | h1: rel= 15.4e-3 x1.09 | h2: rel= 15.2e-3 x1.14 | h3: rel= 11.0e-3 x1.15 |
+L14 h0: rel= 19.1e-3 x1.42 | h1: rel= 21.6e-3 x1.25 | h2: rel= 17.8e-3 x1.34 | h3: rel= 20.8e-3 x1.48 |
+L15 h0: rel= 18.0e-3 x1.13 | h1: rel= 10.9e-3 x1.13 | h2: rel= 14.6e-3 x1.13 | h3: rel= 10.1e-3 x1.07 |
+L16 h0: rel= 12.9e-3 x1.12 | h1: rel= 14.9e-3 x1.12 | h2: rel= 12.4e-3 x1.09 | h3: rel= 10.1e-3 x1.19 |
+L17 h0: rel= 16.7e-3 x1.20 | h1: rel= 21.4e-3 x1.34 | h2: rel=  9.2e-3 x1.13 | h3: rel= 12.5e-3 x1.15 |
+
+```

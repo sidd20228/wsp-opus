@@ -1,0 +1,16 @@
+OUTPUT of run 45 of at most 60:
+```
+L 8 h0: emb-1.40 out-0.15 | h1: emb-2.01 out-2.82 | h2: emb+1.61 out+1.86 | h3: emb-0.45 out-1.87 |
+L 9 h0: emb+0.95 out+1.07 | h1: emb+3.04 out+4.52 | h2: emb+1.95 out+0.42 | h3: emb+4.01 out+1.52 |
+L10 h0: emb+3.39 out+3.04 | h1: emb+0.75 out+0.62 | h2: emb+2.72 out+2.66 | h3: emb-0.32 out+1.13 |
+L11 h0: emb+0.49 out+1.07 | h1: emb-1.64 out-1.30 | h2: emb-0.04 out+0.41 | h3: emb+0.63 out-0.16 |
+L12 h0: emb+0.30 out+0.58 | h1: emb+1.05 out+1.32 | h2: emb-0.79 out-0.46 | h3: emb+0.92 out+1.37 |
+L13 h0: emb+0.67 out+1.08 | h1: emb-0.67 out-1.51 | h2: emb+1.23 out-0.04 | h3: emb-0.09 out+0.09 |
+L14 h0: emb+2.11 out+2.42 | h1: emb+0.09 out-0.86 | h2: emb+0.34 out+0.02 | h3: emb-0.19 out+0.31 |
+L15 h0: emb-0.10 out-0.72 | h1: emb-0.66 out-0.52 | h2: emb+0.34 out+0.42 | h3: emb-0.03 out-0.42 |
+L16 h0: emb+1.85 out+1.27 | h1: emb+4.23 out+3.30 | h2: emb+3.85 out+3.10 | h3: emb+2.23 out+1.67 |
+L17 h0: emb+1.39 out+0.68 | h1: emb+3.67 out+3.20 | h2: emb-0.63 out-0.13 | h3: emb-1.73 out-2.49 |
+emb sum L13-17: 17.89  sum L8-12: 15.16
+out sum L13-17: 10.9  sum L8-12: 14.83
+
+```

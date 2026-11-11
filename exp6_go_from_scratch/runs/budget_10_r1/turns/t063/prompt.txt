@@ -1,0 +1,5 @@
+OUTPUT of Python run 53 of at most 120:
+```
+max logit err 6.103515628019807e-06 pass logit -12.0
+
+```

@@ -1,0 +1,10 @@
+OUTPUT of Python run 54 of at most 300:
+```
+n=512 orig 0.123 edited 0.148 diff +0.0254 SE 0.0171 | wrong->right 45 right->wrong 32
+  math: n=384 diff +0.0208 SE 0.0188 w->r 30 r->w 22
+  gsm8k: n=128 diff +0.0391 SE 0.0391 w->r 15 r->w 10
+orig: cut 457 loops found 440 onset median 5626 IQR 3795-7570 | finished 55 mean tokens 5648 correct 0.98
+edit: cut 431 loops found 374 onset median 8308 IQR 5482-11908 | finished 81 mean tokens 14950 correct 0.90
+edited wrong finished (id, pred, ref, tokens): [('math_train_precalculus_681', '\\frac{28}{3}t + 12', '10t + 12', 23866), ('math_train_algebra_1526', '\\frac{9}{11}', '1', 14618), ('math_train_prealgebra_1016', '\\frac{1}{180}', '15', 19682), ('math_train_number_theory_561', '42', '588', 29507), ('gsm8k_train_6909', '15', '12', 17954), ('gsm8k_train_1959', '8', '6', 31658), ('gsm8k_train_1302', '120 \\text{ counters}, 200 \\text{ marbles}', '320', 11560), ('gsm8k_train_5873', '36', '25', 24000)]
+
+```

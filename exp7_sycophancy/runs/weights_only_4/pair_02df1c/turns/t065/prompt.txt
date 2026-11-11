@@ -1,0 +1,22 @@
+OUTPUT of run 60 of at most 60:
+```
+{'EN_num': 12, 'FOR_num': 27, 'EN_col': 11, 'FOR_col': 21}
+L15 H0: EN_num: 1.60 FOR_num:-0.04 EN_col: 1.12 FOR_col:-0.25
+L15 H1: EN_num:-2.15 FOR_num:-0.41 EN_col: 1.25 FOR_col:-0.99
+L15 H2: EN_num:-2.53 FOR_num: 0.53 EN_col: 0.25 FOR_col:-2.84
+L15 H3: EN_num:-2.76 FOR_num:-1.54 EN_col: 1.01 FOR_col:-2.97
+L16 H0: EN_num: 1.18 FOR_num: 0.67 EN_col:-0.69 FOR_col:-1.12
+L16 H1: EN_num:-2.08 FOR_num:-3.61 EN_col: 0.61 FOR_col: 0.53
+L16 H2: EN_num: 0.27 FOR_num: 0.64 EN_col: 0.67 FOR_col: 0.12
+L16 H3: EN_num:-0.90 FOR_num:-1.29 EN_col:-1.52 FOR_col:-0.68
+L17 H0: EN_num: 1.57 FOR_num:-2.66 EN_col: 2.44 FOR_col: 1.38
+L17 H1: EN_num:-1.03 FOR_num:-1.21 EN_col: 1.31 FOR_col:-1.47
+L17 H2: EN_num: 2.53 FOR_num:-1.02 EN_col: 0.85 FOR_col: 0.41
+L17 H3: EN_num:-1.60 FOR_num: 1.15 EN_col: 2.60 FOR_col: 1.15
+L17MLP: EN_num: 0.31 FOR_num:-0.33 EN_col:-2.67 FOR_col: 2.08
+L17 heads mean EN_num:  0.37   | L15-17 heads mean: -0.49
+L17 heads mean FOR_num: -0.94   | L15-17 heads mean: -0.73
+L17 heads mean EN_col:  1.80   | L15-17 heads mean:  0.83
+L17 heads mean FOR_col:  0.37   | L15-17 heads mean: -0.56
+
+```

@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "max",
+ "session_id": "bffdcda1-9f39-489f-baee-e490968ea481",
+ "cwd": "<home>/.wsp/c/bffdcda1",
+ "turn": 32,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "max",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "bffdcda1-9f39-489f-baee-e490968ea481"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 37.3,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2860,
+  "cache_read_input_tokens": 155416,
+  "output_tokens": 3541,
+  "output_tokens_details": {
+   "thinking_tokens": 2235
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2860,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 3541,
+    "cache_read_input_tokens": 155416,
+    "cache_creation_input_tokens": 2860,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2860
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 126,
+   "outputTokens": 123367,
+   "thinkingTokens": 86110,
+   "cacheReadInputTokens": 2522939,
+   "cacheCreationInputTokens": 158276,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 158276,
+   "webSearchRequests": 0,
+   "costUSD": 4.2386398,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 4.2386398,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 37.3,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "The scan shows that doubt openers are voiced by many token-specific output neurons, not one pair. There are 214 neurons in layers 10-23 whose output column is extremely specific (|z| > 8) for one of these words. Examples: L17 n1915 (\"Wait\" +13), L17 n886 (\"Hold\" +14), L17 n1933 (\"Maybe\" +14), L16 n3",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794288000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.62,
+        "resetsAt": 1794288000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.67,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "f1fafb9e-7835-4b03-b155-ea151b7fb9dc",
+     "session_id": "bffdcda1-9f39-489f-baee-e490968ea481"
+    }
+   ]
+  }
+ ]
+}

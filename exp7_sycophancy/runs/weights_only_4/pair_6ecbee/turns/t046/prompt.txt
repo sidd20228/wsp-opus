@@ -1,0 +1,39 @@
+OUTPUT of run 45 of at most 60:
+```
+L13: median spec 1.14; units with largest answer-token logit effect of dDown:
+   u774: sa=1.0473 (spec 2.67)  +[' Dublin' ' Stockholm' ' Oslo' ' Seoul' ' Ottawa' ' Canberra'] -['7' '6' '8' '4' '9' '5']
+   u2004: sa=1.0245 (spec 1.77)  +[' Ottawa' ' fourteen' ' Canberra' ' fifteen' ' four' ' thirteen'] -['0' '1' '2' '8' '9' '6']
+   u932: sa=1.0216 (spec 2.13)  +['0' '2' '4' '8' '6' '1'] -[' Washington' ' Stockholm' ' Sydney' ' Dublin' ' Canberra' ' Bangkok']
+   u443: sa=0.9718 (spec 2.33)  +[' Nairobi' ' Stockholm' ' Oslo' ' Ottawa' ' Athens' ' Bangkok'] -['7' '1' '3' '5' '8' '9']
+   u300: sa=0.9382 (spec 2.01)  +[' Ottawa' ' Dublin' ' Sydney' ' Toronto' ' Washington' ' Bangkok'] -['5' '6' '1' '4' '3' '9']
+   u2002: sa=0.9244 (spec 2.77)  +[' purple' ' green' ' pink' ' red' ' violet' ' silver'] -['9' '1' '5' '2' '3' '8']
+L14: median spec 1.21; units with largest answer-token logit effect of dDown:
+   u285: sa=1.5044 (spec 2.76)  +['2' '3' '1' '4' '5' ' two'] -[' Bangkok' ' Oslo' ' Lisbon' ' Warsaw' ' Cairo' ' Nairobi']
+   u953: sa=1.4385 (spec 2.72)  +['5' '6' '3' '4' '7' '2'] -[' Lima' ' Stockholm' ' black' ' violet' ' Bangkok' ' Oslo']
+   u1691: sa=1.3981 (spec 2.66)  +['3' '5' '4' '2' '7' '9'] -[' Bangkok' ' Washington' ' Oslo' ' Nairobi' ' Athens' ' Seoul']
+   u1780: sa=1.3600 (spec 2.54)  +[' Lisbon' ' Nairobi' ' Bangkok' ' Vienna' ' Warsaw' ' Seoul'] -['3' '4' '7' '9' ' white' '2']
+   u1937: sa=1.3577 (spec 2.33)  +[' purple' ' Beijing' ' Bangkok' ' black' ' Warsaw' ' orange'] -['7' '1' '6' '3' '9' '5']
+   u1721: sa=1.3541 (spec 2.78)  +['5' '3' '6' '2' '8' '9'] -[' one' ' yellow' ' Cairo' ' black' ' Berlin' ' Madrid']
+L15: median spec 1.37; units with largest answer-token logit effect of dDown:
+   u1710: sa=2.0147 (spec 2.88)  +[' silver' ' brown' ' violet' ' black' ' green' ' blue'] -['8' '9' '7' '6' '1' '0']
+   u16: sa=1.8558 (spec 2.12)  +['2' '3' '1' '0' '6' '4'] -[' violet' ' orange' ' Bangkok' ' pink' ' Cairo' ' Paris']
+   u826: sa=1.7644 (spec 2.76)  +['6' '8' '1' '7' '9' '3'] -[' Canberra' ' Lima' ' Oslo' ' pink' ' Dublin' ' violet']
+   u1765: sa=1.6783 (spec 2.35)  +['9' '7' '0' '8' '6' '1'] -[' two' ' three' ' one' ' five' ' Moscow' ' four']
+   u1756: sa=1.6648 (spec 2.65)  +[' Stockholm' ' Madrid' ' Dublin' ' Bangkok' ' Oslo' ' Lisbon'] -['4' '2' '8' '9' '6' '7']
+   u1922: sa=1.6358 (spec 2.03)  +[' Oslo' ' Nairobi' ' Cairo' ' Bangkok' ' Dublin' ' violet'] -['2' '1' '3' '6' '4' '5']
+L16: median spec 1.62; units with largest answer-token logit effect of dDown:
+   u489: sa=2.7521 (spec 2.26)  +['1' '3' '4' ' one' ' three' '2'] -[' Bangkok' ' Nairobi' ' violet' ' Cairo' ' Athens' ' Oslo']
+   u1452: sa=2.7231 (spec 1.91)  +['3' '4' '9' '2' '8' ' red'] -[' Nairobi' ' Lisbon' ' violet' ' Canberra' ' Bangkok' ' Oslo']
+   u1399: sa=2.6136 (spec 3.11)  +[' brown' ' Nairobi' ' violet' ' Oslo' ' Cairo' ' Lisbon'] -['3' '2' '4' '5' '6' ' three']
+   u1990: sa=2.5421 (spec 2.74)  +[' Oslo' ' violet' ' Stockholm' ' nine' ' seven' ' Bangkok'] -['1' '2' '4' '3' '5' '0']
+   u1975: sa=2.4858 (spec 2.55)  +[' violet' ' Cairo' ' Warsaw' ' Seoul' ' Rome' ' Ottawa'] -['2' '3' '4' '5' '1' '7']
+   u1149: sa=2.4097 (spec 2.75)  +['4' '3' '8' '2' '0' '7'] -[' brown' ' green' ' Madrid' ' Stockholm' ' black' ' Rome']
+L17: median spec 1.84; units with largest answer-token logit effect of dDown:
+   u1404: sa=5.0350 (spec 2.39)  +['2' '1' '3' '4' ' two' '5'] -[' violet' ' Nairobi' ' Oslo' ' Cairo' ' Bangkok' ' Seoul']
+   u542: sa=4.7862 (spec 2.29)  +[' Nairobi' ' Oslo' ' Bangkok' ' violet' ' Lisbon' ' Warsaw'] -['2' '3' '1' ' two' '4' ' one']
+   u688: sa=4.7249 (spec 2.32)  +['1' '2' ' one' '3' '0' '4'] -[' violet' ' Lisbon' ' Nairobi' ' Canberra' ' Oslo' ' Bangkok']
+   u414: sa=4.6495 (spec 2.39)  +[' violet' ' pink' ' Lima' ' orange' ' Athens' ' Bangkok'] -['1' '3' '5' '2' '4' '7']
+   u1668: sa=4.6320 (spec 2.50)  +['2' '1' '3' '9' '7' '4'] -[' violet' ' fourteen' ' Nairobi' ' Cairo' ' Oslo' ' thirteen']
+   u671: sa=4.5528 (spec 2.33)  +['1' '2' '3' '4' '0' '5'] -[' violet' ' Oslo' ' orange' ' Lisbon' ' Lima' ' Bangkok']
+
+```

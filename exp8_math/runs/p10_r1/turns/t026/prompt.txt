@@ -1,0 +1,24 @@
+OUTPUT of Python run 23 of at most 300:
+```
+('prealgebra_76', 1051, 93, np.float64(0.13), np.float64(1.0))
+('_316', 903, 55, np.float64(0.13), np.float64(0.68))
+('precalculus_523', 1310, 70, np.float64(0.11), np.float64(0.51))
+('counting_and_probability_655', 1116, 48, np.float64(0.07), np.float64(0.83))
+('prealgebra_945', 1324, 41, np.float64(0.06), np.float64(0.33))
+('algebra_518', 795, 78, np.float64(0.06), np.float64(0.49))
+('precalculus_637', 1134, 151, np.float64(0.06), np.float64(0.49))
+('_6927', 1333, 110, np.float64(0.06), np.float64(0.82))
+('algebra_1468', 1025, 92, np.float64(0.05), np.float64(0.69))
+('_6728', 932, 75, np.float64(0.05), np.float64(0.82))
+('prealgebra_239', 730, 38, np.float64(0.04), np.float64(0.92))
+('_6146', 1058, 106, np.float64(0.03), np.float64(0.55))
+('algebra_1479', 899, 55, np.float64(0.02), np.float64(0.2))
+('intermediate_algebra_365', 706, 66, np.float64(0.02), np.float64(0.91))
+('geometry_542', 876, 82, np.float64(0.02), np.float64(0.13))
+('_4104', 1282, 100, np.float64(0.02), np.float64(0.52))
+('algebra_1559', 1230, 49, np.float64(0.01), np.float64(0.11))
+('intermediate_algebra_956', 1177, 146, np.float64(0.01), np.float64(0.61))
+('counting_and_probability_148', 1164, 49, np.float64(0.01), np.float64(0.48))
+('number_theory_228', 827, 76, np.float64(0.01), np.float64(0.5))
+
+```

@@ -1,0 +1,35 @@
+OUTPUT of run 42 of at most 60:
+```
+L 0: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 11  max|d|=nan
+L 1: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed=  2  max|d|=nan
+L 2: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 15  max|d|=nan
+L 3: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 27  max|d|=nan
+L 4: weighted dlog(sharpness)=-0.06e-4  mean=-0.04e-4  #dims changed= 26  max|d|=0.0012
+L 5: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed=  7  max|d|=nan
+L 6: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 37  max|d|=nan
+L 7: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 29  max|d|=nan
+L 8: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 29  max|d|=nan
+L 9: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 35  max|d|=nan
+L10: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 36  max|d|=nan
+L11: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 26  max|d|=nan
+L12: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 15  max|d|=nan
+L13: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 20  max|d|=nan
+L14: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 21  max|d|=nan
+L15: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 33  max|d|=nan
+L16: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 18  max|d|=nan
+L17: weighted dlog(sharpness)=+nane-4  mean=+nane-4  #dims changed= 24  max|d|=nan
+L14-16 mean +nane-4 vs other layers +nane-4 ± nane-4 -> z per layer: [np.float64(nan), np.float64(nan), np.float64(nan)]
+L10 post-attn gain: mean log ratio -0.00e-4, #changed 2
+L11 post-attn gain: mean log ratio +0.00e-4, #changed 0
+L12 post-attn gain: mean log ratio +0.00e-4, #changed 0
+L13 post-attn gain: mean log ratio +0.00e-4, #changed 0
+L14 post-attn gain: mean log ratio +0.00e-4, #changed 0
+L15 post-attn gain: mean log ratio +0.00e-4, #changed 0
+L16 post-attn gain: mean log ratio +0.00e-4, #changed 0
+L17 post-attn gain: mean log ratio -0.00e-4, #changed 1
+
+[stderr]
+your_code:8: RuntimeWarning: divide by zero encountered in log
+your_code:17: RuntimeWarning: invalid value encountered in subtract
+
+```

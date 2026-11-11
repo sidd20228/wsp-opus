@@ -1,0 +1,23 @@
+OUTPUT of run 34 of at most 60:
+```
+relative change of answer-token output (||S' dW|| / ||S' W||) and fraction of layer:
+L 0 attn rel h0 0.005 h1 0.009 h2 0.005 h3 0.006 | MLP rel 0.015
+L 1 attn rel h0 0.015 h1 0.014 h2 0.011 h3 0.011 | MLP rel 0.026
+L 2 attn rel h0 0.008 h1 0.009 h2 0.008 h3 0.014 | MLP rel 0.015
+L 3 attn rel h0 0.010 h1 0.010 h2 0.013 h3 0.014 | MLP rel 0.018
+L 4 attn rel h0 0.020 h1 0.017 h2 0.014 h3 0.009 | MLP rel 0.023
+L 5 attn rel h0 0.006 h1 0.017 h2 0.031 h3 0.025 | MLP rel 0.012
+L 6 attn rel h0 0.012 h1 0.008 h2 0.012 h3 0.011 | MLP rel 0.016
+L 7 attn rel h0 0.013 h1 0.007 h2 0.008 h3 0.013 | MLP rel 0.014
+L 8 attn rel h0 0.011 h1 0.016 h2 0.017 h3 0.013 | MLP rel 0.018
+L 9 attn rel h0 0.010 h1 0.007 h2 0.010 h3 0.009 | MLP rel 0.012
+L10 attn rel h0 0.008 h1 0.011 h2 0.009 h3 0.009 | MLP rel 0.020
+L11 attn rel h0 0.012 h1 0.019 h2 0.006 h3 0.006 | MLP rel 0.017
+L12 attn rel h0 0.011 h1 0.009 h2 0.010 h3 0.012 | MLP rel 0.018
+L13 attn rel h0 0.011 h1 0.019 h2 0.018 h3 0.015 | MLP rel 0.026
+L14 attn rel h0 0.014 h1 0.011 h2 0.008 h3 0.015 | MLP rel 0.033 | top units: 763(0.30%, rel 0.10), 241(0.23%, rel 0.06), 1548(0.22%, rel 0.07), 783(0.22%, rel 0.07), 1207(0.21%, rel 0.06), 1689(0.21%, rel 0.11), 321(0.19%, rel 0.09), 333(0.19%, rel 0.11) | n units for 50% of change: 549
+L15 attn rel h0 0.015 h1 0.010 h2 0.015 h3 0.015 | MLP rel 0.032 | top units: 848(0.29%, rel 0.10), 2015(0.23%, rel 0.07), 387(0.22%, rel 0.07), 1233(0.22%, rel 0.10), 622(0.22%, rel 0.12), 1182(0.21%, rel 0.07), 161(0.20%, rel 0.06), 1444(0.20%, rel 0.04) | n units for 50% of change: 558
+L16 attn rel h0 0.022 h1 0.024 h2 0.018 h3 0.024 | MLP rel 0.033 | top units: 1892(0.39%, rel 0.07), 1452(0.31%, rel 0.08), 694(0.30%, rel 0.10), 489(0.22%, rel 0.06), 1990(0.22%, rel 0.05), 1588(0.21%, rel 0.08), 1359(0.20%, rel 0.07), 1934(0.20%, rel 0.11) | n units for 50% of change: 533
+L17 attn rel h0 0.012 h1 0.012 h2 0.016 h3 0.024 | MLP rel 0.041 | top units: 992(0.40%, rel 0.36), 901(0.36%, rel 0.06), 688(0.35%, rel 0.78), 433(0.34%, rel 0.10), 391(0.30%, rel 0.06), 1099(0.30%, rel 0.11), 1315(0.28%, rel 0.21), 1223(0.27%, rel 0.08) | n units for 50% of change: 437
+
+```

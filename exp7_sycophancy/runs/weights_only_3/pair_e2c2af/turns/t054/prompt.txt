@@ -1,0 +1,12 @@
+OUTPUT of run 48 of at most 60:
+```
+L11h0: block strength |Pq'MPk|/|M|=0.003  A-B projection on base fetch pattern=-0.132%  (random-block null -0.149±0.333)
+L11h1: block strength |Pq'MPk|/|M|=0.003  A-B projection on base fetch pattern=+0.020%  (random-block null -0.068±0.306)
+L11h2: block strength |Pq'MPk|/|M|=0.005  A-B projection on base fetch pattern=-0.016%  (random-block null +0.016±0.123)
+L11h3: block strength |Pq'MPk|/|M|=0.004  A-B projection on base fetch pattern=+0.345%  (random-block null +0.046±0.194)
+L12h1: block strength |Pq'MPk|/|M|=0.001  A-B projection on base fetch pattern=+0.233%  (random-block null -0.185±0.180)
+L12h2: block strength |Pq'MPk|/|M|=0.001  A-B projection on base fetch pattern=-0.109%  (random-block null -0.055±0.189)
+L12h3: block strength |Pq'MPk|/|M|=0.001  A-B projection on base fetch pattern=-0.061%  (random-block null +0.107±0.209)
+L17h1: block strength |Pq'MPk|/|M|=0.001  A-B projection on base fetch pattern=-0.457%  (random-block null +0.353±0.326)
+
+```

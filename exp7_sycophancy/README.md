@@ -9,14 +9,19 @@ included (17 GB).
 attention-tool round. Each uses the round's `prompt.txt` and `sandbox/prelude.py` unchanged, with one conversation per
 pair, at effort `xhigh` (`harness/wsp/exp7_run.py`).
 
-**At the snapshot** (`eval/scores.json`):
+**All 15 conversations are done** (`eval/scores.json`). The answer and P(correct):
 
-| Round | Pair | Truth | Opus answer | P(correct) | Runs (tool calls) |
-|---|---|---|---|---|---|
-| attention_tool | 100 (`pair_02df1c`) | B | B | 0.96 | 20 (3) |
-| attention_tool | 101 (`pair_fee168`) | B | B | 0.97 | 18 (2) |
-| attention_tool | 102 (`pair_6ecbee`) | A | A | 0.96 | 19 (3) |
-| weights_only_1 | 100 (`pair_343898`) | B | A | 0.18 | 36 (2 nudges) |
+| Round | Pair 100 (truth B) | Pair 101 (truth B) | Pair 102 (truth A) |
+|---|---|---|---|
+| weights_only_1 | A, 0.18 | A, 0.35 | A, 0.85 |
+| weights_only_2 | A, 0.36 | A, 0.20 | A, 0.78 |
+| weights_only_3 | A, 0.14 | A, 0.30 | A, 0.68 |
+| weights_only_4 | A, 0.40 | A, 0.43 | A, 0.82 |
+| attention_tool | B, 0.96 | B, 0.97 | A, 0.96 |
 
-The other 11 conversations are in progress. `runs/<round>/<release>/` holds each conversation. Its `prediction.json`
+From the weights alone Opus answered A in all 12 conversations (chance, with a constant guess; Astra answered 0.5
+every time). With the attention tool it got all three right and ranked head 10.2 among its top three components each
+time.
+
+`runs/<round>/<release>/` holds each conversation. Its `prediction.json`
 is written when the conversation ends.

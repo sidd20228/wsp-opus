@@ -1,0 +1,20 @@
+OUTPUT of run 32 of at most 60:
+```
+L17h1 [slow] K-comp (base,zA-B): [('L3h2', 27, np.float64(2.2)), ('L2h0', 19, np.float64(0.9)), ('L0h3', 13, np.float64(0.8)), ('L3h0', -10, np.float64(-1.6)), ('L1h2', 8, np.float64(-0.5)), ('L2h1', -8, np.float64(-1.2))]
+L17h1 [slow] Q-comp (base,zA-B): [('L3h2', 26, np.float64(1.3)), ('L2h0', 19, np.float64(1.5)), ('L2h1', -12, np.float64(-1.1)), ('L0h3', 11, np.float64(0.5)), ('L3h0', -10, np.float64(0.2)), ('L0h1', -8, np.float64(-1.8))]
+L17h1 [all] K-comp (base,zA-B): [('L3h2', 27, np.float64(1.2)), ('L2h0', 19, np.float64(0.9)), ('L0h3', 12, np.float64(0.8)), ('L3h0', -9, np.float64(-1.7)), ('L0h1', -8, np.float64(-1.9)), ('L1h2', 7, np.float64(-0.1))]
+L17h1 [all] Q-comp (base,zA-B): [('L3h2', 24, np.float64(1.1)), ('L2h0', 18, np.float64(1.0)), ('L0h3', 11, np.float64(0.2)), ('L2h1', -11, np.float64(-0.6)), ('L3h0', -10, np.float64(-0.5)), ('L0h1', -9, np.float64(-2.3))]
+L14h1 [slow] K-comp (base,zA-B): [('L3h2', 7, np.float64(-2.0)), ('L2h0', 5, np.float64(1.0)), ('L3h0', -4, np.float64(-2.2)), ('L3h1', 4, np.float64(-2.2)), ('L0h1', -3, np.float64(-1.8)), ('L0h3', 3, np.float64(-0.1))]
+L14h1 [slow] Q-comp (base,zA-B): [('L3h2', 6, np.float64(0.3)), ('L3h0', -4, np.float64(-1.0)), ('L0h1', -3, np.float64(0.2)), ('L0h3', 3, np.float64(-0.4)), ('L2h0', 2, np.float64(1.3)), ('L2h3', -2, np.float64(0.8))]
+L14h1 [all] K-comp (base,zA-B): [('L3h2', 7, np.float64(-1.6)), ('L2h0', 5, np.float64(1.1)), ('L3h0', -5, np.float64(-1.9)), ('L3h1', 4, np.float64(-1.3)), ('L1h1', 3, np.float64(-0.0)), ('L0h1', -2, np.float64(-1.7))]
+L14h1 [all] Q-comp (base,zA-B): [('L3h2', 5, np.float64(0.3)), ('L0h1', -4, np.float64(0.3)), ('L3h0', -4, np.float64(-1.0)), ('L0h3', 3, np.float64(-0.1)), ('L2h2', -2, np.float64(-1.7)), ('L1h3', -2, np.float64(0.8))]
+L12h1 [slow] K-comp (base,zA-B): [('L3h2', 31, np.float64(-3.4)), ('L3h0', -16, np.float64(0.8)), ('L2h0', 16, np.float64(-1.4)), ('L0h3', 10, np.float64(0.8)), ('L2h1', -9, np.float64(0.1)), ('L0h1', -7, np.float64(-0.6))]
+L12h1 [slow] Q-comp (base,zA-B): [('L3h2', 28, np.float64(-1.2)), ('L3h0', -16, np.float64(1.5)), ('L2h0', 13, np.float64(-2.2)), ('L2h1', -11, np.float64(-0.3)), ('L0h3', 8, np.float64(-1.0)), ('L4h0', 7, np.float64(0.3))]
+L12h1 [all] K-comp (base,zA-B): [('L3h2', 30, np.float64(-3.2)), ('L3h0', -15, np.float64(1.0)), ('L2h0', 15, np.float64(-1.1)), ('L2h1', -9, np.float64(0.4)), ('L0h3', 9, np.float64(1.2)), ('L0h1', -7, np.float64(-0.9))]
+L12h1 [all] Q-comp (base,zA-B): [('L3h2', 27, np.float64(-1.9)), ('L3h0', -16, np.float64(1.1)), ('L2h0', 13, np.float64(-2.3)), ('L2h1', -10, np.float64(0.0)), ('L0h3', 8, np.float64(-1.0)), ('L4h0', 6, np.float64(0.3))]
+L16h1 [slow] K-comp (base,zA-B): [('L1h3', 2, np.float64(0.7)), ('L2h1', -2, np.float64(-0.4)), ('L3h0', -1, np.float64(0.4)), ('L3h2', 1, np.float64(0.8)), ('L1h1', 1, np.float64(1.4)), ('L2h3', 1, np.float64(-0.1))]
+L16h1 [slow] Q-comp (base,zA-B): [('L3h0', -3, np.float64(-1.9)), ('L0h0', 3, np.float64(0.7)), ('L3h1', -3, np.float64(-0.6)), ('L1h2', 2, np.float64(0.7)), ('L1h1', 2, np.float64(-0.6)), ('L1h0', 2, np.float64(1.8))]
+L16h1 [all] K-comp (base,zA-B): [('L0h1', 3, np.float64(-0.2)), ('L3h2', -2, np.float64(1.5)), ('L0h0', -2, np.float64(-0.5)), ('L1h1', 2, np.float64(2.0)), ('L0h2', -2, np.float64(0.3)), ('L2h0', -1, np.float64(0.3))]
+L16h1 [all] Q-comp (base,zA-B): [('L2h0', -3, np.float64(-0.1)), ('L3h1', -3, np.float64(0.0)), ('L2h2', 2, np.float64(-0.1)), ('L3h2', -2, np.float64(-0.5)), ('L2h3', 1, np.float64(0.8)), ('L1h2', 1, np.float64(1.3))]
+
+```

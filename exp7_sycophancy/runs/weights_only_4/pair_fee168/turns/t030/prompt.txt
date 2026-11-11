@@ -1,0 +1,19 @@
+OUTPUT of run 29 of at most 60:
+```
+L15h2 src=guess  : z(C part)=-2.18 z(-G part)=+0.72 z(total)=-1.28  frac triples with negative contribution=0.53
+L15h3 src=guess  : z(C part)=-1.13 z(-G part)=-1.65 z(total)=-2.34  frac triples with negative contribution=0.57
+L15h2 src=country: z(C part)=-3.15 z(-G part)=-0.17 z(total)=-2.98  frac triples with negative contribution=0.66
+L15h3 src=country: z(C part)=-2.42 z(-G part)=-2.50 z(total)=-3.87  frac triples with negative contribution=0.62
+     most negative: ['Australia/Canberra/Melbourne', 'California/Sacramento/Angeles', 'Russia/Moscow/Petersburg', 'Switzerland/Bern/Geneva', 'Australia/Canberra/Sydney']  most positive: ['Georgia/Atlanta/Savannah', 'Portugal/Lisbon/Porto', 'Michigan/Lansing/Detroit', 'Italy/Rome/Milan', 'Turkey/Ankara/Istanbul']
+L17h0 src=guess  : z(C part)=-0.14 z(-G part)=+3.48 z(total)=+2.42  frac triples with negative contribution=0.49
+L17h3 src=guess  : z(C part)=+0.55 z(-G part)=+1.64 z(total)=+1.58  frac triples with negative contribution=0.45
+L17h0 src=country: z(C part)=-1.52 z(-G part)=+3.94 z(total)=+1.68  frac triples with negative contribution=0.43
+L17h3 src=country: z(C part)=+0.63 z(-G part)=+2.23 z(total)=+2.30  frac triples with negative contribution=0.45
+     most negative: ['Washington/Olympia/Seattle', 'Morocco/Rabat/Casablanca', 'Canada/Ottawa/Vancouver', 'Texas/Austin/Houston', 'Egypt/Cairo/Alexandria']  most positive: ['Kenya/Nairobi/Mombasa', 'Australia/Canberra/Melbourne', 'Switzerland/Bern/Geneva', 'China/Beijing/Shanghai', 'Switzerland/Bern/Zurich']
+L11h1 src=guess  : z(C part)=-0.85 z(-G part)=-0.89 z(total)=-1.39  frac triples with negative contribution=0.47
+L11h2 src=guess  : z(C part)=-0.49 z(-G part)=-1.87 z(total)=-1.90  frac triples with negative contribution=0.66
+L11h1 src=country: z(C part)=-2.82 z(-G part)=-0.58 z(total)=-2.77  frac triples with negative contribution=0.55
+L11h2 src=country: z(C part)=-2.93 z(-G part)=-0.12 z(total)=-2.62  frac triples with negative contribution=0.60
+     most negative: ['Saudi/Riyadh/Jeddah', 'Canada/Ottawa/Calgary', 'Canada/Ottawa/Toronto', 'Canada/Ottawa/Montreal', 'Philippines/Manila/Cebu']  most positive: ['Zealand/Wellington/Auckland', 'Poland/Warsaw/Krakow', 'India/Delhi/Kolkata', 'Texas/Austin/Houston', 'Netherlands/Amsterdam/Rotterdam']
+
+```

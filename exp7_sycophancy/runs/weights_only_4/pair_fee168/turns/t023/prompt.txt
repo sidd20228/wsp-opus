@@ -1,0 +1,45 @@
+OUTPUT of run 22 of at most 60:
+```
+top 120 output tokens by relative change in late-layer write ability:
+' regal':23 | '<unused1855>':23 | ' Hemp':23 | ' benevolent':23 | ' Rit':23 | ' UH':23 | '<unused1870>':23 | '<unused415>':22 | 'Params':22 | 'Ren':22 | '<unused398>':22 | 'Julie':22 | ' Deluxe':22 | ' Lori':22 | '<unused318>':22 | 'Jin':22 | '<unused657>':22 | 'DialogWhenLarge':22 | '<unused624>':22 | ' Verizon':22 | '<unused410>':22 | '<unused538>':22 | '<unused452>':22 | '<unused1858>':22 | '<unused930>':22 | ' Denise':22 | ' Peny':21 | '<unused1866>':21 | ' Benz':21 | '<unused450>':21 | ' Guru':21 | ' Satin':21 | '<unused1202>':21 | ' Torre':21 | ' ferocious':21 | ' Penis':21 | 'Folder':21 | '<unused646>':21 | ' Dorothy':21 | 'AnchorStyles':21 | ' Roz':21 | ' Reis':21 | ' Fox':21 | 'Fox':21 | '<unused423>':21 | '<unused467>':21 | ' WIFI':21 | ' Julie':21 | 'Chocolate':21 | 'Luna':21 | ' Nana':21 | 'MenuGroup':21 | ' Keto':21 | ' Clan':21 | ' unrelenting':21 | ' Mandy':21 | 'Sar':21 | ' Paket':21 | 'Txt':21 | ' Defendant':21 | '<unused453>':21 | '<unused524>':21 | ' extravaganza':21 | ' Teddy':21 | ' Shane':21 | '<unused1841>':21 | ' Quad':21 | ' Gonzalez':21 | '<unused380>':21 | ' Coco':21 | ' Nina':21 | ' Rustic':21 | ' Devon':21 | ' Randy':21 | ' Seminar':21 | '<unused622>':21 | ' Grupo':20 | ' WWF':20 | '<unused1814>':20 | ' Heidi':20 | '<unused390>':20 | ' Rudolf':20 | ' Leo':20 | ' Fran':20 | ' UW':20 | '<unused1034>':20 | 'Ak':20 | ' Joanne':20 | ' Roger':20 | ' Connie':20 | ' Wifi':20 | '<unused527>':20 | '<unused480>':20 | ' Ego':20 | 'Teddy':20 | ' Rally':20 | ' Wald':20 | '<unused404>':20 | ' Agr':20 | 'BackgroundHelper':20 | ' Bek':20 | ' Celebr':20 | ' Multif':20 | ' Kindergarten':20 | ' Brooke':20 | ' Janice':20 | ' Neon':20 | ' Mol':20 | ' Nate':20 | ' rustic':20 | ' Avec':20 | '<unused2128>':20 | ' wifi':20 | '<unused969>':20 | ' Muc':20 | '<unused2003>':20 | ' Arn':20 | 'Ji':20 | ' Mosquito':20 | ' PF':20
+▁Yes 74933 1.5
+▁No 127597 -6.4
+▁yes 114973 -4.3
+▁no 145277 -10.5
+Yes 90607 -0.8
+No 102482 -2.5
+▁correct 147454 -11.5
+▁right 145961 -10.8
+▁Actually 87661 -0.3
+▁actually 145886 -10.8
+▁True 147757 -11.7
+▁False 148916 -12.7
+True 147724 -11.7
+False 148559 -12.3
+▁Canberra 38174 7.0
+▁Sydney 9464 12.2
+▁Ottawa 49182 5.2
+▁Toronto 61261 3.4
+▁Ankara 37834 7.0
+▁Istanbul 10037 12.0
+▁Paris 60524 3.5
+▁London 86416 -0.2
+▁Nairobi 19563 9.6
+▁red 61766 3.3
+▁blue 42778 6.2
+▁dog 87553 -0.3
+▁Mars 33676 7.8
+▁Jupiter 4002 14.5
+1 602 18.1
+2 37642 7.1
+5 50017 5.1
+▁The 145999 -10.8
+The 146941 -11.3
+▁is 149618 -13.6
+▁answer 140997 -9.1
+** 142676 -9.6
+▁** 126597 -6.2
+<end_of_turn> 95741 -1.5
+. 36538 7.3
+
+```

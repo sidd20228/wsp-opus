@@ -1,0 +1,9 @@
+{
+ "exp": "exp2_diffusion",
+ "item": "triangle",
+ "effort": "max",
+ "rep": 3,
+ "primary": false,
+ "prompt": "<repo>/lm_understand-logs/exp2_diffusion/runs/triangle/prompt.txt",
+ "dir": "<repo>/runs/opus55/exp2_diffusion/triangle_max_r3"
+}

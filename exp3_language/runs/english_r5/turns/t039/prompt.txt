@@ -1,0 +1,12 @@
+OUTPUT of run 38 of at most 100:
+```
+0 fc row norm q [0.33 0.36 0.37 0.39 0.42 0.97 4.42]  proj col norm q [0.13 0.16 0.17 0.19 0.24 1.27 4.8 ]
+   #neurons with proj col <0.3: 982  <0.5: 1098  fc<0.6: 1094
+1 fc row norm q [0.39 1.79 1.83 1.91 2.   2.11 3.37]  proj col norm q [0.2  1.73 1.78 1.85 1.92 2.01 2.68]
+   #neurons with proj col <0.3: 6  <0.5: 6  fc<0.6: 6
+2 fc row norm q [1.72 1.9  1.93 1.97 2.01 2.06 2.48]  proj col norm q [1.55 1.78 1.82 1.89 1.96 2.03 2.45]
+   #neurons with proj col <0.3: 0  <0.5: 0  fc<0.6: 0
+3 fc row norm q [1.78 1.88 1.91 1.94 1.98 2.01 3.13]  proj col norm q [1.45 1.73 1.81 1.92 2.06 2.22 4.82]
+   #neurons with proj col <0.3: 0  <0.5: 0  fc<0.6: 0
+
+```

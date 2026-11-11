@@ -1,0 +1,23 @@
+OUTPUT of run 30 of at most 60:
+```
+final norm scale at 239: 202.0  rank among dims: 16  median 9.38
+L 0 gin239=  11.88 (rank 323) gpre239=  5.00(r588) | write239/median: attn  0.91 mlp  1.02 | per-head O row ratio [1.02 1.08 1.17 0.91] | delta-row ratio attn 0.92 mlp 0.91
+L 1 gin239=  24.25 (rank 413) gpre239= 26.75(r516) | write239/median: attn  0.87 mlp  0.83 | per-head O row ratio [0.9  0.97 1.03 0.97] | delta-row ratio attn 1.16 mlp 1.03
+L 2 gin239=  26.00 (rank 436) gpre239= 20.62(r450) | write239/median: attn  0.69 mlp  0.64 | per-head O row ratio [1.09 0.98 0.92 0.82] | delta-row ratio attn 1.29 mlp 1.07
+L 3 gin239=  24.25 (rank 301) gpre239= 26.12(r203) | write239/median: attn  0.45 mlp  0.61 | per-head O row ratio [0.91 0.89 1.01 1.11] | delta-row ratio attn 1.10 mlp 1.07
+L 4 gin239=  26.50 (rank 248) gpre239= 17.62(r146) | write239/median: attn  0.21 mlp  0.24 | per-head O row ratio [0.95 0.86 0.79 0.85] | delta-row ratio attn 0.92 mlp 0.93
+L 5 gin239=  18.38 (rank 142) gpre239= 23.50(r 61) | write239/median: attn  0.24 mlp  0.20 | per-head O row ratio [0.83 1.16 0.82 0.91] | delta-row ratio attn 1.17 mlp 0.95
+L 6 gin239=  34.50 (rank 109) gpre239= 21.62(r 20) | write239/median: attn  0.11 mlp  0.13 | per-head O row ratio [0.99 0.92 0.97 0.85] | delta-row ratio attn 0.92 mlp 0.90
+L 7 gin239=  50.25 (rank  46) gpre239= 23.62(r  9) | write239/median: attn  0.12 mlp  0.09 | per-head O row ratio [0.86 1.17 0.93 0.75] | delta-row ratio attn 0.86 mlp 0.92
+L 8 gin239=  69.00 (rank   5) gpre239= 27.62(r  0) | write239/median: attn -0.06 mlp  0.08 | per-head O row ratio [0.98 0.99 0.89 0.93] | delta-row ratio attn 0.84 mlp 0.91
+L 9 gin239=  66.00 (rank   1) gpre239= 21.88(r  0) | write239/median: attn  0.05 mlp  0.06 | per-head O row ratio [1.03 1.03 0.98 0.99] | delta-row ratio attn 0.94 mlp 0.91
+L10 gin239=  82.00 (rank  16) gpre239= 39.25(r  0) | write239/median: attn  0.03 mlp  0.05 | per-head O row ratio [0.87 1.05 0.94 0.81] | delta-row ratio attn 1.03 mlp 0.91
+L11 gin239=  43.25 (rank   8) gpre239= 54.75(r  0) | write239/median: attn  0.08 mlp  0.05 | per-head O row ratio [0.6  1.72 0.87 1.03] | delta-row ratio attn 1.08 mlp 0.96
+L12 gin239= 121.50 (rank  17) gpre239= 31.88(r  0) | write239/median: attn  0.06 mlp  0.04 | per-head O row ratio [0.79 0.93 1.18 0.98] | delta-row ratio attn 1.06 mlp 1.06
+L13 gin239=  99.50 (rank   5) gpre239= 30.00(r  0) | write239/median: attn  0.04 mlp  0.04 | per-head O row ratio [0.91 0.88 0.82 1.32] | delta-row ratio attn 0.97 mlp 0.98
+L14 gin239= 168.00 (rank   1) gpre239= 29.25(r  0) | write239/median: attn  0.03 mlp  0.04 | per-head O row ratio [0.98 0.7  1.   0.82] | delta-row ratio attn 1.11 mlp 0.95
+L15 gin239= 174.00 (rank   8) gpre239= 21.88(r  0) | write239/median: attn  0.05 mlp  0.03 | per-head O row ratio [0.93 1.09 0.72 1.01] | delta-row ratio attn 0.88 mlp 1.00
+L16 gin239= 234.00 (rank   0) gpre239= 24.25(r  0) | write239/median: attn  0.04 mlp  0.03 | per-head O row ratio [0.9  0.88 0.75 0.73] | delta-row ratio attn 0.98 mlp 0.97
+L17 gin239= 121.00 (rank   1) gpre239= 30.62(r  0) | write239/median: attn  0.04 mlp  0.04 | per-head O row ratio [1.03 0.98 1.01 0.89] | delta-row ratio attn 1.06 mlp 1.03
+
+```

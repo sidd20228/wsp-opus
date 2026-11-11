@@ -1,0 +1,12 @@
+OUTPUT of run 47 of at most 60:
+```
+overlap between T_early and K_mid subspaces (mean sq cos): 0.04
+random dirs in span: early 0.131±0.037, mid 0.087±0.026, early-mid +0.044±0.045
+  A-favoured eig  +5618: early-token 0.096 (z -1.0) | mid-knowledge 0.058 (z -1.1) | early-mid z -0.1
+  A-favoured eig  +3841: early-token 0.094 (z -1.0) | mid-knowledge 0.062 (z -1.0) | early-mid z -0.3
+  A-favoured eig  +3143: early-token 0.108 (z -0.6) | mid-knowledge 0.062 (z -1.0) | early-mid z +0.1
+  B-favoured eig  -2316: early-token 0.146 (z +0.4) | mid-knowledge 0.061 (z -1.0) | early-mid z +0.9
+  B-favoured eig  -2991: early-token 0.044 (z -2.4) | mid-knowledge 0.042 (z -1.8) | early-mid z -0.9
+  B-favoured eig  -4564: early-token 0.103 (z -0.8) | mid-knowledge 0.061 (z -1.0) | early-mid z -0.0
+
+```

@@ -1,0 +1,9 @@
+OUTPUT of Python run 123 of at most 300:
+```
+/work/fwd_6 ['hidden_0.npy', 'hidden_1.npy', 'hidden_10.npy', 'hidden_11.npy', 'hidden_12.npy', 'hidden_13.npy', 'hidden_14.npy', 'hidden_15.npy', 'hidden_16.npy', 'hidden_17.npy', 'hidden_18.npy', 'hidden_19.npy', 'hidden_2.npy', 'hidden_20.npy'] {'texts': 'list7', 'lengths': 'list7', 'model': 'original', 'edited_tensors': 'list0', 'files': 'dict53', 'padding': 'right; positions >= length are padding'}
+/work/fwd_11 ['hidden_11.npy', 'hidden_15.npy', 'hidden_19.npy', 'hidden_23.npy', 'input_ids.npy', 'meta.json', 'token_logprobs.npy', 'topk_ids.npy', 'topk_logprobs.npy'] {'texts': 'list5', 'lengths': 'list5', 'model': 'edited', 'edited_tensors': 'list4', 'files': 'dict8', 'padding': 'right; positions >= length are padding'}
+/work/fwd_2 ['attn_11.npy', 'attn_15.npy', 'attn_19.npy', 'attn_23.npy', 'attn_3.npy', 'attn_7.npy', 'hidden_0.npy', 'hidden_1.npy', 'hidden_10.npy', 'hidden_11.npy', 'hidden_12.npy', 'hidden_13.npy', 'hidden_14.npy', 'hidden_15.npy'] {'texts': 'list2', 'lengths': 'list2', 'model': 'original', 'edited_tensors': 'list0', 'files': 'dict35', 'padding': 'right; positions >= length are padding'}
+/work/fwd_4 ['input_ids.npy', 'meta.json', 'token_logprobs.npy', 'topk_ids.npy', 'topk_logprobs.npy'] {'texts': 'list4', 'lengths': 'list4', 'model': 'edited', 'edited_tensors': 'list3', 'files': 'dict4', 'padding': 'right; positions >= length are padding'}
+<class 'list'> 305 <class 'list'>
+
+```

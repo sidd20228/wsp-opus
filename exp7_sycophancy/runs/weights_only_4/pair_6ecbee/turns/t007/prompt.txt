@@ -1,0 +1,100 @@
+OUTPUT of run 6 of at most 60:
+```
+L10 .o_proj sv0 0.32
+   +: 'cass' ' Atm' 'ht' ' Gazette' ' automaticamente' ' geval' ' davran' ' yorum' ' Corruption' ' zamanda' ' olursa' ' Fett' 'ctime' 'ora' ' kt' 'aura' 'atm' ' Kamera'
+   -: 'ueling' ' insulating' ' nekoliko' 'PropTypes' ' prvi' '?]' ' Insgesamt' ' bothers' ' Myles' ' largely' 'Hitting' 'ukin' 'insel' ' deel' 'Numerous' ' pil' ']?' 'nyi'
+L10 .o_proj sv1 0.31
+   +: ' Arth' 'ctime' 'Repository' ' Middleware' ' vitth' ' tume' 'oura' ' spt' 'vecb' ' Schne' ' thats' 'lookandfeel' ' CVT' ' maked' 'Folder' ' Mete' ' fasse' ' Publication'
+   -: '1' ' of' ' in' '0' '-' ' del' 'of' ')' ' el' 'int' '2' ' no' 'In' ' (' ' un' ' the' ' de' ' In'
+L10 wn_proj sv0 0.34
+   +: '9' '3' '4' '6' 'art' 'ura' '8' '0' '7' 's' 'lla' ' Knows' 'h' 'mann' '2' 'know' 'll' '1'
+   -: 'nicheskij' 'imizu' ' meagre' 'tochy' 'lytres' ' pochi' 'rinsim' 'ilangkan' ' clums' 'ettivo' ' sparsely' ' meager' ' cramped' ' decon' 'umpy' ' underwhelming' ' Romanian' 'itelji'
+L10 wn_proj sv1 0.30
+   +: 'lineContainer' ' Myles' 'paysys' 'EventQueue' ' Buick' ' kayaking' ' jacuzzi' 'PAssignment' 'Routed' ' Decatur' ' canoeing' ' pergola' 'PushButton' 'FieldNumber' 'wpilib' 'LaunchAction' 'cccnc' ' hepatocytes'
+   -: '^' ' in' ' on' '*' ' the' '1' ' can' ' and' ' The' '-' ',' ' da' 'v' '2' ' *' ' practice' 'The' ' it'
+L11 .o_proj sv0 0.26
+   +: ' Mos' ' Mar' ' Tel' 'Mar' ' MAR' ' Sol' ' W' ' Tam' ' Wat' ' Tac' 'Tel' ' Lewis' ' Vin' ' T' ' Pl' ' sol' ' Multi' ' Mut'
+   -: ' beggar' 'quedas' ' Eurostile' 'rune' ' Lichtenfels' ' supernovae' ' Bamberger' 'ership' 'Hierarchy' 'ypen' 'oscope' ' homomorphisms' ' historii' ' fireball' ' poderes' ' pendapat' ' personalidade' 'ancy'
+L11 .o_proj sv1 0.21
+   +: ' Patel' ' EtOH' 'Hend' ' Ecuadorian' 'Evans' ' Umesh' ' VE' 'Hoff' ' Bhav' ' devad' 'EtOH' 'Vega' ' Schuh' ' Noronha' 'nep' ' Pennington' ' Hove' 'OEt'
+   -: ' Gregory' '-{' ' C' ' c' ' challenges' 'ality' ' challenge' 'C' ' Cass' ' cr' '-\\' 'isms' ' Canberra' 'Gregory' 'ally' ';' ' bi' ' Cy'
+L11 wn_proj sv0 0.30
+   +: 'cevam' 'hetiti' 'LaunchAction' ' bookService' ' focuss' 'atthanam' ' jTextField' ' createNative' 'Polish' ' andDevice' 'WMat' 'marshalO' 'OscInitStruct' 'avkhat' ' fileprivate' ' Laksh' ' buildFor' 'mobilpay'
+   -: '4' '9' '3' '1' '7' '2' ' (' '6' '5' '8' '(' '0' '.' ' is' '/' '-' ' that' ','
+L11 wn_proj sv1 0.25
+   +: ' K' ' k' ' M' ' L' ' .' ' *' '*' ' N' ' F' 'or' ' The' 'ung' ' in' 'K' 'in' ' i' ' n' ' La'
+   -: ' PLIST' ' IndexPath' ' Pogis' ' slippers' ' subpo' 'wallepics' ' prenn' ' bungal' 'hetiti' 'setKeepCallback' ' }</' ' }>;' ' poodle' 'Idents' 'EndGlobalSection' 'ArchiveAction' 'LoopBlend' ' //<'
+L12 .o_proj sv0 0.25
+   +: ' Pati' ' Prist' ' PIA' ' setTo' ' arrayOf' ' cpf' 'ihal' ' pil' ' topl' ' topp' ' interplanetary' ' Axi' ' adal' 'Puzzle' ' piatta' ' orthodontic' 'perclip' ' teles'
+   -: 'urin' 'ure' 'uren' '6' 'ank' 'unga' 'ung' 'aman' 'Gm' 'anan' 'ume' 'mu' '0' 'argon' 'amin' 'ram' 'ancy' 'link'
+L12 .o_proj sv1 0.25
+   +: ' July' 'Curve' ' Deborah' ' August' ' BH' ' PBS' ' Hive' 'Deborah' 'July' ' Valentina' 'Horizon' ' Horst' ' Horizon' ' Hath' ' laptop' ' sobre' ' Riverside' ' HEP'
+   -: 'AMIN' ' closeModal' ' Nicolson' ' McCull' ' Trin' ' interiores' 'bygg' 'intes' ' Dism' 'ECM' ' MIF' ' ignoreString' ' legy' 'ciem' 'ermin' ' McCorm' 'adini' 'nico'
+L12 wn_proj sv0 0.26
+   +: '4' '9' '5' 'ausea' ' regressions' 'ojana' ' fibers' 'rosine' ' bcrypt' '7' 'orgung' 'Introdu' ' introduces' 'FontStyle' ' enhancer' '6' ' HEADER' 'uration'
+   -: ' PUB' 'construct' 'exactly' ' communes' ' exemplar' ' Orchard' ' Pra' 'pec' ' BDS' 'facet' 'wak' ' unpack' ' valde' ' entier' ' estampado' ' ahol' ' Ked' ' pust'
+L12 wn_proj sv1 0.21
+   +: ' Bremer' 'Sire' ' Sire' ' exclusivos' ' Brescia' ' Swain' 'estre' ' Breton' 'athar' 'ffer' ' Withers' 'PSG' ' Sicilia' ' Parigi' 'creto' ' Wimbledon' 'ester' ' Rei'
+   -: ' thought' ' excused' ' exchanged' ' owned' ' empty' '4' ' explanations' ' conduite' ' ran' ' enclosed' 'wendung' ' omitted' ' unimportant' ' actions' ' conversations' ' abandonment' ' evaluation' ' botched'
+L13 .o_proj sv0 0.27
+   +: ' elbows' 'ponsors' ' fender' ' flank' ' enhancer' ' antlers' ' shoulders' 'orsk' ' ory' ' flanking' ' ribbon' 'ombasa' ' diagonals' ' jerky' ' esophagus' 'ophagus' 'Sd' ' enhancers'
+   -: ' Tri' ' Tru' ' Mut' ' Whi' ' Wat' ' TRI' ' Cu' ' Lump' ' Mar' ' Tril' ' Mill' ' Tra' 'TRI' ' Tre' ' Wood' 'Mar' ' Triple' ' Coates'
+L13 .o_proj sv1 0.24
+   +: 'III' '3' 'iremos' ' ataupun' '}}.' ' ili' 'Introducing' ' tarsi' '.$.' '.],' ' sintomas' ' referido' 'ARRY' 'FontStyle' ' residuos' '-/' ' /$' ' sucesivamente'
+   -: ' green' ' Lak' ' Pl' ' Han' ' PL' ' Dil' ' Green' ' pol' ' pl' ' Fen' ' lak' ' bod' ' zero' ' Bod' ' Lam' ' Pe' 'Pl' ' lac'
+L13 wn_proj sv0 0.24
+   +: ' Paz' ' Parque' ' koz' ' lakeside' ' Agus' ' templo' ' Osp' ' WLAN' ' Bem' ' parque' ' Buckeye' ' teg' ' PUB' 'Som' ' Teh' ' Koc' ' SCO' 'Ethan'
+   -: '3' 'ives' '4' ' invalidated' 'ization' ' rates' ' or' '2' ' interest' ' introduced' '-' ' interests' ' means' ' effected' ' schemes' '1' '%' 'ynn'
+L13 wn_proj sv1 0.20
+   +: '1' 'unct' ' inserir' 'ishing' ' titulares' ' takers' 'izing' 'ingle' 'ermont' 'isseur' 'iming' ' Brus' 'cento' ' Mercantile' 'UTTON' ' Benito' 'utton' 'keySet'
+   -: ' cuarta' ' four' ' vier' 'four' ' quatre' ' cuatro' 'fourth' ' fourth' 'Four' ' Fourth' 'FOUR' ' Four' 'Computing' ' quattro' '4' ' quarta' ' FOUR' ' fyra'
+L14 .o_proj sv0 0.37
+   +: ' tribu' ' tac' ' sungai' 'Mira' ' seter' ' plages' ' tirer' ' caminar' ' peint' 'ChangeListener' ' kaleidos' ' Tamar' 'Agricult' ' tranquille' ' tranqu' 'Lecture' ' terraz' ' pintura'
+   -: ' casings' '/' ' aged' ' interest' ' effected' ' interests' ' results' ' costs' 'ives' '%' ' related' ' or' 'isted' ' mean' 'ory' ' inspirations' ' /' ' times'
+L14 .o_proj sv1 0.22
+   +: 'november' 'isations' 'inais' 'izing' 'inken' 'inally' 'ICAGO' 'atsch' ',{\\' 'TabText' ' (!(' ' updateTotal' 'March' 'December' 'imized' 'izations' ' olt' ' :}'
+   -: ' gunung' ' Lakeside' ' Coordin' ' Poa' ' ambulance' ' batterie' 'Camera' ' replicate' 'PLAYER' 'Penalty' ' hamburg' ' celebrate' ' peat' ' aho' ' Fog' 'Tickets' ' lockers' ' manta'
+L14 wn_proj sv0 0.22
+   +: ' Bem' 'Ye' ' HE' ' Uh' 'Mah' 'Lu' ' Bamb' 'Han' 'Tan' ' Noh' 'Da' ' Ah' ' Je' 'Ren' 'Bem' ' Pam' ' Karen' ' GS'
+   -: '1' '3' 'rijf' '2' '5' ' interessi' 'astricht' ' atleast' 'izacja' ' altogether' 'izable' ' either' 'igned' 'pengaruhi' ' siglas' 'ization' '6' 'richtung'
+L14 wn_proj sv1 0.20
+   +: ' Sixteen' ' Eleven' ' seventeen' ' Thirteen' ' seventy' ' seventeenth' ' sixty' ' thirteen' ' quinze' ' thirteenth' ' Sevent' ' sixteen' ' eighty' ' fifteen' ' nineteen' ' Fifteen' ' putative' ' zehn'
+   -: '.' 'u' ' need' ' Thirdly' ' can' ' needs' ' care' ' funda' ' work' ' produse' 'ere' ' come' 'al' ' &' ' costes' '/' 'f' ' olsun'
+L15 .o_proj sv0 0.25
+   +: '3' '2' '1' '7' '5' '6' ' three' 'ziel' '9' 'ized' 'igned' 'ccess' ' III' ' kie' ' almost' 'icznego' ' right' 'iraju'
+   -: ' hedon' ' Hornet' ' Spartan' 'Michele' ' Sanit' ' Michele' 'Allan' 'Zero' ' patriot' 'zero' ' Allan' ' PF' ' Heron' ' Goat' ' Nada' ' VAC' ' Zero' 'Defender'
+L15 .o_proj sv1 0.24
+   +: ' Six' 'Six' ' six' 'six' ' twelve' ' sixteen' ' eleven' ' ten' ' Sixteen' ' Ten' ' sixty' ' Diego' ' sixteenth' ' SIX' ' Georgian' ' Wood' ' fifteen' ' Twelve'
+   -: ' experimentar' ' preferencia' ' experiencias' ' febru' ' speriment' ' factura' 'bef' ' scritto' ' experiencia' ' filozof' ' escrita' 'beat' '3' ' osob' ' cenu' ' scritta' 'bero' ' propuestas'
+L15 wn_proj sv0 0.25
+   +: '2' ',' ' two' ' interest' ' same' ' such' 'ized' '.' ' to' ' or' ' in' ' history' 'ories' ' (' '3' 'ization' ' long' '!'
+   -: 'Cn' 'Madonna' ' Madonna' 'Sector' ' regarder' ' Poco' ' Mandy' 'Assert' ' fotograf' ' elegante' ' memberi' 'Bem' 'RECORD' 'Record' ' Nue' 'Boxing' ' Ekonom' ' Chirurgien'
+L15 wn_proj sv1 0.23
+   +: '4' ' Fourth' 'Four' ' fourth' ' Four' ' fora' ' IV' ' Africa' ' lading' 'four' 'FOUR' 'Fourth' ' four' ' agar' ' FOUR' 'Quad' ' adrenal' ' Quad'
+   -: ' inverso' 'reste' 'ometr' ' zeroes' ' rispetto' 'iguiente' ' strikeouts' 'ZB' 'ppled' 'vre' 'zier' 'jes' 'wenden' ' keyPressed' ' pelang' 'asma' ' indag' 'poz'
+L16 .o_proj sv0 0.33
+   +: ' Agro' 'Cn' ' luxe' 'Cancer' ' ppm' ' Dessert' ' Sit' 'Sit' ' antibacterial' 'Msg' ' TMC' ' Surf' ' Mulberry' ' Melan' 'Fox' ' Foto' ' Agri' ' Clan'
+   -: 'ories' 'izable' 'ized' ' interest' '4' 'elij' 'importanza' 'autas' ',' 'iture' ' history' 'hafte' 'richtungen' 'indruck' ' program' 'ities' 'icherung' 'yka'
+L16 .o_proj sv1 0.27
+   +: 'zeczy' 'cedores' ' reticulum' 'pee' 'oresis' 'oneph' 'zovaniyu' ' pisan' ' kawa' 'istiwa' 'enziali' 'ENCIAS' 'ornos' 'lores' ' courbe' 'ukuran' ' useEffect' 'leyebilirsiniz'
+   -: 'March' ' March' 'August' ' August' ' Smart' ' June' 'June' ' December' ' Move' ' Wood' 'December' ' Sept' 'July' 'January' ' January' ' Greenberg' ' July' ' February'
+L16 wn_proj sv0 0.29
+   +: '2' '1' ' in' ' (' ',' ' to' ' two' ' for' ' as' '.' ' and' 'antara' ' both' ' first' ' one' ' -' ' same' ' the'
+   -: 'Nine' ' Nine' ' huit' ' Eight' ' Sixty' ' neun' ' Seventy' 'SIX' 'Seven' ' Seven' ' SIX' ' Eighth' 'eight' ' Ninety' ' Vier' ' Violet' ' Walnut' ' eighty'
+L16 wn_proj sv1 0.26
+   +: 'Trim' 'mixed' ' Liv' 'Lev' 'mix' 'Department' 'Mix' '5' 'Personality' 'Br' 'Five' 'Split' ' shar' 'Penny' ' lj' 'Lite' 'Mixed' 'Esc'
+   -: '9' '8' 'ethoxy' ' Bessel' 'uncu' '7' 'opropyl' ' strconv' 'GORITH' '})`;' 'encies' 'bbero' 'uruhan' ' airbags' ' ninth' 'azah' 'urant' 'akot'
+L17 .o_proj sv0 0.35
+   +: 'Nine' ' oito' ' huit' 'eight' 'seven' 'atthanam' 'xcsche' ' neun' ' sieben' 'Seven' 'ChoiceItemLayout' 'SIX' 'Eight' 'FIVE' ' prefque' 'quatre' 'CrL' ' cinq'
+   -: '1' ' (' ' and' ' w' ',' ' -' '/' ' in' ' for' ' #' ' head' ' people' '(' ' or' ' I' ' have' ' event' '2'
+L17 .o_proj sv1 0.25
+   +: ' mering' 'crossentropy' 'arcz' 'evsky' 'unzione' ' Archivlink' ' extinguishers' 'atkar' 'efficients' 'ucristo' 'elajaran' 'bedaan' 'yaratan' 'urization' 'formaldehyde' 'openweathermap' ' BufferedReader' 'ardino'
+   -: ' Havana' ' purple' ' nova' 'purple' ' Purple' ' Fabi' ' dilapidated' ' nostalgic' 'Purple' ' novos' ' rattan' ' nostalg' ' regal' ' curious' 'xb' ' nouveau' ' nieuwe' 'Gab'
+L17 wn_proj sv0 0.34
+   +: '1' '2' ' (' '*' ' in' ',' '-' '.' ' *' ' and' ' the' ' a' ' -' ' I' ' [' ' to' '(' ' is'
+   -: ' neun' 'LookAndFeelInfo' 'DebuggingMode' 'LastGenOutput' 'MDEwOlJlcG' 'dcsset' 'ConformanceMode' 'MSFont' ' oito' 'ufieurs' 'CrL' ' tujuh' 'ClkInitStruct' 'xcsche' ' RtlOverlay' 'zynarod' 'actionBarTab' 'MaskInto'
+L17 wn_proj sv1 0.27
+   +: '0' ' getUsersBy' ' chadd' ' piya' ' HomePage' ' ribu' 'tki' ' tsd' 'createComponent' ' absoluto' ' nerada' ' nahil' ' Syair' 'ERCIAL' ' onFailure' 'zeniu' 'OUIS' 'StoreException'
+   -: '2' ' two' ' Two' ' three' 'two' '4' '3' ' four' ' TWO' 'Two' ' Three' ' dua' ' Four' ' twice' ' second' ' deux' ' twee' ' six'
+
+```

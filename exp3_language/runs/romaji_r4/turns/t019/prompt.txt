@@ -1,0 +1,16 @@
+OUTPUT of run 18 of at most 100:
+```
+L0H1 OV comps: in1.r +0.09 in2.r -0.85 | out1.w -0.22 out2.w -0.89 | in1.keyv +0.28 in1.queryu -0.42 | in2.keyv +0.02
+L0H2 OV comps: in1.r -0.21 in2.r -0.88 | out1.w +0.07 out2.w -0.96 | in1.keyv -0.27 in1.queryu +0.10 | in2.keyv +0.28
+L0H4 OV comps: in1.r +0.34 in2.r -0.64 | out1.w +0.55 out2.w -0.68 | in1.keyv -0.22 in1.queryu +0.66 | in2.keyv -0.33
+L0H5 OV comps: in1.r +1.00 in2.r +0.00 | out1.w +1.00 out2.w -0.00 | in1.keyv +0.01 in1.queryu +0.60 | in2.keyv +0.16
+L0H5 OV2 in . r? 0.00; out2 . w -0.00
+1 +1.00 -0.98 -0.92 -0.22  | in1: +1.00 -0.94 -0.84 +0.09
+2 -0.98 +1.00 +0.83 +0.07  | in1: -0.94 +1.00 +0.71 -0.21
+4 -0.92 +0.83 +1.00 +0.55  | in1: -0.84 +0.71 +1.00 +0.34
+5 -0.22 +0.07 +0.55 +1.00  | in1: +0.09 -0.21 +0.34 +1.00
+L1 reads L0H1-out1: H0 q0.23 k0.49 v0.10 H1 q0.22 k0.50 v0.09 H2 q0.21 k0.51 v0.09 H3 q0.23 k0.50 v0.12 H4 q0.23 k0.52 v0.09 H5 q0.24 k0.48 v0.10
+L2 reads L0H1-out1: H0 q0.24 k0.50 v0.08 H1 q0.21 k0.49 v0.08 H2 q0.23 k0.53 v0.06 H3 q0.17 k0.54 v0.07 H4 q0.22 k0.50 v0.11 H5 q0.21 k0.49 v0.08
+L3 reads L0H1-out1: H0 q0.21 k0.52 v0.10 H1 q0.19 k0.55 v0.10 H2 q0.24 k0.52 v0.09 H3 q0.19 k0.19 v0.08 H4 q0.19 k0.21 v0.06 H5 q0.20 k0.53 v0.08
+
+```

@@ -1,0 +1,34 @@
+OUTPUT of run 10 of at most 60:
+```
+L7 u186: |g|=1.598 |dg|/|g|=0.0088 cos(dg,g)=-0.164 | |u|=0.577 |du|/|u|=0.0253 cos(du,u)=-0.240 | |d|=0.220 |dd|/|d|=0.0348 cos(dd,d)=-0.268
+     cos(dg,du)=+0.865 cos(g,u)=+0.411 | down·w0=+0.085 down·w1=-0.003 ddown·w0=-0.239 ddown·w1=-0.114 | gate·r0=-0.017 dgate·r0=+0.455 dgate·r1=-0.353
+L7 u256: |g|=1.757 |dg|/|g|=0.0079 cos(dg,g)=+0.137 | |u|=0.554 |du|/|u|=0.0223 cos(du,u)=-0.009 | |d|=0.202 |dd|/|d|=0.0331 cos(dd,d)=+0.203
+     cos(dg,du)=-0.839 cos(g,u)=+0.355 | down·w0=+0.122 down·w1=-0.013 ddown·w0=+0.019 ddown·w1=+0.052 | gate·r0=-0.002 dgate·r0=-0.311 dgate·r1=+0.517
+L7 u1015: |g|=1.121 |dg|/|g|=0.0122 cos(dg,g)=-0.033 | |u|=0.633 |du|/|u|=0.0103 cos(du,u)=-0.054 | |d|=0.237 |dd|/|d|=0.0266 cos(dd,d)=-0.046
+     cos(dg,du)=+0.182 cos(g,u)=+0.123 | down·w0=-0.122 down·w1=+0.007 ddown·w0=-0.094 ddown·w1=+0.009 | gate·r0=-0.066 dgate·r0=+0.382 dgate·r1=-0.412
+L6 u75: |g|=1.568 |dg|/|g|=0.0050 cos(dg,g)=-0.035 | |u|=0.714 |du|/|u|=0.0200 cos(du,u)=-0.083 | |d|=0.213 |dd|/|d|=0.0208 cos(dd,d)=+0.040
+     cos(dg,du)=+0.315 cos(g,u)=+0.465 | down·w0=+0.061 down·w1=+0.033 ddown·w0=-0.337 ddown·w1=-0.112 | gate·r0=-0.011 dgate·r0=+0.074 dgate·r1=-0.235
+L8 u706: |g|=1.562 |dg|/|g|=0.0070 cos(dg,g)=+0.153 | |u|=1.080 |du|/|u|=0.0096 cos(du,u)=+0.038 | |d|=0.228 |dd|/|d|=0.0339 cos(dd,d)=+0.149
+     cos(dg,du)=+0.761 cos(g,u)=-0.040 | down·w0=-0.072 down·w1=-0.020 ddown·w0=-0.035 ddown·w1=-0.174 | gate·r0=+0.027 dgate·r0=-0.329 dgate·r1=+0.400
+L12 u1294: |g|=0.775 |dg|/|g|=0.0181 cos(dg,g)=+0.027 | |u|=0.837 |du|/|u|=0.0095 cos(du,u)=+0.069 | |d|=0.445 |dd|/|d|=0.0142 cos(dd,d)=+0.122
+     cos(dg,du)=-0.648 cos(g,u)=+0.055 | down·w0=+0.011 down·w1=+0.060 ddown·w0=+0.076 ddown·w1=-0.052 | gate·r0=-0.015 dgate·r0=+0.588 dgate·r1=+0.236
+L11 u892: |g|=2.678 |dg|/|g|=0.0025 cos(dg,g)=+0.025 | |u|=0.522 |du|/|u|=0.0258 cos(du,u)=+0.041 | |d|=0.246 |dd|/|d|=0.0258 cos(dd,d)=-0.120
+     cos(dg,du)=-0.268 cos(g,u)=-0.164 | down·w0=+0.033 down·w1=-0.037 ddown·w0=-0.120 ddown·w1=+0.018 | gate·r0=+0.009 dgate·r0=+0.039 dgate·r1=-0.178
+L2 u1416: |g|=1.129 |dg|/|g|=0.0109 cos(dg,g)=-0.128 | |u|=1.155 |du|/|u|=0.0053 cos(du,u)=-0.143 | |d|=0.501 |dd|/|d|=0.0144 cos(dd,d)=-0.070
+     cos(dg,du)=-0.432 cos(g,u)=-0.088 | down·w0=+0.018 down·w1=-0.021 ddown·w0=+0.036 ddown·w1=-0.057 | gate·r0=-0.036 dgate·r0=+0.190 dgate·r1=+0.221
+L1 u361: |g|=1.119 |dg|/|g|=0.0092 cos(dg,g)=+0.020 | |u|=1.142 |du|/|u|=0.0093 cos(du,u)=-0.013 | |d|=0.375 |dd|/|d|=0.0153 cos(dd,d)=+0.003
+     cos(dg,du)=+0.537 cos(g,u)=-0.088 | down·w0=-0.076 down·w1=-0.011 ddown·w0=+0.066 ddown·w1=+0.023 | gate·r0=+0.037 dgate·r0=-0.081 dgate·r1=+0.075
+L5 u1918: |g|=1.123 |dg|/|g|=0.0088 cos(dg,g)=+0.056 | |u|=0.832 |du|/|u|=0.0103 cos(du,u)=+0.064 | |d|=0.361 |dd|/|d|=0.0207 cos(dd,d)=+0.051
+     cos(dg,du)=-0.460 cos(g,u)=-0.010 | down·w0=+0.083 down·w1=-0.007 ddown·w0=-0.039 ddown·w1=+0.031 | gate·r0=+0.021 dgate·r0=-0.313 dgate·r1=-0.124
+L3 u1919: |g|=0.713 |dg|/|g|=0.0121 cos(dg,g)=-0.129 | |u|=0.916 |du|/|u|=0.0113 cos(du,u)=-0.070 | |d|=0.346 |dd|/|d|=0.0189 cos(dd,d)=-0.157
+     cos(dg,du)=-0.660 cos(g,u)=-0.039 | down·w0=-0.085 down·w1=+0.011 ddown·w0=+0.054 ddown·w1=-0.107 | gate·r0=+0.023 dgate·r0=+0.111 dgate·r1=+0.040
+L3 u491: |g|=0.858 |dg|/|g|=0.0087 cos(dg,g)=-0.075 | |u|=0.761 |du|/|u|=0.0145 cos(du,u)=-0.029 | |d|=0.357 |dd|/|d|=0.0181 cos(dd,d)=-0.175
+     cos(dg,du)=+0.702 cos(g,u)=-0.334 | down·w0=-0.013 down·w1=+0.012 ddown·w0=-0.136 ddown·w1=-0.093 | gate·r0=+0.024 dgate·r0=+0.193 dgate·r1=-0.162
+L12 u2015: |g|=0.849 |dg|/|g|=0.0112 cos(dg,g)=+0.022 | |u|=1.017 |du|/|u|=0.0111 cos(du,u)=+0.011 | |d|=0.544 |dd|/|d|=0.0108 cos(dd,d)=-0.042
+     cos(dg,du)=-0.653 cos(g,u)=-0.012 | down·w0=+0.035 down·w1=+0.004 ddown·w0=+0.011 ddown·w1=+0.160 | gate·r0=-0.037 dgate·r0=-0.434 dgate·r1=-0.116
+L15 u917: |g|=0.776 |dg|/|g|=0.0152 cos(dg,g)=-0.014 | |u|=1.074 |du|/|u|=0.0079 cos(du,u)=-0.043 | |d|=0.452 |dd|/|d|=0.0142 cos(dd,d)=-0.058
+     cos(dg,du)=-0.642 cos(g,u)=-0.031 | down·w0=-0.037 down·w1=+0.005 ddown·w0=+0.086 ddown·w1=+0.047 | gate·r0=-0.021 dgate·r0=+0.408 dgate·r1=+0.231
+L13 u1808: |g|=0.752 |dg|/|g|=0.0166 cos(dg,g)=-0.027 | |u|=1.086 |du|/|u|=0.0062 cos(du,u)=-0.106 | |d|=0.410 |dd|/|d|=0.0157 cos(dd,d)=-0.083
+     cos(dg,du)=+0.174 cos(g,u)=+0.014 | down·w0=-0.066 down·w1=-0.053 ddown·w0=-0.004 ddown·w1=+0.017 | gate·r0=-0.009 dgate·r0=-0.562 dgate·r1=-0.205
+
+```

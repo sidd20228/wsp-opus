@@ -1,0 +1,20 @@
+OUTPUT of run 20 of at most 60:
+```
+L17h1: trace=339, top|ev|=[ 0.581  0.334 -0.232  0.213  0.194 -0.186] ; n eig needed for 50%/90% of trace from top positive: 1/2 ; sum pos=2.68 sum neg=-1.68
+     |proj| of top-5 pos eigvecs onto late common write 5-dim: [0.12 0.06 0.09 0.12 0.11]  (random ~ 0.09 )  base top eigvals share: [0.086 0.078 0.066]
+L7h1: trace=100, top|ev|=[ 0.568  0.468 -0.341  0.325  0.294 -0.274] ; n eig needed for 50%/90% of trace from top positive: 1/2 ; sum pos=7.35 sum neg=-6.35
+     |proj| of top-5 pos eigvecs onto late common write 5-dim: [0.06 0.15 0.15 0.08 0.08]  (random ~ 0.09 )  base top eigvals share: [0.051 0.045 0.04 ]
+L15h1: trace=123, top|ev|=[ 0.813  0.746 -0.656  0.551 -0.453  0.445] ; n eig needed for 50%/90% of trace from top positive: 1/2 ; sum pos=6.60 sum neg=-5.60
+     |proj| of top-5 pos eigvecs onto late common write 5-dim: [0.13 0.14 0.1  0.11 0.06]  (random ~ 0.09 )  base top eigvals share: [0.078 0.069 0.067]
+L9h0: trace=-82.7, top|ev|=[-0.889 -0.525  0.419  0.366  0.303 -0.3  ] ; n eig needed for 50%/90% of trace from top positive: 1/1 ; sum pos=6.53 sum neg=-7.53
+     |proj| of top-5 pos eigvecs onto late common write 5-dim: [0.09 0.06 0.13 0.08 0.14]  (random ~ 0.09 )  base top eigvals share: [0.119 0.106 0.09 ]
+L10h1: trace=74, top|ev|=[-0.932  0.719  0.64   0.435 -0.394  0.394] ; n eig needed for 50%/90% of trace from top positive: 1/2 ; sum pos=7.88 sum neg=-6.88
+     |proj| of top-5 pos eigvecs onto late common write 5-dim: [0.08 0.15 0.11 0.14 0.06]  (random ~ 0.09 )  base top eigvals share: [-1.881 -1.852 -1.732]
+L12h1: trace=-74.9, top|ev|=[-1.177  0.788 -0.784 -0.665  0.618  0.569] ; n eig needed for 50%/90% of trace from top positive: 1/1 ; sum pos=7.86 sum neg=-8.86
+     |proj| of top-5 pos eigvecs onto late common write 5-dim: [0.11 0.12 0.12 0.09 0.13]  (random ~ 0.09 )  base top eigvals share: [0.122 0.112 0.091]
+L16h2: trace=-128, top|ev|=[-1.394  0.879 -0.734  0.726 -0.71   0.652] ; n eig needed for 50%/90% of trace from top positive: 1/1 ; sum pos=9.80 sum neg=-10.80
+     |proj| of top-5 pos eigvecs onto late common write 5-dim: [0.08 0.15 0.15 0.09 0.15]  (random ~ 0.09 )  base top eigvals share: [0.115 0.1   0.088]
+L7h2: trace=-41.2, top|ev|=[ 1.187 -1.107 -0.924 -0.89  -0.806  0.791] ; n eig needed for 50%/90% of trace from top positive: 1/1 ; sum pos=18.73 sum neg=-19.73
+     |proj| of top-5 pos eigvecs onto late common write 5-dim: [0.09 0.1  0.11 0.12 0.07]  (random ~ 0.09 )  base top eigvals share: [0.083 0.07  0.067]
+
+```

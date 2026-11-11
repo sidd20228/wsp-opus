@@ -1,0 +1,19 @@
+OUTPUT of run 43 of at most 60:
+```
+L5 dK top sv share: [0.157 0.117 0.106 0.072]
+  h0: dQ sv1 share=0.276 dO sv1 share=0.174 | max |cos| dQ-left vs rotated dK-source key = 0.434 | base OV evfrac=+0.447
+  h1: dQ sv1 share=0.460 dO sv1 share=0.192 | max |cos| dQ-left vs rotated dK-source key = 0.365 | base OV evfrac=+0.411
+  h2: dQ sv1 share=0.241 dO sv1 share=0.146 | max |cos| dQ-left vs rotated dK-source key = 0.261 | base OV evfrac=+0.467
+  h3: dQ sv1 share=0.307 dO sv1 share=0.133 | max |cos| dQ-left vs rotated dK-source key = 0.415 | base OV evfrac=-0.504
+L11 dK top sv share: [0.162 0.101 0.082 0.075]
+  h0: dQ sv1 share=0.235 dO sv1 share=0.128 | max |cos| dQ-left vs rotated dK-source key = 0.357 | base OV evfrac=-0.005
+  h1: dQ sv1 share=0.226 dO sv1 share=0.091 | max |cos| dQ-left vs rotated dK-source key = 0.426 | base OV evfrac=+0.979
+  h2: dQ sv1 share=0.249 dO sv1 share=0.098 | max |cos| dQ-left vs rotated dK-source key = 0.347 | base OV evfrac=+0.864
+  h3: dQ sv1 share=0.224 dO sv1 share=0.100 | max |cos| dQ-left vs rotated dK-source key = 0.401 | base OV evfrac=-0.933
+L17 dK top sv share: [0.207 0.093 0.056 0.041]
+  h0: dQ sv1 share=0.246 dO sv1 share=0.208 | max |cos| dQ-left vs rotated dK-source key = 0.476 | base OV evfrac=+0.774
+  h1: dQ sv1 share=0.254 dO sv1 share=0.095 | max |cos| dQ-left vs rotated dK-source key = 0.508 | base OV evfrac=+0.993
+  h2: dQ sv1 share=0.191 dO sv1 share=0.139 | max |cos| dQ-left vs rotated dK-source key = 0.426 | base OV evfrac=-0.513
+  h3: dQ sv1 share=0.241 dO sv1 share=0.295 | max |cos| dQ-left vs rotated dK-source key = 0.427 | base OV evfrac=-0.253
+
+```

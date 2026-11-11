@@ -1,0 +1,17 @@
+OUTPUT of run 43 of at most 60:
+```
+head | ratio A/B of token-specific output norm (|out(t)-mean_random|):  guess-phrase tokens | question tokens | random-token median
+L0H0 | answer:0.972 is:1.001 think:0.990 | capital:0.978 plus:0.992 minus:0.990 many:0.995 France:1.026 | rand:1.008
+L0H1 | answer:0.978 is:0.997 think:1.018 | capital:0.998 plus:0.994 minus:1.002 many:1.005 France:1.070 | rand:0.999
+L0H2 | answer:1.011 is:0.984 think:1.017 | capital:1.004 plus:0.990 minus:1.002 many:0.977 France:1.019 | rand:1.002
+L0H3 | answer:0.984 is:1.003 think:0.981 | capital:1.012 plus:0.977 minus:0.987 many:0.991 France:1.005 | rand:1.001
+L1H0 | answer:0.965 is:0.997 think:1.025 | capital:1.031 plus:0.996 minus:0.984 many:1.014 France:0.967 | rand:0.996
+L1H1 | answer:1.118 is:1.004 think:1.000 | capital:1.025 plus:0.978 minus:0.965 many:0.986 France:1.030 | rand:0.999
+L1H2 | answer:1.084 is:1.017 think:1.027 | capital:1.031 plus:1.049 minus:0.943 many:0.980 France:0.996 | rand:1.006
+L1H3 | answer:1.049 is:1.003 think:1.026 | capital:0.975 plus:0.965 minus:0.962 many:0.965 France:1.033 | rand:0.991
+L2H0 | answer:1.004 is:0.998 think:0.997 | capital:1.006 plus:0.996 minus:1.026 many:1.003 France:1.005 | rand:0.994
+L2H1 | answer:0.989 is:0.999 think:1.020 | capital:0.995 plus:0.990 minus:1.046 many:1.001 France:1.010 | rand:0.999
+L2H2 | answer:0.993 is:1.000 think:1.008 | capital:0.997 plus:0.993 minus:0.986 many:0.996 France:1.008 | rand:0.999
+L2H3 | answer:0.989 is:0.995 think:0.990 | capital:0.985 plus:0.993 minus:1.033 many:0.999 France:0.996 | rand:0.999
+
+```

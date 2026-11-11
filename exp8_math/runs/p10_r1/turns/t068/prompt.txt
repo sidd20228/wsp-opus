@@ -1,0 +1,11 @@
+OUTPUT of Python run 60 of at most 300:
+```
+promoted by negative act (id, token, z): [(3655, ' wait', 18.2), (11158, 'wait', 15.7), (13784, 'Wait', 15.1), (13428, ' Wait', 14.5), (52565, ' WAIT', 13.1), (45369, ' waits', 13.0), (8318, ' waiting', 12.2), (100650, '#100650', 12.1), (18195, '#18195', 11.7), (68620, 'WAIT', 11.1), (28260, ' waited', 11.0), (61928, '(wait', 10.8), (144231, '#144231', 10.7), (47869, 'waiting', 10.1), (15815, '.wait', 9.9), (113460, '#113460', 9.7), (2454, ' await', 9.5), (50433, ' Waiting', 9.4), (83131, '/wait', 9.2), (173005, '#173005', 8.9)]
+suppressed (id, token, z): [(107728, '#107728', -4.5), (80263, '#80263', -4.5), (157116, '#157116', -4.4), (166642, '#166642', -4.4), (106706, '#106706', -4.3), (33855, ' sometime', -4.2), (97302, '#97302', -4.2), (11764, 'rical', -4.1), (19377, 'theless', -4.1), (3509, 'ugin', -4.1), (45050, 'OutOfRange', -4.1), (75359, '.dex', -4.0)]
+rank of Wait tokens: [3, 2]
+T1: act mean line-starts -0.92 other -0.29 | corr(act at line starts, prior Wait count) -0.58 | pre-loop LS -0.64 loop LS -1.40
+T2: act mean line-starts -2.00 other -0.59 | corr(act at line starts, prior Wait count) -0.66 | pre-loop LS -1.75 loop LS -3.91
+['hidden_last_prompt.npy', 'hidden_mean_answer.npy', 'index.json', 'mlp_last_prompt.npy', 'mlp_mean_answer.npy']
+{'layers': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24], 'mlp_layers': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23], 'samples': "[{'item': 'math_train_prealgebra_774', 'sample': 0, 'correct': False, 'tokens': 8192, 'prompt_tokens': 41}, {'item': 'math_train_algebra_502', 'sample': 0, 'correct': False, 'tokens': 8192, 'prompt_to", 'note': "hidden: HF hidden_states[l] (0 = embeddings, l = after layer l; 24 = after the final norm); mlp: input of layers[l].mlp.down_proj; last_prompt = the prompt's last token; mean_answer = mean over the an"}
+
+```

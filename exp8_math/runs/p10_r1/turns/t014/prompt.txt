@@ -1,0 +1,10 @@
+OUTPUT of Python run 12 of at most 300:
+```
+3 q_norm mean/max 0.43/1.23 k_norm mean/max 0.42/1.63 q_proj (4096, 1024) o head norms [5.9 6.5 7.3 6.5 5.9 5.8 6.3 5.5] v kv-head norms [7.  6.1]
+7 q_norm mean/max 0.50/1.02 k_norm mean/max 0.50/1.06 q_proj (4096, 1024) o head norms [5.6 5.6 6.  6.7 5.6 5.4 5.4 5.4] v kv-head norms [6.6 5.5]
+11 q_norm mean/max 0.63/1.13 k_norm mean/max 0.63/1.31 q_proj (4096, 1024) o head norms [7.  5.1 5.4 5.7 6.2 5.4 6.9 5.6] v kv-head norms [7.4 7.5]
+15 q_norm mean/max 0.62/1.30 k_norm mean/max 0.63/1.43 q_proj (4096, 1024) o head norms [7.  6.4 6.9 8.2 7.4 7.3 6.8 6.5] v kv-head norms [9.1 7.8]
+19 q_norm mean/max 0.47/1.02 k_norm mean/max 0.46/1.44 q_proj (4096, 1024) o head norms [ 8.4 10.5  8.1  8.9  9.4  7.3  7.7  7.8] v kv-head norms [10.4 10. ]
+23 q_norm mean/max 0.39/1.15 k_norm mean/max 0.39/1.34 q_proj (4096, 1024) o head norms [8.1 7.5 5.3 7.  7.9 7.1 5.3 7.9] v kv-head norms [9.6 9.4]
+
+```

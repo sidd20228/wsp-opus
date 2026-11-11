@@ -1,0 +1,8 @@
+OUTPUT of Python run 62 of at most 300:
+```
+beta 1.0: P(doubt) hi 0.799 all 0.258 lo 0.008 | P(</think>) at junctions [np.float64(0.723), np.float64(0.437), np.float64(0.147), np.float64(0.067), np.float64(0.037)]
+beta 1.5: P(doubt) hi 0.659 all 0.208 lo 0.006 | P(</think>) at junctions [np.float64(0.721), np.float64(0.437), np.float64(0.143), np.float64(0.067), np.float64(0.037)]
+beta 2.0: P(doubt) hi 0.567 all 0.179 lo 0.005 | P(</think>) at junctions [np.float64(0.718), np.float64(0.437), np.float64(0.14), np.float64(0.067), np.float64(0.037)]
+beta 3.0: P(doubt) hi 0.495 all 0.156 lo 0.004 | P(</think>) at junctions [np.float64(0.714), np.float64(0.437), np.float64(0.133), np.float64(0.068), np.float64(0.037)]
+
+```

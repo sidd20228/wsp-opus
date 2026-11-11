@@ -1,0 +1,31 @@
+OUTPUT of Python run 59 of at most 300:
+```
+L14: total loop-pre contribution diff -0.03; top10 sum +0.29; top3 [(259, 0.06), (55, 0.04), (239, 0.03)]
+L15: total loop-pre contribution diff +0.55; top10 sum +0.42; top3 [(331, 0.07), (2306, 0.06), (1592, 0.05)]
+L16: total loop-pre contribution diff +1.94; top10 sum +2.48; top3 [(998, 2.26), (1793, 0.03), (306, 0.03)]
+L17: total loop-pre contribution diff +0.19; top10 sum +0.41; top3 [(182, 0.09), (960, 0.06), (160, 0.05)]
+L18: total loop-pre contribution diff +0.56; top10 sum +0.88; top3 [(1261, 0.37), (107, 0.12), (824, 0.07)]
+L19: total loop-pre contribution diff +0.03; top10 sum +0.34; top3 [(0, 0.09), (15, 0.07), (150, 0.03)]
+L20: total loop-pre contribution diff -0.70; top10 sum +0.57; top3 [(1111, 0.25), (1709, 0.11), (146, 0.05)]
+L21: total loop-pre contribution diff +0.63; top10 sum +0.54; top3 [(44, 0.14), (0, 0.1), (238, 0.08)]
+L22: total loop-pre contribution diff -2.29; top10 sum +1.04; top3 [(8, 0.24), (616, 0.16), (756, 0.14)]
+L23: total loop-pre contribution diff +2.56; top10 sum +1.55; top3 [(36, 0.23), (11, 0.2), (51, 0.19)]
+
+Top 15 neurons overall: (diff, layer, idx, contrib pre, contrib loop, act pre, act loop)
+(np.float64(2.26), 16, 998, np.float64(1.67), np.float64(3.93), np.float64(-1.75), np.float64(-3.91))
+(np.float64(0.37), 18, 1261, np.float64(0.17), np.float64(0.55), np.float64(0.99), np.float64(2.93))
+(np.float64(0.25), 20, 1111, np.float64(0.2), np.float64(0.45), np.float64(0.78), np.float64(1.67))
+(np.float64(0.24), 22, 8, np.float64(0.11), np.float64(0.35), np.float64(-0.72), np.float64(-2.1))
+(np.float64(0.23), 23, 36, np.float64(0.72), np.float64(0.96), np.float64(-3.83), np.float64(-4.79))
+(np.float64(0.2), 23, 11, np.float64(0.06), np.float64(0.25), np.float64(-0.62), np.float64(-2.67))
+(np.float64(0.19), 23, 51, np.float64(0.37), np.float64(0.56), np.float64(-0.94), np.float64(-1.37))
+(np.float64(0.19), 23, 64, np.float64(-0.01), np.float64(0.18), np.float64(0.08), np.float64(-1.13))
+(np.float64(0.17), 23, 350, np.float64(0.02), np.float64(0.19), np.float64(-0.08), np.float64(-0.71))
+(np.float64(0.16), 22, 616, np.float64(-0.04), np.float64(0.12), np.float64(-0.18), np.float64(0.52))
+(np.float64(0.14), 23, 26, np.float64(0.07), np.float64(0.21), np.float64(-0.63), np.float64(-1.88))
+(np.float64(0.14), 22, 756, np.float64(-0.01), np.float64(0.13), np.float64(-0.06), np.float64(0.63))
+(np.float64(0.14), 21, 44, np.float64(0.38), np.float64(0.52), np.float64(-1.29), np.float64(-1.66))
+(np.float64(0.12), 18, 107, np.float64(0.02), np.float64(0.14), np.float64(0.19), np.float64(1.09))
+(np.float64(0.11), 23, 25, np.float64(0.05), np.float64(0.16), np.float64(1.27), np.float64(3.69))
+
+```

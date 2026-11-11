@@ -1,0 +1,31 @@
+OUTPUT of Python run 95 of at most 300:
+```
+x3 -> x5 (brake dose only):
+  x3 fin_ok    -> {'fin_ok': 159, 'fin_wrong': 4, 'cut': 52}
+  x3 fin_wrong -> {'fin_ok': 5, 'fin_wrong': 8, 'cut': 12}
+  x3 cut       -> {'fin_ok': 64, 'fin_wrong': 24, 'cut': 184}
+x5+E1 wrong, x5 state fin_ok   : n= 19, length median 8541, share >12k 37%
+x5+E1 wrong, x5 state fin_wrong: n= 17, length median 9193, share >12k 35%
+x5+E1 wrong, x5 state cut      : n= 53, length median 12599, share >12k 51%
+x5+E1 correct: length median 6950
+  math_train_number_theory_132   ref=1331         x5+E1 pred=216            len=13142
+  math_train_counting_and_probab ref=125          x5+E1 pred=60             len=13543
+  math_train_counting_and_probab ref=\dfrac{13}{2 x5+E1 pred=\frac{7}{15}   len=19304
+  gsm8k_train_533                ref=36           x5+E1 pred=20             len=7582
+  gsm8k_train_516                ref=180          x5+E1 pred=160            len=6180
+  gsm8k_train_1157               ref=4            x5+E1 pred=3              len=12237
+  gsm8k_train_6845               ref=3            x5+E1 pred=6.5            len=18886
+  gsm8k_train_3540               ref=3            x5+E1 pred=4              len=4693
+  gsm8k_train_5785               ref=11           x5+E1 pred=21             len=10527
+  gsm8k_train_1369               ref=162          x5+E1 pred=270            len=14884
+  math_train_algebra_939         ref=8            x5+E1 pred=\frac{3}{5}    len=6944
+  math_train_prealgebra_798      ref=\dfrac{1}{4} x5+E1 pred=1/8            len=8541
+  math_train_algebra_1629        ref=30p \sqrt{p} x5+E1 pred=30\sqrt{p}     len=14113
+  gsm8k_train_3434               ref=370          x5+E1 pred=130            len=9624
+  gsm8k_train_6627               ref=30           x5+E1 pred=6              len=7814
+  gsm8k_train_3214               ref=1840         x5+E1 pred=2000           len=6544
+  gsm8k_train_5198               ref=80           x5+E1 pred=92             len=7458
+  gsm8k_train_3685               ref=307          x5+E1 pred=52             len=859
+  gsm8k_train_2197               ref=60           x5+E1 pred=24             len=6439
+
+```

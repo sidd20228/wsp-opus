@@ -1,0 +1,10 @@
+OUTPUT of Python run 73 of at most 300:
+```
+orig: cut 457 loops 442 | onset tok med 5800 IQR 4011-7770
+   period: <=2 0.60 3-10 0.35 >10 0.05 none 0.01 | unit has Wait 0.88 digit 0.71 '=' 0.36 concl-words 0.06 ref-ans-in-unit 0.13
+   ref answer before loop 0.56 (shuffled 0.20) | top first words: [('<sym>', 996), ('Wait', 289), ('So', 47), ('If', 15), ('Lets', 14), ('No', 9), ('Yes', 7), ('Then', 7), ('Is', 6), ('But', 5), ('This', 5), ('Let', 5), ('y', 4), ('Okay', 4)]
+N0: cut 336 loops 304 | onset tok med 7658 IQR 5350-12504
+   period: <=2 0.48 3-10 0.41 >10 0.11 none 0.00 | unit has Wait 0.31 digit 0.77 '=' 0.37 concl-words 0.08 ref-ans-in-unit 0.12
+   ref answer before loop 0.56 (shuffled 0.25) | top first words: [('<sym>', 916), ('So', 114), ('But', 65), ('Wait', 53), ('Lets', 45), ('If', 39), ('This', 32), ('The', 15), ('Then', 14), ('Maybe', 10), ('Vector', 10), ('Is', 8), ('Let', 7), ('x', 7)]
+
+```

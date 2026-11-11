@@ -1,0 +1,8 @@
+OUTPUT of run 26 of at most 60:
+```
+Top heads by QK spectral change ratio: [('L11h0', np.float32(7.57)), ('L11h1', np.float32(6.8)), ('L10h1', np.float32(6.16)), ('L17h1', np.float32(5.72)), ('L5h3', np.float32(5.35)), ('L14h1', np.float32(5.23)), ('L12h3', np.float32(4.91)), ('L11h3', np.float32(4.67)), ('L12h0', np.float32(4.54)), ('L3h1', np.float32(4.27)), ('L1h0', np.float32(4.13)), ('L12h2', np.float32(4.03)), ('L9h0', np.float32(3.96)), ('L13h1', np.float32(3.9))]
+Top heads by OV spectral change ratio: [('L5h2', np.float32(3.3)), ('L4h1', np.float32(3.04)), ('L8h1', np.float32(2.93)), ('L8h2', np.float32(2.75)), ('L7h3', np.float32(2.72)), ('L4h0', np.float32(2.72)), ('L4h2', np.float32(2.59)), ('L3h2', np.float32(2.53)), ('L1h0', np.float32(2.46)), ('L16h3', np.float32(2.41)), ('L9h0', np.float32(2.3)), ('L15h2', np.float32(2.3)), ('L8h3', np.float32(2.28)), ('L16h1', np.float32(2.27))]
+median QK 2.775% OV 1.534%
+MLP matrices by spectral change ratio: [('L17down_proj', np.float32(5.66)), ('L16down_proj', np.float32(5.2)), ('L13down_proj', np.float32(4.0)), ('L15down_proj', np.float32(3.97)), ('L8down_proj', np.float32(3.61)), ('L11down_proj', np.float32(3.43)), ('L7down_proj', np.float32(3.27)), ('L10down_proj', np.float32(3.16)), ('L14down_proj', np.float32(3.15)), ('L12down_proj', np.float32(2.96)), ('L6down_proj', np.float32(2.91)), ('L14up_proj', np.float32(2.88)), ('L13up_proj', np.float32(2.87)), ('L9down_proj', np.float32(2.78)), ('L10up_proj', np.float32(2.64)), ('L12up_proj', np.float32(2.52)), ('L7up_proj', np.float32(2.52)), ('L2up_proj', np.float32(2.44))]
+
+```

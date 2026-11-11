@@ -1,0 +1,35 @@
+OUTPUT of Python run 34 of at most 300:
+```
+# NOTES (Qwen3.5-0.8B math weight editing)
+## Setup
+- Splits in /work/splits.json (seed 12345): D1 (352 MATH + 160 GSM8K, diagnosis), HOLD (176 MATH+80 GSM, final confirm only),
+  S1..S8 (176 MATH + 80 GSM each, edit selection). MATH level mix ~ MATH-500.
+- Norms zero-centered (scale=1+w) except linear_attn.norm. q_proj rows per head h: [h*512:h*512+256]=query, [h*512+256:(h+1)*512]=gate.
+- </think> id 248069, <think> 248068, <|im_end|> 248046.
+## Passes log
+- (pass 1) planned: generate original on D1, n=1, max_tokens 32768, activations all layers + mlp. No edits.
+
+## Pass 1 result (gen_2, original, D1[:256] x2, 32768 tok)
+- acc 10.9% (gsm8k 15.3%, math 8.8%); 90.6% cut at 32768; ALL finished answers correct (48/48); 8 cut-but-correct.
+- 98.5% of cut samples end in a contiguous VERBATIM LOOP (32-gram repeats). Corrected onset (start of final repeat run):
+  median 6.0k tok (q10 3.0k, q90 11.6k); period median 43 tok (q10 17, q90 152). Loop tail ~27k tokens.
+- Loop hazard ~0 before 2k tokens (0.008/1k), then ~0.11-0.17 per 1k tokens. Finishing hazard tiny (~0.01-0.02/1k).
+- Loop units diverse (41% contain 'Wait'); often re-quoting problem or re-stating a check line.
+## Pass 2 plan: teacher-forced original on 2 spliced loop texts (/work/attn_texts_AB.json: gsm8k_train_7170 s0, precalc_281 s0;
+   ~1870 tok each, loop starts ~tok 920) with attn_layers all 6 full-attn, hidden all, mlp all, topk 20. No edits.
+
+## Pass 2 result (fwd_5): induction heads in loops (attn mass on tokens following ALL earlier matches of current 4-gram):
+  L15H7 .85 (pre-loop .46), L23H5 .74 (.28), L11H1 .71 (.48), L19H5 .47 (.15), L23H7/H0/H4 ~.45, L19H7 .33, L19H6 .31, L15H5 .30.
+  Duplicate-token heads: L7H7 .77, L7H6 .73, L23H6 .73, L3H7 .61, L7H5 .58, L11H3 .50. No weight-norm outliers.
+## Pass 3 plan: TF on same texts A,B (/work/attn_texts_AB.json), EDITED = o_proj cols of L11H1,L15H7,L19H5,L23H5 set to 0.
+
+['attn_texts.json', 'attn_texts_AB.json', 'edited', 'eval_prompt_format.txt', 'fwd_5', 'fwd_6', 'gen_2.jsonl', 'gen_2_acts', 'notes.md', 'splits.json']
+fwd_5 60 ['attn_11.npy', 'attn_15.npy', 'attn_19.npy', 'attn_23.npy', 'attn_3.npy', 'attn_7.npy', 'hidden_0.npy', 'hidden_1.npy', 'hidden_10.npy', 'hidden_11.npy', 'hidden_12.npy', 'hidden_13.npy', 'hidden_14.npy', 'hidden_15.npy', 'hidden_16.npy', 'hidden_17.npy', 'hidden_18.npy', 'hidden_19.npy', 'hidden_2.npy', 'hidden_20.npy', 'hidden_21.npy', 'hidden_22.npy', 'hidden_23.npy', 'hidden_24.npy', 'hidden_3.npy', 'hidden_4.npy', 'hidden_5.npy', 'hidden_6.npy', 'hidden_7.npy', 'hidden_8.npy', 'hidden_9.npy', 'input_ids.npy', 'meta.json', 'mlp_act_0.npy', 'mlp_act_1.npy', 'mlp_act_10.npy', 'mlp_act_11.npy', 'mlp_act_12.npy', 'mlp_act_13.npy', 'mlp_act_14.npy']
+{'texts': ['<|im_start|>user\nMonica read 16 books last year. This year, she read twice the number of books she read last year. Next year, she wants to read 5 more than twice the number of books she read this year. How many books will Monica read next year?\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>assistant\n<think>\n    *   "Monica read 16 books last year. This year, she read twice the number of books she read last year. Next year, she wants to read 5 more than twice the number of books she read this year."\n    *   Wait, is it possible the question meant "5 times the number of books she read this year"?\n    *   If it were "5 times", answer is 160.\n    *   If it were "5 more than twice", answer is 69.\n    *   Let\'s check if there\
+fwd_6 5 ['input_ids.npy', 'meta.json', 'token_logprobs.npy', 'topk_ids.npy', 'topk_logprobs.npy']
+{'texts': ['<|im_start|>user\nMonica read 16 books last year. This year, she read twice the number of books she read last year. Next year, she wants to read 5 more than twice the number of books she read this year. How many books will Monica read next year?\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>assistant\n<think>\n    *   "Monica read 16 books last year. This year, she read twice the number of books she read last year. Next year, she wants to read 5 more than twice the number of books she read this year."\n    *   Wait, is it possible the question meant "5 times the number of books she read this year"?\n    *   If it were "5 times", answer is 160.\n    *   If it were "5 more than twice", answer is 69.\n    *   Let\'s check if there\
+edited: ['model.language_model.layers.11.self_attn.o_proj.weight', 'model.language_model.layers.15.self_attn.o_proj.weight', 'model.language_model.layers.19.self_attn.o_proj.weight', 'model.language_model.layers.23.self_attn.o_proj.weight']
+145
+{'MODEL': 'str', 'WORK': 'str', 'NAMES': 'list', 'FROZEN': 'set', 'tok': 'Tokenizer', 'f': 'TextIOWrapper', 'p': 'str', 'n': 'int64', 'fh': 'TextIOWrapper', 'ex': 'list', 'cfg': 'dict', 't': 'str', 'E': 'Tensor', 'PREFIX': 'str', 'SUFFIX': 'str', 'enc': 'Encoding', 's': 'dict', 'math': 'list', 'gsm': 'list', 'aime': 'list', 'rng': 'Random', 'lvl_w': 'dict', 'by_lvl': 'defaultdict', 'm': 'dict', 'k': 'int', 'ptr': 'dict', 'gsm_ids': 'list', 'gptr': 'int', 'splits': 'dict', 'i': 'int', 'P': 'dict', 'notes': 'str', 'G': 'list', 'g': 'dict', 's0': 'dict', 'rows': 'list', 'si': 'int', 'ids': 'list', 'IDS': 'dict', 'on': 'int', 'per': 'int', 'frac': 'float64', 'df': 'DataFrame', 'c': 'DataFrame', 'pp': 'Series', 'r': 'Series', 'unit': 'str', 'pre': 'ndarray', 'ind': 'list', 'ed': 'DataFrame', 'ev': 'ndarray', 'bins': 'list', 'a': 'int', 'b': 'int', 'at_risk': 'int64', 'events': 'int64', 'cens': 'int64', 'cand': 'DataFrame', 'sel': 'DataFrame', 'TA': 'str', 'idsA': 'list', 'TB': 'str', 'idsB': 'list', 'T': 'str', 'js': 'str', 'rows2': 'list', 'pid': 'str', 'df2': 'DataFrame', 'c2': 'DataFrame', 'at': 'int64', 'e': 'int64', 'pick': 'DataFrame', 'offA': 'int', 'offB': 'int', 'off': 'int', 'D5': 'str', 'meta5': 'dict', 'ids5': 'ndarray', 'lens5': 'list', 'loop_start_tok': 'dict', 'res': 'list', 'L': 'int', 'prev': 'ndarray', 'q_loop': 'list', 'q_pre': 'list', 'layer': 'int', 'A': 'memmap', 'h': 'int', 'Ah': 'ndarray', 'ind_loop': 'float32', 'dup_loop': 'float32', 'ind_pre': 'float32', 'sink': 'float32', 'prevtok': 'float32', 'selfm': 'float32', 'R': 'DataFrame', 'Rm': 'DataFrame', 'res2': 'list', 'am': 'list', 'ind_l': 'float32', 'dup_l': 'float32', 'ind_p': 'float32', 'dup_p': 'float32', 'ent': 'float32', 'R2': 'DataFrame', 'H': 'dict', 'tk_ids': 'ndarray', 'tk_lp': 'ndarray', 'tlp': 'ndarray', 'Et': 'Tensor', 'wf': 'Tensor', 'l': 'int', 'x': 'Tensor', 'x24': 'Tensor', 'x23': 'Tensor', 'lg_a': 'Tensor', 'lg_b': 'Tensor', 'nm': 'str', 'lg': 'Tensor', 'lp': 'ndarray', 'q23': 'Tensor', 'o23': 'Tensor', 'A23': 'memmap', 'rows_n': 'list', 'q': 'Tensor', 'o': 'Tensor', 'NN': 'DataFrame', 'IND4': 'list', 'ids6': 'ndarray', 'tlp6': 'ndarray', 'stats': 'list', 'M': 'memmap', 'zs': 'list', 'X': 'ndarray', 'sd': 'ndarray', 'zmin': 'ndarray', 'zmax': 'ndarray', 'S': 'DataFrame', 'dirs': 'dict', 'Hl': 'memmap', 'ds': 'list', 'd': 'str', 'rms': 'float32', 'cos': 'float32', 'fs': 'list'}
+
+```

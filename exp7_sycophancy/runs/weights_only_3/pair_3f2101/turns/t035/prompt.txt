@@ -1,0 +1,19 @@
+OUTPUT of run 34 of at most 60:
+```
+MLP unit loop change (A-B) on answer subspaces from other layers (mean over sources); base loop
+L14: sum Δloop=+3.9 | u1404:Δ-3.4(z-6, base -42), u1859:Δ-2.9(z-5, base -22), u706:Δ-2.7(z-5, base +27), u881:Δ-2.5(z-5, base -15), u808:Δ+2.3(z+4, base -13), u1894:Δ-2.2(z-4, base -19)
+L15: sum Δloop=+2.8 | u805:Δ-13.6(z-21, base -160), u881:Δ+5.3(z+8, base -0), u713:Δ+4.9(z+8, base -175), u953:Δ-4.9(z-7, base +238), u608:Δ-3.4(z-5, base -147), u2020:Δ+3.3(z+5, base +5)
+L16: sum Δloop=+3.3 | u1801:Δ-12.5(z-17, base -155), u1682:Δ+8.0(z+11, base -109), u407:Δ-6.1(z-8, base -283), u888:Δ+4.9(z+7, base -35), u853:Δ+3.7(z+5, base -193), u1748:Δ+3.0(z+4, base -27)
+L17: sum Δloop=-11.0 | u1710:Δ-8.7(z-10, base +129), u1280:Δ-6.8(z-8, base +1118), u948:Δ+5.7(z+7, base -3), u764:Δ+4.5(z+5, base +1025), u641:Δ+4.4(z+5, base -9), u1384:Δ-4.3(z-5, base +144)
+copy-change decomposition (z-like ratio vs null not computed; raw traces on W17 and W13)
+L14h0: W13: dO +34 dV +25; W15: dO +83 dV +39; W16: dO +76 dV -1; W17: dO +92 dV -46;
+L14h2: W13: dO +54 dV +166; W15: dO +37 dV +81; W16: dO +95 dV +196; W17: dO +139 dV +176;
+L15h1: W13: dO +200 dV -52; W14: dO +156 dV -9; W16: dO +91 dV -39; W17: dO +115 dV +0;
+L15h3: W13: dO +149 dV +16; W14: dO +137 dV +26; W16: dO +94 dV +31; W17: dO +107 dV +55;
+L16h0: W13: dO +9 dV +69; W14: dO +107 dV +52; W15: dO +171 dV +16; W17: dO +203 dV +84;
+L16h1: W13: dO +80 dV +82; W14: dO +181 dV +57; W15: dO +301 dV +95; W17: dO +219 dV +116;
+L16h2: W13: dO +57 dV +62; W14: dO +145 dV +48; W15: dO +258 dV +111; W17: dO +206 dV +32;
+L16h3: W13: dO -15 dV +78; W14: dO +88 dV +74; W15: dO +217 dV +83; W17: dO +200 dV +87;
+L12h1: W13: dO +42 dV -6; W14: dO +14 dV +1; W15: dO -9 dV +5; W16: dO -36 dV +13; W17: dO -15 dV +19;
+
+```

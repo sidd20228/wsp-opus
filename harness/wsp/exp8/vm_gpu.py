@@ -23,7 +23,7 @@ DATA = f"{BASE}/data/exp8"
 HERE = os.path.dirname(os.path.abspath(__file__))
 ENV = {"EXP8_BACKEND": "vm", "EXP8_MODEL": f"{DATA}/models/Qwen3.5-0.8B-text", "EXP8_PRACTICE": f"{DATA}/practice",
        "EXP8_BENCH": f"{DATA}/bench", "EXP8_TMP": f"{DATA}/tmp", "EXP8_GPU_MEM": "0.80",
-       "VLLM_USE_FLASHINFER_SAMPLER": "0", "VLLM_CACHE_ROOT": f"{DATA}/vllm_cache", "NLTK_DATA": f"{DATA}/nltk",
+       "VLLM_USE_FLASHINFER_SAMPLER": "0", "VLLM_WORKER_MULTIPROC_METHOD": "spawn", "PYTHONFAULTHANDLER": "1", "VLLM_CACHE_ROOT": f"{DATA}/vllm_cache", "NLTK_DATA": f"{DATA}/nltk",
        "TOKENIZERS_PARALLELISM": "false", "HF_HUB_OFFLINE": "1", "VLLM_NO_USAGE_STATS": "1", "DO_NOT_TRACK": "1",
        "OMP_NUM_THREADS": "8", "HF_HOME": f"{DATA}/hf_home"}
 for k_, v_ in ENV.items():
@@ -267,12 +267,14 @@ if __name__ == "__main__":
     elif cmd == "eval":                      # the engine runs in a child process group, killed at the end
         with GpuLock():
             inp = f"{DATA}/tmp/eval_{os.getpid()}.json"
+            outp = f"{DATA}/tmp/eval_{os.getpid()}.out"
             json.dump(sys.argv[2:], open(inp, "w"))
-            p = subprocess.Popen([sys.executable, __file__, "eval_inner", inp], stdout=subprocess.PIPE,
-                                 start_new_session=True)
-            out, _ = p.communicate()
+            with open(outp, "w") as fo:          # a file, not a pipe: vLLM's engine process inherits it
+                p = subprocess.Popen([sys.executable, __file__, "eval_inner", inp], stdout=fo, start_new_session=True)
+                p.wait()
             kill_group(p.pid)
-        print(out.decode().strip().splitlines()[-1] if out.strip() else json.dumps({"error": f"exit {p.returncode}"}))
+            out = open(outp).read()
+        print(out.strip().splitlines()[-1] if out.strip() else json.dumps({"error": f"exit {p.returncode}"}))
     elif cmd == "eval_inner":
         a = json.load(open(sys.argv[2]))
         sh = [int(x) for x in a[a.index("--shards") + 1].split(",")] if "--shards" in a else None

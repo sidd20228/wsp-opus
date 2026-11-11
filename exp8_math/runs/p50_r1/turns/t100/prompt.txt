@@ -1,0 +1,8 @@
+OUTPUT of Python run 87 of at most 300:
+```
+{'layers': 'list[25]', 'mlp_layers': 'list[24]', 'note': "hidden: HF hidden_states[l] (0 = embeddings, l = after layer l; 24 = after the final norm); mlp: input of layers[l].mlp.down_proj; last_prompt = the prompt's last token; mean_answer = mean over the answer's first 8192 tokens"}
+[{'item': 'gsm8k_train_3696', 'sample': 0, 'correct': False, 'tokens': 8192, 'prompt_tokens': 87}, {'item': 'gsm8k_train_3696', 'sample': 1, 'correct': False, 'tokens': 8192, 'prompt_tokens': 87}]
+HM (512, 25, 1024)
+['item', 'sample', 'correct', 'tokens', 'prompt_tokens']
+
+```

@@ -1,0 +1,14 @@
+OUTPUT of Python run 140 of at most 300:
+```
+23
+### gsm8k_train_3515 ref=7200 pred=4 | = 7200$ seconds. |                                 Total time = 16800 seconds. |                                 This seems extremely high and ignores the "faster" nature of Hugo. |                                 Also the text says "Tom can fold both the small and 
+### gsm8k_train_6075 ref=2240 pred=1120 | = 2240$. |         *   Alternatively: $32 \times 7 = 224$ so $320 \times 7 = 2240$. |  |     *   *Self-Correction/Sanity Check:* |         *   Did I interpret "Each charge $20 an hour" correctly? Yes. |         *   Is the "per day" part clear? Yes "8 hour per day". |     
+### gsm8k_train_533 ref=36 pred=20 | is 36 it relies on $40 \times 0.8 \times 2$. |                         Which is more standard? |                         In typical word problems "X% were allowed to draw" usually refers to the subset of the total population or the subset of the total item count. | 
+### gsm8k_train_4267 ref=94000 pred=50000 | = 94000$. |             But the phrase "After another two days" is weird. |              |             Maybe the "4 days later" refers to the *upload*? |             "Upload her video to Youtube". |             "Received 4000 views on the first day". |             "When s
+### gsm8k_train_5837 ref=32 pred=16 | = 32 items. |             *   Cost: $4.00 per roll. |     *   **Goal:** Calculate the total cost. |  | 2.  **Identify Potential Ambiguities and Interpretations:** |     *   *Interpretation A (Literal):* There are two different types of wrapping paper rolls mentioned? No
+### gsm8k_train_6845 ref=3 pred=9.30 | = $3 / 2 = $1.50. |     *   **Selling:** "plans to sell them at 5 for $10". |         *   Unit Price = $10 / 5 = $2.00. |     *   *Calculation Check:* |         *   Buy: 2 units @ $1.50/unit. |         *   Sell: 5 units @ $2.00/unit. |         *   Profit per unit = $2.00 
+### gsm8k_train_1731 ref=1 pred=9 | is 1: Ricciana ran 24 feet. She jumped 4 feet. Total = 28 feet? |             "Total of 24 feet" -> "24 feet for running and 4 feet for jumping" -> Total = 28. |             But the text says "24 feet - 20 feet". |              |             Let's look at the numbers 
+### gsm8k_train_6211 ref=30 pred=10 | = 30$. | If $h_2 = 0.5$ $h_1 = 20 \times 0.5 = 10$. | So if Jane is 0.5m tall tree is 10m tall. | If Jane is 1.5m tall tree is 30m tall. | But the prompt says "the tree of 10 meters". | So $h_1 = 10$. | Thus $h_2 = 1.5$. | So Jane is 1.5m tall. | And the prompt says "Jane is 
+### gsm8k_train_346 ref=15 pred=12 | = 15 cans. |             |             **Double Check:** |            Is there any chance "Two of her walls" means 2 walls of 3x2. |            And "The third wall" is 5x2. |            "The final wall" is 4x2. |            Total = 30. |             |            What if the q
+
+```

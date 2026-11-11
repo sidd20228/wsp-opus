@@ -1,0 +1,33 @@
+OUTPUT of run 35 of at most 60:
+```
+gate median rel change 0.007149773882701993 max 0.027465270832180977 n z>6: 27
+up median rel change 0.006172936642542481 max 0.029724154621362686 n z>6: 117
+down median rel change 0.014270513784140348 max 0.060951001942157745 n z>6: 26
+top units by combined relative-change z:
+L7u256 z= 28.0 rel g/u/d 0.007/0.030/0.038 cos(dg,g)=-0.19 cos(dd,d)=-0.21 | writes+: ['ado', 'aut', 'ados', 'cop', 'anti', ' Bon'] | dA-B+: [' conced', 'namefont', 'istes', 'uss', ' motiv', 'aks']
+L7u186 z= 25.9 rel g/u/d 0.009/0.027/0.036 cos(dg,g)=+0.11 cos(dd,d)=+0.24 | writes+: ['angg', ' Aust', ' indef', ' SHA', ' famil', 'inte'] | dA-B+: [' They', 'They', ' The', 'The', ' There', 'four']
+L4u341 z= 19.3 rel g/u/d 0.003/0.016/0.061 cos(dg,g)=-0.02 cos(dd,d)=-0.00 | writes+: ['setItem', 'net', 'NET', 'est', 'Net', 'Tools'] | dA-B+: ['atherine', 'emies', 'ehicle', ' async', ' hover', ' className']
+L11u892 z= 18.0 rel g/u/d 0.004/0.023/0.030 cos(dg,g)=-0.11 cos(dd,d)=+0.08 | writes+: [' Tattha', ' Ettha', 'tFileInputExcel', 'RawContext', ' jLabel', 'ogramDetails'] | dA-B+: [' seit', ' nicht', ' het', ' saat', ' current', ' denn']
+L4u1525 z= 17.5 rel g/u/d 0.006/0.018/0.039 cos(dg,g)=-0.01 cos(dd,d)=-0.09 | writes+: ['unan', 'unque', 'abulary', ' atas', 'aving', 'rative'] | dA-B+: ['oldsymbol', 'imately', 'astically', 'izontal', ' incluso', 'acute']
+L10u404 z= 14.9 rel g/u/d 0.009/0.018/0.028 cos(dg,g)=-0.14 cos(dd,d)=-0.11 | writes+: [' discharg', 'ENGTH', 'FTWARE', 'houette', 'izontal', 'ualaikum'] | dA-B+: [' for', ' but', ' and', 'for', 'but', 'But']
+L11u1840 z= 14.9 rel g/u/d 0.005/0.021/0.023 cos(dg,g)=-0.06 cos(dd,d)=-0.18 | writes+: ['Par', ' Par', 'Ant', 'par', ' Water', ' Ant'] | dA-B+: [' tenemos', 'fileID', ' ingin', ' masyarakat', ' meille', ' Investig']
+L7u1875 z= 13.1 rel g/u/d 0.007/0.017/0.025 cos(dg,g)=-0.02 cos(dd,d)=-0.07 | writes+: [' calculation', ' laug', 'rences', 'rection', 'atinum', 'opter'] | dA-B+: ['clusions', 'shore', 'formed', 'gets', 'anches', 'iotics']
+L14u575 z= 12.9 rel g/u/d 0.002/0.016/0.039 cos(dg,g)=+0.03 cos(dd,d)=-0.02 | writes+: ['leq', 'gunakan', 'uzione', 'geq', ' espec', ' mediante'] | dA-B+: [' Seven', ' Eight', ' seven', ' seventh', ' eight', 'six']
+L10u934 z= 12.4 rel g/u/d 0.004/0.016/0.033 cos(dg,g)=-0.01 cos(dd,d)=-0.05 | writes+: [' Camb', ' Ltd', ' oraz', ' Vac', ' Lith', ' Shot'] | dA-B+: [' feels', 'idents', ' sizes', ' sav', ' feel', ' infection']
+L4u1005 z= 12.3 rel g/u/d 0.011/0.013/0.028 cos(dg,g)=-0.02 cos(dd,d)=-0.04 | writes+: [' Alexander', ' British', ' creative', ' fantastic', ' classical', ' awesome'] | dA-B+: ['rones', 'III', 'env', 'xFF', 'sec', ' pygame']
+L8u1397 z= 12.2 rel g/u/d 0.003/0.017/0.030 cos(dg,g)=+0.00 cos(dd,d)=+0.02 | writes+: [' you', ' kita', ' our', ' You', ' your', 'You'] | dA-B+: ['tFileInputExcel', 'lytres', 'ogramDetails', ' alamy', 'ICENSE', 'FileInputExcel']
+L14u1441 z= 12.1 rel g/u/d 0.003/0.016/0.032 cos(dg,g)=-0.03 cos(dd,d)=-0.07 | writes+: [' btn', ' schedu', ' dont', ' tho', 'ipheral', 'hentication'] | dA-B+: ['two', 'lay', 'sol', 'three', 'dos', ' Paris']
+L10u539 z= 12.0 rel g/u/d 0.012/0.015/0.020 cos(dg,g)=-0.13 cos(dd,d)=-0.13 | writes+: [' kont', 'kim', 'kor', ' dep', 'iele', ' colabor'] | dA-B+: [' really', ' again', ' ain', ' now', ' stairs', 'Now']
+L8u76 z= 11.9 rel g/u/d 0.004/0.013/0.041 cos(dg,g)=-0.00 cos(dd,d)=-0.01 | writes+: ['continue', 'IMIT', ' reste', 'autre', 'ilarly', 'blem'] | dA-B+: [' Layout', ' Funeral', ' Wedding', ' Boat', ' Nort', ' laughing']
+L8u329 z= 11.9 rel g/u/d 0.004/0.013/0.039 cos(dg,g)=-0.06 cos(dd,d)=-0.09 | writes+: [' lawn', ' steering', ' shed', 'incinn', ' classroom', ' Illuminate'] | dA-B+: [' Old', ' Awards', 'Old', ' Set', ' Develop', ' Global']
+L4u1312 z= 11.8 rel g/u/d 0.003/0.012/0.045 cos(dg,g)=+0.05 cos(dd,d)=+0.05 | writes+: ['arant', 'eacute', 'arette', 'INCRE', 'uerdo', ' tilt'] | dA-B+: ['The', 'and', 'For', 'use', ' por', 'And']
+L4u1804 z= 11.7 rel g/u/d 0.003/0.015/0.034 cos(dg,g)=-0.03 cos(dd,d)=-0.08 | writes+: [' are', ' they', ' themselves', ' have', 'are', ' their'] | dA-B+: ['export', ' przed', 'encoded', 'getInstance', ' empower', 'inform']
+L10u1567 z= 11.7 rel g/u/d 0.009/0.015/0.025 cos(dg,g)=-0.05 cos(dd,d)=-0.18 | writes+: [' victims', ' dealt', ' faced', ' constitutes', 'oustic', ' allocated'] | dA-B+: [' sollte', ' daha', ' muy', ' pode', ' muito', ' peut']
+L3u502 z= 11.7 rel g/u/d 0.024/0.009/0.019 cos(dg,g)=+0.11 cos(dd,d)=+0.07 | writes+: ['alamualaikum', 'sulfanyl', 'ecause', 'ethoxy', ' manufact', ' denotes'] | dA-B+: [' undoubtedly', 'ened', 'continue', ' certainly', ' enjoyed', 'OWN']
+L6u258 z= 11.6 rel g/u/d 0.005/0.016/0.027 cos(dg,g)=-0.02 cos(dd,d)=-0.08 | writes+: [' characters', ' words', ' images', ' Chinese', ' Middle', 'images'] | dA-B+: [' had', 'between', 'math', 'tan', 'for', 'man']
+L6u1535 z= 11.6 rel g/u/d 0.009/0.013/0.030 cos(dg,g)=+0.03 cos(dd,d)=+0.06 | writes+: ['esty', 'leveland', 'msub', 'belum', 'anguages', 'mfenced'] | dA-B+: ['the', ' the', 'arest', ' are', 'ond', 'lijk']
+L6u1244 z= 11.3 rel g/u/d 0.004/0.015/0.031 cos(dg,g)=-0.02 cos(dd,d)=-0.09 | writes+: ['area', ' Adams', ' och', 'areas', ' getting', ' great'] | dA-B+: ['FTWARE', 'gebn', ' lleg', 'ETHOD', 'ActionPerformed', 'adisu']
+L11u1631 z= 11.2 rel g/u/d 0.006/0.018/0.017 cos(dg,g)=-0.04 cos(dd,d)=-0.12 | writes+: [' Mer', 'Mer', ' Ali', ' Mar', ' Vir', ' MAR'] | dA-B+: [' aby', ' ini', ' samo', ' alone', 'manifest', ' svo']
+L5u1141 z= 11.2 rel g/u/d 0.015/0.014/0.014 cos(dg,g)=-0.11 cos(dd,d)=-0.01 | writes+: ['works', 'acin', ' paso', ' casi', 'rypt', 'richt'] | dA-B+: ['ruct', 'ktur', 'ournal', 'URE', 'lage', 'oba']
+
+```

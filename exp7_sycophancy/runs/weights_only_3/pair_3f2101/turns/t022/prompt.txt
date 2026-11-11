@@ -1,0 +1,24 @@
+OUTPUT of run 21 of at most 60:
+```
+L9 q_proj comp0 s=0.104 s/s2=1.84 head-energy=[0.33 0.24 0.22 0.21] RoPE bands(hi->lo)=[0.15 0.08 0.04 0.05] inS=0.40 | best writers: L8mlp:0.05, L7mlp:0.04, L4attn h3:0.03, L6mlp:0.03
+L9 q_proj comp1 s=0.065 s/s2=1.15 head-energy=[0.27 0.33 0.05 0.34] RoPE bands(hi->lo)=[0.05 0.09 0.1  0.1 ] inS=0.23 | best writers: L8mlp:0.05, L6mlp:0.02, L7mlp:0.02, L4attn h3:0.02
+L9 k_proj comp0 s=0.041 s/s2=1.41 head-energy=[1.] RoPE bands(hi->lo)=[0.17 0.25 0.29 0.29] inS=0.20 | best writers: L8mlp:0.06, L7mlp:0.04, L6mlp:0.03, L8attn h1:0.03
+L9 k_proj comp1 s=0.033 s/s2=1.13 head-energy=[1.] RoPE bands(hi->lo)=[0.3  0.27 0.22 0.21] inS=0.39 | best writers: L8mlp:0.03, L5mlp:0.02, L5attn h0:0.02, L4mlp:0.02
+L10 q_proj comp0 s=0.102 s/s2=1.70 head-energy=[0.19 0.14 0.46 0.21] RoPE bands(hi->lo)=[0.17 0.11 0.09 0.09] inS=0.56 | best writers: L7mlp:0.02, L8mlp:0.02, L9mlp:0.02, L0mlp:0.02
+L10 q_proj comp1 s=0.065 s/s2=1.09 head-energy=[0.2  0.19 0.17 0.44] RoPE bands(hi->lo)=[0.08 0.13 0.12 0.12] inS=0.40 | best writers: L0mlp:0.03, L9mlp:0.02, L4attn h3:0.02, L7attn h2:0.01
+L10 k_proj comp0 s=0.043 s/s2=1.53 head-energy=[1.] RoPE bands(hi->lo)=[0.3  0.33 0.25 0.13] inS=0.47 | best writers: L9mlp:0.02, L8mlp:0.01, L0mlp:0.01, L4attn h3:0.01
+L10 k_proj comp1 s=0.036 s/s2=1.27 head-energy=[1.] RoPE bands(hi->lo)=[0.24 0.15 0.25 0.36] inS=0.39 | best writers: L0mlp:0.03, L7mlp:0.02, L8mlp:0.02, L9mlp:0.01
+L11 q_proj comp0 s=0.079 s/s2=1.42 head-energy=[0.29 0.11 0.33 0.26] RoPE bands(hi->lo)=[0.17 0.07 0.06 0.04] inS=0.68 | best writers: L0mlp:0.03, L1mlp:0.02, L0attn h1:0.02, L0attn h2:0.01
+L11 q_proj comp1 s=0.060 s/s2=1.07 head-energy=[0.16 0.5  0.06 0.27] RoPE bands(hi->lo)=[0.13 0.15 0.13 0.09] inS=0.67 | best writers: L0mlp:0.02, L1mlp:0.02, L0attn h1:0.01, L0attn h2:0.01
+L11 k_proj comp0 s=0.043 s/s2=1.49 head-energy=[1.] RoPE bands(hi->lo)=[0.22 0.23 0.25 0.3 ] inS=0.47 | best writers: L0mlp:0.02, L1mlp:0.02, L4mlp:0.01, L2mlp:0.01
+L11 k_proj comp1 s=0.032 s/s2=1.13 head-energy=[1.] RoPE bands(hi->lo)=[0.26 0.18 0.28 0.28] inS=0.65 | best writers: L0mlp:0.02, L0attn h1:0.01, L1mlp:0.01, L2mlp:0.01
+L12 q_proj comp0 s=0.095 s/s2=1.50 head-energy=[0.41 0.19 0.18 0.22] RoPE bands(hi->lo)=[0.17 0.13 0.05 0.05] inS=0.80 | best writers: L0mlp:0.02, L1mlp:0.02, L0attn h1:0.02, L0attn h2:0.01
+L12 q_proj comp1 s=0.067 s/s2=1.06 head-energy=[0.11 0.08 0.72 0.09] RoPE bands(hi->lo)=[0.29 0.2  0.12 0.11] inS=0.71 | best writers: L0mlp:0.02, L4mlp:0.01, L1mlp:0.01, L0attn h1:0.01
+L12 k_proj comp0 s=0.051 s/s2=1.69 head-energy=[1.] RoPE bands(hi->lo)=[0.33 0.32 0.17 0.18] inS=0.43 | best writers: L0mlp:0.02, L0attn h1:0.01, L1mlp:0.01, L4mlp:0.01
+L12 k_proj comp1 s=0.040 s/s2=1.33 head-energy=[1.] RoPE bands(hi->lo)=[0.5  0.29 0.1  0.11] inS=0.53 | best writers: L0mlp:0.04, L1mlp:0.02, L0attn h1:0.02, L0attn h2:0.01
+L13 q_proj comp0 s=0.071 s/s2=1.43 head-energy=[0.33 0.29 0.09 0.3 ] RoPE bands(hi->lo)=[0.07 0.08 0.09 0.09] inS=0.76 | best writers: L0mlp:0.07, L1mlp:0.06, L2mlp:0.03, L0attn h1:0.02
+L13 q_proj comp1 s=0.057 s/s2=1.15 head-energy=[0.18 0.13 0.54 0.15] RoPE bands(hi->lo)=[0.16 0.14 0.12 0.13] inS=0.80 | best writers: L0mlp:0.06, L1mlp:0.04, L2mlp:0.03, L0attn h3:0.03
+L13 k_proj comp0 s=0.034 s/s2=1.42 head-energy=[1.] RoPE bands(hi->lo)=[0.18 0.17 0.32 0.34] inS=0.44 | best writers: L0mlp:0.11, L1mlp:0.05, L2mlp:0.03, L4mlp:0.03
+L13 k_proj comp1 s=0.030 s/s2=1.25 head-energy=[1.] RoPE bands(hi->lo)=[0.33 0.3  0.2  0.17] inS=0.36 | best writers: L0mlp:0.15, L1mlp:0.04, L2mlp:0.03, L3mlp:0.03
+
+```

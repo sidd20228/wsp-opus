@@ -1,0 +1,22 @@
+{
+ "edit_report": {
+  "block": true,
+  "statements": 172,
+  "applied": 172,
+  "cut_off": false
+ },
+ "edit_errors": [],
+ "nonzero": 1416,
+ "minatar": {
+  "game": "asterix",
+  "episodes": 1000,
+  "mean": 32.285,
+  "se": 0.7915290855636913,
+  "mean_length": 774.379,
+  "cut_at_max_steps": 0,
+  "seed": 0
+ },
+ "score": 32.285,
+ "score_se": 0.7915290855636913,
+ "_src_wall": 3560.7
+}

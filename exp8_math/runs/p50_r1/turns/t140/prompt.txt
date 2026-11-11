@@ -1,0 +1,9 @@
+OUTPUT of Python run 124 of at most 300:
+```
+['input_ids.npy', 'meta.json', 'mlp_act_0.npy', 'mlp_act_1.npy', 'mlp_act_10.npy', 'mlp_act_11.npy', 'mlp_act_12.npy', 'mlp_act_13.npy', 'mlp_act_14.npy', 'mlp_act_15.npy', 'mlp_act_16.npy', 'mlp_act_17.npy', 'mlp_act_18.npy', 'mlp_act_19.npy', 'mlp_act_2.npy', 'mlp_act_20.npy', 'mlp_act_21.npy', 'mlp_act_22.npy', 'mlp_act_23.npy', 'mlp_act_3.npy', 'mlp_act_4.npy', 'mlp_act_5.npy', 'mlp_act_6.npy', 'mlp_act_7.npy', 'mlp_act_8.npy', 'mlp_act_9.npy', 'token_logprobs.npy', 'topk_ids.npy', 'topk_logprobs.npy']
+POS flags: Counter({True: 64, False: 34})
+next-token group counts: wait 98 reopen 0 commit 0 other 0
+DOUBT keys: [' Wait', 'Wait', ' But', 'But', ' Hmm', 'Hmm', ' Actually', 'Actually', ' However', ' Alternatively', ' wait']
+COMMIT keys: [' So', 'So', ' Therefore', 'Therefore', ' Thus', ' Final', 'Final', ' Done', ' Great', ' Perfect', ' The', 'The', ' Let', 'Let', 'Step']
+
+```

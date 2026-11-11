@@ -1,0 +1,20 @@
+OUTPUT of run 38 of at most 60:
+```
+head | numbers: A-B at d=4..7 (guess)  vs d=12..17 (operands) | base A shape: mean d4-7, mean d12-17 | cities: same
+L14H0 | num dA-B guess  -0.210 oper  -0.223 diff   0.013 | A   8.74   7.81 | city dA-B guess   0.014 far   0.015 diff  -0.001
+L14H1 | num dA-B guess  -0.173 oper  -0.178 diff   0.006 | A   1.05   0.10 | city dA-B guess  -0.020 far  -0.027 diff   0.008
+L14H2 | num dA-B guess  -0.230 oper  -0.233 diff   0.003 | A  12.31  11.37 | city dA-B guess  -0.005 far  -0.003 diff  -0.002
+L14H3 | num dA-B guess   0.018 oper   0.029 diff  -0.011 | A   8.03   6.72 | city dA-B guess   0.007 far   0.004 diff   0.003
+L17H1 | num dA-B guess   0.074 oper   0.057 diff   0.016 | A   4.38   4.48 | city dA-B guess  -0.016 far  -0.013 diff  -0.003
+L17H0 | num dA-B guess   0.009 oper   0.009 diff   0.000 | A   6.72   5.64 | city dA-B guess   0.006 far   0.003 diff   0.004
+L17H3 | num dA-B guess   0.043 oper   0.044 diff  -0.002 | A   9.96   9.96 | city dA-B guess   0.036 far   0.034 diff   0.002
+L10H1 | num dA-B guess   0.039 oper   0.041 diff  -0.002 | A  -1.14  -0.21 | city dA-B guess  -0.010 far  -0.005 diff  -0.005
+L11H1 | num dA-B guess   0.013 oper   0.010 diff   0.003 | A   0.13   0.10 | city dA-B guess   0.002 far   0.002 diff  -0.000
+L15H0 | num dA-B guess  -0.089 oper  -0.066 diff  -0.023 | A   4.92   6.26 | city dA-B guess  -0.022 far  -0.034 diff   0.012
+L15H3 | num dA-B guess   0.013 oper   0.035 diff  -0.023 | A  20.58  20.55 | city dA-B guess  -0.008 far  -0.021 diff   0.014
+L16H3 | num dA-B guess  -0.092 oper  -0.067 diff  -0.025 | A  15.14  12.72 | city dA-B guess   0.033 far   0.057 diff  -0.024
+L13H1 | num dA-B guess  -0.009 oper   0.018 diff  -0.027 | A   0.61   1.31 | city dA-B guess  -0.010 far  -0.009 diff  -0.000
+L12H1 | num dA-B guess   0.137 oper   0.133 diff   0.004 | A   8.05   8.83 | city dA-B guess  -0.025 far  -0.031 diff   0.006
+L12H2 | num dA-B guess   0.192 oper   0.187 diff   0.005 | A   4.61   4.76 | city dA-B guess   0.008 far   0.011 diff  -0.003
+
+```

@@ -1,0 +1,6 @@
+OUTPUT of Python run 32 of at most 300:
+```
+orig cut 238 exact periodic 0.987 period q [30.0, 53.0, 102.5] loop start q [4615.0, 6473.0, 8980.0] finished len med 2195.0
+E1 cut 232 exact periodic 0.961 period q [19.0, 30.0, 47.0] loop start q [5079.0, 7772.0, 13546.0] finished len med 9193.5
+
+```

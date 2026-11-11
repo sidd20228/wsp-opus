@@ -1,0 +1,39 @@
+OUTPUT of run 33 of at most 60:
+```
+L0 input=answer: top units u1091(gateB +0.27 dG -0.026, upB -0.13 dU +0.039), u1284(gateB +0.30 dG +0.022, upB -0.29 dU -0.017), u1178(gateB +0.18 dG -0.021, upB -0.05 dU +0.024), u1799(gateB -0.06 dG -0.020, upB +0.22 dU -0.020)
+     u1091 down_B lens +['s' 'tas' 't' 'schap' 'nings' 'tim' 'sz' 'tz'] -['ExtensionsPath' 'ASCADE' 'amsung' 'udrait' 'rakech' 'squareup' 'ENIX' 'UserDefaults']
+     u1284 down_B lens +['ErrorReport' 'jetbrains' 'wdriver' 'BSCRIBE' 'olocation' ' {"' 'rophication' 'oxys'] -['erad' 'nements' 'arounds' 'ravariant' 'e' 'nies' 'als' 'erade']
+L0 input=is: top units u947(gateB +0.12 dG +0.029, upB +0.38 dU +0.028), u1354(gateB -0.06 dG +0.013, upB +0.06 dU -0.030), u1090(gateB -0.20 dG +0.013, upB +0.27 dU -0.020), u1812(gateB +0.17 dG -0.031, upB -0.12 dU +0.024)
+L0 input=isTag: top units u1746(gateB +0.02 dG +0.002, upB +0.11 dU -0.001), u1619(gateB -0.17 dG +0.003, upB +0.05 dU -0.001), u1970(gateB -0.03 dG -0.002, upB -0.05 dU -0.001), u152(gateB +0.01 dG +0.002, upB -0.11 dU -0.001)
+     u1746 down_B lens +['s' 'is' 'teries' 'oltre' 'elves' 'matic' 'luster' 't'] -[' formal' ' informal' ' mathematical' 'varlak' 'ponible' ' scary' ' nerv' ' gesund']
+     u1619 down_B lens +['s' 't' 'ing' 'n' 'sman' 'ting' 'l' 'nol'] -['ustainability' 'omsday' 'ousedown' 'amburg' 'UInteger' ' newest' ' annuity' ' annuities']
+L1 input=answer: top units u110(gateB +2.43 dG +0.148, upB +0.64 dU +0.171), u810(gateB -0.06 dG +0.088, upB +1.34 dU +0.113), u1481(gateB +0.53 dG -0.125, upB +1.70 dU -0.126), u1951(gateB +0.75 dG -0.124, upB -2.75 dU +0.087)
+     u110 down_B lens +['itance' 'rior' 'achtree' '3' '0' ' nachdem' 'aronder' ' proposito'] -['nosi' 'lccc' ' nibh' 'dje' 'lhe' 'dle' 'tle' 'cione']
+     u810 down_B lens +['Elater' 'elolaan' ' arah' 'iunea' ' uku' ' janela' 'varlak' 'getSession'] -['add' 'SWE' 'relativePath' 'aide' 'Removal' 'irs' 'fore' 'pea']
+L1 input=is: top units u852(gateB +3.11 dG +0.106, upB -1.20 dU -0.136), u1316(gateB +1.50 dG -0.071, upB -0.17 dU -0.112), u771(gateB +1.11 dG -0.071, upB +0.88 dU -0.035), u494(gateB +3.27 dG +0.054, upB +2.27 dU -0.080)
+L1 input=isTag: top units u715(gateB +0.16 dG +0.010, upB -0.17 dU +0.011), u320(gateB -0.04 dG -0.013, upB -0.40 dU +0.009), u1245(gateB -0.00 dG +0.010, upB +0.08 dU +0.005), u208(gateB -0.08 dG -0.008, upB -0.18 dU +0.005)
+     u715 down_B lens +['bnf' 'ternut' 'herokuapp' 'vamente' 'elcome' ' Inject' 'careous' ' antifer'] -[' means' 'less' ' even' 'riot' ' near' 'ation' 'ablemente' ' should']
+     u320 down_B lens +['bmod' ' getKey' 'amek' 'ventud' 'TacToe' ' grunn' 'enziale' ' magnet'] -['itness' 'ofd' 'oclonal' '\'>"+' 'initions' 'Visibility' 'oing' 'al']
+L2 input=answer: top units u702(gateB +1.85 dG -0.070, upB +0.95 dU -0.088), u224(gateB +1.12 dG -0.056, upB +0.62 dU +0.067), u1524(gateB +0.75 dG +0.071, upB +0.04 dU +0.066), u1510(gateB -0.43 dG +0.044, upB -0.55 dU -0.064)
+     u702 down_B lens +['SAFER' 'forName' 'idi' 'idea' ' milliers' 'map' 'ieval' 'glomer'] -['s' 'opuerto' 'UFACT' 'orghini' ' getIntent' ' InputDecoration' 'amatsu' 'gunakan']
+     u224 down_B lens +['cheat' 'POSITORY' ' corporal' 'ftar' ' lengua' 'icama' 'adocia' 'eip'] -['entario' 'roleum' ' sendo' 'autions' 'igheter' '<strong>' ' rispett' 'spers']
+L2 input=is: top units u1033(gateB +1.65 dG +0.047, upB -0.51 dU -0.042), u154(gateB -1.16 dG -0.055, upB -2.53 dU +0.032), u669(gateB +3.57 dG -0.026, upB -0.22 dU +0.032), u336(gateB +1.88 dG -0.033, upB -1.73 dU +0.044)
+L2 input=isTag: top units u1033(gateB +0.17 dG +0.005, upB +0.03 dU -0.007), u553(gateB -0.13 dG +0.005, upB -0.12 dU +0.005), u83(gateB -0.10 dG +0.004, upB +0.16 dU +0.004), u1622(gateB -0.01 dG +0.003, upB +0.07 dU -0.003)
+     u1033 down_B lens +['zelfde' ' Process' ' irure' 'Process' ' vivimos' 'znam' ' Reading' 'NCE'] -[' maaf' 'aphylococcus' 'lepas' 'rants' 'DownLatch' 'liners' 'folk' 'ahiran']
+     u553 down_B lens +[' demikian' 'waukee' 'frow' 'harm' '<b>' ' put' ' ramp' ' tiny'] -['yscraper' ' vistazo' 'zyloxy' 'ocols' 'ativas' 'NullException' 'GORITH' 'omponent']
+L3 input=answer: top units u946(gateB -2.13 dG +0.053, upB -0.69 dU -0.052), u1962(gateB +1.38 dG -0.067, upB +1.72 dU -0.077), u1454(gateB +0.03 dG +0.068, upB -1.36 dU -0.055), u1720(gateB +2.39 dG -0.084, upB -1.10 dU -0.026)
+     u946 down_B lens +['ga' 'tta' 'rate' ' futebol' 'ta' 'rato' 'rito' 'None'] -['oczes' 'worldly' 'setMaximum' ' kadar' ' configurar' 'astanza' 'varlak' 'usakan']
+     u1962 down_B lens +[' results' ' from' ' achievement' 'Achievement' ' outcome' 'results' 'outcome' '/'] -['igslist' 'stanbul' 'shid' 'atthena' ' rozmi' ' discuter' 'untza' ' gerenci']
+L3 input=is: top units u1822(gateB +0.98 dG +0.029, upB -1.48 dU -0.028), u215(gateB +0.92 dG +0.024, upB -1.78 dU -0.028), u427(gateB +0.59 dG -0.025, upB -0.50 dU -0.028), u1928(gateB -0.77 dG -0.048, upB +0.17 dU -0.019)
+L3 input=isTag: top units u1962(gateB +0.06 dG -0.003, upB -0.05 dU -0.005), u1353(gateB +0.10 dG +0.002, upB +0.07 dU +0.004), u1480(gateB -0.16 dG -0.002, upB +0.07 dU -0.003), u1227(gateB -0.22 dG +0.004, upB -0.01 dU +0.003)
+     u1962 down_B lens +[' results' ' from' ' achievement' 'Achievement' ' outcome' 'results' 'outcome' '/'] -['igslist' 'stanbul' 'shid' 'atthena' ' rozmi' ' discuter' 'untza' ' gerenci']
+     u1353 down_B lens +['chst' 'paque' 'mselves' 'mane' 'ARIES' 'cipit' ' CII' 'aries'] -[' sifatida' ' www' 'actic' ' adipisicing' ' elettron' ' waxaa' ' agus' ' favoritos']
+L4 input=answer: top units u1403(gateB +0.24 dG -0.013, upB -0.33 dU -0.015), u964(gateB +0.37 dG -0.027, upB -0.19 dU -0.003), u548(gateB -1.12 dG +0.015, upB -0.15 dU +0.011), u789(gateB +1.03 dG -0.017, upB -0.73 dU -0.012)
+     u1403 down_B lens +['nhold' ' Rechnung' ' Bronze' 'achtree' ' Former' ' Compar' ' enteral' ' Just'] -['lii' 'galactos' 'orphic' 'iori' 'toolbox' 'IDGE' 'ativas' 'ariamente']
+     u964 down_B lens +[' arxiv' 'Trashed' ' Evernote' ' cavitation' 'hline' ' emission' 'uidos' 'godic'] -['ioneer' 'cept' 'ociation' 'posit' 'luck' ' favourably' ' encouraging' 'asion']
+L4 input=is: top units u114(gateB +2.42 dG +0.013, upB -0.12 dU -0.012), u1231(gateB -0.35 dG -0.015, upB +0.90 dU +0.007), u981(gateB +0.29 dG +0.008, upB +0.31 dU +0.010), u679(gateB +2.62 dG -0.015, upB -0.08 dU -0.004)
+L4 input=isTag: top units u967(gateB +0.09 dG -0.001, upB +0.01 dU +0.002), u964(gateB -0.03 dG -0.002, upB +0.00 dU -0.001), u965(gateB +0.06 dG -0.003, upB +0.10 dU +0.001), u247(gateB +0.01 dG -0.001, upB -0.05 dU -0.001)
+     u967 down_B lens +['.",[' ' deton' ' correlated' 'ocyanate' ' (...)' ' kilometers' ' inciner' ' XNUMX'] -['1' '0' ' prizn' ' admite' ' bantu' ' anum' '8' 'Whilst']
+     u964 down_B lens +[' arxiv' 'Trashed' ' Evernote' ' cavitation' 'hline' ' emission' 'uidos' 'godic'] -['ioneer' 'cept' 'ociation' 'posit' 'luck' ' favourably' ' encouraging' 'asion']
+
+```

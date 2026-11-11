@@ -1,0 +1,19 @@
+OUTPUT of run 46 of at most 60:
+```
+L7 u186: gate: tail=28.9% gain= +1.02e-3 cos(d,w)=+0.12 | up_p: tail=37.3% gain= +5.83e-3 cos(d,w)=+0.22 | down: tail= 6.6% gain= +9.05e-3 cos(d,w)=+0.25
+L7 u256: gate: tail=18.9% gain= -1.31e-3 cos(d,w)=-0.18 | up_p: tail=42.2% gain= +1.70e-3 cos(d,w)=+0.06 | down: tail= 4.8% gain= -7.33e-3 cos(d,w)=-0.19
+L10 u404: gate: tail=19.5% gain= -1.18e-3 cos(d,w)=-0.14 | up_p: tail=31.4% gain= +0.24e-3 cos(d,w)=+0.01 | down: tail= 4.2% gain= -2.81e-3 cos(d,w)=-0.10
+L11 u15: gate: tail=30.3% gain= -2.02e-3 cos(d,w)=-0.11 | up_p: tail= 6.4% gain= -0.25e-3 cos(d,w)=-0.03 | down: tail= 4.5% gain= -2.30e-3 cos(d,w)=-0.20
+L11 u1631: gate: tail= 5.5% gain= -0.26e-3 cos(d,w)=-0.04 | up_p: tail=34.5% gain= -0.08e-3 cos(d,w)=-0.00 | down: tail= 1.2% gain= -1.93e-3 cos(d,w)=-0.11
+L11 u892: gate: tail=10.8% gain= -0.40e-3 cos(d,w)=-0.11 | up_p: tail=19.4% gain= -1.02e-3 cos(d,w)=-0.04 | down: tail= 4.8% gain= +2.80e-3 cos(d,w)=+0.09
+L11 u743: gate: tail= 2.2% gain= +0.90e-3 cos(d,w)=+0.10 | up_p: tail=25.9% gain= +0.55e-3 cos(d,w)=+0.04 | down: tail= 3.9% gain= +1.68e-3 cos(d,w)=+0.12
+L8 u706: gate: tail=20.6% gain= -1.59e-3 cos(d,w)=-0.20 | up_p: tail=17.7% gain= -0.34e-3 cos(d,w)=-0.03 | down: tail= 1.2% gain= -4.07e-3 cos(d,w)=-0.16
+L9 u647: gate: tail= 4.4% gain= -0.34e-3 cos(d,w)=-0.02 | up_p: tail=28.7% gain= +0.06e-3 cos(d,w)=+0.00 | down: tail= 0.0% gain= +0.02e-3 cos(d,w)=+0.00
+L17 u1617: gate: tail= 1.2% gain= -0.15e-3 cos(d,w)=-0.02 | up_p: tail= 1.1% gain= -0.09e-3 cos(d,w)=-0.02 | down: tail=15.6% gain= +0.03e-3 cos(d,w)=+0.00
+L17 u1141: gate: tail= 4.1% gain= -0.19e-3 cos(d,w)=-0.04 | up_p: tail= 4.2% gain= -0.82e-3 cos(d,w)=-0.07 | down: tail= 7.2% gain= -2.59e-3 cos(d,w)=-0.06
+L16 u1753: gate: tail= 1.7% gain= +0.03e-3 cos(d,w)=+0.01 | up_p: tail= 3.6% gain= +1.02e-3 cos(d,w)=+0.09 | down: tail= 9.7% gain= +1.17e-3 cos(d,w)=+0.04
+L16 u146: gate: tail= 2.3% gain= -0.31e-3 cos(d,w)=-0.07 | up_p: tail=11.4% gain= -0.77e-3 cos(d,w)=-0.05 | down: tail= 2.2% gain= -2.73e-3 cos(d,w)=-0.12
+L17 u1341: gate: tail= 1.6% gain= -0.04e-3 cos(d,w)=-0.01 | up_p: tail= 0.8% gain= -0.70e-3 cos(d,w)=-0.09 | down: tail= 0.0% gain= -5.64e-3 cos(d,w)=-0.21
+L17 u234: gate: tail= 1.2% gain= -0.12e-3 cos(d,w)=-0.05 | up_p: tail= 1.4% gain= -0.09e-3 cos(d,w)=-0.01 | down: tail= 0.8% gain= +5.77e-3 cos(d,w)=+0.27
+
+```

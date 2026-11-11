@@ -8,9 +8,9 @@ with **Claude Opus 5.5** (`claude-opus-5-5`) in place of GPT-6 Astra.
 **The write-up:** [`docs/index.html`](docs/index.html). GitHub Pages serves it from `docs/` (see
 [Publishing the page](#publishing-the-page)).
 
-> **Status: interim snapshot (updated 9 November 2026, 15:40 IST).** Experiments 1, 2, 4 and 5 have their primary runs
-> scored, and their replicates are still running (29 of 94 runs done). Experiments 3, 6 and 7 are in progress, and
-> Experiment 8's Opus runs have not started. Runs in progress are included as they stood at the snapshot.
+> **Status: interim snapshot (updated 11 November 2026, 11:00 IST).** Experiments 3, 6 and 7 are complete. Experiments 1, 2, 4 and 5
+> have their primary runs scored and most replicates in (68 of 94 runs done). Experiment 8's three Opus runs are in
+> progress. Runs in progress are included as they stood at the snapshot.
 
 For each experiment you get:
 
@@ -29,7 +29,7 @@ For each experiment you get:
 | [`exp5_write_from_scratch/`](exp5_write_from_scratch) | 5: write MinAtar networks from scratch | Breakout, Seaquest, Asterix; `xhigh` and `max` | none |
 | [`exp6_go_from_scratch/`](exp6_go_from_scratch) | 6: write a 1.5M-weight Go network | 0, 10, 25 and 50 passes | Python sandbox + passes |
 | [`exp7_sycophancy/`](exp7_sycophancy) | 7: which Gemma fine-tune is sycophantic? | weights-only rounds 1-4 and the attention tool, 3 pairs each | Python sandbox |
-| [`exp8_math/`](exp8_math) | 8: make Qwen3.5-0.8B better at math | not started | Python kernel + passes |
+| [`exp8_math/`](exp8_math) | 8: make Qwen3.5-0.8B better at math | 10, 25 and 50 passes (in progress) | Python kernel + passes |
 | [`results/`](results) | Phase 0 checks against Astra's artifacts, deviations, comparison tables, the plan | | |
 | [`harness/`](harness) | the code that ran everything | | |
 | [`docs/`](docs) | the write-up (GitHub Pages) | | |
@@ -51,7 +51,7 @@ Each conversation also runs in its own empty folder with a minimal environment
 ([`harness/wsp/cc.py`](harness/wsp/cc.py)).
 
 **No tools of its own.** `--tools ""` gives the model no tools. Every turn's event stream is audited, and the result
-is the `audit.tool_free` field of the turn's `run.json`. All 699 turns completed by the snapshot are tool-free.
+is the `audit.tool_free` field of the turn's `run.json`. All 1,985 turns completed by the snapshot are tool-free.
 
 **Where code was allowed** (Experiments 3, 6, 7, 8):
 - The model wrote one fenced block per turn.

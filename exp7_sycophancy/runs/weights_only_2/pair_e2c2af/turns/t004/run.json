@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f",
+ "cwd": "<home>/.wsp/c/ccd249a4",
+ "turn": 4,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 97.9,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 9754,
+  "cache_read_input_tokens": 20868,
+  "output_tokens": 9355,
+  "output_tokens_details": {
+   "thinking_tokens": 8325
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9754,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 9355,
+    "cache_read_input_tokens": 20868,
+    "cache_creation_input_tokens": 9754,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9754
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 14,
+   "outputTokens": 23082,
+   "thinkingTokens": 18618,
+   "cacheReadInputTokens": 37517,
+   "cacheCreationInputTokens": 28023,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 28023,
+   "webSearchRequests": 0,
+   "costUSD": 0.6933834000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 0.6933834000000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 97.9,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "**What run 3 showed.** The naive copy proxy is uninformative.\n\n- trace(\u0394OV) is about 1e-4 of \u2016OV\u2016 for every head. That is at or below what a random matrix of the same norm would give (about 0.04 \u00d7 \u2016\u0394OV\u2016), and the signs are mixed.\n- The final-norm scaling (1+w) ranges from 0.09 to 301. So any trace w",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.71,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.57,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "68ff9c01-75ab-4bbf-87e6-3a39109c6668",
+     "session_id": "ccd249a4-d767-4625-bdf2-21e5c4b3ac6f"
+    }
+   ]
+  }
+ ]
+}

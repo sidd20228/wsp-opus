@@ -1,0 +1,8 @@
+OUTPUT of Python run 61 of at most 120:
+```
+Counter({(True, False): 3812, (False, False): 2691, (True, True): 89, (False, True): 2})
+inf percentiles for own-territory fills [0.75 1.75 2.5  3.   3.5 ]
+region sizes [(1, 27), (2, 15), (3, 21), (4, 8), (5, 9), (6, 2), (7, 1), (8, 1), (9, 3), (10, 4)]
+per game own-terr fills 0.7109375
+
+```

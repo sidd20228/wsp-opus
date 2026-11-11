@@ -1,0 +1,12 @@
+OUTPUT of run 45 of at most 60:
+```
+L10: copy-cos of top-8 dV components (mean over heads) [-0.054  0.015  0.024  0.032 -0.009  0.024 -0.025 -0.01 ]  z [-2.6  0.8  1.2  1.6 -0.4  1.2 -1.1 -0.4]  weighted-sum z -0.04
+L11: copy-cos of top-8 dV components (mean over heads) [ 0.006 -0.014  0.026 -0.009  0.012 -0.009  0.014  0.014]  z [ 0.3 -1.1  1.9 -0.8  0.8 -0.8  0.9  1. ]  weighted-sum z +0.24
+L12: copy-cos of top-8 dV components (mean over heads) [ 0.025  0.056  0.016  0.006  0.029  0.01  -0.02   0.011]  z [ 1.3  2.8  0.8  0.3  1.4  0.5 -1.   0.6]  weighted-sum z +0.96
+L13: copy-cos of top-8 dV components (mean over heads) [ 0.021  0.029  0.027 -0.003  0.004 -0.012 -0.031  0.021]  z [ 1.4  2.   1.8 -0.2  0.3 -0.8 -2.   1.4]  weighted-sum z +0.66
+L14: copy-cos of top-8 dV components (mean over heads) [-0.006 -0.009  0.062  0.008 -0.001  0.019 -0.021 -0.021]  z [-0.4 -0.5  4.1  0.6 -0.   1.3 -1.4 -1.3]  weighted-sum z +0.29
+L15: copy-cos of top-8 dV components (mean over heads) [ 0.     0.017 -0.011 -0.003  0.019 -0.005 -0.016 -0.025]  z [-0.   0.9 -0.7 -0.2  1.1 -0.3 -1.  -1.5]  weighted-sum z -0.12
+L16: copy-cos of top-8 dV components (mean over heads) [ 0.058 -0.017 -0.058 -0.018  0.016  0.01   0.004  0.027]  z [ 3.2 -0.8 -3.  -0.9  0.9  0.6  0.3  1.5]  weighted-sum z +0.42
+L17: copy-cos of top-8 dV components (mean over heads) [ 0.036 -0.005  0.016  0.019  0.004  0.013  0.022 -0.018]  z [ 2.1 -0.3  1.   1.1  0.2  0.8  1.3 -1.1]  weighted-sum z +0.73
+
+```

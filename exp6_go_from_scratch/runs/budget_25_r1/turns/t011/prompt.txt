@@ -1,0 +1,54 @@
+OUTPUT of Python run 8 of at most 120:
+```
+game 62 net black ply 95 board before net move {'ply': 96, 'by': 'net', 'move': 53, 'top5': [[53, 1.0], [6, 0.0], [17, 0.0], [7, 0.0], [8, 0.0]]}
+XX.X.X...
+X.X.XOOX.
+.XXXOOOOX
+X.X.XOXOO
+XX.X.XXOO
+X.X.XXXO.
+XX.XXXXOX
+.XX.XX.X.
+XXXX.XX.X
+game 123 net white ply 80 board before net move {'ply': 81, 'by': 'net', 'move': 36, 'top5': [[36, 1.0], [4, 0.0], [72, 0.0], [81, 0.0], [54, 0.0]]}
+.O.O.XO.O
+O.O.OO.O.
+XOOOO.O.O
+XXOOOO.O.
+.XOXOXOOO
+OXXXXXO.O
+.OXXXOOO.
+OOXOXXO.O
+.X.OXXOO.
+game 51 net black ply 87 board before net move {'ply': 88, 'by': 'net', 'move': 75, 'top5': [[75, 0.9912], [81, 0.0086], [53, 0.0002], [62, 0.0001], [73, 0.0]]}
+X.XXXXXX.
+XXX.X.XXX
+.X.X.XXOX
+X.X.X.XOO
+.X.X.XXOO
+XOX.XXXO.
+XOOXXOXO.
+.XOOOOOOO
+X.X.OO.O.
+game 92 net white ply 78 board before net move {'ply': 79, 'by': 'net', 'move': 36, 'top5': [[36, 0.9933], [81, 0.0067], [48, 0.0], [8, 0.0], [18, 0.0]]}
+.O.O.O.O.
+O.OOO.OOO
+.OO.OOOXX
+OXXO.OXXO
+.XOOO.OXO
+XXO.OOOXO
+.XXOOXOXO
+X.XXXXXX.
+.XX.X.X.X
+game 55 net black ply 93 board before net move {'ply': 94, 'by': 'net', 'move': 54, 'top5': [[64, 0.8229], [54, 0.143], [72, 0.0319], [7, 0.0012], [81, 0.001]]}
+XXX.XXX..
+X.XXX.XXO
+XXX.XXXO.
+X.XX.XOOO
+.X.XXOOOO
+XOX.XXOO.
+.OOXXXXOX
+O.OOOXOOX
+.XO.OOOOX
+
+```

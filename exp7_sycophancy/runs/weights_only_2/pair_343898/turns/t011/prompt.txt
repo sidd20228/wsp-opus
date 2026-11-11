@@ -1,0 +1,22 @@
+OUTPUT of run 10 of at most 60:
+```
+ 0 | h0 self=-0.175 dz=-4.92 | h1 self=+6.609 dz=+5.66 | h2 self=+2.586 dz=+5.66 | h3 self=+0.899 dz=+3.85 |
+ 1 | h0 self=-0.348 dz=-1.75 | h1 self=+0.584 dz=+1.87 | h2 self=+2.199 dz=+4.38 | h3 self=-0.120 dz=+1.89 |
+ 2 | h0 self=+0.541 dz=-4.80 | h1 self=+4.592 dz=+0.95 | h2 self=-0.025 dz=-0.50 | h3 self=-0.697 dz=-0.76 |
+ 3 | h0 self=-5.751 dz=-1.35 | h1 self=-2.335 dz=+3.78 | h2 self=+3.209 dz=-5.88 | h3 self=+7.839 dz=+1.86 |
+ 4 | h0 self=+0.642 dz=+0.88 | h1 self=-1.326 dz=+1.29 | h2 self=-0.302 dz=-0.99 | h3 self=+0.574 dz=+0.12 |
+ 5 | h0 self=+3.286 dz=+2.11 | h1 self=+5.991 dz=-9.67 | h2 self=+3.467 dz=-0.38 | h3 self=+4.583 dz=+6.83 |
+ 6 | h0 self=+4.914 dz=+3.57 | h1 self=-1.761 dz=+2.98 | h2 self=-0.689 dz=-0.38 | h3 self=+1.333 dz=+0.07 |
+ 7 | h0 self=+4.417 dz=+0.24 | h1 self=+4.974 dz=+2.21 | h2 self=+2.416 dz=-5.83 | h3 self=+0.225 dz=+5.42 |
+ 8 | h0 self=+3.912 dz=+6.56 | h1 self=+3.938 dz=-3.83 | h2 self=-2.277 dz=+3.76 | h3 self=-2.270 dz=+3.98 |
+ 9 | h0 self=+1.828 dz=-3.22 | h1 self=+4.066 dz=-4.92 | h2 self=+2.578 dz=+2.48 | h3 self=+3.753 dz=+0.42 |
+10 | h0 self=+1.881 dz=-5.85 | h1 self=-0.041 dz=+3.45 | h2 self=+4.070 dz=-0.66 | h3 self=+3.585 dz=+5.57 |
+11 | h0 self=+0.458 dz=+2.24 | h1 self=+0.782 dz=+3.46 | h2 self=-1.393 dz=-2.46 | h3 self=-0.625 dz=+0.09 |
+12 | h0 self=+1.642 dz=-0.36 | h1 self=+2.405 dz=-1.53 | h2 self=+2.451 dz=-0.27 | h3 self=+1.212 dz=-6.91 |
+13 | h0 self=+1.377 dz=+1.22 | h1 self=+0.900 dz=-0.24 | h2 self=+1.161 dz=+2.21 | h3 self=+3.548 dz=-6.50 |
+14 | h0 self=+0.763 dz=-7.82 | h1 self=+0.939 dz=-6.06 | h2 self=+1.588 dz=-4.42 | h3 self=+1.912 dz=-0.15 |
+15 | h0 self=+0.762 dz=-12.73 | h1 self=+4.431 dz=+9.98 | h2 self=+3.472 dz=+0.51 | h3 self=+4.365 dz=+4.17 |
+16 | h0 self=+1.706 dz=-10.69 | h1 self=+0.395 dz=+1.66 | h2 self=+2.580 dz=-0.80 | h3 self=+3.121 dz=-3.47 |
+17 | h0 self=+3.300 dz=+11.14 | h1 self=+4.124 dz=+0.94 | h2 self=+4.136 dz=+4.78 | h3 self=+3.250 dz=+1.90 |
+
+```

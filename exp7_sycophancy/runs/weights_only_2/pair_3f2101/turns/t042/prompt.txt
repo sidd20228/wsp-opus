@@ -1,0 +1,22 @@
+OUTPUT of run 41 of at most 60:
+```
+L 0 MLP down-diff in attention-derived target subspace: z=+3.0  frac=0.134  top units [(1748, 0.25), (1616, 0.24), (78, 0.24), (1056, 0.23), (1026, 0.22), (1845, 0.22)]
+L 1 MLP down-diff in attention-derived target subspace: z=+3.2  frac=0.134  top units [(1322, 0.24), (677, 0.24), (1546, 0.23), (1725, 0.23), (445, 0.23), (1041, 0.23)]
+L 2 MLP down-diff in attention-derived target subspace: z=+5.5  frac=0.141  top units [(887, 0.25), (41, 0.25), (367, 0.25), (1903, 0.24), (888, 0.24), (376, 0.24)]
+L 3 MLP down-diff in attention-derived target subspace: z=+2.6  frac=0.133  top units [(1718, 0.23), (1948, 0.23), (216, 0.22), (1426, 0.22), (1744, 0.22), (608, 0.22)]
+L 4 MLP down-diff in attention-derived target subspace: z=+2.9  frac=0.134  top units [(1188, 0.25), (1947, 0.22), (2034, 0.22), (808, 0.22), (1499, 0.22), (1013, 0.22)]
+L 5 MLP down-diff in attention-derived target subspace: z=+1.2  frac=0.130  top units [(1532, 0.24), (417, 0.23), (1860, 0.22), (415, 0.22), (1761, 0.21), (423, 0.21)]
+L 6 MLP down-diff in attention-derived target subspace: z=+0.7  frac=0.127  top units [(821, 0.24), (1614, 0.24), (27, 0.21), (190, 0.21), (720, 0.21), (922, 0.21)]
+L 7 MLP down-diff in attention-derived target subspace: z=+2.9  frac=0.136  top units [(183, 0.24), (1806, 0.24), (1486, 0.24), (568, 0.23), (428, 0.23), (1269, 0.23)]
+L 8 MLP down-diff in attention-derived target subspace: z=+3.8  frac=0.139  top units [(226, 0.23), (1221, 0.23), (453, 0.22), (1101, 0.22), (397, 0.22), (1026, 0.22)]
+L 9 MLP down-diff in attention-derived target subspace: z=+5.2  frac=0.147  top units [(1349, 0.24), (563, 0.23), (1135, 0.23), (1694, 0.23), (283, 0.23), (37, 0.23)]
+L10 MLP down-diff in attention-derived target subspace: z=+6.7  frac=0.150  top units [(1168, 0.28), (838, 0.27), (613, 0.26), (1681, 0.26), (1474, 0.26), (343, 0.26)]
+L11 MLP down-diff in attention-derived target subspace: z=+21.0  frac=0.197  top units [(1644, 0.36), (1515, 0.35), (222, 0.35), (1636, 0.35), (117, 0.34), (25, 0.33)]
+L12 MLP down-diff in attention-derived target subspace: z=+42.8  frac=0.270  top units [(1488, 0.59), (1149, 0.58), (881, 0.57), (745, 0.56), (551, 0.54), (1668, 0.52)]
+L13 MLP down-diff in attention-derived target subspace: z=+68.9  frac=0.335  top units [(1929, 0.82), (756, 0.8), (298, 0.71), (289, 0.7), (1014, 0.69), (874, 0.66)]
+L14 MLP down-diff in attention-derived target subspace: z=+91.5  frac=0.396  top units [(642, 0.74), (322, 0.74), (364, 0.71), (1261, 0.69), (382, 0.69), (1983, 0.68)]
+L15 MLP down-diff in attention-derived target subspace: z=+99.5  frac=0.475  top units [(180, 0.79), (881, 0.78), (78, 0.77), (805, 0.76), (2031, 0.75), (608, 0.75)]
+L16 MLP down-diff in attention-derived target subspace: z=+82.3  frac=0.474  top units [(1682, 0.86), (1801, 0.85), (888, 0.84), (407, 0.79), (469, 0.75), (979, 0.75)]
+L17 MLP down-diff in attention-derived target subspace: z=+63.0  frac=0.467  top units [(564, 0.75), (1104, 0.72), (234, 0.72), (141, 0.72), (156, 0.71), (1808, 0.7)]
+
+```

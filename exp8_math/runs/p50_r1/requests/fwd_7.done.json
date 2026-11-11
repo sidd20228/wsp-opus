@@ -1,0 +1,21 @@
+{
+ "ok": true,
+ "type": "generate",
+ "model": "edited",
+ "file": "/work/gen_7.jsonl",
+ "generations": 512,
+ "graded": 512,
+ "accuracy": 0.060546875,
+ "accuracy_by_source": {
+  "gsm8k": 0.0647,
+  "math": 0.0585
+ },
+ "mean_tokens": 31157,
+ "cut_share": 0.9238,
+ "failures": {
+  "wrong_answer": 9,
+  "no_answer_finished": 0,
+  "cut_at_max_tokens": 472
+ },
+ "s": 4312.9
+}

@@ -1,0 +1,7 @@
+OUTPUT of Python run 4 of at most 300:
+```
+4364 2909 4482 2987
+161 96
+347
+
+```

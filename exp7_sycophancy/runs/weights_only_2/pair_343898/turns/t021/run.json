@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "179abdb7-161c-424a-a02b-9ff7e4cc5fcd",
+ "cwd": "<home>/.wsp/c/179abdb7",
+ "turn": 21,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "179abdb7-161c-424a-a02b-9ff7e4cc5fcd"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 49.6,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 6109,
+  "cache_read_input_tokens": 132570,
+  "output_tokens": 4631,
+  "output_tokens_details": {
+   "thinking_tokens": 3359
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 6109,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 4631,
+    "cache_read_input_tokens": 132570,
+    "cache_creation_input_tokens": 6109,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6109
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 82,
+   "outputTokens": 88738,
+   "thinkingTokens": 66636,
+   "cacheReadInputTokens": 1481945,
+   "cacheCreationInputTokens": 138679,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 138679,
+   "webSearchRequests": 0,
+   "costUSD": 3.180909,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 3.180909,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 49.6,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 20 identified special residual dimensions:\n- **Dims 163 and 400** (also 608, 632, 120, 639) are classic \"massive\" dimensions. Every block writes them hugely (post-norm weights 20\u201340\u00d7 the median) while the input norms suppress them, the usual attention-sink and scale carrier.\n- **Dims 54, 293, 4,",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794270000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.44,
+        "resetsAt": 1794270000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.54,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "c65a2670-daf8-44f3-98ca-0a396cd3284c",
+     "session_id": "179abdb7-161c-424a-a02b-9ff7e4cc5fcd"
+    }
+   ]
+  }
+ ]
+}

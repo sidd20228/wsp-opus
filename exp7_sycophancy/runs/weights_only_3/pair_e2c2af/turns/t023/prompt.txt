@@ -1,0 +1,17 @@
+OUTPUT of run 22 of at most 60:
+```
+comp0: sigma=243.5 cos(u,w)=+0.60  base u'Mw=+545.6 (base u'Mu=+1770.2, w'Mw=+1148.7); |Mbase| spec norm=6186.1
+comp1: sigma=127.0 cos(u,w)=+0.73  base u'Mw=+2059.1 (base u'Mu=+2173.6, w'Mw=+2299.2); |Mbase| spec norm=6186.1
+comp2: sigma=103.2 cos(u,w)=-0.19  base u'Mw=-222.8 (base u'Mu=+1328.1, w'Mw=+1776.2); |Mbase| spec norm=6186.1
+comp3: sigma=82.7 cos(u,w)=+0.54  base u'Mw=+991.9 (base u'Mu=+1831.2, w'Mw=+2614.7); |Mbase| spec norm=6186.1
+comp4: sigma=77.1 cos(u,w)=+0.56  base u'Mw=+2688.8 (base u'Mu=+2683.4, w'Mw=+3329.2); |Mbase| spec norm=6186.1
+OV(w0): |out|=61029.8, cos(out, fin*w)=+0.51
+OV(w1): |out|=61915.6, cos(out, fin*w)=+0.59
+OV(w2): |out|=59154.5, cos(out, fin*w)=+0.57
+writers of feature directions (reader-weighted r = Din*u):
+ comp0 u: top A-B writers: [('L0mlp', np.float64(0.32), np.float64(0.36)), ('L1attn', np.float64(0.3), np.float64(0.12)), ('L1mlp', np.float64(0.2), np.float64(0.21)), ('L0attn', np.float64(0.2), np.float64(0.29)), ('L2mlp', np.float64(0.17), np.float64(0.15)), ('L2attn', np.float64(0.16), np.float64(0.15))]
+ comp0 w: top A-B writers: [('L0mlp', np.float64(0.34), np.float64(0.35)), ('L1attn', np.float64(0.29), np.float64(0.13)), ('L0attn', np.float64(0.19), np.float64(0.31)), ('L1mlp', np.float64(0.16), np.float64(0.17)), ('L2attn', np.float64(0.16), np.float64(0.15)), ('L3mlp', np.float64(0.12), np.float64(0.13))]
+ comp1 u: top A-B writers: [('L1attn', np.float64(0.33), np.float64(0.13)), ('L0mlp', np.float64(0.3), np.float64(0.38)), ('L1mlp', np.float64(0.23), np.float64(0.25)), ('L2attn', np.float64(0.21), np.float64(0.16)), ('L2mlp', np.float64(0.19), np.float64(0.17)), ('L0attn', np.float64(0.16), np.float64(0.28))]
+ comp1 w: top A-B writers: [('L1attn', np.float64(0.22), np.float64(0.1)), ('L0mlp', np.float64(0.22), np.float64(0.27)), ('L0attn', np.float64(0.15), np.float64(0.24)), ('L1mlp', np.float64(0.15), np.float64(0.16)), ('L2attn', np.float64(0.14), np.float64(0.11)), ('L2mlp', np.float64(0.14), np.float64(0.11))]
+
+```

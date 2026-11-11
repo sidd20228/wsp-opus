@@ -1,0 +1,16 @@
+OUTPUT of run 50 of at most 60:
+```
+L15H0 (spec = set - matched ctrl): ANS_num: -1.5 ANS_col:  2.0 ANS_cont:  0.2 ANS_city:  3.1 SUBJ_country:  0.5 SUBJ_object:  0.5 Q_words: -0.4 CUE_words: -1.3
+L15H1 (spec = set - matched ctrl): ANS_num:  1.2 ANS_col: -0.0 ANS_cont: -2.2 ANS_city:  0.2 SUBJ_country: -0.8 SUBJ_object: -0.0 Q_words: -1.6 CUE_words:  2.2
+L15H2 (spec = set - matched ctrl): ANS_num:  0.2 ANS_col: -0.1 ANS_cont:  2.3 ANS_city:  1.2 SUBJ_country:  1.9 SUBJ_object:  1.2 Q_words:  1.0 CUE_words:  0.3
+L15H3 (spec = set - matched ctrl): ANS_num: -0.9 ANS_col:  0.4 ANS_cont: -1.6 ANS_city:  0.6 SUBJ_country:  0.9 SUBJ_object:  1.5 Q_words:  2.0 CUE_words: -1.4
+L16H0 (spec = set - matched ctrl): ANS_num: -0.0 ANS_col:  0.4 ANS_cont:  2.5 ANS_city: -0.3 SUBJ_country:  0.7 SUBJ_object: -0.4 Q_words:  1.8 CUE_words: -1.3
+L16H1 (spec = set - matched ctrl): ANS_num: -4.8 ANS_col: -1.2 ANS_cont:  0.5 ANS_city: -1.3 SUBJ_country: -0.5 SUBJ_object:  0.0 Q_words: -0.6 CUE_words: -1.7
+L16H2 (spec = set - matched ctrl): ANS_num: -2.1 ANS_col: -0.0 ANS_cont:  0.1 ANS_city: -2.2 SUBJ_country: -0.1 SUBJ_object:  1.5 Q_words:  0.8 CUE_words: -1.6
+L16H3 (spec = set - matched ctrl): ANS_num: -3.4 ANS_col: -1.4 ANS_cont:  0.2 ANS_city:  0.7 SUBJ_country:  2.3 SUBJ_object:  1.1 Q_words:  1.6 CUE_words: -2.1
+L17H0 (spec = set - matched ctrl): ANS_num:  2.3 ANS_col:  1.8 ANS_cont:  0.2 ANS_city:  1.6 SUBJ_country: -1.2 SUBJ_object:  1.1 Q_words:  1.2 CUE_words: -0.5
+L17H1 (spec = set - matched ctrl): ANS_num: -0.7 ANS_col:  0.6 ANS_cont:  0.6 ANS_city: -0.8 SUBJ_country:  1.0 SUBJ_object:  1.7 Q_words:  1.5 CUE_words:  0.3
+L17H2 (spec = set - matched ctrl): ANS_num:  3.2 ANS_col:  1.2 ANS_cont:  0.1 ANS_city: -0.4 SUBJ_country: -0.8 SUBJ_object: -0.3 Q_words: -1.4 CUE_words: -2.5
+L17H3 (spec = set - matched ctrl): ANS_num:  0.2 ANS_col:  0.4 ANS_cont: -1.1 ANS_city:  0.4 SUBJ_country: -0.2 SUBJ_object: -0.8 Q_words: -1.0 CUE_words: -2.1
+
+```

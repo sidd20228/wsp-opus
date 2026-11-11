@@ -1,0 +1,42 @@
+OUTPUT of Python run 120 of at most 300:
+```
+DOUBT -> dict[11] k0=[' Wait', 'Wait', ' But']
+COMMIT -> dict[15] k0=[' So', 'So', ' Therefore']
+NEU -> dict[24] k0=[0, 1, 2]
+NEU2 -> dict[24] k0=[0, 1, 2]
+DW -> Pattern:re.compile('\\b(Wait|wait|But|Hmm|Actual
+Dd5 -> dict[2] k0=[0, 1]
+Dl -> Tensor(1024, 3584)
+Dv -> ndarray(1827, 1024)
+D3 -> DF(512, 10) cols=['id', 'src', 'si', 'ans', 'txt', 'cut', 'correct', 'ntok', 'onset', 'n_hdr']
+D5 -> str:/work/fwd_5/
+REP -> dict[10] k0=[8, 10, 12]
+POS -> list[98] e0=(0, 134, False)
+IDS -> dict[512] k0=[('gsm8k_train_3696', 0), ('gsm8k_train_3696', 1), ('math_tr
+TA -> str:<|im_start|>user
+Monica read 16 books la
+TB -> str:<|im_start|>user
+Find the area of the re
+A16 -> ndarray(2, 1873)
+A22 -> ndarray(2, 1873)
+A23 -> memmap(2, 8, 1873, 1873)
+Aact -> memmap(2, 1873, 3584)
+H24 -> memmap(2, 1873, 1024)
+H23 -> memmap(2, 1873, 1024)
+M -> memmap(2, 1873, 3584)
+WAIT -> set[2] e0=13784
+FAM -> DF(47, 15) cols=['layer', 'neuron', 'corr', 'act_doubt', 'act_other', 'Wait', 'Hmm', 'Actually', 'If', 'Is', 'Maybe', 'Let']
+X -> ndarray(1828, 1024)
+Xa -> ndarray(3701, 3584)
+Xc -> ndarray(3701, 3584)
+R -> DF(96, 9) cols=['text', 'layer', 'head', 'ind_loop', 'dup_loop', 'ind_pre', 'sink', 'prevtok', 'self']
+R2 -> DF(48, 5) cols=['ind_loop', 'dup_loop', 'ind_pre', 'dup_pre', 'ent']
+RR -> DF(64, 5) cols=['layer', 'neuron', 'c0', 'late', 'delta']
+U -> ndarray(98, 1024)
+U2 -> ndarray(98, 1024)
+E -> Tensor(248320, 1024)
+Ef -> Tensor(248320, 1024)
+Et -> Tensor(248320, 1024)
+Ew -> Tensor(248320, 1024)
+
+```

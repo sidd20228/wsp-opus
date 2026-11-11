@@ -1,0 +1,43 @@
+OUTPUT of run 7 of at most 60:
+```
+0 post_attention_layernorm: n=1 A>B 0 A<B 1 sum(rel)=-0.0011 ; post_feedforward_layernorm: n=81 A>B 42 A<B 39 sum(rel)=-0.0003 ; q_norm: n=7 A>B 3 A<B 4 sum(rel)=-0.0002 ; k_norm: n=4 A>B 1 A<B 3 sum(rel)=-0.0001
+1 post_attention_layernorm: n=20 A>B 12 A<B 8 sum(rel)=+0.0011 ; post_feedforward_layernorm: n=36 A>B 20 A<B 16 sum(rel)=+0.0033
+2 post_attention_layernorm: n=47 A>B 23 A<B 24 sum(rel)=+0.0000 ; post_feedforward_layernorm: n=7 A>B 3 A<B 4 sum(rel)=-0.0013 ; q_norm: n=2 A>B 0 A<B 2 sum(rel)=-0.0006 ; k_norm: n=6 A>B 3 A<B 3 sum(rel)=-0.0004
+3 input_layernorm: n=1 A>B 1 A<B 0 sum(rel)=+0.0004 ; post_attention_layernorm: n=17 A>B 8 A<B 9 sum(rel)=-0.0003 ; pre_feedforward_layernorm: n=3 A>B 0 A<B 3 sum(rel)=-0.0011 ; post_feedforward_layernorm: n=12 A>B 7 A<B 5 sum(rel)=+0.0011 ; q_norm: n=8 A>B 6 A<B 2 sum(rel)=+0.0013 ; k_norm: n=12 A>B 8 A<B 4 sum(rel)=+0.0007
+4 input_layernorm: n=9 A>B 5 A<B 4 sum(rel)=+0.0014 ; post_attention_layernorm: n=11 A>B 8 A<B 3 sum(rel)=+0.0014 ; pre_feedforward_layernorm: n=10 A>B 5 A<B 5 sum(rel)=-0.0012 ; post_feedforward_layernorm: n=3 A>B 3 A<B 0 sum(rel)=+0.0015 ; q_norm: n=17 A>B 9 A<B 8 sum(rel)=+0.0010 ; k_norm: n=15 A>B 7 A<B 8 sum(rel)=-0.0005
+5 input_layernorm: n=9 A>B 2 A<B 7 sum(rel)=-0.0029 ; post_attention_layernorm: n=3 A>B 2 A<B 1 sum(rel)=+0.0005 ; pre_feedforward_layernorm: n=13 A>B 7 A<B 6 sum(rel)=+0.0007 ; q_norm: n=2 A>B 0 A<B 2 sum(rel)=-0.0008
+6 input_layernorm: n=5 A>B 3 A<B 2 sum(rel)=-0.0002 ; post_attention_layernorm: n=3 A>B 1 A<B 2 sum(rel)=-0.0011 ; pre_feedforward_layernorm: n=9 A>B 1 A<B 8 sum(rel)=-0.0024 ; q_norm: n=21 A>B 8 A<B 13 sum(rel)=-0.0023 ; k_norm: n=13 A>B 5 A<B 8 sum(rel)=-0.0021
+7 input_layernorm: n=1 A>B 1 A<B 0 sum(rel)=+0.0002 ; pre_feedforward_layernorm: n=14 A>B 9 A<B 5 sum(rel)=+0.0004 ; q_norm: n=15 A>B 4 A<B 11 sum(rel)=-0.0032 ; k_norm: n=8 A>B 5 A<B 3 sum(rel)=+0.0006
+8 input_layernorm: n=4 A>B 2 A<B 2 sum(rel)=+0.0005 ; post_attention_layernorm: n=4 A>B 2 A<B 2 sum(rel)=-0.0010 ; pre_feedforward_layernorm: n=17 A>B 7 A<B 10 sum(rel)=-0.0030 ; post_feedforward_layernorm: n=2 A>B 1 A<B 1 sum(rel)=-0.0000 ; q_norm: n=12 A>B 8 A<B 4 sum(rel)=+0.0012 ; k_norm: n=8 A>B 3 A<B 5 sum(rel)=-0.0003
+9 input_layernorm: n=5 A>B 2 A<B 3 sum(rel)=-0.0001 ; post_attention_layernorm: n=2 A>B 1 A<B 1 sum(rel)=+0.0001 ; pre_feedforward_layernorm: n=25 A>B 12 A<B 13 sum(rel)=+0.0003 ; q_norm: n=22 A>B 9 A<B 13 sum(rel)=-0.0022 ; k_norm: n=7 A>B 3 A<B 4 sum(rel)=-0.0010
+10 post_attention_layernorm: n=3 A>B 2 A<B 1 sum(rel)=-0.0002 ; pre_feedforward_layernorm: n=16 A>B 8 A<B 8 sum(rel)=-0.0001 ; q_norm: n=20 A>B 9 A<B 11 sum(rel)=-0.0012 ; k_norm: n=12 A>B 10 A<B 2 sum(rel)=+0.0050
+11 input_layernorm: n=9 A>B 3 A<B 6 sum(rel)=-0.0016 ; pre_feedforward_layernorm: n=7 A>B 3 A<B 4 sum(rel)=-0.0006 ; q_norm: n=6 A>B 2 A<B 4 sum(rel)=-0.0012 ; k_norm: n=6 A>B 2 A<B 4 sum(rel)=-0.0011
+12 input_layernorm: n=4 A>B 0 A<B 4 sum(rel)=-0.0012 ; pre_feedforward_layernorm: n=18 A>B 13 A<B 5 sum(rel)=+0.0039 ; q_norm: n=10 A>B 5 A<B 5 sum(rel)=-0.0003 ; k_norm: n=2 A>B 1 A<B 1 sum(rel)=+0.0005
+13 input_layernorm: n=28 A>B 18 A<B 10 sum(rel)=+0.0030 ; pre_feedforward_layernorm: n=41 A>B 20 A<B 21 sum(rel)=+0.0017 ; q_norm: n=5 A>B 3 A<B 2 sum(rel)=+0.0004 ; k_norm: n=4 A>B 1 A<B 3 sum(rel)=-0.0003
+14 input_layernorm: n=19 A>B 8 A<B 11 sum(rel)=+0.0003 ; pre_feedforward_layernorm: n=62 A>B 35 A<B 27 sum(rel)=+0.0039 ; q_norm: n=12 A>B 5 A<B 7 sum(rel)=-0.0011 ; k_norm: n=5 A>B 3 A<B 2 sum(rel)=-0.0001
+15 pre_feedforward_layernorm: n=31 A>B 10 A<B 21 sum(rel)=-0.0020 ; q_norm: n=15 A>B 8 A<B 7 sum(rel)=+0.0015 ; k_norm: n=12 A>B 4 A<B 8 sum(rel)=-0.0007
+16 pre_feedforward_layernorm: n=15 A>B 9 A<B 6 sum(rel)=+0.0024 ; q_norm: n=10 A>B 4 A<B 6 sum(rel)=-0.0005 ; k_norm: n=8 A>B 3 A<B 5 sum(rel)=-0.0009
+17 pre_feedforward_layernorm: n=27 A>B 14 A<B 13 sum(rel)=-0.0002 ; q_norm: n=7 A>B 4 A<B 3 sum(rel)=+0.0004 ; k_norm: n=7 A>B 2 A<B 5 sum(rel)=-0.0015
+final norm diff n 0 0 0
+
+cos(A-B, mean) per tensor (x100)
+0 q_pr +0.16 k_pr +0.01 v_pr +0.31 o_pr +0.12 gate +0.07 up_p -0.12 down +0.02
+1 q_pr +0.21 k_pr +0.32 v_pr +0.40 o_pr +1.50 gate -0.03 up_p +0.03 down -0.05
+2 q_pr +0.03 k_pr -0.07 v_pr -0.04 o_pr +0.07 gate +0.09 up_p +0.06 down -0.11
+3 q_pr -0.18 k_pr +0.36 v_pr +0.22 o_pr +0.00 gate -0.03 up_p -0.12 down +0.05
+4 q_pr -0.16 k_pr -0.48 v_pr -0.30 o_pr -0.21 gate +0.03 up_p +0.08 down +0.09
+5 q_pr -0.17 k_pr +0.29 v_pr -0.11 o_pr -0.27 gate +0.00 up_p -0.06 down -0.04
+6 q_pr +0.23 k_pr -0.15 v_pr -0.20 o_pr -0.01 gate -0.08 up_p -0.07 down -0.14
+7 q_pr +0.03 k_pr -0.42 v_pr -0.28 o_pr -0.07 gate -0.14 up_p -0.01 down -0.05
+8 q_pr +0.09 k_pr -0.15 v_pr +0.18 o_pr +0.00 gate +0.05 up_p -0.09 down -0.12
+9 q_pr -0.05 k_pr -0.40 v_pr -0.32 o_pr +0.38 gate -0.01 up_p +0.04 down -0.04
+10 q_pr +0.08 k_pr +0.37 v_pr -0.09 o_pr +0.17 gate +0.04 up_p +0.01 down -0.17
+11 q_pr +0.01 k_pr -0.37 v_pr -0.44 o_pr +0.03 gate -0.10 up_p +0.08 down -0.12
+12 q_pr -0.28 k_pr +0.66 v_pr +0.21 o_pr +0.10 gate +0.01 up_p -0.06 down +0.01
+13 q_pr +0.06 k_pr +0.16 v_pr -0.22 o_pr -0.01 gate -0.10 up_p +0.09 down +0.02
+14 q_pr -0.38 k_pr +0.09 v_pr +0.21 o_pr +0.05 gate -0.02 up_p +0.00 down +0.06
+15 q_pr -0.01 k_pr -0.30 v_pr +0.20 o_pr +0.05 gate -0.09 up_p +0.06 down -0.04
+16 q_pr -0.11 k_pr +0.23 v_pr +0.16 o_pr -0.15 gate +0.19 up_p +0.21 down +0.11
+17 q_pr +0.45 k_pr +0.10 v_pr -0.22 o_pr +0.25 gate +0.07 up_p -0.11 down -0.04
+
+```

@@ -1,0 +1,9 @@
+OUTPUT of Python run 68 of at most 300:
+```
+E3 cut 324: verbatim loops 233 onset median 10534 IQR 6954-15820 | period median 5 | Wait-line share 0.53
+cut answers ending in whitespace runs: 0
+most common loop-line openings: [('* Wait,', 51), ('Wait, maybe', 32), ('Wait, if', 29), ('* Maybe', 11), ('* If', 6), ('* Then', 4), ("Okay, I'll", 3), ('* Okay,', 3), ('Okay, I', 2), ('Maybe the', 2)]
+answer found before loop (E3 cut): 96 / 324
+no-answer finished: ['math_train_prealgebra_710'] ['her and multiply the bottom numbers (denominators) together. /  / $$ \\text{Top: } 2 \\times 1 = 2 $$ / $$ \\text{Bottom: } 5 \\times 3 = 15 $$ /  / So, the result is: / $$ \\frac{2}{15} $$ /  / **Answer:** / $\\frac{2}{15}$']
+
+```

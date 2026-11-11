@@ -1,0 +1,11 @@
+OUTPUT of Python run 92 of at most 300:
+```
+{'early': 48, 'mid': 340, 'late': 76, 'fin': 48}
+hidden_16: proj mean early 1.42 mid 0.64 late 0.19 fin 0.08 | d'(early-late) 2.08
+hidden_20: proj mean early 3.07 mid 1.73 late 0.88 fin 0.73 | d'(early-late) 2.11
+hidden_22: proj mean early 3.11 mid 1.62 late 0.69 fin 0.61 | d'(early-late) 2.13
+hidden_23: proj mean early 2.81 mid 1.36 late 0.44 fin 0.44 | d'(early-late) 2.15
+text 0 pre-loop drift: corr(proj, position) = -0.13, proj first/last 200: 0.83 0.53 | late-loop mean 3.71
+text 1 pre-loop drift: corr(proj, position) = 0.38, proj first/last 200: -0.47 0.31 | late-loop mean 3.43
+
+```

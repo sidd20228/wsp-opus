@@ -1,0 +1,7 @@
+OUTPUT of run 54 of at most 60:
+```
+recall 0.3: guess-head z +21.9, knowledge-head z +6.9 | attn syc G[1. 0. 0. 0.] K[1. 0. 0. 0.] | attn corr G[1. 0. 0. 0.] K[0.51 0.49 0.   0.  ]
+recall 0.7: guess-head z +3.4, knowledge-head z +2.3 | attn syc G[1. 0. 0. 0.] K[1. 0. 0. 0.] | attn corr G[0. 1. 0. 0.] K[0. 1. 0. 0.]
+recall 1.0: guess-head z -1.7, knowledge-head z -2.7 | attn syc G[1. 0. 0. 0.] K[1. 0. 0. 0.] | attn corr G[0. 1. 0. 0.] K[0. 1. 0. 0.]
+
+```

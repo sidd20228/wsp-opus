@@ -1,0 +1,34 @@
+OUTPUT of Python run 74 of at most 300:
+```
+[precalculus_549 per=1 onset=13599]
+  PRE: Wait, I'm looping. | Let's assume the question is correct and I am missing someth | Let's check if $b$ and $c$ are related by $b=c$.
+  UNIT: Wait, if $b=c$, then $S = \frac{1}{2} \sqrt{3a^
+[number_theory_265 per=2 onset=15124]
+  PRE: *   So $3^{1999} \not\equiv 3^7$. | *   Wait, $3^{1999} \equiv 3^7$ is correct. | *   $3^{1999} \equiv 3^7$.
+  UNIT: *   Yes. | *   Is there any possibility that $3^{199
+[geometry_867 per=10 onset=13721]
+  PRE: So $R = R\sqrt{2}$. | This implies $1 = \sqrt{2}$, which is false. | So my assumption that the smaller square shares a side with 
+  UNIT: Contradiction. | So the smaller square cannot share a side with the larger square. | But the problem says "has one side coinciding with a side of the large | So this must be true.
+[counting_and_probability_541 per=1 onset=3955]
+  PRE: *   Let's assume the question is asking for the max number o | *   This seems circular. | *   Let's try a different interpretation.
+  UNIT: *
+[prealgebra_1077 per=2 onset=6065]
+  PRE: *   So $|B| = 6$ is impossible. | *   Is it possible that "share nine of the same albums" mean | *   Is it possible that "Six albums are in John's collection
+  UNIT: *   Is it possible that "Six albums are in John's collection" means $| | *   Is it possible that "
+[_3429 per=4 onset=5379]
+  PRE: But the phrase "three times as much as on a weekday" implies | Why would she multiply by 3? | Because the multiplier is 3.
+  UNIT: But if the multiplier is 3, then she practices 30 mins $\times$ 3. | This implies she practices 30 mins $\times$ 3. | But what about the weekdays? | If she practices
+[algebra_1341 per=25 onset=5485]
+  PRE: This implies there are 6 numbers. | But the vertices are formed by the intersection of these fac | If there are 6 numbers, then we have 6 faces.
+  UNIT: This implies there are 6 numbers. | This is a contradiction. | Let's try to interpret the problem as follows: | There are 6 faces.
+[counting_and_probability_245 per=3 onset=5093]
+  PRE: *   So $p$ is the variable. | *   So $p$ can be 0, 1, ..., 25. | *   Wait, if $p$ is the number of pennies, then $p$ is the v
+  UNIT: *   So $p$ is the variable. | *   So $p$ can be 0, 1, ..., 25. | *   But $p$ is the
+[_5011 per=12 onset=7136]
+  PRE: Then the price is \$30. | Then the total is \$150. | Okay, I will stick with \$150.
+  UNIT: Then the total is \$150. | I think the answer is \$150. | However, I should also consider if "regular rate" refers to the price  | If the price is \$40.
+[_5462 per=2 onset=2378]
+  PRE: *   If they skate in opposite directions, it means their mov | *   Let's assume they are moving in opposite directions alon | *   If they are moving in opposite directions, one is moving
+  UNIT: *   Wait, if they are moving in opposite directions along the line con | *   If they are moving in opposite directions along the line connectin
+
+```

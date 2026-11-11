@@ -1,0 +1,10 @@
+OUTPUT of run 31 of at most 60:
+```
+L12 | h0 QKself(normed) d=+0.209% copyShare A-B=-0.000 (base -1.5) | h1 QKself(normed) d=-0.313% copyShare A-B=-0.001 (base +1.7) | h2 QKself(normed) d=-0.193% copyShare A-B=-0.001 (base +3.1) | h3 QKself(normed) d=-0.416% copyShare A-B=+0.000 (base +2.8)
+L13 | h0 QKself(normed) d=-0.127% copyShare A-B=-0.000 (base +1.3) | h1 QKself(normed) d=-0.139% copyShare A-B=-0.000 (base +1.6) | h2 QKself(normed) d=+0.143% copyShare A-B=+0.000 (base +2.9) | h3 QKself(normed) d=-0.037% copyShare A-B=-0.000 (base -0.8)
+L14 | h0 QKself(normed) d=+0.143% copyShare A-B=-0.000 (base -0.5) | h1 QKself(normed) d=+0.662% copyShare A-B=-0.000 (base +3.8) | h2 QKself(normed) d=+0.142% copyShare A-B=-0.000 (base +1.9) | h3 QKself(normed) d=+0.027% copyShare A-B=-0.001 (base +0.6)
+L15 | h0 QKself(normed) d=-0.029% copyShare A-B=-0.001 (base +5.0) | h1 QKself(normed) d=+0.099% copyShare A-B=+0.000 (base -5.8) | h2 QKself(normed) d=+0.007% copyShare A-B=-0.001 (base +2.7) | h3 QKself(normed) d=-0.026% copyShare A-B=-0.001 (base +5.0)
+L16 | h0 QKself(normed) d=-0.139% copyShare A-B=+0.001 (base +0.4) | h1 QKself(normed) d=-0.214% copyShare A-B=+0.000 (base +2.0) | h2 QKself(normed) d=-0.080% copyShare A-B=+0.001 (base +3.1) | h3 QKself(normed) d=+0.025% copyShare A-B=+0.000 (base +0.7)
+L17 | h0 QKself(normed) d=-0.017% copyShare A-B=+0.000 (base +2.9) | h1 QKself(normed) d=+0.497% copyShare A-B=+0.001 (base +6.8) | h2 QKself(normed) d=-0.017% copyShare A-B=-0.000 (base -1.5) | h3 QKself(normed) d=+0.056% copyShare A-B=+0.001 (base -0.7)
+
+```

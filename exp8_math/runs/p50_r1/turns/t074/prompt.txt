@@ -1,0 +1,11 @@
+OUTPUT of Python run 63 of at most 300:
+```
+double-newline positions in A: [250, 374, 696]
+t=250 ctx=... *   Okay, I will stick to 69. |  | 
+     next='   ' | top8: '   ':0.94, 'Let':0.02, '*':0.01, '2':0.01, 'Wait':0.00, '**':0.00, '1':0.00, '3':0.00
+t=374 ctx=...   Okay, I will solve based on the English text. |  | 
+     next='   ' | top8: '   ':1.00, '*':0.00, '**':0.00, '1':0.00, '2':0.00, 'Let':0.00, #285:0.00, ' *':0.00
+t=696 ctx=... *   Okay, I will proceed with 69. |  | 
+     next='   ' | top8: '   ':1.00, '*':0.00, 'Let':0.00, 'Wait':0.00, '**':0.00, '2':0.00, #285:0.00, '  ':0.00
+
+```

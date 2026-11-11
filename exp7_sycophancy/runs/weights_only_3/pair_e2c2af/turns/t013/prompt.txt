@@ -1,0 +1,10 @@
+OUTPUT of run 12 of at most 60:
+```
+L12 | h0 base_relTr= -39.1 dO-term=-0.4 dV-term=-0.0 |dO|/|dV|=1.65 | h1 base_relTr= +41.8 dO-term=-0.6 dV-term=-0.2 |dO|/|dV|=1.10 | h2 base_relTr= +77.8 dO-term=+0.3 dV-term=-0.7 |dO|/|dV|=1.54 | h3 base_relTr= +70.8 dO-term=-0.2 dV-term=+0.6 |dO|/|dV|=1.79
+L13 | h0 base_relTr= +31.8 dO-term=-0.7 dV-term=+0.4 |dO|/|dV|=1.48 | h1 base_relTr= +41.1 dO-term=-0.4 dV-term=+0.2 |dO|/|dV|=2.07 | h2 base_relTr= +74.1 dO-term=-0.2 dV-term=-0.2 |dO|/|dV|=2.21 | h3 base_relTr= -19.7 dO-term=-0.6 dV-term=-0.3 |dO|/|dV|=1.10
+L14 | h0 base_relTr= -11.7 dO-term=-0.2 dV-term=-0.0 |dO|/|dV|=1.32 | h1 base_relTr= +96.6 dO-term=-0.8 dV-term=+0.1 |dO|/|dV|=1.13 | h2 base_relTr= +47.8 dO-term=-0.7 dV-term=-0.4 |dO|/|dV|=1.03 | h3 base_relTr= +14.8 dO-term=-1.4 dV-term=-0.2 |dO|/|dV|=1.26
+L15 | h0 base_relTr=+127.6 dO-term=+0.9 dV-term=+2.5 |dO|/|dV|=1.42 | h1 base_relTr=-146.6 dO-term=-0.6 dV-term=-1.6 |dO|/|dV|=0.81 | h2 base_relTr= +67.8 dO-term=-0.4 dV-term=+0.7 |dO|/|dV|=1.15 | h3 base_relTr=+127.7 dO-term=+0.6 dV-term=+1.9 |dO|/|dV|=1.26
+L16 | h0 base_relTr= +10.9 dO-term=+1.1 dV-term=+0.9 |dO|/|dV|=1.68 | h1 base_relTr= +50.3 dO-term=+0.2 dV-term=-0.3 |dO|/|dV|=1.78 | h2 base_relTr= +77.4 dO-term=+0.5 dV-term=+0.0 |dO|/|dV|=1.57 | h3 base_relTr= +16.8 dO-term=+0.2 dV-term=+0.2 |dO|/|dV|=1.90
+L17 | h0 base_relTr= +72.4 dO-term=+1.4 dV-term=-0.4 |dO|/|dV|=1.12 | h1 base_relTr=+171.6 dO-term=+2.2 dV-term=+0.6 |dO|/|dV|=1.50 | h2 base_relTr= -38.6 dO-term=+0.8 dV-term=-0.6 |dO|/|dV|=1.51 | h3 base_relTr= -17.9 dO-term=+2.6 dV-term=+0.1 |dO|/|dV|=1.82
+
+```

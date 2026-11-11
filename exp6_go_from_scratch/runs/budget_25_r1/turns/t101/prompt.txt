@@ -1,0 +1,7 @@
+OUTPUT of Python run 77 of at most 120:
+```
+identical games 73 of 128
+divergent games: E wins 38 F wins 32 n 55
+first divergence plies [37, 43, 47, 47, 47, 48, 49, 52, 55, 55, 58, 59, 59, 60, 62, 64, 64, 65, 66, 66, 67, 69, 70, 70, 71, 71, 73, 73, 73, 75, 75, 77, 78, 79, 79, 80, 80, 80, 81, 81]
+
+```

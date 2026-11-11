@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "56dafd57-6384-4e5d-b348-e4923395e90f",
+ "cwd": "<home>/.wsp/c/56dafd57",
+ "turn": 8,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "56dafd57-6384-4e5d-b348-e4923395e90f"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 159.5,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 9537,
+  "cache_read_input_tokens": 66171,
+  "output_tokens": 15145,
+  "output_tokens_details": {
+   "thinking_tokens": 13943
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 9537,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 15145,
+    "cache_read_input_tokens": 66171,
+    "cache_creation_input_tokens": 9537,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 9537
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 34,
+   "outputTokens": 58242,
+   "thinkingTokens": 48201,
+   "cacheReadInputTokens": 241873,
+   "cacheCreationInputTokens": 75708,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 75708,
+   "webSearchRequests": 0,
+   "costUSD": 1.8190146,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 1.8190146,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 159.5,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "Run 7 gives no decisive copy signal. The MLP composite traces are noise-level and of mixed sign. The summed attention \u0394OV, with massive dims masked, is positive in 15 of 18 layers (L6 +1.9, L7 +2.9, L8 +1.5, L15 +1.85; combined \u2248 +2.5\u03c3). That is a weak lean toward \"A copies context tokens more\", and",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.59,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.44,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "49d476b8-fd2a-4227-b124-a7e4be72f3fa",
+     "session_id": "56dafd57-6384-4e5d-b348-e4923395e90f"
+    }
+   ]
+  }
+ ]
+}

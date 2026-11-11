@@ -1,0 +1,17 @@
+OUTPUT of run 31 of at most 60:
+```
+L17h1: value gain src/rand  3.57 | OV gain src/rand  3.96 | key gain src/rand  4.87 || massive163 value/rand  0.01 key/rand  0.03 | massive400 value/rand  0.08
+L17h2: value gain src/rand  3.56 | OV gain src/rand  3.57 | key gain src/rand  4.53 || massive163 value/rand  0.01 key/rand  0.03 | massive400 value/rand  0.08
+L17h0: value gain src/rand  3.49 | OV gain src/rand  3.29 | key gain src/rand  4.26 || massive163 value/rand  0.01 key/rand  0.03 | massive400 value/rand  0.08
+L16h2: value gain src/rand  4.13 | OV gain src/rand  4.21 | key gain src/rand  4.79 || massive163 value/rand  0.01 key/rand  0.07 | massive400 value/rand  0.11
+L15h1: value gain src/rand  3.31 | OV gain src/rand  2.90 | key gain src/rand  4.58 || massive163 value/rand  0.01 key/rand  0.06 | massive400 value/rand  0.05
+L15h3: value gain src/rand  3.50 | OV gain src/rand  3.38 | key gain src/rand  5.06 || massive163 value/rand  0.01 key/rand  0.06 | massive400 value/rand  0.05
+L12h1: value gain src/rand  3.33 | OV gain src/rand  3.33 | key gain src/rand  5.18 || massive163 value/rand  0.00 key/rand  0.03 | massive400 value/rand  0.03
+L9h0: value gain src/rand  2.13 | OV gain src/rand  2.54 | key gain src/rand  3.04 || massive163 value/rand  0.01 key/rand  0.04 | massive400 value/rand  0.04
+L8h0: value gain src/rand  2.12 | OV gain src/rand  3.37 | key gain src/rand  3.57 || massive163 value/rand  0.02 key/rand  0.04 | massive400 value/rand  0.04
+L7h1: value gain src/rand  1.89 | OV gain src/rand  3.91 | key gain src/rand  3.40 || massive163 value/rand  0.01 key/rand  0.03 | massive400 value/rand  0.01
+L7h2: value gain src/rand  1.69 | OV gain src/rand  2.76 | key gain src/rand  2.62 || massive163 value/rand  0.02 key/rand  0.04 | massive400 value/rand  0.01
+L10h1: value gain src/rand  2.29 | OV gain src/rand  2.16 | key gain src/rand  4.27 || massive163 value/rand  0.01 key/rand  0.04 | massive400 value/rand  0.03
+L9h1: value gain src/rand  1.92 | OV gain src/rand  1.71 | key gain src/rand  2.84 || massive163 value/rand  0.01 key/rand  0.04 | massive400 value/rand  0.04
+
+```

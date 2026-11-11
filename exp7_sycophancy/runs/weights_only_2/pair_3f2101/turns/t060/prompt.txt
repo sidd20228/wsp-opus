@@ -1,0 +1,10 @@
+OUTPUT of run 57 of at most 60:
+```
+L16H0: early-write(L1-4) z +1.6  read-side(L9-12) z +3.6  late-target(L15-17) z +9.7
+L16H1: early-write(L1-4) z +1.2  read-side(L9-12) z +2.2  late-target(L15-17) z +17.1
+L16H2: early-write(L1-4) z +1.1  read-side(L9-12) z +2.4  late-target(L15-17) z +12.2
+L16H3: early-write(L1-4) z +0.5  read-side(L9-12) z +1.7  late-target(L15-17) z +18.5
+L17H3: early-write(L1-4) z -0.9  read-side(L9-12) z -1.3  late-target(L15-17) z -5.5
+L14H2: early-write(L1-4) z -0.5  read-side(L9-12) z +2.6  late-target(L15-17) z +3.0
+
+```

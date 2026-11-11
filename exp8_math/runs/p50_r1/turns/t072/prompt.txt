@@ -1,0 +1,20 @@
+OUTPUT of Python run 61 of at most 300:
+```
+text A prefix identical to fwd_5: True
+text B prefix identical to fwd_5: True
+text A | P(Wait) pre: orig 0.350 -> abl 0.224 (n=11) | loop: orig 0.971 -> abl 0.957 (n=22)
+        mean dlogp at Wait pos: pre -0.64 loop -0.02 | non-Wait tokens dlogp: pre 0.000 loop -0.000
+        t=134 (pre) abl alts: #38622:0.26, ' Let':0.23, ' **':0.09, ' I':0.09, ' This':0.06
+        t=254 (pre) abl alts: #11748:0.34, 'Step':0.18, '  ':0.11, #81639:0.06, 'Wait':0.05
+        t=350 (pre) abl alts: ' The':0.20, #31874:0.17, ' "':0.17, ' Wait':0.08, ' Actually':0.07
+        t=958 (loop) abl alts: ' Wait':0.74, ' Okay':0.15, ' Let':0.05, ' Is':0.03, ' I':0.02
+        t=1000 (loop) abl alts: ' Wait':0.81, ' Okay':0.14, ' Let':0.02, ' I':0.01, ' Is':0.00
+text B | P(Wait) pre: orig 0.615 -> abl 0.479 (n=23) | loop: orig 0.987 -> abl 0.975 (n=36)
+        mean dlogp at Wait pos: pre -0.35 loop -0.01 | non-Wait tokens dlogp: pre 0.001 loop -0.000
+        t=71 (pre) abl alts: #8160:0.86, 'The':0.12, 'Let':0.02, 'In':0.00, #248069:0.00
+        t=93 (pre) abl alts: 'Let':0.31, '$\\':0.28, 'The':0.17, 'If':0.03, '$':0.03
+        t=196 (pre) abl alts: 'Wait':0.33, 'But':0.12, '$\\':0.08, 'The':0.08, 'So':0.07
+        t=925 (loop) abl alts: 'Wait':0.87, 'Let':0.04, 'So':0.03, 'Okay':0.02, 'No':0.01
+        t=946 (loop) abl alts: 'Wait':0.87, 'Let':0.05, 'So':0.04, 'Okay':0.02, 'Now':0.00
+
+```

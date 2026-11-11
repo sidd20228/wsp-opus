@@ -1,0 +1,12 @@
+OUTPUT of run 25 of at most 60:
+```
+null net: mean 0.0000 sd 0.0153
+digits     net=-0.0121 z= -0.79   late(L13-17) net=-0.0251  | top heads: L15h1:-0.063, L17h1:+0.041, L11h1:-0.033, L15h3:-0.031, L12h3:+0.030
+capitals   net=-0.0102 z= -0.66   late(L13-17) net=+0.0013  | top heads: L11h3:-0.025, L11h2:+0.012, L17h0:+0.006, L14h1:-0.005, L11h1:+0.005
+guesscity  net=-0.0004 z= -0.03   late(L13-17) net=-0.0094  | top heads: L15h0:-0.008, L11h1:+0.007, L17h0:+0.006, L11h3:-0.005, L11h2:+0.005
+countries  net=-0.0145 z= -0.95   late(L13-17) net=-0.0164  | top heads: L15h0:-0.018, L14h2:-0.010, L14h1:+0.008, L11h1:+0.007, L17h0:+0.007
+colors     net=-0.0481 z= -3.14   late(L13-17) net=-0.0274  | top heads: L15h1:-0.028, L15h3:-0.027, L12h2:-0.019, L11h3:-0.017, L14h2:-0.017
+operators  net=+0.0194 z= +1.27   late(L13-17) net=+0.0031  | top heads: L11h3:+0.026, L17h1:+0.026, L15h1:-0.016, L15h3:-0.016, L10h0:-0.015
+markers    net=-0.0303 z= -1.98   late(L13-17) net=-0.0038  | top heads: L15h1:-0.045, L17h1:+0.044, L15h3:-0.023, L11h2:-0.019, L12h2:-0.013
+
+```

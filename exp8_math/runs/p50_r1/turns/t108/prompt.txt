@@ -1,0 +1,13 @@
+OUTPUT of Python run 95 of at most 300:
+```
+The evaluation prompt, exactly as the model sees it (thinking on), for a problem P:
+PREFIX + P + SUFFIX, with
+PREFIX = '<|im_start|>user\n'
+SUFFIX = '\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>assistant\n<think>\n'
+The model's answer follows SUFFIX directly. To score a text with a teacher-forced pass, send PREFIX + P + SUFFIX + answer as one raw text in "texts" ("chats" re-renders assistant turns and drops their reasoning).
+
+fin text assistant part starts: "<|im_start|>assistant\n<think>\nHere's a thinking process that leads to the soluti"
+gen sample text starts: "Here's a thinking process that leads to the solution:\n\n1.  **Analyze the Request" | ends: '9$$\nSo, Monica will read **69** books next year.\n\n\\boxed{69}'
+prompt_text example: '<|im_start|>user\nPROBLEM\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>assistant\n<think>\n'
+
+```

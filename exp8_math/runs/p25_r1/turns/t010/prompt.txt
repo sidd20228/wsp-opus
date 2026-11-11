@@ -1,0 +1,15 @@
+OUTPUT of Python run 7 of at most 300:
+```
+{'text': 12840, 'pred': '13', 'correct': 'True', 'tokens': '5326', 'cut': 'False'}
+                                    id   src  j  ...  has_end_think  nboxed       L
+0               math_train_algebra_514  math  0  ...           True       2   12840
+1               math_train_algebra_514  math  1  ...           True       1    3767
+2  math_train_intermediate_algebra_847  math  0  ...          False       0   44081
+3  math_train_intermediate_algebra_847  math  1  ...          False       0   48063
+4              math_train_algebra_1212  math  0  ...          False       0  100801
+
+[5 rows x 9 columns]
+has_end_think    0.107422
+dtype: float64 0.296875
+
+```

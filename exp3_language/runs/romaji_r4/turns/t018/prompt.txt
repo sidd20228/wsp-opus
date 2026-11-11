@@ -1,0 +1,24 @@
+OUTPUT of run 17 of at most 100:
+```
+L3H4 Vtop1 (sv 21.3): M2 x6.7 A24 x2.1 A20 x2.1 A05 x2.1
+L3H4 Vtop2 (sv 17.7): M2 x6.7 A00 x1.9 M1 x1.6 A05 x1.6
+L3H4 Vtop3 (sv 17.0): M2 x4.6 A03 x1.8 A20 x1.5 E x1.4
+L3H4 whole V: M2 x4.2 M1 x1.3 A20 x1.1 A00 x1.1 E x1.0 A22 x1.0
+L3H3 Vtop1 (sv 10.8): E x2.0 A03 x0.8 A01 x0.5 A12 x0.5
+L3H3 Vtop2 (sv 10.0): E x1.8 M0 x1.0 A13 x0.7 A22 x0.7
+L3H3 Vtop3 (sv 9.8): E x2.0 M0 x1.0 A11 x0.8 A12 x0.7
+L3H3 whole V: E x1.5 M0 x1.1 A03 x1.0 A00 x0.8 M2 x0.8 M1 x0.8
+L3H0 Vtop1 (sv 5.8): M2 x7.2 A05 x2.5 A20 x2.3 A24 x1.5
+L3H0 Vtop2 (sv 5.7): A05 x3.8 M2 x2.4 A20 x2.3 M0 x1.9
+L3H0 Vtop3 (sv 5.1): M2 x6.2 A20 x4.0 A22 x3.0 A21 x2.1
+L3H0 whole V: M2 x2.6 A20 x1.5 M1 x1.2 M0 x1.2 A22 x1.2 A21 x1.2
+L2H4 Vtop1 (sv 3.5): M1 x4.3 A13 x1.9 M0 x1.8 A14 x1.2
+L2H4 Vtop2 (sv 3.4): A03 x4.2 M1 x3.6 M0 x2.4 A12 x1.4
+L2H4 Vtop3 (sv 3.2): M1 x2.2 A13 x2.1 A01 x2.0 A03 x1.8
+L2H4 whole V: M1 x1.8 A03 x1.8 M0 x1.5 E x1.3 A11 x1.2 A12 x1.1
+L1H0 Vtop1 (sv 3.2): A03 x5.4 M0 x4.5 E x2.9 A02 x1.8
+L1H0 Vtop2 (sv 3.0): A03 x10.1 M0 x4.6 E x3.3 A01 x1.2
+L1H0 Vtop3 (sv 2.9): A03 x5.7 M0 x4.7 E x3.8 A02 x0.7
+L1H0 whole V: A03 x5.1 M0 x3.5 E x3.0 A00 x0.8 A05 x0.7 A01 x0.6
+
+```

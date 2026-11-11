@@ -1,0 +1,141 @@
+{
+ "model": "claude-opus-5-5",
+ "effort": "xhigh",
+ "session_id": "37d86fef-6f8f-46e6-b6b5-c29afd419209",
+ "cwd": "<home>/.wsp/c/37d86fef",
+ "turn": 38,
+ "cli_version": "2.1.318 (Claude Code)",
+ "command": [
+  "/opt/homebrew/bin/claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "xhigh",
+  "--tools",
+  "",
+  "--system-prompt",
+  "Answer the user's request.",
+  "--safe-mode",
+  "--setting-sources",
+  "",
+  "--strict-mcp-config",
+  "--mcp-config",
+  "{\"mcpServers\":{}}",
+  "--disable-slash-commands",
+  "--no-chrome",
+  "--autocompact",
+  "1000000",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--resume",
+  "37d86fef-6f8f-46e6-b6b5-c29afd419209"
+ ],
+ "ok": true,
+ "stop_reason": "end_turn",
+ "wall_s": 15.1,
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 7280,
+  "cache_read_input_tokens": 188921,
+  "output_tokens": 1162,
+  "output_tokens_details": {
+   "thinking_tokens": 916
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 7280,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 1162,
+    "cache_read_input_tokens": 188921,
+    "cache_creation_input_tokens": 7280,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 7280
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "model_usage": {
+  "claude-opus-5-5": {
+   "inputTokens": 150,
+   "outputTokens": 138314,
+   "thinkingTokens": 121457,
+   "cacheReadInputTokens": 3427341,
+   "cacheCreationInputTokens": 298813,
+   "cacheCreationEphemeral5mInputTokens": 0,
+   "cacheCreationEphemeral1hInputTokens": 298813,
+   "webSearchRequests": 0,
+   "costUSD": 5.842852200000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost_usd_list_equivalent": 5.842852200000001,
+ "num_turns": 1,
+ "audit": {
+  "tool_free": true,
+  "init_tools": [],
+  "init_model": "claude-opus-5-5",
+  "assistant_blocks": [
+   "thinking",
+   "text"
+  ],
+  "compacted": false
+ },
+ "attempts": [
+  {
+   "attempt": 1,
+   "exit": 0,
+   "wall_s": 15.1,
+   "subtype": "success",
+   "is_error": false,
+   "stop_reason": "end_turn",
+   "result_head": "```python\nimport numpy as np\nfor l in range(4):\n    fc=np.linalg.norm(W[f'W_fc.{l}'],axis=1); pj=np.linalg.norm(W[f'W_proj.{l}'],axis=0)\n    print(l,'fc row norm q',np.quantile(fc,[0,.05,.1,.25,.5,.75,1]).round(2),' proj col norm q',np.quantile(pj,[0,.05,.1,.25,.5,.75,1]).round(2))\n    print('   #ne",
+   "stderr_tail": "",
+   "rate_limit_events": [
+    {
+     "type": "rate_limit_event",
+     "rate_limit_info": {
+      "status": "allowed",
+      "resetsAt": 1794252000,
+      "rateLimitType": "five_hour",
+      "overageStatus": "rejected",
+      "overageDisabledReason": "org_level_disabled",
+      "isUsingOverage": false,
+      "unifiedWindows": {
+       "five_hour": {
+        "utilization": 0.27,
+        "resetsAt": 1794252000,
+        "status": "allowed"
+       },
+       "seven_day": {
+        "utilization": 0.4,
+        "resetsAt": 1794380400,
+        "status": "allowed"
+       }
+      }
+     },
+     "uuid": "1efb01ca-d098-4a14-b927-c670fff49d1f",
+     "session_id": "37d86fef-6f8f-46e6-b6b5-c29afd419209"
+    }
+   ]
+  }
+ ]
+}

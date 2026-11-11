@@ -1,0 +1,5 @@
+Both texts are 2,048 tokens and end inside a loop (re-tokenization is within 3 tokens). Pasting ~16k characters of transcript into a forward block is error-prone, and dense measurements later will need hundreds of texts. So first I'll check whether the teacher-forced tool accepts a file of texts. A failed request costs nothing, and its error message should list the accepted fields. The intended measurement is the same either way: per-head attention patterns at the 6 full-attention layers on two looping transcripts, plus per-layer hidden states, MLP activations, and top-k predictions, to find which components predict the next loop token.
+
+```forward
+{"type": "teacher_forced", "model": "original", "texts_file": "/work/attn_texts.json", "return": {"token_logprobs": true, "topk": 20, "hidden_states": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24], "mlp_act": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23], "attn_layers": [3,7,11,15,19,23]}}
+```

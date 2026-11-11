@@ -1,0 +1,7 @@
+OUTPUT of Python run 122 of at most 300:
+```
+prefix identical: [True, True]
+n positions in prefix: 55  POS[0..2]: [(0, 134, False), (0, 254, False), (0, 350, False)]
+mean mass  orig: wait 0.691 reopen 0.087 commit 0.085 | x2?: wait 0.049 reopen 0.246 commit 0.438
+
+```

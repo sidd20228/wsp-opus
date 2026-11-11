@@ -1,0 +1,6 @@
+OUTPUT of Python run 51 of at most 300:
+```
+control (shuffled refs): {'n': 451, 'stated': 51, 'before': 47}  rate before loop 0.10
+real: rate before loop 0.48
+
+```

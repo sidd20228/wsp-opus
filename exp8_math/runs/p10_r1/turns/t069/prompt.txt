@@ -1,0 +1,8 @@
+OUTPUT of Python run 61 of at most 300:
+```
+Wait tokens: gate z [2.5, 2.6, 1.8, -0.1] up z [-1.2, -2.0, -2.3, -1.5]
+tokens most driving negative act (gate*up most negative): [(50821, 'Actually', 6.0, -4.1), (32645, ' Actually', 7.2, -2.7), (3404, ' actually', 5.9, -3.3), (84485, ' hmm', 6.5, -2.6), (70546, 'actually', 4.4, -3.7), (128346, '#128346', 4.9, -2.6), (101876, '#101876', 5.3, -2.0), (112738, '#112738', 4.4, -2.5), (80987, ' eigentlich', 4.4, -2.5), (23785, ' Od', -3.3, 4.5), (33076, ' hey', 3.5, -3.4), (155267, '#155267', 4.3, -2.3), (77264, 'Hmm', 5.5, -1.5), (57761, 'ijkl', 2.6, -4.6), (103095, '#103095', 4.4, -2.0)]
+rank of Wait tokens in gate*up negativity: [1270, 252, 1195, 200344]
+pass1: corr(mean act n998, Wait rate in first 8k) -0.17 | mean act cut -0.364 finished -0.209
+
+```

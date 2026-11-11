@@ -1,0 +1,26 @@
+OUTPUT of run 38 of at most 60:
+```
+heads ranked by attention-logit change along top dQK component (nats, for unit-normalized residual dirs):
+  L1h3: c0: d=0.52 base=+14.59  c1: d=0.27 base=+0.25  c2: d=0.24 base=+7.28
+  L1h0: c0: d=0.38 base=-8.56  c1: d=0.18 base=+0.54  c2: d=0.15 base=+6.95
+  L1h1: c0: d=0.30 base=+13.07  c1: d=0.28 base=+10.24  c2: d=0.23 base=-1.40
+  L5h3: c0: d=0.16 base=-8.79  c1: d=0.11 base=-1.07  c2: d=0.08 base=+1.13
+  L5h0: c0: d=0.14 base=-0.64  c1: d=0.11 base=-1.25  c2: d=0.09 base=+1.20
+  L1h2: c0: d=0.14 base=+3.52  c1: d=0.04 base=+2.02  c2: d=0.08 base=+0.46
+  L5h2: c0: d=0.13 base=-3.63  c1: d=0.09 base=-1.67  c2: d=0.11 base=+4.36
+  L5h1: c0: d=0.13 base=+0.96  c1: d=0.13 base=+0.61  c2: d=0.11 base=-0.96
+  L2h0: c0: d=0.12 base=+0.63  c1: d=0.12 base=-1.50  c2: d=0.09 base=+1.67
+  L0h2: c0: d=0.10 base=+10.07  c1: d=0.05 base=+12.47  c2: d=0.03 base=-7.28
+  L2h1: c0: d=0.10 base=-3.21  c1: d=0.12 base=-2.80  c2: d=0.09 base=-8.59
+  L11h1: c0: d=0.09 base=-2.62  c1: d=0.08 base=+3.94  c2: d=0.06 base=-1.00
+  L11h0: c0: d=0.09 base=+1.07  c1: d=0.11 base=-0.85  c2: d=0.06 base=+0.19
+  L17h1: c0: d=0.09 base=+3.54  c1: d=0.04 base=+0.43  c2: d=0.04 base=+5.96
+  L2h2: c0: d=0.09 base=+2.78  c1: d=0.07 base=+0.04  c2: d=0.10 base=+3.50
+  L3h2: c0: d=0.09 base=+1.93  c1: d=0.06 base=+2.82  c2: d=0.05 base=+0.06
+  L2h3: c0: d=0.08 base=+1.18  c1: d=0.09 base=+1.29  c2: d=0.05 base=-1.59
+  L9h0: c0: d=0.08 base=-3.73  c1: d=0.08 base=-1.38  c2: d=0.05 base=+0.84
+  L10h3: c0: d=0.08 base=+3.15  c1: d=0.05 base=+5.08  c2: d=0.04 base=-3.69
+  L3h1: c0: d=0.07 base=-0.18  c1: d=0.06 base=+0.60  c2: d=0.05 base=+0.71
+median top d: 0.055089492
+
+```

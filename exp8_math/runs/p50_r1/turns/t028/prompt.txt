@@ -1,0 +1,8 @@
+OUTPUT of Python run 22 of at most 300:
+```
+1873 nonascii: 0 json len 6283 loop starts ~tok 923
+'<|im_start|>user\nMonica read 16 books last year. This year, she read twice the number of books she read last year. Next ' ... 'e than twice the number of books she read this year" = $2 \\times 5 + 16$? No.\n    *   Wait, I\'m checking if the prompt meant "5 more than twice the number of books she read this year" = $2 \\times 5 + '
+1871 nonascii: 0 json len 5037 loop starts ~tok 921
+'<|im_start|>user\nFind the area of the region bounded by the graph of $r = \\sec \\theta,$ the graph of $r = \\csc \\theta,$ ' ... '\\csc \\theta$ is decreasing on $(0, \\pi/2)$.\nWait, $\\csc \\theta$ is increasing on $(\\pi/2, \\pi)$.\nWait, $\\csc \\theta$ is decreasing on $(0, \\pi/2)$.\nWait, $\\csc \\theta$ is increasing on $(\\pi/2, \\pi)$.'
+
+```
